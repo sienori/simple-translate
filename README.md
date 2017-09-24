@@ -1,2 +1,2 @@
 # simple-translate
-*testest
+シンプルな翻訳を表示するFirefox向けアドオン

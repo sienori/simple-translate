@@ -1,0 +1,78 @@
+#simple-translate-button {
+    background-color: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    border-radius: 3px;
+    background-image: url("icons/16.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 22px;
+    width: 22px;
+    position: fixed;
+    z-index: 151;
+    left: 0px;
+    top: 0px;
+    display: none;
+    cursor: pointer;
+    animation-duration: 200ms;
+    animation-name: showButton;
+}
+
+#simple-translate-panel {
+    background-color: #fff;
+    font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+    text-align: left;
+    font-size: 13px;
+    /*opacity: 0;*/
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    border-radius: 3px;
+    min-height: 20px;
+    max-height: 200px;
+    line-height: 150%;
+    height: auto;
+    min-width: 10px;
+    max-width: 300px;
+    width:300px;/*消すかも*/
+    position: fixed;
+    padding: 10px 18px;
+    z-index: 150;
+    left: 0px;
+    top: 0px;
+    display: none;
+    overflow-y: auto;
+    /*
+    transition-property: height, width, opacity;
+    transition-timing-function: ease-out;
+    transition-duration: 400ms;*/
+}
+
+#simple-translate-panel p {
+    display: inline-block;
+    margin: 0;
+    transition-duration: 200ms;
+    animation-name: fadein;
+}
+
+@keyframes showButton {
+    0% {
+        transform: scale3d(1, 1, 1);
+    }
+    50% {
+        transform: scale3d(1.1, 1.1, 1.1);
+    }
+    100% {
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#simple-translate-panel p::-moz-selection {
+    background: #ebebeb;
+}

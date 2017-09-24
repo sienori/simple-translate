@@ -8,7 +8,7 @@
     height: 22px;
     width: 22px;
     position: fixed;
-    z-index: 151;
+    z-index: 10002;
     left: 0px;
     top: 0px;
     display: none;
@@ -34,7 +34,7 @@
     width:300px;/*消すかも*/
     position: fixed;
     padding: 10px 18px;
-    z-index: 150;
+    z-index: 10001;
     left: 0px;
     top: 0px;
     display: none;

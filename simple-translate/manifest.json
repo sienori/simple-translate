@@ -6,11 +6,10 @@
     "name": "__MSG_extName__",
     "description": "__MSG_extDescription__",
     "default_locale": "en",
-
     
     "applications": {
         "gecko": {
-            "id": "addon@example.com",
+            "id": "https://github.com/sienori/simple-translate",
             "update_url": "https://example.com/updates.json"
         }
     },

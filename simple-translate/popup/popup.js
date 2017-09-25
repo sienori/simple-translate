@@ -24,8 +24,7 @@ function getTargetLang() {
 function changeLang() {
     targetLang = langList.value;
     if (sourceWord !== "") {
-        removeResult();
-        splitLine();
+        translate();
     }
     if (url !== "") showLink();
 }

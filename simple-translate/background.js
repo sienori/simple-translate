@@ -14,7 +14,7 @@ function getSetting() {
     });
 }
 
-//設定の初期化 動く？
+//設定の初期化
 function initialSetting() {
     switch (browser.i18n.getUILanguage()) { //一部の言語はブラウザの設定に合わせる
         case "ja":
@@ -40,20 +40,20 @@ function initialSetting() {
 //メニューを表示
 function menuCreate() {
     browser.contextMenus.create({
+        id: "translatePage",
+        title: browser.i18n.getMessage("translatePageMenu"),
+        contexts: ["all"],
+    });
+    
+    browser.contextMenus.create({
         id: "translateText",
-        title: "選択したテキストを翻訳",
+        title: browser.i18n.getMessage("translateTextMenu"),
         contexts: ["selection"],
     });
 
     browser.contextMenus.create({
-        id: "translatePage",
-        title: "ページ全体を翻訳",
-        contexts: ["all"],
-    });
-
-    browser.contextMenus.create({
         id: "translateLink",
-        title: "選択したリンクを翻訳",
+        title: browser.i18n.getMessage("translateLinkMenu"),
         contexts: ["link"],
     });
 }
@@ -67,11 +67,11 @@ function menuRemove() {
 //メニュークリック時
 browser.contextMenus.onClicked.addListener(function (info, tab) {
     switch (info.menuItemId) {
-        case "translateText":
-            translateTextMenu(info, tab);
-            break;
         case "translatePage":
             translatePageMenu(info, tab);
+            break;
+        case "translateText":
+            translateTextMenu(info, tab);
             break;
         case "translateLink":
             translateLinkMenu(info, tab);

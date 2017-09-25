@@ -3,7 +3,7 @@
         "message": "Simple Translate"
     },
     "extDescription": {
-        "message": "シンプルな翻訳を表示するツールです。"
+        "message": "シンプルな翻訳を表示するアドオンです。"
     },
     "initialTextArea":{
         "message": "テキストを入力"
@@ -25,5 +25,14 @@
     },
     "ifShowMenuLabel":{
         "message": "コンテキストメニューを表示する"
+    },
+    "translatePageMenu":{
+        "message": "ページ全体を翻訳"
+    },
+    "translateTextMenu":{
+        "message": "選択したテキストを翻訳"
+    },
+    "translateLinkMenu":{
+        "message": "選択したリンクを翻訳"
     }
 }

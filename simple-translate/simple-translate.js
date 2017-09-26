@@ -28,13 +28,7 @@ function Select(e) {
     setTimeout(function () { //誤動作防止の為ディレイを設ける
         selectionWord = String(window.getSelection());
         if ((selectionWord.length !== 0) && (e.button == 0) && (e.target.id !== "simple-translate-panel") && (e.target.parentElement.id !== "simple-translate-panel")) { //選択範囲が存在かつ左クリックかつパネル以外のとき
-            if (ifCheckLang) {
-                checkLang().then(function (results) {
-                    if (results) popupButton(e);
-                });
-            } else {
                 popupButton(e);
-            }
         }
     }, 200);
 }
@@ -57,7 +51,13 @@ function popupButton(e) {
     button.style.left = e.clientX + 10 + 'px';
     button.style.top = e.clientY + 5 + 'px';
     if (ifShowButton) {
-        button.style.display = 'block';
+        if (ifCheckLang) {
+                checkLang().then(function (results) {
+                        if (results) button.style.display = 'block';
+                });
+        } else {
+                button.style.display = 'block';
+        }
     }
 }
 

@@ -1,4 +1,5 @@
 #simple-translate-button {
+    all: initial;
     background-color: #fff;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
     border-radius: 3px;
@@ -14,14 +15,12 @@
     display: none;
     cursor: pointer;
     animation-duration: 200ms;
-    animation-name: showButton;
+    animation-name: simple-translate-showButton;
 }
 
 #simple-translate-panel {
+    all: initial;
     background-color: #fff;
-    font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
-    text-align: left;
-    font-size: 13px;
     /*opacity: 0;*/
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
     border-radius: 3px;
@@ -39,20 +38,25 @@
     top: 0px;
     display: none;
     overflow-y: auto;
-    /*
-    transition-property: height, width, opacity;
-    transition-timing-function: ease-out;
-    transition-duration: 400ms;*/
 }
 
 #simple-translate-panel p {
+    all: initial;
+    font-size: 13px;
+    font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+    text-align: left;
     display: inline-block;
     margin: 0;
+    word-wrap: break-word;
     transition-duration: 200ms;
-    animation-name: fadein;
+    animation-name: simple-translate-fadein;
 }
 
-@keyframes showButton {
+#simple-translate-panel p::-moz-selection {
+    background: #ebebeb;
+}
+
+@keyframes simple-translate-showButton {
     0% {
         transform: scale3d(1, 1, 1);
     }
@@ -64,15 +68,11 @@
     }
 }
 
-@keyframes fadein {
+@keyframes simple-translate-fadein {
     from {
         opacity: 0;
     }
     to {
         opacity: 1;
     }
-}
-
-#simple-translate-panel p::-moz-selection {
-    background: #ebebeb;
 }

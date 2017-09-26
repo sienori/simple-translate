@@ -9,10 +9,10 @@ var targetLang;
 var ifShowButton;
 var ifCheckLang;
 
-//設定を読み出し
+
 getSetting();
 browser.storage.onChanged.addListener(getSetting);
-
+//設定を読み出し
 function getSetting() {
     browser.storage.sync.get(["targetLang", "ifShowButton", "ifCheckLang"], function (value) {
         targetLang = value.targetLang;
@@ -22,13 +22,18 @@ function getSetting() {
 }
 
 window.addEventListener("mouseup", Select, false);
-//テキスト選択時の処理
+//テキスト選択時の処理 ダブルクリックした時2回処理が走るのを何とかしたい
 function Select(e) {
     hidePanel(e);
     setTimeout(function () { //誤動作防止の為ディレイを設ける
         selectionWord = String(window.getSelection());
         if ((selectionWord.length !== 0) && (e.button == 0) && (e.target.id !== "simple-translate-panel") && (e.target.parentElement.id !== "simple-translate-panel")) { //選択範囲が存在かつ左クリックかつパネル以外のとき
-                popupButton(e);
+            clickPosition=e;
+            if (ifShowButton) {//ボタンを表示
+                checkLang().then(function (results) {
+                    if (results) popupButton(e);
+                });
+            }
         }
     }, 200);
 }
@@ -36,31 +41,27 @@ function Select(e) {
 //選択テキストの言語をチェックして返す
 function checkLang() {
     return new Promise(function (resolve, reject) {
-        getRequest(selectionWord.substr(0, 100)) //先頭100文字を抽出
-            .then(function (results) {
-                let lang = results.response[2];
-                let percentage = results.response[6];
-                //console.log(lang, percentage, lang!=targetLang && percentage>0);
-                resolve(lang != targetLang && percentage > 0); //真偽値を返す
-            });
+        if(ifCheckLang){ //設定がオンなら
+            getRequest(selectionWord.substr(0, 100)) //先頭100文字を抽出して言語を取得
+                .then(function (results) {
+                    let lang = results.response[2];
+                    let percentage = results.response[6];
+                    resolve(lang != targetLang && percentage > 0); //真偽値を返す
+                });
+        }else { //設定がオフならtrueを返す
+            resolve(true);
+        }
     })
 }
 
 //ボタンを表示
 function popupButton(e) {
-    button.style.left = e.clientX + 10 + 'px';
-    button.style.top = e.clientY + 5 + 'px';
     if (ifShowButton) {
-        if (ifCheckLang) {
-                checkLang().then(function (results) {
-                        if (results) button.style.display = 'block';
-                });
-        } else {
-                button.style.display = 'block';
-        }
+        button.style.left = e.clientX + 10 + 'px';
+        button.style.top = e.clientY + 5 + 'px';
+        button.style.display = 'block';
     }
 }
-
 button.addEventListener("click", function (e) {
     translate();
     showPanel(e);
@@ -173,8 +174,5 @@ function sendToPopup() {
 function showPanelFromMenu() {
     button.style.display = "none";
     translate();
-    let event = new Object();
-    event.clientX = parseInt(button.style.left);
-    event.clientY = parseInt(button.style.top);
-    showPanel(event);
+    showPanel(clickPosition);
 }

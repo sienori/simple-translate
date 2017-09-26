@@ -76,11 +76,10 @@ function resize() {
     }, 0);
 }
 
-//テキストエリアクリック時の処理
 textarea.addEventListener("click", textAreaClick, {
     once: true
 });
-
+//テキストエリアクリック時の処理
 function textAreaClick() {
     if (textarea.value == initialText) {
         textarea.value = "";
@@ -89,7 +88,10 @@ function textAreaClick() {
     }
 }
 
-textarea.addEventListener("keyup", inputText);
+textarea.addEventListener("keyup", function(event){
+    if(event.keyCode==13) resize();
+    inputText();
+});
 //文字入力時の処理
 function inputText() {
     sourceWord = textarea.value;

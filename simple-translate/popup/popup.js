@@ -7,14 +7,20 @@ langList.innerHTML = browser.i18n.getMessage("langList");
 textarea.innerText = initialText;
 
 let targetLang;
+let secondTargetLang;
+let defaultTargetLang;
+let ifChangeSecondLang;
 let sourceWord = "";
 
 browser.storage.onChanged.addListener(getTargetLang);
 getTargetLang(); //翻訳先言語初期化
 //設定を読み出し
 function getTargetLang() {
-    browser.storage.sync.get("targetLang", function (value) {
+    browser.storage.local.get(["targetLang", "secondTargetLang","ifChangeSecondLang"], function (value) {
+        defaultTargetLang = value.targetLang;
         targetLang = value.targetLang;
+        secondTargetLang = value.secondTargetLang;
+        ifChangeSecondLang=value.ifChangeSecondLang;
         langList.value = targetLang; //リスト初期値をセット
         langList.addEventListener("change", changeLang);
     });
@@ -88,8 +94,8 @@ function textAreaClick() {
     }
 }
 
-textarea.addEventListener("keyup", function(event){
-    if(event.keyCode==13) resize();
+textarea.addEventListener("keyup", function (event) {
+    if (event.keyCode == 13) resize();
     inputText();
 });
 //文字入力時の処理
@@ -129,11 +135,33 @@ function getRequest(word) {
 function showResult(results) {
     target.innerText = "";
     let resultText = "";
+
+    //第二言語に変更
+    if (ifChangeSecondLang) {
+        let lang = results[0].response[2];
+        let percentage = results[0].response[6];
+        if (targetLang == defaultTargetLang && lang == defaultTargetLang && percentage > 0 && !changeLangFlag) changeSecondLang();
+        else if ((lang != defaultTargetLang || percentage == 0) && changeLangFlag) unchangeSecondLang();
+    }
     for (let j = 0; j < results.length; j++) {
         for (let i = 0; i < results[j].response[0].length; i++) {
             resultText += results[j].response[0][i][0];
         }
-        resultText += "\n"; //
+        resultText += "\n";
     }
     target.innerText = resultText;
+}
+
+let changeLangFlag = false;
+
+function changeSecondLang() {
+    changeLangFlag = true;
+    langList.value = secondTargetLang;
+    changeLang();
+}
+
+function unchangeSecondLang() {
+    changeLangFlag = false;
+    langList.value = defaultTargetLang;
+    changeLang();
 }

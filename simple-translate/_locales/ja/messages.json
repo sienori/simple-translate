@@ -26,6 +26,12 @@
     "ifShowMenuLabel":{
         "message": "コンテキストメニューを表示する"
     },
+    "ifChangeSecondLangLabel":{
+        "message": "ツールバー翻訳パネルの入力テキストが翻訳先言語と同じ場合は第二言語に切り替える"
+    },
+    "secondTargetLangLabel":{
+        "message": "第二言語"
+    },
     "translatePageMenu":{
         "message": "ページ全体を翻訳"
     },

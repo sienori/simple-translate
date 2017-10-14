@@ -26,6 +26,12 @@
     "ifShowMenuLabel":{
         "message": "Display context menu"
     },
+    "ifChangeSecondLangLabel":{
+        "message": "Switch to the second language if the input text of the tool bar translation panel is the same as the target language"
+    },
+    "secondTargetLangLabel":{
+        "message": "Second language"
+    },
     "translatePageMenu":{
         "message": "Translate this page"
     },

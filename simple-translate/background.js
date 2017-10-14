@@ -3,7 +3,7 @@ browser.storage.onChanged.addListener(getSetting)
 
 //設定の読み出し
 function getSetting() {
-    browser.storage.sync.get(["targetLang", "ifShowButton", "ifCheckLang", "ifShowMenu"], function (value) {
+    browser.storage.local.get(["targetLang", "ifShowButton", "ifCheckLang", "ifShowMenu"], function (value) {
         if (value.targetLang == undefined) initialSetting(); //初回起動時
         targetLang = value.targetLang;
         ifShowButton = value.ifShowButton;
@@ -27,7 +27,7 @@ function initialSetting() {
             targetLang = "en";
             break;
     }
-    browser.storage.sync.set({
+    browser.storage.local.set({
         'targetLang': targetLang,
         'ifShowButton': true,
         'ifCheckLang': true,

@@ -14,7 +14,7 @@ getSetting();
 browser.storage.onChanged.addListener(getSetting);
 //設定を読み出し
 function getSetting() {
-    browser.storage.sync.get(["targetLang", "ifShowButton", "ifCheckLang"], function (value) {
+    browser.storage.local.get(["targetLang", "ifShowButton", "ifCheckLang"], function (value) {
         targetLang = value.targetLang;
         ifShowButton = value.ifShowButton;
         ifCheckLang = value.ifCheckLang;

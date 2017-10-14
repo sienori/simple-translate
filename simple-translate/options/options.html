@@ -3,25 +3,39 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="options.css">
 </head>
 
 <body>
     <p>
-        <label id=targetLangLabel>翻訳先の言語:</label>
-        <select id="targetLang"></select>
+        <label><span id=targetLangLabel>翻訳先の言語:</span>
+        <select id="targetLang"></select></label>
     </p>
     <p>
-        <input type="checkbox" name="ifShowButton" value="1">
-        <label id=ifShowButtonLabel>テキスト選択時にボタンを表示する</label>
+        <label><input type="checkbox" name="ifShowButton" value="1">
+            <span id=ifShowButtonLabel>テキスト選択時にボタンを表示する</span></label>
     </p>
     <p>
-        <input type="checkbox" name="ifCheckLang" value="1">
-        <label id=ifCheckLangLabel>選択したテキストが翻訳先言語と同じ時はボタンを表示しない</label>
+        <label><input type="checkbox" name="ifCheckLang" value="1">
+            <span id=ifCheckLangLabel>選択したテキストが翻訳先言語と同じ時はボタンを表示しない</span></label>
     </p>
     <p>
-        <input type="checkbox" name="ifShowMenu" value="1">
-        <label id=ifShowMenuLabel>コンテキストメニューを表示する</label>
+        <label><input type="checkbox" name="ifShowMenu" value="1">
+            <span id=ifShowMenuLabel>コンテキストメニューを表示する</span></label>
     </p>
+    
+    <hr>
+    <p>
+        <label><input type="checkbox" name="ifChangeSecondLang" value="1">
+            <span id=ifChangeSecondLangLabel>ツールバー翻訳パネルの入力テキストが翻訳先言語と同じ場合は第2言語に切り替える</span></label>
+    </p>
+    
+    <p>
+        <label><span id=secondTargetLangLabel>第2言語:</span>
+            <select id="secondTargetLang"></select></label>
+    </p>
+    
+    
     <script type="text/javascript" src="options.js"></script>
 </body>
 

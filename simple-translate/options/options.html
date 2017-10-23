@@ -12,21 +12,21 @@
         <select id="targetLang"></select></label>
     </p>
     <p>
-        <label><input type="checkbox" name="ifShowButton" value="1">
+        <label><input type="checkbox" id="ifShowButton" checked=true>
             <span id=ifShowButtonLabel>テキスト選択時にボタンを表示する</span></label>
     </p>
     <p>
-        <label><input type="checkbox" name="ifCheckLang" value="1">
+        <label><input type="checkbox" id=ifCheckLang checked=true>
             <span id=ifCheckLangLabel>選択したテキストが翻訳先言語と同じ時はボタンを表示しない</span></label>
     </p>
     <p>
-        <label><input type="checkbox" name="ifShowMenu" value="1">
+        <label><input type="checkbox" id=ifShowMenu checked=true>
             <span id=ifShowMenuLabel>コンテキストメニューを表示する</span></label>
     </p>
     
     <hr>
     <p>
-        <label><input type="checkbox" name="ifChangeSecondLang" value="1">
+        <label><input type="checkbox" id=ifChangeSecondLang>
             <span id=ifChangeSecondLangLabel>ツールバー翻訳パネルの入力テキストが翻訳先言語と同じ場合は第2言語に切り替える</span></label>
     </p>
     
@@ -35,7 +35,43 @@
             <select id="secondTargetLang"></select></label>
     </p>
     
+    <hr>
+    <p>
+    <span id=panelSizeLabel>翻訳パネルのサイズ</span>
+    <label><span>W</span>
+        <input id=width type=number value=300 min=1 placeholder=300>
+    </label>
+    <label><span>H</span>
+        <input id=height type=number value=200 min=1 placeholder=200>
+    </label>
+    </p>
     
+    <p>
+    <label><span id=buttonSizeLabel>ボタンのサイズ</span>
+        <input id=buttonSize type=number value=22 min=1 placeholder=22>
+    </label>
+    </p>
+    
+    <p>
+    <span id=buttonPositionLabel>ボタンの表示位置</span>
+    <label>
+        <input type=radio name=buttonPosition value=rightUp><span id=rightUpLabel>右上</span>
+    </label>
+    <label>
+        <input type=radio name=buttonPosition value=rightDown checked><span id=rightDownLabel>右下</span>
+    </label>
+    </p>
+    
+    <p>
+    <label><span id=fontSizeLabel>フォントサイズ</span>
+        <input id=fontSize type=number value=13 min=1 placeholder=13>
+    </label>
+    </p>
+    
+    <hr>
+    <input type=button id=save value=save class=saveLabel>
+    
+    <script type="text/javascript" src="../Settings.js"></script>
     <script type="text/javascript" src="options.js"></script>
 </body>
 

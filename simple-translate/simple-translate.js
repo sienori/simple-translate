@@ -1,26 +1,15 @@
-document.body.insertAdjacentHTML("beforeend", "<div id='simple-translate-button'></div><div id='simple-translate-panel'><p>...</p></div><div id='simple-translate-popup'></div>"); //body末尾にボタン配置
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+document.body.insertAdjacentHTML("beforeend", "<div id='simple-translate-button'></div><div id='simple-translate-panel'><p>...</p></div>"); //body末尾にボタン配置
 var button = document.getElementById("simple-translate-button");
 var panel = document.getElementById("simple-translate-panel");
-var popup = document.getElementById("simple-translate-popup");
 var selectionWord;
 var clickPosition;
 
-var targetLang;
-var ifShowButton;
-var ifCheckLang;
-
-
-getSetting();
-browser.storage.onChanged.addListener(getSetting);
-//設定を読み出し
-function getSetting() {
-    browser.storage.local.get(["targetLang", "ifShowButton", "ifCheckLang"], function (value) {
-        targetLang = value.targetLang;
-        ifShowButton = value.ifShowButton;
-        ifCheckLang = value.ifCheckLang;
-    });
-}
-
+let S=new settingsObj();
+S.init();
 window.addEventListener("mouseup", Select, false);
 //テキスト選択時の処理 ダブルクリックした時2回処理が走るのを何とかしたい
 function Select(e) {
@@ -29,7 +18,7 @@ function Select(e) {
         selectionWord = String(window.getSelection());
         if ((selectionWord.length !== 0) && (e.button == 0) && (e.target.id !== "simple-translate-panel") && (e.target.parentElement.id !== "simple-translate-panel")) { //選択範囲が存在かつ左クリックかつパネル以外のとき
             clickPosition=e;
-            if (ifShowButton) {//ボタンを表示
+            if (S.get().ifShowButton) {//ボタンを表示
                 checkLang().then(function (results) {
                     if (results) popupButton(e);
                 });
@@ -41,12 +30,12 @@ function Select(e) {
 //選択テキストの言語をチェックして返す
 function checkLang() {
     return new Promise(function (resolve, reject) {
-        if(ifCheckLang){ //設定がオンなら
+        if(S.get().ifCheckLang){ //設定がオンなら
             getRequest(selectionWord.substr(0, 100)) //先頭100文字を抽出して言語を取得
                 .then(function (results) {
                     let lang = results.response[2];
                     let percentage = results.response[6];
-                    resolve(lang != targetLang && percentage > 0); //真偽値を返す
+                    resolve(lang != S.get().targetLang && percentage > 0); //真偽値を返す
                 });
         }else { //設定がオフならtrueを返す
             resolve(true);
@@ -56,11 +45,17 @@ function checkLang() {
 
 //ボタンを表示
 function popupButton(e) {
-    if (ifShowButton) {
-        button.style.left = e.clientX + 10 + 'px';
-        button.style.top = e.clientY + 5 + 'px';
-        button.style.display = 'block';
-    }
+    let position;
+    let buttonSize=S.get().buttonSize;
+    
+    if(S.get().buttonPosition=="rightUp") position=(-1*buttonSize)-10;
+    else if(S.get().buttonPosition=="rightDown") position=10;
+    
+    button.style.left = e.clientX + 10 + 'px';
+    button.style.top = e.clientY + position + 'px';
+    button.style.width=S.get().buttonSize+"px";
+    button.style.height=S.get().buttonSize+"px";
+    button.style.display = 'block';
 }
 button.addEventListener("click", function (e) {
     translate();
@@ -85,7 +80,7 @@ function getRequest(word) {
     return new Promise(function (resolve, reject) {
         let xhr = new XMLHttpRequest();
         xhr.responseType = 'json';
-        let url = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=" + targetLang + "&dt=t&q=" + encodeURIComponent(word);
+        let url = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=" + S.get().targetLang + "&dt=t&q=" + encodeURIComponent(word);
         xhr.open("GET", url);
         xhr.send();
         xhr.onload = function () {
@@ -129,7 +124,7 @@ function hidePanel(e) {
 //パネルがウィンドウ外にはみ出る時に位置を調整
 function panelPosition(e) {
     var p = new Object();
-    panel.style.width = '300px';
+    panel.style.width = S.get().width+'px';//300px
     var panelHeight = panel.clientHeight;
     var panelWidth = parseInt(window.getComputedStyle(panel.getElementsByTagName("p")[0], null).width);
     //一旦パネルの横幅を300にしてpの横幅を取得
@@ -137,16 +132,20 @@ function panelPosition(e) {
     if (e.clientX + panelWidth > window.innerWidth - 80) {
         p.x = window.innerWidth - panelWidth - 80;
     } else {
-        p.x = e.clientX + 10;
+        p.x = e.clientX;
     }
     if (e.clientY + panelHeight > window.innerHeight - 30) {
         p.y = window.innerHeight - panelHeight - 30;
     } else {
-        p.y = e.clientY + 10;
+        p.y = e.clientY;
     }
     panel.style.width = 'auto'; //panelWidth + 'px';
     panel.style.top = p.y + 'px';
     panel.style.left = p.x + 'px';
+    
+    panel.style.maxWidth=S.get().width+"px";
+    panel.style.maxHeight=S.get().height+"px";
+    panel.getElementsByTagName("p")[0].style.fontSize=S.get().fontSize+"px";
 }
 
 

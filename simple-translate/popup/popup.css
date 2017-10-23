@@ -1,5 +1,5 @@
 body {
-    font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'Meiryo', 'メイリオ', 'Osaka', 'MS PGothic', 'arial', 'helvetica', 'sans-serif';
+    font-family: 'Sugoe UI','Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'Meiryo', 'メイリオ', 'Osaka', 'MS PGothic', 'arial', 'helvetica', 'sans-serif';
     text-align: left;
     font-size: 13px;
     height: auto;
@@ -20,9 +20,8 @@ hr {
 p {}
 
 textarea {
-    font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'Meiryo', 'メイリオ', 'Osaka', 'MS PGothic', 'arial', 'helvetica', 'sans-serif';
+    font: inherit;
     text-align: left;
-    font-size: 13px;
     resize: none;
     overflow: auto;
     max-height: 250px;
@@ -42,6 +41,7 @@ textarea {
 
 #target {
     max-height: 250px;
+    min-height: 20px;
     overflow-y: auto;
     word-wrap: break-word;
 }
@@ -51,9 +51,8 @@ textarea {
 }
 
 #langList {
-    font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'Meiryo', 'メイリオ', 'Osaka', 'MS PGothic', 'arial', 'helvetica', 'sans-serif';
+    font: inherit;
     text-align: left;
-    font-size: 13px;
     float: right;
     margin-bottom: 20px;
     max-width: 140px;

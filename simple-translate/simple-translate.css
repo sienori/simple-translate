@@ -2,8 +2,9 @@
     all: initial;
     background-color: #fff;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
-    border-radius: 3px;
-    background-image: url("icons/16.png");
+    border-radius: 10%;
+    background-image: url("icons/512.png");
+    background-size:75%;
     background-repeat: no-repeat;
     background-position: center;
     height: 22px;
@@ -21,7 +22,6 @@
 #simple-translate-panel {
     all: initial;
     background-color: #fff;
-    /*opacity: 0;*/
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
     border-radius: 3px;
     min-height: 20px;
@@ -30,7 +30,6 @@
     height: auto;
     min-width: 10px;
     max-width: 300px;
-    width:300px;/*消すかも*/
     position: fixed;
     padding: 10px 18px;
     z-index: 2147483646;
@@ -42,14 +41,11 @@
 
 #simple-translate-panel p {
     all: initial;
-    font-size: 13px;
-    font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+    font-family: 'Sugoe UI','Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'Meiryo', 'メイリオ', 'Osaka', 'MS PGothic', 'arial', 'helvetica', 'sans-serif' !important;
     text-align: left;
     display: inline-block;
     margin: 0;
     word-wrap: break-word;
-    transition-duration: 200ms;
-    animation-name: simple-translate-fadein;
 }
 
 #simple-translate-panel p::-moz-selection {

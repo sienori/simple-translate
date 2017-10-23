@@ -1,10 +1,27 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+let S=new settingsObj();
+//設定を読み出し
+S.init().then(function(value){
+    defaultTargetLang = value.targetLang;
+    targetLang = value.targetLang;
+    secondTargetLang = value.secondTargetLang;
+    ifChangeSecondLang=value.ifChangeSecondLang;
+    langList.value = targetLang; //リスト初期値をセット
+    langList.addEventListener("change", changeLang);
+    
+    document.body.style.fontSize=value.fontSize;
+})
+
 let target = document.getElementById("target");
 let langList = document.getElementById("langList");
 let textarea = document.getElementById("textarea");
 
-const initialText = browser.i18n.getMessage("initialTextArea");
 langList.innerHTML = browser.i18n.getMessage("langList");
-textarea.innerText = initialText;
+const initialText = browser.i18n.getMessage("initialTextArea");
+textarea.placeholder= initialText;
 
 let targetLang;
 let secondTargetLang;
@@ -12,19 +29,11 @@ let defaultTargetLang;
 let ifChangeSecondLang;
 let sourceWord = "";
 
-browser.storage.onChanged.addListener(getTargetLang);
-getTargetLang(); //翻訳先言語初期化
-//設定を読み出し
-function getTargetLang() {
-    browser.storage.local.get(["targetLang", "secondTargetLang","ifChangeSecondLang"], function (value) {
-        defaultTargetLang = value.targetLang;
-        targetLang = value.targetLang;
-        secondTargetLang = value.secondTargetLang;
-        ifChangeSecondLang=value.ifChangeSecondLang;
-        langList.value = targetLang; //リスト初期値をセット
-        langList.addEventListener("change", changeLang);
-    });
-}
+/*
+//Firefoxの仕様上popup.htmlでfocusが効かないため使えない
+textarea.focus();
+document.execCommand("paste");
+*/
 
 //翻訳先言語変更時に更新
 function changeLang() {
@@ -73,7 +82,16 @@ function refleshSource() {
     }
 }
 
+textarea.addEventListener("paste", resize)
+
 textarea.addEventListener("keydown", resize);
+
+textarea.addEventListener("keyup", function (event) {
+    //if (event.keyCode == 13) resize();
+    resize();
+    inputText();
+});
+
 //テキストボックスをリサイズ
 function resize() {
     setTimeout(function () {
@@ -87,17 +105,9 @@ textarea.addEventListener("click", textAreaClick, {
 });
 //テキストエリアクリック時の処理
 function textAreaClick() {
-    if (textarea.value == initialText) {
-        textarea.value = "";
-    } else {
-        textarea.select();
-    }
+    textarea.select();
 }
 
-textarea.addEventListener("keyup", function (event) {
-    if (event.keyCode == 13) resize();
-    inputText();
-});
 //文字入力時の処理
 function inputText() {
     sourceWord = textarea.value;

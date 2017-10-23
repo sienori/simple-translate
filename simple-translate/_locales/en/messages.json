@@ -11,7 +11,7 @@
     "showLink":{
         "message": "Translate this page"
     },
-    "LangListLabel":{
+    "targetLangLabel":{
         "message":"Target language"
     },
     "langList":{
@@ -40,5 +40,26 @@
     },
     "translateLinkMenu":{
         "message": "Translate selected link"
+    },
+    "panelSizeLabel":{
+        "message": "Size of translation panel"
+    },
+    "buttonSizeLabel":{
+        "message": "Size of button"
+    },
+    "buttonPositionLabel":{
+        "message": "Display position of button"
+    },
+    "rightUpLabel":{
+        "message": "Upper right"
+    },
+    "rightDownLabel":{
+        "message": "Bottom right"
+    },
+    "fontSizeLabel":{
+        "message": "Font size"
+    },
+    "saveLabel":{
+        "message": "Save"
     }
 }

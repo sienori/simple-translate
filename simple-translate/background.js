@@ -1,20 +1,26 @@
-getSetting();
-browser.storage.onChanged.addListener(getSetting)
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-//設定の読み出し
-function getSetting() {
-    browser.storage.local.get(["targetLang", "ifShowButton", "ifCheckLang", "ifShowMenu"], function (value) {
-        if (value.targetLang == undefined) initialSetting(); //初回起動時
-        targetLang = value.targetLang;
-        ifShowButton = value.ifShowButton;
-        ifCheckLang = value.ifCheckLang;
-        ifShowMenu = value.ifShowMenu;
-        if (ifShowMenu) menuCreate();
-        else menuRemove();
-    });
+//初回起動時にオプションページを表示して設定を初期化
+browser.runtime.onInstalled.addListener(function(){
+    browser.runtime.openOptionsPage();
+});
+
+let S = new settingsObj()
+browser.storage.onChanged.addListener(showMenu);
+
+S.init().then(function(){
+    showMenu();
+});
+function showMenu(){
+    if(S.get().ifShowMenu){
+        menuRemove();
+        menuCreate();
+    }
+    else menuRemove();
 }
 
-//設定の初期化
 function initialSetting() {
     switch (browser.i18n.getUILanguage()) { //一部の言語はブラウザの設定に合わせる
         case "ja":
@@ -22,19 +28,13 @@ function initialSetting() {
         case "zh-TW":
         case "ko":
             targetLang = browser.i18n.getUILanguage();
+            secondTargetLang="en";
             break;
         default:
             targetLang = "en";
+            secondTargetLang="ja";
             break;
-    }
-    browser.storage.local.set({
-        'targetLang': targetLang,
-        'ifShowButton': true,
-        'ifCheckLang': true,
-        'ifShowMenu': true
-    }, function () {
-        getSetting();
-    });
+                                        }
 }
 
 //メニューを表示
@@ -91,7 +91,7 @@ function translateTextMenu(info, tab) {
 //ページ全体を翻訳
 function translatePageMenu(info, tab) {
     browser.tabs.create({
-        'url': "https://translate.google.co.jp/translate?hl=" + targetLang + "&sl=auto&u=" + encodeURIComponent(info.pageUrl),
+        'url': "https://translate.google.co.jp/translate?hl=" + S.get().targetLang + "&sl=auto&u=" + encodeURIComponent(info.pageUrl),
         'active': true,
         'index': tab.index + 1
     });
@@ -100,7 +100,7 @@ function translatePageMenu(info, tab) {
 //リンクを翻訳
 function translateLinkMenu(info, tab) {
     browser.tabs.create({
-        'url': "https://translate.google.co.jp/translate?hl=" + targetLang + "&sl=auto&u=" + encodeURIComponent(info.linkUrl),
+        'url': "https://translate.google.co.jp/translate?hl=" + S.get().targetLang + "&sl=auto&u=" + encodeURIComponent(info.linkUrl),
         'active': true,
         'index': tab.index + 1
     });

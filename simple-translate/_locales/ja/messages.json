@@ -11,7 +11,7 @@
     "showLink":{
         "message": "このページを翻訳"
     },
-    "LangListLabel":{
+    "targetLangLabel":{
         "message":"翻訳先の言語"
     },
     "langList":{
@@ -40,5 +40,26 @@
     },
     "translateLinkMenu":{
         "message": "選択したリンクを翻訳"
+    },
+    "panelSizeLabel":{
+        "message": "翻訳パネルのサイズ"
+    },
+    "buttonSizeLabel":{
+        "message": "ボタンのサイズ"
+    },
+    "buttonPositionLabel":{
+        "message": "ボタンの表示位置"
+    },
+    "rightUpLabel":{
+        "message": "右上"
+    },
+    "rightDownLabel":{
+        "message": "右下"
+    },
+    "fontSizeLabel":{
+        "message": "フォントサイズ"
+    },
+    "saveLabel":{
+        "message": "保存"
     }
 }

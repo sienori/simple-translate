@@ -1,0 +1,63 @@
+body {
+    /*font-family: 'Sugoe UI','Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'Meiryo', 'メイリオ', 'Osaka', 'MS PGothic', 'arial', 'helvetica', 'sans-serif';*/
+    text-align: left;
+    font-size: 13px;
+    height: auto;
+    width: 300px;
+    padding: 5px 20px 0px;
+    overflow: hidden;
+}
+
+#main {
+    margin: 10px 0px;
+}
+
+hr {
+    size: 1;
+    color: #eee;
+}
+
+p {}
+
+textarea {
+    font: inherit;
+    text-align: left;
+    resize: none;
+    overflow: auto;
+    max-height: 250px;
+    height: 30px;
+    width: 277px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#link a {
+    font-style: normal;
+    text-decoration: none;
+    color: #4268da;
+}
+
+#target {
+    max-height: 250px;
+    min-height: 20px;
+    overflow-y: auto;
+    word-wrap: break-word;
+}
+
+#link {
+    margin-top: 3px;
+}
+
+#langList {
+    font: inherit;
+    text-align: left;
+    float: right;
+    margin-bottom: 20px;
+    max-width: 140px;
+}
+
+::-moz-selection {
+    background: #ebebeb;
+}

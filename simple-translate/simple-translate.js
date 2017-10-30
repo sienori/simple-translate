@@ -8,17 +8,23 @@ var panel = document.getElementById("simple-translate-panel");
 var selectionWord;
 var clickPosition;
 
-let S=new settingsObj();
+let S = new settingsObj();
 S.init();
 window.addEventListener("mouseup", Select, false);
 //テキスト選択時の処理 ダブルクリックした時2回処理が走るのを何とかしたい
 function Select(e) {
     hidePanel(e);
     setTimeout(function () { //誤動作防止の為ディレイを設ける
-        selectionWord = String(window.getSelection());
+        //selectionWord = String(window.getSelection());
+        if (e.target.tagName == "INPUT" || e.target.tagName == "TEXTAREA") {
+            selectionWord = e.target.value.substring(e.target.selectionStart, e.target.selectionEnd);
+        } else {
+            selectionWord = String(window.getSelection());
+        }
+
         if ((selectionWord.length !== 0) && (e.button == 0) && (e.target.id !== "simple-translate-panel") && (e.target.parentElement.id !== "simple-translate-panel")) { //選択範囲が存在かつ左クリックかつパネル以外のとき
-            clickPosition=e;
-            if (S.get().ifShowButton) {//ボタンを表示
+            clickPosition = e;
+            if (S.get().ifShowButton) { //ボタンを表示
                 checkLang().then(function (results) {
                     if (results) popupButton(e);
                 });
@@ -30,14 +36,14 @@ function Select(e) {
 //選択テキストの言語をチェックして返す
 function checkLang() {
     return new Promise(function (resolve, reject) {
-        if(S.get().ifCheckLang){ //設定がオンなら
+        if (S.get().ifCheckLang) { //設定がオンなら
             getRequest(selectionWord.substr(0, 100)) //先頭100文字を抽出して言語を取得
                 .then(function (results) {
                     let lang = results.response[2];
                     let percentage = results.response[6];
                     resolve(lang != S.get().targetLang && percentage > 0); //真偽値を返す
                 });
-        }else { //設定がオフならtrueを返す
+        } else { //設定がオフならtrueを返す
             resolve(true);
         }
     })
@@ -46,15 +52,15 @@ function checkLang() {
 //ボタンを表示
 function popupButton(e) {
     let position;
-    let buttonSize=S.get().buttonSize;
-    
-    if(S.get().buttonPosition=="rightUp") position=(-1*buttonSize)-10;
-    else if(S.get().buttonPosition=="rightDown") position=10;
-    
+    let buttonSize = S.get().buttonSize;
+
+    if (S.get().buttonPosition == "rightUp") position = (-1 * buttonSize) - 10;
+    else if (S.get().buttonPosition == "rightDown") position = 10;
+
     button.style.left = e.clientX + 10 + 'px';
     button.style.top = e.clientY + position + 'px';
-    button.style.width=S.get().buttonSize+"px";
-    button.style.height=S.get().buttonSize+"px";
+    button.style.width = S.get().buttonSize + "px";
+    button.style.height = S.get().buttonSize + "px";
     button.style.display = 'block';
 }
 button.addEventListener("click", function (e) {
@@ -124,7 +130,7 @@ function hidePanel(e) {
 //パネルがウィンドウ外にはみ出る時に位置を調整
 function panelPosition(e) {
     var p = new Object();
-    panel.style.width = S.get().width+'px';//300px
+    panel.style.width = S.get().width + 'px'; //300px
     var panelHeight = panel.clientHeight;
     var panelWidth = parseInt(window.getComputedStyle(panel.getElementsByTagName("p")[0], null).width);
     //一旦パネルの横幅を300にしてpの横幅を取得
@@ -142,10 +148,10 @@ function panelPosition(e) {
     panel.style.width = 'auto'; //panelWidth + 'px';
     panel.style.top = p.y + 'px';
     panel.style.left = p.x + 'px';
-    
-    panel.style.maxWidth=S.get().width+"px";
-    panel.style.maxHeight=S.get().height+"px";
-    panel.getElementsByTagName("p")[0].style.fontSize=S.get().fontSize+"px";
+
+    panel.style.maxWidth = S.get().width + "px";
+    panel.style.maxHeight = S.get().height + "px";
+    panel.getElementsByTagName("p")[0].style.fontSize = S.get().fontSize + "px";
 }
 
 

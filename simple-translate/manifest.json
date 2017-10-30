@@ -1,19 +1,19 @@
 {
     "manifest_version": 2,
-    "version": "1.3.1",
-    
+    "version": "1.3.2",
+
     "name": "__MSG_extName__",
     "description": "__MSG_extDescription__",
     "default_locale": "en",
-    
+
     "applications": {
         "gecko": {
             "id": "simple-translate@sienori"
         }
     },
-    
+
     "permissions": ["<all_urls>", "storage", "contextMenus", "clipboardRead"],
-    
+
     "options_ui": {
         "page": "options/options.html"
     },
@@ -24,13 +24,13 @@
         "64": "icons/64.png",
         "48": "icons/48.png",
         "32": "icons/32.png"
-        
+
     },
-    
+
     "background": {
         "scripts": ["Settings.js", "background.js"]
     },
-    
+
     "browser_action": {
         "default_icon": {
             "512": "icons/512.png",

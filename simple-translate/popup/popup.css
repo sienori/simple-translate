@@ -1,5 +1,5 @@
 body {
-    font-family: 'Sugoe UI','Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'Meiryo', 'メイリオ', 'Osaka', 'MS PGothic', 'arial', 'helvetica', 'sans-serif';
+    /*font-family: 'Sugoe UI','Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'Meiryo', 'メイリオ', 'Osaka', 'MS PGothic', 'arial', 'helvetica', 'sans-serif';*/
     text-align: left;
     font-size: 13px;
     height: auto;
@@ -8,7 +8,7 @@ body {
     overflow: hidden;
 }
 
-#main{
+#main {
     margin: 10px 0px;
 }
 

@@ -41,7 +41,7 @@
 
 #simple-translate-panel p {
     all: initial;
-    font-family: 'Sugoe UI', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'Meiryo', 'メイリオ', 'Osaka', 'arial', 'helvetica', 'MS PGothic', 'sans-serif' !important;
+    font-family: 'Segoe UI', 'San Francisco', 'Ubuntu', 'Fira Sans', 'Roboto', 'Arial', 'Helvetica', sans-serif !important;
     text-align: left;
     display: inline-block;
     margin: 0;

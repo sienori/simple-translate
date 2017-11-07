@@ -91,7 +91,7 @@ function translateTextMenu(info, tab) {
 //ページ全体を翻訳
 function translatePageMenu(info, tab) {
     browser.tabs.create({
-        'url': "https://translate.google.co.jp/translate?hl=" + S.get().targetLang + "&sl=auto&u=" + encodeURIComponent(info.pageUrl),
+        'url': "https://translate.google.com/translate?hl=" + S.get().targetLang + "&sl=auto&u=" + encodeURIComponent(info.pageUrl),
         'active': true,
         'index': tab.index + 1
     });
@@ -100,7 +100,7 @@ function translatePageMenu(info, tab) {
 //リンクを翻訳
 function translateLinkMenu(info, tab) {
     browser.tabs.create({
-        'url': "https://translate.google.co.jp/translate?hl=" + S.get().targetLang + "&sl=auto&u=" + encodeURIComponent(info.linkUrl),
+        'url': "https://translate.google.com/translate?hl=" + S.get().targetLang + "&sl=auto&u=" + encodeURIComponent(info.linkUrl),
         'active': true,
         'index': tab.index + 1
     });

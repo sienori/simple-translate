@@ -1,0 +1,65 @@
+{
+    "extName": {
+        "message": "Simple Translate"
+    },
+    "extDescription": {
+        "message": "Μετέφρασε εύκολα κείμενο ή ολόκληρη ιστοσελίδα καθώς περιηγείσαι στο διαδίκτυο."
+    },
+    "initialTextArea":{
+        "message": "Εισαγωγή κειμένου"
+    },
+    "showLink":{
+        "message": "Μετάφραση της σελίδας"
+    },
+    "targetLangLabel":{
+        "message":"Γλώσσα προς μετάφραση"
+    },
+    "langList":{
+        "message":"<option value=\"is\">Icelandic</option><option value=\"ga\">Irish</option><option value=\"az\">Azerbaijani</option><option value=\"af\">Afrikaans</option><option value=\"am\">Amharic</option><option value=\"ar\">Arabic</option><option value=\"sq\">Albanian</option><option value=\"hy\">Armenian</option><option value=\"it\">Italian</option><option value=\"yi\">Yiddish</option><option value=\"ig\">Igbo</option><option value=\"id\">Indonesian</option><option value=\"cy\">Welsh</option><option value=\"uk\">Ukrainian</option><option value=\"uz\">Uzbek</option><option value=\"ur\">Urdu</option><option value=\"et\">Estonian</option><option value=\"eo\">Esperanto</option><option value=\"nl\">Dutch</option><option value=\"kk\">Kazakh</option><option value=\"ca\">Catalan</option><option value=\"gl\">Galician</option><option value=\"kn\">Kannada</option><option value=\"el\">Ελληνικά</option><option value=\"ky\">Kirghiz</option><option value=\"gu\">Gujarati</option><option value=\"km\">Khmer</option><option value=\"ku\">Kurdish</option><option value=\"hr\">Croatian</option><option value=\"xh\">Xosa</option><option value=\"co\">Corsican</option><option value=\"sm\">Samoan</option><option value=\"jv\">Javanese</option><option value=\"ka\">Georgian</option><option value=\"sn\">Shona</option><option value=\"sd\">Sindhi</option><option value=\"si\">Sinhala</option><option value=\"sv\">Swedish</option><option value=\"zu\">Zulu</option><option value=\"gd\">Scottish Gaelic</option><option value=\"es\">Spanish</option><option value=\"sk\">Slovak</option><option value=\"sl\">Slovenian</option><option value=\"sw\">Swahili</option><option value=\"su\">Sundanese</option><option value=\"ceb\">Cebuano</option><option value=\"sr\">Serbian</option><option value=\"sx\">Sotho</option><option value=\"so\">Somali</option><option value=\"th\">Thai</option><option value=\"tl\">Tagalog</option><option value=\"tg\">Tajiki</option><option value=\"ta\">Tamil</option><option value=\"cs\">Czech</option><option value=\"ny\">Chewa</option><option value=\"te\">Telugu</option><option value=\"da\">Danish</option><option value=\"de\">German</option><option value=\"tr\">Turkish</option><option value=\"ne\">Nepali</option><option value=\"no\">Norwegian</option><option value=\"ht\">Haitian</option><option value=\"ha\">Hausa</option><option value=\"ps\">Pushto</option><option value=\"eu\">Basque</option><option value=\"haw\">Hawaiian</option><option value=\"hu\">Hungarian</option><option value=\"pa\">Punjabi</option><option value=\"hi\">Hindi</option><option value=\"fi\">Finnish</option><option value=\"fr\">French</option><option value=\"fy\">Frisian</option><option value=\"bg\">Bulgarian</option><option value=\"vi\">Vietnamese</option><option value=\"he\">Hebrew</option><option value=\"be\">Belarusian</option><option value=\"fa\">Persian</option><option value=\"bn\">Bengali</option><option value=\"pl\">Polish</option><option value=\"bs\">Bosnian</option><option value=\"pt\">Portuguese</option><option value=\"mi\">Maori</option><option value=\"mk\">Macedonian</option><option value=\"mr\">Marathi</option><option value=\"mg\">Malagasy</option><option value=\"ml\">Malayalam</option><option value=\"mt\">Maltese</option><option value=\"ms\">Malay</option><option value=\"my\">Myanmar</option><option value=\"mn\">Mongolian</option><option value=\"hmn\">Monk</option><option value=\"yo\">Yoruba</option><option value=\"lo\">Laotian</option><option value=\"la\">Latin</option><option value=\"lv\">Latvian</option><option value=\"lt\">Lithuanian</option><option value=\"ro\">Romanian</option><option value=\"lb\">Luxembourgish</option><option value=\"ru\">Russian</option><option value=\"en\">English</option><option value=\"ko\">Korean</option><option value=\"zh-CN\">Chinese (PRC)</option><option value=\"zh-TW\">Chinese (Taiwan)</option><option value=\"ja\">Japanese</option>"
+    },
+    "ifShowButtonLabel":{
+        "message": "Εμφάνιση pop-up κουμπιού όταν επιλέγετε κείμενο"
+    },
+    "ifCheckLangLabel":{
+        "message": "Απο-εμφάνιση του pop-up κουμπιού εάν το επιλεγμένο κείμενο είναι στην ίδια Γλώσσα με τη 'Γλώσσα προς μετάφραση'"
+    },
+    "ifShowMenuLabel":{
+        "message": "Εμφάνιση στο βοηθητικό μενού (context menu)"
+    },
+    "ifChangeSecondLangLabel":{
+        "message": "Εάν η το κείμενο προς μετάφραση είναι σε Γλώσσα όμοια με την 'Γλώσσα προς μετάφραση'"
+    },
+    "secondTargetLangLabel":{
+        "message": "Δευτερεύουσα Γλώσσα προς μετάφραση"
+    },
+    "translatePageMenu":{
+        "message": "Μετάφραση της σελίδας"
+    },
+    "translateTextMenu":{
+        "message": "Μετάφραση επιλεγμένου κειμένου"
+    },
+    "translateLinkMenu":{
+        "message": "Μετάφραση του επιλεγμένου υπερσυνδέσμου"
+    },
+    "panelSizeLabel":{
+        "message": "Μέγεθος του πίνακα μετάφρασης"
+    },
+    "buttonSizeLabel":{
+        "message": "Μέγεθος κουμπιού"
+    },
+    "buttonPositionLabel":{
+        "message": "Θέση αποικόνησης του κουμπιού"
+    },
+    "rightUpLabel":{
+        "message": "Επάνω δεξιά"
+    },
+    "rightDownLabel":{
+        "message": "Κάτω δεξιά"
+    },
+    "fontSizeLabel":{
+        "message": "Μέγεθος γραμματοσειράς"
+    },
+    "saveLabel":{
+        "message": "Αποθήκευση"
+    }
+}

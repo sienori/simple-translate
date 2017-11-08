@@ -1,0 +1,32 @@
+# Patch/diff artifacts.
+*.patch
+*.diff
+*.orig
+*.rej
+interdiff*.txt
+
+# emacs artifacts.
+*~
+\#*\#
+
+# VI swap file
+*.swp
+
+# Hidden files.
+.DS*
+.project
+
+# Windows links.
+*.lnk
+
+# Temporary files.
+tmp*
+
+# more Excludes
+# /simple-translate/web-ext-artifacts/
+
+# Exclude IDE's project directory
+nbproject
+.idea
+*.sublime-project
+*.sublime-workspace

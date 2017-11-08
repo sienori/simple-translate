@@ -1,5 +1,5 @@
 body {
-    /*font-family: 'Segoe UI', 'San Francisco', 'Ubuntu', 'Fira Sans', 'Roboto', 'Arial', 'Helvetica', sans-serif !important;*/
+    font-family: 'Segoe UI', 'San Francisco', 'Ubuntu', 'Fira Sans', 'Roboto', 'Arial', 'Helvetica', sans-serif !important;
     text-align: left;
     font-size: 13px;
     height: auto;
@@ -13,8 +13,11 @@ body {
 }
 
 hr {
-    size: 1;
-    color: #eee;
+    border: none;
+    border-top: solid 1px #bbb;
+    height: 1px;
+    color: #FFFFFF;
+    margin: 0 6 0 6;
 }
 
 p {}

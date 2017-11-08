@@ -70,7 +70,7 @@ function getSelectionWord(tabs) {
 
 //ページ翻訳へのリンクを表示
 function showLink() {
-    document.getElementById("link").innerHTML = "<a href=https://translate.google.co.jp/translate?hl=" + targetLang + "&sl=auto&u=" + encodeURIComponent(url) + ">" + browser.i18n.getMessage('showLink') + "</a>";
+    document.getElementById("link").innerHTML = "<a href=https://translate.google.com/translate?hl=" + targetLang + "&sl=auto&u=" + encodeURIComponent(url) + ">" + browser.i18n.getMessage('showLink') + "</a>";
 }
 
 //翻訳元テキストを表示

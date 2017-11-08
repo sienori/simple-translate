@@ -10,8 +10,8 @@ targetLang.innerHTML=browser.i18n.getMessage("langList");
 secondTargetLang.innerHTML=browser.i18n.getMessage("langList");
 
 S.initOptionsPage().then(function(){
-    document.getElementById("save").addEventListener('click', function(){
-        S.saveOptionsPage();
-    });
+  document.getElementById("save").addEventListener('click', function(){
+    S.saveOptionsPage();
+  });
 })
 

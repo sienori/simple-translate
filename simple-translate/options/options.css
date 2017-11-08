@@ -5,22 +5,22 @@ height: 1px;
 border: none;
 }
 input[type="number"] {
-    -moz-appearance:textfield;
-    width: 50px;
+  -moz-appearance:textfield;
+  width: 50px;
 }
 #save{
-    width: auto;
-    height: 30px;
-    
-    margin-left: ;
-    margin-right: auto;
-    
-    
-    color: #111;
-    border: 1px solid #bbb;
-    border-radius: 2px;
-    background-color: #fbfbfb;
+  width: auto;
+  height: 30px;
+
+  margin-left: ;
+  margin-right: auto;
+
+
+  color: #111;
+  border: 1px solid #bbb;
+  border-radius: 2px;
+  background-color: #fbfbfb;
 }
 #save:hover{
-    background: #f5f5f5;
+  background: #f5f5f5;
 }

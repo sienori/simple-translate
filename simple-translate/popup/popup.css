@@ -1,66 +1,66 @@
 body {
-    font-family: 'Segoe UI', 'San Francisco', 'Ubuntu', 'Fira Sans', 'Roboto', 'Arial', 'Helvetica', sans-serif !important;
-    text-align: left;
-    font-size: 13px;
-    height: auto;
-    width: 300px;
-    padding: 5px 20px 0px;
-    overflow: hidden;
+  font-family: 'Segoe UI', 'San Francisco', 'Ubuntu', 'Fira Sans', 'Roboto', 'Arial', 'Helvetica', sans-serif !important;
+  text-align: left;
+  font-size: 13px;
+  height: auto;
+  width: 300px;
+  padding: 5px 20px 0px;
+  overflow: hidden;
 }
 
 #main {
-    margin: 10px 0px;
+  margin: 10px 0px;
 }
 
 hr {
-    border: none;
-    border-top: solid 1px #bbb;
-    height: 1px;
-    color: #FFFFFF;
-    margin: 0 6 0 6;
+  border: none;
+  border-top: solid 1px #bbb;
+  height: 1px;
+  color: #FFFFFF;
+  margin: 0 6 0 6;
 }
 
 p {}
 
 textarea {
-    font: inherit;
-    text-align: left;
-    resize: none;
-    overflow: auto;
-    max-height: 250px;
-    height: 30px;
-    width: 277px;
-    padding-top: 10px;
-    padding-bottom: 0px;
-    padding-left: 10px;
-    padding-right: 10px;
+  font: inherit;
+  text-align: left;
+  resize: none;
+  overflow: auto;
+  max-height: 250px;
+  height: 30px;
+  width: 277px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #link a {
-    font-style: normal;
-    text-decoration: none;
-    color: #4268da;
+  font-style: normal;
+  text-decoration: none;
+  color: #4268da;
 }
 
 #target {
-    max-height: 250px;
-    min-height: 20px;
-    overflow-y: auto;
-    word-wrap: break-word;
+  max-height: 250px;
+  min-height: 20px;
+  overflow-y: auto;
+  word-wrap: break-word;
 }
 
 #link {
-    margin-top: 3px;
+  margin-top: 3px;
 }
 
 #langList {
-    font: inherit;
-    text-align: left;
-    float: right;
-    margin-bottom: 20px;
-    max-width: 140px;
+  font: inherit;
+  text-align: left;
+  float: right;
+  margin-bottom: 20px;
+  max-width: 140px;
 }
 
 ::-moz-selection {
-    background: #ebebeb;
+  background: #ebebeb;
 }

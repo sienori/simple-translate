@@ -27,6 +27,7 @@ function initialSetting() {
         case "zh-CN":
         case "zh-TW":
         case "ko":
+        case "ru":
             targetLang = browser.i18n.getUILanguage();
             secondTargetLang="en";
             break;

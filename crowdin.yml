@@ -1,0 +1,3 @@
+files:
+  - source: simple-translate/_locales/en/messages.json
+    translation: /simple-translate/_locales/%locale_with_underscore%/messages.json

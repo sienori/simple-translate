@@ -27,39 +27,39 @@
         "message": "Kontextmenü anzeigen"
     },
     "ifChangeSecondLangLabel": {
-        "message": "Switch to the second language if the input text of the tool bar translation panel is the same as the target language"
+        "message": "Zur Zweitsprache wechseln, wenn der Text im Symbolleistenübersetzungstool bereits in der Zielsprache ist"
     },
     "secondTargetLangLabel": {
-        "message": "Second language"
+        "message": "Zweitsprache"
     },
     "translatePageMenu": {
-        "message": "Translate this page"
+        "message": "Diese Seite übersetzen"
     },
     "translateTextMenu": {
-        "message": "Translate selected text"
+        "message": "Ausgewählten Text übersetzen"
     },
     "translateLinkMenu": {
-        "message": "Translate selected link"
+        "message": "Ausgewählten Link übersetzen"
     },
     "panelSizeLabel": {
-        "message": "Size of translation panel"
+        "message": "Größe des Symbolleistenübersetzungstools"
     },
     "buttonSizeLabel": {
-        "message": "Size of button"
+        "message": "Größe der Schaltfläche"
     },
     "buttonPositionLabel": {
-        "message": "Display position of button"
+        "message": "Anzeigeposition der Schaltfläche"
     },
     "rightUpLabel": {
-        "message": "Upper right"
+        "message": "Open rechts"
     },
     "rightDownLabel": {
-        "message": "Bottom right"
+        "message": "Unten links"
     },
     "fontSizeLabel": {
-        "message": "Font size"
+        "message": "Schriftgröße"
     },
     "saveLabel": {
-        "message": "Save"
+        "message": "Speichern"
     }
 }

@@ -3,63 +3,63 @@
         "message": "Simple Translate"
     },
     "extDescription": {
-        "message": "View translations easily as you browse the web."
+        "message": "シンプルな翻訳を表示するアドオンです。"
     },
     "initialTextArea": {
-        "message": "Enter text"
+        "message": "テキストを入力"
     },
     "showLink": {
-        "message": "Translate this page"
+        "message": "このページを翻訳"
     },
     "targetLangLabel": {
-        "message": "Target language"
+        "message": "翻訳先の言語"
     },
     "langList": {
-        "message": "<option value=\"is\">Icelandic<\/option><option value=\"ga\">Irish<\/option><option value=\"az\">Azerbaijani<\/option><option value=\"af\">Afrikaans<\/option><option value=\"am\">Amharic<\/option><option value=\"ar\">Arabic<\/option><option value=\"sq\">Albanian<\/option><option value=\"hy\">Armenian<\/option><option value=\"it\">Italian<\/option><option value=\"yi\">Yiddish<\/option><option value=\"ig\">Igbo<\/option><option value=\"id\">Indonesian<\/option><option value=\"cy\">Welsh<\/option><option value=\"uk\">Ukrainian<\/option><option value=\"uz\">Uzbek<\/option><option value=\"ur\">Urdu<\/option><option value=\"et\">Estonian<\/option><option value=\"eo\">Esperanto<\/option><option value=\"nl\">Dutch<\/option><option value=\"kk\">Kazakh<\/option><option value=\"ca\">Catalan<\/option><option value=\"gl\">Galician<\/option><option value=\"kn\">Kannada<\/option><option value=\"el\">Greek<\/option><option value=\"ky\">Kirghiz<\/option><option value=\"gu\">Gujarati<\/option><option value=\"km\">Khmer<\/option><option value=\"ku\">Kurdish<\/option><option value=\"hr\">Croatian<\/option><option value=\"xh\">Xosa<\/option><option value=\"co\">Corsican<\/option><option value=\"sm\">Samoan<\/option><option value=\"jv\">Javanese<\/option><option value=\"ka\">Georgian<\/option><option value=\"sn\">Shona<\/option><option value=\"sd\">Sindhi<\/option><option value=\"si\">Sinhala<\/option><option value=\"sv\">Swedish<\/option><option value=\"zu\">Zulu<\/option><option value=\"gd\">Scottish Gaelic<\/option><option value=\"es\">Spanish<\/option><option value=\"sk\">Slovak<\/option><option value=\"sl\">Slovenian<\/option><option value=\"sw\">Swahili<\/option><option value=\"su\">Sundanese<\/option><option value=\"ceb\">Cebuano<\/option><option value=\"sr\">Serbian<\/option><option value=\"sx\">Sotho<\/option><option value=\"so\">Somali<\/option><option value=\"th\">Thai<\/option><option value=\"tl\">Tagalog<\/option><option value=\"tg\">Tajiki<\/option><option value=\"ta\">Tamil<\/option><option value=\"cs\">Czech<\/option><option value=\"ny\">Chewa<\/option><option value=\"te\">Telugu<\/option><option value=\"da\">Danish<\/option><option value=\"de\">German<\/option><option value=\"tr\">Turkish<\/option><option value=\"ne\">Nepali<\/option><option value=\"no\">Norwegian<\/option><option value=\"ht\">Haitian<\/option><option value=\"ha\">Hausa<\/option><option value=\"ps\">Pushto<\/option><option value=\"eu\">Basque<\/option><option value=\"haw\">Hawaiian<\/option><option value=\"hu\">Hungarian<\/option><option value=\"pa\">Punjabi<\/option><option value=\"hi\">Hindi<\/option><option value=\"fi\">Finnish<\/option><option value=\"fr\">French<\/option><option value=\"fy\">Frisian<\/option><option value=\"bg\">Bulgarian<\/option><option value=\"vi\">Vietnamese<\/option><option value=\"he\">Hebrew<\/option><option value=\"be\">Belarusian<\/option><option value=\"fa\">Persian<\/option><option value=\"bn\">Bengali<\/option><option value=\"pl\">Polish<\/option><option value=\"bs\">Bosnian<\/option><option value=\"pt\">Portuguese<\/option><option value=\"mi\">Maori<\/option><option value=\"mk\">Macedonian<\/option><option value=\"mr\">Marathi<\/option><option value=\"mg\">Malagasy<\/option><option value=\"ml\">Malayalam<\/option><option value=\"mt\">Maltese<\/option><option value=\"ms\">Malay<\/option><option value=\"my\">Myanmar<\/option><option value=\"mn\">Mongolian<\/option><option value=\"hmn\">Monk<\/option><option value=\"yo\">Yoruba<\/option><option value=\"lo\">Laotian<\/option><option value=\"la\">Latin<\/option><option value=\"lv\">Latvian<\/option><option value=\"lt\">Lithuanian<\/option><option value=\"ro\">Romanian<\/option><option value=\"lb\">Luxembourgish<\/option><option value=\"ru\">Russian<\/option><option value=\"en\">English<\/option><option value=\"ko\">Korean<\/option><option value=\"zh-CN\">Chinese (PRC)<\/option><option value=\"zh-TW\">Chinese (Taiwan)<\/option><option value=\"ja\">Japanese<\/option>"
+        "message": "<option value=\"en\">英語<\/option><option value=\"ko\">韓国語<\/option><option value=\"zh-CN\">中国語(簡体)<\/option><option value=\"zh-TW\">中国語(繁体)<\/option><option value=\"ja\">日本語<\/option><option value=\"is\">アイスランド語<\/option><option value=\"ga\">アイルランド語<\/option><option value=\"az\">アゼルバイジャン語<\/option><option value=\"af\">アフリカーンス語<\/option><option value=\"am\">アムハラ語<\/option><option value=\"ar\">アラビア語<\/option><option value=\"sq\">アルバニア語<\/option><option value=\"hy\">アルメニア語<\/option><option value=\"it\">イタリア語<\/option><option value=\"yi\">イディッシュ語<\/option><option value=\"ig\">イボ語<\/option><option value=\"id\">インドネシア語<\/option><option value=\"cy\">ウェールズ語<\/option><option value=\"uk\">ウクライナ語<\/option><option value=\"uz\">ウズベク語<\/option><option value=\"ur\">ウルドゥ語<\/option><option value=\"et\">エストニア語<\/option><option value=\"eo\">エスペラント語<\/option><option value=\"nl\">オランダ語<\/option><option value=\"kk\">カザフ語<\/option><option value=\"ca\">カタルーニャ語<\/option><option value=\"gl\">ガリシア語<\/option><option value=\"kn\">カンナダ語<\/option><option value=\"el\">ギリシャ語<\/option><option value=\"ky\">キルギス語<\/option><option value=\"gu\">グジャラト語<\/option><option value=\"km\">クメール語<\/option><option value=\"ku\">クルド語<\/option><option value=\"hr\">クロアチア語<\/option><option value=\"xh\">コーサ語<\/option><option value=\"co\">コルシカ語<\/option><option value=\"sm\">サモア語<\/option><option value=\"jw\">ジャワ語<\/option><option value=\"ka\">ジョージア(グルジア)語<\/option><option value=\"sn\">ショナ語<\/option><option value=\"sd\">シンド語<\/option><option value=\"si\">シンハラ語<\/option><option value=\"sv\">スウェーデン語<\/option><option value=\"zu\">ズールー語<\/option><option value=\"gd\">スコットランド ゲール語<\/option><option value=\"es\">スペイン語<\/option><option value=\"sk\">スロバキア語<\/option><option value=\"sl\">スロベニア語<\/option><option value=\"sw\">スワヒリ語<\/option><option value=\"su\">スンダ語<\/option><option value=\"ceb\">セブアノ語<\/option><option value=\"sr\">セルビア語<\/option><option value=\"st\">ソト語<\/option><option value=\"so\">ソマリ語<\/option><option value=\"th\">タイ語<\/option><option value=\"tl\">タガログ語<\/option><option value=\"tg\">タジク語<\/option><option value=\"ta\">タミル語<\/option><option value=\"cs\">チェコ語<\/option><option value=\"ny\">チェワ語<\/option><option value=\"te\">テルグ語<\/option><option value=\"da\">デンマーク語<\/option><option value=\"de\">ドイツ語<\/option><option value=\"tr\">トルコ語<\/option><option value=\"ne\">ネパール語<\/option><option value=\"no\">ノルウェー語<\/option><option value=\"ht\">ハイチ語<\/option><option value=\"ha\">ハウサ語<\/option><option value=\"ps\">パシュト語<\/option><option value=\"eu\">バスク語<\/option><option value=\"haw\">ハワイ語<\/option><option value=\"hu\">ハンガリー語<\/option><option value=\"pa\">パンジャブ語<\/option><option value=\"hi\">ヒンディー語<\/option><option value=\"fi\">フィンランド語<\/option><option value=\"fr\">フランス語<\/option><option value=\"fy\">フリジア語<\/option><option value=\"bg\">ブルガリア語<\/option><option value=\"vi\">ベトナム語<\/option><option value=\"iw\">ヘブライ語<\/option><option value=\"be\">ベラルーシ語<\/option><option value=\"fa\">ペルシャ語<\/option><option value=\"bn\">ベンガル語<\/option><option value=\"pl\">ポーランド語<\/option><option value=\"bs\">ボスニア語<\/option><option value=\"pt\">ポルトガル語<\/option><option value=\"mi\">マオリ語<\/option><option value=\"mk\">マケドニア語<\/option><option value=\"mr\">マラーティー語<\/option><option value=\"mg\">マラガシ語<\/option><option value=\"ml\">マラヤーラム語<\/option><option value=\"mt\">マルタ語<\/option><option value=\"ms\">マレー語<\/option><option value=\"my\">ミャンマー語<\/option><option value=\"mn\">モンゴル語<\/option><option value=\"hmn\">モン語<\/option><option value=\"yo\">ヨルバ語<\/option><option value=\"lo\">ラオ語<\/option><option value=\"la\">ラテン語<\/option><option value=\"lv\">ラトビア語<\/option><option value=\"lt\">リトアニア語<\/option><option value=\"ro\">ルーマニア語<\/option><option value=\"lb\">ルクセンブルク語<\/option><option value=\"ru\">ロシア語<\/option>"
     },
     "ifShowButtonLabel": {
-        "message": "Pop up a button when selecting text"
+        "message": "テキスト選択時にボタンを表示する"
     },
     "ifCheckLangLabel": {
-        "message": "Do not display the button if the selected text is the same as the target language"
+        "message": "選択したテキストが翻訳先言語と同じ場合はボタンを表示しない"
     },
     "ifShowMenuLabel": {
-        "message": "Display context menu"
+        "message": "コンテキストメニューを表示する"
     },
     "ifChangeSecondLangLabel": {
-        "message": "Switch to the second language if the input text of the tool bar translation panel is the same as the target language"
+        "message": "ツールバー翻訳パネルの入力テキストが翻訳先言語と同じ場合は第二言語に切り替える"
     },
     "secondTargetLangLabel": {
-        "message": "Second language"
+        "message": "第二言語"
     },
     "translatePageMenu": {
-        "message": "Translate this page"
+        "message": "ページ全体を翻訳"
     },
     "translateTextMenu": {
-        "message": "Translate selected text"
+        "message": "選択したテキストを翻訳"
     },
     "translateLinkMenu": {
-        "message": "Translate selected link"
+        "message": "選択したリンクを翻訳"
     },
     "panelSizeLabel": {
-        "message": "Size of translation panel"
+        "message": "翻訳パネルのサイズ"
     },
     "buttonSizeLabel": {
-        "message": "Size of button"
+        "message": "ボタンのサイズ"
     },
     "buttonPositionLabel": {
-        "message": "Display position of button"
+        "message": "ボタンの表示位置"
     },
     "rightUpLabel": {
-        "message": "Upper right"
+        "message": "右上"
     },
     "rightDownLabel": {
-        "message": "Bottom right"
+        "message": "右下"
     },
     "fontSizeLabel": {
-        "message": "Font size"
+        "message": "フォントサイズ"
     },
     "saveLabel": {
-        "message": "Save"
+        "message": "保存"
     }
 }

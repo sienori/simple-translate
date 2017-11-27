@@ -6,10 +6,10 @@
         "message": "View translations easily as you browse the web."
     },
     "initialTextArea": {
-        "message": "Enter text"
+        "message": "Introducir texto"
     },
     "showLink": {
-        "message": "Translate this page"
+        "message": "Traducir esta página"
     },
     "targetLangLabel": {
         "message": "Target language"

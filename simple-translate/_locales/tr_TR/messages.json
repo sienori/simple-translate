@@ -42,24 +42,24 @@
         "message": "Seçilen linki çevir"
     },
     "panelSizeLabel": {
-        "message": "Size of translation panel"
+        "message": "Çeviri panel boyutu"
     },
     "buttonSizeLabel": {
-        "message": "Size of button"
+        "message": "Düğme boyutu"
     },
     "buttonPositionLabel": {
-        "message": "Display position of button"
+        "message": "düğmenin konumunu görüntüle"
     },
     "rightUpLabel": {
-        "message": "Upper right"
+        "message": "Sağ üst"
     },
     "rightDownLabel": {
-        "message": "Bottom right"
+        "message": "Sağ alt"
     },
     "fontSizeLabel": {
-        "message": "Font size"
+        "message": "Yazı tipi boyutu"
     },
     "saveLabel": {
-        "message": "Save"
+        "message": "Kaydet"
     }
 }

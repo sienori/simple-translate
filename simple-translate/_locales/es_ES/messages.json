@@ -3,7 +3,7 @@
         "message": "Simple Translate"
     },
     "extDescription": {
-        "message": "View translations easily as you browse the web."
+        "message": "Ver traducciones fácilmente mientras navega por la web."
     },
     "initialTextArea": {
         "message": "Introducir texto"
@@ -18,48 +18,48 @@
         "message": "<option value=\"is\">Islandés<\/option><option value=\"ga\">Irlandés<\/option><option value=\"az\">Azerbaiyán<\/option><option value=\"af\">Afrikaans<\/option><option value=\"am\">Amárico<\/option><option value=\"ar\">Árabe<\/option><option value=\"sq\">Albanés<\/option><option value=\"hy\">Armenio<\/option><option value=\"it\">Italiano<\/option><option value=\"yi\">Yiddish<\/option><option value=\"ig\">Igbo<\/option><option value=\"id\">Indonesio<\/option><option value=\"cy\">Galés<\/option><option value=\"uk\">Ucraniano<\/option><option value=\"uz\">Uzbeko<\/option><option value=\"your\">Urdu<\/option><option value=\"et\">Estonio<\/option><option value=\"eo\">Esperanto<\/option><option value=\"nl\">Holandés<\/option><option value=\"kk\">Kazajo<\/option><option value=\"ca\">Catalán<\/option><option value=\"gl\">Gallego<\/option><option value=\"kn\">Kannada<\/option><option value=\"el\">Griego<\/option><option value=\"ky\">Kirguizistán<\/option><option value=\"gu\">Gujarati<\/option><option value=\"km\">Khmer<\/option><option value=\"ku\">Kurdo<\/option><option value=\"hr\">Croata<\/option><option value=\"xh\">Xosa<\/option><option value=\"co\">Corsa<\/option><option value=\"sm\">Samoa<\/option><option value=\"jv\">Javanés<\/option><option value=\"ka\">Georgia<\/option><option value=\"sn\">Shona<\/option><option value=\"sd\">Sindhi<\/option><option value=\"si\">Cingalés<\/option><option value=\"sv\">Sueco<\/option><option value=\"zu\">Zulú<\/option><option value=\"gd\">Gaélico escocés<\/option><option value=\"es\">Español<\/option><option value=\"sk\">Eslovaco<\/option><option value=\"sl\">Esloveno<\/option><option value=\"sw\">Swahili<\/option><option value=\"su\">Sundanés<\/option><option value=\"ceb\">Cebuano<\/option><option value=\"sr\">Serbio<\/option><option value=\"sx\">Sotho<\/option><option value=\"so\">somalí<\/option><option value=\"th\">Tailandés<\/option><option value=\"tl\">Chino simplificado<\/option><option value=\"tg\">Tajiki<\/option><option value=\"ta\">Tamil<\/option><option value=\"cs\">Checa<\/option><option value=\"ny\">Chewa<\/option><option value=\"te\">Telugu<\/option><option value=\"da\">Danés<\/option><option value=\"de\">Alemán<\/option><option value=\"tr\">Turco<\/option><option value=\"ne\">Nepali<\/option><option value=\"no\">Noruego<\/option><option value=\"ht\">Haití<\/option><option value=\"ha\">Hausa<\/option><option value=\"ps\">Pushto<\/option><option value=\"eu\">Vasco<\/option><option value=\"haw\">Hawaiano<\/option><option value=\"hu\">Húngaro<\/option><option value=\"pa\">Punjabi<\/option><option value=\"hi\">Hindi<\/option><option value=\"fi\">Finlandés<\/option><option value=\"fr\">Francés<\/option><option value=\"fy\">Frisón<\/option><option value=\"bg\">Búlgaro<\/option><option value=\"vi\">Vietnamita<\/option><option value=\"he\">Hebreo<\/option><option value=\"be\">Bielorruso<\/option><option value=\"fa\">Persa<\/option><option value=\"bn\">Bengalí<\/option><option value=\"pl\">Polaco<\/option><option value=\"bs\">Bosnio<\/option><option value=\"pt\">Portugués<\/option><option value=\"mi\">Maori<\/option><option value=\"mk\">Macedonio<\/option><option value=\"mr\">Marathi<\/option><option value=\"mg\">Malgache<\/option><option value=\"ml\">Malayalam<\/option><option value=\"mt\">Maltés<\/option><option value=\"ms\">Malayo<\/option><option value=\"my\">Myanmar<\/option><option value=\"mn\">Mongol<\/option><option value=\"hmn\">Monje<\/option><option value=\"yo\">Yoruba<\/option><option value=\"lo\">Laos<\/option><option value=\"la\">Latina<\/option><option value=\"lv\">Letonia<\/option><option value=\"lt\">Lituania<\/option><option value=\"ro\">Rumano<\/option><option value=\"lb\">Luxemburgués<\/option><option value=\"ru\">Ruso<\/option><option value=\"en\">Inglés<\/option><option value=\"ko\">Coreano<\/option><option value=\"zh-CN\">Chino (PRC)<\/option><option value=\"zh-TW\">Chino (Taiwán)<\/option><option value=\"ja\">Japonés<\/option>"
     },
     "ifShowButtonLabel": {
-        "message": "Pop up a button when selecting text"
+        "message": "Hacer aparecer un botón al seleccionar texto"
     },
     "ifCheckLangLabel": {
-        "message": "Do not display the button if the selected text is the same as the target language"
+        "message": "No mostrar el botón si el texto seleccionado es el mismo que el idioma de destino"
     },
     "ifShowMenuLabel": {
-        "message": "Display context menu"
+        "message": "Mostrar menú contextual"
     },
     "ifChangeSecondLangLabel": {
-        "message": "Switch to the second language if the input text of the tool bar translation panel is the same as the target language"
+        "message": "Cambiar a la segunda lengua si el texto de entrada de la barra panel de traducción es el mismo que el idioma de destino"
     },
     "secondTargetLangLabel": {
-        "message": "Second language"
+        "message": "Segunda lengua"
     },
     "translatePageMenu": {
-        "message": "Translate this page"
+        "message": "Traducir esta página"
     },
     "translateTextMenu": {
-        "message": "Translate selected text"
+        "message": "Traducir texto seleccionado"
     },
     "translateLinkMenu": {
-        "message": "Translate selected link"
+        "message": "Traducir enlace seleccionado"
     },
     "panelSizeLabel": {
-        "message": "Size of translation panel"
+        "message": "Tamaño del panel de traducción"
     },
     "buttonSizeLabel": {
-        "message": "Size of button"
+        "message": "Tamaño del botón"
     },
     "buttonPositionLabel": {
-        "message": "Display position of button"
+        "message": "Mostrar la posición del botón"
     },
     "rightUpLabel": {
-        "message": "Upper right"
+        "message": "Arriba a la derecha"
     },
     "rightDownLabel": {
-        "message": "Bottom right"
+        "message": "Abajo a la derecha"
     },
     "fontSizeLabel": {
-        "message": "Font size"
+        "message": "Tamaño de la fuente"
     },
     "saveLabel": {
-        "message": "Save"
+        "message": "Guardar"
     }
 }

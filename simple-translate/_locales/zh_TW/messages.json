@@ -3,7 +3,7 @@
         "message": "Simple Translate"
     },
     "extDescription": {
-        "message": "View translations easily as you browse the web."
+        "message": "瀏覽互聯網時可以輕鬆查看翻譯。"
     },
     "initialTextArea": {
         "message": "輸入文字"
@@ -21,13 +21,13 @@
         "message": "選擇文本時彈出一個按鈕"
     },
     "ifCheckLangLabel": {
-        "message": "Do not display the button if the selected text is the same as the target language"
+        "message": "如果所選文本與目標語言相同, 則不要顯示該按鈕"
     },
     "ifShowMenuLabel": {
         "message": "顯示上下文內容功能表"
     },
     "ifChangeSecondLangLabel": {
-        "message": "Switch to the second language if the input text of the tool bar translation panel is the same as the target language"
+        "message": "如果工具欄翻譯面板的輸入文本與目標語言相同，則切換到第二語言"
     },
     "secondTargetLangLabel": {
         "message": "第二語言"
@@ -45,19 +45,19 @@
         "message": "翻譯面板大小"
     },
     "buttonSizeLabel": {
-        "message": "Size of button"
+        "message": "按鈕大小"
     },
     "buttonPositionLabel": {
-        "message": "Display position of button"
+        "message": "顯示按鈕的位置"
     },
     "rightUpLabel": {
-        "message": "Upper right"
+        "message": "右上角"
     },
     "rightDownLabel": {
-        "message": "Bottom right"
+        "message": "右下角"
     },
     "fontSizeLabel": {
-        "message": "Font size"
+        "message": "字型大小"
     },
     "saveLabel": {
         "message": "存檔"

@@ -54,12 +54,12 @@
         "message": "Upper right"
     },
     "rightDownLabel": {
-        "message": "Bottom right"
+        "message": "Rechtsonder"
     },
     "fontSizeLabel": {
-        "message": "Font size"
+        "message": "Lettertypegrootte"
     },
     "saveLabel": {
-        "message": "Save"
+        "message": "Opslaan"
     }
 }

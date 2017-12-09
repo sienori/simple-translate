@@ -39,27 +39,27 @@
         "message": "翻译选定文本"
     },
     "translateLinkMenu": {
-        "message": "翻译选定链接"
+        "message": "翻译选定连结"
     },
     "panelSizeLabel": {
-        "message": "Size of translation panel"
+        "message": "翻译面板大小"
     },
     "buttonSizeLabel": {
         "message": "按钮大小"
     },
     "buttonPositionLabel": {
-        "message": "Display position of button"
+        "message": "显示按钮的位置"
     },
     "rightUpLabel": {
-        "message": "Upper right"
+        "message": "右上角"
     },
     "rightDownLabel": {
-        "message": "Bottom right"
+        "message": "右下角"
     },
     "fontSizeLabel": {
-        "message": "Font size"
+        "message": "字体大小"
     },
     "saveLabel": {
-        "message": "Save"
+        "message": "储存"
     }
 }

@@ -21,45 +21,45 @@
         "message": "Pop up a button when selecting text"
     },
     "ifCheckLangLabel": {
-        "message": "Do not display the button if the selected text is the same as the target language"
+        "message": "Nu se afişează butonul dacă textul selectat este același cu limba ţintă"
     },
     "ifShowMenuLabel": {
-        "message": "Display context menu"
+        "message": "Afișați meniul contextual"
     },
     "ifChangeSecondLangLabel": {
         "message": "Switch to the second language if the input text of the tool bar translation panel is the same as the target language"
     },
     "secondTargetLangLabel": {
-        "message": "Second language"
+        "message": "A doua limbă"
     },
     "translatePageMenu": {
-        "message": "Translate this page"
+        "message": "Traduceți această pagină"
     },
     "translateTextMenu": {
-        "message": "Translate selected text"
+        "message": "Traduceți textul selectat"
     },
     "translateLinkMenu": {
-        "message": "Translate selected link"
+        "message": "Traduceți link-ul selectat"
     },
     "panelSizeLabel": {
-        "message": "Size of translation panel"
+        "message": "Dimensiunea panoului de traducere"
     },
     "buttonSizeLabel": {
-        "message": "Size of button"
+        "message": "Dimensiunea butonului"
     },
     "buttonPositionLabel": {
-        "message": "Display position of button"
+        "message": "Afișază poziția butonului"
     },
     "rightUpLabel": {
-        "message": "Upper right"
+        "message": "Dreapta sus"
     },
     "rightDownLabel": {
-        "message": "Bottom right"
+        "message": "Dreapta jos"
     },
     "fontSizeLabel": {
-        "message": "Font size"
+        "message": "Dimensiune font"
     },
     "saveLabel": {
-        "message": "Save"
+        "message": "Salvaţi"
     }
 }

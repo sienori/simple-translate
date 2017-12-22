@@ -15,7 +15,7 @@ body {
     overflow: hidden;
     background-color: var(--main-bg);
 
-    padding: 10px;
+    padding: 20px;
     margin: 0px;
 
     display: flex;
@@ -29,7 +29,7 @@ textarea {
     resize: none;
     overflow: auto;
 
-    max-height: 240px;
+    max-height: 235px;
     height: 37px;
 
     /* 100% - padding*2 - border*2 */
@@ -54,7 +54,7 @@ hr {
 }
 
 #target {
-    max-height: 240px;
+    max-height: 235px;
     min-height: 20px;
     overflow-y: auto;
     word-wrap: break-word;

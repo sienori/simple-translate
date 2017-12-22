@@ -29,12 +29,6 @@ let defaultTargetLang;
 let ifChangeSecondLang;
 let sourceWord = "";
 
-/*
-//Firefoxの仕様上popup.htmlでfocusが効かないため使えない
-textarea.focus();
-document.execCommand("paste");
-*/
-
 //翻訳先言語変更時に更新
 function changeLang() {
     targetLang = langList.value;

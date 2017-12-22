@@ -12,7 +12,7 @@
         }
     },
 
-    "permissions": ["<all_urls>", "storage", "contextMenus", "clipboardRead"],
+    "permissions": ["<all_urls>", "storage", "contextMenus"],
 
     "options_ui": {
         "page": "options/options.html",

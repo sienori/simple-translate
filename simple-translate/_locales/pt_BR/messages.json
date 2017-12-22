@@ -30,7 +30,7 @@
         "message": "Web page"
     },
     "ifShowButtonLabel": {
-        "message": "Display the button when text is selected"
+        "message": "Aparecer um botão ao selecionar texto"
     },
     "ifShowButtonCaptionLabel": {
         "message": "Display the translation button when text is selected on the web page."
@@ -42,7 +42,7 @@
         "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
     },
     "ifShowMenuLabel": {
-        "message": "Display the context menu"
+        "message": "Exibir menu de contexto"
     },
     "ifShowMenuCaptionLabel": {
         "message": "Add items to the context menu displayed when right clicking on the web page."
@@ -57,7 +57,7 @@
         "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
     },
     "secondTargetLangLabel": {
-        "message": "Second language"
+        "message": "Segundo idioma"
     },
     "secondTargetLangCaptionLabel": {
         "message": "Select the second target language."
@@ -78,10 +78,10 @@
         "message": "Display position"
     },
     "rightUpLabel": {
-        "message": "Top right"
+        "message": "Canto superior direito"
     },
     "rightDownLabel": {
-        "message": "Bottom right"
+        "message": "Canto inferior direito"
     },
     "leftUpLabel": {
         "message": "Top left"
@@ -102,7 +102,7 @@
         "message": "Height"
     },
     "fontSizeLabel": {
-        "message": "Font size"
+        "message": "Tamanho da fonte"
     },
     "informationLabel": {
         "message": "Information"

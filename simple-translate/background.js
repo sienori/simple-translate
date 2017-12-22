@@ -3,8 +3,11 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 //初回起動時にオプションページを表示して設定を初期化
-browser.runtime.onInstalled.addListener(function(){
-    browser.runtime.openOptionsPage();
+browser.runtime.onInstalled.addListener(function () {
+    browser.tabs.create({
+        url: "options/options.html#information",
+        active: false
+    });
 });
 
 let S = new settingsObj()

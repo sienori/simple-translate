@@ -13,15 +13,15 @@ browser.runtime.onInstalled.addListener(function () {
 let S = new settingsObj()
 browser.storage.onChanged.addListener(showMenu);
 
-S.init().then(function(){
+S.init().then(function () {
     showMenu();
 });
-function showMenu(){
-    if(S.get().ifShowMenu){
+
+function showMenu() {
+    if (S.get().ifShowMenu) {
         menuRemove();
         menuCreate();
-    }
-    else menuRemove();
+    } else menuRemove();
 }
 
 function initialSetting() {
@@ -32,13 +32,13 @@ function initialSetting() {
         case "ko":
         case "ru":
             targetLang = browser.i18n.getUILanguage();
-            secondTargetLang="en";
+            secondTargetLang = "en";
             break;
         default:
             targetLang = "en";
-            secondTargetLang="ja";
+            secondTargetLang = "ja";
             break;
-                                        }
+    }
 }
 
 //メニューを表示
@@ -48,7 +48,7 @@ function menuCreate() {
         title: browser.i18n.getMessage("translatePageMenu"),
         contexts: ["all"],
     });
-    
+
     browser.contextMenus.create({
         id: "translateText",
         title: browser.i18n.getMessage("translateTextMenu"),

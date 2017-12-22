@@ -2,17 +2,17 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-let S=new settingsObj();
+let S = new settingsObj();
 //設定を読み出し
-S.init().then(function(value){
+S.init().then(function (value) {
     defaultTargetLang = value.targetLang;
     targetLang = value.targetLang;
     secondTargetLang = value.secondTargetLang;
-    ifChangeSecondLang=value.ifChangeSecondLang;
+    ifChangeSecondLang = value.ifChangeSecondLang;
     langList.value = targetLang; //リスト初期値をセット
     langList.addEventListener("change", changeLang);
-    
-    document.body.style.fontSize=value.fontSize;
+
+    document.body.style.fontSize = value.fontSize;
 })
 
 let target = document.getElementById("target");
@@ -21,7 +21,7 @@ let textarea = document.getElementById("textarea");
 
 langList.innerHTML = browser.i18n.getMessage("langList");
 const initialText = browser.i18n.getMessage("initialTextArea");
-textarea.placeholder= initialText;
+textarea.placeholder = initialText;
 
 let targetLang;
 let secondTargetLang;

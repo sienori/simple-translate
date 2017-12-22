@@ -51,14 +51,27 @@ function checkLang() {
 
 //ボタンを表示
 function popupButton(e) {
-    let position;
+    let topPosition = 10;
+    let leftPosition = 10;
     let buttonSize = S.get().buttonSize;
 
-    if (S.get().buttonPosition == "rightUp") position = (-1 * buttonSize) - 10;
-    else if (S.get().buttonPosition == "rightDown") position = 10;
+    switch (S.get().buttonPosition) {
+        case "rightUp":
+            topPosition = (-1 * buttonSize) - 10;
+            break;
+        case "rightDown":
+            break;
+        case "leftUp":
+            topPosition = (-1 * buttonSize) - 10;
+            leftPosition = (-1 * buttonSize) - 10;
+            break;
+        case "leftDown":
+            leftPosition = (-1 * buttonSize) - 10;
+            break;
+    }
 
-    button.style.left = e.clientX + 10 + 'px';
-    button.style.top = e.clientY + position + 'px';
+    button.style.left = e.clientX + leftPosition + 'px';
+    button.style.top = e.clientY + topPosition + 'px';
     button.style.width = S.get().buttonSize + "px";
     button.style.height = S.get().buttonSize + "px";
     button.style.display = 'block';

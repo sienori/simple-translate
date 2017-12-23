@@ -24,19 +24,19 @@
         "message": "Geral"
     },
     "targetLangCaptionLabel": {
-        "message": "Select the default target language."
+        "message": "Selecione o idioma alvo padrão."
     },
     "webPageLabel": {
-        "message": "Web page"
+        "message": "Página web"
     },
     "ifShowButtonLabel": {
         "message": "Aparecer um botão ao selecionar texto"
     },
     "ifShowButtonCaptionLabel": {
-        "message": "Display the translation button when text is selected on the web page."
+        "message": "Mostrar o botão de tradução quando o texto for selecionado na página web."
     },
     "ifCheckLangLabel": {
-        "message": "Do not display the button if translation is not required"
+        "message": "Não mostrar o botão se a tradução não for necessária"
     },
     "ifCheckLangCaptionLabel": {
         "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."

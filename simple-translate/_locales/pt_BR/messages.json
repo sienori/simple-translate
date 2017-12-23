@@ -33,7 +33,7 @@
         "message": "Aparecer um botão ao selecionar texto"
     },
     "ifShowButtonCaptionLabel": {
-        "message": "Mostrar o botão de tradução quando o texto for selecionado na página web."
+        "message": "Exibir o botão de tradução quando um texto for selecionado na página web."
     },
     "ifCheckLangLabel": {
         "message": "Não mostrar o botão se a tradução não for necessária"
@@ -45,7 +45,7 @@
         "message": "Exibir menu de contexto"
     },
     "ifShowMenuCaptionLabel": {
-        "message": "Adicionar itens ao menu de contexto apresentado quando clicar com o botão direito na página web."
+        "message": "Adicionar itens ao menu de contexto apresentado quando clicar com o botão direito do mouse na página web."
     },
     "toolbarLabel": {
         "message": "Barra de ferramentas"

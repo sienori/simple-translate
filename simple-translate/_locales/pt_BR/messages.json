@@ -96,28 +96,28 @@
         "message": "Especifique o estilo do painel de tradução apresentado na página web."
     },
     "widthLabel": {
-        "message": "Width"
+        "message": "Largura"
     },
     "heightLabel": {
-        "message": "Height"
+        "message": "Altura"
     },
     "fontSizeLabel": {
         "message": "Tamanho da fonte"
     },
     "informationLabel": {
-        "message": "Information"
+        "message": "Informação"
     },
     "licenseLabel": {
-        "message": "License"
+        "message": "Licença"
     },
     "donationLabel": {
-        "message": "Please make a donation"
+        "message": "Por favor, faça uma doaçao"
     },
     "donationCaptionLabel": {
-        "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+        "message": "Obrigado por usar o Simple Translate.<br>O seu apoio será um grande incentivo, à medida que continuarmos desenvolvendo a extensão.<br>Se você gosta do Simple Translate, ficaríamos satisfeitos se você pudesse considerar uma doação."
     },
     "addonPageLabel": {
-        "message": "Add-on pege"
+        "message": "Página da extensão"
     },
     "addonUrl": {
         "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"

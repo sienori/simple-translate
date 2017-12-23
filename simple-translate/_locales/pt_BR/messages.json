@@ -39,7 +39,7 @@
         "message": "Não mostrar o botão se a tradução não for necessária"
     },
     "ifCheckLangCaptionLabel": {
-        "message": "Detectar o idioma do texto selecionado, e se ele for o mesmo que o idioma alvo, o botão não é mostrado."
+        "message": "Detecta o idioma do texto selecionado e, se for o mesmo que o idioma alvo, o botão não é exibido."
     },
     "ifShowMenuLabel": {
         "message": "Exibir menu de contexto"

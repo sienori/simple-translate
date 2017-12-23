@@ -120,15 +120,15 @@
         "message": "Página da extensão"
     },
     "addonUrl": {
-        "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
+        "message": "https:\/\/addons.mozilla.org\/pt-BR\/firefox\/addon\/simple-translate\/?src=optionpage"
     },
     "translatePageMenu": {
-        "message": "Translate this page"
+        "message": "Traduzir esta página"
     },
     "translateTextMenu": {
-        "message": "Translate selected text"
+        "message": "Traduzir o texto selecionado"
     },
     "translateLinkMenu": {
-        "message": "Translate selected link"
+        "message": "Traduzir o endereço selecionado"
     }
 }

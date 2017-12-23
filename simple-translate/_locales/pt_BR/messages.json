@@ -39,13 +39,13 @@
         "message": "Não mostrar o botão se a tradução não for necessária"
     },
     "ifCheckLangCaptionLabel": {
-        "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+        "message": "Detectar o idioma do texto selecionado, e se ele for o mesmo que o idioma alvo, o botão não é mostrado."
     },
     "ifShowMenuLabel": {
         "message": "Exibir menu de contexto"
     },
     "ifShowMenuCaptionLabel": {
-        "message": "Add items to the context menu displayed when right clicking on the web page."
+        "message": "Adicionar itens ao menu de contexto apresentado quando clicar com o botão direito na página web."
     },
     "toolbarLabel": {
         "message": "Toolbar popup"

@@ -48,34 +48,34 @@
         "message": "Adicionar itens ao menu de contexto apresentado quando clicar com o botão direito na página web."
     },
     "toolbarLabel": {
-        "message": "Toolbar popup"
+        "message": "Barra de ferramentas"
     },
     "ifChangeSecondLangLabel": {
-        "message": "Automatically switch to the second language"
+        "message": "Automaticamente troca para o segundo idioma"
     },
     "ifChangeSecondLangCaptionLabel": {
-        "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+        "message": "Detecta o idioma do texto entrado, e se for o mesmo que o idioma alvo padrão, traduz para o segundo idioma."
     },
     "secondTargetLangLabel": {
         "message": "Segundo idioma"
     },
     "secondTargetLangCaptionLabel": {
-        "message": "Select the second target language."
+        "message": "Selecione o segundo idioma alvo."
     },
     "styleLabel": {
-        "message": "Style"
+        "message": "Estilo"
     },
     "buttonStyleLabel": {
-        "message": "Translation button"
+        "message": "Botão de tradução"
     },
     "buttonStyleCaptionLabel": {
-        "message": "Specify the style of the translation button displayed on the web page."
+        "message": "Especifique o estilo do botão de tradução apresentado na página web."
     },
     "buttonSizeLabel": {
-        "message": "Size"
+        "message": "Tamanho"
     },
     "buttonPositionLabel": {
-        "message": "Display position"
+        "message": "Posição de apresentação"
     },
     "rightUpLabel": {
         "message": "Canto superior direito"
@@ -84,16 +84,16 @@
         "message": "Canto inferior direito"
     },
     "leftUpLabel": {
-        "message": "Top left"
+        "message": "Canto superior esquerdo"
     },
     "leftDownLabel": {
-        "message": "Bottom left"
+        "message": "Canto inferior esquerdo"
     },
     "panelStyleLabel": {
-        "message": "Translation panel"
+        "message": "Painel de tradução"
     },
     "panelStyleCaptionLabel": {
-        "message": "Specify the style of the translation panel displayed on the web page."
+        "message": "Especifique o estilo do painel de tradução apresentado na página web."
     },
     "widthLabel": {
         "message": "Width"

@@ -1,0 +1,134 @@
+{
+    "extName": {
+        "message": "Simple Translate"
+    },
+    "extDescription": {
+        "message": "Łatwo wyświetl tłumaczenia podczas przeglądania sieci."
+    },
+    "initialTextArea": {
+        "message": "Wprowadź tekst"
+    },
+    "showLink": {
+        "message": "Przetłumacz tę stronę"
+    },
+    "targetLangLabel": {
+        "message": "Język docelowy"
+    },
+    "langList": {
+        "message": "<option value=\"is\"> islandzki<\/option> <option value=\"ga\"> irlandzki<\/option> <option value=\"az\"> azerski<\/option> <option value=\"af\"> afrykanerski<\/option> <option value=\"am\"> amharski<\/option> <option value=\"ar\"> arabski<\/option> <option value=\"sq\"> Albański<\/option> <option value=\"hy\"> armeński<\/option> <option value=\"it\"> włoski<\/option> <option value=\"yi\"> jidysz<\/option> <option value=\"ig\"> igbo<\/option> <option value=\"id\"> indonezyjski<\/option> <option value=\"cy\"> walijski<\/option> <option value=\"uk\"> ukraiński<\/option> <option value=\"uz\"> uzbecka<\/option> <option value=\"your\"> urdu<\/option> <option value=\"et\"> estoński<\/option> <option value=\"eo\"> esperanto<\/option> <option value=\"nl\"> holenderski<\/option> <option value=\"kk\"> kazachski<\/option> <option value=\"ca\"> kataloński<\/option> <option value=\"gl\">-Galicyjski<\/option> <option value=\"kn\"> kannada<\/option> <option value=\"el\"> grecki<\/option> <option value=\"ky\"> Kirgiska<\/option> <option value=\"gu\"> gudżarati<\/option> <option value=\"km\"> khmerski<\/option> <option value=\"ku\"> kurdyjski<\/option> <option value=\"hr\"> chorwacki<\/option> <option value=\"xh\"> Xosa<\/option> <option value=\"co\"> Korsykański<\/option> <option value=\"sm\"> samoański<\/option> <option value=\"jv\"> jawajski<\/option> <option value=\"ka\"> gruziński<\/option> <option value=\"sn\"> Shona<\/option> <option value=\"sd\"> sindhi<\/option> <option value=\"si\"> syngaleski<\/option> <option value=\"sv\"> szwedzki<\/option> <option value=\"zu\"> Zulu<\/option> <option value=\"gd\"> szkocki gaelicki<\/option> <option value=\"es\"> hiszpański<\/option> <option value=\"sk\"> słowacki<\/option> <option value=\"sl\"> słoweński<\/option> <option value=\"sw\"> Suahili<\/option> <option value=\"su\"> sudańska<\/option> <option value=\"ceb\"> Cebuano<\/option> <option value=\"sr\"> serbski<\/option> <option value=\"sx\"> sotho<\/option> <option value=\"so\"> somalijski<\/option> <option value=\"th\"> tajski<\/option> <option value=\"tl\"> Tagalog<\/option> <option value=\"tg\"> Tajiki<\/option> <option value=\"ta\"> Tamil<\/option> <option value=\"cs\"> Czeska<\/option> <option value=\"ny\"> Chewa<\/option> <option value=\"te\"> telugu<\/option> <option value=\"da\"> duński<\/option> <option value=\"de\"> niemiecki<\/option> <option value=\"tr\"> turecki<\/option> <option value=\"ne\"> nepalski<\/option> <option value=\"no\"> norweski<\/option> <option value=\"ht\"> haitański<\/option> <option value=\"ha\"> Hausa<\/option> <option value=\"ps\"> naciśnij, aby<\/option> <option value=\"eu\"> baskijski<\/option> <option value=\"haw\"> hawajski<\/option> <option value=\"hu\"> węgierski<\/option> <option value=\"pa\"> pendżabski<\/option> <option value=\"hi\"> hindi<\/option> <option value=\"fi\"> fiński<\/option> <option value=\"fr\"> francuski<\/option> <option value=\"fy\"> fryzyjski<\/option> <option value=\"bg\"> bułgarski<\/option> <option value=\"vi\"> wietnamski<\/option> <option value=\"he\"> język hebrajski<\/option> <option value=\"be\"> białoruski<\/option> <option value=\"fa\"> Perski<\/option> <option value=\"bn\"> bengalski<\/option> <option value=\"pl\"> Polski<\/option> <option value=\"bs\"> bośniacki<\/option> <option value=\"pt\"> portugalski<\/option> <option value=\"mi\"> Maori<\/option> <option value=\"mk\"> Macedoński<\/option> <option value=\"mr\"> marathi<\/option> <option value=\"mg\"> Madagaskaru<\/option> <option value=\"ml\"> malajalam<\/option> <option value=\"mt\"> Maltański<\/option> <option value=\"ms\"> język malajski<\/option> <option value=\"my\"> Myanmar<\/option> <option value=\"mn\"> mongolski<\/option> <option value=\"hmn\"> mnich<\/option> <option value=\"yo\"> Joruba<\/option> <option value=\"lo\"> laotański<\/option> <option value=\"la\"> łaciński<\/option> <option value=\"lv\"> łotewski<\/option> <option value=\"lt\"> litewski<\/option> <option value=\"ro\"> rumuński<\/option> <option value=\"lb\"> luksemburski<\/option> <option value=\"ru\"> rosyjski<\/option> <option value=\"en\"> angielski<\/option> <option value=\"ko\"> koreański<\/option> <option value=\"zh-CN\"> chiński (ChRL)<\/option> <option value=\"zh-TW\"> chiński (Tajwan)<\/option> <option value=\"ja\"> japoński<\/option><\/option>"
+    },
+    "settingsLabel": {
+        "message": "Ustawienia"
+    },
+    "generalLabel": {
+        "message": "Główne"
+    },
+    "targetLangCaptionLabel": {
+        "message": "Wybierz domyślny język docelowy."
+    },
+    "webPageLabel": {
+        "message": "Strona internetowa"
+    },
+    "ifShowButtonLabel": {
+        "message": "Wyświetlaj przycisk, gdy tekst jest zaznaczony"
+    },
+    "ifShowButtonCaptionLabel": {
+        "message": "Wyświetlaj przycisk tłumaczenia kiedy tekst jest zaznaczony na stronie internetowej."
+    },
+    "ifCheckLangLabel": {
+        "message": "Nie wyświetlaj przycisku tłumaczenia, jeżeli jest nie potrzebny"
+    },
+    "ifCheckLangCaptionLabel": {
+        "message": "Wykrywa język zaznaczonego tekstu i jeżeli jest taki sam jak język docelowy przycisk nie zostaje wyświetlany."
+    },
+    "ifShowMenuLabel": {
+        "message": "Wyświetlaj menu kontekstowe"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "Dodaj elementy do menu kontekstowego wyświetlanego, po kliknięciu prawym przyciskiem myszy na stronie internetowej."
+    },
+    "toolbarLabel": {
+        "message": "Podręczne narzędzia"
+    },
+    "ifChangeSecondLangLabel": {
+        "message": "Automatycznie przełącz na drugi język"
+    },
+    "ifChangeSecondLangCaptionLabel": {
+        "message": "Wykrywa język wprowadzonego tekstu, a jeśli jest taki sam jak domyślny język docelowy, tłumaczy go na drugi język."
+    },
+    "secondTargetLangLabel": {
+        "message": "Drugi język"
+    },
+    "secondTargetLangCaptionLabel": {
+        "message": "Wybierz domyślny język docelowy."
+    },
+    "styleLabel": {
+        "message": "Styl"
+    },
+    "buttonStyleLabel": {
+        "message": "Przycisk tłumaczenia"
+    },
+    "buttonStyleCaptionLabel": {
+        "message": "Określ styl przycisku translacji wyświetlanego na stronie internetowej."
+    },
+    "buttonSizeLabel": {
+        "message": "Rozmiar"
+    },
+    "buttonPositionLabel": {
+        "message": "Wyświetl pozycję"
+    },
+    "rightUpLabel": {
+        "message": "Prawy górny róg"
+    },
+    "rightDownLabel": {
+        "message": "Prawy dolny róg"
+    },
+    "leftUpLabel": {
+        "message": "Lewy górny róg"
+    },
+    "leftDownLabel": {
+        "message": "Lewy dolny róg"
+    },
+    "panelStyleLabel": {
+        "message": "Panel tłumaczenia"
+    },
+    "panelStyleCaptionLabel": {
+        "message": "Określ styl panelu translacji wyświetlanego na stronie internetowej."
+    },
+    "widthLabel": {
+        "message": "Szerokość"
+    },
+    "heightLabel": {
+        "message": "Wysokość"
+    },
+    "fontSizeLabel": {
+        "message": "Rozmiar czcionki"
+    },
+    "informationLabel": {
+        "message": "Informacje"
+    },
+    "licenseLabel": {
+        "message": "Licencja"
+    },
+    "donationLabel": {
+        "message": "Proszę o dokonanie dotacji"
+    },
+    "donationCaptionLabel": {
+        "message": "Dziękujemy za korzystanie z Simple Translate.<br> Twoje wsparcie jest niesamowice dużo dla mnie warte i zachęca do dalszej pracy i w dalszym ciągu rozwijam dodatek.<br>Jeżeli lubisz Simple Translate, byłbym bardzo wdzięczny jeżeli móglbyś\/aś rozważyć wykonanie dotacji."
+    },
+    "addonPageLabel": {
+        "message": "Strona dodatków"
+    },
+    "addonUrl": {
+        "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
+    },
+    "translatePageMenu": {
+        "message": "Przetłumacz tę stronę"
+    },
+    "translateTextMenu": {
+        "message": "Przetłumacz zaznaczony tekst"
+    },
+    "translateLinkMenu": {
+        "message": "Przetłumacz wybrany link"
+    }
+}

@@ -1,0 +1,134 @@
+{
+    "extName": {
+        "message": "Simple Translate"
+    },
+    "extDescription": {
+        "message": "Vedeți cu uşurinţă traducerile pe măsură ce navigați pe web."
+    },
+    "initialTextArea": {
+        "message": "Introduceți textul"
+    },
+    "showLink": {
+        "message": "Traduceți această pagină"
+    },
+    "targetLangLabel": {
+        "message": "Limba ţintă"
+    },
+    "langList": {
+        "message": "<option value=\"is\">Islandeză<\/option><option value=\"ga\">Irlandeză<\/option>\n<option value=\"az\">Azerbaijană<\/option><option value=\"af\">Africană<\/option>\n<option value=\"am\">Amharică<\/option><option value=\"ar\">Arabă<\/option>\n<option value=\"sq\">Albaneză<\/option><option value=\"hy\">Armeană<\/option>\n<option value=\"it\">Italiană<\/option><option value=\"yi\">Idiș<\/option>\n<option value=\"ig\">Igbo<\/option><option value=\"id\">Indoneză<\/option>\n<option value=\"cy\">Scoțiană<\/option><option value=\"uk\">Uncraineană<\/option>\nvalue=\"uz\">Uzbecă<\/option><option value=\"ur\">Urdu<\/option><option value=\"et\">Estonă<\/option><option value=\"eo\">Esperanto<\/option><option value=\"nl\">Olandeză<\/option><option value=\"kk\">Kazakh<\/option><option value=\"ca\">Catalană<\/option><option value=\"gl\">Galiciană<\/option><option value=\"kn\">Kannada<\/option><option value=\"el\">Greacă<\/option><option value=\"ky\">Kirghiz<\/option><option value=\"gu\">Gujarati<\/option><option value=\"km\">Khmeră<\/option><option value=\"ku\">Kurdă<\/option><option value=\"hr\">Croată<\/option><option value=\"xh\">Xosa<\/option><option value=\"co\">Corsică<\/option><option value=\"sm\">Samoană<\/option><option value=\"jv\">Javaneză<\/option><option value=\"ka\">Georgiană<\/option><option value=\"sn\">Shona<\/option><option value=\"sd\">Sindhi<\/option><option value=\"si\">Singaleză<\/option><option value=\"sv\">Suedeză<\/option><option value=\"zu\">Zulu<\/option><option value=\"gd\">Gaelică scoțiană<\/option><option value=\"es\">Spaniolă<\/option><option value=\"sk\">Slovacă<\/option><option value=\"sl\">Slovenă<\/option><option value=\"sw\">Swahili<\/option><option value=\"su\">Sundaneză<\/option><option value=\"ceb\">Cebuano<\/option><option value=\"sr\">Sârbă<\/option><option value=\"sx\">Sotho<\/option><option value=\"so\">Somaleză<\/option><option value=\"th\">Tailandeză<\/option><option value=\"tl\">Tagalog<\/option><option value=\"tg\">Tajiki<\/option><option value=\"ta\">Tamil<\/option><option value=\"cs\">Cehă<\/option><option value=\"ny\">Chewa<\/option><option value=\"te\">Telugu<\/option><option value=\"da\">Daneză<\/option><option value=\"de\">Germană<\/option><option value=\"tr\">Turcă<\/option><option value=\"ne\">Nepaleză<\/option><option value=\"no\">Norvegiană<\/option><option value=\"ht\">Haitiană<\/option><option value=\"ha\">Hausă<\/option><option value=\"ps\">Pushto<\/option><option value=\"eu\">Bască<\/option><option value=\"haw\">Hawaiiană<\/option><option value=\"hu\">Maghiară<\/option><option value=\"pa\">Punjabi<\/option><option value=\"hi\">Hindusă<\/option><option value=\"fi\">Finlandeză<\/option><option value=\"fr\">Frenceză<\/option><option value=\"fy\">Frisian<\/option><option value=\"bg\">Bulgară<\/option><option value=\"vi\">Vietnameză<\/option><option value=\"he\">Ebraică<\/option><option value=\"be\">Belarusă<\/option><option value=\"fa\">Persană<\/option><option value=\"bn\">Bengali<\/option><option value=\"pl\">Poloneză<\/option><option value=\"bs\">Bosniacă<\/option><option value=\"pt\">Portugheză<\/option><option value=\"mi\">Maori<\/option><option value=\"mk\">Macedoneană<\/option><option value=\"mr\">Marathi<\/option><option value=\"mg\">Malageză<\/option><option value=\"ml\">Malayalam<\/option><option value=\"mt\">Malteză<\/option><option value=\"ms\">Malaieză<\/option><option value=\"my\">Birmană<\/option><option value=\"mn\">Mongolă<\/option><option value=\"hmn\">Monk<\/option><option value=\"yo\">Yoruba<\/option><option value=\"lo\">Lao<\/option><option value=\"la\">Latină<\/option><option value=\"lv\">Letonă<\/option><option value=\"lt\">Lituaniană<\/option><option value=\"ro\">Română<\/option><option value=\"lb\">Luxemburegheză<\/option><option value=\"ru\">Rusă<\/option><option value=\"en\">Engleză<\/option><option value=\"ko\">Koreană<\/option><option value=\"zh-CN\">Chineză (PRC)<\/option><option value=\"zh-TW\">Chineză (Taiwan)<\/option><option value=\"ja\">Japoneză<\/option>"
+    },
+    "settingsLabel": {
+        "message": "Settings"
+    },
+    "generalLabel": {
+        "message": "General"
+    },
+    "targetLangCaptionLabel": {
+        "message": "Select the default target language."
+    },
+    "webPageLabel": {
+        "message": "Web page"
+    },
+    "ifShowButtonLabel": {
+        "message": "Display the button when text is selected"
+    },
+    "ifShowButtonCaptionLabel": {
+        "message": "Display the translation button when text is selected on the web page."
+    },
+    "ifCheckLangLabel": {
+        "message": "Do not display the button if translation is not required"
+    },
+    "ifCheckLangCaptionLabel": {
+        "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+    },
+    "ifShowMenuLabel": {
+        "message": "Display the context menu"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "Add items to the context menu displayed when right clicking on the web page."
+    },
+    "toolbarLabel": {
+        "message": "Toolbar popup"
+    },
+    "ifChangeSecondLangLabel": {
+        "message": "Automatically switch to the second language"
+    },
+    "ifChangeSecondLangCaptionLabel": {
+        "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+    },
+    "secondTargetLangLabel": {
+        "message": "A doua limbă"
+    },
+    "secondTargetLangCaptionLabel": {
+        "message": "Select the second target language."
+    },
+    "styleLabel": {
+        "message": "Style"
+    },
+    "buttonStyleLabel": {
+        "message": "Translation button"
+    },
+    "buttonStyleCaptionLabel": {
+        "message": "Specify the style of the translation button displayed on the web page."
+    },
+    "buttonSizeLabel": {
+        "message": "Size"
+    },
+    "buttonPositionLabel": {
+        "message": "Display position"
+    },
+    "rightUpLabel": {
+        "message": "Top right"
+    },
+    "rightDownLabel": {
+        "message": "Dreapta jos"
+    },
+    "leftUpLabel": {
+        "message": "Top left"
+    },
+    "leftDownLabel": {
+        "message": "Bottom left"
+    },
+    "panelStyleLabel": {
+        "message": "Translation panel"
+    },
+    "panelStyleCaptionLabel": {
+        "message": "Specify the style of the translation panel displayed on the web page."
+    },
+    "widthLabel": {
+        "message": "Width"
+    },
+    "heightLabel": {
+        "message": "Height"
+    },
+    "fontSizeLabel": {
+        "message": "Dimensiune font"
+    },
+    "informationLabel": {
+        "message": "Information"
+    },
+    "licenseLabel": {
+        "message": "License"
+    },
+    "donationLabel": {
+        "message": "Please make a donation"
+    },
+    "donationCaptionLabel": {
+        "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+    },
+    "addonPageLabel": {
+        "message": "Add-on page"
+    },
+    "addonUrl": {
+        "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
+    },
+    "translatePageMenu": {
+        "message": "Traduceți această pagină"
+    },
+    "translateTextMenu": {
+        "message": "Traduceți textul selectat"
+    },
+    "translateLinkMenu": {
+        "message": "Traduceți link-ul selectat"
+    }
+}

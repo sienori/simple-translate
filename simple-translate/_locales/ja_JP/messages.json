@@ -117,7 +117,7 @@
         "message": "Simple Translateをご利用いただきありがとうございます。<br>アドオンの開発を続けていく上で，皆様のご支援が大きな励みになります。<br>もしあなたがSimple Translateを気に入ってくれたなら，ご寄付をご検討いただけると幸いです。"
     },
     "addonPageLabel": {
-        "message": "Add-on page"
+        "message": "アドオンページ"
     },
     "addonUrl": {
         "message": "https:\\\/\\\/addons.mozilla.org\\\/ja\\\/firefox\\\/addon\\\/simple-translate\\\/?src=optionpage"

@@ -42,10 +42,10 @@
         "message": "偵測所選文字的語言, 如果它與目標語言相同, 則不顯示該按鈕。"
     },
     "ifShowMenuLabel": {
-        "message": "顯示右鍵選單"
+        "message": "於右鍵選單中顯示"
     },
     "ifShowMenuCaptionLabel": {
-        "message": "右鍵點選網頁時，新增項目至右鍵選單中。"
+        "message": "將翻譯功能新增至右鍵選單。"
     },
     "toolbarLabel": {
         "message": "工具列彈出式選單"
@@ -117,7 +117,7 @@
         "message": "感謝您使用 Simple Translate。<br>您的支持是我繼續開發這個附加元件的動力。<br>如果您喜歡 Simple Translate，希望您可以贊助我。"
     },
     "addonPageLabel": {
-        "message": "AMO 附加元件頁面"
+        "message": "Add-on page"
     },
     "addonUrl": {
         "message": "https:\/\/addons.mozilla.org\/zh-TW\/firefox\/addon\/simple-translate\/?src=optionpage"

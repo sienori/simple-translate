@@ -11,25 +11,55 @@ body {
     font-family: 'Segoe UI', 'San Francisco', 'Ubuntu', 'Fira Sans', 'Roboto', 'Arial', 'Helvetica', sans-serif;
     text-align: left;
     font-size: 13px;
-    width: 350px;
+    width: 348px;
     overflow: hidden;
     background-color: var(--main-bg);
 
-    padding: 20px;
+    padding: 0px;
     margin: 0px;
 
     display: flex;
     flex-direction: column;
 }
 
-#main {}
+#header {
+    padding: 10px;
+    background-color: var(--line);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    -moz-user-select: none;
+}
+
+#title {
+    font-size: 17px;
+    font-weight: 400;
+    color: #666;
+    cursor: default;
+}
+
+#setting {
+    height: 20px;
+    width: 20px;
+    background-image: url("/icons/setting.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#main {
+    padding: 10px;
+}
 
 textarea {
     font: inherit;
     resize: none;
     overflow: auto;
 
-    max-height: 235px;
+    max-height: 215px;
     height: 37px;
 
     /* 100% - padding*2 - border*2 */
@@ -54,7 +84,7 @@ hr {
 }
 
 #target {
-    max-height: 235px;
+    max-height: 215px;
     min-height: 20px;
     overflow-y: auto;
     word-wrap: break-word;
@@ -66,6 +96,7 @@ hr {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding: 0px 10px 10px;
 }
 
 #link {

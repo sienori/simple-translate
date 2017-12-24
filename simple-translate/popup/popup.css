@@ -35,17 +35,17 @@ body {
 }
 
 #title {
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 400;
     color: #666;
     cursor: default;
 }
 
 #setting {
-    height: 20px;
-    width: 20px;
+    height: 17px;
+    width: 17px;
     background-image: url("/icons/setting.png");
-    background-size: 20px;
+    background-size: 17px;
     background-repeat: no-repeat;
     cursor: pointer;
 }

@@ -1,0 +1,134 @@
+{
+    "extName": {
+        "message": "Simple Translate"
+    },
+    "extDescription": {
+        "message": "瀏覽網際網路時可以輕鬆檢視翻譯。"
+    },
+    "initialTextArea": {
+        "message": "輸入文字"
+    },
+    "showLink": {
+        "message": "翻譯此頁面"
+    },
+    "targetLangLabel": {
+        "message": "目標語言"
+    },
+    "langList": {
+        "message": "<option value=\"is\">冰島語<\/option><option value=\"ga\">愛爾蘭語<\/option><option value=\"az\">阿塞拜疆<\/option><option value=\"af\">南非荷蘭語<\/option><option value=\"am\">阿姆哈拉語<\/option><option value=\"ar\">阿拉伯語<\/option><option value=\"sq\">阿爾巴尼亞語<\/option><option value=\"hy\">亞美尼亞語<\/option><option value=\"it\">意大利語<\/option><option value=\"yi\">意第緒語<\/option><option value=\"ig\">伊博語<\/option><option value=\"id\">印度尼西亞語<\/option><option value=\"cy\">威爾士語<\/option><option value=\"uk\">烏克蘭語<\/option><option value=\"uz\">烏茲別克語<\/option><option value=\"ur\">烏爾都語<\/option><option value=\"et\">愛沙尼亞語<\/option><option value=\"eo\">世界語<\/option><option value=\"nl\">荷蘭語<\/option><option value=\"kk\">哈薩克語<\/option><option value=\"ca\">加泰羅尼亞語<\/option><option value=\"gl\">加利西亞語<\/option><option value=\"kn\">卡納達語<\/option><option value=\"el\">希臘語<\/option><option value=\"ky\">柯爾克孜語<\/option><option value=\"gu\">古吉拉特語<\/option><option value=\"km\">高棉語<\/option><option value=\"ku\">庫爾德語<\/option><option value=\"hr\">克羅地亞語<\/option><option value=\"xh\">科薩語<\/option><option value=\"co\">科西嘉語<\/option><option value=\"sm\">薩摩亞語<\/option><option value=\"jv\">爪哇語<\/option><option value=\"ka\">格魯吉亞<\/option><option value=\"sn\">紹納語<\/option><option value=\"sd\">信德語<\/option><option value=\"si\">僧伽羅語<\/option><option value=\"sv\">瑞典語<\/option><option value=\"zu\">祖魯語<\/option><option value=\"gd\">蘇格蘭蓋爾語<\/option><option value=\"es\">西班牙語<\/option><option value=\"sk\">斯洛伐克語<\/option><option value=\"sl\">斯洛文尼亞語<\/option><option value=\"sw\">斯瓦希裡語<\/option><option value=\"su\">巽他語<\/option><option value=\"ceb\">宿務語<\/option><option value=\"sr\">塞爾維亞語<\/option><option value=\"sx\">塞索托語<\/option><option value=\"so\">索馬里語<\/option><option value=\"th\">泰語<\/option><option value=\"tl\">他加祿語<\/option><option value=\"tg\">塔吉克語<\/option><option value=\"ta\">泰米爾語<\/option><option value=\"cs\">捷克語<\/option><option value=\"ny\">齊切瓦語<\/option><option value=\"te\">泰盧固語<\/option><option value=\"da\">丹麥語<\/option><option value=\"de\">德語<\/option><option value=\"tr\">土耳其語<\/option><option value=\"ne\">尼泊爾語<\/option><option value=\"no\">挪威語<\/option><option value=\"ht\">海地語<\/option><option value=\"ha\">豪薩語<\/option><option value=\"ps\">普什圖語<\/option><option value=\"eu\">巴斯克語<\/option><option value=\"haw\">夏威夷語<\/option><option value=\"hu\">匈牙利語<\/option><option value=\"pa\">旁遮普語<\/option><option value=\"hi\">印地語<\/option><option value=\"fi\">芬蘭語<\/option><option value=\"fr\">法語<\/option><option value=\"fy\">弗里斯蘭語<\/option><option value=\"bg\">保加利亞語<\/option><option value=\"vi\">越南語<\/option><option value=\"he\">希伯來語<\/option><option value=\"be\">白俄羅斯語<\/option><option value=\"fa\">波斯語<\/option><option value=\"bn\">孟加拉語<\/option><option value=\"pl\">波蘭語<\/option><option value=\"bs\">波斯尼亞語<\/option><option value=\"pt\">葡萄牙語<\/option><option value=\"mi\">毛利語<\/option><option value=\"mk\">馬其頓語<\/option><option value=\"mr\">馬拉語<\/option><option value=\"mg\">馬爾加什語<\/option><option value=\"ml\">馬拉雅拉姆語<\/option><option value=\"mt\">馬耳他語<\/option><option value=\"ms\">馬來語<\/option><option value=\"my\">緬甸語<\/option><option value=\"mn\">蒙古語<\/option><option value=\"hmn\">Monk語<\/option><option value=\"yo\">約魯巴語<\/option><option value=\"lo\">老撾語<\/option><option value=\"la\">拉丁語<\/option><option value=\"lv\">拉脫維亞語<\/option><option value=\"lt\">立陶宛語<\/option><option value=\"ro\">羅馬尼亞語<\/option><option value=\"lb\">盧森堡語<\/option><option value=\"ru\">俄語<\/option><option value=\"en\">英語<\/option><option value=\"ko\">韩語<\/option><option value=\"zh-CN\">中文(簡體) <\/option><option value=\"zh-TW\">中文(繁體)<\/option><option value=\"ja\">日本語<\/option>"
+    },
+    "settingsLabel": {
+        "message": "設定"
+    },
+    "generalLabel": {
+        "message": "一般設定"
+    },
+    "targetLangCaptionLabel": {
+        "message": "選擇預設的目標語言。"
+    },
+    "webPageLabel": {
+        "message": "網頁"
+    },
+    "ifShowButtonLabel": {
+        "message": "選取文字時顯示按鈕"
+    },
+    "ifShowButtonCaptionLabel": {
+        "message": "在網頁上選取文字時顯示翻譯按鈕。"
+    },
+    "ifCheckLangLabel": {
+        "message": "如果不需翻譯時, 請不要顯示該按鈕"
+    },
+    "ifCheckLangCaptionLabel": {
+        "message": "偵測所選文字的語言, 如果它與目標語言相同, 則不顯示該按鈕。"
+    },
+    "ifShowMenuLabel": {
+        "message": "於右鍵選單中顯示"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "將翻譯功能新增至右鍵選單。"
+    },
+    "toolbarLabel": {
+        "message": "工具列彈出式選單"
+    },
+    "ifChangeSecondLangLabel": {
+        "message": "自動切換至第二語言"
+    },
+    "ifChangeSecondLangCaptionLabel": {
+        "message": "偵測輸入文字的語言, 如果它與預設的目標語言相同, 則將其翻譯為第二語言。"
+    },
+    "secondTargetLangLabel": {
+        "message": "第二語言"
+    },
+    "secondTargetLangCaptionLabel": {
+        "message": "選擇第二個目標語言。"
+    },
+    "styleLabel": {
+        "message": "樣式"
+    },
+    "buttonStyleLabel": {
+        "message": "翻譯按鈕"
+    },
+    "buttonStyleCaptionLabel": {
+        "message": "指定在網頁上顯示的翻譯按鈕樣式。"
+    },
+    "buttonSizeLabel": {
+        "message": "大小"
+    },
+    "buttonPositionLabel": {
+        "message": "顯示位置"
+    },
+    "rightUpLabel": {
+        "message": "右上角"
+    },
+    "rightDownLabel": {
+        "message": "右下角"
+    },
+    "leftUpLabel": {
+        "message": "左上角"
+    },
+    "leftDownLabel": {
+        "message": "左下角"
+    },
+    "panelStyleLabel": {
+        "message": "翻譯面板"
+    },
+    "panelStyleCaptionLabel": {
+        "message": "指定在網頁上顯示的翻譯面板樣式。"
+    },
+    "widthLabel": {
+        "message": "寬度"
+    },
+    "heightLabel": {
+        "message": "高度"
+    },
+    "fontSizeLabel": {
+        "message": "字型大小"
+    },
+    "informationLabel": {
+        "message": "附加元件資訊"
+    },
+    "licenseLabel": {
+        "message": "授權條款"
+    },
+    "donationLabel": {
+        "message": "請贊助我吧！"
+    },
+    "donationCaptionLabel": {
+        "message": "感謝您使用 Simple Translate。<br>您的支持是我繼續開發這個附加元件的動力。<br>如果您喜歡 Simple Translate，希望您可以贊助我。"
+    },
+    "addonPageLabel": {
+        "message": "AMO 附加元件頁面"
+    },
+    "addonUrl": {
+        "message": "https:\/\/addons.mozilla.org\/zh-TW\/firefox\/addon\/simple-translate\/?src=optionpage"
+    },
+    "translatePageMenu": {
+        "message": "翻譯此頁面"
+    },
+    "translateTextMenu": {
+        "message": "翻譯選取文字"
+    },
+    "translateLinkMenu": {
+        "message": "翻譯選取鏈結"
+    }
+}

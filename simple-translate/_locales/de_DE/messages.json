@@ -1,0 +1,134 @@
+{
+    "extName": {
+        "message": "Simple Translate"
+    },
+    "extDescription": {
+        "message": "Zeige einfach Übersetzungen an, während du im Internet surfst."
+    },
+    "initialTextArea": {
+        "message": "Text eingeben"
+    },
+    "showLink": {
+        "message": "Diese Seite übersetzen"
+    },
+    "targetLangLabel": {
+        "message": "Zielsprache"
+    },
+    "langList": {
+        "message": "<option value=\"af\">Afrikaans<\/option><option value=\"sq\">Albanisch<\/option><option value=\"am\">Amharisch<\/option><option value=\"ar\">Arabisch<\/option><option value=\"hy\">Armenisch<\/option><option value=\"az\">Aserbeidschanisch<\/option><option value=\"eu\">Baskisch<\/option><option value=\"bn\">Bengali<\/option><option value=\"my\">Birmanisch<\/option><option value=\"bs\">Bosnisch<\/option><option value=\"bg\">Bulgarisch<\/option><option value=\"ceb\">Cebuano<\/option><option value=\"zh-TW\">Chinesisch (Taiwan)<\/option><option value=\"zh-CN\">Chinesisch (VRC)<\/option><option value=\"de\">Deutsch<\/option><option value=\"da\">Dänisch<\/option><option value=\"en\">Englisch<\/option><option value=\"eo\">Esperanto<\/option><option value=\"et\">Estnisch<\/option><option value=\"fi\">Finnisch<\/option><option value=\"fr\">Französisch<\/option><option value=\"fy\">Friesisch<\/option><option value=\"gl\">Galicisch<\/option><option value=\"ka\">Georgisch<\/option><option value=\"el\">Griechisch<\/option><option value=\"gu\">Gujarati<\/option><option value=\"gd\">Gälisch-Schottisch<\/option><option value=\"ht\">Haitien<\/option><option value=\"ha\">Haussa<\/option><option value=\"haw\">Hawaiisch<\/option><option value=\"he\">Hebräisch<\/option><option value=\"hi\">Hindi<\/option><option value=\"ig\">Ibo<\/option><option value=\"id\">Indonesisch<\/option><option value=\"ga\">Irisch<\/option><option value=\"is\">Isländisch<\/option><option value=\"it\">Italienisch<\/option><option value=\"ja\">Japanisch<\/option><option value=\"jv\">Javanisch<\/option><option value=\"yi\">Jiddisch<\/option><option value=\"kn\">Kannada<\/option><option value=\"kk\">Kasachisch<\/option><option value=\"ca\">Katalanisch<\/option><option value=\"km\">Khmer<\/option><option value=\"ky\">Kirgisisch<\/option><option value=\"ko\">Koreanisch<\/option><option value=\"co\">Korsisch<\/option><option value=\"hr\">Kroatisch<\/option><option value=\"ku\">Kurdisch<\/option><option value=\"cy\">Kymrisch<\/option><option value=\"lo\">Laotisch<\/option><option value=\"la\">Latein<\/option><option value=\"lv\">Lettisch<\/option><option value=\"lt\">Litauisch<\/option><option value=\"lb\">Luxemburgisch<\/option><option value=\"mk\">Makedonisch<\/option><option value=\"mg\">Malagassi<\/option><option value=\"ms\">Malaiisch<\/option><option value=\"ml\">Malayalam<\/option><option value=\"mt\">Maltesisch<\/option><option value=\"mi\">Maori<\/option><option value=\"mr\">Marathi<\/option><option value=\"hmn\">Miao<\/option><option value=\"mn\">Mongolisch<\/option><option value=\"ne\">Nepali<\/option><option value=\"nl\">Niederländisch<\/option><option value=\"no\">Norwegisch<\/option><option value=\"ny\">Nyanja<\/option><option value=\"pa\">Pandschabi<\/option><option value=\"ps\">Paschtu<\/option><option value=\"fa\">Persisch<\/option><option value=\"pl\">Polnisch<\/option><option value=\"pt\">Portugiesisch<\/option><option value=\"ro\">Rumänisch<\/option><option value=\"ru\">Russisch<\/option><option value=\"sm\">Samoanisch<\/option><option value=\"sn\">Schona<\/option><option value=\"sv\">Schwedisch<\/option><option value=\"sr\">Serbisch<\/option><option value=\"sd\">Sindhi<\/option><option value=\"si\">Singhalesisch<\/option><option value=\"sk\">Slowakisch<\/option><option value=\"sl\">Slowenisch<\/option><option value=\"so\">Somali<\/option><option value=\"sx\">Sotho<\/option><option value=\"es\">Spanisch<\/option><option value=\"su\">Sundanesisch<\/option><option value=\"sw\">Swahili<\/option><option value=\"tg\">Tadschikisch<\/option><option value=\"tl\">Tagalog<\/option><option value=\"ta\">Tamil<\/option><option value=\"te\">Telugu<\/option><option value=\"th\">Thailändisch<\/option><option value=\"cs\">Tschechisch<\/option><option value=\"tr\">Türkisch<\/option><option value=\"uk\">Ukrainisch<\/option><option value=\"hu\">Ungarisch<\/option><option value=\"ur\">Urdu<\/option><option value=\"uz\">Usbekisch<\/option><option value=\"vi\">Vietnamesisch<\/option><option value=\"be\">Weißrussisch<\/option><option value=\"xh\">Xhosa<\/option><option value=\"yo\">Yoruba<\/option><option value=\"zu\">Zulu<\/option>"
+    },
+    "settingsLabel": {
+        "message": "Settings"
+    },
+    "generalLabel": {
+        "message": "General"
+    },
+    "targetLangCaptionLabel": {
+        "message": "Select the default target language."
+    },
+    "webPageLabel": {
+        "message": "Web page"
+    },
+    "ifShowButtonLabel": {
+        "message": "Display the button when text is selected"
+    },
+    "ifShowButtonCaptionLabel": {
+        "message": "Display the translation button when text is selected on the web page."
+    },
+    "ifCheckLangLabel": {
+        "message": "Do not display the button if translation is not required"
+    },
+    "ifCheckLangCaptionLabel": {
+        "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+    },
+    "ifShowMenuLabel": {
+        "message": "Display the context menu"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "Add items to the context menu displayed when right clicking on the web page."
+    },
+    "toolbarLabel": {
+        "message": "Toolbar popup"
+    },
+    "ifChangeSecondLangLabel": {
+        "message": "Automatically switch to the second language"
+    },
+    "ifChangeSecondLangCaptionLabel": {
+        "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+    },
+    "secondTargetLangLabel": {
+        "message": "Zweitsprache"
+    },
+    "secondTargetLangCaptionLabel": {
+        "message": "Select the second target language."
+    },
+    "styleLabel": {
+        "message": "Style"
+    },
+    "buttonStyleLabel": {
+        "message": "Translation button"
+    },
+    "buttonStyleCaptionLabel": {
+        "message": "Specify the style of the translation button displayed on the web page."
+    },
+    "buttonSizeLabel": {
+        "message": "Size"
+    },
+    "buttonPositionLabel": {
+        "message": "Display position"
+    },
+    "rightUpLabel": {
+        "message": "Top right"
+    },
+    "rightDownLabel": {
+        "message": "Unten links"
+    },
+    "leftUpLabel": {
+        "message": "Top left"
+    },
+    "leftDownLabel": {
+        "message": "Bottom left"
+    },
+    "panelStyleLabel": {
+        "message": "Translation panel"
+    },
+    "panelStyleCaptionLabel": {
+        "message": "Specify the style of the translation panel displayed on the web page."
+    },
+    "widthLabel": {
+        "message": "Width"
+    },
+    "heightLabel": {
+        "message": "Height"
+    },
+    "fontSizeLabel": {
+        "message": "Schriftgröße"
+    },
+    "informationLabel": {
+        "message": "Information"
+    },
+    "licenseLabel": {
+        "message": "License"
+    },
+    "donationLabel": {
+        "message": "Please make a donation"
+    },
+    "donationCaptionLabel": {
+        "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+    },
+    "addonPageLabel": {
+        "message": "Add-on page"
+    },
+    "addonUrl": {
+        "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
+    },
+    "translatePageMenu": {
+        "message": "Diese Seite übersetzen"
+    },
+    "translateTextMenu": {
+        "message": "Ausgewählten Text übersetzen"
+    },
+    "translateLinkMenu": {
+        "message": "Ausgewählten Link übersetzen"
+    }
+}

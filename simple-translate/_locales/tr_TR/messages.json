@@ -1,0 +1,134 @@
+{
+    "extName": {
+        "message": "Simple Translate"
+    },
+    "extDescription": {
+        "message": "Web'de gezinirken çevirileri kolayca görüntüleyin."
+    },
+    "initialTextArea": {
+        "message": "Metin girin"
+    },
+    "showLink": {
+        "message": "Bu sayfayı çevir"
+    },
+    "targetLangLabel": {
+        "message": "Hedef dil"
+    },
+    "langList": {
+        "message": "<option value=\"is\"> İzlanda<\/option> <option value=\"ga\"> İrlandalı<\/option> <option value=\"az\"> Azerbaycan<\/option> <option value=\"af\"> Afrikaans<\/option> <option value=\"am\"> Amharca<\/option> <option value=\"ar\"> Arapça<\/option> <option value=\"sq\"> Arnavut<\/option> <option value=\"hy\"> Ermeni<\/option> <option value=\"it\"> İtalyan<\/option> <option value=\"yi\"> Yidiş<\/option> <option value=\"ig\"> İbo dili<\/option> <option value=\"id\"> Endonezya<\/option> <option value=\"cy\"> Galce<\/option> <option value=\"uk\"> Ukrayna dili<\/option> <option value=\"uz\"> Özbek<\/option> <option value=\"your\"> Urduca<\/option> <option value=\"et\"> Estonya<\/option> <option value=\"eo\"> Esperanto<\/option> <option value=\"nl\"> Hollanda<\/option> <option value=\"kk\"> kazak<\/option> <option value=\"ca\"> Katalanca<\/option> <option value=\"gl\"> Galiçyaca<\/option> <option value=\"kn\"> Kannada dili<\/option> <option value=\"el\"> Yunanca<\/option> <option value=\"ky\"> Kırgız<\/option> <option value=\"gu\"> Gucerat dili<\/option> <option value=\"km\"> Khmer<\/option> <option value=\"ku\"> Kürt<\/option> <option value=\"hr\"> Hırvat<\/option> <option value=\"xh\"> Xosa<\/option> <option value=\"co\"> Korsika lehçesi<\/option> <option value=\"sm\"> Samoalı<\/option> <option value=\"jv\"> Cava<\/option> <option value=\"ka\"> Gürcüce<\/option> <option value=\"sn\"> Shona<\/option> <option value=\"sd\"> Sindhi dili<\/option> <option value=\"si\"> Sinhala<\/option> <option value=\"sv\"> İsveç<\/option> <option value=\"zu\"> Zulu<\/option> <option value=\"gd\"> Kırım Tatarca<\/option> <option value=\"es\"> İspanyolca<\/option> <option value=\"sk\"> Slovakça<\/option> <option value=\"sl\"> Slovence<\/option> <option value=\"sw\"> Swahili<\/option> <option value=\"su\"> Sundanese<\/option> <option value=\"ceb\"> Sebuanca<\/option> <option value=\"sr\"> Sırp<\/option> <option value=\"sx\"> Sotho Dili<\/option> <option value=\"so\"> Somali<\/option> <option value=\"th\"> Tay<\/option> <option value=\"tl\"> \"Tagalog\"<\/option> <option value=\"tg\"> Tajiki<\/option> <option value=\"ta\"> Tamil<\/option> <option value=\"cs\"> Çek<\/option> <option value=\"ny\"> Chewa<\/option> <option value=\"te\"> Telugu dili<\/option> <option value=\"da\"> Danimarka<\/option> <option value=\"de\"> Almanca<\/option> <option value=\"tr\"> Türk<\/option> <option value=\"ne\"> Nepal dili<\/option> <option value=\"no\"> Norveç<\/option> <option value=\"ht\"> Haiti<\/option> <option value=\"ha\"> Hausa dili<\/option> <option value=\"ps\"> Pushto<\/option> <option value=\"eu\"> Bask dili<\/option> <option value=\"haw\"> Hawaii<\/option> <option value=\"hu\"> Macar<\/option> <option value=\"pa\"> Pencap dili<\/option> <option value=\"hi\"> Hintçe<\/option> <option value=\"fi\"> Finlandiya<\/option> <option value=\"fr\"> Fransızca<\/option> <option value=\"fy\"> Frizce<\/option> <option value=\"bg\"> Bulgar<\/option> <option value=\"vi\"> Vietnamca<\/option> <option value=\"he\"> İbranice<\/option> <option value=\"be\"> Belarus<\/option> <option value=\"fa\"> Farsça<\/option> <option value=\"bn\"> Bengalce<\/option> <option value=\"pl\"> Lehçe<\/option> <option value=\"bs\"> Boşnakça<\/option> <option value=\"pt\"> Portekizce<\/option> <option value=\"mi\"> Maori<\/option> <option value=\"mk\"> Makedonya<\/option> <option value=\"mr\"> Marathi dili<\/option> <option value=\"mg\"> Madagaskar<\/option> <option value=\"ml\"> Malayalam dili<\/option> <option value=\"mt\"> Malta<\/option> <option value=\"ms\"> Malay<\/option> <option value=\"my\"> Myanmar<\/option> <option value=\"mn\"> Moğol<\/option> <option value=\"hmn\"> keşiş<\/option> <option value=\"yo\"> Yoruba dili<\/option> <option value=\"lo\"> Laos<\/option> <option value=\"la\"> Latince<\/option> <option value=\"lv\"> Letonya<\/option> <option value=\"lt\"> Litvanya<\/option> <option value=\"ro\"> Romanya<\/option> <option value=\"lb\"> Lüksemburg dili<\/option> <option value=\"ru\"> Rus<\/option> <option value=\"en\"> İngilizce<\/option> <option value=\"ko\"> Kore dili<\/option> <option value=\"zh-CN\"> Çince (ÇHC)<\/option> <option value=\"zh-TW\"> Çince (Tayvan)<\/option> <option value=\"ja\"> Japonca<\/option>"
+    },
+    "settingsLabel": {
+        "message": "Settings"
+    },
+    "generalLabel": {
+        "message": "General"
+    },
+    "targetLangCaptionLabel": {
+        "message": "Select the default target language."
+    },
+    "webPageLabel": {
+        "message": "Web page"
+    },
+    "ifShowButtonLabel": {
+        "message": "Display the button when text is selected"
+    },
+    "ifShowButtonCaptionLabel": {
+        "message": "Display the translation button when text is selected on the web page."
+    },
+    "ifCheckLangLabel": {
+        "message": "Do not display the button if translation is not required"
+    },
+    "ifCheckLangCaptionLabel": {
+        "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+    },
+    "ifShowMenuLabel": {
+        "message": "Display the context menu"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "Add items to the context menu displayed when right clicking on the web page."
+    },
+    "toolbarLabel": {
+        "message": "Toolbar popup"
+    },
+    "ifChangeSecondLangLabel": {
+        "message": "Automatically switch to the second language"
+    },
+    "ifChangeSecondLangCaptionLabel": {
+        "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+    },
+    "secondTargetLangLabel": {
+        "message": "İkinci dil"
+    },
+    "secondTargetLangCaptionLabel": {
+        "message": "Select the second target language."
+    },
+    "styleLabel": {
+        "message": "Style"
+    },
+    "buttonStyleLabel": {
+        "message": "Translation button"
+    },
+    "buttonStyleCaptionLabel": {
+        "message": "Specify the style of the translation button displayed on the web page."
+    },
+    "buttonSizeLabel": {
+        "message": "Size"
+    },
+    "buttonPositionLabel": {
+        "message": "Display position"
+    },
+    "rightUpLabel": {
+        "message": "Top right"
+    },
+    "rightDownLabel": {
+        "message": "Sağ alt"
+    },
+    "leftUpLabel": {
+        "message": "Top left"
+    },
+    "leftDownLabel": {
+        "message": "Bottom left"
+    },
+    "panelStyleLabel": {
+        "message": "Translation panel"
+    },
+    "panelStyleCaptionLabel": {
+        "message": "Specify the style of the translation panel displayed on the web page."
+    },
+    "widthLabel": {
+        "message": "Width"
+    },
+    "heightLabel": {
+        "message": "Height"
+    },
+    "fontSizeLabel": {
+        "message": "Yazı tipi boyutu"
+    },
+    "informationLabel": {
+        "message": "Information"
+    },
+    "licenseLabel": {
+        "message": "License"
+    },
+    "donationLabel": {
+        "message": "Please make a donation"
+    },
+    "donationCaptionLabel": {
+        "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+    },
+    "addonPageLabel": {
+        "message": "Add-on page"
+    },
+    "addonUrl": {
+        "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
+    },
+    "translatePageMenu": {
+        "message": "Bu sayfayı çevir"
+    },
+    "translateTextMenu": {
+        "message": "Seçilen metni çevir"
+    },
+    "translateLinkMenu": {
+        "message": "Seçilen linki çevir"
+    }
+}

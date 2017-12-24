@@ -1,0 +1,134 @@
+{
+    "extName": {
+        "message": "Simple Translate"
+    },
+    "extDescription": {
+        "message": "Ver traducciones fácilmente mientras navega por la web."
+    },
+    "initialTextArea": {
+        "message": "Introducir texto"
+    },
+    "showLink": {
+        "message": "Traducir esta página"
+    },
+    "targetLangLabel": {
+        "message": "Idioma de destino"
+    },
+    "langList": {
+        "message": "<option value=\"is\">Islandés<\/option><option value=\"ga\">Irlandés<\/option><option value=\"az\">Azerbaiyán<\/option><option value=\"af\">Afrikaans<\/option><option value=\"am\">Amárico<\/option><option value=\"ar\">Árabe<\/option><option value=\"sq\">Albanés<\/option><option value=\"hy\">Armenio<\/option><option value=\"it\">Italiano<\/option><option value=\"yi\">Yiddish<\/option><option value=\"ig\">Igbo<\/option><option value=\"id\">Indonesio<\/option><option value=\"cy\">Galés<\/option><option value=\"uk\">Ucraniano<\/option><option value=\"uz\">Uzbeko<\/option><option value=\"your\">Urdu<\/option><option value=\"et\">Estonio<\/option><option value=\"eo\">Esperanto<\/option><option value=\"nl\">Holandés<\/option><option value=\"kk\">Kazajo<\/option><option value=\"ca\">Catalán<\/option><option value=\"gl\">Gallego<\/option><option value=\"kn\">Kannada<\/option><option value=\"el\">Griego<\/option><option value=\"ky\">Kirguizistán<\/option><option value=\"gu\">Gujarati<\/option><option value=\"km\">Khmer<\/option><option value=\"ku\">Kurdo<\/option><option value=\"hr\">Croata<\/option><option value=\"xh\">Xosa<\/option><option value=\"co\">Corsa<\/option><option value=\"sm\">Samoa<\/option><option value=\"jv\">Javanés<\/option><option value=\"ka\">Georgia<\/option><option value=\"sn\">Shona<\/option><option value=\"sd\">Sindhi<\/option><option value=\"si\">Cingalés<\/option><option value=\"sv\">Sueco<\/option><option value=\"zu\">Zulú<\/option><option value=\"gd\">Gaélico escocés<\/option><option value=\"es\">Español<\/option><option value=\"sk\">Eslovaco<\/option><option value=\"sl\">Esloveno<\/option><option value=\"sw\">Swahili<\/option><option value=\"su\">Sundanés<\/option><option value=\"ceb\">Cebuano<\/option><option value=\"sr\">Serbio<\/option><option value=\"sx\">Sotho<\/option><option value=\"so\">somalí<\/option><option value=\"th\">Tailandés<\/option><option value=\"tl\">Chino simplificado<\/option><option value=\"tg\">Tajiki<\/option><option value=\"ta\">Tamil<\/option><option value=\"cs\">Checa<\/option><option value=\"ny\">Chewa<\/option><option value=\"te\">Telugu<\/option><option value=\"da\">Danés<\/option><option value=\"de\">Alemán<\/option><option value=\"tr\">Turco<\/option><option value=\"ne\">Nepali<\/option><option value=\"no\">Noruego<\/option><option value=\"ht\">Haití<\/option><option value=\"ha\">Hausa<\/option><option value=\"ps\">Pushto<\/option><option value=\"eu\">Vasco<\/option><option value=\"haw\">Hawaiano<\/option><option value=\"hu\">Húngaro<\/option><option value=\"pa\">Punjabi<\/option><option value=\"hi\">Hindi<\/option><option value=\"fi\">Finlandés<\/option><option value=\"fr\">Francés<\/option><option value=\"fy\">Frisón<\/option><option value=\"bg\">Búlgaro<\/option><option value=\"vi\">Vietnamita<\/option><option value=\"he\">Hebreo<\/option><option value=\"be\">Bielorruso<\/option><option value=\"fa\">Persa<\/option><option value=\"bn\">Bengalí<\/option><option value=\"pl\">Polaco<\/option><option value=\"bs\">Bosnio<\/option><option value=\"pt\">Portugués<\/option><option value=\"mi\">Maori<\/option><option value=\"mk\">Macedonio<\/option><option value=\"mr\">Marathi<\/option><option value=\"mg\">Malgache<\/option><option value=\"ml\">Malayalam<\/option><option value=\"mt\">Maltés<\/option><option value=\"ms\">Malayo<\/option><option value=\"my\">Myanmar<\/option><option value=\"mn\">Mongol<\/option><option value=\"hmn\">Monje<\/option><option value=\"yo\">Yoruba<\/option><option value=\"lo\">Laos<\/option><option value=\"la\">Latina<\/option><option value=\"lv\">Letonia<\/option><option value=\"lt\">Lituania<\/option><option value=\"ro\">Rumano<\/option><option value=\"lb\">Luxemburgués<\/option><option value=\"ru\">Ruso<\/option><option value=\"en\">Inglés<\/option><option value=\"ko\">Coreano<\/option><option value=\"zh-CN\">Chino (PRC)<\/option><option value=\"zh-TW\">Chino (Taiwán)<\/option><option value=\"ja\">Japonés<\/option>"
+    },
+    "settingsLabel": {
+        "message": "Settings"
+    },
+    "generalLabel": {
+        "message": "General"
+    },
+    "targetLangCaptionLabel": {
+        "message": "Select the default target language."
+    },
+    "webPageLabel": {
+        "message": "Web page"
+    },
+    "ifShowButtonLabel": {
+        "message": "Display the button when text is selected"
+    },
+    "ifShowButtonCaptionLabel": {
+        "message": "Display the translation button when text is selected on the web page."
+    },
+    "ifCheckLangLabel": {
+        "message": "Do not display the button if translation is not required"
+    },
+    "ifCheckLangCaptionLabel": {
+        "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+    },
+    "ifShowMenuLabel": {
+        "message": "Display the context menu"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "Add items to the context menu displayed when right clicking on the web page."
+    },
+    "toolbarLabel": {
+        "message": "Toolbar popup"
+    },
+    "ifChangeSecondLangLabel": {
+        "message": "Automatically switch to the second language"
+    },
+    "ifChangeSecondLangCaptionLabel": {
+        "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+    },
+    "secondTargetLangLabel": {
+        "message": "Segunda lengua"
+    },
+    "secondTargetLangCaptionLabel": {
+        "message": "Select the second target language."
+    },
+    "styleLabel": {
+        "message": "Style"
+    },
+    "buttonStyleLabel": {
+        "message": "Translation button"
+    },
+    "buttonStyleCaptionLabel": {
+        "message": "Specify the style of the translation button displayed on the web page."
+    },
+    "buttonSizeLabel": {
+        "message": "Size"
+    },
+    "buttonPositionLabel": {
+        "message": "Display position"
+    },
+    "rightUpLabel": {
+        "message": "Top right"
+    },
+    "rightDownLabel": {
+        "message": "Abajo a la derecha"
+    },
+    "leftUpLabel": {
+        "message": "Top left"
+    },
+    "leftDownLabel": {
+        "message": "Bottom left"
+    },
+    "panelStyleLabel": {
+        "message": "Translation panel"
+    },
+    "panelStyleCaptionLabel": {
+        "message": "Specify the style of the translation panel displayed on the web page."
+    },
+    "widthLabel": {
+        "message": "Width"
+    },
+    "heightLabel": {
+        "message": "Height"
+    },
+    "fontSizeLabel": {
+        "message": "Tamaño de la fuente"
+    },
+    "informationLabel": {
+        "message": "Information"
+    },
+    "licenseLabel": {
+        "message": "License"
+    },
+    "donationLabel": {
+        "message": "Please make a donation"
+    },
+    "donationCaptionLabel": {
+        "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+    },
+    "addonPageLabel": {
+        "message": "Add-on page"
+    },
+    "addonUrl": {
+        "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
+    },
+    "translatePageMenu": {
+        "message": "Traducir esta página"
+    },
+    "translateTextMenu": {
+        "message": "Traducir texto seleccionado"
+    },
+    "translateLinkMenu": {
+        "message": "Traducir enlace seleccionado"
+    }
+}

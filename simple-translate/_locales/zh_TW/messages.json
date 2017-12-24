@@ -21,37 +21,37 @@
         "message": "設定"
     },
     "generalLabel": {
-        "message": "General"
+        "message": "一般設定"
     },
     "targetLangCaptionLabel": {
-        "message": "Select the default target language."
+        "message": "選擇預設的目標語言。"
     },
     "webPageLabel": {
-        "message": "Web page"
+        "message": "網頁"
     },
     "ifShowButtonLabel": {
-        "message": "Display the button when text is selected"
+        "message": "選取文字時顯示按鈕"
     },
     "ifShowButtonCaptionLabel": {
-        "message": "Display the translation button when text is selected on the web page."
+        "message": "在網頁上選取文字時顯示翻譯按鈕。"
     },
     "ifCheckLangLabel": {
-        "message": "Do not display the button if translation is not required"
+        "message": "如果不需翻譯時, 請不要顯示該按鈕"
     },
     "ifCheckLangCaptionLabel": {
         "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
     },
     "ifShowMenuLabel": {
-        "message": "Display the context menu"
+        "message": "顯示內容選單"
     },
     "ifShowMenuCaptionLabel": {
         "message": "Add items to the context menu displayed when right clicking on the web page."
     },
     "toolbarLabel": {
-        "message": "Toolbar popup"
+        "message": "工具列彈出式選單"
     },
     "ifChangeSecondLangLabel": {
-        "message": "Automatically switch to the second language"
+        "message": "自動切換至第二語言"
     },
     "ifChangeSecondLangCaptionLabel": {
         "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
@@ -60,7 +60,7 @@
         "message": "第二語言"
     },
     "secondTargetLangCaptionLabel": {
-        "message": "Select the second target language."
+        "message": "選擇第二個目標語言。"
     },
     "styleLabel": {
         "message": "樣式"
@@ -69,7 +69,7 @@
         "message": "翻譯按鈕"
     },
     "buttonStyleCaptionLabel": {
-        "message": "Specify the style of the translation button displayed on the web page."
+        "message": "指定在網頁上顯示的翻譯按鈕樣式。"
     },
     "buttonSizeLabel": {
         "message": "大小"
@@ -93,7 +93,7 @@
         "message": "翻譯面板"
     },
     "panelStyleCaptionLabel": {
-        "message": "Specify the style of the translation panel displayed on the web page."
+        "message": "指定在網頁上顯示的翻譯面板樣式。"
     },
     "widthLabel": {
         "message": "寬度"

@@ -1,0 +1,134 @@
+{
+    "extName": {
+        "message": "Simple Translate"
+    },
+    "extDescription": {
+        "message": "Lihat terjemahan dengan mudah saat Anda menjelajah web."
+    },
+    "initialTextArea": {
+        "message": "Masukkan teks"
+    },
+    "showLink": {
+        "message": "Terjemahkan halaman ini"
+    },
+    "targetLangLabel": {
+        "message": "Bahasa Target"
+    },
+    "langList": {
+        "message": "<option value=\"is\"> Islandia<\/option> <option value=\"ga\"> Irlandia<\/option> <option value=\"az\"> Azerbaijan<\/option> <option value=\"af\"> Afrikaans<\/option> <option value=\"am\"> Amhar<\/option> <option value=\"ar\"> bahasa Arab<\/option> <option value=\"sq\"> Albania<\/option> <option value=\"hy\"> Armenia<\/option> <option value=\"it\"> Italia<\/option> <option value=\"yi\"> bahasa Yiddish<\/option> <option value=\"ig\"> Igbo<\/option> <option value=\"id\"> Indonesia<\/option> <option value=\"cy\"> Welsh<\/option> <option value=\"uk\"> Ukraina<\/option> <option value=\"uz\"> Uzbek<\/option> <option value=\"your\"> bahasa Urdu<\/option> <option value=\"et\"> Estonia<\/option> <option value=\"eo\"> Esperanto<\/option> <option value=\"nl\"> Belanda<\/option> <option value=\"kk\"> Kazakh<\/option> <option value=\"ca\"> Catalan<\/option> <option value=\"gl\"> Galicia<\/option> <option value=\"kn\"> Kannada<\/option> <option value=\"el\"> Yunani<\/option> <option value=\"ky\"> Kirghiz<\/option> <option value=\"gu\"> Gujarati<\/option> <option value=\"km\"> Khmer<\/option> <option value=\"ku\"> Kurdi<\/option> <option value=\"hr\"> Kroasia<\/option> <option value=\"xh\"> Xosa<\/option> <option value=\"co\"> Korsika<\/option> <option value=\"sm\"> Samoa<\/option> <option value=\"jv\"> Jawa<\/option> <option value=\"ka\"> Georgia<\/option> <option value=\"sn\"> Shona<\/option> <option value=\"sd\"> Sindhi<\/option> <option value=\"si\"> Sinhala<\/option> <option value=\"sv\"> Swedia<\/option> <option value=\"zu\"> Zulu<\/option> <option value=\"gd\"> bahasa Gaelik Skotlandia<\/option> <option value=\"es\"> Spanyol<\/option> <option value=\"sk\"> Slowakia<\/option> <option value=\"sl\"> Slovenia<\/option> <option value=\"sw\"> bahasa Swahili<\/option> <option value=\"su\"> Sunda<\/option> <option value=\"ceb\"> Cebuano<\/option> <option value=\"sr\"> Serbia<\/option> <option value=\"sx\"> Sepedi<\/option> <option value=\"so\"> Somalia<\/option> <option value=\"th\"> Thailand<\/option> <option value=\"tl\"> bahasa Tagalog<\/option> <option value=\"tg\"> Tajiki<\/option> <option value=\"ta\"> Tamil<\/option> <option value=\"cs\"> Ceko<\/option> <option value=\"ny\"> Chewa<\/option> <option value=\"te\"> Bahasa Telugu<\/option> <option value=\"da\"> Denmark<\/option> <option value=\"de\"> Jerman<\/option> <option value=\"tr\"> Turki<\/option> <option value=\"ne\"> bahasa Nepal<\/option> <option value=\"no\"> Norwegia<\/option> <option value=\"ht\"> Haiti<\/option> <option value=\"ha\"> Hausa<\/option> <option value=\"ps\"> Pushto<\/option> <option value=\"eu\"> Basque<\/option> <option value=\"haw\"> Hawaii<\/option> <option value=\"hu\"> Hongaria<\/option> <option value=\"pa\"> Punjabi<\/option> <option value=\"hi\"> Hindi<\/option> <option value=\"fi\"> Finlandia<\/option> <option value=\"fr\"> Perancis<\/option> <option value=\"fy\"> Frisian<\/option> <option value=\"bg\"> Bulgaria<\/option> <option value=\"vi\"> Vietnam<\/option> <option value=\"he\"> bahasa Ibrani<\/option> <option value=\"be\"> Belarusia<\/option> <option value=\"fa\"> Persia<\/option> <option value=\"bn\"> bahasa Bengali<\/option> <option value=\"pl\"> Polandia<\/option> <option value=\"bs\"> Bahasa Bosnia<\/option> <option value=\"pt\"> Portugis<\/option> <option value=\"mi\"> Maori<\/option> <option value=\"mk\"> Makedonia<\/option> <option value=\"mr\"> Marathi<\/option> <option value=\"mg\"> Malagasi<\/option> <option value=\"ml\"> bahasa Malayalam<\/option> <option value=\"mt\"> Malta<\/option> <option value=\"ms\"> Melayu<\/option> <option value=\"my\"> Myanmar<\/option> <option value=\"mn\"> Mongolia<\/option> <option value=\"hmn\"> biarawan<\/option> <option value=\"yo\"> Yoruba<\/option> <option value=\"lo\"> Laos<\/option> <option value=\"la\"> Latin<\/option> <option value=\"lv\"> Latvia<\/option> <option value=\"lt\"> Lituania<\/option> <option value=\"ro\"> Rumania<\/option> <option value=\"lb\"> Luksemburg<\/option> <option value=\"ru\"> Rusia<\/option> <option value=\"en\"> bahasa Inggris<\/option> <option value=\"ko\"> Korea<\/option> <option value=\"zh-CN\"> Cina (RRC)<\/option> <option value=\"zh-TW\"> China (Taiwan)<\/option> <option value=\"ja\"> Jepang<\/option>"
+    },
+    "settingsLabel": {
+        "message": "Settings"
+    },
+    "generalLabel": {
+        "message": "General"
+    },
+    "targetLangCaptionLabel": {
+        "message": "Select the default target language."
+    },
+    "webPageLabel": {
+        "message": "Web page"
+    },
+    "ifShowButtonLabel": {
+        "message": "Display the button when text is selected"
+    },
+    "ifShowButtonCaptionLabel": {
+        "message": "Display the translation button when text is selected on the web page."
+    },
+    "ifCheckLangLabel": {
+        "message": "Do not display the button if translation is not required"
+    },
+    "ifCheckLangCaptionLabel": {
+        "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+    },
+    "ifShowMenuLabel": {
+        "message": "Display the context menu"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "Add items to the context menu displayed when right clicking on the web page."
+    },
+    "toolbarLabel": {
+        "message": "Toolbar popup"
+    },
+    "ifChangeSecondLangLabel": {
+        "message": "Automatically switch to the second language"
+    },
+    "ifChangeSecondLangCaptionLabel": {
+        "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+    },
+    "secondTargetLangLabel": {
+        "message": "Bahasa kedua"
+    },
+    "secondTargetLangCaptionLabel": {
+        "message": "Select the second target language."
+    },
+    "styleLabel": {
+        "message": "Style"
+    },
+    "buttonStyleLabel": {
+        "message": "Translation button"
+    },
+    "buttonStyleCaptionLabel": {
+        "message": "Specify the style of the translation button displayed on the web page."
+    },
+    "buttonSizeLabel": {
+        "message": "Size"
+    },
+    "buttonPositionLabel": {
+        "message": "Display position"
+    },
+    "rightUpLabel": {
+        "message": "Top right"
+    },
+    "rightDownLabel": {
+        "message": "Kanan bawah"
+    },
+    "leftUpLabel": {
+        "message": "Top left"
+    },
+    "leftDownLabel": {
+        "message": "Bottom left"
+    },
+    "panelStyleLabel": {
+        "message": "Translation panel"
+    },
+    "panelStyleCaptionLabel": {
+        "message": "Specify the style of the translation panel displayed on the web page."
+    },
+    "widthLabel": {
+        "message": "Width"
+    },
+    "heightLabel": {
+        "message": "Height"
+    },
+    "fontSizeLabel": {
+        "message": "Ukuran huruf"
+    },
+    "informationLabel": {
+        "message": "Information"
+    },
+    "licenseLabel": {
+        "message": "License"
+    },
+    "donationLabel": {
+        "message": "Please make a donation"
+    },
+    "donationCaptionLabel": {
+        "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+    },
+    "addonPageLabel": {
+        "message": "Add-on page"
+    },
+    "addonUrl": {
+        "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
+    },
+    "translatePageMenu": {
+        "message": "Terjemahkan halaman ini"
+    },
+    "translateTextMenu": {
+        "message": "Terjemahkan Teks yang Dipilih"
+    },
+    "translateLinkMenu": {
+        "message": "Terjemahkan tautan yang dipilih"
+    }
+}

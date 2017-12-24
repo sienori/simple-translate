@@ -117,7 +117,7 @@
         "message": "感謝您使用 Simple Translate。<br>您的支持是我繼續開發這個附加元件的動力。<br>如果您喜歡 Simple Translate，希望您可以贊助我。"
     },
     "addonPageLabel": {
-        "message": "Add-on page"
+        "message": "AMO 附加元件頁面"
     },
     "addonUrl": {
         "message": "https:\/\/addons.mozilla.org\/zh-TW\/firefox\/addon\/simple-translate\/?src=optionpage"

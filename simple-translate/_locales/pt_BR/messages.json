@@ -1,0 +1,134 @@
+{
+    "extName": {
+        "message": "Simple Translate"
+    },
+    "extDescription": {
+        "message": "Veja as traduções facilmente à medida que você navega na web."
+    },
+    "initialTextArea": {
+        "message": "Digite o texto"
+    },
+    "showLink": {
+        "message": "Traduzir esta página"
+    },
+    "targetLangLabel": {
+        "message": "Idioma alvo"
+    },
+    "langList": {
+        "message": "<option value=\"pt\">Português<\/option><option value=\"af\">Africano<\/option><option value=\"sq\">Albanês<\/option><option value=\"de\">Alemão<\/option><option value=\"am\">Amárico<\/option><option value=\"ar\">Árabe<\/option><option value=\"hy\">Armênio<\/option><option value=\"az\">Azerbaijano<\/option><option value=\"eu\">Basco<\/option><option value=\"bn\">Bengali<\/option><option value=\"be\">Bielorrusso<\/option><option value=\"bs\">Bósnio<\/option><option value=\"bg\">Búlgaro<\/option><option value=\"kk\">Cazaque<\/option><option value=\"ca\">Catalão<\/option><option value=\"ceb\">Cebuano<\/option><option value=\"cs\">Checo<\/option><option value=\"ny\">Chewa<\/option><option value=\"zh-CN\">Chinês (PRC)<\/option><option value=\"zh-TW\">Chinês (Taiwan)<\/option><option value=\"ko\">Coreano<\/option><option value=\"co\">Corsa<\/option><option value=\"hr\">Croata<\/option><option value=\"ku\">Curdo<\/option><option value=\"da\">Dinamarquês<\/option><option value=\"sk\">Eslovaco<\/option><option value=\"sl\">Esloveno<\/option><option value=\"es\">Espanhol<\/option><option value=\"eo\">Esperanto<\/option><option value=\"et\">Estoniano<\/option><option value=\"fi\">Finlandês<\/option><option value=\"fr\">Francês<\/option><option value=\"fy\">Frísio<\/option><option value=\"gd\">Gaélico Escocês<\/option><option value=\"gl\">Galego<\/option><option value=\"cy\">Galês<\/option><option value=\"ka\">Georgiano<\/option><option value=\"el\">Grego<\/option><option value=\"gu\">Gujarati<\/option><option value=\"ht\">Haitiano<\/option><option value=\"ha\">Hausa<\/option><option value=\"haw\">Havaiano<\/option><option value=\"he\">Hebraico<\/option><option value=\"hi\">Hindi<\/option><option value=\"nl\">Holandês<\/option><option value=\"hu\">Húngaro<\/option><option value=\"ig\">Igbo<\/option><option value=\"yi\">Iídiche<\/option><option value=\"id\">Indonésio<\/option><option value=\"en\">Inglês<\/option><option value=\"ga\">Irlandês<\/option><option value=\"is\">Islandês<\/option><option value=\"it\">Italiano<\/option><option value=\"ja\">Japonês<\/option><option value=\"jv\">Javanês<\/option><option value=\"kn\">Kannada<\/option><option value=\"km\">Khmer<\/option><option value=\"ky\">Kirghiz<\/option><option value=\"lo\">Laociano<\/option><option value=\"la\">Latim<\/option><option value=\"lv\">Letão<\/option><option value=\"lt\">Lituano<\/option><option value=\"lb\">Luxemburguês<\/option><option value=\"mk\">Macedônio<\/option><option value=\"ms\">Malaio<\/option><option value=\"ml\">Malayalam<\/option><option value=\"mg\">Malgaxe<\/option><option value=\"mt\">Maltês<\/option><option value=\"mi\">Maori<\/option><option value=\"mr\">Marathi<\/option><option value=\"hmn\">Monge<\/option><option value=\"mn\">Mongol<\/option><option value=\"my\">Myanmar<\/option><option value=\"ne\">Nepalês<\/option><option value=\"no\">Norueguês<\/option><option value=\"fa\">Persa<\/option><option value=\"pl\">Polonês<\/option><option value=\"pa\">Punjabi<\/option><option value=\"ps\">Pushto<\/option><option value=\"ro\">Romeno<\/option><option value=\"ru\">Russo<\/option><option value=\"sm\">Samoano<\/option><option value=\"sr\">Sérvio<\/option><option value=\"sn\">Shona<\/option><option value=\"sd\">Sindhi<\/option><option value=\"si\">Sinhala<\/option><option value=\"so\">Somali<\/option><option value=\"sx\">Sotho<\/option><option value=\"su\">Sudanês<\/option><option value=\"sv\">Sueco<\/option><option value=\"sw\">Swahili<\/option><option value=\"tl\">Tagalog<\/option><option value=\"th\">Tailandês<\/option><option value=\"tg\">Tajiki<\/option><option value=\"ta\">Tâmil<\/option><option value=\"te\">Telugu<\/option><option value=\"tr\">Turco<\/option><option value=\"uk\">Ucraniano<\/option><option value=\"ur\">Urdu<\/option><option value=\"uz\">Uzbeque<\/option><option value=\"vi\">Vietnamita<\/option><option value=\"xh\">Xhosa<\/option><option value=\"yo\">Yoruba<\/option><option value=\"zu\">Zulu<\/option>"
+    },
+    "settingsLabel": {
+        "message": "Configurações"
+    },
+    "generalLabel": {
+        "message": "Geral"
+    },
+    "targetLangCaptionLabel": {
+        "message": "Selecione o idioma alvo padrão."
+    },
+    "webPageLabel": {
+        "message": "Página web"
+    },
+    "ifShowButtonLabel": {
+        "message": "Aparecer um botão ao selecionar texto"
+    },
+    "ifShowButtonCaptionLabel": {
+        "message": "Exibir o botão de tradução quando um texto for selecionado na página web."
+    },
+    "ifCheckLangLabel": {
+        "message": "Não mostrar o botão se a tradução não for necessária"
+    },
+    "ifCheckLangCaptionLabel": {
+        "message": "Detecta o idioma do texto selecionado e, se for o mesmo que o idioma alvo, o botão não é exibido."
+    },
+    "ifShowMenuLabel": {
+        "message": "Exibir menu de contexto"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "Adicionar itens ao menu de contexto apresentado quando clicar com o botão direito do mouse na página web."
+    },
+    "toolbarLabel": {
+        "message": "Barra de ferramentas"
+    },
+    "ifChangeSecondLangLabel": {
+        "message": "Automaticamente troca para o segundo idioma"
+    },
+    "ifChangeSecondLangCaptionLabel": {
+        "message": "Detecta o idioma do texto entrado, e se for o mesmo que o idioma alvo padrão, traduz para o segundo idioma."
+    },
+    "secondTargetLangLabel": {
+        "message": "Segundo idioma"
+    },
+    "secondTargetLangCaptionLabel": {
+        "message": "Selecione o segundo idioma alvo."
+    },
+    "styleLabel": {
+        "message": "Estilo"
+    },
+    "buttonStyleLabel": {
+        "message": "Botão de tradução"
+    },
+    "buttonStyleCaptionLabel": {
+        "message": "Especifique o estilo do botão de tradução apresentado na página web."
+    },
+    "buttonSizeLabel": {
+        "message": "Tamanho"
+    },
+    "buttonPositionLabel": {
+        "message": "Posição de apresentação"
+    },
+    "rightUpLabel": {
+        "message": "Canto superior direito"
+    },
+    "rightDownLabel": {
+        "message": "Canto inferior direito"
+    },
+    "leftUpLabel": {
+        "message": "Canto superior esquerdo"
+    },
+    "leftDownLabel": {
+        "message": "Canto inferior esquerdo"
+    },
+    "panelStyleLabel": {
+        "message": "Painel de tradução"
+    },
+    "panelStyleCaptionLabel": {
+        "message": "Especifique o estilo do painel de tradução apresentado na página web."
+    },
+    "widthLabel": {
+        "message": "Largura"
+    },
+    "heightLabel": {
+        "message": "Altura"
+    },
+    "fontSizeLabel": {
+        "message": "Tamanho da fonte"
+    },
+    "informationLabel": {
+        "message": "Informação"
+    },
+    "licenseLabel": {
+        "message": "Licença"
+    },
+    "donationLabel": {
+        "message": "Por favor, faça uma doaçao"
+    },
+    "donationCaptionLabel": {
+        "message": "Obrigado por usar o Simple Translate.<br>O seu apoio será um grande incentivo, à medida que continuarmos desenvolvendo a extensão.<br>Se você gosta do Simple Translate, ficaríamos satisfeitos se você pudesse considerar uma doação."
+    },
+    "addonPageLabel": {
+        "message": "Página da extensão"
+    },
+    "addonUrl": {
+        "message": "https:\/\/addons.mozilla.org\/pt-BR\/firefox\/addon\/simple-translate\/?src=optionpage"
+    },
+    "translatePageMenu": {
+        "message": "Traduzir esta página"
+    },
+    "translateTextMenu": {
+        "message": "Traduzir o texto selecionado"
+    },
+    "translateLinkMenu": {
+        "message": "Traduzir o endereço selecionado"
+    }
+}

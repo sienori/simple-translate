@@ -36,7 +36,7 @@
         "message": "在網頁上選取文字時顯示翻譯按鈕。"
     },
     "ifCheckLangLabel": {
-        "message": "如果不需翻譯時, 請不要顯示該按鈕"
+        "message": "如果不需翻譯時, 不要顯示按鈕"
     },
     "ifCheckLangCaptionLabel": {
         "message": "偵測所選文字的語言, 如果它與目標語言相同, 則不顯示該按鈕。"

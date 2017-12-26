@@ -45,13 +45,13 @@
         "message": "İçerik menüsünü görüntüle"
     },
     "ifShowMenuCaptionLabel": {
-        "message": "Add items to the context menu displayed when right clicking on the web page."
+        "message": "Web sayfasında sağ tıklandığında öğeleri görüntülenen içerik menüsüne ekle."
     },
     "toolbarLabel": {
-        "message": "Toolbar popup"
+        "message": "Açılır araç çubuğu penceresi"
     },
     "ifChangeSecondLangLabel": {
-        "message": "Automatically switch to the second language"
+        "message": "İkinci dile otomatik geç"
     },
     "ifChangeSecondLangCaptionLabel": {
         "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."

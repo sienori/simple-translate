@@ -99,7 +99,7 @@ function getRequest(word) {
     return new Promise(function (resolve, reject) {
         let xhr = new XMLHttpRequest();
         xhr.responseType = 'json';
-        let url = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=" + S.get().targetLang + "&dt=t&q=" + encodeURIComponent(word);
+        let url = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=" + S.get().targetLang + "&dt=t&dt=bd&q=" + encodeURIComponent(word);
         xhr.open("GET", url);
         xhr.send();
         xhr.onload = function () {
@@ -117,6 +117,12 @@ function showResult(results) {
             resultText += results[j].response[0][i][0];
         }
         resultText += "\n"; //
+
+        if (results[j].response[1]) {
+          for (let i = 0; i < results[j].response[1].length; i++) {
+            resultText += "\n" + results[j].response[1][i][0] + ": " + results[j].response[1][i][1].join(", ");
+          }
+        }
     }
     panel.innerHTML = "<p></p>"
     panel.getElementsByTagName("p")[0].innerText = resultText;

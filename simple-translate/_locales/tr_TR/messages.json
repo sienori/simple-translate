@@ -27,22 +27,22 @@
         "message": "Varsayılan hedef dilini seçin."
     },
     "webPageLabel": {
-        "message": "Web page"
+        "message": "İnternet sayfası"
     },
     "ifShowButtonLabel": {
-        "message": "Display the button when text is selected"
+        "message": "Metin seçiliyken tuşu görüntüle"
     },
     "ifShowButtonCaptionLabel": {
-        "message": "Display the translation button when text is selected on the web page."
+        "message": "Web sayfasında metin seçiliyken çeviri butonunu görüntüle."
     },
     "ifCheckLangLabel": {
-        "message": "Do not display the button if translation is not required"
+        "message": "Çeviri gerekmedikçe tuşu görüntüleme"
     },
     "ifCheckLangCaptionLabel": {
-        "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+        "message": "Seçili metnin dilini algılar ve dil aynı ise tuş görüntülenmez."
     },
     "ifShowMenuLabel": {
-        "message": "Display the context menu"
+        "message": "İçerik menüsünü görüntüle"
     },
     "ifShowMenuCaptionLabel": {
         "message": "Add items to the context menu displayed when right clicking on the web page."

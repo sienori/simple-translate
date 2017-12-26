@@ -114,10 +114,10 @@
         "message": "Lütfen bağış yapın"
     },
     "donationCaptionLabel": {
-        "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+        "message": "Simple Translate'i kullandığınız için teşekkür ederiz.<br>Eklentileri geliştirmeye devam ettikçe, destekleriniz bizim için büyük bir teşvik olacaktır.<br> Simpe Translate'i beğendiyseniz, bağış yaparak bizi mutlu edebilirsiniz."
     },
     "addonPageLabel": {
-        "message": "Add-on page"
+        "message": "Ek sayfa"
     },
     "addonUrl": {
         "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"

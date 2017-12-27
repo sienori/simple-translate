@@ -27,7 +27,7 @@
         "message": "Wähle die Standardzielsprache."
     },
     "webPageLabel": {
-        "message": "Web page"
+        "message": "Webseite"
     },
     "ifShowCandidateLabel": {
         "message": "Alternative Übersetzungen anzeigen"
@@ -36,28 +36,28 @@
         "message": "Mehrere alternative Übersetzungen anzeigen wenn ein einzelnes Wort übersetzt wird."
     },
     "ifShowButtonLabel": {
-        "message": "Display the button when text is selected"
+        "message": "Die Schaltfläche anzeigen wenn Text ausgewählt ist"
     },
     "ifShowButtonCaptionLabel": {
-        "message": "Display the translation button when text is selected on the web page."
+        "message": "Die Übersetzungsschaltfläche anzeigen wenn Text auf der Webseite ausgewählt ist."
     },
     "ifCheckLangLabel": {
-        "message": "Do not display the button if translation is not required"
+        "message": "Die Schaltfläche nicht angezeigt, wenn keine Übersetzung notwendig ist"
     },
     "ifCheckLangCaptionLabel": {
-        "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+        "message": "Erkennt die Sprache des ausgewählten Textes und unterdrückt die Schaltfläche wenn der Text bereits in der Zielsprache ist."
     },
     "ifShowMenuLabel": {
-        "message": "Display the context menu"
+        "message": "Kontextmenü anzeigen"
     },
     "ifShowMenuCaptionLabel": {
-        "message": "Add items to the context menu displayed when right clicking on the web page."
+        "message": "Menüeinträge zu dem Kontextmenü hinzufügen welches angezeigt wird wenn man mit der rechten Maustaste auf eine Webseite klickt."
     },
     "toolbarLabel": {
-        "message": "Toolbar popup"
+        "message": "Werkzeugleistenfenster"
     },
     "ifChangeSecondLangLabel": {
-        "message": "Automatically switch to the second language"
+        "message": "Automatisch zur Zweitsprache wechseln"
     },
     "ifChangeSecondLangCaptionLabel": {
         "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."

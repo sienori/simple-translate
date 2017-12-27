@@ -111,7 +111,7 @@
         "message": "Schriftgröße"
     },
     "bgColorLabel": {
-        "message": "Background color"
+        "message": "Hintergrundfarbe"
     },
     "informationLabel": {
         "message": "Informationen"
@@ -129,7 +129,7 @@
         "message": "Add-on Seite"
     },
     "addonUrl": {
-        "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
+        "message": "https:\/\/addons.mozilla.org\/de\/firefox\/addon\/simple-translate\/?src=optionpage"
     },
     "translatePageMenu": {
         "message": "Diese Seite übersetzen"

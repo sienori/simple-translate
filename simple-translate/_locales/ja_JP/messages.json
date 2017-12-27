@@ -29,6 +29,12 @@
     "webPageLabel": {
         "message": "webページ"
     },
+    "ifShowCandidateLabel": {
+        "message": "翻訳候補を表示する"
+    },
+    "ifShowCandidateCaptionLabel": {
+        "message": "一つの語句が翻訳された時に複数の候補を表示します。"
+    },
     "ifShowButtonLabel": {
         "message": "テキスト選択時にボタンを表示する"
     },

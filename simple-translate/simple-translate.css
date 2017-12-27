@@ -1,3 +1,12 @@
+:root {
+    --main-text: #0c0c0d;
+    --sub-text: #737373;
+    --line: #ededf0;
+    --button: #d7d7db;
+    --highlight: #5595ff;
+    --main-bg: #ffffff;
+}
+
 #simple-translate-button {
     all: initial;
     background-color: #fff;
@@ -21,7 +30,7 @@
 
 #simple-translate-panel {
     all: initial;
-    background-color: #fff;
+    background-color: var(--main-bg);
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
     border-radius: 3px;
     min-height: 20px;
@@ -43,13 +52,16 @@
     all: initial;
     font-family: 'Segoe UI', 'San Francisco', 'Ubuntu', 'Fira Sans', 'Roboto', 'Arial', 'Helvetica', sans-serif !important;
     text-align: left;
-    display: inline-block;
+    display: block;
+    font-size: inherit;
+    color: var(--main-text);
     margin: 0;
     word-wrap: break-word;
 }
 
 #simple-translate-panel p::-moz-selection {
-    background: #ebebeb;
+    background: var(--line);
+}
 
 #simple-translate-panel .candidate {
     color: var(--sub-text);

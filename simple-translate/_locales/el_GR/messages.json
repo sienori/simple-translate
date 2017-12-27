@@ -110,6 +110,9 @@
     "fontSizeLabel": {
         "message": "Μέγεθος γραμματοσειράς"
     },
+    "bgColorLabel": {
+        "message": "Background color"
+    },
     "informationLabel": {
         "message": "Information"
     },

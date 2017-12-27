@@ -29,6 +29,12 @@
     "webPageLabel": {
         "message": "Halaman web"
     },
+    "ifShowCandidateLabel": {
+        "message": "Show translation candidates"
+    },
+    "ifShowCandidateCaptionLabel": {
+        "message": "Show multiple translation candidates when a single word is translated."
+    },
     "ifShowButtonLabel": {
         "message": "Menampilkan tombol ketika teks yang dipilih"
     },

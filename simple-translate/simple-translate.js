@@ -112,20 +112,29 @@ function getRequest(word) {
 function showResult(results) {
     panel.innerText = "";
     let resultText = "";
+    let candidateText = "";
+    let wordsCount = 0;
+    let lineCount = 0;
+
     for (let j = 0; j < results.length; j++) {
+        lineCount++;
         for (let i = 0; i < results[j].response[0].length; i++) {
             resultText += results[j].response[0][i][0];
         }
-        resultText += "\n"; //
+        resultText += "\n";
 
         if (results[j].response[1]) {
-          for (let i = 0; i < results[j].response[1].length; i++) {
-            resultText += "\n" + results[j].response[1][i][0] + ": " + results[j].response[1][i][1].join(", ");
-          }
+            wordsCount++;
+            for (let i = 0; i < results[j].response[1].length; i++) {
+                const partsOfSpeech = results[j].response[1][i][0];
+                const candidates = results[j].response[1][i][1];
+                candidateText += `\n${partsOfSpeech}${partsOfSpeech!="" ? ": " : ""}${candidates.join(", ")}`;
+            }
         }
     }
-    panel.innerHTML = "<p></p>"
-    panel.getElementsByTagName("p")[0].innerText = resultText;
+    panel.innerHTML = "<p class=result></p><p class=candidate>"
+    panel.getElementsByClassName("result")[0].innerText = resultText;
+    if (S.get().ifShowCandidate && wordsCount == 1 && lineCount == 1) panel.getElementsByClassName("candidate")[0].innerText = candidateText;
     panelPosition(clickPosition);
 
 }
@@ -170,7 +179,7 @@ function panelPosition(e) {
 
     panel.style.maxWidth = S.get().width + "px";
     panel.style.maxHeight = S.get().height + "px";
-    panel.getElementsByTagName("p")[0].style.fontSize = S.get().fontSize + "px";
+    panel.style.fontSize = S.get().fontSize + "px";
 }
 
 

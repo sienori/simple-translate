@@ -132,7 +132,9 @@ function getRequest(word) {
     return new Promise(function (resolve, reject) {
         let xhr = new XMLHttpRequest();
         xhr.responseType = 'json';
-        let url = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=" + targetLang + "&dt=t&q=" + encodeURIComponent(word);
+        //let url = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=" + targetLang + "&dt=t&q=" + encodeURIComponent(word);
+        let url = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=" + targetLang + "&dt=t&dt=bd&q=" + encodeURIComponent(word);
+
         xhr.open("GET", url);
         xhr.send();
         xhr.onload = function () {
@@ -143,8 +145,15 @@ function getRequest(word) {
 
 //翻訳結果を表示
 function showResult(results) {
-    target.innerText = "";
+    const resultArea = target.getElementsByClassName("result")[0];
+    const candidateArea = target.getElementsByClassName("candidate")[0];
+    resultArea.innerText = "";
+    candidateArea.innerText = "";
+
     let resultText = "";
+    let candidateText = "";
+    let wordsCount = 0;
+    let lineCount = 0;
 
     //第二言語に変更
     if (ifChangeSecondLang) {
@@ -154,12 +163,23 @@ function showResult(results) {
         else if ((lang != defaultTargetLang || percentage == 0) && changeLangFlag) unchangeSecondLang();
     }
     for (let j = 0; j < results.length; j++) {
+        lineCount++;
         for (let i = 0; i < results[j].response[0].length; i++) {
             resultText += results[j].response[0][i][0];
         }
         resultText += "\n";
+
+        if (results[j].response[1]) {
+            wordsCount++;
+            for (let i = 0; i < results[j].response[1].length; i++) {
+                const partsOfSpeech = results[j].response[1][i][0];
+                const candidates = results[j].response[1][i][1];
+                candidateText += `\n${partsOfSpeech}${partsOfSpeech!="" ? ": " : ""}${candidates.join(", ")}`;
+            }
+        }
     }
-    target.innerText = resultText;
+    resultArea.innerText = resultText;
+    if (S.get().ifShowCandidate && wordsCount == 1 && lineCount == 1) candidateArea.innerText = candidateText;
 }
 
 let changeLangFlag = false;

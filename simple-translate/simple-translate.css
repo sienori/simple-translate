@@ -50,6 +50,9 @@
 
 #simple-translate-panel p::-moz-selection {
     background: #ebebeb;
+
+#simple-translate-panel .candidate {
+    color: var(--sub-text);
 }
 
 @keyframes simple-translate-showButton {

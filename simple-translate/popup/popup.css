@@ -91,6 +91,14 @@ hr {
     padding: 0px 5px 20px;
 }
 
+#target p {
+    margin: 0;
+}
+
+#target .candidate {
+    color: var(--sub-text);
+}
+
 #footer {
     display: flex;
     flex-direction: row;

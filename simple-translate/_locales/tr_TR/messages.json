@@ -29,6 +29,12 @@
     "webPageLabel": {
         "message": "İnternet sayfası"
     },
+    "ifShowCandidateLabel": {
+        "message": "Show translation candidates"
+    },
+    "ifShowCandidateCaptionLabel": {
+        "message": "Show multiple translation candidates when a single word is translated."
+    },
     "ifShowButtonLabel": {
         "message": "Metin seçiliyken tuşu görüntüle"
     },

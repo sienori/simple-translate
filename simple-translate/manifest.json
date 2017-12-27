@@ -12,7 +12,7 @@
         }
     },
 
-    "permissions": ["<all_urls>", "storage", "contextMenus"],
+    "permissions": ["https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=*&dt=t&dt=bd&q=*", "storage", "contextMenus"],
 
     "options_ui": {
         "page": "options/options.html",

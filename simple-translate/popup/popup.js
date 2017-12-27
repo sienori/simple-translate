@@ -68,7 +68,7 @@ function changeLang() {
     if (sourceWord !== "") {
         translate();
     }
-    if (url !== "") showLink();
+    if (typeof (url) != "undefined") showLink();
 }
 
 //アクティブなタブを取得して渡す

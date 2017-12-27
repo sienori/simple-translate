@@ -29,6 +29,12 @@
     "webPageLabel": {
         "message": "網頁"
     },
+    "ifShowCandidateLabel": {
+        "message": "Show translation candidates"
+    },
+    "ifShowCandidateCaptionLabel": {
+        "message": "Show multiple translation candidates when a single word is translated."
+    },
     "ifShowButtonLabel": {
         "message": "選取文字時顯示按鈕"
     },

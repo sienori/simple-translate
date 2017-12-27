@@ -110,6 +110,9 @@
     "fontSizeLabel": {
         "message": "Ukuran huruf"
     },
+    "bgColorLabel": {
+        "message": "Background color"
+    },
     "informationLabel": {
         "message": "Informasi"
     },

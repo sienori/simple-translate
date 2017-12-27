@@ -110,6 +110,9 @@
     "fontSizeLabel": {
         "message": "Betűméret"
     },
+    "bgColorLabel": {
+        "message": "Background color"
+    },
     "informationLabel": {
         "message": "Information"
     },

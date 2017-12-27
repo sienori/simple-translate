@@ -110,6 +110,9 @@
     "fontSizeLabel": {
         "message": "Yazı tipi boyutu"
     },
+    "bgColorLabel": {
+        "message": "Background color"
+    },
     "informationLabel": {
         "message": "Bilgi"
     },

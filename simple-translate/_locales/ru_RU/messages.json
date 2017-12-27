@@ -18,94 +18,94 @@
         "message": "af:Afrikaans, sq:Albanian, am:Amharic, ar:Arabic, hy:Armenian, az:Azerbaijani, eu:Basque, be:Belarusian, bn:Bengali, bs:Bosnian, bg:Bulgarian, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Chinese (PRC), zh-TW:Chinese (Taiwan), co:Corsican, hr:Croatian, cs:Czech, da:Danish, nl:Dutch, en:English, eo:Esperanto, et:Estonian, fi:Finnish, fr:French, fy:Frisian, gl:Galician, ka:Georgian, de:German, el:Greek, gu:Gujarati, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesian, ga:Irish, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Korean, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:Macedonian, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persian, pl:Polish, pt:Portuguese, pa:Punjabi, ps:Pushto, ro:Romanian, ru:Russian, sm:Samoan, gd:Scottish Gaelic, sr:Serbian, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovak, sl:Slovenian, so:Somali, sx:Sotho, es:Spanish, su:Sundanese, sw:Swahili, sv:Swedish, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turkish, uk:Ukrainian, ur:Urdu, uz:Uzbek, vi:Vietnamese, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
     },
     "settingsLabel": {
-        "message": "Settings"
+        "message": "Настройки"
     },
     "generalLabel": {
-        "message": "General"
+        "message": "Общие"
     },
     "targetLangCaptionLabel": {
-        "message": "Select the default target language."
+        "message": "Выберите язык перевода по умолчанию."
     },
     "webPageLabel": {
-        "message": "Web page"
+        "message": "Веб-страница"
     },
     "ifShowCandidateLabel": {
-        "message": "Show translation candidates"
+        "message": "Показывать варианты перевода"
     },
     "ifShowCandidateCaptionLabel": {
-        "message": "Show multiple translation candidates when a single word is translated."
+        "message": "Показывать несколько вариантов перевода при выделении одного слова."
     },
     "ifShowButtonLabel": {
-        "message": "Display the button when text is selected"
+        "message": "Показывать кнопку при выделении текста"
     },
     "ifShowButtonCaptionLabel": {
-        "message": "Display the translation button when text is selected on the web page."
+        "message": "Показывать всплывающую кнопку перевода при выделении текста на веб-странице."
     },
     "ifCheckLangLabel": {
-        "message": "Do not display the button if translation is not required"
+        "message": "Не показывать кнопку, если перевод не требуется"
     },
     "ifCheckLangCaptionLabel": {
-        "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+        "message": "Если язык выделенного текста совпадает с языком перевода, то кнопка не показывается."
     },
     "ifShowMenuLabel": {
-        "message": "Display the context menu"
+        "message": "Добавить пункты в контекстное меню"
     },
     "ifShowMenuCaptionLabel": {
-        "message": "Add items to the context menu displayed when right clicking on the web page."
+        "message": "Добавить команды перевода в контекстное меню веб-страницы."
     },
     "toolbarLabel": {
-        "message": "Toolbar popup"
+        "message": "Окно на панели инструментов"
     },
     "ifChangeSecondLangLabel": {
-        "message": "Automatically switch to the second language"
+        "message": "Автоматически переключаться на дополнительный язык перевода"
     },
     "ifChangeSecondLangCaptionLabel": {
-        "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+        "message": "Переключаться на дополнительный язык перевода в окне на панели инструментов, если язык исходного текста совпадает с языком перевода по умолчанию."
     },
     "secondTargetLangLabel": {
         "message": "Дополнительный язык перевода"
     },
     "secondTargetLangCaptionLabel": {
-        "message": "Select the second target language."
+        "message": "Выберите дополнительный язык перевода."
     },
     "styleLabel": {
-        "message": "Style"
+        "message": "Стиль"
     },
     "buttonStyleLabel": {
-        "message": "Translation button"
+        "message": "Кнопка перевода"
     },
     "buttonStyleCaptionLabel": {
-        "message": "Specify the style of the translation button displayed on the web page."
+        "message": "Настройте стиль кнопки перевода, показываемой на веб-странице."
     },
     "buttonSizeLabel": {
-        "message": "Size"
+        "message": "Размер"
     },
     "buttonPositionLabel": {
-        "message": "Display position"
+        "message": "Положение"
     },
     "rightUpLabel": {
-        "message": "Top right"
+        "message": "Вверху справа"
     },
     "rightDownLabel": {
         "message": "Внизу справа"
     },
     "leftUpLabel": {
-        "message": "Top left"
+        "message": "Вверху слева"
     },
     "leftDownLabel": {
-        "message": "Bottom left"
+        "message": "Внизу слева"
     },
     "panelStyleLabel": {
-        "message": "Translation panel"
+        "message": "Панель с переводом"
     },
     "panelStyleCaptionLabel": {
-        "message": "Specify the style of the translation panel displayed on the web page."
+        "message": "Настройте стиль панели с переводом, показываемой на веб-странице."
     },
     "widthLabel": {
-        "message": "Width"
+        "message": "Ширина"
     },
     "heightLabel": {
-        "message": "Height"
+        "message": "Высота"
     },
     "fontSizeLabel": {
         "message": "Размер шрифта"
@@ -114,22 +114,22 @@
         "message": "Background color"
     },
     "informationLabel": {
-        "message": "Information"
+        "message": "Информация"
     },
     "licenseLabel": {
-        "message": "License"
+        "message": "Лицензия"
     },
     "donationLabel": {
-        "message": "Please make a donation"
+        "message": "Пожалуйста внесите пожертвование"
     },
     "donationCaptionLabel": {
-        "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+        "message": "Спасибо за использование Simple Translate.<br>Ваша поддержка это большая помощь в дальнейшем развитии расширения.<br>Если вам нравится Simple Translate, пожалуйста, подумайте о внесении небольшого пожертвования."
     },
     "addonPageLabel": {
-        "message": "Add-on page"
+        "message": "Страница расширения"
     },
     "addonUrl": {
-        "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
+        "message": "https:\/\/addons.mozilla.org\/ru-RU\/firefox\/addon\/simple-translate\/?src=optionpage"
     },
     "translatePageMenu": {
         "message": "Перевести всю страницу"

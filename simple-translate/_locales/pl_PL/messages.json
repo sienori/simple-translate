@@ -110,6 +110,9 @@
     "fontSizeLabel": {
         "message": "Rozmiar czcionki"
     },
+    "bgColorLabel": {
+        "message": "Background color"
+    },
     "informationLabel": {
         "message": "Informacje"
     },

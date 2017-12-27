@@ -15,109 +15,118 @@
         "message": "Hedef dil"
     },
     "langList": {
-        "message": "<option value=\"is\"> İzlanda<\/option> <option value=\"ga\"> İrlandalı<\/option> <option value=\"az\"> Azerbaycan<\/option> <option value=\"af\"> Afrikaans<\/option> <option value=\"am\"> Amharca<\/option> <option value=\"ar\"> Arapça<\/option> <option value=\"sq\"> Arnavut<\/option> <option value=\"hy\"> Ermeni<\/option> <option value=\"it\"> İtalyan<\/option> <option value=\"yi\"> Yidiş<\/option> <option value=\"ig\"> İbo dili<\/option> <option value=\"id\"> Endonezya<\/option> <option value=\"cy\"> Galce<\/option> <option value=\"uk\"> Ukrayna dili<\/option> <option value=\"uz\"> Özbek<\/option> <option value=\"your\"> Urduca<\/option> <option value=\"et\"> Estonya<\/option> <option value=\"eo\"> Esperanto<\/option> <option value=\"nl\"> Hollanda<\/option> <option value=\"kk\"> kazak<\/option> <option value=\"ca\"> Katalanca<\/option> <option value=\"gl\"> Galiçyaca<\/option> <option value=\"kn\"> Kannada dili<\/option> <option value=\"el\"> Yunanca<\/option> <option value=\"ky\"> Kırgız<\/option> <option value=\"gu\"> Gucerat dili<\/option> <option value=\"km\"> Khmer<\/option> <option value=\"ku\"> Kürt<\/option> <option value=\"hr\"> Hırvat<\/option> <option value=\"xh\"> Xosa<\/option> <option value=\"co\"> Korsika lehçesi<\/option> <option value=\"sm\"> Samoalı<\/option> <option value=\"jv\"> Cava<\/option> <option value=\"ka\"> Gürcüce<\/option> <option value=\"sn\"> Shona<\/option> <option value=\"sd\"> Sindhi dili<\/option> <option value=\"si\"> Sinhala<\/option> <option value=\"sv\"> İsveç<\/option> <option value=\"zu\"> Zulu<\/option> <option value=\"gd\"> Kırım Tatarca<\/option> <option value=\"es\"> İspanyolca<\/option> <option value=\"sk\"> Slovakça<\/option> <option value=\"sl\"> Slovence<\/option> <option value=\"sw\"> Swahili<\/option> <option value=\"su\"> Sundanese<\/option> <option value=\"ceb\"> Sebuanca<\/option> <option value=\"sr\"> Sırp<\/option> <option value=\"sx\"> Sotho Dili<\/option> <option value=\"so\"> Somali<\/option> <option value=\"th\"> Tay<\/option> <option value=\"tl\"> \"Tagalog\"<\/option> <option value=\"tg\"> Tajiki<\/option> <option value=\"ta\"> Tamil<\/option> <option value=\"cs\"> Çek<\/option> <option value=\"ny\"> Chewa<\/option> <option value=\"te\"> Telugu dili<\/option> <option value=\"da\"> Danimarka<\/option> <option value=\"de\"> Almanca<\/option> <option value=\"tr\"> Türk<\/option> <option value=\"ne\"> Nepal dili<\/option> <option value=\"no\"> Norveç<\/option> <option value=\"ht\"> Haiti<\/option> <option value=\"ha\"> Hausa dili<\/option> <option value=\"ps\"> Pushto<\/option> <option value=\"eu\"> Bask dili<\/option> <option value=\"haw\"> Hawaii<\/option> <option value=\"hu\"> Macar<\/option> <option value=\"pa\"> Pencap dili<\/option> <option value=\"hi\"> Hintçe<\/option> <option value=\"fi\"> Finlandiya<\/option> <option value=\"fr\"> Fransızca<\/option> <option value=\"fy\"> Frizce<\/option> <option value=\"bg\"> Bulgar<\/option> <option value=\"vi\"> Vietnamca<\/option> <option value=\"he\"> İbranice<\/option> <option value=\"be\"> Belarus<\/option> <option value=\"fa\"> Farsça<\/option> <option value=\"bn\"> Bengalce<\/option> <option value=\"pl\"> Lehçe<\/option> <option value=\"bs\"> Boşnakça<\/option> <option value=\"pt\"> Portekizce<\/option> <option value=\"mi\"> Maori<\/option> <option value=\"mk\"> Makedonya<\/option> <option value=\"mr\"> Marathi dili<\/option> <option value=\"mg\"> Madagaskar<\/option> <option value=\"ml\"> Malayalam dili<\/option> <option value=\"mt\"> Malta<\/option> <option value=\"ms\"> Malay<\/option> <option value=\"my\"> Myanmar<\/option> <option value=\"mn\"> Moğol<\/option> <option value=\"hmn\"> keşiş<\/option> <option value=\"yo\"> Yoruba dili<\/option> <option value=\"lo\"> Laos<\/option> <option value=\"la\"> Latince<\/option> <option value=\"lv\"> Letonya<\/option> <option value=\"lt\"> Litvanya<\/option> <option value=\"ro\"> Romanya<\/option> <option value=\"lb\"> Lüksemburg dili<\/option> <option value=\"ru\"> Rus<\/option> <option value=\"en\"> İngilizce<\/option> <option value=\"ko\"> Kore dili<\/option> <option value=\"zh-CN\"> Çince (ÇHC)<\/option> <option value=\"zh-TW\"> Çince (Tayvan)<\/option> <option value=\"ja\"> Japonca<\/option>"
+        "message": "af:Afrikaans, sq:Albanian, am:Amharic, ar:Arabic, hy:Armenian, az:Azerbaijani, eu:Basque, be:Belarusian, bn:Bengali, bs:Bosnian, bg:Bulgarian, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Chinese (PRC), zh-TW:Chinese (Taiwan), co:Corsican, hr:Croatian, cs:Czech, da:Danish, nl:Dutch, en:English, eo:Esperanto, et:Estonian, fi:Finnish, fr:French, fy:Frisian, gl:Galician, ka:Georgian, de:German, el:Greek, gu:Gujarati, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesian, ga:Irish, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Korean, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:Macedonian, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persian, pl:Polish, pt:Portuguese, pa:Punjabi, ps:Pushto, ro:Romanian, ru:Russian, sm:Samoan, gd:Scottish Gaelic, sr:Serbian, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovak, sl:Slovenian, so:Somali, sx:Sotho, es:Spanish, su:Sundanese, sw:Swahili, sv:Swedish, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turkish, uk:Ukrainian, ur:Urdu, uz:Uzbek, vi:Vietnamese, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
     },
     "settingsLabel": {
-        "message": "Settings"
+        "message": "Ayarlar"
     },
     "generalLabel": {
-        "message": "General"
+        "message": "Genel"
     },
     "targetLangCaptionLabel": {
-        "message": "Select the default target language."
+        "message": "Varsayılan hedef dilini seçin."
     },
     "webPageLabel": {
-        "message": "Web page"
+        "message": "İnternet sayfası"
+    },
+    "ifShowCandidateLabel": {
+        "message": "Show translation candidates"
+    },
+    "ifShowCandidateCaptionLabel": {
+        "message": "Show multiple translation candidates when a single word is translated."
     },
     "ifShowButtonLabel": {
-        "message": "Display the button when text is selected"
+        "message": "Metin seçiliyken tuşu görüntüle"
     },
     "ifShowButtonCaptionLabel": {
-        "message": "Display the translation button when text is selected on the web page."
+        "message": "Web sayfasında metin seçiliyken çeviri butonunu görüntüle."
     },
     "ifCheckLangLabel": {
-        "message": "Do not display the button if translation is not required"
+        "message": "Çeviri gerekmedikçe tuşu görüntüleme"
     },
     "ifCheckLangCaptionLabel": {
-        "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+        "message": "Seçili metnin dilini algılar ve dil aynı ise tuş görüntülenmez."
     },
     "ifShowMenuLabel": {
-        "message": "Display the context menu"
+        "message": "İçerik menüsünü görüntüle"
     },
     "ifShowMenuCaptionLabel": {
-        "message": "Add items to the context menu displayed when right clicking on the web page."
+        "message": "Web sayfasında sağ tıklandığında öğeleri görüntülenen içerik menüsüne ekle."
     },
     "toolbarLabel": {
-        "message": "Toolbar popup"
+        "message": "Açılır araç çubuğu penceresi"
     },
     "ifChangeSecondLangLabel": {
-        "message": "Automatically switch to the second language"
+        "message": "İkinci dile otomatik geç"
     },
     "ifChangeSecondLangCaptionLabel": {
-        "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+        "message": "Giriş metninin dilini algılar, varsayılan hedef dili ile aynıysa ikinci dile çevirir."
     },
     "secondTargetLangLabel": {
         "message": "İkinci dil"
     },
     "secondTargetLangCaptionLabel": {
-        "message": "Select the second target language."
+        "message": "İkinci hedef dilini seçin."
     },
     "styleLabel": {
-        "message": "Style"
+        "message": "Biçim"
     },
     "buttonStyleLabel": {
-        "message": "Translation button"
+        "message": "Çeviri düğmesi"
     },
     "buttonStyleCaptionLabel": {
-        "message": "Specify the style of the translation button displayed on the web page."
+        "message": "Web sayfasında görüntülenen çeviri düğmesinin biçimini belirleyin."
     },
     "buttonSizeLabel": {
-        "message": "Size"
+        "message": "Boyut"
     },
     "buttonPositionLabel": {
-        "message": "Display position"
+        "message": "Görüntü konumu"
     },
     "rightUpLabel": {
-        "message": "Top right"
+        "message": "Sağ üst"
     },
     "rightDownLabel": {
         "message": "Sağ alt"
     },
     "leftUpLabel": {
-        "message": "Top left"
+        "message": "Sol üst"
     },
     "leftDownLabel": {
-        "message": "Bottom left"
+        "message": "Sol alt"
     },
     "panelStyleLabel": {
-        "message": "Translation panel"
+        "message": "Çeviri paneli"
     },
     "panelStyleCaptionLabel": {
-        "message": "Specify the style of the translation panel displayed on the web page."
+        "message": "Web sayfasında görüntülenen çeviri panelinin biçimini belirleyin."
     },
     "widthLabel": {
-        "message": "Width"
+        "message": "Genişlik"
     },
     "heightLabel": {
-        "message": "Height"
+        "message": "Yükseklik"
     },
     "fontSizeLabel": {
         "message": "Yazı tipi boyutu"
     },
+    "bgColorLabel": {
+        "message": "Background color"
+    },
     "informationLabel": {
-        "message": "Information"
+        "message": "Bilgi"
     },
     "licenseLabel": {
-        "message": "License"
+        "message": "Lisans"
     },
     "donationLabel": {
-        "message": "Please make a donation"
+        "message": "Lütfen bağış yapın"
     },
     "donationCaptionLabel": {
-        "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+        "message": "Simple Translate'i kullandığınız için teşekkür ederiz.<br>Eklentileri geliştirmeye devam ettikçe, destekleriniz bizim için büyük bir teşvik olacaktır.<br> Simpe Translate'i beğendiyseniz, bağış yaparak bizi mutlu edebilirsiniz."
     },
     "addonPageLabel": {
-        "message": "Add-on page"
+        "message": "Ek sayfa"
     },
     "addonUrl": {
         "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"

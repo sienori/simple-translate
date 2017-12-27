@@ -188,7 +188,8 @@ input {
 }
 
 input[type="number"],
-input[type="text"] {
+input[type="text"],
+input[type="color"] {
     -moz-appearance: textfield;
     width: 50px;
     height: 30px;
@@ -200,13 +201,20 @@ input[type="text"] {
 
 input[type="number"]:hover,
 input[type="text"]:hover,
+input[type="color"]:hover,
 input[type="number"]:focus,
-input[type="text"]:focus {
+input[type="text"]:focus,
+input[type="color"]:focus {
     border-color: var(--highlight);
 }
 
 input[type="text"] {
     width: 200px;
+}
+
+input[type="color"] {
+    background-color: var(--main-bg);
+    padding: 5px;
 }
 
 .button {

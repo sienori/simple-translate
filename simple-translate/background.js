@@ -24,23 +24,6 @@ function showMenu() {
     } else menuRemove();
 }
 
-function initialSetting() {
-    switch (browser.i18n.getUILanguage()) { //一部の言語はブラウザの設定に合わせる
-        case "ja":
-        case "zh-CN":
-        case "zh-TW":
-        case "ko":
-        case "ru":
-            targetLang = browser.i18n.getUILanguage();
-            secondTargetLang = "en";
-            break;
-        default:
-            targetLang = "en";
-            secondTargetLang = "ja";
-            break;
-    }
-}
-
 //メニューを表示
 function menuCreate() {
     browser.contextMenus.create({

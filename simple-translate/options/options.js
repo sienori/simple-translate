@@ -23,6 +23,7 @@ function setLangList() {
     targetLang.innerHTML = langListHtml;
     secondTargetLang.innerHTML = langListHtml;
 
+    initialSetting();
 }
 
 function alphabeticallySort(a, b) {
@@ -30,6 +31,26 @@ function alphabeticallySort(a, b) {
         return 1;
     } else {
         return -1;
+    }
+}
+
+function initialSetting() {
+    switch (browser.i18n.getUILanguage()) { //一部の言語はブラウザの設定に合わせる
+        case "ja":
+        case "zh-CN":
+        case "zh-TW":
+        case "ko":
+        case "ru":
+        case "de":
+        case "fr":
+        case "it":
+            targetLang.value = browser.i18n.getUILanguage();
+            secondTargetLang.value = "en";
+            break;
+        default:
+            targetLang.value = "en";
+            secondTargetLang.value = "ja";
+            break;
     }
 }
 

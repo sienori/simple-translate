@@ -29,6 +29,12 @@
     "webPageLabel": {
         "message": "Веб-страница"
     },
+    "ifShowCandidateLabel": {
+        "message": "Показывать варианты перевода"
+    },
+    "ifShowCandidateCaptionLabel": {
+        "message": "Показывать несколько вариантов перевода при выделении одного слова."
+    },
     "ifShowButtonLabel": {
         "message": "Показывать кнопку при выделении текста"
     },

@@ -19,7 +19,7 @@ let target = document.getElementById("target");
 let langList = document.getElementById("langList");
 let textarea = document.getElementById("textarea");
 
-langList.innerHTML = browser.i18n.getMessage("langList");
+//langList= browser.i18n.getMessage("langList");
 const initialText = browser.i18n.getMessage("initialTextArea");
 textarea.placeholder = initialText;
 
@@ -28,6 +28,33 @@ let secondTargetLang;
 let defaultTargetLang;
 let ifChangeSecondLang;
 let sourceWord = "";
+
+setLangList();
+
+function setLangList() {
+    let langListStr = browser.i18n.getMessage("langList");
+    langListStr = langListStr.split(", ");
+
+    for (let i in langListStr) {
+        langListStr[i] = langListStr[i].split(":");
+    }
+    langListStr = langListStr.sort(alphabeticallySort);
+
+    let langListHtml = "";
+    for (let i of langListStr) {
+        langListHtml += `<option value=${i[0]}>${i[1]}</option>`
+    }
+
+    langList.innerHTML = langListHtml;
+}
+
+function alphabeticallySort(a, b) {
+    if (a[1].toString() > b[1].toString()) {
+        return 1;
+    } else {
+        return -1;
+    }
+}
 
 /*
 //Firefoxの仕様上popup.htmlでfocusが効かないため使えない

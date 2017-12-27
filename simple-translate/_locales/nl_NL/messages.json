@@ -29,6 +29,12 @@
     "webPageLabel": {
         "message": "Web page"
     },
+    "ifShowCandidateLabel": {
+        "message": "Show translation candidates"
+    },
+    "ifShowCandidateCaptionLabel": {
+        "message": "Show multiple translation candidates when a single word is translated."
+    },
     "ifShowButtonLabel": {
         "message": "Display the button when text is selected"
     },

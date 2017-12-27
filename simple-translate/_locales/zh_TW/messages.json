@@ -110,6 +110,9 @@
     "fontSizeLabel": {
         "message": "字型大小"
     },
+    "bgColorLabel": {
+        "message": "Background color"
+    },
     "informationLabel": {
         "message": "附加元件資訊"
     },

@@ -110,6 +110,9 @@
     "fontSizeLabel": {
         "message": "Tamaño de la fuente"
     },
+    "bgColorLabel": {
+        "message": "Background color"
+    },
     "informationLabel": {
         "message": "Information"
     },

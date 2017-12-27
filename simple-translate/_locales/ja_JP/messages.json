@@ -15,7 +15,7 @@
         "message": "翻訳先の言語"
     },
     "langList": {
-        "message": "<option value=\"en\">英語<\/option><option value=\"ko\">韓国語<\/option><option value=\"zh-CN\">中国語(簡体)<\/option><option value=\"zh-TW\">中国語(繁体)<\/option><option value=\"ja\">日本語<\/option><option value=\"is\">アイスランド語<\/option><option value=\"ga\">アイルランド語<\/option><option value=\"az\">アゼルバイジャン語<\/option><option value=\"af\">アフリカーンス語<\/option><option value=\"am\">アムハラ語<\/option><option value=\"ar\">アラビア語<\/option><option value=\"sq\">アルバニア語<\/option><option value=\"hy\">アルメニア語<\/option><option value=\"it\">イタリア語<\/option><option value=\"yi\">イディッシュ語<\/option><option value=\"ig\">イボ語<\/option><option value=\"id\">インドネシア語<\/option><option value=\"cy\">ウェールズ語<\/option><option value=\"uk\">ウクライナ語<\/option><option value=\"uz\">ウズベク語<\/option><option value=\"ur\">ウルドゥ語<\/option><option value=\"et\">エストニア語<\/option><option value=\"eo\">エスペラント語<\/option><option value=\"nl\">オランダ語<\/option><option value=\"kk\">カザフ語<\/option><option value=\"ca\">カタルーニャ語<\/option><option value=\"gl\">ガリシア語<\/option><option value=\"kn\">カンナダ語<\/option><option value=\"el\">ギリシャ語<\/option><option value=\"ky\">キルギス語<\/option><option value=\"gu\">グジャラト語<\/option><option value=\"km\">クメール語<\/option><option value=\"ku\">クルド語<\/option><option value=\"hr\">クロアチア語<\/option><option value=\"xh\">コーサ語<\/option><option value=\"co\">コルシカ語<\/option><option value=\"sm\">サモア語<\/option><option value=\"jw\">ジャワ語<\/option><option value=\"ka\">ジョージア(グルジア)語<\/option><option value=\"sn\">ショナ語<\/option><option value=\"sd\">シンド語<\/option><option value=\"si\">シンハラ語<\/option><option value=\"sv\">スウェーデン語<\/option><option value=\"zu\">ズールー語<\/option><option value=\"gd\">スコットランド ゲール語<\/option><option value=\"es\">スペイン語<\/option><option value=\"sk\">スロバキア語<\/option><option value=\"sl\">スロベニア語<\/option><option value=\"sw\">スワヒリ語<\/option><option value=\"su\">スンダ語<\/option><option value=\"ceb\">セブアノ語<\/option><option value=\"sr\">セルビア語<\/option><option value=\"st\">ソト語<\/option><option value=\"so\">ソマリ語<\/option><option value=\"th\">タイ語<\/option><option value=\"tl\">タガログ語<\/option><option value=\"tg\">タジク語<\/option><option value=\"ta\">タミル語<\/option><option value=\"cs\">チェコ語<\/option><option value=\"ny\">チェワ語<\/option><option value=\"te\">テルグ語<\/option><option value=\"da\">デンマーク語<\/option><option value=\"de\">ドイツ語<\/option><option value=\"tr\">トルコ語<\/option><option value=\"ne\">ネパール語<\/option><option value=\"no\">ノルウェー語<\/option><option value=\"ht\">ハイチ語<\/option><option value=\"ha\">ハウサ語<\/option><option value=\"ps\">パシュト語<\/option><option value=\"eu\">バスク語<\/option><option value=\"haw\">ハワイ語<\/option><option value=\"hu\">ハンガリー語<\/option><option value=\"pa\">パンジャブ語<\/option><option value=\"hi\">ヒンディー語<\/option><option value=\"fi\">フィンランド語<\/option><option value=\"fr\">フランス語<\/option><option value=\"fy\">フリジア語<\/option><option value=\"bg\">ブルガリア語<\/option><option value=\"vi\">ベトナム語<\/option><option value=\"iw\">ヘブライ語<\/option><option value=\"be\">ベラルーシ語<\/option><option value=\"fa\">ペルシャ語<\/option><option value=\"bn\">ベンガル語<\/option><option value=\"pl\">ポーランド語<\/option><option value=\"bs\">ボスニア語<\/option><option value=\"pt\">ポルトガル語<\/option><option value=\"mi\">マオリ語<\/option><option value=\"mk\">マケドニア語<\/option><option value=\"mr\">マラーティー語<\/option><option value=\"mg\">マラガシ語<\/option><option value=\"ml\">マラヤーラム語<\/option><option value=\"mt\">マルタ語<\/option><option value=\"ms\">マレー語<\/option><option value=\"my\">ミャンマー語<\/option><option value=\"mn\">モンゴル語<\/option><option value=\"hmn\">モン語<\/option><option value=\"yo\">ヨルバ語<\/option><option value=\"lo\">ラオ語<\/option><option value=\"la\">ラテン語<\/option><option value=\"lv\">ラトビア語<\/option><option value=\"lt\">リトアニア語<\/option><option value=\"ro\">ルーマニア語<\/option><option value=\"lb\">ルクセンブルク語<\/option><option value=\"ru\">ロシア語<\/option>"
+        "message": "af:アフリカーンス語, sq:アルバニア語, am:アムハラ語, ar:アラビア語, hy:アルメニア語, az:アゼルバイジャン語, eu:バスク語, be:ベラルーシ語, bn:ベンガル語, bs:ボスニア語, bg:ブルガリア語, ca:カタルーニャ語, ceb:セブアノ語, ny:チェワ語, zh-CN:中国語 (簡体), zh-TW:中国語 (繁体), co:コルシカ語, hr:クロアチア語, cs:チェコ語, da:デンマーク語, nl:オランダ語, en:英語, eo:エスペラント語, et:エストニア語, fi:フィンランド語, fr:フランス語, fy:フリジア語, gl:ガリシア語, ka:ジョージア(グルジア)語, de:ドイツ語, el:ギリシャ語, gu:グジャラト語, ht:ハイチ語, ha:ハウサ語, haw:ハワイ語, he:ヘブライ語, hi:ヒンディー語, hu:ハンガリー語, is:アイスランド語, ig:イボ語, id:インドネシア語, ga:アイルランド語, it:イタリア語, ja:日本語, jv:ジャワ語, kn:カンナダ語, kk:カザフ語, km:クメール語, ky:キルギス語, ko:韓国語, ku:クルド語, lo:ラオ語, la:ラテン語, lv:ラトビア語, lt:リトアニア語, lb:ルクセンブルク語, mk:マケドニア語, mg:マラガシ語, ms:マレー語, ml:マラヤーラム語, mt:マルタ語, mi:マオリ語, mr:マラーティー語, mn:モンゴル語, hmn:モン語, my:ミャンマー語, ne:ネパール語, no:ノルウェー語, fa:ペルシャ語, pl:ポーランド語, pt:ポルトガル語, pa:パンジャブ語, ps:パシュト語, ro:ルーマニア語, ru:ロシア語, sm:サモア語, gd:スコットランド ゲール語, sr:セルビア語, sn:ショナ語, sd:シンド語, si:シンハラ語, sk:スロバキア語, sl:スロベニア語, so:ソマリ語, sx:ソト語, es:スペイン語, su:スンダ語, sw:スワヒリ語, sv:スウェーデン語, tl:タガログ語, tg:タジク語, ta:タミル語, te:テルグ語, th:タイ語, tr:トルコ語, uk:ウクライナ語, ur:ウルドゥ語, uz:ウズベク語, vi:ベトナム語, cy:ウェールズ語, xh:コーサ語, yi:イディッシュ語, yo:ヨルバ語, zu:ズールー語"
     },
     "settingsLabel": {
         "message": "設定"
@@ -28,6 +28,12 @@
     },
     "webPageLabel": {
         "message": "webページ"
+    },
+    "ifShowCandidateLabel": {
+        "message": "翻訳候補を表示する"
+    },
+    "ifShowCandidateCaptionLabel": {
+        "message": "一つの語句が翻訳された時に複数の候補を表示します。"
     },
     "ifShowButtonLabel": {
         "message": "テキスト選択時にボタンを表示する"
@@ -103,6 +109,9 @@
     },
     "fontSizeLabel": {
         "message": "フォントサイズ"
+    },
+    "bgColorLabel": {
+        "message": "背景色"
     },
     "informationLabel": {
         "message": "情報"

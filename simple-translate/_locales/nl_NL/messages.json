@@ -15,7 +15,7 @@
         "message": "Doeltaal"
     },
     "langList": {
-        "message": "<option value=\"is\"> IJslandse<\/option> <option value=\"ga\"> Ierse<\/option><option value=\"az\"> Azerbeidzjaanse<\/option> <option value=\"af\"> Afrikaans<\/option> <option value=\"am\"> Amhaars<\/option> <option value=\"ar\"> Arabisch<\/option> <option value=\"sq\"> Albanese<\/option> <option value=\"hy\"> Armeense<\/option> <option value=\"it\"> Italiaanse<\/option> <option value=\"yi\"> Yiddish<\/option> <option value=\"ig\"> Igbo<\/option> <option value=\"id\"> Indonesische<\/option> <option value=\"cy\"> Welsh<\/option> <option value=\"uk\"> Oekraïens<\/option> <option value=\"uz\"> Oezbeeks<\/option> <option value=\"your\"> Urdu<\/option> <option value=\"et\"> Ests<\/option> <option value=\"eo\"> Esperanto<\/option> <option value=\"nl\"> Nederlandse<\/option> <option value=\"kk\"> Kazakh<\/option> <option value=\"ca\"> Catalaans<\/option> <option value=\"gl\"> Gallicisch-<\/option> <option value=\"kn\"> Kannada<\/option> <option value=\"el\"> Grieks<\/option> <option value=\"ky\"> Kirghiz<\/option> <option value=\"gu\"> Gujarati<\/option> <option value=\"km\"> Khmer<\/option> <option value=\"ku\"> Koerdische<\/option> <option value=\"hr\"> Kroatische<\/option> <option value=\"xh\"> Xosa<\/option> <option value=\"co\"> Corsicaanse<\/option> <option value=\"sm\"> Samoan<\/option> <option value=\"jv\"> Javaans<\/option> <option value=\"ka\"> Georgisch<\/option> <option value=\"sn\"> Shona<\/option> <option value=\"sd\"> Sindhi<\/option> <option value=\"si\"> Sinhala<\/option> <option value=\"sv\"> Zweedse<\/option> <option value=\"zu\"> Zulu<\/option> <option value=\"gd\"> Schots-Gaelisch<\/option> <option value=\"es\"> Spaans<\/option> <option value=\"sk\"> Slowaakse<\/option> <option value=\"sl\"> Sloveens<\/option> <option value=\"sw\"> Swahili<\/option> <option value=\"su\"> Sundanese<\/option> <option value=\"ceb\"> Cebuano<\/option> <option value=\"sr\"> Servisch<\/option> <option value=\"sx\"> Sotho<\/option> <option value=\"so\"> Somalische<\/option> <option value=\"th\"> Thaise<\/option> <option value=\"tl\"> Tagalog<\/option> <option value=\"tg\"> Tajiki<\/option> <option value=\"ta\"> Tamil<\/option> <option value=\"cs\"> Tsjechische<\/option> <option value=\"ny\"> Nyanja<\/option> <option value=\"te\"> Telugu<\/option> <option value=\"da\"> Deense<\/option> <option value=\"de\"> Duits<\/option> <option value=\"tr\"> Turkse<\/option> <option value=\"ne\"> Nepalees<\/option> <option value=\"no\"> Noors<\/option> <option value=\"ht\"> Haïtiaanse<\/option> <option value=\"ha\"> Hausa<\/option> <option value=\"ps\"> Pushto<\/option> <option value=\"eu\"> Baskische<\/option> <option value=\"haw\"> Hawaiian<\/option> <option value=\"hu\"> Hongaarse<\/option> <option value=\"pa\"> Punjabi<\/option> <option value=\"hi\"> Hindi<\/option> <option value=\"fi\"> Finse<\/option> <option value=\"fr\"> Frans<\/option> <option value=\"fy\"> Friese<\/option> <option value=\"bg\"> Bulgaarse<\/option> <option value=\"vi\"> Vietnamees<\/option> <option value=\"he\"> Hebreeuws<\/option> <option value=\"be\"> Wit-Rusland<\/option> <option value=\"fa\"> Perzisch<\/option> <option value=\"bn\"> Bengaals<\/option> <option value=\"pl\"> Pools<\/option> <option value=\"bs\"> Bosnische<\/option> <option value=\"pt\"> Portugees<\/option> <option value=\"mi\"> Maori<\/option> <option value=\"mk\"> Macedonische<\/option> <option value=\"mr\"> Marathi<\/option> <option value=\"mg\"> Malagasi<\/option> <option value=\"ml\"> Malayalam<\/option> <option value=\"mt\"> Maltees<\/option> <option value=\"ms\"> Maleis<\/option> <option value=\"my\"> Myanmar<\/option> <option value=\"mn\"> Mongoolse<\/option> <option value=\"hmn\"> monnik<\/option> <option value=\"yo\"> Yoruba<\/option> <option value=\"lo\"> Laotiaanse<\/option> <option value=\"la\"> Latijnse<\/option> <option value=\"lv\"> Lets<\/option> <option value=\"lt\"> Litouws<\/option> <option value=\"ro\"> Roemeense<\/option> <option value=\"lb\"> Luxemburgs<\/option> <option value=\"ru\"> Russische<\/option> <option value=\"en\"> Engels<\/option> <option value=\"ko\"> Koreaans<\/option> <option value=\"zh-CN\"> Chinese (PRC)<\/option> <option value=\"zh-TW\"> Chinees (Taiwan)<\/option> <option value=\"ja\"> Japanse<\/option>"
+        "message": "af:Afrikaans, sq:Albanian, am:Amharic, ar:Arabic, hy:Armenian, az:Azerbaijani, eu:Basque, be:Belarusian, bn:Bengali, bs:Bosnian, bg:Bulgarian, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Chinese (PRC), zh-TW:Chinese (Taiwan), co:Corsican, hr:Croatian, cs:Czech, da:Danish, nl:Dutch, en:English, eo:Esperanto, et:Estonian, fi:Finnish, fr:French, fy:Frisian, gl:Galician, ka:Georgian, de:German, el:Greek, gu:Gujarati, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesian, ga:Irish, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Korean, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:Macedonian, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persian, pl:Polish, pt:Portuguese, pa:Punjabi, ps:Pushto, ro:Romanian, ru:Russian, sm:Samoan, gd:Scottish Gaelic, sr:Serbian, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovak, sl:Slovenian, so:Somali, sx:Sotho, es:Spanish, su:Sundanese, sw:Swahili, sv:Swedish, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turkish, uk:Ukrainian, ur:Urdu, uz:Uzbek, vi:Vietnamese, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
     },
     "settingsLabel": {
         "message": "Settings"
@@ -28,6 +28,12 @@
     },
     "webPageLabel": {
         "message": "Web page"
+    },
+    "ifShowCandidateLabel": {
+        "message": "Show translation candidates"
+    },
+    "ifShowCandidateCaptionLabel": {
+        "message": "Show multiple translation candidates when a single word is translated."
     },
     "ifShowButtonLabel": {
         "message": "Display the button when text is selected"
@@ -103,6 +109,9 @@
     },
     "fontSizeLabel": {
         "message": "Lettertypegrootte"
+    },
+    "bgColorLabel": {
+        "message": "Background color"
     },
     "informationLabel": {
         "message": "Information"

@@ -15,7 +15,7 @@
         "message": "Idioma alvo"
     },
     "langList": {
-        "message": "<option value=\"pt\">Português<\/option><option value=\"af\">Africano<\/option><option value=\"sq\">Albanês<\/option><option value=\"de\">Alemão<\/option><option value=\"am\">Amárico<\/option><option value=\"ar\">Árabe<\/option><option value=\"hy\">Armênio<\/option><option value=\"az\">Azerbaijano<\/option><option value=\"eu\">Basco<\/option><option value=\"bn\">Bengali<\/option><option value=\"be\">Bielorrusso<\/option><option value=\"bs\">Bósnio<\/option><option value=\"bg\">Búlgaro<\/option><option value=\"kk\">Cazaque<\/option><option value=\"ca\">Catalão<\/option><option value=\"ceb\">Cebuano<\/option><option value=\"cs\">Checo<\/option><option value=\"ny\">Chewa<\/option><option value=\"zh-CN\">Chinês (PRC)<\/option><option value=\"zh-TW\">Chinês (Taiwan)<\/option><option value=\"ko\">Coreano<\/option><option value=\"co\">Corsa<\/option><option value=\"hr\">Croata<\/option><option value=\"ku\">Curdo<\/option><option value=\"da\">Dinamarquês<\/option><option value=\"sk\">Eslovaco<\/option><option value=\"sl\">Esloveno<\/option><option value=\"es\">Espanhol<\/option><option value=\"eo\">Esperanto<\/option><option value=\"et\">Estoniano<\/option><option value=\"fi\">Finlandês<\/option><option value=\"fr\">Francês<\/option><option value=\"fy\">Frísio<\/option><option value=\"gd\">Gaélico Escocês<\/option><option value=\"gl\">Galego<\/option><option value=\"cy\">Galês<\/option><option value=\"ka\">Georgiano<\/option><option value=\"el\">Grego<\/option><option value=\"gu\">Gujarati<\/option><option value=\"ht\">Haitiano<\/option><option value=\"ha\">Hausa<\/option><option value=\"haw\">Havaiano<\/option><option value=\"he\">Hebraico<\/option><option value=\"hi\">Hindi<\/option><option value=\"nl\">Holandês<\/option><option value=\"hu\">Húngaro<\/option><option value=\"ig\">Igbo<\/option><option value=\"yi\">Iídiche<\/option><option value=\"id\">Indonésio<\/option><option value=\"en\">Inglês<\/option><option value=\"ga\">Irlandês<\/option><option value=\"is\">Islandês<\/option><option value=\"it\">Italiano<\/option><option value=\"ja\">Japonês<\/option><option value=\"jv\">Javanês<\/option><option value=\"kn\">Kannada<\/option><option value=\"km\">Khmer<\/option><option value=\"ky\">Kirghiz<\/option><option value=\"lo\">Laociano<\/option><option value=\"la\">Latim<\/option><option value=\"lv\">Letão<\/option><option value=\"lt\">Lituano<\/option><option value=\"lb\">Luxemburguês<\/option><option value=\"mk\">Macedônio<\/option><option value=\"ms\">Malaio<\/option><option value=\"ml\">Malayalam<\/option><option value=\"mg\">Malgaxe<\/option><option value=\"mt\">Maltês<\/option><option value=\"mi\">Maori<\/option><option value=\"mr\">Marathi<\/option><option value=\"hmn\">Monge<\/option><option value=\"mn\">Mongol<\/option><option value=\"my\">Myanmar<\/option><option value=\"ne\">Nepalês<\/option><option value=\"no\">Norueguês<\/option><option value=\"fa\">Persa<\/option><option value=\"pl\">Polonês<\/option><option value=\"pa\">Punjabi<\/option><option value=\"ps\">Pushto<\/option><option value=\"ro\">Romeno<\/option><option value=\"ru\">Russo<\/option><option value=\"sm\">Samoano<\/option><option value=\"sr\">Sérvio<\/option><option value=\"sn\">Shona<\/option><option value=\"sd\">Sindhi<\/option><option value=\"si\">Sinhala<\/option><option value=\"so\">Somali<\/option><option value=\"sx\">Sotho<\/option><option value=\"su\">Sudanês<\/option><option value=\"sv\">Sueco<\/option><option value=\"sw\">Swahili<\/option><option value=\"tl\">Tagalog<\/option><option value=\"th\">Tailandês<\/option><option value=\"tg\">Tajiki<\/option><option value=\"ta\">Tâmil<\/option><option value=\"te\">Telugu<\/option><option value=\"tr\">Turco<\/option><option value=\"uk\">Ucraniano<\/option><option value=\"ur\">Urdu<\/option><option value=\"uz\">Uzbeque<\/option><option value=\"vi\">Vietnamita<\/option><option value=\"xh\">Xhosa<\/option><option value=\"yo\">Yoruba<\/option><option value=\"zu\">Zulu<\/option>"
+        "message": "af:Afrikaans, sq:Albanian, am:Amharic, ar:Arabic, hy:Armenian, az:Azerbaijani, eu:Basque, be:Belarusian, bn:Bengali, bs:Bosnian, bg:Bulgarian, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Chinese (PRC), zh-TW:Chinese (Taiwan), co:Corsican, hr:Croatian, cs:Czech, da:Danish, nl:Dutch, en:English, eo:Esperanto, et:Estonian, fi:Finnish, fr:French, fy:Frisian, gl:Galician, ka:Georgian, de:German, el:Greek, gu:Gujarati, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesian, ga:Irish, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Korean, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:Macedonian, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persian, pl:Polish, pt:Portuguese, pa:Punjabi, ps:Pushto, ro:Romanian, ru:Russian, sm:Samoan, gd:Scottish Gaelic, sr:Serbian, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovak, sl:Slovenian, so:Somali, sx:Sotho, es:Spanish, su:Sundanese, sw:Swahili, sv:Swedish, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turkish, uk:Ukrainian, ur:Urdu, uz:Uzbek, vi:Vietnamese, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
     },
     "settingsLabel": {
         "message": "Configurações"
@@ -29,8 +29,14 @@
     "webPageLabel": {
         "message": "Página web"
     },
+    "ifShowCandidateLabel": {
+        "message": "Show translation candidates"
+    },
+    "ifShowCandidateCaptionLabel": {
+        "message": "Show multiple translation candidates when a single word is translated."
+    },
     "ifShowButtonLabel": {
-        "message": "Aparecer um botão ao selecionar texto"
+        "message": "Exibir o botão quando um texto for selecionado"
     },
     "ifShowButtonCaptionLabel": {
         "message": "Exibir o botão de tradução quando um texto for selecionado na página web."
@@ -103,6 +109,9 @@
     },
     "fontSizeLabel": {
         "message": "Tamanho da fonte"
+    },
+    "bgColorLabel": {
+        "message": "Background color"
     },
     "informationLabel": {
         "message": "Informação"

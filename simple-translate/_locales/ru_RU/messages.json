@@ -135,7 +135,7 @@
         "message": "Перевести всю страницу"
     },
     "translateTextMenu": {
-        "message": "Перевести выбранный текст"
+        "message": "Перевести выделенный текст"
     },
     "translateLinkMenu": {
         "message": "Перевести страницу по ссылке"

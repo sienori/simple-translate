@@ -30,7 +30,7 @@
         "message": "網頁"
     },
     "ifShowCandidateLabel": {
-        "message": "Show translation candidates"
+        "message": "顯示翻譯候選字"
     },
     "ifShowCandidateCaptionLabel": {
         "message": "Show multiple translation candidates when a single word is translated."

@@ -30,10 +30,10 @@
         "message": "İnternet sayfası"
     },
     "ifShowCandidateLabel": {
-        "message": "Show translation candidates"
+        "message": "Çeviri önerilerini göster"
     },
     "ifShowCandidateCaptionLabel": {
-        "message": "Show multiple translation candidates when a single word is translated."
+        "message": "Tek bir kelime çevrildiğinde çoklu çeviri önerilerini göster."
     },
     "ifShowButtonLabel": {
         "message": "Metin seçiliyken tuşu görüntüle"
@@ -111,7 +111,7 @@
         "message": "Yazı tipi boyutu"
     },
     "bgColorLabel": {
-        "message": "Background color"
+        "message": "Arka plan rengi"
     },
     "informationLabel": {
         "message": "Bilgi"

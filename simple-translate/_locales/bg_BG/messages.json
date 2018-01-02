@@ -48,7 +48,7 @@
         "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
     },
     "ifShowMenuLabel": {
-        "message": "Display the context menu"
+        "message": "Показване на контекстното меню"
     },
     "ifShowMenuCaptionLabel": {
         "message": "Add items to the context menu displayed when right clicking on the web page."
@@ -66,13 +66,13 @@
         "message": "Втори език"
     },
     "secondTargetLangCaptionLabel": {
-        "message": "Select the second target language."
+        "message": "Изберете втория целеви език."
     },
     "styleLabel": {
         "message": "Стил"
     },
     "buttonStyleLabel": {
-        "message": "Translation button"
+        "message": "Бутон за превод"
     },
     "buttonStyleCaptionLabel": {
         "message": "Specify the style of the translation button displayed on the web page."
@@ -96,7 +96,7 @@
         "message": "Долу вляво"
     },
     "panelStyleLabel": {
-        "message": "Translation panel"
+        "message": "Панел за превод"
     },
     "panelStyleCaptionLabel": {
         "message": "Specify the style of the translation panel displayed on the web page."

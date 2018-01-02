@@ -63,13 +63,13 @@
         "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
     },
     "secondTargetLangLabel": {
-        "message": "Second language"
+        "message": "Втори език"
     },
     "secondTargetLangCaptionLabel": {
         "message": "Select the second target language."
     },
     "styleLabel": {
-        "message": "Style"
+        "message": "Стил"
     },
     "buttonStyleLabel": {
         "message": "Translation button"
@@ -78,22 +78,22 @@
         "message": "Specify the style of the translation button displayed on the web page."
     },
     "buttonSizeLabel": {
-        "message": "Size"
+        "message": "Големина"
     },
     "buttonPositionLabel": {
         "message": "Display position"
     },
     "rightUpLabel": {
-        "message": "Top right"
+        "message": "Горе вдясно"
     },
     "rightDownLabel": {
-        "message": "Bottom right"
+        "message": "Долу вдясно"
     },
     "leftUpLabel": {
-        "message": "Top left"
+        "message": "Горе вляво"
     },
     "leftDownLabel": {
-        "message": "Bottom left"
+        "message": "Долу вляво"
     },
     "panelStyleLabel": {
         "message": "Translation panel"
@@ -102,7 +102,7 @@
         "message": "Specify the style of the translation panel displayed on the web page."
     },
     "widthLabel": {
-        "message": "Width"
+        "message": "Широчина"
     },
     "heightLabel": {
         "message": "Височина"
@@ -126,7 +126,7 @@
         "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
     },
     "addonPageLabel": {
-        "message": "Add-on page"
+        "message": "Страница на добавката"
     },
     "addonUrl": {
         "message": "https:\/\/addons.mozilla.org\/bg\/firefox\/addon\/simple-translate\/?src=optionpage"

@@ -75,13 +75,13 @@
         "message": "Бутон за превод"
     },
     "buttonStyleCaptionLabel": {
-        "message": "Specify the style of the translation button displayed on the web page."
+        "message": "Посочете стила на бутона за преводи, показващ се в уеб страниците."
     },
     "buttonSizeLabel": {
         "message": "Големина"
     },
     "buttonPositionLabel": {
-        "message": "Display position"
+        "message": "Местоположение при показване"
     },
     "rightUpLabel": {
         "message": "Горе вдясно"
@@ -123,7 +123,7 @@
         "message": "Моля, направете дарение"
     },
     "donationCaptionLabel": {
-        "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+        "message": "Благодаря ви че използвате Семпъл Преводач.<br>Вашата подкрепа би значела много за мен, тъй като ще продължа да разработвам добавката си.<br>Ако харесвате Семпъл Преводач, бих се радвал ако обмислите и дарите."
     },
     "addonPageLabel": {
         "message": "Страница на добавката"

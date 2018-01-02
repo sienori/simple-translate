@@ -24,55 +24,55 @@
         "message": "Általános"
     },
     "targetLangCaptionLabel": {
-        "message": "Select the default target language."
+        "message": "Válassza ki az alapértelmezett célnyelvet."
     },
     "webPageLabel": {
-        "message": "Web page"
+        "message": "Weboldal"
     },
     "ifShowCandidateLabel": {
-        "message": "Show translation candidates"
+        "message": "A fordítási jelöltek megjelenítése"
     },
     "ifShowCandidateCaptionLabel": {
-        "message": "Show multiple translation candidates when a single word is translated."
+        "message": "Több fordítási jelölt megjelenítése, ha egyetlen szót lefordítanak."
     },
     "ifShowButtonLabel": {
-        "message": "Display the button when text is selected"
+        "message": "A szöveg kijelölése után jelenítse meg a gombot"
     },
     "ifShowButtonCaptionLabel": {
-        "message": "Display the translation button when text is selected on the web page."
+        "message": "Megjelenik a fordítás gomb, ha szöveget választott ki a weboldalon."
     },
     "ifCheckLangLabel": {
-        "message": "Do not display the button if translation is not required"
+        "message": "Ne jelenítse meg a gombot, ha nincs szükség fordításra"
     },
     "ifCheckLangCaptionLabel": {
-        "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+        "message": "Felismeri a kijelölt szöveg nyelvét, és ha megegyezik a célnyelven, a gomb nem jelenik meg."
     },
     "ifShowMenuLabel": {
-        "message": "Display the context menu"
+        "message": "Jelenítse meg a helyi menüt"
     },
     "ifShowMenuCaptionLabel": {
-        "message": "Add items to the context menu displayed when right clicking on the web page."
+        "message": "Elemek hozzáadása a helyi menübe, amikor jobb egérgombbal kattint a weboldalra."
     },
     "toolbarLabel": {
-        "message": "Toolbar popup"
+        "message": "Eszköztár felugró ablak"
     },
     "ifChangeSecondLangLabel": {
-        "message": "Automatically switch to the second language"
+        "message": "Automatikus váltás a második nyelvre"
     },
     "ifChangeSecondLangCaptionLabel": {
-        "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+        "message": "Felismeri a beviteli szöveg nyelvét, és ha az megegyezik az alapértelmezett célnyelven, fordítsa le a második nyelvre."
     },
     "secondTargetLangLabel": {
         "message": "Második nyelv"
     },
     "secondTargetLangCaptionLabel": {
-        "message": "Select the second target language."
+        "message": "Válassza ki a második célnyelvet."
     },
     "styleLabel": {
-        "message": "Style"
+        "message": "Stílus"
     },
     "buttonStyleLabel": {
-        "message": "Translation button"
+        "message": "Fordítói gomb"
     },
     "buttonStyleCaptionLabel": {
         "message": "Adja meg a weboldalon megjelenő fordítási gomb stílusát."
@@ -123,7 +123,7 @@
         "message": "Adjon egy adományt"
     },
     "donationCaptionLabel": {
-        "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+        "message": "Köszönjük, hogy a Simple Translate programot használja.<br>Támogatásunk nagy ösztönzés lesz, mivel tovább fejlesztem a kiegészítőt.<br>Ha tetszik a Simple Translate, örülnék, ha megfontolhatná az adományozást."
     },
     "addonPageLabel": {
         "message": "Kiegészítő oldal"

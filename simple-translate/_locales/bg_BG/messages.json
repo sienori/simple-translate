@@ -33,7 +33,7 @@
         "message": "Показване на алтернативни преводи"
     },
     "ifShowCandidateCaptionLabel": {
-        "message": "Show multiple translation candidates when a single word is translated."
+        "message": "Показва множество кандидати за превода, когато само една дума бъде преведена."
     },
     "ifShowButtonLabel": {
         "message": "Display the button when text is selected"
@@ -57,7 +57,7 @@
         "message": "Toolbar popup"
     },
     "ifChangeSecondLangLabel": {
-        "message": "Automatically switch to the second language"
+        "message": "Автоматично превключване към втория език"
     },
     "ifChangeSecondLangCaptionLabel": {
         "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."

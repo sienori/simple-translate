@@ -105,16 +105,16 @@
         "message": "Width"
     },
     "heightLabel": {
-        "message": "Height"
+        "message": "Височина"
     },
     "fontSizeLabel": {
-        "message": "Font size"
+        "message": "Размер на шрифта"
     },
     "bgColorLabel": {
-        "message": "Background color"
+        "message": "Цвят на фона"
     },
     "informationLabel": {
-        "message": "Information"
+        "message": "Информация"
     },
     "licenseLabel": {
         "message": "Лиценз"
@@ -129,15 +129,15 @@
         "message": "Add-on page"
     },
     "addonUrl": {
-        "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
+        "message": "https:\/\/addons.mozilla.org\/bg\/firefox\/addon\/simple-translate\/?src=optionpage"
     },
     "translatePageMenu": {
         "message": "Преведете тази страница"
     },
     "translateTextMenu": {
-        "message": "Translate selected text"
+        "message": "Преведете избрания текст"
     },
     "translateLinkMenu": {
-        "message": "Translate selected link"
+        "message": "Преведете избраната връзка"
     }
 }

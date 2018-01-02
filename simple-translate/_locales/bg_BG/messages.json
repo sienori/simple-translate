@@ -3,10 +3,10 @@
         "message": "Simple Translate"
     },
     "extDescription": {
-        "message": "View translations easily as you browse the web."
+        "message": "Преглеждайте преводи лесно и удобно, докато сърфирате в мрежата."
     },
     "initialTextArea": {
-        "message": "Enter text"
+        "message": "Въведете текст"
     },
     "showLink": {
         "message": "Translate this page"

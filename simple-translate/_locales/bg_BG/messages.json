@@ -39,10 +39,10 @@
         "message": "Показване на бутона при избиране на текст"
     },
     "ifShowButtonCaptionLabel": {
-        "message": "Display the translation button when text is selected on the web page."
+        "message": "Показва бутона за преводи, при наличието на избран текст в уеб страниците."
     },
     "ifCheckLangLabel": {
-        "message": "Do not display the button if translation is not required"
+        "message": "Не показвай бутона, ако преводът не е необходим"
     },
     "ifCheckLangCaptionLabel": {
         "message": "Открива езика на избрания текст, и ако той съвпада с целевия език, бутонът не се показва."

@@ -60,7 +60,7 @@
         "message": "Автоматично превключване към втория език"
     },
     "ifChangeSecondLangCaptionLabel": {
-        "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+        "message": "Открива езика на входящия текст, и ако той съвпада с езика по подразбиране, го превежда на втория език."
     },
     "secondTargetLangLabel": {
         "message": "Втори език"

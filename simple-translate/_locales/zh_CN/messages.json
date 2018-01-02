@@ -120,13 +120,13 @@
         "message": "授权条款"
     },
     "donationLabel": {
-        "message": "请捐助我们吧！"
+        "message": "请捐助"
     },
     "donationCaptionLabel": {
         "message": "感谢您使用Simple Translate！<br>您的支持会是我继续开发此款附加组件的动力。<br>如果您喜欢Simple Translate，希望您可以考虑捐助。"
     },
     "addonPageLabel": {
-        "message": "Add-on page"
+        "message": "附加组件页面"
     },
     "addonUrl": {
         "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"

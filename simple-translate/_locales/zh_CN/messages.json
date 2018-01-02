@@ -72,58 +72,58 @@
         "message": "样式"
     },
     "buttonStyleLabel": {
-        "message": "Translation button"
+        "message": "翻译按钮"
     },
     "buttonStyleCaptionLabel": {
-        "message": "Specify the style of the translation button displayed on the web page."
+        "message": "指定在网页上显示的翻译按钮的样式。"
     },
     "buttonSizeLabel": {
-        "message": "Size"
+        "message": "大小"
     },
     "buttonPositionLabel": {
-        "message": "Display position"
+        "message": "显示位置"
     },
     "rightUpLabel": {
-        "message": "Top right"
+        "message": "右上角"
     },
     "rightDownLabel": {
         "message": "右下角"
     },
     "leftUpLabel": {
-        "message": "Top left"
+        "message": "左上角"
     },
     "leftDownLabel": {
-        "message": "Bottom left"
+        "message": "左下角"
     },
     "panelStyleLabel": {
-        "message": "Translation panel"
+        "message": "翻译面板"
     },
     "panelStyleCaptionLabel": {
-        "message": "Specify the style of the translation panel displayed on the web page."
+        "message": "指定在网页上显示的翻译面板的样式。"
     },
     "widthLabel": {
-        "message": "Width"
+        "message": "宽度"
     },
     "heightLabel": {
-        "message": "Height"
+        "message": "高度"
     },
     "fontSizeLabel": {
         "message": "字体大小"
     },
     "bgColorLabel": {
-        "message": "Background color"
+        "message": "背景色"
     },
     "informationLabel": {
-        "message": "Information"
+        "message": "信息"
     },
     "licenseLabel": {
-        "message": "License"
+        "message": "授权条款"
     },
     "donationLabel": {
-        "message": "Please make a donation"
+        "message": "请捐助我们吧！"
     },
     "donationCaptionLabel": {
-        "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+        "message": "感谢您使用Simple Translate！<br>您的支持会是我继续开发此款附加组件的动力。<br>如果您喜欢Simple Translate，希望您可以考虑捐助。"
     },
     "addonPageLabel": {
         "message": "Add-on page"

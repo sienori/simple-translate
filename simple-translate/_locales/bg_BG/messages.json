@@ -117,10 +117,10 @@
         "message": "Information"
     },
     "licenseLabel": {
-        "message": "License"
+        "message": "Лиценз"
     },
     "donationLabel": {
-        "message": "Please make a donation"
+        "message": "Моля, направете дарение"
     },
     "donationCaptionLabel": {
         "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
@@ -132,7 +132,7 @@
         "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
     },
     "translatePageMenu": {
-        "message": "Translate this page"
+        "message": "Преведете тази страница"
     },
     "translateTextMenu": {
         "message": "Translate selected text"

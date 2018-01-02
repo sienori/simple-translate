@@ -36,7 +36,7 @@
         "message": "Показва множество кандидати за превода, когато само една дума бъде преведена."
     },
     "ifShowButtonLabel": {
-        "message": "Display the button when text is selected"
+        "message": "Показване на бутона при избиране на текст"
     },
     "ifShowButtonCaptionLabel": {
         "message": "Display the translation button when text is selected on the web page."
@@ -45,7 +45,7 @@
         "message": "Do not display the button if translation is not required"
     },
     "ifCheckLangCaptionLabel": {
-        "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+        "message": "Открива езика на избрания текст, и ако той съвпада с целевия език, бутонът не се показва."
     },
     "ifShowMenuLabel": {
         "message": "Показване на контекстното меню"
@@ -60,7 +60,7 @@
         "message": "Автоматично превключване към втория език"
     },
     "ifChangeSecondLangCaptionLabel": {
-        "message": "Открива езика на входящия текст, и ако той съвпада с езика по подразбиране, го превежда на втория език."
+        "message": "Открива езика на избрания текст, и ако той съвпада с езика по подразбиране, го превежда на втория език."
     },
     "secondTargetLangLabel": {
         "message": "Втори език"

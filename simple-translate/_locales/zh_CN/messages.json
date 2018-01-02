@@ -42,34 +42,34 @@
         "message": "在网页上选取文本时显示翻译按钮。"
     },
     "ifCheckLangLabel": {
-        "message": "Do not display the button if translation is not required"
+        "message": "不需要翻译时，不要显示按钮"
     },
     "ifCheckLangCaptionLabel": {
-        "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+        "message": "侦测选取文本的语言，如果它与目标语言相同，则不显示按钮。"
     },
     "ifShowMenuLabel": {
-        "message": "Display the context menu"
+        "message": "显示上下文菜单"
     },
     "ifShowMenuCaptionLabel": {
-        "message": "Add items to the context menu displayed when right clicking on the web page."
+        "message": "在网页上右击时，将项目添加到显示的上下文菜单中。"
     },
     "toolbarLabel": {
-        "message": "Toolbar popup"
+        "message": "工具栏弹出窗口"
     },
     "ifChangeSecondLangLabel": {
-        "message": "Automatically switch to the second language"
+        "message": "自动切换到第二语言"
     },
     "ifChangeSecondLangCaptionLabel": {
-        "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+        "message": "侦测文本输入所用的语言，如果它与默认的目标语言相同，则将它翻译为第二语言。"
     },
     "secondTargetLangLabel": {
         "message": "第二语言:"
     },
     "secondTargetLangCaptionLabel": {
-        "message": "Select the second target language."
+        "message": "选择第二种目标语言。"
     },
     "styleLabel": {
-        "message": "Style"
+        "message": "样式"
     },
     "buttonStyleLabel": {
         "message": "Translation button"

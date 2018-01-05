@@ -30,7 +30,7 @@
         "message": "Halaman web"
     },
     "ifShowCandidateLabel": {
-        "message": "Show translation candidates"
+        "message": "Tampilkan kandidat terjemahan"
     },
     "ifShowCandidateCaptionLabel": {
         "message": "Tampilkan beberapa kandidat terjemahan saat satu kata diterjemahkan."
@@ -111,7 +111,7 @@
         "message": "Ukuran huruf"
     },
     "bgColorLabel": {
-        "message": "Background color"
+        "message": "Warna latar belakang"
     },
     "informationLabel": {
         "message": "Informasi"

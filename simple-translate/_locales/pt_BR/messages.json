@@ -30,10 +30,10 @@
         "message": "Página web"
     },
     "ifShowCandidateLabel": {
-        "message": "Show translation candidates"
+        "message": "Mostrar traduções candidatas"
     },
     "ifShowCandidateCaptionLabel": {
-        "message": "Show multiple translation candidates when a single word is translated."
+        "message": "Mostrar várias traduções candidatas quando uma única palavra é traduzida."
     },
     "ifShowButtonLabel": {
         "message": "Exibir o botão quando um texto for selecionado"
@@ -111,7 +111,7 @@
         "message": "Tamanho da fonte"
     },
     "bgColorLabel": {
-        "message": "Background color"
+        "message": "Cor do plano de fundo"
     },
     "informationLabel": {
         "message": "Informação"

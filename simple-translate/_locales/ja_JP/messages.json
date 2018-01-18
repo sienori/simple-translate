@@ -129,7 +129,7 @@
         "message": "アドオンページ"
     },
     "addonUrl": {
-        "message": "https:\\\/\\\/addons.mozilla.org\\\/ja\\\/firefox\\\/addon\\\/simple-translate\\\/?src=optionpage"
+        "message": "https:\/\/addons.mozilla.org\/ja\/firefox\/addon\/simple-translate\/?src=optionpage"
     },
     "translatePageMenu": {
         "message": "ページ全体を翻訳"

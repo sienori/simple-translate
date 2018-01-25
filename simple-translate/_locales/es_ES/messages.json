@@ -57,76 +57,76 @@
         "message": "Ventana emergente de la barra de herramientas"
     },
     "ifChangeSecondLangLabel": {
-        "message": "Automatically switch to the second language"
+        "message": "Cambiar automáticamente al segundo lenguaje"
     },
     "ifChangeSecondLangCaptionLabel": {
-        "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+        "message": "Detecta el idioma del texto de entrada, y si es el mismo que el idioma predeterminado de destino, traducir al segundo idioma."
     },
     "secondTargetLangLabel": {
         "message": "Segunda lengua"
     },
     "secondTargetLangCaptionLabel": {
-        "message": "Select the second target language."
+        "message": "Seleccione el segundo idioma de destino."
     },
     "styleLabel": {
-        "message": "Style"
+        "message": "Estilo"
     },
     "buttonStyleLabel": {
-        "message": "Translation button"
+        "message": "Botón de traducción"
     },
     "buttonStyleCaptionLabel": {
-        "message": "Specify the style of the translation button displayed on the web page."
+        "message": "Especifica el estilo del botón de traducción mostrado en la página web."
     },
     "buttonSizeLabel": {
-        "message": "Size"
+        "message": "Tamaño"
     },
     "buttonPositionLabel": {
-        "message": "Display position"
+        "message": "Mostrar posición"
     },
     "rightUpLabel": {
-        "message": "Top right"
+        "message": "Arriba a la derecha"
     },
     "rightDownLabel": {
         "message": "Abajo a la derecha"
     },
     "leftUpLabel": {
-        "message": "Top left"
+        "message": "Arriba a la izquierda"
     },
     "leftDownLabel": {
-        "message": "Bottom left"
+        "message": "Abajo a la izquierda"
     },
     "panelStyleLabel": {
-        "message": "Translation panel"
+        "message": "Panel de traducción"
     },
     "panelStyleCaptionLabel": {
-        "message": "Specify the style of the translation panel displayed on the web page."
+        "message": "Especifica el estilo del panel de traducción mostrado en la página web."
     },
     "widthLabel": {
-        "message": "Width"
+        "message": "Ancho"
     },
     "heightLabel": {
-        "message": "Height"
+        "message": "Altura"
     },
     "fontSizeLabel": {
         "message": "Tamaño de la fuente"
     },
     "bgColorLabel": {
-        "message": "Background color"
+        "message": "Color de fondo"
     },
     "informationLabel": {
-        "message": "Information"
+        "message": "Información"
     },
     "licenseLabel": {
-        "message": "License"
+        "message": "Licencia"
     },
     "donationLabel": {
-        "message": "Please make a donation"
+        "message": "Por favor haga una donación"
     },
     "donationCaptionLabel": {
-        "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+        "message": "Gracias por usar Simple Translate.<br> Su apoyo será un gran estímulo para continuar el desarrollo del complemento.<br>Si le gusta Simple Translate, me alegraría si pudiera considerar una donación."
     },
     "addonPageLabel": {
-        "message": "Add-on page"
+        "message": "Página de complemento"
     },
     "addonUrl": {
         "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"

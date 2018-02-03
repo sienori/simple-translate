@@ -30,10 +30,10 @@
         "message": "Strona internetowa"
     },
     "ifShowCandidateLabel": {
-        "message": "Show translation candidates"
+        "message": "Pokaż kandydatów do tłumaczenia"
     },
     "ifShowCandidateCaptionLabel": {
-        "message": "Show multiple translation candidates when a single word is translated."
+        "message": "Pokaż wiele kandydatów do tłumaczenia kiedy słowo zoataje przetłumaczone."
     },
     "ifShowButtonLabel": {
         "message": "Wyświetlaj przycisk, gdy tekst jest zaznaczony"
@@ -111,7 +111,7 @@
         "message": "Rozmiar czcionki"
     },
     "bgColorLabel": {
-        "message": "Background color"
+        "message": "Kolor tła"
     },
     "informationLabel": {
         "message": "Informacje"

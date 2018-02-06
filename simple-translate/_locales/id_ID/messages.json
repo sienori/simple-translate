@@ -35,6 +35,12 @@
     "ifShowCandidateCaptionLabel": {
         "message": "Tampilkan beberapa kandidat terjemahan saat satu kata diterjemahkan."
     },
+    "ifAutoTranslate": {
+        "message": "Automatically display translation panel"
+    },
+    "ifAutoTranslateLabel": {
+        "message": "Directly display the translation panel without displaying the button."
+    },
     "ifShowButtonLabel": {
         "message": "Menampilkan tombol ketika teks yang dipilih"
     },

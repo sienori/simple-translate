@@ -35,6 +35,12 @@
     "ifShowCandidateCaptionLabel": {
         "message": "Mostrar várias traduções candidatas quando uma única palavra é traduzida."
     },
+    "ifAutoTranslate": {
+        "message": "Automatically display translation panel"
+    },
+    "ifAutoTranslateLabel": {
+        "message": "Directly display the translation panel without displaying the button."
+    },
     "ifShowButtonLabel": {
         "message": "Exibir o botão quando um texto for selecionado"
     },

@@ -35,6 +35,12 @@
     "ifShowCandidateCaptionLabel": {
         "message": "一つの語句が翻訳された時に複数の候補を表示します。"
     },
+    "ifAutoTranslate": {
+        "message": "Automatically display translation panel"
+    },
+    "ifAutoTranslateLabel": {
+        "message": "Directly display the translation panel without displaying the button."
+    },
     "ifShowButtonLabel": {
         "message": "テキスト選択時にボタンを表示する"
     },

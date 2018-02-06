@@ -47,12 +47,6 @@
     "ifCheckLangCaptionLabel": {
         "message": "選択したテキストの言語を検出し，翻訳先言語と同じ場合はボタンを表示しません。"
     },
-    "ifAutoTranslate": {
-        "message": "自動的に翻訳パネルを表示する"
-    },
-    "ifAutoTranslateLabel": {
-        "message": "ボタンを表示せずに直接翻訳パネルを表示します。"
-    },
     "ifShowMenuLabel": {
         "message": "コンテキストメニューを表示する"
     },

@@ -79,18 +79,48 @@
                     <ul class=categoryElements>
                         <li class=optionContainer>
                             <div class=optionText>
-                                <p class=ifShowButtonLabel>テキスト選択時にボタンを表示する</p>
-                                <p class="caption ifShowButtonCaptionLabel">webページ上のテキストを選択した時に翻訳ボタンを表示します。</p>
-                            </div>
-                            <div class=optionForm>
-                                <label>
-                                <input type=checkbox id=ifShowButton class=saveByChange checked>
-                                <span class=checkbox></span>
-                                </label>
+                                <p class=whenSelectTextLabel>テキスト選択時の動作</p>
                             </div>
                         </li>
                         <ul class=childElements>
                             <li class=optionContainer>
+                                <div class=optionText>
+                                    <p class=ifShowButtonLabel>翻訳ボタンを表示する</p>
+                                    <p class="caption ifShowButtonCaptionLabel">クリックすると翻訳パネルが開くボタンを表示します。</p>
+                                </div>
+                                <div class=optionForm>
+                                    <label>
+                                        <input type=radio name=whenSelectText value=showButton class=saveByChange>
+                                        <span class=radio></span>
+                                    </label>
+                                </div>
+                            </li>
+                            <li class="optionContainer new">
+                                <div class=optionText>
+                                    <p class=ifAutoTranslateLabel>翻訳パネルを表示する</p>
+                                    <p class="caption ifAutoTranslateCaptionLabel">ボタンを表示せずに直接翻訳パネルを表示します。</p>
+                                </div>
+                                <div class=optionForm>
+                                    <label>
+                                        <input type=radio name=whenSelectText value=showPanel class=saveByChange>
+                                        <span class=radio></span>
+                                    </label>
+                                </div>
+                            </li>
+                            <li class=optionContainer>
+                                <div class=optionText>
+                                    <p class=dontShowButtonLabel>ボタンやパネルを表示しない</p>
+                                    <p class="caption dontShowButtonCaptionLabel">翻訳ボタンや翻訳パネルを表示しません。</p>
+                                </div>
+                                <div class=optionForm>
+                                    <label>
+                                        <input type=radio name=whenSelectText value=dontShowButton class=saveByChange checked>
+                                        <span class=radio></span>
+                                    </label>
+                                </div>
+                            </li>
+                            <hr>
+                            <li class="optionContainer">
                                 <div class=optionText>
                                     <p class=ifCheckLangLabel>翻訳の必要がなければボタンを表示しない</p>
                                     <p class="caption ifCheckLangCaptionLabel">選択したテキストの言語を判定し，翻訳先言語と同じ場合はボタンを表示しません。</p>
@@ -98,18 +128,6 @@
                                 <div class=optionForm>
                                     <label>
                                     <input type=checkbox id=ifCheckLang class=saveByChange checked>
-                                    <span class=checkbox></span>
-                                    </label>
-                                </div>
-                            </li>
-                            <li class=optionContainer>
-                                <div class=optionText>
-                                    <p class=ifAutoTranslate>自動的に翻訳パネルを表示する</p>
-                                    <p class="caption ifAutoTranslateCaptionLabel">ボタンを表示せずに直接翻訳パネルを表示します。</p>
-                                </div>
-                                <div class=optionForm>
-                                    <label>
-                                    <input type=checkbox id=ifAutoTranslate class=saveByChange>
                                     <span class=checkbox></span>
                                     </label>
                                 </div>

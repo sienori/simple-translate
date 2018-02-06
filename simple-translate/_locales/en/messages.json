@@ -35,17 +35,26 @@
     "ifShowCandidateCaptionLabel": {
         "message": "Show multiple translation candidates when a single word is translated."
     },
-    "ifAutoTranslate": {
-        "message": "Automatically display translation panel"
+    "whenSelectTextLabel": {
+        "message": "Behavior when selecting text"
     },
     "ifAutoTranslateLabel": {
+        "message": "Display translation panel"
+    },
+    "ifAutoTranslateCaptionLabel": {
         "message": "Directly display the translation panel without displaying the button."
     },
     "ifShowButtonLabel": {
-        "message": "Display the button when text is selected"
+        "message": "Display translation button"
     },
     "ifShowButtonCaptionLabel": {
-        "message": "Display the translation button when text is selected on the web page."
+        "message": "Display the translation button to open the panel when clicked."
+    },
+    "dontshowbuttonlabel": {
+        "message": "Don't display button or panel"
+    },
+    "dontshowbuttonCaptionlabel": {
+        "message": "Don't display the translation button or the translation panel."
     },
     "ifCheckLangLabel": {
         "message": "Do not display the button if translation is not required"

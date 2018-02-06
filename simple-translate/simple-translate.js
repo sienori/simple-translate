@@ -15,7 +15,6 @@ window.addEventListener("mouseup", Select, false);
 function Select(e) {
     hidePanel(e);
     setTimeout(function () { //誤動作防止の為ディレイを設ける
-        //selectionWord = String(window.getSelection());
         if (e.target.tagName == "INPUT" || e.target.tagName == "TEXTAREA") {
             selectionWord = e.target.value.substring(e.target.selectionStart, e.target.selectionEnd);
         } else {
@@ -24,16 +23,23 @@ function Select(e) {
 
         if ((selectionWord.length !== 0) && (e.button == 0) && (e.target.id !== "simple-translate-panel") && (e.target.parentElement.id !== "simple-translate-panel")) { //選択範囲が存在かつ左クリックかつパネル以外のとき
             clickPosition = e;
-            if (S.get().ifShowButton) { 
-                checkLang().then(function (results) {
-                    if (results && S.get().ifAutoTranslate) { // 自動翻訳パネル表示がOnならshowPanel()
-                        translate();
-                        showPanel(e);
-                    } else if (results) { // Offならボタンを表示
-                        popupButton(e);
+
+            checkLang().then(function (results) {
+                if (results) {
+                    console.log(S.get().whenSelectText);
+                    switch (S.get().whenSelectText) {
+                        case 'showButton':
+                            popupButton(e);
+                            break;
+                        case 'showPanel':
+                            translate();
+                            showPanel(e);
+                            break;
+                        case 'dontShowButton':
+                            break;
                     }
-                });
-            }
+                }
+            });
         }
     }, 200);
 }

@@ -35,6 +35,12 @@
     "ifShowCandidateCaptionLabel": {
         "message": "Показва множество кандидати за превода, когато само една дума бъде преведена."
     },
+    "ifAutoTranslate": {
+        "message": "Automatically display translation panel"
+    },
+    "ifAutoTranslateLabel": {
+        "message": "Directly display the translation panel without displaying the button."
+    },
     "ifShowButtonLabel": {
         "message": "Показване на бутона при избиране на текст"
     },

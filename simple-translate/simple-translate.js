@@ -24,9 +24,14 @@ function Select(e) {
 
         if ((selectionWord.length !== 0) && (e.button == 0) && (e.target.id !== "simple-translate-panel") && (e.target.parentElement.id !== "simple-translate-panel")) { //選択範囲が存在かつ左クリックかつパネル以外のとき
             clickPosition = e;
-            if (S.get().ifShowButton) { //ボタンを表示
+            if (S.get().ifShowButton) { 
                 checkLang().then(function (results) {
-                    if (results) popupButton(e);
+                    if (results && S.get().ifAutoTranslate) { // 自動翻訳パネル表示がOnならshowPanel()
+                        translate();
+                        showPanel(e);
+                    } else if (results) { // Offならボタンを表示
+                        popupButton(e);
+                    }
                 });
             }
         }

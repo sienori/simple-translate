@@ -36,25 +36,25 @@
         "message": "一つの語句が翻訳された時に複数の候補を表示します。"
     },
     "whenSelectTextLabel": {
-        "message": "Behavior when selecting text"
+        "message": "テキスト選択時の動作"
     },
     "ifAutoTranslateLabel": {
-        "message": "Display translation panel"
+        "message": "翻訳パネルを表示する"
     },
     "ifAutoTranslateCaptionLabel": {
-        "message": "Directly display the translation panel without displaying the button."
+        "message": "ボタンを表示せずに直接翻訳パネルを表示します。"
     },
     "ifShowButtonLabel": {
-        "message": "Display translation button"
+        "message": "翻訳ボタンを表示する"
     },
     "ifShowButtonCaptionLabel": {
-        "message": "Display the translation button to open the panel when clicked."
+        "message": "クリックすると翻訳パネルが開くボタンを表示します。"
     },
     "dontshowbuttonlabel": {
-        "message": "Don't display button or panel"
+        "message": "ボタンやパネルを表示しない"
     },
     "dontshowbuttonCaptionlabel": {
-        "message": "Don't display the translation button or the translation panel."
+        "message": "翻訳ボタンや翻訳パネルを表示しません。"
     },
     "ifCheckLangLabel": {
         "message": "翻訳の必要がなければボタンを表示しない"

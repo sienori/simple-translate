@@ -1,0 +1,158 @@
+{
+    "extName": {
+        "message": "Simple Translate"
+    },
+    "extDescription": {
+        "message": "Преглеждайте преводи лесно, докато сърфирате в мрежата."
+    },
+    "initialTextArea": {
+        "message": "Въведете текст"
+    },
+    "showLink": {
+        "message": "Преведете тази страница"
+    },
+    "targetLangLabel": {
+        "message": "Целеви език"
+    },
+    "langList": {
+        "message": "af:Африканс, sq:Албански, am:Амхарски, ar:Арабски, hy:Арменски, az:Азербайджански, eu:Баскски, be:Беларуски, bn:Бенгалски, bs:Босненски, bg:Български, ca:Каталонски, ceb:Себуански, ny:Нянджа, zh-CN:Китайски (КНР), zh-TW:Китайски (Тайван), co:Корсикански, hr:Хърватски, cs:Чешки, da:Датски, nl:Нидерландски, en:Английски, eo:Есперанто, et:Естонски, fi:Фински, fr:Френски, fy:Фризийски, gl:Галисийски, ka:Грузински, de:Немски, el:Гръцки, gu:Гуджаратски, ht:Хаитянски, ha:Хауса, haw:Хавайски, he:Иврит, hi:Хинди, hu:Унгарски, is:Исландски, ig:Игбо, id:Индонезийски, ga:Ирландски, it:Италиански, ja:Японски, jv:Явански, kn:Каннада, kk:Казахски, km:Кхмерски, ky:Киргизки, ko:Корейски, ku:Кюрдски, lo:Лаоски, la:Латински, lv:Латвийски, lt:Литовски, lb:Люксембургски, mk:Македонски, mg:Малгашки, ms:Малайски, ml:Малаялам, mt:Малтийски, mi:Маорски, mr:Маратхи, mn:Монголски, hmn:Монк, my:Бирмански, ne:Непалски, no:Норвежки, fa:Персийски, pl:Полски, pt:Португалски, pa:Панджабски, ps:Пущунски, ro:Румънски, ru:Руски, sm:Самоански, gd:Шотландски Келтски, sr:Сръбски, sn:Шона, sd:Синдхи, si:Синхалски, sk:Словашки, sl:Словенски, so:Сомалийски, sx:Сото, es:Испански, su:Сундански, sw:Суахили, sv:Шведски, tl:Тагалог, tg:Таджикски, ta:Тамилски, te:Телугу, th:Тайски, tr:Турски, uk:Украински, ur:Урду, uz:Узбекски, vi:Виетнамски, cy:Уелски, xh:Кхоса, yi:Идиш, yo:Йоруба, zu:Зулуски"
+    },
+    "settingsLabel": {
+        "message": "Настройки"
+    },
+    "generalLabel": {
+        "message": "Общи"
+    },
+    "targetLangCaptionLabel": {
+        "message": "Изберете целевия език по подразбиране."
+    },
+    "webPageLabel": {
+        "message": "Уеб страница"
+    },
+    "ifShowCandidateLabel": {
+        "message": "Показване на алтернативни преводи"
+    },
+    "ifShowCandidateCaptionLabel": {
+        "message": "Показва множество кандидати за превода, когато само една дума бъде преведена."
+    },
+    "whenSelectTextLabel": {
+        "message": "Behavior when selecting text"
+    },
+    "ifAutoTranslateLabel": {
+        "message": "Display translation panel"
+    },
+    "ifAutoTranslateCaptionLabel": {
+        "message": "Directly display the translation panel without displaying the button."
+    },
+    "ifShowButtonLabel": {
+        "message": "Display translation button"
+    },
+    "ifShowButtonCaptionLabel": {
+        "message": "Display the translation button to open the panel when clicked."
+    },
+    "dontshowbuttonlabel": {
+        "message": "Don't display button or panel"
+    },
+    "dontshowbuttonCaptionlabel": {
+        "message": "Don't display the translation button or the translation panel."
+    },
+    "ifCheckLangLabel": {
+        "message": "Не показвай бутона, ако преводът не е необходим"
+    },
+    "ifCheckLangCaptionLabel": {
+        "message": "Открива езика на избрания текст, и ако той съвпада с целевия език, бутонът не се показва."
+    },
+    "ifShowMenuLabel": {
+        "message": "Показване на контекстното меню"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "Добавя елементи към контекстното меню, което се показва, когато щракнете с десния бутон на мишката върху уеб страницата."
+    },
+    "toolbarLabel": {
+        "message": "Прозорец от лентата с инструменти"
+    },
+    "ifChangeSecondLangLabel": {
+        "message": "Автоматично превключване към втория език"
+    },
+    "ifChangeSecondLangCaptionLabel": {
+        "message": "Открива езика на въведения текст, и ако той съвпада с целевия език по подразбиране, го превежда на втория целеви език."
+    },
+    "secondTargetLangLabel": {
+        "message": "Втори език"
+    },
+    "secondTargetLangCaptionLabel": {
+        "message": "Изберете втория целеви език."
+    },
+    "styleLabel": {
+        "message": "Стил"
+    },
+    "buttonStyleLabel": {
+        "message": "Бутон за превод"
+    },
+    "buttonStyleCaptionLabel": {
+        "message": "Посочете стила на бутона за преводи, показващ се в уеб страницата."
+    },
+    "buttonSizeLabel": {
+        "message": "Големина"
+    },
+    "buttonPositionLabel": {
+        "message": "Местоположение при показване"
+    },
+    "rightUpLabel": {
+        "message": "Горе вдясно"
+    },
+    "rightDownLabel": {
+        "message": "Долу вдясно"
+    },
+    "leftUpLabel": {
+        "message": "Горе вляво"
+    },
+    "leftDownLabel": {
+        "message": "Долу вляво"
+    },
+    "panelStyleLabel": {
+        "message": "Панел за превод"
+    },
+    "panelStyleCaptionLabel": {
+        "message": "Посочете стила на панела за преводи, показващ се в уеб страницата."
+    },
+    "widthLabel": {
+        "message": "Широчина"
+    },
+    "heightLabel": {
+        "message": "Височина"
+    },
+    "fontSizeLabel": {
+        "message": "Размер на шрифта"
+    },
+    "bgColorLabel": {
+        "message": "Цвят на фона"
+    },
+    "informationLabel": {
+        "message": "Информация"
+    },
+    "licenseLabel": {
+        "message": "Лиценз"
+    },
+    "donationLabel": {
+        "message": "Моля, направете дарение"
+    },
+    "donationCaptionLabel": {
+        "message": "Благодаря ви че използвате Семпъл Преводач.<br>Вашата подкрепа би значела много за мен, тъй като ще продължа да разработвам добавката си.<br>Ако харесвате Семпъл Преводач, бих се радвал ако обмислите да дарите."
+    },
+    "addonPageLabel": {
+        "message": "Страница на добавката"
+    },
+    "addonUrl": {
+        "message": "https:\/\/addons.mozilla.org\/bg\/firefox\/addon\/simple-translate\/?src=optionpage"
+    },
+    "translatePageMenu": {
+        "message": "Преведете тази страница"
+    },
+    "translateTextMenu": {
+        "message": "Преведете избрания текст"
+    },
+    "translateLinkMenu": {
+        "message": "Преведете избраната връзка"
+    }
+}

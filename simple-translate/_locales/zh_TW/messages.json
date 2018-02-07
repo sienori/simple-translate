@@ -15,7 +15,7 @@
         "message": "目標語言"
     },
     "langList": {
-        "message": "af:Afrikaans, sq:Albanian, am:Amharic, ar:Arabic, hy:Armenian, az:Azerbaijani, eu:Basque, be:Belarusian, bn:Bengali, bs:Bosnian, bg:Bulgarian, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Chinese (PRC), zh-TW:Chinese (Taiwan), co:Corsican, hr:Croatian, cs:Czech, da:Danish, nl:Dutch, en:English, eo:Esperanto, et:Estonian, fi:Finnish, fr:French, fy:Frisian, gl:Galician, ka:Georgian, de:German, el:Greek, gu:Gujarati, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesian, ga:Irish, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Korean, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:Macedonian, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persian, pl:Polish, pt:Portuguese, pa:Punjabi, ps:Pushto, ro:Romanian, ru:Russian, sm:Samoan, gd:Scottish Gaelic, sr:Serbian, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovak, sl:Slovenian, so:Somali, sx:Sotho, es:Spanish, su:Sundanese, sw:Swahili, sv:Swedish, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turkish, uk:Ukrainian, ur:Urdu, uz:Uzbek, vi:Vietnamese, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
+        "message": "af:南非語, sq:阿爾巴尼亞語, am:阿姆哈拉語, ar:阿拉伯語, hy:亞美尼亞語, az:阿塞拜疆語, eu:巴斯克語, be:白俄羅斯語, bn:孟加拉語, bs:波士尼亞語, bg:保加利亞語, ca:加泰隆尼亞語, ceb:宿霧語, ny:齊切瓦語, zh-CN:中文 (簡體), zh-TW:中文 (繁體), co:科西嘉語, hr:克羅埃西亞語, cs:捷克語, da:丹麥語, nl:荷蘭語, en:英語, eo:世界語, et:愛沙尼亞語, fi:芬蘭語, fr:法語, fy:菲士蘭語, gl:加利西亞語, ka:喬治亞語, de:德語, el:希臘語, gu:古吉拉特語, ht:海地語, ha:豪薩語, haw:夏威夷語, he:希伯來語, hi:印地語, hu:匈牙利語, is:冰島語, ig:伊博語, id:印尼語, ga:愛爾蘭語, it:義大利語, ja:日語, jv:爪哇語, kn:康納達語, kk:哈薩克語, km:高棉語, ky:柯爾克孜語, ko:韓語, ku:庫德語, lo:寮語, la:拉丁語, lv:拉脫維亞語, lt:立陶宛語, lb:盧森堡語, mk:馬其頓語, mg:馬拉加斯語, ms:馬來語, ml:馬拉雅拉姆語, mt:馬爾他語, mi:毛利語, mr:馬拉提語, mn:蒙古語, hmn:孟語, my:緬甸語, ne:尼泊爾語, no:挪威語, fa:波斯語, pl:波蘭語, pt:葡萄牙語, pa:旁遮普語, ps:普什圖語, ro:羅馬尼亞語, ru:俄語, sm:薩摩亞語, gd:蘇格蘭蓋爾語, sr:塞爾維亞語, sn:修納語, sd:信德語, si:僧伽羅語, sk:斯洛伐克語, sl:斯洛維尼亞語, so:索馬利亞語, sx:塞索托語, es:西班牙語, su:巽他語, sw:斯瓦希里語, sv:瑞典語, tl:他加祿語, tg:塔吉克語, ta:坦米爾語, te:泰盧固語, th:泰語, tr:土耳其語, uk:烏克蘭語, ur:烏爾都語, uz:烏茲別克語, vi:越南語, cy:威爾斯語, xh:科薩語, yi:意第緒語, yo:約魯巴語, zu:祖魯語"
     },
     "settingsLabel": {
         "message": "設定"
@@ -30,16 +30,31 @@
         "message": "網頁"
     },
     "ifShowCandidateLabel": {
-        "message": "Show translation candidates"
+        "message": "顯示候選翻譯"
     },
     "ifShowCandidateCaptionLabel": {
-        "message": "Show multiple translation candidates when a single word is translated."
+        "message": "翻譯單詞時顯示多個候選翻譯。"
+    },
+    "whenSelectTextLabel": {
+        "message": "Behavior when selecting text"
+    },
+    "ifAutoTranslateLabel": {
+        "message": "Display translation panel"
+    },
+    "ifAutoTranslateCaptionLabel": {
+        "message": "Directly display the translation panel without displaying the button."
     },
     "ifShowButtonLabel": {
-        "message": "選取文字時顯示按鈕"
+        "message": "Display translation button"
     },
     "ifShowButtonCaptionLabel": {
-        "message": "在網頁上選取文字時顯示翻譯按鈕。"
+        "message": "Display the translation button to open the panel when clicked."
+    },
+    "dontshowbuttonlabel": {
+        "message": "Don't display button or panel"
+    },
+    "dontshowbuttonCaptionlabel": {
+        "message": "Don't display the translation button or the translation panel."
     },
     "ifCheckLangLabel": {
         "message": "如果不需翻譯時, 不要顯示按鈕"
@@ -111,7 +126,7 @@
         "message": "字型大小"
     },
     "bgColorLabel": {
-        "message": "Background color"
+        "message": "背景色彩"
     },
     "informationLabel": {
         "message": "附加元件資訊"

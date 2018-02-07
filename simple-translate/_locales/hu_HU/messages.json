@@ -12,132 +12,147 @@
         "message": "Ez az oldal lefordítása"
     },
     "targetLangLabel": {
-        "message": "Célnyelven"
+        "message": "Célnyelv"
     },
     "langList": {
-        "message": "af:Afrikaans, sq:Albanian, am:Amharic, ar:Arabic, hy:Armenian, az:Azerbaijani, eu:Basque, be:Belarusian, bn:Bengali, bs:Bosnian, bg:Bulgarian, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Chinese (PRC), zh-TW:Chinese (Taiwan), co:Corsican, hr:Croatian, cs:Czech, da:Danish, nl:Dutch, en:English, eo:Esperanto, et:Estonian, fi:Finnish, fr:French, fy:Frisian, gl:Galician, ka:Georgian, de:German, el:Greek, gu:Gujarati, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesian, ga:Irish, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Korean, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:Macedonian, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persian, pl:Polish, pt:Portuguese, pa:Punjabi, ps:Pushto, ro:Romanian, ru:Russian, sm:Samoan, gd:Scottish Gaelic, sr:Serbian, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovak, sl:Slovenian, so:Somali, sx:Sotho, es:Spanish, su:Sundanese, sw:Swahili, sv:Swedish, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turkish, uk:Ukrainian, ur:Urdu, uz:Uzbek, vi:Vietnamese, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
+        "message": "af:Afrikaans, sq:Albán, am:Amhara, en:Angol, ar:Arab, az:Azeri, eu:Baszk, be:Belorusz, bn:Bengáli, bs:Bosnyák, bg:Bolgár, ceb:Cebuano, ny:Chichewa, cs:Cseh, da:Dán, eo:Eszperantó, et:Észt, fi:Finn, fr:Francia, fy:Fríz, gl:Galíciai, el:Görög, ka:Grúz, gu:Gudzsaráti, ht:Haiti kreol, ha:Hausza, haw:Hawaii, he:Héber, hi:Hindi, nl:Holland, hr:Horvát, ig:Igbo, id:Indonéz, ga:Ír, is:Izlandi, ja:Japán, jv:Jávai, yi:Jiddis, yo:Joruba, kn:Kannada, ca:Katalán, kk:Kazah, km:Khmer, ky:Kirgiz, zh-CN:Kínai (KNK), zh-TW:Kínai (tajvani), ko:Koreai, co:Korzikai, ku:Kurd, lo:Lao, la:Latin, pl:Lengyel, lv:Lett, lt:Litván, lb:Luxemburgi, mk:Macedón, hu:Magyar, mg:Malagaszi, ms:Maláj, ml:Malajálam , mt:Máltai, mi:Maori, mr:Maráthi, my:Mianmari, mn:Mongol, hmn:Monk, de:Német, ne:Nepáli, no:Norvég, it:Olasz, ru:Orosz, hy:Örmény, pa:Pandzsábi, ps:Pastu, fa:Perzsa, pt:Portugál, ro:Román, sn:Shona, gd:Skót-gael, es:Spanyol, sv:Svéd, sm:Szamoai, sr:Szerb, sd:Szindhi, si:Szinhala, sz:Szlovák, sl:Szlovén, so:Szomáli, sx:Szoto, sw:Szuahéli, su:Szundanéz, tg:Tadzsik, ta:Tamil, tl:Tagalog, te:Telugu, th:Thai, tr:Török, uk:Ukrán, ur:Urdu, uz:Üzbég, vi:Vietnami, cy:Walesi, xh:Xhosa, zu:Zulu"
     },
     "settingsLabel": {
-        "message": "Settings"
+        "message": "Beállítások"
     },
     "generalLabel": {
-        "message": "General"
+        "message": "Általános"
     },
     "targetLangCaptionLabel": {
-        "message": "Select the default target language."
+        "message": "Válassza ki az alapértelmezett nyelvet."
     },
     "webPageLabel": {
-        "message": "Web page"
+        "message": "Honlap"
     },
     "ifShowCandidateLabel": {
-        "message": "Show translation candidates"
+        "message": "Lehetséges fordítások megjelenítése"
     },
     "ifShowCandidateCaptionLabel": {
-        "message": "Show multiple translation candidates when a single word is translated."
+        "message": "Több lehetséges fordítás megjelenítése amikor csak egy szó kerül lefordításra."
+    },
+    "whenSelectTextLabel": {
+        "message": "Behavior when selecting text"
+    },
+    "ifAutoTranslateLabel": {
+        "message": "Display translation panel"
+    },
+    "ifAutoTranslateCaptionLabel": {
+        "message": "Directly display the translation panel without displaying the button."
     },
     "ifShowButtonLabel": {
-        "message": "Display the button when text is selected"
+        "message": "Display translation button"
     },
     "ifShowButtonCaptionLabel": {
-        "message": "Display the translation button when text is selected on the web page."
+        "message": "Display the translation button to open the panel when clicked."
+    },
+    "dontshowbuttonlabel": {
+        "message": "Don't display button or panel"
+    },
+    "dontshowbuttonCaptionlabel": {
+        "message": "Don't display the translation button or the translation panel."
     },
     "ifCheckLangLabel": {
-        "message": "Do not display the button if translation is not required"
+        "message": "Ne jelenjen meg a gomb ha nincs szükség fordításra"
     },
     "ifCheckLangCaptionLabel": {
-        "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+        "message": "Felismeri a kijelölt szöveg nyelvét és ha az megegyezik a célnyelvvel akkor a gomb nem jelenik meg."
     },
     "ifShowMenuLabel": {
-        "message": "Display the context menu"
+        "message": "Megjelenítés a helyi menüben"
     },
     "ifShowMenuCaptionLabel": {
-        "message": "Add items to the context menu displayed when right clicking on the web page."
+        "message": "Egy elemet ad a helyi menühöz, mely a weboldalon jobb kattintásra jelenik meg."
     },
     "toolbarLabel": {
-        "message": "Toolbar popup"
+        "message": "Felugró eszköztár"
     },
     "ifChangeSecondLangLabel": {
-        "message": "Automatically switch to the second language"
+        "message": "Automatikus váltás a második nyelvre"
     },
     "ifChangeSecondLangCaptionLabel": {
-        "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+        "message": "Felismeri a beírt szöveg nyelvét és ha az megegyezik az alapértelmezett célnyelvvel akkor a fordítás a második nyelvre történik."
     },
     "secondTargetLangLabel": {
         "message": "Második nyelv"
     },
     "secondTargetLangCaptionLabel": {
-        "message": "Select the second target language."
+        "message": "Válassza ki a második célnyelvvet."
     },
     "styleLabel": {
-        "message": "Style"
+        "message": "Stílus"
     },
     "buttonStyleLabel": {
-        "message": "Translation button"
+        "message": "Fordító gomb"
     },
     "buttonStyleCaptionLabel": {
-        "message": "Specify the style of the translation button displayed on the web page."
+        "message": "Állítsa be a weboldalakon megjelenő fordító gomb stílusát."
     },
     "buttonSizeLabel": {
-        "message": "Size"
+        "message": "Méret"
     },
     "buttonPositionLabel": {
-        "message": "Display position"
+        "message": "Megjelenítés helye"
     },
     "rightUpLabel": {
-        "message": "Top right"
+        "message": "Jobb felső"
     },
     "rightDownLabel": {
         "message": "Jobb alsó"
     },
     "leftUpLabel": {
-        "message": "Top left"
+        "message": "Bal felső"
     },
     "leftDownLabel": {
-        "message": "Bottom left"
+        "message": "Bal alsó"
     },
     "panelStyleLabel": {
-        "message": "Translation panel"
+        "message": "Fordító panel"
     },
     "panelStyleCaptionLabel": {
-        "message": "Specify the style of the translation panel displayed on the web page."
+        "message": "Állítsa be a weboldalakon megjelenő fordító panel stílusát."
     },
     "widthLabel": {
-        "message": "Width"
+        "message": "Szélesség"
     },
     "heightLabel": {
-        "message": "Height"
+        "message": "Magasság"
     },
     "fontSizeLabel": {
         "message": "Betűméret"
     },
     "bgColorLabel": {
-        "message": "Background color"
+        "message": "Háttér színe"
     },
     "informationLabel": {
-        "message": "Information"
+        "message": "Információ"
     },
     "licenseLabel": {
-        "message": "License"
+        "message": "Licenc"
     },
     "donationLabel": {
-        "message": "Please make a donation"
+        "message": "Adomány"
     },
     "donationCaptionLabel": {
-        "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+        "message": "Köszönöm, hogy a Simple Translate bővítményt használja.<br>Támogatásával arra ösztönözhet, hogy tovább fejlesszem a bővítményt.<br>Ha tetszik önnek a Simple Translate, örülnék, ha megfontolhatná az adományozást."
     },
     "addonPageLabel": {
-        "message": "Add-on page"
+        "message": "Bővítmány weoldala"
     },
     "addonUrl": {
         "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
     },
     "translatePageMenu": {
-        "message": "Ez az oldal lefordítása"
+        "message": "Az oldal fordítása"
     },
     "translateTextMenu": {
-        "message": "A kijelölt szöveg lefordítása"
+        "message": "A kijelölt szöveg fordítása"
     },
     "translateLinkMenu": {
-        "message": "A kijelölt link fordítása"
+        "message": "A kijelölt hivatkoás fordítása"
     }
 }

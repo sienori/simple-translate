@@ -6,7 +6,7 @@
         "message": "View translations easily as you browse the web."
     },
     "initialTextArea": {
-        "message": "Enter text"
+        "message": "Syötä teksti"
     },
     "showLink": {
         "message": "Translate this page"
@@ -18,10 +18,10 @@
         "message": "af:Afrikaans, sq:Albanian, am:Amharic, ar:Arabic, hy:Armenian, az:Azerbaijani, eu:Basque, be:Belarusian, bn:Bengali, bs:Bosnian, bg:Bulgarian, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Chinese (PRC), zh-TW:Chinese (Taiwan), co:Corsican, hr:Croatian, cs:Czech, da:Danish, nl:Dutch, en:English, eo:Esperanto, et:Estonian, fi:Finnish, fr:French, fy:Frisian, gl:Galician, ka:Georgian, de:German, el:Greek, gu:Gujarati, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesian, ga:Irish, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Korean, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:Macedonian, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persian, pl:Polish, pt:Portuguese, pa:Punjabi, ps:Pushto, ro:Romanian, ru:Russian, sm:Samoan, gd:Scottish Gaelic, sr:Serbian, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovak, sl:Slovenian, so:Somali, sx:Sotho, es:Spanish, su:Sundanese, sw:Swahili, sv:Swedish, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turkish, uk:Ukrainian, ur:Urdu, uz:Uzbek, vi:Vietnamese, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
     },
     "settingsLabel": {
-        "message": "Settings"
+        "message": "Asetukset"
     },
     "generalLabel": {
-        "message": "General"
+        "message": "Yleiset"
     },
     "targetLangCaptionLabel": {
         "message": "Select the default target language."
@@ -35,11 +35,26 @@
     "ifShowCandidateCaptionLabel": {
         "message": "Show multiple translation candidates when a single word is translated."
     },
+    "whenSelectTextLabel": {
+        "message": "Behavior when selecting text"
+    },
+    "ifAutoTranslateLabel": {
+        "message": "Display translation panel"
+    },
+    "ifAutoTranslateCaptionLabel": {
+        "message": "Directly display the translation panel without displaying the button."
+    },
     "ifShowButtonLabel": {
-        "message": "Display the button when text is selected"
+        "message": "Display translation button"
     },
     "ifShowButtonCaptionLabel": {
-        "message": "Display the translation button when text is selected on the web page."
+        "message": "Display the translation button to open the panel when clicked."
+    },
+    "dontshowbuttonlabel": {
+        "message": "Don't display button or panel"
+    },
+    "dontshowbuttonCaptionlabel": {
+        "message": "Don't display the translation button or the translation panel."
     },
     "ifCheckLangLabel": {
         "message": "Do not display the button if translation is not required"
@@ -69,7 +84,7 @@
         "message": "Select the second target language."
     },
     "styleLabel": {
-        "message": "Style"
+        "message": "Tyyli"
     },
     "buttonStyleLabel": {
         "message": "Translation button"
@@ -78,7 +93,7 @@
         "message": "Specify the style of the translation button displayed on the web page."
     },
     "buttonSizeLabel": {
-        "message": "Size"
+        "message": "Koko"
     },
     "buttonPositionLabel": {
         "message": "Display position"
@@ -114,7 +129,7 @@
         "message": "Background color"
     },
     "informationLabel": {
-        "message": "Information"
+        "message": "Tiedot"
     },
     "licenseLabel": {
         "message": "License"

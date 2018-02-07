@@ -6,138 +6,153 @@
         "message": "View translations easily as you browse the web."
     },
     "initialTextArea": {
-        "message": "Enter text"
+        "message": "텍스트 입력"
     },
     "showLink": {
-        "message": "Translate this page"
+        "message": "이 페이지 번역"
     },
     "targetLangLabel": {
-        "message": "Target language"
+        "message": "번역 언어"
     },
     "langList": {
-        "message": "af:Afrikaans, sq:Albanian, am:Amharic, ar:Arabic, hy:Armenian, az:Azerbaijani, eu:Basque, be:Belarusian, bn:Bengali, bs:Bosnian, bg:Bulgarian, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Chinese (PRC), zh-TW:Chinese (Taiwan), co:Corsican, hr:Croatian, cs:Czech, da:Danish, nl:Dutch, en:English, eo:Esperanto, et:Estonian, fi:Finnish, fr:French, fy:Frisian, gl:Galician, ka:Georgian, de:German, el:Greek, gu:Gujarati, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesian, ga:Irish, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Korean, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:Macedonian, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persian, pl:Polish, pt:Portuguese, pa:Punjabi, ps:Pushto, ro:Romanian, ru:Russian, sm:Samoan, gd:Scottish Gaelic, sr:Serbian, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovak, sl:Slovenian, so:Somali, sx:Sotho, es:Spanish, su:Sundanese, sw:Swahili, sv:Swedish, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turkish, uk:Ukrainian, ur:Urdu, uz:Uzbek, vi:Vietnamese, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
+        "message": "af:Afrikaans, sq:Albanian, am:Amharic, ar:Arabic, hy:Armenian, az:Azerbaijani, eu:Basque, be:Belarusian, bn:Bengali, bs:Bosnian, bg:Bulgarian, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Chinese (PRC), zh-TW:Chinese (Taiwan), co:Corsican, hr:Croatian, cs:Czech, da:Danish, nl:Dutch, en:English, eo:Esperanto, et:Estonian, fi:Finnish, fr:French, fy:Frisian, gl:Galician, ka:Georgian, de:German, el:Greek, gu:Gujarati, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesian, ga:Irish, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:한국어, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:Macedonian, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persian, pl:Polish, pt:Portuguese, pa:Punjabi, ps:Pushto, ro:Romanian, ru:Russian, sm:Samoan, gd:Scottish Gaelic, sr:Serbian, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovak, sl:Slovenian, so:Somali, sx:Sotho, es:Spanish, su:Sundanese, sw:Swahili, sv:Swedish, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turkish, uk:Ukrainian, ur:Urdu, uz:Uzbek, vi:Vietnamese, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
     },
     "settingsLabel": {
-        "message": "Settings"
+        "message": "설정"
     },
     "generalLabel": {
-        "message": "General"
+        "message": "일반"
     },
     "targetLangCaptionLabel": {
-        "message": "Select the default target language."
+        "message": "기본 번역 언어를 선택하세요."
     },
     "webPageLabel": {
-        "message": "Web page"
+        "message": "웹 페이지"
     },
     "ifShowCandidateLabel": {
-        "message": "Show translation candidates"
+        "message": "다른 번역 보기"
     },
     "ifShowCandidateCaptionLabel": {
-        "message": "Show multiple translation candidates when a single word is translated."
+        "message": "한 단어를 번역할 때 다른 여러 번역 결과를 보여줍니다."
+    },
+    "whenSelectTextLabel": {
+        "message": "Behavior when selecting text"
+    },
+    "ifAutoTranslateLabel": {
+        "message": "Display translation panel"
+    },
+    "ifAutoTranslateCaptionLabel": {
+        "message": "Directly display the translation panel without displaying the button."
     },
     "ifShowButtonLabel": {
-        "message": "Display the button when text is selected"
+        "message": "텍스트를 선택했을 때 번역 버튼 보여주기"
     },
     "ifShowButtonCaptionLabel": {
-        "message": "Display the translation button when text is selected on the web page."
+        "message": "웹 페이지에서 텍스트를 선택했을 때 버튼을 보여줍니다."
+    },
+    "dontshowbuttonlabel": {
+        "message": "Don't display button or panel"
+    },
+    "dontshowbuttonCaptionlabel": {
+        "message": "Don't display the translation button or the translation panel."
     },
     "ifCheckLangLabel": {
-        "message": "Do not display the button if translation is not required"
+        "message": "번역이 필요 없을 때 버튼을 보여주지 않기"
     },
     "ifCheckLangCaptionLabel": {
-        "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+        "message": "선택된 텍스트의 언어를 감지해 번역 대상 언어와 일치하면 버튼을 보여주지 않습니다."
     },
     "ifShowMenuLabel": {
-        "message": "Display the context menu"
+        "message": "컨텍스트 메뉴 출력"
     },
     "ifShowMenuCaptionLabel": {
-        "message": "Add items to the context menu displayed when right clicking on the web page."
+        "message": "웹 페이지에서 오른쪽 클릭을 했을 때 번역 버튼을 추가합니다."
     },
     "toolbarLabel": {
-        "message": "Toolbar popup"
+        "message": "툴바 팝업"
     },
     "ifChangeSecondLangLabel": {
-        "message": "Automatically switch to the second language"
+        "message": "자동으로 보조 언어로 전환"
     },
     "ifChangeSecondLangCaptionLabel": {
-        "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+        "message": "입력된 언어가 기본 번역 언어일 때 보조 언어로 번역합니다."
     },
     "secondTargetLangLabel": {
-        "message": "Second language"
+        "message": "보조 언어"
     },
     "secondTargetLangCaptionLabel": {
-        "message": "Select the second target language."
+        "message": "보조 번역 언어를 선택하세요."
     },
     "styleLabel": {
-        "message": "Style"
+        "message": "모양"
     },
     "buttonStyleLabel": {
-        "message": "Translation button"
+        "message": "번역 버튼"
     },
     "buttonStyleCaptionLabel": {
-        "message": "Specify the style of the translation button displayed on the web page."
+        "message": "웹 페이지에서 보이는 버튼에 대한 모양을 설정합니다."
     },
     "buttonSizeLabel": {
-        "message": "Size"
+        "message": "크기"
     },
     "buttonPositionLabel": {
-        "message": "Display position"
+        "message": "출력 위치"
     },
     "rightUpLabel": {
-        "message": "Top right"
+        "message": "우측 상단"
     },
     "rightDownLabel": {
-        "message": "Bottom right"
+        "message": "우측 하단"
     },
     "leftUpLabel": {
-        "message": "Top left"
+        "message": "좌측 상단"
     },
     "leftDownLabel": {
-        "message": "Bottom left"
+        "message": "좌측 하단"
     },
     "panelStyleLabel": {
-        "message": "Translation panel"
+        "message": "번역 상자"
     },
     "panelStyleCaptionLabel": {
-        "message": "Specify the style of the translation panel displayed on the web page."
+        "message": "웹 페이지에서 보이는 번역 상자에 대한 모양을 설정합니다."
     },
     "widthLabel": {
-        "message": "Width"
+        "message": "가로 길이"
     },
     "heightLabel": {
-        "message": "Height"
+        "message": "세로 길이"
     },
     "fontSizeLabel": {
-        "message": "Font size"
+        "message": "글자 크기"
     },
     "bgColorLabel": {
-        "message": "Background color"
+        "message": "배경색"
     },
     "informationLabel": {
-        "message": "Information"
+        "message": "정보"
     },
     "licenseLabel": {
-        "message": "License"
+        "message": "라이센스"
     },
     "donationLabel": {
-        "message": "Please make a donation"
+        "message": "기부 해주세요"
     },
     "donationCaptionLabel": {
-        "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+        "message": "Simple Translator를 사용해 주셔서 감사합니다.<br>보내주신 지원이 제가 이 Add-on을 지속적으로 개발하는데 큰 도움이 될 것입니다<br>Simple Translator가 마음에 드신다면, 기부를 고려해 주시길 부탁드립니다."
     },
     "addonPageLabel": {
-        "message": "Add-on page"
+        "message": "Add-on 페이지"
     },
     "addonUrl": {
         "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
     },
     "translatePageMenu": {
-        "message": "Translate this page"
+        "message": "이 페이지 번역하기"
     },
     "translateTextMenu": {
-        "message": "Translate selected text"
+        "message": "선택된 텍스트 번역하기"
     },
     "translateLinkMenu": {
-        "message": "Translate selected link"
+        "message": "선택된 링크 번역하기"
     }
 }

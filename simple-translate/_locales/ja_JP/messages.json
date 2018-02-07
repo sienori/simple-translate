@@ -35,11 +35,26 @@
     "ifShowCandidateCaptionLabel": {
         "message": "一つの語句が翻訳された時に複数の候補を表示します。"
     },
+    "whenSelectTextLabel": {
+        "message": "テキスト選択時の動作"
+    },
+    "ifAutoTranslateLabel": {
+        "message": "翻訳パネルを表示する"
+    },
+    "ifAutoTranslateCaptionLabel": {
+        "message": "ボタンを表示せずに直接翻訳パネルを表示します。"
+    },
     "ifShowButtonLabel": {
-        "message": "テキスト選択時にボタンを表示する"
+        "message": "翻訳ボタンを表示する"
     },
     "ifShowButtonCaptionLabel": {
-        "message": "webページ上のテキストを選択した時に翻訳ボタンを表示します。"
+        "message": "クリックすると翻訳パネルが開くボタンを表示します。"
+    },
+    "dontshowbuttonlabel": {
+        "message": "ボタンやパネルを表示しない"
+    },
+    "dontshowbuttonCaptionlabel": {
+        "message": "翻訳ボタンや翻訳パネルを表示しません。"
     },
     "ifCheckLangLabel": {
         "message": "翻訳の必要がなければボタンを表示しない"
@@ -129,7 +144,7 @@
         "message": "アドオンページ"
     },
     "addonUrl": {
-        "message": "https:\\\/\\\/addons.mozilla.org\\\/ja\\\/firefox\\\/addon\\\/simple-translate\\\/?src=optionpage"
+        "message": "https:\/\/addons.mozilla.org\/ja\/firefox\/addon\/simple-translate\/?src=optionpage"
     },
     "translatePageMenu": {
         "message": "ページ全体を翻訳"

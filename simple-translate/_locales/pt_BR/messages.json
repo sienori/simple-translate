@@ -15,7 +15,7 @@
         "message": "Idioma alvo"
     },
     "langList": {
-        "message": "af:Afrikaans, sq:Albanian, am:Amharic, ar:Arabic, hy:Armenian, az:Azerbaijani, eu:Basque, be:Belarusian, bn:Bengali, bs:Bosnian, bg:Bulgarian, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Chinese (PRC), zh-TW:Chinese (Taiwan), co:Corsican, hr:Croatian, cs:Czech, da:Danish, nl:Dutch, en:English, eo:Esperanto, et:Estonian, fi:Finnish, fr:French, fy:Frisian, gl:Galician, ka:Georgian, de:German, el:Greek, gu:Gujarati, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesian, ga:Irish, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Korean, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:Macedonian, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persian, pl:Polish, pt:Portuguese, pa:Punjabi, ps:Pushto, ro:Romanian, ru:Russian, sm:Samoan, gd:Scottish Gaelic, sr:Serbian, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovak, sl:Slovenian, so:Somali, sx:Sotho, es:Spanish, su:Sundanese, sw:Swahili, sv:Swedish, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turkish, uk:Ukrainian, ur:Urdu, uz:Uzbek, vi:Vietnamese, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
+        "message": "af:Africâner, sq:Albanês, am:Amárico, ar:Árabe, hy:Armênio, az:Azeri, eu:Basco, be:Bielorrusso, bn:Bengali, bs:Bósnio, bg:Búlgaro, ca:Catalão, ceb:Cebuano, ny:Nianja, zh-CN:Mandarim Chinês Padrão, zh-TW:Mandarim Taiuanês, co:Corso, hr:Croata, cs:Tcheco, da:Dinamarquês, nl:Holandês, en:Inglês, eo:Esperanto, et:Estoniano, fi:Finlandês, fr:Francês, fy:Frísio, gl:Galego, ka:Georgiano, de:Alemão, el:Grego, gu:Guzerate, ht:Haitiano, ha:Hauçá, haw:Havaiano, he:Hebraico, hi:Hindi, hu:Húngaro, is:Islandês, ig:Igbo, id:Indonésia, ga:Irlandês, it:Italiano, ja:Japonês, jv:Javanês, kn:Canarim, kk:Cazaque, km:Khmer, ky:Quirguiz, ko:Coreano, ku:Curdo, lo:Laosiano, la:Latim, lv:Letão, lt:Lituano, lb:Luxemburguês, mk:Macedônio, mg:Malgaxe, ms:Malaio, ml:Malaiala, mt:Maltês, mi:Maori, mr:Marata, mn:Mongol, hmn:Monk, my:Birmanês, ne:Nepali, no:Norueguês, fa:Persa, pl:Polonês, pt:Português, pa:Panjabi, ps:Pachto, ro:Romeno, ru:Russo, sm:Samoano, gd:Gaélico Escocês, sr:Sérvio, sn:Xona, sd:Sindi, si:Cingalês, sk:Eslovaco, sl:Esloveno, so:Somali, sx:Sesoto, es:Espanhol, su:Sundanês, sw:Suaíli, sv:Sueco, tl:Tagalog (Filipino), tg:Tajique, ta:Tâmil, te:Telugo, th:Tailandês, tr:Turco, uk:Ucraniano, ur:Urdu, uz:Usbeque, vi:Vietnamita, cy:Galês, xh:Xhosa, yi:Iídiche, yo:Iorubá, zu:Zulu"
     },
     "settingsLabel": {
         "message": "Configurações"
@@ -30,16 +30,31 @@
         "message": "Página web"
     },
     "ifShowCandidateLabel": {
-        "message": "Show translation candidates"
+        "message": "Mostrar traduções candidatas"
     },
     "ifShowCandidateCaptionLabel": {
-        "message": "Show multiple translation candidates when a single word is translated."
+        "message": "Mostrar várias traduções candidatas quando uma única palavra é traduzida."
+    },
+    "whenSelectTextLabel": {
+        "message": "Behavior when selecting text"
+    },
+    "ifAutoTranslateLabel": {
+        "message": "Display translation panel"
+    },
+    "ifAutoTranslateCaptionLabel": {
+        "message": "Directly display the translation panel without displaying the button."
     },
     "ifShowButtonLabel": {
-        "message": "Exibir o botão quando um texto for selecionado"
+        "message": "Display translation button"
     },
     "ifShowButtonCaptionLabel": {
-        "message": "Exibir o botão de tradução quando um texto for selecionado na página web."
+        "message": "Display the translation button to open the panel when clicked."
+    },
+    "dontshowbuttonlabel": {
+        "message": "Don't display button or panel"
+    },
+    "dontshowbuttonCaptionlabel": {
+        "message": "Don't display the translation button or the translation panel."
     },
     "ifCheckLangLabel": {
         "message": "Não mostrar o botão se a tradução não for necessária"
@@ -111,7 +126,7 @@
         "message": "Tamanho da fonte"
     },
     "bgColorLabel": {
-        "message": "Background color"
+        "message": "Cor do plano de fundo"
     },
     "informationLabel": {
         "message": "Informação"

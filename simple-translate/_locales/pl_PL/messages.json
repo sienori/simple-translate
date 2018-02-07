@@ -30,16 +30,31 @@
         "message": "Strona internetowa"
     },
     "ifShowCandidateLabel": {
-        "message": "Show translation candidates"
+        "message": "Pokaż kandydatów do tłumaczenia"
     },
     "ifShowCandidateCaptionLabel": {
-        "message": "Show multiple translation candidates when a single word is translated."
+        "message": "Pokaż wiele kandydatów do tłumaczenia kiedy słowo zoataje przetłumaczone."
+    },
+    "whenSelectTextLabel": {
+        "message": "Behavior when selecting text"
+    },
+    "ifAutoTranslateLabel": {
+        "message": "Display translation panel"
+    },
+    "ifAutoTranslateCaptionLabel": {
+        "message": "Directly display the translation panel without displaying the button."
     },
     "ifShowButtonLabel": {
-        "message": "Wyświetlaj przycisk, gdy tekst jest zaznaczony"
+        "message": "Display translation button"
     },
     "ifShowButtonCaptionLabel": {
-        "message": "Wyświetlaj przycisk tłumaczenia kiedy tekst jest zaznaczony na stronie internetowej."
+        "message": "Display the translation button to open the panel when clicked."
+    },
+    "dontshowbuttonlabel": {
+        "message": "Don't display button or panel"
+    },
+    "dontshowbuttonCaptionlabel": {
+        "message": "Don't display the translation button or the translation panel."
     },
     "ifCheckLangLabel": {
         "message": "Nie wyświetlaj przycisku tłumaczenia, jeżeli jest nie potrzebny"
@@ -111,7 +126,7 @@
         "message": "Rozmiar czcionki"
     },
     "bgColorLabel": {
-        "message": "Background color"
+        "message": "Kolor tła"
     },
     "informationLabel": {
         "message": "Informacje"

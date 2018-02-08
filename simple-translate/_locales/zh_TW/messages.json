@@ -48,7 +48,7 @@
         "message": "顯示翻譯按鈕"
     },
     "ifShowButtonCaptionLabel": {
-        "message": "Display the translation button to open the panel when clicked."
+        "message": "點選時顯示翻譯按鈕以開啟翻譯面板。"
     },
     "dontshowbuttonlabel": {
         "message": "不顯示按鈕與面板"

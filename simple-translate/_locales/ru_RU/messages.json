@@ -42,19 +42,19 @@
         "message": "Показать панель с переводом"
     },
     "ifAutoTranslateCaptionLabel": {
-        "message": "Сразу показать панель с переводом не показывая кнопку перевода."
+        "message": "Сразу показать панель с переводом, не показывая кнопку."
     },
     "ifShowButtonLabel": {
         "message": "Показать кнопку перевода"
     },
     "ifShowButtonCaptionLabel": {
-        "message": "Display the translation button to open the panel when clicked."
+        "message": "Показать кнопку для открытия панели с переводом."
     },
     "dontshowbuttonlabel": {
-        "message": "Don't display button or panel"
+        "message": "Ничего не делать"
     },
     "dontshowbuttonCaptionlabel": {
-        "message": "Don't display the translation button or the translation panel."
+        "message": "Не показывать ни кнопку перевода, ни панель с переводом."
     },
     "ifCheckLangLabel": {
         "message": "Не показывать кнопку, если перевод не требуется"

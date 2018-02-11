@@ -36,25 +36,25 @@
         "message": "翻譯單詞時顯示多個候選翻譯。"
     },
     "whenSelectTextLabel": {
-        "message": "Behavior when selecting text"
+        "message": "選擇文字時的行為"
     },
     "ifAutoTranslateLabel": {
-        "message": "Display translation panel"
+        "message": "顯示翻譯面板"
     },
     "ifAutoTranslateCaptionLabel": {
-        "message": "Directly display the translation panel without displaying the button."
+        "message": "不顯示翻譯按鈕，直接顯示翻譯面板。"
     },
     "ifShowButtonLabel": {
-        "message": "Display translation button"
+        "message": "顯示翻譯按鈕"
     },
     "ifShowButtonCaptionLabel": {
-        "message": "Display the translation button to open the panel when clicked."
+        "message": "點選時顯示翻譯按鈕以開啟翻譯面板。"
     },
     "dontshowbuttonlabel": {
-        "message": "Don't display button or panel"
+        "message": "不顯示按鈕與面板"
     },
     "dontshowbuttonCaptionlabel": {
-        "message": "Don't display the translation button or the translation panel."
+        "message": "不顯示翻譯按鈕或翻譯面板。"
     },
     "ifCheckLangLabel": {
         "message": "如果不需翻譯時, 不要顯示按鈕"

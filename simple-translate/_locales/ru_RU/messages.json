@@ -36,25 +36,25 @@
         "message": "Показывать несколько вариантов перевода одиночного слова."
     },
     "whenSelectTextLabel": {
-        "message": "Behavior when selecting text"
+        "message": "Поведение при выделении текста"
     },
     "ifAutoTranslateLabel": {
-        "message": "Display translation panel"
+        "message": "Показать панель с переводом"
     },
     "ifAutoTranslateCaptionLabel": {
-        "message": "Directly display the translation panel without displaying the button."
+        "message": "Сразу показать панель с переводом, не показывая кнопку."
     },
     "ifShowButtonLabel": {
-        "message": "Display translation button"
+        "message": "Показать кнопку перевода"
     },
     "ifShowButtonCaptionLabel": {
-        "message": "Display the translation button to open the panel when clicked."
+        "message": "Показать кнопку для открытия панели с переводом."
     },
     "dontshowbuttonlabel": {
-        "message": "Don't display button or panel"
+        "message": "Ничего не делать"
     },
     "dontshowbuttonCaptionlabel": {
-        "message": "Don't display the translation button or the translation panel."
+        "message": "Не показывать ни кнопку перевода, ни панель с переводом."
     },
     "ifCheckLangLabel": {
         "message": "Не показывать кнопку, если перевод не требуется"

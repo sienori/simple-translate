@@ -3,7 +3,7 @@
         "message": "Simple Translate"
     },
     "extDescription": {
-        "message": "View translations easily as you browse the web."
+        "message": "웹을 탐색할 때 번역을 쉽게 할 수 있도록 도와줍니다."
     },
     "initialTextArea": {
         "message": "텍스트 입력"
@@ -36,13 +36,13 @@
         "message": "한 단어를 번역할 때 다른 여러 번역 결과를 보여줍니다."
     },
     "whenSelectTextLabel": {
-        "message": "Behavior when selecting text"
+        "message": "텍스트가 선택되었을 때 동작"
     },
     "ifAutoTranslateLabel": {
-        "message": "Display translation panel"
+        "message": "번역 결과 창 보기"
     },
     "ifAutoTranslateCaptionLabel": {
-        "message": "Directly display the translation panel without displaying the button."
+        "message": "버튼 표시 없이 바로 번역 결과 창을 보여줍니다."
     },
     "ifShowButtonLabel": {
         "message": "텍스트를 선택했을 때 번역 버튼 보여주기"
@@ -51,10 +51,10 @@
         "message": "웹 페이지에서 텍스트를 선택했을 때 버튼을 보여줍니다."
     },
     "dontshowbuttonlabel": {
-        "message": "Don't display button or panel"
+        "message": "버튼 또는 창 보이지 않기"
     },
     "dontshowbuttonCaptionlabel": {
-        "message": "Don't display the translation button or the translation panel."
+        "message": "버튼 또는 번역 창을 표시하지 않습니다."
     },
     "ifCheckLangLabel": {
         "message": "번역이 필요 없을 때 버튼을 보여주지 않기"
@@ -144,7 +144,7 @@
         "message": "Add-on 페이지"
     },
     "addonUrl": {
-        "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
+        "message": "https:\/\/addons.mozilla.org\/ko\/firefox\/addon\/simple-translate\/?src=optionpage"
     },
     "translatePageMenu": {
         "message": "이 페이지 번역하기"

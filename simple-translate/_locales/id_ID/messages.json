@@ -51,10 +51,10 @@
         "message": "Tampilkan tombol terjemahan untuk membuka panel saat diklik."
     },
     "dontshowbuttonlabel": {
-        "message": "Don't display button or panel"
+        "message": "Jangan menampilkan tombol atau panel"
     },
     "dontshowbuttonCaptionlabel": {
-        "message": "Don't display the translation button or the translation panel."
+        "message": "Jangan tampilkan tombol terjemahan atau panel terjemahan."
     },
     "ifCheckLangLabel": {
         "message": "Jangan menampilkan tombol jika terjemahan tidak diperlukan"

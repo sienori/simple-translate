@@ -14,6 +14,8 @@ window.addEventListener("mouseup", Select, false);
 //テキスト選択時の処理 ダブルクリックした時2回処理が走るのを何とかしたい
 function Select(e) {
     hidePanel(e);
+    if (e.target.tagName == "INPUT" && e.target.type == "password") return;
+
     setTimeout(function () { //誤動作防止の為ディレイを設ける
         if (e.target.tagName == "INPUT" || e.target.tagName == "TEXTAREA") {
             selectionWord = e.target.value.substring(e.target.selectionStart, e.target.selectionEnd);

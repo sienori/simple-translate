@@ -28,7 +28,6 @@ function Select(e) {
 
             checkLang().then(function (results) {
                 if (results) {
-                    console.log(S.get().whenSelectText);
                     switch (S.get().whenSelectText) {
                         case 'showButton':
                             popupButton(e);

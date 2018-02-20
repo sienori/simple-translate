@@ -39,13 +39,13 @@
         "message": "Behavior when selecting text"
     },
     "ifAutoTranslateLabel": {
-        "message": "Display translation panel"
+        "message": "Übersetzungspanel anzeigen"
     },
     "ifAutoTranslateCaptionLabel": {
         "message": "Directly display the translation panel without displaying the button."
     },
     "ifShowButtonLabel": {
-        "message": "Display translation button"
+        "message": "Übersetzungsbutton anzeigen"
     },
     "ifShowButtonCaptionLabel": {
         "message": "Display the translation button to open the panel when clicked."

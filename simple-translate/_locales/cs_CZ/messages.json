@@ -63,7 +63,7 @@
         "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
     },
     "ifShowMenuLabel": {
-        "message": "Display the context menu"
+        "message": "Zobrazit kontextovou nabídku"
     },
     "ifShowMenuCaptionLabel": {
         "message": "Add items to the context menu displayed when right clicking on the web page."
@@ -117,13 +117,13 @@
         "message": "Specify the style of the translation panel displayed on the web page."
     },
     "widthLabel": {
-        "message": "Width"
+        "message": "Šířka"
     },
     "heightLabel": {
-        "message": "Height"
+        "message": "Výška"
     },
     "fontSizeLabel": {
-        "message": "Font size"
+        "message": "Velikost písma"
     },
     "bgColorLabel": {
         "message": "Barva pozadí"
@@ -135,10 +135,10 @@
         "message": "Licence"
     },
     "donationLabel": {
-        "message": "Please make a donation"
+        "message": "Prosím přispějte nám"
     },
     "donationCaptionLabel": {
-        "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+        "message": "Děkujeme, že používáte Simple Translate.<br>Vaše podpora je pro nás velkou motivací pro pokračování ve vývoji.<br>Pokud se vám Simple Translate líbí, budeme moc rádi pokud nám na jeho vývoj přispějete."
     },
     "addonPageLabel": {
         "message": "Add-on page"
@@ -147,10 +147,10 @@
         "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
     },
     "translatePageMenu": {
-        "message": "Translate this page"
+        "message": "Přeložit tuto stránku"
     },
     "translateTextMenu": {
-        "message": "Translate selected text"
+        "message": "Přeložit označený text"
     },
     "translateLinkMenu": {
         "message": "Translate selected link"

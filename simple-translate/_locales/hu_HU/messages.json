@@ -36,25 +36,25 @@
         "message": "Több lehetséges fordítás megjelenítése amikor csak egy szó kerül lefordításra."
     },
     "whenSelectTextLabel": {
-        "message": "Behavior when selecting text"
+        "message": "Viselkedés a szöveg kiválasztásakor"
     },
     "ifAutoTranslateLabel": {
-        "message": "Display translation panel"
+        "message": "A fordítópanel megjelenítése"
     },
     "ifAutoTranslateCaptionLabel": {
-        "message": "Directly display the translation panel without displaying the button."
+        "message": "Közvetlenül megjelenítse a fordítópanelt a gomb megjelenítésének nélkül."
     },
     "ifShowButtonLabel": {
-        "message": "Display translation button"
+        "message": "Kijelzőgomb megjelenítése"
     },
     "ifShowButtonCaptionLabel": {
-        "message": "Display the translation button to open the panel when clicked."
+        "message": "A fordítás gomb megnyomásával nyissa meg a panelt, ha rákattint."
     },
     "dontshowbuttonlabel": {
-        "message": "Don't display button or panel"
+        "message": "Ne jelenítse meg a gombot vagy a panelt"
     },
     "dontshowbuttonCaptionlabel": {
-        "message": "Don't display the translation button or the translation panel."
+        "message": "Ne jelenítse meg a fordító gombot vagy a fordítópanelt."
     },
     "ifCheckLangLabel": {
         "message": "Ne jelenjen meg a gomb ha nincs szükség fordításra"

@@ -36,25 +36,25 @@
         "message": "Tampilkan beberapa kandidat terjemahan saat satu kata diterjemahkan."
     },
     "whenSelectTextLabel": {
-        "message": "Behavior when selecting text"
+        "message": "Perilaku saat memilih teks"
     },
     "ifAutoTranslateLabel": {
-        "message": "Display translation panel"
+        "message": "Tampilkan panel terjemahan"
     },
     "ifAutoTranslateCaptionLabel": {
-        "message": "Directly display the translation panel without displaying the button."
+        "message": "Langsung tampilkan panel terjemahan tanpa menampilkan tombolnya."
     },
     "ifShowButtonLabel": {
-        "message": "Display translation button"
+        "message": "Tampilkan tombol terjemahan"
     },
     "ifShowButtonCaptionLabel": {
-        "message": "Display the translation button to open the panel when clicked."
+        "message": "Tampilkan tombol terjemahan untuk membuka panel saat diklik."
     },
     "dontshowbuttonlabel": {
-        "message": "Don't display button or panel"
+        "message": "Jangan menampilkan tombol atau panel"
     },
     "dontshowbuttonCaptionlabel": {
-        "message": "Don't display the translation button or the translation panel."
+        "message": "Jangan tampilkan tombol terjemahan atau panel terjemahan."
     },
     "ifCheckLangLabel": {
         "message": "Jangan menampilkan tombol jika terjemahan tidak diperlukan"

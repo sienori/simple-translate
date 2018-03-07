@@ -147,12 +147,12 @@
         "message": "https:\/\/addons.mozilla.org\/Tagalog-Philippines\/firefox\/addon\/simple-translate\/?src=optionpage"
     },
     "translatePageMenu": {
-        "message": "Translate this page"
+        "message": "Isalin ang pahinang ito"
     },
     "translateTextMenu": {
-        "message": "Translate selected text"
+        "message": "Isalin ang piniling teksto"
     },
     "translateLinkMenu": {
-        "message": "Translate selected link"
+        "message": "Isalin ang piniling link"
     }
 }

@@ -102,49 +102,49 @@
         "message": "Itaas na kanan"
     },
     "rightDownLabel": {
-        "message": "Bottom right"
+        "message": "Ibaba sa kanan"
     },
     "leftUpLabel": {
-        "message": "Top left"
+        "message": "Itaas sa kaliwa"
     },
     "leftDownLabel": {
-        "message": "Bottom left"
+        "message": "Ibaba sa kaliwa"
     },
     "panelStyleLabel": {
-        "message": "Translation panel"
+        "message": "Panel ng pagsasalin"
     },
     "panelStyleCaptionLabel": {
-        "message": "Specify the style of the translation panel displayed on the web page."
+        "message": "Tukuyin ang istilo ng panel ng pagsasalin na ipinakita sa web page."
     },
     "widthLabel": {
-        "message": "Width"
+        "message": "Lapad"
     },
     "heightLabel": {
-        "message": "Height"
+        "message": "Taas"
     },
     "fontSizeLabel": {
-        "message": "Font size"
+        "message": "Laki ng font"
     },
     "bgColorLabel": {
-        "message": "Background color"
+        "message": "Kulay ng background"
     },
     "informationLabel": {
-        "message": "Information"
+        "message": "Impormasyon"
     },
     "licenseLabel": {
-        "message": "License"
+        "message": "Lisensiya"
     },
     "donationLabel": {
-        "message": "Please make a donation"
+        "message": "Mangyaring gumawa ng donasyon"
     },
     "donationCaptionLabel": {
-        "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+        "message": "Salamat sa paggamit ng Simpleng Pagsalin.<br>Ang iyong suporta ay magiging isang malaking panghihikayat, habang ako ay patuloy na paunlarin ang add-on.<br>Kung gusto mo ang Simpleng Pagsasalin, ako ay masisiyahan kung maaari mong isaalang-alang ang magdonasyon."
     },
     "addonPageLabel": {
-        "message": "Add-on page"
+        "message": "Pahina ng add-on"
     },
     "addonUrl": {
-        "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
+        "message": "https:\/\/addons.mozilla.org\/Tagalog-Philippines\/firefox\/addon\/simple-translate\/?src=optionpage"
     },
     "translatePageMenu": {
         "message": "Translate this page"

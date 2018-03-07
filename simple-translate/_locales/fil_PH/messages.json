@@ -60,46 +60,46 @@
         "message": "Huwag ipakita ang pindutan kung ang pagsasalin ay hindi kinakailangan"
     },
     "ifCheckLangCaptionLabel": {
-        "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+        "message": "Tukuyin ang lengguwahe ng napiling teksto, at kung ito ay pareho bilang target na lengguwahe, ang pindutan ay hindi ipinapakita."
     },
     "ifShowMenuLabel": {
-        "message": "Display the context menu"
+        "message": "Ipakita ang menu ng konteksto"
     },
     "ifShowMenuCaptionLabel": {
-        "message": "Add items to the context menu displayed when right clicking on the web page."
+        "message": "Magdagdag ng mga aytem sa menu ng konteksto kapag pakanawang pinipindot ang web page."
     },
     "toolbarLabel": {
         "message": "Toolbar popup"
     },
     "ifChangeSecondLangLabel": {
-        "message": "Automatically switch to the second language"
+        "message": "Awtomatikong lumipat sa pangalawang lengguwahe"
     },
     "ifChangeSecondLangCaptionLabel": {
-        "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+        "message": "Tukuyin ang lengguwahe ng pinasok na teksto, at kung ito ay pareho bilang default na target na lengguwahe, isalin ito sa pangalawang lengguwahe."
     },
     "secondTargetLangLabel": {
-        "message": "Second language"
+        "message": "Pangalawang lengguwahe"
     },
     "secondTargetLangCaptionLabel": {
-        "message": "Select the second target language."
+        "message": "Piliin ang pangalawang target na lengguwahe."
     },
     "styleLabel": {
-        "message": "Style"
+        "message": "Istilo"
     },
     "buttonStyleLabel": {
-        "message": "Translation button"
+        "message": "Pindutan ng pagsasalin"
     },
     "buttonStyleCaptionLabel": {
-        "message": "Specify the style of the translation button displayed on the web page."
+        "message": "Tukuyin ang istilo ng pindutan ng pagsasalin na ipinakita sa web page."
     },
     "buttonSizeLabel": {
-        "message": "Size"
+        "message": "Laki"
     },
     "buttonPositionLabel": {
-        "message": "Display position"
+        "message": "Ipakit ang posisyon"
     },
     "rightUpLabel": {
-        "message": "Top right"
+        "message": "Itaas na kanan"
     },
     "rightDownLabel": {
         "message": "Bottom right"

@@ -66,7 +66,7 @@
         "message": "Kontextmenü anzeigen"
     },
     "ifShowMenuCaptionLabel": {
-        "message": "Menüeinträge zu dem Kontextmenü hinzufügen welches angezeigt wird wenn man mit der rechten Maustaste auf eine Webseite klickt."
+        "message": "Einträge im Kontextmenü hinzufügen, welche angezeigt werden, wenn man mit der rechten Maustaste auf eine Webseite klickt."
     },
     "toolbarLabel": {
         "message": "Werkzeugleistenfenster"

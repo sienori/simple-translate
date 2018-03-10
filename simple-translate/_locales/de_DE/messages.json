@@ -27,13 +27,13 @@
         "message": "Wähle die Standardzielsprache."
     },
     "webPageLabel": {
-        "message": "Webseite"
+        "message": "Internetseite"
     },
     "ifShowCandidateLabel": {
-        "message": "Alternative Übersetzungen anzeigen"
+        "message": "Weitere Übersetzungsvorschläge anzeigen"
     },
     "ifShowCandidateCaptionLabel": {
-        "message": "Mehrere alternative Übersetzungen anzeigen wenn ein einzelnes Wort übersetzt wird."
+        "message": "Zeige weitere Übersetzungsvorschläge an, wenn ein einzelnes Wort übersetzt wird."
     },
     "whenSelectTextLabel": {
         "message": "Verhalten beim Auswählen von Text"
@@ -48,7 +48,7 @@
         "message": "Übersetzungsbutton anzeigen"
     },
     "ifShowButtonCaptionLabel": {
-        "message": "Zeige den Übersetzen-Knopf an, um das Feld mit der Übersetzung anzuzeigen."
+        "message": "Zeige den Übersetzen-Knopf an, um beim Klick darauf das Feld mit der Übersetzung anzuzeigen."
     },
     "dontshowbuttonlabel": {
         "message": "Übersetzen-Knopf und Übersetzungsfeld nicht anzeigen"
@@ -66,7 +66,7 @@
         "message": "Kontextmenü anzeigen"
     },
     "ifShowMenuCaptionLabel": {
-        "message": "Einträge im Kontextmenü hinzufügen, welche angezeigt werden, wenn man mit der rechten Maustaste auf eine Webseite klickt."
+        "message": "Einträge zum Kontextmenü hinzufügen, welche angezeigt werden, wenn man mit der rechten Maustaste auf eine Webseite klickt."
     },
     "toolbarLabel": {
         "message": "Werkzeugleistenfenster"
@@ -129,7 +129,7 @@
         "message": "Hintergrundfarbe"
     },
     "informationLabel": {
-        "message": "Informationen"
+        "message": "Information"
     },
     "licenseLabel": {
         "message": "Lizenz"
@@ -138,10 +138,10 @@
         "message": "Bitte spende"
     },
     "donationCaptionLabel": {
-        "message": "Danke für das Benutzen von Simple Translate.<br>Deine Unterstützung wird ein großer Ansporn bei der Weiterentwicklung dieses Add-ons sein.<br>Wenn du Simple Translate magst, wäre es schön wenn du eine Spende in Erwägung ziehst."
+        "message": "Danke für das Benutzen von Simple Translate.<br>Deine Unterstützung wird ein großer Ansporn bei der Weiterentwicklung dieses Add-ons sein.<br>Wenn du Simple Translate magst, wäre es schön, wenn du etwas spenden würdest."
     },
     "addonPageLabel": {
-        "message": "Add-on Seite"
+        "message": "Add-on-Seite"
     },
     "addonUrl": {
         "message": "https:\/\/addons.mozilla.org\/de\/firefox\/addon\/simple-translate\/?src=optionpage"

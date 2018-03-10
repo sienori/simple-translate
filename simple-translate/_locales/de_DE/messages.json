@@ -75,22 +75,22 @@
         "message": "Automatisch zur Zweitsprache wechseln"
     },
     "ifChangeSecondLangCaptionLabel": {
-        "message": "Erkennt die Sprache des eingegebenen Textes und übersetzt diesen in die Zweitsprache, falls er in der Standardzielsprache ist."
+        "message": "Erkennt die Sprache des eingegebenen Textes und übersetzt ihn in die Zweitsprache, falls der eingegebene Text bereits in der Standardzielsprache ist."
     },
     "secondTargetLangLabel": {
         "message": "Zweitsprache"
     },
     "secondTargetLangCaptionLabel": {
-        "message": "Wähle die Zweitsprache."
+        "message": "Zweitsprache wählen."
     },
     "styleLabel": {
-        "message": "Layout"
+        "message": "Erscheinungsbild"
     },
     "buttonStyleLabel": {
-        "message": "Übersetzungsschaltfläche"
+        "message": "Übersetzen-Knopf"
     },
     "buttonStyleCaptionLabel": {
-        "message": "Konfiguriere das Layout der Übersetzungsschaltfläche, die auf Webseiten angezeigt wird."
+        "message": "Erscheinungsbild des Übersetzen-Knopfes anpassen, der auf den Internetseiten angezeigt wird."
     },
     "buttonSizeLabel": {
         "message": "Größe"
@@ -111,7 +111,7 @@
         "message": "Unten links"
     },
     "panelStyleLabel": {
-        "message": "Werkzeugleistenfenster"
+        "message": "Übersetzungsfeld"
     },
     "panelStyleCaptionLabel": {
         "message": "Konfiguriere das Layout des Werkzeugleistenfensters, das auf Webseiten angezeigt wird."

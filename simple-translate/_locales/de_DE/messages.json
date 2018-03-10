@@ -51,16 +51,16 @@
         "message": "Zeige den Übersetzen-Knopf an, um das Feld mit der Übersetzung anzuzeigen."
     },
     "dontshowbuttonlabel": {
-        "message": "Don't display button or panel"
+        "message": "Übersetzen-Knopf und Übersetzungsfeld nicht anzeigen"
     },
     "dontshowbuttonCaptionlabel": {
-        "message": "Don't display the translation button or the translation panel."
+        "message": "Zeige den Übersetzen-Knopf sowie das Feld mit der Übersetzung nicht an."
     },
     "ifCheckLangLabel": {
-        "message": "Die Schaltfläche nicht angezeigt, wenn keine Übersetzung notwendig ist"
+        "message": "Den Übersetzen-Knopf nicht anzeigen, wenn keine Übersetzung notwendig ist"
     },
     "ifCheckLangCaptionLabel": {
-        "message": "Erkennt die Sprache des ausgewählten Textes und unterdrückt die Schaltfläche wenn der Text bereits in der Zielsprache ist."
+        "message": "Erkennt die Sprache des ausgewählten Textes und zeigt den Übersetzen-Knopf nicht an, wenn der Text bereits in der Zielsprache ist."
     },
     "ifShowMenuLabel": {
         "message": "Kontextmenü anzeigen"

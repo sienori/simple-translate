@@ -36,19 +36,19 @@
         "message": "Mehrere alternative Übersetzungen anzeigen wenn ein einzelnes Wort übersetzt wird."
     },
     "whenSelectTextLabel": {
-        "message": "Behavior when selecting text"
+        "message": "Verhalten beim Auswählen von Text"
     },
     "ifAutoTranslateLabel": {
-        "message": "Übersetzungspanel anzeigen"
+        "message": "Übersetzungsfeld anzeigen"
     },
     "ifAutoTranslateCaptionLabel": {
-        "message": "Directly display the translation panel without displaying the button."
+        "message": "Übersetzungsfeld direkt anzeigen, ohne den Knopf dafür anzuzeigen."
     },
     "ifShowButtonLabel": {
         "message": "Übersetzungsbutton anzeigen"
     },
     "ifShowButtonCaptionLabel": {
-        "message": "Display the translation button to open the panel when clicked."
+        "message": "Zeige den Übersetzen-Knopf an, um das Feld mit der Übersetzung anzuzeigen."
     },
     "dontshowbuttonlabel": {
         "message": "Don't display button or panel"

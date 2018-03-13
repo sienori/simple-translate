@@ -9,7 +9,7 @@
         "message": "输入文字"
     },
     "showLink": {
-        "message": "翻译此页"
+        "message": "翻译此页面"
     },
     "targetLangLabel": {
         "message": "目标语言"
@@ -36,7 +36,7 @@
         "message": "翻译单词时显示多项候选翻译。"
     },
     "whenSelectTextLabel": {
-        "message": "选择文本时的行为"
+        "message": "选中文本时的行为"
     },
     "ifAutoTranslateLabel": {
         "message": "显示翻译面板"
@@ -144,15 +144,15 @@
         "message": "附加组件页面"
     },
     "addonUrl": {
-        "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
+        "message": "https:\/\/addons.mozilla.org\/zh-CN\/firefox\/addon\/simple-translate\/?src=optionpage"
     },
     "translatePageMenu": {
-        "message": "翻译此页"
+        "message": "翻译此页面"
     },
     "translateTextMenu": {
-        "message": "翻译选定文本"
+        "message": "翻译选中的文本"
     },
     "translateLinkMenu": {
-        "message": "翻译选定连结"
+        "message": "翻译选定链接"
     }
 }

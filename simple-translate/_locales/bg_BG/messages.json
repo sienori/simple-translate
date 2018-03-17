@@ -36,25 +36,25 @@
         "message": "Показва множество кандидати за превода, когато само една дума бъде преведена."
     },
     "whenSelectTextLabel": {
-        "message": "Behavior when selecting text"
+        "message": "Поведение при избиране на текст"
     },
     "ifAutoTranslateLabel": {
         "message": "Показване на панела за превод"
     },
     "ifAutoTranslateCaptionLabel": {
-        "message": "Directly display the translation panel without displaying the button."
+        "message": "Директно показване на панела за превод, но без показването на бутона."
     },
     "ifShowButtonLabel": {
         "message": "Показване на бутон за превод"
     },
     "ifShowButtonCaptionLabel": {
-        "message": "Display the translation button to open the panel when clicked."
+        "message": "Показване на бутона за превод, за да се отвори панела за превод при щракване върху му."
     },
     "dontshowbuttonlabel": {
-        "message": "Don't display button or panel"
+        "message": "Без показване на бутона или панела"
     },
     "dontshowbuttonCaptionlabel": {
-        "message": "Don't display the translation button or the translation panel."
+        "message": "Без показване на бутона за превод или панела за превод."
     },
     "ifCheckLangLabel": {
         "message": "Не показвай бутона, ако преводът не е необходим"
@@ -96,7 +96,7 @@
         "message": "Големина"
     },
     "buttonPositionLabel": {
-        "message": "Местоположение при показване"
+        "message": "Показване на положението"
     },
     "rightUpLabel": {
         "message": "Горе вдясно"
@@ -114,7 +114,7 @@
         "message": "Панел за превод"
     },
     "panelStyleCaptionLabel": {
-        "message": "Посочете стила на панела за преводи, показващ се в уеб страницата."
+        "message": "Определете стила на панела за преводи, показващ се в уебстраницата."
     },
     "widthLabel": {
         "message": "Широчина"
@@ -135,7 +135,7 @@
         "message": "Лиценз"
     },
     "donationLabel": {
-        "message": "Моля, направете дарение"
+        "message": "Дарете и благодарете на автора"
     },
     "donationCaptionLabel": {
         "message": "Благодаря ви че използвате Семпъл Преводач.<br>Вашата подкрепа би значела много за мен, тъй като ще продължа да разработвам добавката си.<br>Ако харесвате Семпъл Преводач, бих се радвал ако обмислите да дарите."

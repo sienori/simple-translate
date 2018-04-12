@@ -1,10 +1,10 @@
 :root {
-    --main-text: #0c0c0d;
-    --sub-text: #737373;
-    --line: #ededf0;
-    --button: #d7d7db;
-    --highlight: #5595ff;
-    --main-bg: #ffffff;
+    --simple-translate-main-text: #0c0c0d;
+    --simple-translate-sub-text: #737373;
+    --simple-translate-line: #ededf0;
+    --simple-translate-button: #d7d7db;
+    --simple-translate-highlight: #5595ff;
+    --simple-translate-main-bg: #ffffff;
 }
 
 #simple-translate-button {
@@ -30,7 +30,7 @@
 
 #simple-translate-panel {
     all: initial;
-    background-color: var(--main-bg);
+    background-color: var(--simple-translate-main-bg);
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
     border-radius: 3px;
     min-height: 20px;
@@ -54,17 +54,17 @@
     text-align: left;
     display: block;
     font-size: inherit;
-    color: var(--main-text);
+    color: var(--simple-translate-main-text);
     margin: 0;
     word-wrap: break-word;
 }
 
 #simple-translate-panel p::-moz-selection {
-    background: var(--line);
+    background: var(--simple-translate-line);
 }
 
 #simple-translate-panel .candidate {
-    color: var(--sub-text);
+    color: var(--simple-translate-sub-text);
 }
 
 @keyframes simple-translate-showButton {

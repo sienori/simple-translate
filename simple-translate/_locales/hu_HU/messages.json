@@ -9,7 +9,7 @@
         "message": "Írja be a szöveget"
     },
     "showLink": {
-        "message": "Ez az oldal lefordítása"
+        "message": "Az oldal fordítása"
     },
     "targetLangLabel": {
         "message": "Célnyelv"
@@ -42,10 +42,10 @@
         "message": "A fordítópanel megjelenítése"
     },
     "ifAutoTranslateCaptionLabel": {
-        "message": "Közvetlenül megjelenítse a fordítópanelt a gomb megjelenítésének nélkül."
+        "message": "Közvetlenül jelenítse meg a fordítópanelt a gomb megjelenítése nélkül."
     },
     "ifShowButtonLabel": {
-        "message": "Kijelzőgomb megjelenítése"
+        "message": "Fordító gomb megjelenítése"
     },
     "ifShowButtonCaptionLabel": {
         "message": "A fordítás gomb megnyomásával nyissa meg a panelt, ha rákattint."

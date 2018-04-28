@@ -81,7 +81,7 @@
         "message": "Második nyelv"
     },
     "secondTargetLangCaptionLabel": {
-        "message": "Válassza ki a második célnyelvvet."
+        "message": "Válassza ki a második célnyelvet."
     },
     "styleLabel": {
         "message": "Stílus"
@@ -132,7 +132,7 @@
         "message": "Információ"
     },
     "licenseLabel": {
-        "message": "Licenc"
+        "message": "Licensz"
     },
     "donationLabel": {
         "message": "Adomány"
@@ -141,7 +141,7 @@
         "message": "Köszönöm, hogy a Simple Translate bővítményt használja.<br>Támogatásával arra ösztönözhet, hogy tovább fejlesszem a bővítményt.<br>Ha tetszik önnek a Simple Translate, örülnék, ha megfontolhatná az adományozást."
     },
     "addonPageLabel": {
-        "message": "Bővítmány weoldala"
+        "message": "Bővítmény weboldala"
     },
     "addonUrl": {
         "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
@@ -153,6 +153,6 @@
         "message": "A kijelölt szöveg fordítása"
     },
     "translateLinkMenu": {
-        "message": "A kijelölt hivatkoás fordítása"
+        "message": "A kijelölt hivatkozás fordítása"
     }
 }

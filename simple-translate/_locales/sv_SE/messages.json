@@ -27,7 +27,7 @@
         "message": "Select the default target language."
     },
     "webPageLabel": {
-        "message": "Web page"
+        "message": "Webbsida"
     },
     "ifShowCandidateLabel": {
         "message": "Show translation candidates"
@@ -84,16 +84,16 @@
         "message": "Select the second target language."
     },
     "styleLabel": {
-        "message": "Style"
+        "message": "Stil"
     },
     "buttonStyleLabel": {
-        "message": "Translation button"
+        "message": "Översättknapp"
     },
     "buttonStyleCaptionLabel": {
-        "message": "Specify the style of the translation button displayed on the web page."
+        "message": "Ange stilen för översättsknappen som visas på webbsidan."
     },
     "buttonSizeLabel": {
-        "message": "Size"
+        "message": "Storlek"
     },
     "buttonPositionLabel": {
         "message": "Display position"
@@ -117,28 +117,28 @@
         "message": "Specify the style of the translation panel displayed on the web page."
     },
     "widthLabel": {
-        "message": "Width"
+        "message": "Bredd"
     },
     "heightLabel": {
-        "message": "Height"
+        "message": "Höjd"
     },
     "fontSizeLabel": {
-        "message": "Font size"
+        "message": "Teckenstorlek"
     },
     "bgColorLabel": {
-        "message": "Background color"
+        "message": "Bakgrundsfärg"
     },
     "informationLabel": {
         "message": "Information"
     },
     "licenseLabel": {
-        "message": "License"
+        "message": "Licens"
     },
     "donationLabel": {
-        "message": "Please make a donation"
+        "message": "Vänligen gör en donation"
     },
     "donationCaptionLabel": {
-        "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+        "message": "Tack för att du använder Simple Translate.<br>Ditt stöd är ett stort främjande, eftersom vi fortsätter att utveckla tillägget.<br>Om du gillar Simple Translate, skulle vi uppskatta om du donerar."
     },
     "addonPageLabel": {
         "message": "Add-on page"
@@ -147,12 +147,12 @@
         "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
     },
     "translatePageMenu": {
-        "message": "Translate this page"
+        "message": "Översätt denna sida"
     },
     "translateTextMenu": {
-        "message": "Translate selected text"
+        "message": "Översätt markerad text"
     },
     "translateLinkMenu": {
-        "message": "Translate selected link"
+        "message": "Översätt markerad länk"
     }
 }

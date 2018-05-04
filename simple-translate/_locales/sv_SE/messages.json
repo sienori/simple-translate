@@ -123,7 +123,7 @@
         "message": "Höjd"
     },
     "fontSizeLabel": {
-        "message": "Teckenstorlek"
+        "message": "Typsnittsstorlek"
     },
     "bgColorLabel": {
         "message": "Bakgrundsfärg"
@@ -135,7 +135,7 @@
         "message": "Licens"
     },
     "donationLabel": {
-        "message": "Vänligen gör en donation"
+        "message": "Donera gärna"
     },
     "donationCaptionLabel": {
         "message": "Tack för att du använder Simple Translate.<br>Ditt stöd är ett stort främjande, eftersom vi fortsätter att utveckla tillägget.<br>Om du gillar Simple Translate, skulle vi uppskatta om du donerar."

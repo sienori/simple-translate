@@ -48,10 +48,10 @@
         "message": "عرض زر الترجمة"
     },
     "ifShowButtonCaptionLabel": {
-        "message": "Display the translation button to open the panel when clicked."
+        "message": "عرض زر الترجمة لفتح اللوحة عند ضخط عليها."
     },
     "dontshowbuttonlabel": {
-        "message": "Don't display button or panel"
+        "message": "لا تعرض الزر او اللوحة"
     },
     "dontshowbuttonCaptionlabel": {
         "message": "Don't display the translation button or the translation panel."

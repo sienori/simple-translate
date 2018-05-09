@@ -84,58 +84,58 @@
         "message": "Select the second target language."
     },
     "styleLabel": {
-        "message": "Style"
+        "message": "نمط"
     },
     "buttonStyleLabel": {
-        "message": "Translation button"
+        "message": "زر الترجمة"
     },
     "buttonStyleCaptionLabel": {
         "message": "Specify the style of the translation button displayed on the web page."
     },
     "buttonSizeLabel": {
-        "message": "Size"
+        "message": "الحجم"
     },
     "buttonPositionLabel": {
         "message": "Display position"
     },
     "rightUpLabel": {
-        "message": "Top right"
+        "message": "أعلى اليمين"
     },
     "rightDownLabel": {
-        "message": "Bottom right"
+        "message": "أسفل اليمين"
     },
     "leftUpLabel": {
-        "message": "Top left"
+        "message": "أعلى اليسار"
     },
     "leftDownLabel": {
-        "message": "Bottom left"
+        "message": "أسفل اليسار"
     },
     "panelStyleLabel": {
-        "message": "Translation panel"
+        "message": "لوحة الترجمة"
     },
     "panelStyleCaptionLabel": {
         "message": "Specify the style of the translation panel displayed on the web page."
     },
     "widthLabel": {
-        "message": "Width"
+        "message": "عرض"
     },
     "heightLabel": {
-        "message": "Height"
+        "message": "الارتفاع"
     },
     "fontSizeLabel": {
-        "message": "Font size"
+        "message": "حجم الخط"
     },
     "bgColorLabel": {
-        "message": "Background color"
+        "message": "لون الخلفية"
     },
     "informationLabel": {
-        "message": "Information"
+        "message": "معلومات"
     },
     "licenseLabel": {
-        "message": "License"
+        "message": "رخصة"
     },
     "donationLabel": {
-        "message": "Please make a donation"
+        "message": "الرجاء تقديم تبرع"
     },
     "donationCaptionLabel": {
         "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."

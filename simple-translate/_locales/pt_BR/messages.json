@@ -66,7 +66,7 @@
         "message": "Exibir o menu de contexto"
     },
     "ifShowMenuCaptionLabel": {
-        "message": "Adicionar itens ao menu de contexto apresentado quando clicar com o botão direito do mouse na página web."
+        "message": "Adicionar itens ao menu de contexto exibido quando clicar com o botão direito do mouse na página web."
     },
     "toolbarLabel": {
         "message": "Barra de ferramentas"

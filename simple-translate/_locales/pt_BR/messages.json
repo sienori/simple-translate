@@ -90,13 +90,13 @@
         "message": "Botão de tradução"
     },
     "buttonStyleCaptionLabel": {
-        "message": "Especifique o estilo do botão de tradução apresentado na página web."
+        "message": "Especifique o estilo do botão de tradução exibido na página web."
     },
     "buttonSizeLabel": {
         "message": "Tamanho"
     },
     "buttonPositionLabel": {
-        "message": "Posição de apresentação"
+        "message": "Posição de exibição"
     },
     "rightUpLabel": {
         "message": "Canto superior direito"
@@ -114,7 +114,7 @@
         "message": "Painel de tradução"
     },
     "panelStyleCaptionLabel": {
-        "message": "Especifique o estilo do painel de tradução apresentado na página web."
+        "message": "Especifique o estilo do painel de tradução exibido na página web."
     },
     "widthLabel": {
         "message": "Largura"
@@ -135,7 +135,7 @@
         "message": "Licença"
     },
     "donationLabel": {
-        "message": "Por favor, faça uma doaçao"
+        "message": "Por favor, faça uma doação"
     },
     "donationCaptionLabel": {
         "message": "Obrigado por usar o Simple Translate.<br>O seu apoio será um grande incentivo, à medida que continuarmos desenvolvendo a extensão.<br>Se você gosta do Simple Translate, ficaríamos satisfeitos se você pudesse considerar uma doação."

@@ -132,7 +132,7 @@
         "message": "معلومات"
     },
     "licenseLabel": {
-        "message": "رخصة"
+        "message": "الرخصة"
     },
     "donationLabel": {
         "message": "الرجاء تقديم تبرع"
@@ -141,18 +141,18 @@
         "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
     },
     "addonPageLabel": {
-        "message": "Add-on page"
+        "message": "صفحة الاضافة"
     },
     "addonUrl": {
-        "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
+        "message": "https:\/\/addons.mozilla.org\/ar\/firefox\/addon\/simple-translate\/?src=optionpage"
     },
     "translatePageMenu": {
-        "message": "Translate this page"
+        "message": "ترجم هذه الصفحة"
     },
     "translateTextMenu": {
-        "message": "Translate selected text"
+        "message": "ترجم النص المحدد"
     },
     "translateLinkMenu": {
-        "message": "Translate selected link"
+        "message": "ترجم الرابط المحدد"
     }
 }

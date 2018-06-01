@@ -140,8 +140,14 @@
     "donationCaptionLabel": {
         "message": "Simple Translator를 사용해 주셔서 감사합니다.<br>보내주신 지원이 제가 이 Add-on을 지속적으로 개발하는데 큰 도움이 될 것입니다<br>Simple Translator가 마음에 드신다면, 기부를 고려해 주시길 부탁드립니다."
     },
+    "amazonTitleLabel": {
+        "message": "amazon.co.jp eGift Cards"
+    },
     "addonPageLabel": {
         "message": "Add-on 페이지"
+    },
+    "amazonUrl": {
+        "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
     },
     "addonUrl": {
         "message": "https:\/\/addons.mozilla.org\/ko\/firefox\/addon\/simple-translate\/?src=optionpage"

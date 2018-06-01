@@ -140,8 +140,14 @@
     "donationCaptionLabel": {
         "message": "Gracias por usar Simple Translate.<br> Su apoyo será un gran estímulo para continuar el desarrollo del complemento.<br>Si le gusta Simple Translate, me alegraría si pudiera considerar una donación."
     },
+    "amazonTitleLabel": {
+        "message": "amazon.co.jp eGift Cards"
+    },
     "addonPageLabel": {
         "message": "Página de complemento"
+    },
+    "amazonUrl": {
+        "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
     },
     "addonUrl": {
         "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"

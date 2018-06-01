@@ -140,8 +140,14 @@
     "donationCaptionLabel": {
         "message": "Благодаря ви че използвате Семпъл Преводач.<br>Вашата подкрепа би значела много за мен, тъй като ще продължа да разработвам добавката си.<br>Ако харесвате Семпъл Преводач, бих се радвал ако обмислите да дарите."
     },
+    "amazonTitleLabel": {
+        "message": "amazon.co.jp eGift Cards"
+    },
     "addonPageLabel": {
         "message": "Страница на добавката"
+    },
+    "amazonUrl": {
+        "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
     },
     "addonUrl": {
         "message": "https:\/\/addons.mozilla.org\/bg\/firefox\/addon\/simple-translate\/?src=optionpage"

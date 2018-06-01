@@ -140,8 +140,14 @@
     "donationCaptionLabel": {
         "message": "Salamat sa paggamit ng Simpleng Pagsalin.<br>Ang iyong suporta ay magiging isang malaking panghihikayat, habang ako ay patuloy na paunlarin ang add-on.<br>Kung gusto mo ang Simpleng Pagsasalin, ako ay masisiyahan kung maaari mong isaalang-alang ang magdonasyon."
     },
+    "amazonTitleLabel": {
+        "message": "amazon.co.jp eGift Cards"
+    },
     "addonPageLabel": {
         "message": "Pahina ng add-on"
+    },
+    "amazonUrl": {
+        "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
     },
     "addonUrl": {
         "message": "https:\/\/addons.mozilla.org\/Tagalog-Philippines\/firefox\/addon\/simple-translate\/?src=optionpage"

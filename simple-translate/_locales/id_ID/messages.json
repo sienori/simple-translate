@@ -140,8 +140,14 @@
     "donationCaptionLabel": {
         "message": "Terima kasih telah menggunakan menerjemahkan sederhana. <br>Dukungan Anda akan menjadi dorongan besar, karena saya terus mengembangkan add-on. <br>Jika Anda suka menerjemahkan sederhana, saya akan senang jika Anda bisa mempertimbangkan sumbangan."
     },
+    "amazonTitleLabel": {
+        "message": "amazon.co.jp eGift Cards"
+    },
     "addonPageLabel": {
         "message": "Halaman pengaya"
+    },
+    "amazonUrl": {
+        "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
     },
     "addonUrl": {
         "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"

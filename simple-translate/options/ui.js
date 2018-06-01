@@ -42,3 +42,4 @@ function readHash(e) {
 }
 
 document.getElementsByClassName("addonUrl")[0].href = browser.i18n.getMessage("addonUrl");
+document.getElementsByClassName("amazonUrl")[0].href = browser.i18n.getMessage("amazonUrl");

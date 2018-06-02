@@ -65,12 +65,6 @@
     "ifCheckLangCaptionLabel": {
         "message": "Tukuyin ang lengguwahe ng napiling teksto, at kung ito ay pareho bilang target na lengguwahe, ang pindutan ay hindi ipinapakita."
     },
-    "ifShowMenuLabel": {
-        "message": "Ipakita ang menu ng konteksto"
-    },
-    "ifShowMenuCaptionLabel": {
-        "message": "Magdagdag ng mga aytem sa menu ng konteksto kapag pakanawang pinipindot ang web page."
-    },
     "toolbarLabel": {
         "message": "Toolbar popup"
     },
@@ -85,6 +79,15 @@
     },
     "secondTargetLangCaptionLabel": {
         "message": "Piliin ang pangalawang target na lengguwahe."
+    },
+    "menuLabel": {
+        "message": "Context menu"
+    },
+    "ifShowMenuLabel": {
+        "message": "Ipakita ang menu ng konteksto"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
     },
     "styleLabel": {
         "message": "Istilo"

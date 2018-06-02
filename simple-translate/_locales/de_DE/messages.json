@@ -5,6 +5,9 @@
     "extDescription": {
         "message": "Zeige einfach Übersetzungen an, während du im Internet surfst."
     },
+    "donateWithPaypalLabel": {
+        "message": "Donate with PayPal"
+    },
     "initialTextArea": {
         "message": "Text eingeben"
     },
@@ -15,7 +18,7 @@
         "message": "Zielsprache"
     },
     "langList": {
-        "message": "af:Afrikaans, sq:Albanisch, am:Amharisch, ar:Arabisch, hy:Armenisch, az:Aserbeidschanisch, eu:Baskisch, be:Weißrussisch, bn:Bengali, bs:Bosnisch, bg:Bulgarisch, ca:Katalanisch, ceb:Cebuano, ny:Nyanja, zh-CN:Chinesisch (VRC), zh-TW:Chinesisch (Taiwan), co:Korsisch, hr:Kroatisch, cs:Tschechisch, da:Dänisch, nl:Niederländisch, en:Englisch, eo:Esperanto, et:Estnisch, fi:Finnisch, fr:Französisch, fy:Friesisch, gl:Galicisch, ka:Georgisch, de:Deutsch, el:Griechisch, gu:Gujarati, ht:Haitien, ha:Haussa, haw:Hawaiisch, he:Hebräisch, hi:Hindi, hu:Ungarisch, is:Isländisch, ig:Ibo, id:Indonesisch, ga:Irisch, it:Italienisch, ja:Japanisch, jv:Javanisch, kn:Kannada, kk:Kasachisch, km:Khmer, ky:Kirgisisch, ko:Koreanisch, ku:Kurdisch, lo:Laotisch, la:Latein, lv:Lettisch, lt:Litauisch, lb:Luxemburgisch, mk:Makedonisch, mg:Malagassi, ms:Malaiisch, ml:Malayalam, mt:Maltesisch, mi:Maori, mr:Marathi, mn:Mongolisch, hmn:Miao, my:Birmanisch, ne:Nepali, no:Norwegisch, fa:Persisch, pl:Polnisch, pt:Portugiesisch, pa:Pandschabi, ps:Paschtu, ro:Rumänisch, ru:Russisch, sm:Samoanisch, gd:Gälisch-Schottisch, sr:Serbisch, sn:Schona, sd:Sindhi, si:Singhalesisch, sk:Slowakisch, sl:Slowenisch, so:Somali, sx:Sotho, es:Spanisch, su:Sundanesisch, sw:Swahili, sv:Schwedisch, tl:Tagalog, tg:Tadschikisch, ta:Tamil, te:Telugu, th:Thailändisch, tr:Türkisch, uk:Ukrainisch, ur:Urdu, uz:Usbekisch, vi:Vietnamesisch, cy:Kymrisch, xh:Xhosa, yi:Jiddisch, yo:Yoruba, zu:Zulu"
+        "message": "af:Afrikanisch, sq:Albanisch, am:Amharisch, ar:Arabisch, hy:Armenisch, az:Aserbeidschanisch, eu:Baskisch, be:Weißrussisch, bn:Bengalisch, bs:Bosnisch, bg:Bulgarisch, ca:Katalanisch, ceb:Cebuano, ny:Nyanja, zh-CN:Chinesisch (VRC), zh-TW:Chinesisch (Taiwan), co:Korsisch, hr:Kroatisch, cs:Tschechisch, da:Dänisch, nl:Niederländisch, en:Englisch, eo:Esperanto, et:Estnisch, fi:Finnisch, fr:Französisch, fy:Friesisch, gl:Galicisch, ka:Georgisch, de:Deutsch, el:Griechisch, gu:Gujarati, ht:Haitien, ha:Haussa, haw:Hawaiisch, he:Hebräisch, hi:Hindi, hu:Ungarisch, is:Isländisch, ig:Ibo, id:Indonesisch, ga:Irisch, it:Italienisch, ja:Japanisch, jv:Javanisch, kn:Kanadisch, kk:Kasachisch, km:Khmer, ky:Kirgisisch, ko:Koreanisch, ku:Kurdisch, lo:Laotisch, la:Latein, lv:Lettisch, lt:Litauisch, lb:Luxemburgisch, mk:Makedonisch, mg:Malagassi, ms:Malaiisch, ml:Malayalam, mt:Maltesisch, mi:Maori, mr:Marathi, mn:Mongolisch, hmn:Miao, my:Birmanisch, ne:Nepali, no:Norwegisch, fa:Persisch, pl:Polnisch, pt:Portugiesisch, pa:Pandschabi, ps:Paschtu, ro:Rumänisch, ru:Russisch, sm:Samoanisch, gd:Gälisch-Schottisch, sr:Serbisch, sn:Schona, sd:Sindhi, si:Singhalesisch, sk:Slowakisch, sl:Slowenisch, so:Somali, sx:Sotho, es:Spanisch, su:Sundanesisch, sw:Swahili, sv:Schwedisch, tl:Tagalog, tg:Tadschikisch, ta:Tamil, te:Telugu, th:Thailändisch, tr:Türkisch, uk:Ukrainisch, ur:Urdu, uz:Usbekisch, vi:Vietnamesisch, cy:Kymrisch, xh:Xhosa, yi:Jiddisch, yo:Yoruba, zu:Zulu"
     },
     "settingsLabel": {
         "message": "Einstellungen"
@@ -24,49 +27,43 @@
         "message": "Allgemein"
     },
     "targetLangCaptionLabel": {
-        "message": "Wähle die Standardzielsprache."
+        "message": "Standardzielsprache wählen."
     },
     "webPageLabel": {
-        "message": "Webseite"
+        "message": "Internetseite"
     },
     "ifShowCandidateLabel": {
-        "message": "Alternative Übersetzungen anzeigen"
+        "message": "Weitere Übersetzungsvorschläge anzeigen"
     },
     "ifShowCandidateCaptionLabel": {
-        "message": "Mehrere alternative Übersetzungen anzeigen wenn ein einzelnes Wort übersetzt wird."
+        "message": "Zeige weitere Übersetzungsvorschläge an, wenn ein einzelnes Wort übersetzt wird."
     },
     "whenSelectTextLabel": {
-        "message": "Behavior when selecting text"
+        "message": "Verhalten beim Auswählen von Text"
     },
     "ifAutoTranslateLabel": {
-        "message": "Übersetzungspanel anzeigen"
+        "message": "Übersetzungsfeld anzeigen"
     },
     "ifAutoTranslateCaptionLabel": {
-        "message": "Directly display the translation panel without displaying the button."
+        "message": "Übersetzungsfeld direkt anzeigen, ohne den Knopf dafür anzuzeigen."
     },
     "ifShowButtonLabel": {
         "message": "Übersetzungsbutton anzeigen"
     },
     "ifShowButtonCaptionLabel": {
-        "message": "Display the translation button to open the panel when clicked."
+        "message": "Zeige den Übersetzen-Knopf an, um beim Klick darauf das Feld mit der Übersetzung anzuzeigen."
     },
     "dontshowbuttonlabel": {
-        "message": "Don't display button or panel"
+        "message": "Übersetzen-Knopf und Übersetzungsfeld nicht anzeigen"
     },
     "dontshowbuttonCaptionlabel": {
-        "message": "Don't display the translation button or the translation panel."
+        "message": "Zeige den Übersetzen-Knopf sowie das Feld mit der Übersetzung nicht an."
     },
     "ifCheckLangLabel": {
-        "message": "Die Schaltfläche nicht angezeigt, wenn keine Übersetzung notwendig ist"
+        "message": "Den Übersetzen-Knopf nicht anzeigen, wenn keine Übersetzung notwendig ist"
     },
     "ifCheckLangCaptionLabel": {
-        "message": "Erkennt die Sprache des ausgewählten Textes und unterdrückt die Schaltfläche wenn der Text bereits in der Zielsprache ist."
-    },
-    "ifShowMenuLabel": {
-        "message": "Kontextmenü anzeigen"
-    },
-    "ifShowMenuCaptionLabel": {
-        "message": "Menüeinträge zu dem Kontextmenü hinzufügen welches angezeigt wird wenn man mit der rechten Maustaste auf eine Webseite klickt."
+        "message": "Erkennt die Sprache des ausgewählten Textes und zeigt den Übersetzen-Knopf nicht an, wenn der Text bereits in der Zielsprache ist."
     },
     "toolbarLabel": {
         "message": "Werkzeugleistenfenster"
@@ -75,22 +72,31 @@
         "message": "Automatisch zur Zweitsprache wechseln"
     },
     "ifChangeSecondLangCaptionLabel": {
-        "message": "Erkennt die Sprache des eingegebenen Textes und übersetzt diesen in die Zweitsprache, falls er in der Standardzielsprache ist."
+        "message": "Erkennt die Sprache des eingegebenen Textes und übersetzt ihn in die Zweitsprache, falls der eingegebene Text bereits in der Standardzielsprache ist."
     },
     "secondTargetLangLabel": {
         "message": "Zweitsprache"
     },
     "secondTargetLangCaptionLabel": {
-        "message": "Wähle die Zweitsprache."
+        "message": "Zweitsprache wählen."
+    },
+    "menuLabel": {
+        "message": "Context menu"
+    },
+    "ifShowMenuLabel": {
+        "message": "Kontextmenü anzeigen"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
     },
     "styleLabel": {
-        "message": "Layout"
+        "message": "Erscheinungsbild"
     },
     "buttonStyleLabel": {
-        "message": "Übersetzungsschaltfläche"
+        "message": "Übersetzen-Knopf"
     },
     "buttonStyleCaptionLabel": {
-        "message": "Konfiguriere das Layout der Übersetzungsschaltfläche, die auf Webseiten angezeigt wird."
+        "message": "Erscheinungsbild des Übersetzen-Knopfes anpassen, der auf den Internetseiten angezeigt wird."
     },
     "buttonSizeLabel": {
         "message": "Größe"
@@ -111,7 +117,7 @@
         "message": "Unten links"
     },
     "panelStyleLabel": {
-        "message": "Werkzeugleistenfenster"
+        "message": "Übersetzungsfeld"
     },
     "panelStyleCaptionLabel": {
         "message": "Konfiguriere das Layout des Werkzeugleistenfensters, das auf Webseiten angezeigt wird."
@@ -129,7 +135,7 @@
         "message": "Hintergrundfarbe"
     },
     "informationLabel": {
-        "message": "Informationen"
+        "message": "Information"
     },
     "licenseLabel": {
         "message": "Lizenz"
@@ -138,10 +144,16 @@
         "message": "Bitte spende"
     },
     "donationCaptionLabel": {
-        "message": "Danke für das Benutzen von Simple Translate.<br>Deine Unterstützung wird ein großer Ansporn bei der Weiterentwicklung dieses Add-ons sein.<br>Wenn du Simple Translate magst, wäre es schön wenn du eine Spende in Erwägung ziehst."
+        "message": "Danke für das Benutzen von Simple Translate.<br>Deine Unterstützung wird ein großer Ansporn bei der Weiterentwicklung dieses Add-ons sein.<br>Wenn du Simple Translate magst, wäre es schön, wenn du etwas spenden würdest."
+    },
+    "amazonTitleLabel": {
+        "message": "amazon.co.jp eGift Cards"
     },
     "addonPageLabel": {
-        "message": "Add-on Seite"
+        "message": "Add-on-Seite"
+    },
+    "amazonUrl": {
+        "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
     },
     "addonUrl": {
         "message": "https:\/\/addons.mozilla.org\/de\/firefox\/addon\/simple-translate\/?src=optionpage"

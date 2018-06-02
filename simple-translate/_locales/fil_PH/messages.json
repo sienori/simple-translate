@@ -5,154 +5,166 @@
     "extDescription": {
         "message": "Matanaw ang mga madaling pagsasalin bilang pag-browse sa web."
     },
+    "donateWithPaypalLabel": {
+        "message": "Donate with PayPal"
+    },
     "initialTextArea": {
-        "message": "Enter text"
+        "message": "Ipasok ang teksto"
     },
     "showLink": {
-        "message": "Translate this page"
+        "message": "Isalin ang pahinang ito"
     },
     "targetLangLabel": {
-        "message": "Target language"
+        "message": "Target na lengguwahe"
     },
     "langList": {
-        "message": "af:Afrikaans, sq:Albanian, am:Amharic, ar:Arabic, hy:Armenian, az:Azerbaijani, eu:Basque, be:Belarusian, bn:Bengali, bs:Bosnian, bg:Bulgarian, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Chinese (PRC), zh-TW:Chinese (Taiwan), co:Corsican, hr:Croatian, cs:Czech, da:Danish, nl:Dutch, en:English, eo:Esperanto, et:Estonian, fi:Finnish, fr:French, fy:Frisian, gl:Galician, ka:Georgian, de:German, el:Greek, gu:Gujarati, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesian, ga:Irish, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Korean, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:Macedonian, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persian, pl:Polish, pt:Portuguese, pa:Punjabi, ps:Pushto, ro:Romanian, ru:Russian, sm:Samoan, gd:Scottish Gaelic, sr:Serbian, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovak, sl:Slovenian, so:Somali, sx:Sotho, es:Spanish, su:Sundanese, sw:Swahili, sv:Swedish, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turkish, uk:Ukrainian, ur:Urdu, uz:Uzbek, vi:Vietnamese, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
+        "message": "af:Aprikano, sq:Albanes, am:Amharic, ar:Arabe, hy:Armenyo, az:Azerbaijani, eu:Basko, be:Belarusian, bn:Bengali, bs:Bosnian, bg:Bulgarian, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Chinese (PRC), zh-TW:Chinese (Taiwan), co:Corsican, hr:Croatian, cs:Czech, da:Danish, nl:Dutch, en:Ingles, eo:Esperanto, et:Estonian, fi:Finnish, fr:Pranses, fy:Frisian, gl:Galician, ka:Georgian, de:Aleman, el:Griyego, gu:Gujarati, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesiyo, ga:Irlandes, it:Italyano, ja:Hapon, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Koreano, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:Macedonian, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Monggolyan, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persyano, pl:Polish, pt:Portuges, pa:Punjabi, ps:Pushto, ro:Rumano, ru:Ruso, sm:Samoan, gd:Scottish Gaelic, sr:Serbyan, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovak, sl:\nEslobenyan, so:Somali, sx:Sotho, es:Espanyol, su:Sundanese, sw:Swahili, sv:Swedish, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turkish, uk:Ukrainyo, ur:Urdu, uz:Uzbek, vi:Vietnamese, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
     },
     "settingsLabel": {
-        "message": "Settings"
+        "message": "Mga setting"
     },
     "generalLabel": {
-        "message": "General"
+        "message": "Pangkalahatan"
     },
     "targetLangCaptionLabel": {
-        "message": "Select the default target language."
+        "message": "Piliin ang default ng lengguwaheng target."
     },
     "webPageLabel": {
-        "message": "Web page"
+        "message": "Web Page"
     },
     "ifShowCandidateLabel": {
-        "message": "Show translation candidates"
+        "message": "Ipakita ang mga kandidato sa pagsasalin"
     },
     "ifShowCandidateCaptionLabel": {
-        "message": "Show multiple translation candidates when a single word is translated."
+        "message": "Ipakita ang mga kandidato ng maraming pagsasalin kapag ang isang salita ay isinalin."
     },
     "whenSelectTextLabel": {
-        "message": "Behavior when selecting text"
+        "message": "Ang gawi kapag pumipili ng teksto"
     },
     "ifAutoTranslateLabel": {
-        "message": "Display translation panel"
+        "message": "Ipakita ang panel ng pagsasalin"
     },
     "ifAutoTranslateCaptionLabel": {
-        "message": "Directly display the translation panel without displaying the button."
+        "message": "Direktang ipakita ang panel ng pagsasalin nang hindi ipinapakita ang pindutan."
     },
     "ifShowButtonLabel": {
-        "message": "Display translation button"
+        "message": "Ipakita ang pindutan ng pagsasalin"
     },
     "ifShowButtonCaptionLabel": {
-        "message": "Display the translation button to open the panel when clicked."
+        "message": "Ipakita ang pindutan ng pagsasalin upang buksan ang panel kapag pinindot."
     },
     "dontshowbuttonlabel": {
-        "message": "Don't display button or panel"
+        "message": "Huwag ipakita ang pindutan o panel"
     },
     "dontshowbuttonCaptionlabel": {
-        "message": "Don't display the translation button or the translation panel."
+        "message": "Huwag ipakita ang pindutan ng pagsasalin o ang panel ng pagsasalin."
     },
     "ifCheckLangLabel": {
-        "message": "Do not display the button if translation is not required"
+        "message": "Huwag ipakita ang pindutan kung ang pagsasalin ay hindi kinakailangan"
     },
     "ifCheckLangCaptionLabel": {
-        "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
-    },
-    "ifShowMenuLabel": {
-        "message": "Display the context menu"
-    },
-    "ifShowMenuCaptionLabel": {
-        "message": "Add items to the context menu displayed when right clicking on the web page."
+        "message": "Tukuyin ang lengguwahe ng napiling teksto, at kung ito ay pareho bilang target na lengguwahe, ang pindutan ay hindi ipinapakita."
     },
     "toolbarLabel": {
         "message": "Toolbar popup"
     },
     "ifChangeSecondLangLabel": {
-        "message": "Automatically switch to the second language"
+        "message": "Awtomatikong lumipat sa pangalawang lengguwahe"
     },
     "ifChangeSecondLangCaptionLabel": {
-        "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+        "message": "Tukuyin ang lengguwahe ng pinasok na teksto, at kung ito ay pareho bilang default na target na lengguwahe, isalin ito sa pangalawang lengguwahe."
     },
     "secondTargetLangLabel": {
-        "message": "Second language"
+        "message": "Pangalawang lengguwahe"
     },
     "secondTargetLangCaptionLabel": {
-        "message": "Select the second target language."
+        "message": "Piliin ang pangalawang target na lengguwahe."
+    },
+    "menuLabel": {
+        "message": "Context menu"
+    },
+    "ifShowMenuLabel": {
+        "message": "Ipakita ang menu ng konteksto"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
     },
     "styleLabel": {
-        "message": "Style"
+        "message": "Istilo"
     },
     "buttonStyleLabel": {
-        "message": "Translation button"
+        "message": "Pindutan ng pagsasalin"
     },
     "buttonStyleCaptionLabel": {
-        "message": "Specify the style of the translation button displayed on the web page."
+        "message": "Tukuyin ang istilo ng pindutan ng pagsasalin na ipinakita sa web page."
     },
     "buttonSizeLabel": {
-        "message": "Size"
+        "message": "Laki"
     },
     "buttonPositionLabel": {
-        "message": "Display position"
+        "message": "Ipakit ang posisyon"
     },
     "rightUpLabel": {
-        "message": "Top right"
+        "message": "Itaas na kanan"
     },
     "rightDownLabel": {
-        "message": "Bottom right"
+        "message": "Ibaba sa kanan"
     },
     "leftUpLabel": {
-        "message": "Top left"
+        "message": "Itaas sa kaliwa"
     },
     "leftDownLabel": {
-        "message": "Bottom left"
+        "message": "Ibaba sa kaliwa"
     },
     "panelStyleLabel": {
-        "message": "Translation panel"
+        "message": "Panel ng pagsasalin"
     },
     "panelStyleCaptionLabel": {
-        "message": "Specify the style of the translation panel displayed on the web page."
+        "message": "Tukuyin ang istilo ng panel ng pagsasalin na ipinakita sa web page."
     },
     "widthLabel": {
-        "message": "Width"
+        "message": "Lapad"
     },
     "heightLabel": {
-        "message": "Height"
+        "message": "Taas"
     },
     "fontSizeLabel": {
-        "message": "Font size"
+        "message": "Laki ng font"
     },
     "bgColorLabel": {
-        "message": "Background color"
+        "message": "Kulay ng background"
     },
     "informationLabel": {
-        "message": "Information"
+        "message": "Impormasyon"
     },
     "licenseLabel": {
-        "message": "License"
+        "message": "Lisensiya"
     },
     "donationLabel": {
-        "message": "Please make a donation"
+        "message": "Mangyaring gumawa ng donasyon"
     },
     "donationCaptionLabel": {
-        "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+        "message": "Salamat sa paggamit ng Simpleng Pagsalin.<br>Ang iyong suporta ay magiging isang malaking panghihikayat, habang ako ay patuloy na paunlarin ang add-on.<br>Kung gusto mo ang Simpleng Pagsasalin, ako ay masisiyahan kung maaari mong isaalang-alang ang magdonasyon."
+    },
+    "amazonTitleLabel": {
+        "message": "amazon.co.jp eGift Cards"
     },
     "addonPageLabel": {
-        "message": "Add-on page"
+        "message": "Pahina ng add-on"
+    },
+    "amazonUrl": {
+        "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
     },
     "addonUrl": {
-        "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
+        "message": "https:\/\/addons.mozilla.org\/Tagalog-Philippines\/firefox\/addon\/simple-translate\/?src=optionpage"
     },
     "translatePageMenu": {
-        "message": "Translate this page"
+        "message": "Isalin ang pahinang ito"
     },
     "translateTextMenu": {
-        "message": "Translate selected text"
+        "message": "Isalin ang piniling teksto"
     },
     "translateLinkMenu": {
-        "message": "Translate selected link"
+        "message": "Isalin ang piniling link"
     }
 }

@@ -3,7 +3,10 @@
         "message": "Simple Translate"
     },
     "extDescription": {
-        "message": "Преглеждайте преводи лесно, докато сърфирате в мрежата."
+        "message": "Прегледът на преводите е лесен както сърфирате в мрежата."
+    },
+    "donateWithPaypalLabel": {
+        "message": "Donate with PayPal"
     },
     "initialTextArea": {
         "message": "Въведете текст"
@@ -27,46 +30,40 @@
         "message": "Изберете целевия език по подразбиране."
     },
     "webPageLabel": {
-        "message": "Уеб страница"
+        "message": "Уебстраница"
     },
     "ifShowCandidateLabel": {
-        "message": "Показване на алтернативни преводи"
+        "message": "Показване на варианти на превода"
     },
     "ifShowCandidateCaptionLabel": {
         "message": "Показва множество кандидати за превода, когато само една дума бъде преведена."
     },
     "whenSelectTextLabel": {
-        "message": "Behavior when selecting text"
+        "message": "Поведение при избиране на текст"
     },
     "ifAutoTranslateLabel": {
-        "message": "Display translation panel"
+        "message": "Показване на панела за превод"
     },
     "ifAutoTranslateCaptionLabel": {
-        "message": "Directly display the translation panel without displaying the button."
+        "message": "Директно показване на панела за превод, но без показването на бутона."
     },
     "ifShowButtonLabel": {
-        "message": "Display translation button"
+        "message": "Показване на бутон за превод"
     },
     "ifShowButtonCaptionLabel": {
-        "message": "Display the translation button to open the panel when clicked."
+        "message": "Показване на бутона за превод, за да се отвори панела за превод при щракване върху му."
     },
     "dontshowbuttonlabel": {
-        "message": "Don't display button or panel"
+        "message": "Без показване на бутона или панела"
     },
     "dontshowbuttonCaptionlabel": {
-        "message": "Don't display the translation button or the translation panel."
+        "message": "Без показване на бутона за превод или панела за превод."
     },
     "ifCheckLangLabel": {
-        "message": "Не показвай бутона, ако преводът не е необходим"
+        "message": "Без показване на бутона, ако не е необходим превод"
     },
     "ifCheckLangCaptionLabel": {
         "message": "Открива езика на избрания текст, и ако той съвпада с целевия език, бутонът не се показва."
-    },
-    "ifShowMenuLabel": {
-        "message": "Показване на контекстното меню"
-    },
-    "ifShowMenuCaptionLabel": {
-        "message": "Добавя елементи към контекстното меню, което се показва, когато щракнете с десния бутон на мишката върху уеб страницата."
     },
     "toolbarLabel": {
         "message": "Прозорец от лентата с инструменти"
@@ -83,6 +80,15 @@
     "secondTargetLangCaptionLabel": {
         "message": "Изберете втория целеви език."
     },
+    "menuLabel": {
+        "message": "Context menu"
+    },
+    "ifShowMenuLabel": {
+        "message": "Показване на контекстното меню"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+    },
     "styleLabel": {
         "message": "Стил"
     },
@@ -96,7 +102,7 @@
         "message": "Големина"
     },
     "buttonPositionLabel": {
-        "message": "Местоположение при показване"
+        "message": "Показване на положението"
     },
     "rightUpLabel": {
         "message": "Горе вдясно"
@@ -114,7 +120,7 @@
         "message": "Панел за превод"
     },
     "panelStyleCaptionLabel": {
-        "message": "Посочете стила на панела за преводи, показващ се в уеб страницата."
+        "message": "Определете стила на панела за преводи, показващ се в уебстраницата."
     },
     "widthLabel": {
         "message": "Широчина"
@@ -135,13 +141,19 @@
         "message": "Лиценз"
     },
     "donationLabel": {
-        "message": "Моля, направете дарение"
+        "message": "Дарете и благодарете на автора"
     },
     "donationCaptionLabel": {
         "message": "Благодаря ви че използвате Семпъл Преводач.<br>Вашата подкрепа би значела много за мен, тъй като ще продължа да разработвам добавката си.<br>Ако харесвате Семпъл Преводач, бих се радвал ако обмислите да дарите."
     },
+    "amazonTitleLabel": {
+        "message": "amazon.co.jp eGift Cards"
+    },
     "addonPageLabel": {
         "message": "Страница на добавката"
+    },
+    "amazonUrl": {
+        "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
     },
     "addonUrl": {
         "message": "https:\/\/addons.mozilla.org\/bg\/firefox\/addon\/simple-translate\/?src=optionpage"

@@ -5,6 +5,9 @@
     "extDescription": {
         "message": "Web'de gezinirken çevirileri kolayca görüntüleyin."
     },
+    "donateWithPaypalLabel": {
+        "message": "Donate with PayPal"
+    },
     "initialTextArea": {
         "message": "Metin girin"
     },
@@ -62,12 +65,6 @@
     "ifCheckLangCaptionLabel": {
         "message": "Seçili metnin dilini algılar ve dil aynı ise tuş görüntülenmez."
     },
-    "ifShowMenuLabel": {
-        "message": "İçerik menüsünü görüntüle"
-    },
-    "ifShowMenuCaptionLabel": {
-        "message": "Web sayfasında sağ tıklandığında öğeleri görüntülenen içerik menüsüne ekle."
-    },
     "toolbarLabel": {
         "message": "Açılır araç çubuğu penceresi"
     },
@@ -82,6 +79,15 @@
     },
     "secondTargetLangCaptionLabel": {
         "message": "İkinci hedef dilini seçin."
+    },
+    "menuLabel": {
+        "message": "Context menu"
+    },
+    "ifShowMenuLabel": {
+        "message": "İçerik menüsünü görüntüle"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
     },
     "styleLabel": {
         "message": "Biçim"
@@ -140,8 +146,14 @@
     "donationCaptionLabel": {
         "message": "Simple Translate'i kullandığınız için teşekkür ederiz.<br>Eklentileri geliştirmeye devam ettikçe, destekleriniz bizim için büyük bir teşvik olacaktır.<br> Simpe Translate'i beğendiyseniz, bağış yaparak bizi mutlu edebilirsiniz."
     },
+    "amazonTitleLabel": {
+        "message": "amazon.co.jp eGift Cards"
+    },
     "addonPageLabel": {
         "message": "Ek sayfa"
+    },
+    "amazonUrl": {
+        "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
     },
     "addonUrl": {
         "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"

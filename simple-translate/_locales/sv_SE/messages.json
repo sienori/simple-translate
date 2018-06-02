@@ -3,13 +3,16 @@
         "message": "Simple Translate"
     },
     "extDescription": {
-        "message": "View translations easily as you browse the web."
+        "message": "Visa översättningar enkelt medans du surfar på webben."
+    },
+    "donateWithPaypalLabel": {
+        "message": "Donate with PayPal"
     },
     "initialTextArea": {
-        "message": "Enter text"
+        "message": "Ange text"
     },
     "showLink": {
-        "message": "Translate this page"
+        "message": "Översätt denna sida"
     },
     "targetLangLabel": {
         "message": "Target language"
@@ -18,16 +21,16 @@
         "message": "af:Afrikaans, sq:Albanian, am:Amharic, ar:Arabic, hy:Armenian, az:Azerbaijani, eu:Basque, be:Belarusian, bn:Bengali, bs:Bosnian, bg:Bulgarian, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Chinese (PRC), zh-TW:Chinese (Taiwan), co:Corsican, hr:Croatian, cs:Czech, da:Danish, nl:Dutch, en:English, eo:Esperanto, et:Estonian, fi:Finnish, fr:French, fy:Frisian, gl:Galician, ka:Georgian, de:German, el:Greek, gu:Gujarati, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesian, ga:Irish, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Korean, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:Macedonian, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persian, pl:Polish, pt:Portuguese, pa:Punjabi, ps:Pushto, ro:Romanian, ru:Russian, sm:Samoan, gd:Scottish Gaelic, sr:Serbian, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovak, sl:Slovenian, so:Somali, sx:Sotho, es:Spanish, su:Sundanese, sw:Swahili, sv:Swedish, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turkish, uk:Ukrainian, ur:Urdu, uz:Uzbek, vi:Vietnamese, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
     },
     "settingsLabel": {
-        "message": "Settings"
+        "message": "Inställningar"
     },
     "generalLabel": {
-        "message": "General"
+        "message": "Allmänt"
     },
     "targetLangCaptionLabel": {
         "message": "Select the default target language."
     },
     "webPageLabel": {
-        "message": "Web page"
+        "message": "Webbsida"
     },
     "ifShowCandidateLabel": {
         "message": "Show translation candidates"
@@ -62,12 +65,6 @@
     "ifCheckLangCaptionLabel": {
         "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
     },
-    "ifShowMenuLabel": {
-        "message": "Display the context menu"
-    },
-    "ifShowMenuCaptionLabel": {
-        "message": "Add items to the context menu displayed when right clicking on the web page."
-    },
     "toolbarLabel": {
         "message": "Toolbar popup"
     },
@@ -83,17 +80,26 @@
     "secondTargetLangCaptionLabel": {
         "message": "Select the second target language."
     },
+    "menuLabel": {
+        "message": "Context menu"
+    },
+    "ifShowMenuLabel": {
+        "message": "Display the context menu"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+    },
     "styleLabel": {
-        "message": "Style"
+        "message": "Stil"
     },
     "buttonStyleLabel": {
-        "message": "Translation button"
+        "message": "Översättknapp"
     },
     "buttonStyleCaptionLabel": {
-        "message": "Specify the style of the translation button displayed on the web page."
+        "message": "Ange stilen för översättsknappen som visas på webbsidan."
     },
     "buttonSizeLabel": {
-        "message": "Size"
+        "message": "Storlek"
     },
     "buttonPositionLabel": {
         "message": "Display position"
@@ -117,42 +123,48 @@
         "message": "Specify the style of the translation panel displayed on the web page."
     },
     "widthLabel": {
-        "message": "Width"
+        "message": "Bredd"
     },
     "heightLabel": {
-        "message": "Height"
+        "message": "Höjd"
     },
     "fontSizeLabel": {
-        "message": "Font size"
+        "message": "Typsnittsstorlek"
     },
     "bgColorLabel": {
-        "message": "Background color"
+        "message": "Bakgrundsfärg"
     },
     "informationLabel": {
         "message": "Information"
     },
     "licenseLabel": {
-        "message": "License"
+        "message": "Licens"
     },
     "donationLabel": {
-        "message": "Please make a donation"
+        "message": "Donera gärna"
     },
     "donationCaptionLabel": {
-        "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+        "message": "Tack för att du använder Simple Translate.<br>Ditt stöd är ett stort främjande, eftersom vi fortsätter att utveckla tillägget.<br>Om du gillar Simple Translate, skulle vi uppskatta om du donerar."
+    },
+    "amazonTitleLabel": {
+        "message": "amazon.co.jp eGift Cards"
     },
     "addonPageLabel": {
         "message": "Add-on page"
+    },
+    "amazonUrl": {
+        "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
     },
     "addonUrl": {
         "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
     },
     "translatePageMenu": {
-        "message": "Translate this page"
+        "message": "Översätt denna sida"
     },
     "translateTextMenu": {
-        "message": "Translate selected text"
+        "message": "Översätt markerad text"
     },
     "translateLinkMenu": {
-        "message": "Translate selected link"
+        "message": "Översätt markerad länk"
     }
 }

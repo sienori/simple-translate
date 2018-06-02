@@ -5,11 +5,14 @@
     "extDescription": {
         "message": "Fordítás közben könnyedén megtekintheti a fordításokat."
     },
+    "donateWithPaypalLabel": {
+        "message": "Donate with PayPal"
+    },
     "initialTextArea": {
         "message": "Írja be a szöveget"
     },
     "showLink": {
-        "message": "Ez az oldal lefordítása"
+        "message": "Az oldal fordítása"
     },
     "targetLangLabel": {
         "message": "Célnyelv"
@@ -42,10 +45,10 @@
         "message": "A fordítópanel megjelenítése"
     },
     "ifAutoTranslateCaptionLabel": {
-        "message": "Közvetlenül megjelenítse a fordítópanelt a gomb megjelenítésének nélkül."
+        "message": "Közvetlenül jelenítse meg a fordítópanelt a gomb megjelenítése nélkül."
     },
     "ifShowButtonLabel": {
-        "message": "Kijelzőgomb megjelenítése"
+        "message": "Fordító gomb megjelenítése"
     },
     "ifShowButtonCaptionLabel": {
         "message": "A fordítás gomb megnyomásával nyissa meg a panelt, ha rákattint."
@@ -62,12 +65,6 @@
     "ifCheckLangCaptionLabel": {
         "message": "Felismeri a kijelölt szöveg nyelvét és ha az megegyezik a célnyelvvel akkor a gomb nem jelenik meg."
     },
-    "ifShowMenuLabel": {
-        "message": "Megjelenítés a helyi menüben"
-    },
-    "ifShowMenuCaptionLabel": {
-        "message": "Egy elemet ad a helyi menühöz, mely a weboldalon jobb kattintásra jelenik meg."
-    },
     "toolbarLabel": {
         "message": "Felugró eszköztár"
     },
@@ -81,7 +78,16 @@
         "message": "Második nyelv"
     },
     "secondTargetLangCaptionLabel": {
-        "message": "Válassza ki a második célnyelvvet."
+        "message": "Válassza ki a második célnyelvet."
+    },
+    "menuLabel": {
+        "message": "Context menu"
+    },
+    "ifShowMenuLabel": {
+        "message": "Megjelenítés a helyi menüben"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
     },
     "styleLabel": {
         "message": "Stílus"
@@ -132,7 +138,7 @@
         "message": "Információ"
     },
     "licenseLabel": {
-        "message": "Licenc"
+        "message": "Licensz"
     },
     "donationLabel": {
         "message": "Adomány"
@@ -140,8 +146,14 @@
     "donationCaptionLabel": {
         "message": "Köszönöm, hogy a Simple Translate bővítményt használja.<br>Támogatásával arra ösztönözhet, hogy tovább fejlesszem a bővítményt.<br>Ha tetszik önnek a Simple Translate, örülnék, ha megfontolhatná az adományozást."
     },
+    "amazonTitleLabel": {
+        "message": "amazon.co.jp eGift Cards"
+    },
     "addonPageLabel": {
-        "message": "Bővítmány weoldala"
+        "message": "Bővítmény weboldala"
+    },
+    "amazonUrl": {
+        "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
     },
     "addonUrl": {
         "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
@@ -153,6 +165,6 @@
         "message": "A kijelölt szöveg fordítása"
     },
     "translateLinkMenu": {
-        "message": "A kijelölt hivatkoás fordítása"
+        "message": "A kijelölt hivatkozás fordítása"
     }
 }

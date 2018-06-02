@@ -8,7 +8,7 @@ browser.runtime.onInstalled.addListener((details) => {
     if (details.reason != 'install' && details.reason != 'update') return;
 
     browser.tabs.create({
-        url: "options/options.html#information",
+        url: "options/options.html#information?action=updated",
         active: false
     });
 });

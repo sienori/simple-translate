@@ -65,12 +65,6 @@
     "ifCheckLangCaptionLabel": {
         "message": "選択したテキストの言語を検出し，翻訳先言語と同じ場合はボタンを表示しません。"
     },
-    "ifShowMenuLabel": {
-        "message": "コンテキストメニューを表示する"
-    },
-    "ifShowMenuCaptionLabel": {
-        "message": "ページ上で右クリックした時に表示されるコンテキストメニューに項目を追加します。"
-    },
     "toolbarLabel": {
         "message": "ツールバーポップアップ"
     },
@@ -85,6 +79,15 @@
     },
     "secondTargetLangCaptionLabel": {
         "message": "第二言語を指定します。"
+    },
+    "menuLabel": {
+        "message": "Context menu"
+    },
+    "ifShowMenuLabel": {
+        "message": "コンテキストメニューを表示する"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
     },
     "styleLabel": {
         "message": "スタイル"

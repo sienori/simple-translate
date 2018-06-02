@@ -5,6 +5,7 @@
     --button: #d7d7db;
     --highlight: #5595ff;
     --main-bg: #ffffff;
+    --confirm: #ff4f4f;
 }
 
 body {
@@ -54,6 +55,24 @@ svg {
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
+}
+
+#donate {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+#donate svg {
+    height: 18px;
+    width: 18px;
+    fill: var(--sub-text);
+    transition: all 100ms;
+}
+
+#donate:hover svg {
+    fill: var(--confirm);
 }
 
 #setting {

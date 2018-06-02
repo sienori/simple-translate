@@ -5,6 +5,9 @@
     "extDescription": {
         "message": "Bekijk eenvoudig vertalingen tijdens het surfen op internet."
     },
+    "donateWithPaypalLabel": {
+        "message": "Donate with PayPal"
+    },
     "initialTextArea": {
         "message": "Tekst invoeren"
     },

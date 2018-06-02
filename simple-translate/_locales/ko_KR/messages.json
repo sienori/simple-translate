@@ -5,6 +5,9 @@
     "extDescription": {
         "message": "웹을 탐색할 때 번역을 쉽게 할 수 있도록 도와줍니다."
     },
+    "donateWithPaypalLabel": {
+        "message": "Donate with PayPal"
+    },
     "initialTextArea": {
         "message": "텍스트 입력"
     },
@@ -62,12 +65,6 @@
     "ifCheckLangCaptionLabel": {
         "message": "선택된 텍스트의 언어를 감지해 번역 대상 언어와 일치하면 버튼을 보여주지 않습니다."
     },
-    "ifShowMenuLabel": {
-        "message": "컨텍스트 메뉴 출력"
-    },
-    "ifShowMenuCaptionLabel": {
-        "message": "웹 페이지에서 오른쪽 클릭을 했을 때 번역 버튼을 추가합니다."
-    },
     "toolbarLabel": {
         "message": "툴바 팝업"
     },
@@ -82,6 +79,15 @@
     },
     "secondTargetLangCaptionLabel": {
         "message": "보조 번역 언어를 선택하세요."
+    },
+    "menuLabel": {
+        "message": "Context menu"
+    },
+    "ifShowMenuLabel": {
+        "message": "컨텍스트 메뉴 출력"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
     },
     "styleLabel": {
         "message": "모양"
@@ -140,8 +146,14 @@
     "donationCaptionLabel": {
         "message": "Simple Translator를 사용해 주셔서 감사합니다.<br>보내주신 지원이 제가 이 Add-on을 지속적으로 개발하는데 큰 도움이 될 것입니다<br>Simple Translator가 마음에 드신다면, 기부를 고려해 주시길 부탁드립니다."
     },
+    "amazonTitleLabel": {
+        "message": "amazon.co.jp eGift Cards"
+    },
     "addonPageLabel": {
         "message": "Add-on 페이지"
+    },
+    "amazonUrl": {
+        "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
     },
     "addonUrl": {
         "message": "https:\/\/addons.mozilla.org\/ko\/firefox\/addon\/simple-translate\/?src=optionpage"

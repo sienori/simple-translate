@@ -5,6 +5,9 @@
     "extDescription": {
         "message": "Простое расширение для быстрого перевода выделенного текста или всей страницы."
     },
+    "donateWithPaypalLabel": {
+        "message": "Donate with PayPal"
+    },
     "initialTextArea": {
         "message": "Введите текст"
     },

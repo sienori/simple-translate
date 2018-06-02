@@ -5,6 +5,9 @@
     "extDescription": {
         "message": "웹을 탐색할 때 번역을 쉽게 할 수 있도록 도와줍니다."
     },
+    "donateWithPaypalLabel": {
+        "message": "Donate with PayPal"
+    },
     "initialTextArea": {
         "message": "텍스트 입력"
     },

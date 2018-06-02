@@ -5,6 +5,9 @@
     "extDescription": {
         "message": "Fordítás közben könnyedén megtekintheti a fordításokat."
     },
+    "donateWithPaypalLabel": {
+        "message": "Donate with PayPal"
+    },
     "initialTextArea": {
         "message": "Írja be a szöveget"
     },

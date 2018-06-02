@@ -5,6 +5,9 @@
     "extDescription": {
         "message": "Veja as traduções facilmente à medida que você navega na web."
     },
+    "donateWithPaypalLabel": {
+        "message": "Donate with PayPal"
+    },
     "initialTextArea": {
         "message": "Digite o texto"
     },

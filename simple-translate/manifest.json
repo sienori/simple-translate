@@ -48,6 +48,7 @@
 
     "content_scripts": [
         {
+            "all_frames":true,
             "matches": ["http://*/*", "https://*/*", "<all_urls>"],
             "css": ["simple-translate.css"],
             "js": ["Settings.js", "Translate.js", "simple-translate.js"]

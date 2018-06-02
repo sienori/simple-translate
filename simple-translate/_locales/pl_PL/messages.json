@@ -65,12 +65,6 @@
     "ifCheckLangCaptionLabel": {
         "message": "Wykrywa język zaznaczonego tekstu i jeżeli jest taki sam jak język docelowy przycisk nie zostaje wyświetlany."
     },
-    "ifShowMenuLabel": {
-        "message": "Wyświetlaj menu kontekstowe"
-    },
-    "ifShowMenuCaptionLabel": {
-        "message": "Dodaj elementy do menu kontekstowego wyświetlanego, po kliknięciu prawym przyciskiem myszy na stronie internetowej."
-    },
     "toolbarLabel": {
         "message": "Podręczne narzędzia"
     },
@@ -85,6 +79,15 @@
     },
     "secondTargetLangCaptionLabel": {
         "message": "Wybierz domyślny język docelowy."
+    },
+    "menuLabel": {
+        "message": "Context menu"
+    },
+    "ifShowMenuLabel": {
+        "message": "Wyświetlaj menu kontekstowe"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
     },
     "styleLabel": {
         "message": "Styl"

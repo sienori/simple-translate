@@ -65,12 +65,6 @@
     "ifCheckLangCaptionLabel": {
         "message": "Detecta o idioma do texto selecionado e, se for o mesmo que o idioma alvo, o botão não é exibido."
     },
-    "ifShowMenuLabel": {
-        "message": "Exibir o menu de contexto"
-    },
-    "ifShowMenuCaptionLabel": {
-        "message": "Adicionar itens ao menu de contexto exibido quando clicar com o botão direito do mouse na página web."
-    },
     "toolbarLabel": {
         "message": "Barra de ferramentas"
     },
@@ -85,6 +79,15 @@
     },
     "secondTargetLangCaptionLabel": {
         "message": "Selecione o segundo idioma alvo."
+    },
+    "menuLabel": {
+        "message": "Context menu"
+    },
+    "ifShowMenuLabel": {
+        "message": "Exibir o menu de contexto"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
     },
     "styleLabel": {
         "message": "Estilo"

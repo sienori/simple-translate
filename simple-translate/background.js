@@ -11,7 +11,8 @@ browser.runtime.onInstalled.addListener(function () {
     });
 });
 
-let S = new settingsObj()
+let S = new settingsObj();
+
 browser.storage.onChanged.addListener(showMenu);
 if (typeof (browser.contextMenus.onShown) != 'undefined') browser.contextMenus.onShown.addListener(updateMenu);
 

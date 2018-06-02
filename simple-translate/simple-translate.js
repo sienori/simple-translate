@@ -55,7 +55,8 @@ async function Select(e) {
 //選択テキストの言語をチェックして返す
 async function checkLang(sourceWord, sourceLang, targetLang) {
     if (!S.get().ifCheckLang) return true; //設定がオフならtrue
-
+    sourceWord=sourceWord.substr(0, 100); //先頭100字で言語を判定
+    
     const resultData = await T.translate(sourceWord, sourceLang, targetLang);
     const needTranslate = (S.get().targetLang != resultData.sourceLanguage) && (resultData.percentage > 0);
     return needTranslate; //ターゲットとソースの言語が不一致ならtrue

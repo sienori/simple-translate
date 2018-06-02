@@ -22,6 +22,14 @@ body {
     flex-direction: column;
 }
 
+.hidden {
+    display: none;
+}
+
+svg {
+    pointer-events: none;
+}
+
 #header {
     padding: 10px;
     background-color: var(--line);
@@ -41,13 +49,31 @@ body {
     cursor: default;
 }
 
+#header .rightButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
 #setting {
-    height: 17px;
-    width: 17px;
-    background-image: url("/icons/setting.png");
-    background-size: 17px;
-    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
     cursor: pointer;
+}
+
+#setting svg {
+    flex-shrink: 0;
+    height: 18px;
+    width: 18px;
+    fill: var(--sub-text);
+    transform: rotate(180deg);
+    transition: fill 100ms, transform 300ms ease;
+}
+
+#setting:hover svg {
+    fill: var(--highlight);
+    transform: rotate(270deg);
 }
 
 #main {

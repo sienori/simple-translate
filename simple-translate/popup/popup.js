@@ -48,6 +48,11 @@ function setLangList() {
     langList.innerHTML = langListHtml;
 }
 
+setTitles();
+function setTitles(){
+    document.getElementById("setting").title = browser.i18n.getMessage('settingsLabel');
+}
+
 function alphabeticallySort(a, b) {
     if (a[1].toString() > b[1].toString()) {
         return 1;

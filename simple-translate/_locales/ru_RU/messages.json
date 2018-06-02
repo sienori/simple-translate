@@ -65,12 +65,6 @@
     "ifCheckLangCaptionLabel": {
         "message": "Если язык выделенного текста совпадает с языком перевода, то кнопка не показывается."
     },
-    "ifShowMenuLabel": {
-        "message": "Добавить пункты в контекстное меню"
-    },
-    "ifShowMenuCaptionLabel": {
-        "message": "Добавить команды перевода в контекстное меню веб-страницы."
-    },
     "toolbarLabel": {
         "message": "Окно на панели инструментов"
     },
@@ -85,6 +79,15 @@
     },
     "secondTargetLangCaptionLabel": {
         "message": "Выберите дополнительный язык перевода."
+    },
+    "menuLabel": {
+        "message": "Context menu"
+    },
+    "ifShowMenuLabel": {
+        "message": "Добавить пункты в контекстное меню"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
     },
     "styleLabel": {
         "message": "Стиль"

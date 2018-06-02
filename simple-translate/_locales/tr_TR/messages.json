@@ -5,6 +5,9 @@
     "extDescription": {
         "message": "Web'de gezinirken çevirileri kolayca görüntüleyin."
     },
+    "donateWithPaypalLabel": {
+        "message": "Donate with PayPal"
+    },
     "initialTextArea": {
         "message": "Metin girin"
     },

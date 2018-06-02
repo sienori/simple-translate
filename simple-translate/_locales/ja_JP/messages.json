@@ -5,6 +5,9 @@
     "extDescription": {
         "message": "シンプルな翻訳を表示するアドオンです。"
     },
+    "donateWithPaypalLabel": {
+        "message": "Donate with PayPal"
+    },
     "initialTextArea": {
         "message": "テキストを入力"
     },

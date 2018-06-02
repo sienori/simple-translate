@@ -38,10 +38,12 @@ async function Select(e) {
         clickPosition = e;
         switch (S.get().whenSelectText) {
             case 'showButton':
+                if(selectionWord.length==0) return;
                 popupButton(e);
                 break;
             case 'showPanel':
                 translate(selectionWord, 'auto', S.get().targetLang);
+                if(selectionWord.length==0) return;
                 showPanel(e);
                 break;
             case 'dontShowButton':

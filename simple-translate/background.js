@@ -28,6 +28,12 @@ function showMenu() {
 //メニューを表示
 function menuCreate() {
     browser.contextMenus.create({
+        id: "translatePageOnTab",
+        title: browser.i18n.getMessage("translatePageMenu"),
+        contexts: ["tab"],
+    });
+
+    browser.contextMenus.create({
         id: "translatePage",
         title: browser.i18n.getMessage("translatePageMenu"),
         contexts: ["all"],
@@ -56,6 +62,7 @@ function menuRemove() {
 browser.contextMenus.onClicked.addListener(function (info, tab) {
     switch (info.menuItemId) {
         case "translatePage":
+        case "translatePageOnTab":
             translatePageMenu(info, tab);
             break;
         case "translateText":

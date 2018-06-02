@@ -5,6 +5,9 @@
     "extDescription": {
         "message": "Ver traducciones fácilmente mientras navega por la web."
     },
+    "donateWithPaypalLabel": {
+        "message": "Donate with PayPal"
+    },
     "initialTextArea": {
         "message": "Introducir texto"
     },
@@ -36,37 +39,31 @@
         "message": "Mostrar múltiples candidatos de traducción cuando se una sola palabra es traducida."
     },
     "whenSelectTextLabel": {
-        "message": "Behavior when selecting text"
+        "message": "Comportamiento al seleccionar texto"
     },
     "ifAutoTranslateLabel": {
-        "message": "Display translation panel"
+        "message": "Mostrar el panel de traducción"
     },
     "ifAutoTranslateCaptionLabel": {
-        "message": "Directly display the translation panel without displaying the button."
+        "message": "Visualice directamente el panel de traducción sin mostrar el botón."
     },
     "ifShowButtonLabel": {
-        "message": "Display translation button"
+        "message": "Mostrar el botón de traducción"
     },
     "ifShowButtonCaptionLabel": {
-        "message": "Display the translation button to open the panel when clicked."
+        "message": "Muestre el botón de traducción para abrir el panel al hacer clic."
     },
     "dontshowbuttonlabel": {
-        "message": "Don't display button or panel"
+        "message": "No mostrar el botón o panel"
     },
     "dontshowbuttonCaptionlabel": {
-        "message": "Don't display the translation button or the translation panel."
+        "message": "No muestre el botón de traducción o el panel de traducción."
     },
     "ifCheckLangLabel": {
         "message": "No mostrar el botón si la traducción no es necesaria"
     },
     "ifCheckLangCaptionLabel": {
         "message": "Detecta el idioma del texto seleccionado, y si es el mismo que el idioma de destino, el botón no se muestra."
-    },
-    "ifShowMenuLabel": {
-        "message": "Mostrar el menú contextual"
-    },
-    "ifShowMenuCaptionLabel": {
-        "message": "Agregar elementos al menú contextual que se muestra al hacer clic derecho en la página web."
     },
     "toolbarLabel": {
         "message": "Ventana emergente de la barra de herramientas"
@@ -82,6 +79,15 @@
     },
     "secondTargetLangCaptionLabel": {
         "message": "Seleccione el segundo idioma de destino."
+    },
+    "menuLabel": {
+        "message": "Context menu"
+    },
+    "ifShowMenuLabel": {
+        "message": "Mostrar el menú contextual"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
     },
     "styleLabel": {
         "message": "Estilo"
@@ -140,8 +146,14 @@
     "donationCaptionLabel": {
         "message": "Gracias por usar Simple Translate.<br> Su apoyo será un gran estímulo para continuar el desarrollo del complemento.<br>Si le gusta Simple Translate, me alegraría si pudiera considerar una donación."
     },
+    "amazonTitleLabel": {
+        "message": "amazon.co.jp eGift Cards"
+    },
     "addonPageLabel": {
         "message": "Página de complemento"
+    },
+    "amazonUrl": {
+        "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
     },
     "addonUrl": {
         "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"

@@ -10,7 +10,6 @@ const T = new Translate();
 S.init().then(function (value) {
     defaultTargetLang = value.targetLang;
     secondTargetLang = value.secondTargetLang;
-    ifChangeSecondLang = value.ifChangeSecondLang;
     langList.value = value.targetLang; //リスト初期値をセット
     langList.addEventListener("change", changeLang);
 
@@ -26,7 +25,6 @@ textarea.placeholder = initialText;
 
 let secondTargetLang;
 let defaultTargetLang;
-let ifChangeSecondLang;
 let sourceWord = "";
 
 setLangList();
@@ -157,6 +155,7 @@ function showResult(resultText, candidateText) {
 let changeLangFlag = false;
 
 function changeSecondLang(defaultTargetLang, sourceLang, percentage) {
+    if(!S.get().ifChangeSecondLang) return;
     //検出された翻訳元言語がターゲット言語と一致
     const equalsSourceAndTarget = sourceLang == langList.value && percentage > 0;
 

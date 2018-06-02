@@ -5,6 +5,9 @@
     "extDescription": {
         "message": "浏览互联网时可以轻松查看翻译。"
     },
+    "donateWithPaypalLabel": {
+        "message": "Donate with PayPal"
+    },
     "initialTextArea": {
         "message": "输入文字"
     },

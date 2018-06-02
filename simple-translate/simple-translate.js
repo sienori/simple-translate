@@ -8,57 +8,54 @@ var panel = document.getElementById("simple-translate-panel");
 var selectionWord;
 var clickPosition;
 
-let S = new settingsObj();
+const S = new settingsObj();
+const T = new Translate();
 S.init();
 window.addEventListener("mouseup", Select, false);
 //テキスト選択時の処理 ダブルクリックした時2回処理が走るのを何とかしたい
-function Select(e) {
+async function Select(e) {
     hidePanel(e);
     if (e.target.tagName == "INPUT" && e.target.type == "password") return;
 
-    setTimeout(function () { //誤動作防止の為ディレイを設ける
-        if (e.target.tagName == "INPUT" || e.target.tagName == "TEXTAREA") {
-            selectionWord = e.target.value.substring(e.target.selectionStart, e.target.selectionEnd);
-        } else {
-            selectionWord = String(window.getSelection());
-        }
+    setTimeout(async () => { //誤動作防止の為ディレイを設ける
+        //選択文の取得 テキストフィールド内を選択した場合にも対応
+        const isTextField = (e.target.tagName == "INPUT") || (e.target.tagName == "TEXTAREA");
+        if (isTextField) selectionWord = e.target.value.substring(e.target.selectionStart, e.target.selectionEnd);
+        else selectionWord = String(window.getSelection());
 
-        if ((selectionWord.length !== 0) && (e.button == 0) && (e.target.id !== "simple-translate-panel") && (e.target.parentElement.id !== "simple-translate-panel")) { //選択範囲が存在かつ左クリックかつパネル以外のとき
-            clickPosition = e;
+        //選択文が存在し，パネル外を左クリックした場合は翻訳する
+        const existsSelectionWord = (selectionWord.length !== 0);
+        const isLeftClick = (e.button == 0);
+        const isPanelOutside = (e.target.id !== 'simple-translate-panel') && (e.target.parentElement.id !== 'simple-translate-panel');
+        const shouldTranslate = existsSelectionWord && isLeftClick && isPanelOutside;
+        if (!shouldTranslate) return;
 
-            checkLang().then(function (results) {
-                if (results) {
-                    switch (S.get().whenSelectText) {
-                        case 'showButton':
-                            popupButton(e);
-                            break;
-                        case 'showPanel':
-                            translate();
-                            showPanel(e);
-                            break;
-                        case 'dontShowButton':
-                            break;
-                    }
-                }
-            });
+        //選択した言語が翻訳先言語と異なれば翻訳する
+        const needTranslate = await checkLang(selectionWord, 'auto', S.get().targetLang);
+        if (!needTranslate) return;
+
+        clickPosition = e;
+        switch (S.get().whenSelectText) {
+            case 'showButton':
+                popupButton(e);
+                break;
+            case 'showPanel':
+                translate(selectionWord, 'auto', S.get().targetLang);
+                showPanel(e);
+                break;
+            case 'dontShowButton':
+                break;
         }
     }, 200);
 }
 
 //選択テキストの言語をチェックして返す
-function checkLang() {
-    return new Promise(function (resolve, reject) {
-        if (S.get().ifCheckLang) { //設定がオンなら
-            getRequest(selectionWord.substr(0, 100)) //先頭100文字を抽出して言語を取得
-                .then(function (results) {
-                    let lang = results.response[2];
-                    let percentage = results.response[6];
-                    resolve(lang != S.get().targetLang && percentage > 0); //真偽値を返す
-                });
-        } else { //設定がオフならtrueを返す
-            resolve(true);
-        }
-    })
+async function checkLang(sourceWord, sourceLang, targetLang) {
+    if (!S.get().ifCheckLang) return true; //設定がオフならtrue
+
+    const resultData = await T.translate(sourceWord, sourceLang, targetLang);
+    const needTranslate = (S.get().targetLang != resultData.sourceLanguage) && (resultData.percentage > 0);
+    return needTranslate; //ターゲットとソースの言語が不一致ならtrue
 }
 
 //ボタンを表示
@@ -89,71 +86,28 @@ function popupButton(e) {
     button.style.display = 'block';
 }
 button.addEventListener("click", function (e) {
-    translate();
+    translate(selectionWord, 'auto', S.get().targetLang);
     showPanel(e);
 }, false);
 
-//改行で分割してgetRequestに渡す
-function translate() {
-    promises = [];
-    sourceLine = selectionWord.split("\n");
-    for (i = 0; i < sourceLine.length; i++) {
-        promises.push(getRequest(sourceLine[i]));
-    }
-    Promise.all(promises)
-        .then(function (results) {
-            showResult(results); //翻訳結果が帰ってきたらshowResult
-        });
-}
-
-//翻訳リクエストを送信，取得して返す
-function getRequest(word) {
-    return new Promise(function (resolve, reject) {
-        let xhr = new XMLHttpRequest();
-        xhr.responseType = 'json';
-        let url = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=" + S.get().targetLang + "&dt=t&dt=bd&q=" + encodeURIComponent(word);
-        xhr.open("GET", url);
-        xhr.send();
-        xhr.onload = function () {
-            resolve(xhr);
-        };
-    })
-}
-
-//翻訳結果を表示
-function showResult(results) {
-    panel.innerText = "";
-    let resultText = "";
-    let candidateText = "";
-    let wordsCount = 0;
-    let lineCount = 0;
-
-    for (let j = 0; j < results.length; j++) {
-        lineCount++;
-        for (let i = 0; i < results[j].response[0].length; i++) {
-            resultText += results[j].response[0][i][0];
-        }
-        resultText += "\n";
-
-        if (results[j].response[1]) {
-            wordsCount++;
-            for (let i = 0; i < results[j].response[1].length; i++) {
-                const partsOfSpeech = results[j].response[1][i][0];
-                const candidates = results[j].response[1][i][1];
-                candidateText += `\n${partsOfSpeech}${partsOfSpeech!="" ? ": " : ""}${candidates.join(", ")}`;
-            }
-        }
-    }
-    panel.innerHTML = "<p class=result></p><p class=candidate>"
-    panel.getElementsByClassName("result")[0].innerText = resultText;
-    if (S.get().ifShowCandidate && wordsCount == 1 && lineCount == 1) panel.getElementsByClassName("candidate")[0].innerText = candidateText;
+async function translate(sourceWord, sourceLang, targetLang) {
+    const resultData = await T.translate(sourceWord, sourceLang, targetLang);
+    showResult(resultData.resultText, resultData.candidateText);
     panelPosition(clickPosition);
+}
 
+function showResult(resultText, candidateText) {
+    panel.innerHTML = '<p class=result></p><p class=candidate>';
+    const resultArea = panel.getElementsByClassName("result")[0];
+    const candidateArea = panel.getElementsByClassName("candidate")[0];
+
+    resultArea.innerText = resultText;
+    if (S.get().ifShowCandidate) candidateArea.innerText = candidateText;
 }
 
 //パネル表示
 function showPanel(e) {
-    clickPosition = e;
+    clickPosition=e;
     panel.style.display = 'block';
     panelPosition(e);
 }
@@ -219,6 +173,6 @@ function sendToPopup() {
 //コンテキストメニュークリックでパネルを表示
 function showPanelFromMenu() {
     button.style.display = "none";
-    translate();
+    translate(selectionWord, 'auto', S.get().targetLang);
     showPanel(clickPosition);
 }

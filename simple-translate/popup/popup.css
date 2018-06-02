@@ -97,6 +97,10 @@ hr {
 
 #target .candidate {
     color: var(--sub-text);
+    margin-top:1em;
+}
+#target .candidate:empty {
+    margin-top:0;
 }
 
 #footer {

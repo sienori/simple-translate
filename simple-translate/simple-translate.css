@@ -65,6 +65,11 @@
 
 #simple-translate-panel .candidate {
     color: var(--simple-translate-sub-text);
+    margin-top:1em;
+}
+
+#simple-translate-panel .candidate:empty {
+    margin-top:0;
 }
 
 @keyframes simple-translate-showButton {

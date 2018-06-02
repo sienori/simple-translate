@@ -52,6 +52,7 @@ setTitles();
 function setTitles(){
     document.getElementById('donate').title = browser.i18n.getMessage('donateWithPaypalLabel');
     document.getElementById("setting").title = browser.i18n.getMessage('settingsLabel');
+    document.getElementById("langList").title = browser.i18n.getMessage('targetLangLabel');
 }
 
 function alphabeticallySort(a, b) {

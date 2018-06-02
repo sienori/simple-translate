@@ -65,12 +65,6 @@
     "ifCheckLangCaptionLabel": {
         "message": "Erkennt die Sprache des ausgewählten Textes und zeigt den Übersetzen-Knopf nicht an, wenn der Text bereits in der Zielsprache ist."
     },
-    "ifShowMenuLabel": {
-        "message": "Kontextmenü anzeigen"
-    },
-    "ifShowMenuCaptionLabel": {
-        "message": "Einträge zum Kontextmenü hinzufügen, welche angezeigt werden, wenn man mit der rechten Maustaste auf eine Webseite klickt."
-    },
     "toolbarLabel": {
         "message": "Werkzeugleistenfenster"
     },
@@ -85,6 +79,15 @@
     },
     "secondTargetLangCaptionLabel": {
         "message": "Zweitsprache wählen."
+    },
+    "menuLabel": {
+        "message": "Context menu"
+    },
+    "ifShowMenuLabel": {
+        "message": "Kontextmenü anzeigen"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
     },
     "styleLabel": {
         "message": "Erscheinungsbild"

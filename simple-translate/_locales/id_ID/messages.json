@@ -65,12 +65,6 @@
     "ifCheckLangCaptionLabel": {
         "message": "Mendeteksi bahasa teks yang dipilih, dan jika itu adalah sama dengan bahasa target, tombol tidak ditampilkan."
     },
-    "ifShowMenuLabel": {
-        "message": "Menampilkan menu konteks"
-    },
-    "ifShowMenuCaptionLabel": {
-        "message": "Menambahkan item ke menu konteks yang ditampilkan bila mengklik kanan pada halaman web."
-    },
     "toolbarLabel": {
         "message": "Toolbar pengaya"
     },
@@ -85,6 +79,15 @@
     },
     "secondTargetLangCaptionLabel": {
         "message": "Pilih bahasa target yang kedua."
+    },
+    "menuLabel": {
+        "message": "Context menu"
+    },
+    "ifShowMenuLabel": {
+        "message": "Menampilkan menu konteks"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
     },
     "styleLabel": {
         "message": "Gaya"

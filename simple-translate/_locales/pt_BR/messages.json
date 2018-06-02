@@ -5,6 +5,9 @@
     "extDescription": {
         "message": "Veja as traduções facilmente à medida que você navega na web."
     },
+    "donateWithPaypalLabel": {
+        "message": "Donate with PayPal"
+    },
     "initialTextArea": {
         "message": "Digite o texto"
     },
@@ -36,37 +39,31 @@
         "message": "Mostrar várias traduções candidatas quando uma única palavra é traduzida."
     },
     "whenSelectTextLabel": {
-        "message": "Behavior when selecting text"
+        "message": "Comportamento ao selecionar texto"
     },
     "ifAutoTranslateLabel": {
-        "message": "Display translation panel"
+        "message": "Exibir o painel de tradução"
     },
     "ifAutoTranslateCaptionLabel": {
-        "message": "Directly display the translation panel without displaying the button."
+        "message": "Exibir o painel de tradução diretamente sem exibir o botão."
     },
     "ifShowButtonLabel": {
-        "message": "Display translation button"
+        "message": "Exibir o botão de tradução"
     },
     "ifShowButtonCaptionLabel": {
-        "message": "Display the translation button to open the panel when clicked."
+        "message": "Exibir o botão de tradução para abrir o painel quando clicado."
     },
     "dontshowbuttonlabel": {
-        "message": "Don't display button or panel"
+        "message": "Não exibir o botão ou o painel"
     },
     "dontshowbuttonCaptionlabel": {
-        "message": "Don't display the translation button or the translation panel."
+        "message": "Não exibir o botão de tradução ou o painel de tradução."
     },
     "ifCheckLangLabel": {
         "message": "Não mostrar o botão se a tradução não for necessária"
     },
     "ifCheckLangCaptionLabel": {
         "message": "Detecta o idioma do texto selecionado e, se for o mesmo que o idioma alvo, o botão não é exibido."
-    },
-    "ifShowMenuLabel": {
-        "message": "Exibir menu de contexto"
-    },
-    "ifShowMenuCaptionLabel": {
-        "message": "Adicionar itens ao menu de contexto apresentado quando clicar com o botão direito do mouse na página web."
     },
     "toolbarLabel": {
         "message": "Barra de ferramentas"
@@ -83,6 +80,15 @@
     "secondTargetLangCaptionLabel": {
         "message": "Selecione o segundo idioma alvo."
     },
+    "menuLabel": {
+        "message": "Context menu"
+    },
+    "ifShowMenuLabel": {
+        "message": "Exibir o menu de contexto"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+    },
     "styleLabel": {
         "message": "Estilo"
     },
@@ -90,13 +96,13 @@
         "message": "Botão de tradução"
     },
     "buttonStyleCaptionLabel": {
-        "message": "Especifique o estilo do botão de tradução apresentado na página web."
+        "message": "Especifique o estilo do botão de tradução exibido na página web."
     },
     "buttonSizeLabel": {
         "message": "Tamanho"
     },
     "buttonPositionLabel": {
-        "message": "Posição de apresentação"
+        "message": "Posição de exibição"
     },
     "rightUpLabel": {
         "message": "Canto superior direito"
@@ -114,7 +120,7 @@
         "message": "Painel de tradução"
     },
     "panelStyleCaptionLabel": {
-        "message": "Especifique o estilo do painel de tradução apresentado na página web."
+        "message": "Especifique o estilo do painel de tradução exibido na página web."
     },
     "widthLabel": {
         "message": "Largura"
@@ -135,13 +141,19 @@
         "message": "Licença"
     },
     "donationLabel": {
-        "message": "Por favor, faça uma doaçao"
+        "message": "Por favor, faça uma doação"
     },
     "donationCaptionLabel": {
         "message": "Obrigado por usar o Simple Translate.<br>O seu apoio será um grande incentivo, à medida que continuarmos desenvolvendo a extensão.<br>Se você gosta do Simple Translate, ficaríamos satisfeitos se você pudesse considerar uma doação."
     },
+    "amazonTitleLabel": {
+        "message": "amazon.co.jp eGift Cards"
+    },
     "addonPageLabel": {
         "message": "Página da extensão"
+    },
+    "amazonUrl": {
+        "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
     },
     "addonUrl": {
         "message": "https:\/\/addons.mozilla.org\/pt-BR\/firefox\/addon\/simple-translate\/?src=optionpage"

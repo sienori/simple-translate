@@ -47,7 +47,7 @@ async function Select(e) {
             case 'dontShowButton':
                 break;
         }
-    }, 200);
+    }, 0);
 }
 
 //選択テキストの言語をチェックして返す

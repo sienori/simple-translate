@@ -5,6 +5,9 @@
     "extDescription": {
         "message": "Μετέφρασε εύκολα κείμενο ή ολόκληρη ιστοσελίδα καθώς περιηγείσαι στο διαδίκτυο."
     },
+    "donateWithPaypalLabel": {
+        "message": "Donate with PayPal"
+    },
     "initialTextArea": {
         "message": "Εισαγωγή κειμένου"
     },

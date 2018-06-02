@@ -65,12 +65,6 @@
     "ifCheckLangCaptionLabel": {
         "message": "Открива езика на избрания текст, и ако той съвпада с целевия език, бутонът не се показва."
     },
-    "ifShowMenuLabel": {
-        "message": "Показване на контекстното меню"
-    },
-    "ifShowMenuCaptionLabel": {
-        "message": "Добавя елементи към контекстното меню, което се показва, когато щракнете с десния бутон на мишката върху уеб страницата."
-    },
     "toolbarLabel": {
         "message": "Прозорец от лентата с инструменти"
     },
@@ -85,6 +79,15 @@
     },
     "secondTargetLangCaptionLabel": {
         "message": "Изберете втория целеви език."
+    },
+    "menuLabel": {
+        "message": "Context menu"
+    },
+    "ifShowMenuLabel": {
+        "message": "Показване на контекстното меню"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
     },
     "styleLabel": {
         "message": "Стил"

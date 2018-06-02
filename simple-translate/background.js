@@ -13,6 +13,7 @@ browser.runtime.onInstalled.addListener(function () {
 
 let S = new settingsObj()
 browser.storage.onChanged.addListener(showMenu);
+if (typeof (browser.contextMenus.onShown) != 'undefined') browser.contextMenus.onShown.addListener(updateMenu);
 
 S.init().then(function () {
     showMenu();
@@ -23,6 +24,16 @@ function showMenu() {
         menuRemove();
         menuCreate();
     } else menuRemove();
+}
+
+//テキストまたはリンクの選択時はページ翻訳を非表示にする
+function updateMenu(info, tab) {
+    if (info.contexts.includes('selection') || info.contexts.includes('link')) {
+        browser.contextMenus.update('translatePage', { contexts: ['password'] }); //passwordにすることで事実上無効にする
+    } else {
+        browser.contextMenus.update('translatePage', { contexts: ['all'] });
+    }
+    browser.contextMenus.refresh();
 }
 
 //メニューを表示

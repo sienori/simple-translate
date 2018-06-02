@@ -5,6 +5,9 @@
     "extDescription": {
         "message": "View translations easily as you browse the web."
     },
+    "donateWithPaypalLabel": {
+        "message": "Donate with PayPal"
+    },
     "initialTextArea": {
         "message": "Zadejte text"
     },
@@ -62,12 +65,6 @@
     "ifCheckLangCaptionLabel": {
         "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
     },
-    "ifShowMenuLabel": {
-        "message": "Zobrazit kontextovou nabídku"
-    },
-    "ifShowMenuCaptionLabel": {
-        "message": "Add items to the context menu displayed when right clicking on the web page."
-    },
     "toolbarLabel": {
         "message": "Toolbar popup"
     },
@@ -82,6 +79,15 @@
     },
     "secondTargetLangCaptionLabel": {
         "message": "Select the second target language."
+    },
+    "menuLabel": {
+        "message": "Context menu"
+    },
+    "ifShowMenuLabel": {
+        "message": "Zobrazit kontextovou nabídku"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
     },
     "styleLabel": {
         "message": "Styl"
@@ -140,8 +146,14 @@
     "donationCaptionLabel": {
         "message": "Děkujeme, že používáte Simple Translate.<br>Vaše podpora je pro nás velkou motivací pro pokračování ve vývoji.<br>Pokud se vám Simple Translate líbí, budeme moc rádi pokud nám na jeho vývoj přispějete."
     },
+    "amazonTitleLabel": {
+        "message": "amazon.co.jp eGift Cards"
+    },
     "addonPageLabel": {
         "message": "Add-on page"
+    },
+    "amazonUrl": {
+        "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
     },
     "addonUrl": {
         "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"

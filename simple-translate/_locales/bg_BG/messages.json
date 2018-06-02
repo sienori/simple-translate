@@ -5,6 +5,9 @@
     "extDescription": {
         "message": "Прегледът на преводите е лесен както сърфирате в мрежата."
     },
+    "donateWithPaypalLabel": {
+        "message": "Donate with PayPal"
+    },
     "initialTextArea": {
         "message": "Въведете текст"
     },

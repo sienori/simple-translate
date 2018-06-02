@@ -6,7 +6,7 @@
         "message": "シンプルな翻訳を表示するアドオンです。"
     },
     "donateWithPaypalLabel": {
-        "message": "Donate with PayPal"
+        "message": "PayPalで寄付"
     },
     "initialTextArea": {
         "message": "テキストを入力"
@@ -81,13 +81,13 @@
         "message": "第二言語を指定します。"
     },
     "menuLabel": {
-        "message": "Context menu"
+        "message": "コンテキストメニュー"
     },
     "ifShowMenuLabel": {
         "message": "コンテキストメニューを表示する"
     },
     "ifShowMenuCaptionLabel": {
-        "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+        "message": "ページやタブ上で右クリックした時に表示されるコンテキストメニューに項目を追加します。"
     },
     "styleLabel": {
         "message": "スタイル"

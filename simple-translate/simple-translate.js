@@ -177,6 +177,13 @@ function sendToPopup() {
 //コンテキストメニュークリックでパネルを表示
 function showPanelFromMenu() {
     button.style.display = "none";
+    
+    //キャレットブラウズモードに対応
+    const isTextField = (document.activeElement.tagName == "INPUT") || (document.activeElement.tagName == "TEXTAREA");
+    if (isTextField) selectionWord = document.activeElement.value.substring(document.activeElement.selectionStart, document.activeElement.selectionEnd);
+    else selectionWord = String(window.getSelection());
+    if (typeof (clickPosition) == 'undefined') clickPosition = { 'clientX': 0, 'clientY': 0 }
+
     translate(selectionWord, 'auto', S.get().targetLang);
     showPanel(clickPosition);
 }

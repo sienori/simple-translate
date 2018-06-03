@@ -51,7 +51,7 @@
             "all_frames":true,
             "matches": ["http://*/*", "https://*/*", "<all_urls>"],
             "css": ["simple-translate.css"],
-            "js": ["Settings.js", "Translate.js", "simple-translate.js"]
+            "js": ["Settings.js", "translate.js", "simple-translate.js"]
         }
     ]
 }

@@ -81,13 +81,13 @@
         "message": "Selecione o segundo idioma alvo."
     },
     "menuLabel": {
-        "message": "Context menu"
+        "message": "Menu de Contexto"
     },
     "ifShowMenuLabel": {
         "message": "Exibir o menu de contexto"
     },
     "ifShowMenuCaptionLabel": {
-        "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+        "message": "Adicionar itens ao menu de contexto exibido quando clicar com o botão direito do mouse na página web ou na guia."
     },
     "styleLabel": {
         "message": "Estilo"

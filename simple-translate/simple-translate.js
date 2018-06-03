@@ -125,6 +125,11 @@ function hidePanel(e) {
     }
 }
 
+//Esc押下でパネルを閉じる
+document.addEventListener('keydown', (e) => {
+    if (e.key == 'Escape') hidePanel(e);
+})
+
 //パネルがウィンドウ外にはみ出る時に位置を調整
 function panelPosition(e) {
     var p = new Object();

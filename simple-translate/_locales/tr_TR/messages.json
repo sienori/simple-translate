@@ -6,7 +6,7 @@
         "message": "Web'de gezinirken çevirileri kolayca görüntüleyin."
     },
     "donateWithPaypalLabel": {
-        "message": "Donate with PayPal"
+        "message": "PayPal ile bağış"
     },
     "initialTextArea": {
         "message": "Metin girin"
@@ -39,22 +39,22 @@
         "message": "Tek bir kelime çevrildiğinde çoklu çeviri önerilerini göster."
     },
     "whenSelectTextLabel": {
-        "message": "Behavior when selecting text"
+        "message": "Metin seçerken davranış"
     },
     "ifAutoTranslateLabel": {
-        "message": "Display translation panel"
+        "message": "Görüntü çeviri paneli"
     },
     "ifAutoTranslateCaptionLabel": {
         "message": "Directly display the translation panel without displaying the button."
     },
     "ifShowButtonLabel": {
-        "message": "Display translation button"
+        "message": "Görüntü çeviri düğmesini"
     },
     "ifShowButtonCaptionLabel": {
         "message": "Display the translation button to open the panel when clicked."
     },
     "dontshowbuttonlabel": {
-        "message": "Don't display button or panel"
+        "message": "Düğmesini veya panelini görüntüleme"
     },
     "dontshowbuttonCaptionlabel": {
         "message": "Don't display the translation button or the translation panel."
@@ -81,7 +81,7 @@
         "message": "İkinci hedef dilini seçin."
     },
     "menuLabel": {
-        "message": "Context menu"
+        "message": "Bağlam Menüsü"
     },
     "ifShowMenuLabel": {
         "message": "İçerik menüsünü görüntüle"

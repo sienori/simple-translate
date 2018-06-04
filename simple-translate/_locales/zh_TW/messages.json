@@ -87,7 +87,7 @@
         "message": "於右鍵選單中顯示"
     },
     "ifShowMenuCaptionLabel": {
-        "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+        "message": "將翻譯功能新增至右鍵選單。"
     },
     "styleLabel": {
         "message": "樣式"

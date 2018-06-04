@@ -6,7 +6,7 @@
         "message": "عرض الترجمات بسهولة اثناء تصفح الويب."
     },
     "donateWithPaypalLabel": {
-        "message": "Donate with PayPal"
+        "message": "تبرع بواسطة PayPal"
     },
     "initialTextArea": {
         "message": "أادخل النص"
@@ -66,16 +66,16 @@
         "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
     },
     "toolbarLabel": {
-        "message": "Toolbar popup"
+        "message": "شريط أدوات منبثق"
     },
     "ifChangeSecondLangLabel": {
-        "message": "Automatically switch to the second language"
+        "message": "التبديل تلقائياً إلى اللغة الثانية"
     },
     "ifChangeSecondLangCaptionLabel": {
-        "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+        "message": "تحديد لغة النص المدخل، وإذا كان نفس اللغة المستهدفة الافتراضية، ترجمها إلى اللغة الثانية."
     },
     "secondTargetLangLabel": {
-        "message": "Second language"
+        "message": "اللغة الثانية"
     },
     "secondTargetLangCaptionLabel": {
         "message": "Select the second target language."
@@ -102,7 +102,7 @@
         "message": "الحجم"
     },
     "buttonPositionLabel": {
-        "message": "Display position"
+        "message": "مكان العرض"
     },
     "rightUpLabel": {
         "message": "أعلى اليمين"
@@ -147,7 +147,7 @@
         "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
     },
     "amazonTitleLabel": {
-        "message": "amazon.co.jp eGift Cards"
+        "message": "كروت هدية من amazon.co.jp"
     },
     "addonPageLabel": {
         "message": "صفحة الاضافة"

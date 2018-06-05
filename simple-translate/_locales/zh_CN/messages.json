@@ -6,7 +6,7 @@
         "message": "浏览互联网时可以轻松查看翻译。"
     },
     "donateWithPaypalLabel": {
-        "message": "Donate with PayPal"
+        "message": "使用PayPal 捐赠"
     },
     "initialTextArea": {
         "message": "输入文字"
@@ -81,13 +81,13 @@
         "message": "选择第二种目标语言。"
     },
     "menuLabel": {
-        "message": "Context menu"
+        "message": "右键菜单"
     },
     "ifShowMenuLabel": {
         "message": "显示上下文菜单"
     },
     "ifShowMenuCaptionLabel": {
-        "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+        "message": "在网页或者标签页上右击时，将项目添加到显示的上下文菜单中。"
     },
     "styleLabel": {
         "message": "样式"

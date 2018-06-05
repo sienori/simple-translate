@@ -147,13 +147,13 @@
         "message": "感谢您使用Simple Translate！<br>您的支持会是我继续开发此款附加组件的动力。<br>如果您喜欢Simple Translate，希望您可以考虑捐助。"
     },
     "amazonTitleLabel": {
-        "message": "amazon.co.jp eGift Cards"
+        "message": "amazon.co.jp 电子礼品卡"
     },
     "addonPageLabel": {
         "message": "附加组件页面"
     },
     "amazonUrl": {
-        "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
+        "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=zh_CN\n"
     },
     "addonUrl": {
         "message": "https:\/\/addons.mozilla.org\/zh-CN\/firefox\/addon\/simple-translate\/?src=optionpage"

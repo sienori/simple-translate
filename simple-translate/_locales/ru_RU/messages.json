@@ -87,7 +87,7 @@
         "message": "Добавить пункты в контекстное меню"
     },
     "ifShowMenuCaptionLabel": {
-        "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+        "message": "Добавить команды перевода в контекстное меню веб-страницы и контекстное меню вкладки."
     },
     "styleLabel": {
         "message": "Стиль"

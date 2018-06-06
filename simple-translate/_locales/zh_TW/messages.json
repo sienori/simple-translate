@@ -36,7 +36,7 @@
         "message": "顯示候選翻譯"
     },
     "ifShowCandidateCaptionLabel": {
-        "message": "翻譯單詞時顯示多個候選翻譯。"
+        "message": "翻譯單字時顯示多個候選翻譯。"
     },
     "whenSelectTextLabel": {
         "message": "選擇文字時的行為"

@@ -6,7 +6,7 @@
         "message": "Простое расширение для быстрого перевода выделенного текста или всей страницы."
     },
     "donateWithPaypalLabel": {
-        "message": "Donate with PayPal"
+        "message": "Сделать пожертвование через PayPal"
     },
     "initialTextArea": {
         "message": "Введите текст"
@@ -81,13 +81,13 @@
         "message": "Выберите дополнительный язык перевода."
     },
     "menuLabel": {
-        "message": "Context menu"
+        "message": "Контекстное меню"
     },
     "ifShowMenuLabel": {
         "message": "Добавить пункты в контекстное меню"
     },
     "ifShowMenuCaptionLabel": {
-        "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+        "message": "Добавить команды перевода в контекстное меню веб-страницы и контекстное меню вкладки."
     },
     "styleLabel": {
         "message": "Стиль"

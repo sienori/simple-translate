@@ -6,7 +6,7 @@
         "message": "瀏覽網際網路時可以輕鬆檢視翻譯。"
     },
     "donateWithPaypalLabel": {
-        "message": "Donate with PayPal"
+        "message": "透過 PayPal 進行贊助"
     },
     "initialTextArea": {
         "message": "輸入文字"
@@ -36,7 +36,7 @@
         "message": "顯示候選翻譯"
     },
     "ifShowCandidateCaptionLabel": {
-        "message": "翻譯單詞時顯示多個候選翻譯。"
+        "message": "翻譯單字時顯示多個候選翻譯。"
     },
     "whenSelectTextLabel": {
         "message": "選擇文字時的行為"
@@ -81,13 +81,13 @@
         "message": "選擇第二個目標語言。"
     },
     "menuLabel": {
-        "message": "Context menu"
+        "message": "右鍵選單"
     },
     "ifShowMenuLabel": {
         "message": "於右鍵選單中顯示"
     },
     "ifShowMenuCaptionLabel": {
-        "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+        "message": "將翻譯功能新增至右鍵選單。"
     },
     "styleLabel": {
         "message": "樣式"
@@ -147,13 +147,13 @@
         "message": "感謝您使用 Simple Translate。<br>您的支持是我繼續開發這個附加元件的動力。<br>如果您喜歡 Simple Translate，希望您可以贊助我。"
     },
     "amazonTitleLabel": {
-        "message": "amazon.co.jp eGift Cards"
+        "message": "贊助我 amazon 電子禮品卡"
     },
     "addonPageLabel": {
         "message": "AMO 附加元件頁面"
     },
     "amazonUrl": {
-        "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
+        "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=zh_CN"
     },
     "addonUrl": {
         "message": "https:\/\/addons.mozilla.org\/zh-TW\/firefox\/addon\/simple-translate\/?src=optionpage"

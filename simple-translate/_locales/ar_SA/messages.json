@@ -6,7 +6,7 @@
         "message": "عرض الترجمات بسهولة اثناء تصفح الويب."
     },
     "donateWithPaypalLabel": {
-        "message": "Donate with PayPal"
+        "message": "تبرع بواسطة PayPal"
     },
     "initialTextArea": {
         "message": "أادخل النص"
@@ -18,7 +18,7 @@
         "message": "اللغة الهدف"
     },
     "langList": {
-        "message": "af:Afrikaans, sq:Albanian, am:Amharic, ar:Arabic, hy:Armenian, az:Azerbaijani, eu:Basque, be:Belarusian, bn:Bengali, bs:Bosnian, bg:Bulgarian, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Chinese (PRC), zh-TW:Chinese (Taiwan), co:Corsican, hr:Croatian, cs:Czech, da:Danish, nl:Dutch, en:English, eo:Esperanto, et:Estonian, fi:Finnish, fr:French, fy:Frisian, gl:Galician, ka:Georgian, de:German, el:Greek, gu:Gujarati, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesian, ga:Irish, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Korean, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:Macedonian, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persian, pl:Polish, pt:Portuguese, pa:Punjabi, ps:Pushto, ro:Romanian, ru:Russian, sm:Samoan, gd:Scottish Gaelic, sr:Serbian, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovak, sl:Slovenian, so:Somali, sx:Sotho, es:Spanish, su:Sundanese, sw:Swahili, sv:Swedish, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turkish, uk:Ukrainian, ur:Urdu, uz:Uzbek, vi:Vietnamese, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
+        "message": "af:الأفريكانية, sq:الألبانية, am:الأمهرية, ar:عربى, hy:الأرميني, az:أذربيجان, eu:الباسكي, be:البيلاروسية, bn:بنغالي, bs:البوسنية, bg:البلغارية, ca:الكاتالونية, ceb:السيبيونو, ny:الشيوا, zh-CN:صينى (PRC), zh-TW:صينى (تايوان), co:الكورسيكية, hr:الكرواتية, cs:تشيكي, da:Danish, nl:هولندي, en:الإنجليزية, eo:Esperanto, et:Estonian, fi:Finnish, fr:French, fy:Frisian, gl:Galician, ka:الجورجية, de:ألمانية, el:الإغريقي, gu:الغوجاراتية, ht:Haitian, ha:الهوسا, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesian, ga:Irish, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Korean, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:المقدونية, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persian, pl:Polish, pt:Portuguese, pa:Punjabi, ps:Pushto, ro:Romanian, ru:Russian, sm:Samoan, gd:Scottish Gaelic, sr:Serbian, sn:Shona, sd:السندية, si:السنهالية, sk:السلوفاكية, sl:سلوفيني, so:الصومالية, sx:السوتو, es:الأسبانية, su:السودانية, sw:السواحلية, sv:السويدية, tl:التغالوغ, tg:طاجيكي, ta:التاميل, te:التيلجو, th:التايلاندية, tr:التركية, uk:الأوكراني, ur:الأردية, uz:الأوزبكي, vi:الفيتنامية, cy:الولزية, xh:Xosa, yi:اليديشية, yo:اليوروبا, zu:الزولو"
     },
     "settingsLabel": {
         "message": "الإعدادت"
@@ -51,43 +51,43 @@
         "message": "عرض زر الترجمة"
     },
     "ifShowButtonCaptionLabel": {
-        "message": "عرض زر الترجمة لفتح اللوحة عند ضخط عليها."
+        "message": "عرض زر الترجمة لفتح اللوحة عند الضغط عليها."
     },
     "dontshowbuttonlabel": {
         "message": "لا تعرض الزر او اللوحة"
     },
     "dontshowbuttonCaptionlabel": {
-        "message": "Don't display the translation button or the translation panel."
+        "message": "لا تظهر زر الترجمة أو لوحة الترجمة."
     },
     "ifCheckLangLabel": {
-        "message": "Do not display the button if translation is not required"
+        "message": "لا تظهر الزر اذا كانت الترجمة غير مطلوبة"
     },
     "ifCheckLangCaptionLabel": {
-        "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+        "message": "تحديد لغة النص المحدد, واذا كان نفس اللغة الهدف, لن يظهر زر الترجمة."
     },
     "toolbarLabel": {
-        "message": "Toolbar popup"
+        "message": "شريط أدوات منبثق"
     },
     "ifChangeSecondLangLabel": {
-        "message": "Automatically switch to the second language"
+        "message": "التبديل تلقائياً إلى اللغة الثانية"
     },
     "ifChangeSecondLangCaptionLabel": {
-        "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+        "message": "تحديد لغة النص المدخل، وإذا كان نفس اللغة المستهدفة الافتراضية، ترجمها إلى اللغة الثانية."
     },
     "secondTargetLangLabel": {
-        "message": "Second language"
+        "message": "اللغة الثانية"
     },
     "secondTargetLangCaptionLabel": {
-        "message": "Select the second target language."
+        "message": "أخر لغة الهدف الثانية."
     },
     "menuLabel": {
-        "message": "Context menu"
+        "message": "قائمة السياق"
     },
     "ifShowMenuLabel": {
-        "message": "Display the context menu"
+        "message": "اظهار ايقونة قائمة السياق"
     },
     "ifShowMenuCaptionLabel": {
-        "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+        "message": "إضافة العناصر الى القائمة التي تظهر عند الضغط بزر الفأرة الإيمن على صفحات الويب او علامة التبويب."
     },
     "styleLabel": {
         "message": "نمط"
@@ -96,13 +96,13 @@
         "message": "زر الترجمة"
     },
     "buttonStyleCaptionLabel": {
-        "message": "Specify the style of the translation button displayed on the web page."
+        "message": "إختيار تنسيق لوحة الترجمة التي تظهر على المواقع."
     },
     "buttonSizeLabel": {
         "message": "الحجم"
     },
     "buttonPositionLabel": {
-        "message": "Display position"
+        "message": "مكان العرض"
     },
     "rightUpLabel": {
         "message": "أعلى اليمين"
@@ -120,7 +120,7 @@
         "message": "لوحة الترجمة"
     },
     "panelStyleCaptionLabel": {
-        "message": "Specify the style of the translation panel displayed on the web page."
+        "message": "إختيار تنسيق لوحة الترجمة التي تظهر على المواقع."
     },
     "widthLabel": {
         "message": "عرض"
@@ -144,10 +144,10 @@
         "message": "الرجاء تقديم تبرع"
     },
     "donationCaptionLabel": {
-        "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+        "message": "شكرا لك لاستخدامك Tab Session Manager.<br> دعمك سوف يكون تشجيع كبير،كما أني اواصل تطوير الخصائص الإضافية.<br>إذا أعجبك Tab Session Manager، سوف أكون مسرورا إذا قدمت تبرعات."
     },
     "amazonTitleLabel": {
-        "message": "amazon.co.jp eGift Cards"
+        "message": "كروت هدية من amazon.co.jp"
     },
     "addonPageLabel": {
         "message": "صفحة الاضافة"

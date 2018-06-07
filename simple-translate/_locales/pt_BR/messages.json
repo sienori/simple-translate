@@ -6,7 +6,7 @@
         "message": "Veja as traduções facilmente à medida que você navega na web."
     },
     "donateWithPaypalLabel": {
-        "message": "Donate with PayPal"
+        "message": "Doe com PayPal"
     },
     "initialTextArea": {
         "message": "Digite o texto"
@@ -81,13 +81,13 @@
         "message": "Selecione o segundo idioma alvo."
     },
     "menuLabel": {
-        "message": "Context menu"
+        "message": "Menu de Contexto"
     },
     "ifShowMenuLabel": {
         "message": "Exibir o menu de contexto"
     },
     "ifShowMenuCaptionLabel": {
-        "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+        "message": "Adicionar itens ao menu de contexto exibido quando clicar com o botão direito do mouse na página web ou na guia."
     },
     "styleLabel": {
         "message": "Estilo"
@@ -147,13 +147,13 @@
         "message": "Obrigado por usar o Simple Translate.<br>O seu apoio será um grande incentivo, à medida que continuarmos desenvolvendo a extensão.<br>Se você gosta do Simple Translate, ficaríamos satisfeitos se você pudesse considerar uma doação."
     },
     "amazonTitleLabel": {
-        "message": "amazon.co.jp eGift Cards"
+        "message": "Cartões de presentes da Amazon.co.jp"
     },
     "addonPageLabel": {
         "message": "Página da extensão"
     },
     "amazonUrl": {
-        "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
+        "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=pt_BR"
     },
     "addonUrl": {
         "message": "https:\/\/addons.mozilla.org\/pt-BR\/firefox\/addon\/simple-translate\/?src=optionpage"

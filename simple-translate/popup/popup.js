@@ -91,7 +91,7 @@ function getSelectionWord(tabs) {
             url = response.url;
             refleshSource();
             showLink();
-        });
+        }).catch(()=>{});
     }
 }
 

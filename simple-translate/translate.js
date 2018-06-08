@@ -64,8 +64,9 @@ class Translate {
 
             //翻訳文を取得
             for (const response of result.response[0]) {
-                resultData.resultText += `${response[0]}\n`;
+                resultData.resultText += response[0];
             }
+            resultData.resultText += '\n';
 
             //訳候補を取得
             if (result.response[1]) {

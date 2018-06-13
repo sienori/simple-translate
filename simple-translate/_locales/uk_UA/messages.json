@@ -39,16 +39,16 @@
         "message": "Show multiple translation candidates when a single word is translated."
     },
     "whenSelectTextLabel": {
-        "message": "Behavior when selecting text"
+        "message": "Коли виділено текст"
     },
     "ifAutoTranslateLabel": {
-        "message": "Display translation panel"
+        "message": "Показати панель перекладу"
     },
     "ifAutoTranslateCaptionLabel": {
         "message": "Directly display the translation panel without displaying the button."
     },
     "ifShowButtonLabel": {
-        "message": "Display translation button"
+        "message": "Показати кнопку перекладу"
     },
     "ifShowButtonCaptionLabel": {
         "message": "Display the translation button to open the panel when clicked."
@@ -60,7 +60,7 @@
         "message": "Don't display the translation button or the translation panel."
     },
     "ifCheckLangLabel": {
-        "message": "Do not display the button if translation is not required"
+        "message": "Не показувати кнопку, якщо переклад не обов'язковий"
     },
     "ifCheckLangCaptionLabel": {
         "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
@@ -75,7 +75,7 @@
         "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
     },
     "secondTargetLangLabel": {
-        "message": "Second language"
+        "message": "Друга мова"
     },
     "secondTargetLangCaptionLabel": {
         "message": "Select the second target language."
@@ -105,16 +105,16 @@
         "message": "Display position"
     },
     "rightUpLabel": {
-        "message": "Top right"
+        "message": "Зверху праворуч"
     },
     "rightDownLabel": {
-        "message": "Bottom right"
+        "message": "Внизу праворуч"
     },
     "leftUpLabel": {
-        "message": "Top left"
+        "message": "Зверху ліворуч"
     },
     "leftDownLabel": {
-        "message": "Bottom left"
+        "message": "Внизу ліворуч"
     },
     "panelStyleLabel": {
         "message": "Панель перекладу"

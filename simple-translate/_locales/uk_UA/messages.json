@@ -93,13 +93,13 @@
         "message": "Стиль"
     },
     "buttonStyleLabel": {
-        "message": "Translation button"
+        "message": "Кнопка перекладу"
     },
     "buttonStyleCaptionLabel": {
         "message": "Specify the style of the translation button displayed on the web page."
     },
     "buttonSizeLabel": {
-        "message": "Size"
+        "message": "Розмір"
     },
     "buttonPositionLabel": {
         "message": "Display position"
@@ -117,7 +117,7 @@
         "message": "Bottom left"
     },
     "panelStyleLabel": {
-        "message": "Translation panel"
+        "message": "Панель перекладу"
     },
     "panelStyleCaptionLabel": {
         "message": "Specify the style of the translation panel displayed on the web page."

@@ -6,7 +6,7 @@
         "message": "Fordítás közben könnyedén megtekintheti a fordításokat."
     },
     "donateWithPaypalLabel": {
-        "message": "Donate with PayPal"
+        "message": "Adomány PayPal-al"
     },
     "initialTextArea": {
         "message": "Írja be a szöveget"
@@ -81,13 +81,13 @@
         "message": "Válassza ki a második célnyelvet."
     },
     "menuLabel": {
-        "message": "Context menu"
+        "message": "Helyi menü"
     },
     "ifShowMenuLabel": {
         "message": "Megjelenítés a helyi menüben"
     },
     "ifShowMenuCaptionLabel": {
-        "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+        "message": "Elemek hozzáadása a helyi menübe, amikor jobb egérgombbal kattint a weboldalra vagy a lapra."
     },
     "styleLabel": {
         "message": "Stílus"

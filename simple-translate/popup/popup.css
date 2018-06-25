@@ -103,6 +103,7 @@ textarea {
     font: inherit;
     resize: none;
     overflow: auto;
+    background-color: var(--main-bg);
 
     max-height: 215px;
     height: 37px;
@@ -134,16 +135,24 @@ hr {
     overflow-y: auto;
     word-wrap: break-word;
     padding: 0px 5px 0px;
+    background-color: var(--main-bg);
 }
 
 #target p {
     margin: 0;
+    background-color: var(--main-bg);
+}
+
+#target .result{
+    background-color: var(--main-bg);
 }
 
 #target .candidate {
     color: var(--sub-text);
     margin-top:1em;
+    background-color: var(--main-bg);
 }
+
 #target .candidate:empty {
     margin-top:0;
 }

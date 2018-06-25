@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-document.body.insertAdjacentHTML("beforeend", "<div id='simple-translate-button'></div><div id='simple-translate-panel'><p>...</p></div>"); //body末尾にボタン配置
+document.body.insertAdjacentHTML("afterend", "<div id='simple-translate-button'></div><div id='simple-translate-panel'><p>...</p></div>"); //bodyの直後にボタン配置
 var button = document.getElementById("simple-translate-button");
 var panel = document.getElementById("simple-translate-panel");
 var selectionWord;

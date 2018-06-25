@@ -13,7 +13,7 @@ class Translate {
 
     translate(sourceWord, sourceLang = 'auto', targetLang) {
         //改行で分割
-        const sourceLines = sourceWord.split("\n");
+        const sourceLines = sourceWord.trim().split("\n");
 
         let promises = [];
         for (let sourceLine of sourceLines) {

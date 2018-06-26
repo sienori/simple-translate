@@ -54,7 +54,7 @@
         "message": "Display the translation button to open the panel when clicked."
     },
     "dontshowbuttonlabel": {
-        "message": "Don't display button or panel"
+        "message": "Не показувати ні кнопки ні панелі."
     },
     "dontshowbuttonCaptionlabel": {
         "message": "Don't display the translation button or the translation panel."
@@ -102,7 +102,7 @@
         "message": "Розмір"
     },
     "buttonPositionLabel": {
-        "message": "Display position"
+        "message": "Позиція кнопки"
     },
     "rightUpLabel": {
         "message": "Зверху праворуч"

@@ -33,10 +33,10 @@
         "message": "Веб-сторінка"
     },
     "ifShowCandidateLabel": {
-        "message": "Show translation candidates"
+        "message": "Показувати варіанти перекладу"
     },
     "ifShowCandidateCaptionLabel": {
-        "message": "Show multiple translation candidates when a single word is translated."
+        "message": "Показувати варіанти перекладу, коли перекладається одне слово."
     },
     "whenSelectTextLabel": {
         "message": "Коли виділено текст"
@@ -144,7 +144,7 @@
         "message": "Зробіть пожертву, будь ласка"
     },
     "donationCaptionLabel": {
-        "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+        "message": "Дякую за те, що використовуєте Simple Translate.<br>Ваша підтримка буде великим стимулом продовжувати розробку цього додатку.<br>Якщо вам подобається Simple Translate, буду дуже вдячний вашим пожертвуванням."
     },
     "amazonTitleLabel": {
         "message": "Картки amazon.co.jp eGift"
@@ -159,12 +159,12 @@
         "message": "https:\/\/addons.mozilla.org\/uk\/firefox\/addon\/simple-translate\/?src=optionpage"
     },
     "translatePageMenu": {
-        "message": "Translate this page"
+        "message": "Перекласти цю сторінку"
     },
     "translateTextMenu": {
-        "message": "Translate selected text"
+        "message": "Перекласти виділений текст"
     },
     "translateLinkMenu": {
-        "message": "Translate selected link"
+        "message": "Перекласти вибране посилання"
     }
 }

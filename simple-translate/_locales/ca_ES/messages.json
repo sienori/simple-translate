@@ -138,13 +138,13 @@
         "message": "Informació"
     },
     "licenseLabel": {
-        "message": "License"
+        "message": "Llicència"
     },
     "donationLabel": {
-        "message": "Please make a donation"
+        "message": "Si us plau faci una donació"
     },
     "donationCaptionLabel": {
-        "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+        "message": "Gràcies per utilitzar Simple Translate.<br>El vostre suport serà un gran impuls, ja que continuarem desenvolupant el complement.<br>Si us agrada el Simple Translate, ens agrairia que pugueu fer una donació."
     },
     "amazonTitleLabel": {
         "message": "amazon.co.jp eGift Cards"

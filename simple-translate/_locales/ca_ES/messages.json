@@ -33,109 +33,109 @@
         "message": "Pàgina web"
     },
     "ifShowCandidateLabel": {
-        "message": "Show translation candidates"
+        "message": "Mostra les traduccions candidates"
     },
     "ifShowCandidateCaptionLabel": {
-        "message": "Show multiple translation candidates when a single word is translated."
+        "message": "Mostra els candidats de traducció múltiple quan es tradueix una sola paraula."
     },
     "whenSelectTextLabel": {
-        "message": "Behavior when selecting text"
+        "message": "Comportament quan es selecciona text"
     },
     "ifAutoTranslateLabel": {
-        "message": "Display translation panel"
+        "message": "Mostra el panell de traducció"
     },
     "ifAutoTranslateCaptionLabel": {
-        "message": "Directly display the translation panel without displaying the button."
+        "message": "Mostra el panell de traducció sense mostrar el botó."
     },
     "ifShowButtonLabel": {
-        "message": "Display translation button"
+        "message": "Mostra el botó de traducció"
     },
     "ifShowButtonCaptionLabel": {
-        "message": "Display the translation button to open the panel when clicked."
+        "message": "Mostra el botó de traducció per obrir el panell quan es fa clic."
     },
     "dontshowbuttonlabel": {
-        "message": "Don't display button or panel"
+        "message": "No mostrar el botó ni el tauler"
     },
     "dontshowbuttonCaptionlabel": {
-        "message": "Don't display the translation button or the translation panel."
+        "message": "No mostris el botó de traducció ni el panell de traducció."
     },
     "ifCheckLangLabel": {
-        "message": "Do not display the button if translation is not required"
+        "message": "No mostris el botó si la traducció no és obligatòria"
     },
     "ifCheckLangCaptionLabel": {
-        "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+        "message": "Detecta l'idioma del text seleccionat i, si és el mateix que l'idioma de destinació, no es mostra el botó."
     },
     "toolbarLabel": {
-        "message": "Toolbar popup"
+        "message": "Barra d'eines de la finestra emergent"
     },
     "ifChangeSecondLangLabel": {
-        "message": "Automatically switch to the second language"
+        "message": "Canvia automàticament a la segona llengua"
     },
     "ifChangeSecondLangCaptionLabel": {
-        "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+        "message": "Detecta l'idioma del text d'entrada, i si és el mateix que l'idioma predeterminat, traduïu-lo a la segona llengua."
     },
     "secondTargetLangLabel": {
-        "message": "Second language"
+        "message": "Segona llengua"
     },
     "secondTargetLangCaptionLabel": {
-        "message": "Select the second target language."
+        "message": "Seleccioneu el segon idioma."
     },
     "menuLabel": {
-        "message": "Context menu"
+        "message": "Menú contextual"
     },
     "ifShowMenuLabel": {
-        "message": "Display the context menu"
+        "message": "Mostra el menú contextual"
     },
     "ifShowMenuCaptionLabel": {
-        "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+        "message": "Afegiu elements al menú contextual que es mostra quan feu clic dret a la pàgina web o a la pestanya."
     },
     "styleLabel": {
-        "message": "Style"
+        "message": "Estil"
     },
     "buttonStyleLabel": {
-        "message": "Translation button"
+        "message": "Botó de traducció"
     },
     "buttonStyleCaptionLabel": {
-        "message": "Specify the style of the translation button displayed on the web page."
+        "message": "Especifiqueu l'estil del botó de traducció que es mostra a la pàgina web."
     },
     "buttonSizeLabel": {
-        "message": "Size"
+        "message": "Mida"
     },
     "buttonPositionLabel": {
-        "message": "Display position"
+        "message": "Posició de la pantalla"
     },
     "rightUpLabel": {
-        "message": "Top right"
+        "message": "A dalt a la dreta"
     },
     "rightDownLabel": {
-        "message": "Bottom right"
+        "message": "Abaix a la dreta"
     },
     "leftUpLabel": {
-        "message": "Top left"
+        "message": "A dalt a l'esquerra"
     },
     "leftDownLabel": {
-        "message": "Bottom left"
+        "message": "Abaix a l'esquerra"
     },
     "panelStyleLabel": {
-        "message": "Translation panel"
+        "message": "Tauler de traducció"
     },
     "panelStyleCaptionLabel": {
-        "message": "Specify the style of the translation panel displayed on the web page."
+        "message": "Especifiqueu l'estil del panell de traducció que es mostra a la pàgina web."
     },
     "widthLabel": {
-        "message": "Width"
+        "message": "Amplada"
     },
     "heightLabel": {
-        "message": "Height"
+        "message": "Alçada"
     },
     "fontSizeLabel": {
-        "message": "Font size"
+        "message": "Mida de la lletra"
     },
     "bgColorLabel": {
-        "message": "Background color"
+        "message": "Color de fons"
     },
     "informationLabel": {
-        "message": "Information"
+        "message": "Informació"
     },
     "licenseLabel": {
         "message": "License"

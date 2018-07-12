@@ -6,7 +6,7 @@
         "message": "Consulteu les traduccions amb facilitat mentre navegueu per la web."
     },
     "donateWithPaypalLabel": {
-        "message": "Donate with PayPal"
+        "message": "Donar per PayPal"
     },
     "initialTextArea": {
         "message": "Introduïu el text"
@@ -150,21 +150,21 @@
         "message": "amazon.co.jp eGift Cards"
     },
     "addonPageLabel": {
-        "message": "Add-on page"
+        "message": "Pàgina complementària"
     },
     "amazonUrl": {
-        "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
+        "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=es_ES"
     },
     "addonUrl": {
-        "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
+        "message": "https:\/\/addons.mozilla.org\/es-ES\/firefox\/addon\/simple-translate\/?src=optionpage"
     },
     "translatePageMenu": {
-        "message": "Translate this page"
+        "message": "Tradueix aquesta pàgina"
     },
     "translateTextMenu": {
-        "message": "Translate selected text"
+        "message": "Tradueix el text selecionat"
     },
     "translateLinkMenu": {
-        "message": "Translate selected link"
+        "message": "Tradueix l'enlaç selecionat"
     }
 }

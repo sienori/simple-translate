@@ -1,170 +1,188 @@
 {
-    "extName": {
-        "message": "Simple Translate"
-    },
-    "extDescription": {
-        "message": "Veja as traduções facilmente à medida que você navega na web."
-    },
-    "donateWithPaypalLabel": {
-        "message": "Doe com PayPal"
-    },
-    "initialTextArea": {
-        "message": "Digite o texto"
-    },
-    "showLink": {
-        "message": "Traduzir esta página"
-    },
-    "targetLangLabel": {
-        "message": "Idioma alvo"
-    },
-    "langList": {
-        "message": "af:Africâner, sq:Albanês, am:Amárico, ar:Árabe, hy:Armênio, az:Azeri, eu:Basco, be:Bielorrusso, bn:Bengali, bs:Bósnio, bg:Búlgaro, ca:Catalão, ceb:Cebuano, ny:Nianja, zh-CN:Mandarim Chinês Padrão, zh-TW:Mandarim Taiuanês, co:Corso, hr:Croata, cs:Tcheco, da:Dinamarquês, nl:Holandês, en:Inglês, eo:Esperanto, et:Estoniano, fi:Finlandês, fr:Francês, fy:Frísio, gl:Galego, ka:Georgiano, de:Alemão, el:Grego, gu:Guzerate, ht:Haitiano, ha:Hauçá, haw:Havaiano, he:Hebraico, hi:Hindi, hu:Húngaro, is:Islandês, ig:Igbo, id:Indonésia, ga:Irlandês, it:Italiano, ja:Japonês, jv:Javanês, kn:Canarim, kk:Cazaque, km:Khmer, ky:Quirguiz, ko:Coreano, ku:Curdo, lo:Laosiano, la:Latim, lv:Letão, lt:Lituano, lb:Luxemburguês, mk:Macedônio, mg:Malgaxe, ms:Malaio, ml:Malaiala, mt:Maltês, mi:Maori, mr:Marata, mn:Mongol, hmn:Monk, my:Birmanês, ne:Nepali, no:Norueguês, fa:Persa, pl:Polonês, pt:Português, pa:Panjabi, ps:Pachto, ro:Romeno, ru:Russo, sm:Samoano, gd:Gaélico Escocês, sr:Sérvio, sn:Xona, sd:Sindi, si:Cingalês, sk:Eslovaco, sl:Esloveno, so:Somali, sx:Sesoto, es:Espanhol, su:Sundanês, sw:Suaíli, sv:Sueco, tl:Tagalog (Filipino), tg:Tajique, ta:Tâmil, te:Telugo, th:Tailandês, tr:Turco, uk:Ucraniano, ur:Urdu, uz:Usbeque, vi:Vietnamita, cy:Galês, xh:Xhosa, yi:Iídiche, yo:Iorubá, zu:Zulu"
-    },
-    "settingsLabel": {
-        "message": "Configurações"
-    },
-    "generalLabel": {
-        "message": "Geral"
-    },
-    "targetLangCaptionLabel": {
-        "message": "Selecione o idioma alvo padrão."
-    },
-    "webPageLabel": {
-        "message": "Página web"
-    },
-    "ifShowCandidateLabel": {
-        "message": "Mostrar traduções candidatas"
-    },
-    "ifShowCandidateCaptionLabel": {
-        "message": "Mostrar várias traduções candidatas quando uma única palavra é traduzida."
-    },
-    "whenSelectTextLabel": {
-        "message": "Comportamento ao selecionar texto"
-    },
-    "ifAutoTranslateLabel": {
-        "message": "Exibir o painel de tradução"
-    },
-    "ifAutoTranslateCaptionLabel": {
-        "message": "Exibir o painel de tradução diretamente sem exibir o botão."
-    },
-    "ifShowButtonLabel": {
-        "message": "Exibir o botão de tradução"
-    },
-    "ifShowButtonCaptionLabel": {
-        "message": "Exibir o botão de tradução para abrir o painel quando clicado."
-    },
-    "dontshowbuttonlabel": {
-        "message": "Não exibir o botão ou o painel"
-    },
-    "dontshowbuttonCaptionlabel": {
-        "message": "Não exibir o botão de tradução ou o painel de tradução."
-    },
-    "ifCheckLangLabel": {
-        "message": "Não mostrar o botão se a tradução não for necessária"
-    },
-    "ifCheckLangCaptionLabel": {
-        "message": "Detecta o idioma do texto selecionado e, se for o mesmo que o idioma alvo, o botão não é exibido."
-    },
-    "toolbarLabel": {
-        "message": "Barra de ferramentas"
-    },
-    "ifChangeSecondLangLabel": {
-        "message": "Automaticamente troca para o segundo idioma"
-    },
-    "ifChangeSecondLangCaptionLabel": {
-        "message": "Detecta o idioma do texto entrado, e se for o mesmo que o idioma alvo padrão, traduz para o segundo idioma."
-    },
-    "secondTargetLangLabel": {
-        "message": "Segundo idioma"
-    },
-    "secondTargetLangCaptionLabel": {
-        "message": "Selecione o segundo idioma alvo."
-    },
-    "menuLabel": {
-        "message": "Menu de Contexto"
-    },
-    "ifShowMenuLabel": {
-        "message": "Exibir o menu de contexto"
-    },
-    "ifShowMenuCaptionLabel": {
-        "message": "Adicionar itens ao menu de contexto exibido quando clicar com o botão direito do mouse na página web ou na guia."
-    },
-    "styleLabel": {
-        "message": "Estilo"
-    },
-    "buttonStyleLabel": {
-        "message": "Botão de tradução"
-    },
-    "buttonStyleCaptionLabel": {
-        "message": "Especifique o estilo do botão de tradução exibido na página web."
-    },
-    "buttonSizeLabel": {
-        "message": "Tamanho"
-    },
-    "buttonPositionLabel": {
-        "message": "Posição de exibição"
-    },
-    "rightUpLabel": {
-        "message": "Canto superior direito"
-    },
-    "rightDownLabel": {
-        "message": "Canto inferior direito"
-    },
-    "leftUpLabel": {
-        "message": "Canto superior esquerdo"
-    },
-    "leftDownLabel": {
-        "message": "Canto inferior esquerdo"
-    },
-    "panelStyleLabel": {
-        "message": "Painel de tradução"
-    },
-    "panelStyleCaptionLabel": {
-        "message": "Especifique o estilo do painel de tradução exibido na página web."
-    },
-    "widthLabel": {
-        "message": "Largura"
-    },
-    "heightLabel": {
-        "message": "Altura"
-    },
-    "fontSizeLabel": {
-        "message": "Tamanho da fonte"
-    },
-    "bgColorLabel": {
-        "message": "Cor do plano de fundo"
-    },
-    "informationLabel": {
-        "message": "Informação"
-    },
-    "licenseLabel": {
-        "message": "Licença"
-    },
-    "donationLabel": {
-        "message": "Por favor, faça uma doação"
-    },
-    "donationCaptionLabel": {
-        "message": "Obrigado por usar o Simple Translate.<br>O seu apoio será um grande incentivo, à medida que continuarmos desenvolvendo a extensão.<br>Se você gosta do Simple Translate, ficaríamos satisfeitos se você pudesse considerar uma doação."
-    },
-    "amazonTitleLabel": {
-        "message": "Cartões de presentes da Amazon.co.jp"
-    },
-    "addonPageLabel": {
-        "message": "Página da extensão"
-    },
-    "amazonUrl": {
-        "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=pt_BR"
-    },
-    "addonUrl": {
-        "message": "https:\/\/addons.mozilla.org\/pt-BR\/firefox\/addon\/simple-translate\/?src=optionpage"
-    },
-    "translatePageMenu": {
-        "message": "Traduzir esta página"
-    },
-    "translateTextMenu": {
-        "message": "Traduzir o texto selecionado"
-    },
-    "translateLinkMenu": {
-        "message": "Traduzir o endereço selecionado"
-    }
+  "extName": {
+    "message": "Simple Translate"
+  },
+  "extDescription": {
+    "message": "Veja as traduções facilmente à medida que você navega na web."
+  },
+  "donateWithPaypalLabel": {
+    "message": "Doe com PayPal"
+  },
+  "initialTextArea": {
+    "message": "Digite o texto"
+  },
+  "showLink": {
+    "message": "Traduzir esta página"
+  },
+  "targetLangLabel": {
+    "message": "Idioma alvo"
+  },
+  "langList": {
+    "message": "af:Africâner, sq:Albanês, am:Amárico, ar:Árabe, hy:Armênio, az:Azeri, eu:Basco, be:Bielorrusso, bn:Bengali, bs:Bósnio, bg:Búlgaro, ca:Catalão, ceb:Cebuano, ny:Nianja, zh-CN:Mandarim Chinês Padrão, zh-TW:Mandarim Taiuanês, co:Corso, hr:Croata, cs:Tcheco, da:Dinamarquês, nl:Holandês, en:Inglês, eo:Esperanto, et:Estoniano, fi:Finlandês, fr:Francês, fy:Frísio, gl:Galego, ka:Georgiano, de:Alemão, el:Grego, gu:Guzerate, ht:Haitiano, ha:Hauçá, haw:Havaiano, he:Hebraico, hi:Hindi, hu:Húngaro, is:Islandês, ig:Igbo, id:Indonésia, ga:Irlandês, it:Italiano, ja:Japonês, jv:Javanês, kn:Canarim, kk:Cazaque, km:Khmer, ky:Quirguiz, ko:Coreano, ku:Curdo, lo:Laosiano, la:Latim, lv:Letão, lt:Lituano, lb:Luxemburguês, mk:Macedônio, mg:Malgaxe, ms:Malaio, ml:Malaiala, mt:Maltês, mi:Maori, mr:Marata, mn:Mongol, hmn:Monk, my:Birmanês, ne:Nepali, no:Norueguês, fa:Persa, pl:Polonês, pt:Português, pa:Panjabi, ps:Pachto, ro:Romeno, ru:Russo, sm:Samoano, gd:Gaélico Escocês, sr:Sérvio, sn:Xona, sd:Sindi, si:Cingalês, sk:Eslovaco, sl:Esloveno, so:Somali, sx:Sesoto, es:Espanhol, su:Sundanês, sw:Suaíli, sv:Sueco, tl:Tagalog (Filipino), tg:Tajique, ta:Tâmil, te:Telugo, th:Tailandês, tr:Turco, uk:Ucraniano, ur:Urdu, uz:Usbeque, vi:Vietnamita, cy:Galês, xh:Xhosa, yi:Iídiche, yo:Iorubá, zu:Zulu"
+  },
+  "settingsLabel": {
+    "message": "Configurações"
+  },
+  "generalLabel": {
+    "message": "Geral"
+  },
+  "targetLangCaptionLabel": {
+    "message": "Selecione o idioma alvo padrão."
+  },
+  "webPageLabel": {
+    "message": "Página web"
+  },
+  "ifShowCandidateLabel": {
+    "message": "Mostrar traduções candidatas"
+  },
+  "ifShowCandidateCaptionLabel": {
+    "message": "Mostrar várias traduções candidatas quando uma única palavra é traduzida."
+  },
+  "whenSelectTextLabel": {
+    "message": "Comportamento ao selecionar texto"
+  },
+  "ifAutoTranslateLabel": {
+    "message": "Exibir o painel de tradução"
+  },
+  "ifAutoTranslateCaptionLabel": {
+    "message": "Exibir o painel de tradução diretamente sem exibir o botão."
+  },
+  "ifShowButtonLabel": {
+    "message": "Exibir o botão de tradução"
+  },
+  "ifShowButtonCaptionLabel": {
+    "message": "Exibir o botão de tradução para abrir o painel quando clicado."
+  },
+  "dontshowbuttonlabel": {
+    "message": "Não exibir o botão ou o painel"
+  },
+  "dontshowbuttonCaptionlabel": {
+    "message": "Não exibir o botão de tradução ou o painel de tradução."
+  },
+  "ifCheckLangLabel": {
+    "message": "Não mostrar o botão se a tradução não for necessária"
+  },
+  "ifCheckLangCaptionLabel": {
+    "message": "Detecta o idioma do texto selecionado e, se for o mesmo que o idioma alvo, o botão não é exibido."
+  },
+  "toolbarLabel": {
+    "message": "Barra de ferramentas"
+  },
+  "ifChangeSecondLangLabel": {
+    "message": "Automaticamente troca para o segundo idioma"
+  },
+  "ifChangeSecondLangCaptionLabel": {
+    "message": "Detecta o idioma do texto entrado, e se for o mesmo que o idioma alvo padrão, traduz para o segundo idioma."
+  },
+  "secondTargetLangLabel": {
+    "message": "Segundo idioma"
+  },
+  "secondTargetLangCaptionLabel": {
+    "message": "Selecione o segundo idioma alvo."
+  },
+  "waitTimeLabel": {
+    "message": "Waiting time to translate"
+  },
+  "waitTimeCaptionLabel": {
+    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+  },
+  "waitTime2CaptionLabel": {
+    "message": "If you translate it many times in a short time, it may become unusable for a while."
+  },
+  "menuLabel": {
+    "message": "Menu de Contexto"
+  },
+  "ifShowMenuLabel": {
+    "message": "Exibir o menu de contexto"
+  },
+  "ifShowMenuCaptionLabel": {
+    "message": "Adicionar itens ao menu de contexto exibido quando clicar com o botão direito do mouse na página web ou na guia."
+  },
+  "styleLabel": {
+    "message": "Estilo"
+  },
+  "buttonStyleLabel": {
+    "message": "Botão de tradução"
+  },
+  "buttonStyleCaptionLabel": {
+    "message": "Especifique o estilo do botão de tradução exibido na página web."
+  },
+  "buttonSizeLabel": {
+    "message": "Tamanho"
+  },
+  "buttonPositionLabel": {
+    "message": "Posição de exibição"
+  },
+  "rightUpLabel": {
+    "message": "Canto superior direito"
+  },
+  "rightDownLabel": {
+    "message": "Canto inferior direito"
+  },
+  "leftUpLabel": {
+    "message": "Canto superior esquerdo"
+  },
+  "leftDownLabel": {
+    "message": "Canto inferior esquerdo"
+  },
+  "panelStyleLabel": {
+    "message": "Painel de tradução"
+  },
+  "panelStyleCaptionLabel": {
+    "message": "Especifique o estilo do painel de tradução exibido na página web."
+  },
+  "widthLabel": {
+    "message": "Largura"
+  },
+  "heightLabel": {
+    "message": "Altura"
+  },
+  "fontSizeLabel": {
+    "message": "Tamanho da fonte"
+  },
+  "bgColorLabel": {
+    "message": "Cor do plano de fundo"
+  },
+  "informationLabel": {
+    "message": "Informação"
+  },
+  "licenseLabel": {
+    "message": "Licença"
+  },
+  "donationLabel": {
+    "message": "Por favor, faça uma doação"
+  },
+  "donationCaptionLabel": {
+    "message": "Obrigado por usar o Simple Translate.<br>O seu apoio será um grande incentivo, à medida que continuarmos desenvolvendo a extensão.<br>Se você gosta do Simple Translate, ficaríamos satisfeitos se você pudesse considerar uma doação."
+  },
+  "amazonTitleLabel": {
+    "message": "Cartões de presentes da Amazon.co.jp"
+  },
+  "addonPageLabel": {
+    "message": "Página da extensão"
+  },
+  "amazonUrl": {
+    "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=pt_BR"
+  },
+  "addonUrl": {
+    "message": "https:\/\/addons.mozilla.org\/pt-BR\/firefox\/addon\/simple-translate\/?src=optionpage"
+  },
+  "networkError": {
+    "message": "Error: Check network connection status."
+  },
+  "unavailableError": {
+    "message": "Error: Service usage limit reached. Please wait a while and try again."
+  },
+  "unknownError": {
+    "message": "Error: Unknown error"
+  },
+  "translatePageMenu": {
+    "message": "Traduzir esta página"
+  },
+  "translateTextMenu": {
+    "message": "Traduzir o texto selecionado"
+  },
+  "translateLinkMenu": {
+    "message": "Traduzir o endereço selecionado"
+  }
 }

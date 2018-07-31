@@ -39,6 +39,9 @@ class Translate {
       xhr.onload = () => {
         resolve(xhr);
       };
+      xhr.onerror = () => {
+        resolve(xhr);
+      };
     });
   }
 
@@ -47,8 +50,12 @@ class Translate {
       resultText: "",
       candidateText: "",
       sourceLanguage: "",
-      percentage: 0
+      percentage: 0,
+      statusText: ""
     };
+
+    resultData.statusText = results[0].statusText;
+    if (resultData.statusText !== "OK") return resultData;
 
     //翻訳元言語を取得
     resultData.sourceLanguage = results[0].response[2];

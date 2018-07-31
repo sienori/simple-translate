@@ -67,7 +67,7 @@ async function changeLang() {
 
   if (sourceWord !== "") {
     const resultData = await T.translate(sourceWord, undefined, langList.value);
-    showResult(resultData.resultText, resultData.candidateText);
+    showResult(resultData.resultText, resultData.candidateText, resultData.statusText);
   }
 }
 
@@ -166,15 +166,34 @@ async function runTranslation() {
 
   const resultData = await T.translate(sourceWord, "auto", langList.value);
   changeSecondLang(defaultTargetLang, resultData.sourceLanguage, resultData.percentage);
-  showResult(resultData.resultText, resultData.candidateText);
+  showResult(resultData.resultText, resultData.candidateText, resultData.statusText);
 }
 
-function showResult(resultText, candidateText) {
+function showResult(resultText, candidateText, statusText = "OK") {
   const resultArea = target.getElementsByClassName("result")[0];
   const candidateArea = target.getElementsByClassName("candidate")[0];
 
   resultArea.innerText = resultText;
   if (S.get().ifShowCandidate) candidateArea.innerText = candidateText;
+
+  if (statusText != "OK") showError(statusText);
+}
+
+function showError(statusText) {
+  let errorMessage = "";
+  switch (statusText) {
+    case "":
+      errorMessage = browser.i18n.getMessage("networkError");
+      break;
+    case "Service Unavailable":
+      errorMessage = browser.i18n.getMessage("unavailableError");
+      break;
+    default:
+      errorMessage = `${browser.i18n.getMessage("unknownError")} [${statusText}]`;
+      break;
+  }
+  const candidateArea = target.getElementsByClassName("candidate")[0];
+  candidateArea.innerText = errorMessage;
 }
 
 let changeLangFlag = false;

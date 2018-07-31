@@ -1,227 +1,227 @@
 :root {
-    --main-text: #0c0c0d;
-    --sub-text: #737373;
-    --line: #ededf0;
-    --button: #d7d7db;
-    --highlight: #5595ff;
-    --main-bg: #ffffff;
-    --confirm: #ff4f4f;
+  --main-text: #0c0c0d;
+  --sub-text: #737373;
+  --line: #ededf0;
+  --button: #d7d7db;
+  --highlight: #5595ff;
+  --main-bg: #ffffff;
+  --confirm: #ff4f4f;
 }
 
 body {
-    font-family: 'Segoe UI', 'San Francisco', 'Ubuntu', 'Fira Sans', 'Roboto', 'Arial', 'Helvetica', sans-serif;
-    text-align: left;
-    font-size: 13px;
-    width: 348px;
-    overflow: hidden;
-    background-color: var(--main-bg);
+  font-family: "Segoe UI", "San Francisco", "Ubuntu", "Fira Sans", "Roboto", "Arial", "Helvetica",
+    sans-serif;
+  text-align: left;
+  font-size: 13px;
+  width: 348px;
+  overflow: hidden;
+  background-color: var(--main-bg);
 
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 svg {
-    pointer-events: none;
+  pointer-events: none;
 }
 
 #header {
-    padding: 10px;
-    background-color: var(--line);
+  padding: 10px;
+  background-color: var(--line);
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 
-    -moz-user-select: none;
+  -moz-user-select: none;
 }
 
 #title {
-    font-size: 15px;
-    font-weight: 400;
-    color: #666;
-    cursor: default;
+  font-size: 15px;
+  font-weight: 400;
+  color: #666;
+  cursor: default;
 }
 
 #header .rightButtons {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 #donate {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    margin-right: 8px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 8px;
 }
 
 #donate svg {
-    height: 18px;
-    width: 18px;
-    fill: var(--sub-text);
-    transition: all 100ms;
+  height: 18px;
+  width: 18px;
+  fill: var(--sub-text);
+  transition: all 100ms;
 }
 
 #donate:hover svg {
-    fill: var(--confirm);
+  fill: var(--confirm);
 }
 
 #setting {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
 }
 
 #setting svg {
-    flex-shrink: 0;
-    height: 18px;
-    width: 18px;
-    fill: var(--sub-text);
-    transform: rotate(180deg);
-    transition: fill 100ms, transform 300ms ease;
+  flex-shrink: 0;
+  height: 18px;
+  width: 18px;
+  fill: var(--sub-text);
+  transform: rotate(180deg);
+  transition: fill 100ms, transform 300ms ease;
 }
 
 #setting:hover svg {
-    fill: var(--highlight);
-    transform: rotate(270deg);
+  fill: var(--highlight);
+  transform: rotate(270deg);
 }
 
 #main {
-    padding: 10px;
+  padding: 10px;
 }
 
 textarea {
-    font: inherit;
-    resize: none;
-    overflow: auto;
-    background-color: var(--main-bg);
+  font: inherit;
+  resize: none;
+  overflow: auto;
+  background-color: var(--main-bg);
 
-    max-height: 215px;
-    height: 37px;
+  max-height: 215px;
+  height: 37px;
 
-    /* 100% - padding*2 - border*2 */
-    width: calc(100% - 22px);
+  /* 100% - padding*2 - border*2 */
+  width: calc(100% - 22px);
 
-    padding: 10px;
-    border: solid 1px var(--button);
-    border-radius: 2px;
-    transition: border-color 100ms ease-out;
+  padding: 10px;
+  border: solid 1px var(--button);
+  border-radius: 2px;
+  transition: border-color 100ms ease-out;
 }
 
 textarea:hover,
 textarea:focus {
-    border-color: var(--highlight)
+  border-color: var(--highlight);
 }
 
 hr {
-    border: none;
-    border-top: solid 1px var(--button);
-    height: 1px;
-    margin: 10px 0px;
+  border: none;
+  border-top: solid 1px var(--button);
+  height: 1px;
+  margin: 10px 0px;
 }
 
 #target {
-    max-height: 215px;
-    min-height: 30px;
-    overflow-y: auto;
-    word-wrap: break-word;
-    padding: 0px 5px 0px;
-    background-color: var(--main-bg);
+  max-height: 215px;
+  min-height: 30px;
+  overflow-y: auto;
+  word-wrap: break-word;
+  padding: 0px 5px 0px;
+  background-color: var(--main-bg);
 }
 
 #target p {
-    margin: 0;
-    background-color: var(--main-bg);
+  margin: 0;
+  background-color: var(--main-bg);
 }
 
-#target .result{
-    background-color: var(--main-bg);
+#target .result {
+  background-color: var(--main-bg);
 }
 
 #target .candidate {
-    color: var(--sub-text);
-    margin-top:1em;
-    background-color: var(--main-bg);
+  color: var(--sub-text);
+  margin-top: 1em;
+  background-color: var(--main-bg);
 }
 
 #target .candidate:empty {
-    margin-top:0;
+  margin-top: 0;
 }
 
 #footer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px 10px;
 }
 
 #link {
-    flex-shrink: 0;
+  flex-shrink: 0;
 }
 
 #link a {
-    font-style: normal;
-    text-decoration: none;
-    color: var(--highlight);
+  font-style: normal;
+  text-decoration: none;
+  color: var(--highlight);
 }
 
 #link a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-
 select {
-    -moz-appearance: none;
-    text-overflow: ellipsis;
-    border: var(--button) solid 1px;
-    border-radius: 2px;
-    padding: 3px 5px;
-    padding-right: 20px;
-    width: 100%;
-    transition: border-color 100ms ease-out;
+  -moz-appearance: none;
+  text-overflow: ellipsis;
+  border: var(--button) solid 1px;
+  border-radius: 2px;
+  padding: 3px 5px;
+  padding-right: 20px;
+  width: 100%;
+  transition: border-color 100ms ease-out;
 }
 
 select:hover {
-    border: var(--highlight) solid 1px;
+  border: var(--highlight) solid 1px;
 }
 
 .selectWrap {
-    position: relative;
-    margin-left: 5px;
+  position: relative;
+  margin-left: 5px;
 }
 
 .selectWrap:before {
-    pointer-events: none;
-    content: "";
-    z-index: 1;
-    position: absolute;
-    top: 40%;
-    right: 7px;
-    width: 5px;
-    height: 5px;
+  pointer-events: none;
+  content: "";
+  z-index: 1;
+  position: absolute;
+  top: 40%;
+  right: 7px;
+  width: 5px;
+  height: 5px;
 
-    transform: rotate(45deg);
-    border-bottom: 2px solid var(--sub-text);
-    border-right: 2px solid var(--sub-text);
+  transform: rotate(45deg);
+  border-bottom: 2px solid var(--sub-text);
+  border-right: 2px solid var(--sub-text);
 
-    transition: border-color 100ms ease-out;
+  transition: border-color 100ms ease-out;
 }
 
 .selectWrap:hover::before {
-    border-bottom: 2px solid var(--highlight);
-    border-right: 2px solid var(--highlight);
+  border-bottom: 2px solid var(--highlight);
+  border-right: 2px solid var(--highlight);
 }
 
 ::-moz-selection {
-    background: var(--line);
+  background: var(--line);
 }

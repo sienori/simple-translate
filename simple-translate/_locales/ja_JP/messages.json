@@ -81,13 +81,13 @@
     "message": "第二言語を指定します。"
   },
   "waitTimeLabel": {
-    "message": "Waiting time to translate"
+    "message": "翻訳までの待ち時間"
   },
   "waitTimeCaptionLabel": {
-    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+    "message": "文字が入力されてから翻訳を開始するまでの待ち時間を指定します。 (ミリ秒)"
   },
   "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
+    "message": "短時間に何度も翻訳すると，しばらくの間利用できなくなることがあります。"
   },
   "menuLabel": {
     "message": "コンテキストメニュー"
@@ -168,13 +168,13 @@
     "message": "https:\/\/addons.mozilla.org\/ja\/firefox\/addon\/simple-translate\/?src=optionpage"
   },
   "networkError": {
-    "message": "Error: Check network connection status."
+    "message": "エラー: ネットワークの接続状態を確認してください。"
   },
   "unavailableError": {
-    "message": "Error: Service usage limit reached. Please wait a while and try again."
+    "message": "エラー: サービスの利用制限に達しました。しばらく待ってからもう一度お試しください。"
   },
   "unknownError": {
-    "message": "Error: Unknown error"
+    "message": "エラー: 不明なエラー"
   },
   "translatePageMenu": {
     "message": "ページ全体を翻訳"

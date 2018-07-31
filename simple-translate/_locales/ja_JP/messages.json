@@ -1,170 +1,188 @@
 {
-    "extName": {
-        "message": "Simple Translate"
-    },
-    "extDescription": {
-        "message": "シンプルな翻訳を表示するアドオンです。"
-    },
-    "donateWithPaypalLabel": {
-        "message": "PayPalで寄付"
-    },
-    "initialTextArea": {
-        "message": "テキストを入力"
-    },
-    "showLink": {
-        "message": "このページを翻訳"
-    },
-    "targetLangLabel": {
-        "message": "翻訳先の言語"
-    },
-    "langList": {
-        "message": "af:アフリカーンス語, sq:アルバニア語, am:アムハラ語, ar:アラビア語, hy:アルメニア語, az:アゼルバイジャン語, eu:バスク語, be:ベラルーシ語, bn:ベンガル語, bs:ボスニア語, bg:ブルガリア語, ca:カタルーニャ語, ceb:セブアノ語, ny:チェワ語, zh-CN:中国語 (簡体), zh-TW:中国語 (繁体), co:コルシカ語, hr:クロアチア語, cs:チェコ語, da:デンマーク語, nl:オランダ語, en:英語, eo:エスペラント語, et:エストニア語, fi:フィンランド語, fr:フランス語, fy:フリジア語, gl:ガリシア語, ka:ジョージア(グルジア)語, de:ドイツ語, el:ギリシャ語, gu:グジャラト語, ht:ハイチ語, ha:ハウサ語, haw:ハワイ語, he:ヘブライ語, hi:ヒンディー語, hu:ハンガリー語, is:アイスランド語, ig:イボ語, id:インドネシア語, ga:アイルランド語, it:イタリア語, ja:日本語, jv:ジャワ語, kn:カンナダ語, kk:カザフ語, km:クメール語, ky:キルギス語, ko:韓国語, ku:クルド語, lo:ラオ語, la:ラテン語, lv:ラトビア語, lt:リトアニア語, lb:ルクセンブルク語, mk:マケドニア語, mg:マラガシ語, ms:マレー語, ml:マラヤーラム語, mt:マルタ語, mi:マオリ語, mr:マラーティー語, mn:モンゴル語, hmn:モン語, my:ミャンマー語, ne:ネパール語, no:ノルウェー語, fa:ペルシャ語, pl:ポーランド語, pt:ポルトガル語, pa:パンジャブ語, ps:パシュト語, ro:ルーマニア語, ru:ロシア語, sm:サモア語, gd:スコットランド ゲール語, sr:セルビア語, sn:ショナ語, sd:シンド語, si:シンハラ語, sk:スロバキア語, sl:スロベニア語, so:ソマリ語, sx:ソト語, es:スペイン語, su:スンダ語, sw:スワヒリ語, sv:スウェーデン語, tl:タガログ語, tg:タジク語, ta:タミル語, te:テルグ語, th:タイ語, tr:トルコ語, uk:ウクライナ語, ur:ウルドゥ語, uz:ウズベク語, vi:ベトナム語, cy:ウェールズ語, xh:コーサ語, yi:イディッシュ語, yo:ヨルバ語, zu:ズールー語"
-    },
-    "settingsLabel": {
-        "message": "設定"
-    },
-    "generalLabel": {
-        "message": "全般"
-    },
-    "targetLangCaptionLabel": {
-        "message": "デフォルトの翻訳先の言語を選択します。"
-    },
-    "webPageLabel": {
-        "message": "webページ"
-    },
-    "ifShowCandidateLabel": {
-        "message": "翻訳候補を表示する"
-    },
-    "ifShowCandidateCaptionLabel": {
-        "message": "一つの語句が翻訳された時に複数の候補を表示します。"
-    },
-    "whenSelectTextLabel": {
-        "message": "テキスト選択時の動作"
-    },
-    "ifAutoTranslateLabel": {
-        "message": "翻訳パネルを表示する"
-    },
-    "ifAutoTranslateCaptionLabel": {
-        "message": "ボタンを表示せずに直接翻訳パネルを表示します。"
-    },
-    "ifShowButtonLabel": {
-        "message": "翻訳ボタンを表示する"
-    },
-    "ifShowButtonCaptionLabel": {
-        "message": "クリックすると翻訳パネルが開くボタンを表示します。"
-    },
-    "dontshowbuttonlabel": {
-        "message": "ボタンやパネルを表示しない"
-    },
-    "dontshowbuttonCaptionlabel": {
-        "message": "翻訳ボタンや翻訳パネルを表示しません。"
-    },
-    "ifCheckLangLabel": {
-        "message": "翻訳の必要がなければボタンを表示しない"
-    },
-    "ifCheckLangCaptionLabel": {
-        "message": "選択したテキストの言語を検出し，翻訳先言語と同じ場合はボタンを表示しません。"
-    },
-    "toolbarLabel": {
-        "message": "ツールバーポップアップ"
-    },
-    "ifChangeSecondLangLabel": {
-        "message": "自動的に第二言語に切り替える"
-    },
-    "ifChangeSecondLangCaptionLabel": {
-        "message": "入力されたテキストの言語を検出し，デフォルトの翻訳先言語と同じ場合には第二言語に翻訳します。"
-    },
-    "secondTargetLangLabel": {
-        "message": "第二言語"
-    },
-    "secondTargetLangCaptionLabel": {
-        "message": "第二言語を指定します。"
-    },
-    "menuLabel": {
-        "message": "コンテキストメニュー"
-    },
-    "ifShowMenuLabel": {
-        "message": "コンテキストメニューを表示する"
-    },
-    "ifShowMenuCaptionLabel": {
-        "message": "ページやタブ上で右クリックした時に表示されるコンテキストメニューに項目を追加します。"
-    },
-    "styleLabel": {
-        "message": "スタイル"
-    },
-    "buttonStyleLabel": {
-        "message": "翻訳ボタン"
-    },
-    "buttonStyleCaptionLabel": {
-        "message": "webページ上で表示される翻訳ボタンのスタイルを指定します。"
-    },
-    "buttonSizeLabel": {
-        "message": "サイズ"
-    },
-    "buttonPositionLabel": {
-        "message": "表示位置"
-    },
-    "rightUpLabel": {
-        "message": "右上"
-    },
-    "rightDownLabel": {
-        "message": "右下"
-    },
-    "leftUpLabel": {
-        "message": "左上"
-    },
-    "leftDownLabel": {
-        "message": "左下"
-    },
-    "panelStyleLabel": {
-        "message": "翻訳パネル"
-    },
-    "panelStyleCaptionLabel": {
-        "message": "webページ上で表示される翻訳パネルのスタイルを指定します。"
-    },
-    "widthLabel": {
-        "message": "幅"
-    },
-    "heightLabel": {
-        "message": "高さ"
-    },
-    "fontSizeLabel": {
-        "message": "フォントサイズ"
-    },
-    "bgColorLabel": {
-        "message": "背景色"
-    },
-    "informationLabel": {
-        "message": "情報"
-    },
-    "licenseLabel": {
-        "message": "ライセンス"
-    },
-    "donationLabel": {
-        "message": "ご寄付のお願い"
-    },
-    "donationCaptionLabel": {
-        "message": "Simple Translateをご利用いただきありがとうございます。<br>アドオンの開発を続けていく上で，皆様のご支援が大きな励みになります。<br>もしあなたがSimple Translateを気に入ってくれたなら，ご寄付をご検討いただけると幸いです。"
-    },
-    "amazonTitleLabel": {
-        "message": "Amazonギフト券 Eメールタイプ"
-    },
-    "addonPageLabel": {
-        "message": "アドオンページ"
-    },
-    "amazonUrl": {
-        "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=ja_JP"
-    },
-    "addonUrl": {
-        "message": "https:\/\/addons.mozilla.org\/ja\/firefox\/addon\/simple-translate\/?src=optionpage"
-    },
-    "translatePageMenu": {
-        "message": "ページ全体を翻訳"
-    },
-    "translateTextMenu": {
-        "message": "選択したテキストを翻訳"
-    },
-    "translateLinkMenu": {
-        "message": "選択したリンクを翻訳"
-    }
+  "extName": {
+    "message": "Simple Translate"
+  },
+  "extDescription": {
+    "message": "シンプルな翻訳を表示するアドオンです。"
+  },
+  "donateWithPaypalLabel": {
+    "message": "PayPalで寄付"
+  },
+  "initialTextArea": {
+    "message": "テキストを入力"
+  },
+  "showLink": {
+    "message": "このページを翻訳"
+  },
+  "targetLangLabel": {
+    "message": "翻訳先の言語"
+  },
+  "langList": {
+    "message": "af:アフリカーンス語, sq:アルバニア語, am:アムハラ語, ar:アラビア語, hy:アルメニア語, az:アゼルバイジャン語, eu:バスク語, be:ベラルーシ語, bn:ベンガル語, bs:ボスニア語, bg:ブルガリア語, ca:カタルーニャ語, ceb:セブアノ語, ny:チェワ語, zh-CN:中国語 (簡体), zh-TW:中国語 (繁体), co:コルシカ語, hr:クロアチア語, cs:チェコ語, da:デンマーク語, nl:オランダ語, en:英語, eo:エスペラント語, et:エストニア語, fi:フィンランド語, fr:フランス語, fy:フリジア語, gl:ガリシア語, ka:ジョージア(グルジア)語, de:ドイツ語, el:ギリシャ語, gu:グジャラト語, ht:ハイチ語, ha:ハウサ語, haw:ハワイ語, he:ヘブライ語, hi:ヒンディー語, hu:ハンガリー語, is:アイスランド語, ig:イボ語, id:インドネシア語, ga:アイルランド語, it:イタリア語, ja:日本語, jv:ジャワ語, kn:カンナダ語, kk:カザフ語, km:クメール語, ky:キルギス語, ko:韓国語, ku:クルド語, lo:ラオ語, la:ラテン語, lv:ラトビア語, lt:リトアニア語, lb:ルクセンブルク語, mk:マケドニア語, mg:マラガシ語, ms:マレー語, ml:マラヤーラム語, mt:マルタ語, mi:マオリ語, mr:マラーティー語, mn:モンゴル語, hmn:モン語, my:ミャンマー語, ne:ネパール語, no:ノルウェー語, fa:ペルシャ語, pl:ポーランド語, pt:ポルトガル語, pa:パンジャブ語, ps:パシュト語, ro:ルーマニア語, ru:ロシア語, sm:サモア語, gd:スコットランド ゲール語, sr:セルビア語, sn:ショナ語, sd:シンド語, si:シンハラ語, sk:スロバキア語, sl:スロベニア語, so:ソマリ語, sx:ソト語, es:スペイン語, su:スンダ語, sw:スワヒリ語, sv:スウェーデン語, tl:タガログ語, tg:タジク語, ta:タミル語, te:テルグ語, th:タイ語, tr:トルコ語, uk:ウクライナ語, ur:ウルドゥ語, uz:ウズベク語, vi:ベトナム語, cy:ウェールズ語, xh:コーサ語, yi:イディッシュ語, yo:ヨルバ語, zu:ズールー語"
+  },
+  "settingsLabel": {
+    "message": "設定"
+  },
+  "generalLabel": {
+    "message": "全般"
+  },
+  "targetLangCaptionLabel": {
+    "message": "デフォルトの翻訳先の言語を選択します。"
+  },
+  "webPageLabel": {
+    "message": "webページ"
+  },
+  "ifShowCandidateLabel": {
+    "message": "翻訳候補を表示する"
+  },
+  "ifShowCandidateCaptionLabel": {
+    "message": "一つの語句が翻訳された時に複数の候補を表示します。"
+  },
+  "whenSelectTextLabel": {
+    "message": "テキスト選択時の動作"
+  },
+  "ifAutoTranslateLabel": {
+    "message": "翻訳パネルを表示する"
+  },
+  "ifAutoTranslateCaptionLabel": {
+    "message": "ボタンを表示せずに直接翻訳パネルを表示します。"
+  },
+  "ifShowButtonLabel": {
+    "message": "翻訳ボタンを表示する"
+  },
+  "ifShowButtonCaptionLabel": {
+    "message": "クリックすると翻訳パネルが開くボタンを表示します。"
+  },
+  "dontshowbuttonlabel": {
+    "message": "ボタンやパネルを表示しない"
+  },
+  "dontshowbuttonCaptionlabel": {
+    "message": "翻訳ボタンや翻訳パネルを表示しません。"
+  },
+  "ifCheckLangLabel": {
+    "message": "翻訳の必要がなければボタンを表示しない"
+  },
+  "ifCheckLangCaptionLabel": {
+    "message": "選択したテキストの言語を検出し，翻訳先言語と同じ場合はボタンを表示しません。"
+  },
+  "toolbarLabel": {
+    "message": "ツールバーポップアップ"
+  },
+  "ifChangeSecondLangLabel": {
+    "message": "自動的に第二言語に切り替える"
+  },
+  "ifChangeSecondLangCaptionLabel": {
+    "message": "入力されたテキストの言語を検出し，デフォルトの翻訳先言語と同じ場合には第二言語に翻訳します。"
+  },
+  "secondTargetLangLabel": {
+    "message": "第二言語"
+  },
+  "secondTargetLangCaptionLabel": {
+    "message": "第二言語を指定します。"
+  },
+  "waitTimeLabel": {
+    "message": "翻訳までの待ち時間"
+  },
+  "waitTimeCaptionLabel": {
+    "message": "文字が入力されてから翻訳を開始するまでの待ち時間を指定します。 (ミリ秒)"
+  },
+  "waitTime2CaptionLabel": {
+    "message": "短時間に何度も翻訳すると，しばらくの間利用できなくなることがあります。"
+  },
+  "menuLabel": {
+    "message": "コンテキストメニュー"
+  },
+  "ifShowMenuLabel": {
+    "message": "コンテキストメニューを表示する"
+  },
+  "ifShowMenuCaptionLabel": {
+    "message": "ページやタブ上で右クリックした時に表示されるコンテキストメニューに項目を追加します。"
+  },
+  "styleLabel": {
+    "message": "スタイル"
+  },
+  "buttonStyleLabel": {
+    "message": "翻訳ボタン"
+  },
+  "buttonStyleCaptionLabel": {
+    "message": "webページ上で表示される翻訳ボタンのスタイルを指定します。"
+  },
+  "buttonSizeLabel": {
+    "message": "サイズ"
+  },
+  "buttonPositionLabel": {
+    "message": "表示位置"
+  },
+  "rightUpLabel": {
+    "message": "右上"
+  },
+  "rightDownLabel": {
+    "message": "右下"
+  },
+  "leftUpLabel": {
+    "message": "左上"
+  },
+  "leftDownLabel": {
+    "message": "左下"
+  },
+  "panelStyleLabel": {
+    "message": "翻訳パネル"
+  },
+  "panelStyleCaptionLabel": {
+    "message": "webページ上で表示される翻訳パネルのスタイルを指定します。"
+  },
+  "widthLabel": {
+    "message": "幅"
+  },
+  "heightLabel": {
+    "message": "高さ"
+  },
+  "fontSizeLabel": {
+    "message": "フォントサイズ"
+  },
+  "bgColorLabel": {
+    "message": "背景色"
+  },
+  "informationLabel": {
+    "message": "情報"
+  },
+  "licenseLabel": {
+    "message": "ライセンス"
+  },
+  "donationLabel": {
+    "message": "ご寄付のお願い"
+  },
+  "donationCaptionLabel": {
+    "message": "Simple Translateをご利用いただきありがとうございます。<br>アドオンの開発を続けていく上で，皆様のご支援が大きな励みになります。<br>もしあなたがSimple Translateを気に入ってくれたなら，ご寄付をご検討いただけると幸いです。"
+  },
+  "amazonTitleLabel": {
+    "message": "Amazonギフト券 Eメールタイプ"
+  },
+  "addonPageLabel": {
+    "message": "アドオンページ"
+  },
+  "amazonUrl": {
+    "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=ja_JP"
+  },
+  "addonUrl": {
+    "message": "https:\/\/addons.mozilla.org\/ja\/firefox\/addon\/simple-translate\/?src=optionpage"
+  },
+  "networkError": {
+    "message": "エラー: ネットワークの接続状態を確認してください。"
+  },
+  "unavailableError": {
+    "message": "エラー: サービスの利用制限に達しました。しばらく待ってからもう一度お試しください。"
+  },
+  "unknownError": {
+    "message": "エラー: 不明なエラー"
+  },
+  "translatePageMenu": {
+    "message": "ページ全体を翻訳"
+  },
+  "translateTextMenu": {
+    "message": "選択したテキストを翻訳"
+  },
+  "translateLinkMenu": {
+    "message": "選択したリンクを翻訳"
+  }
 }

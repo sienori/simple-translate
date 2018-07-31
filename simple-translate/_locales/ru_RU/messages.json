@@ -1,170 +1,188 @@
 {
-    "extName": {
-        "message": "Simple Translate"
-    },
-    "extDescription": {
-        "message": "Простое расширение для быстрого перевода выделенного текста или всей страницы."
-    },
-    "donateWithPaypalLabel": {
-        "message": "Сделать пожертвование через PayPal"
-    },
-    "initialTextArea": {
-        "message": "Введите текст"
-    },
-    "showLink": {
-        "message": "Перевести страницу"
-    },
-    "targetLangLabel": {
-        "message": "Язык перевода"
-    },
-    "langList": {
-        "message": "af:Африкаанс, sq:Албанский, am:Амхарский, ar:Арабский, hy:Армянский, az:Азербайджанский, eu:Баскский, be:Белорусский, bn:Бенгальский, bs:Боснийский, bg:Болгарский, ca:Каталанский, ceb:Себуано, ny:Ньянджа, zh-CN:Китайский (КНР), zh-TW:Китайский (Тайвань), co:Корсиканский, hr:Хорватский, cs:Чешский, da:Датский, nl:Голландский, en:Английский, eo:Эсперанто, et:Эстонский, fi:Финский, fr:Французский, fy:Фризский, gl:Галисийский, ka:Грузинский, de:Немецкий, el:Греческий, gu:Гуджарати, ht:Гаитянский, ha:Хауса, haw:Гавайский, he:Иврит, hi:Хинди, hu:Венгерский, is:Исландский, ig:Игбо, id:Индонезийский, ga:Ирландский, it:Итальянский, ja:Японский, jv:Яванский, kn:Каннада, kk:Казахский, km:Кхмерский, ky:Киргизский, ko:Корейский, ku:Курдский, lo:Лаосский, la:Латинский, lv:Латышский, lt:Литовский, lb:Люксембургский, mk:Македонский, mg:Малагасийский, ms:Малайский, ml:Малаялам, mt:Мальтийский, mi:Маори, mr:Маратхи, mn:Монгольский, hmn:Мяо, my:Бирманский, ne:Непальский, no:Норвежский, fa:Персидский, pl:Польский, pt:Португальский, pa:Пенджабский, ps:Пушту, ro:Румынский, ru:Русский, sm:Самоанский, gd:Гэльский, sr:Сербский, sn:Шона, sd:Синдхи, si:Сингальский, sk:Словацкий, sl:Словенский, so:Сомали, sx:Сото южный, es:Испанский, su:Сунданский, sw:Суахили, sv:Шведский, tl:Тагальский, tg:Таджикский, ta:Тамильский, te:Телугу, th:Тайский, tr:Турецкий, uk:Украинский, ur:Урду, uz:Узбекский, vi:Вьетнамский, cy:Валлийский, xh:Коса, yi:Идиш, yo:Йоруба, zu:Зулу"
-    },
-    "settingsLabel": {
-        "message": "Настройки"
-    },
-    "generalLabel": {
-        "message": "Общие"
-    },
-    "targetLangCaptionLabel": {
-        "message": "Выберите язык перевода по умолчанию."
-    },
-    "webPageLabel": {
-        "message": "Веб-страница"
-    },
-    "ifShowCandidateLabel": {
-        "message": "Показывать варианты перевода"
-    },
-    "ifShowCandidateCaptionLabel": {
-        "message": "Показывать несколько вариантов перевода одиночного слова."
-    },
-    "whenSelectTextLabel": {
-        "message": "Поведение при выделении текста"
-    },
-    "ifAutoTranslateLabel": {
-        "message": "Показать панель с переводом"
-    },
-    "ifAutoTranslateCaptionLabel": {
-        "message": "Сразу показать панель с переводом, не показывая кнопку."
-    },
-    "ifShowButtonLabel": {
-        "message": "Показать кнопку перевода"
-    },
-    "ifShowButtonCaptionLabel": {
-        "message": "Показать кнопку для открытия панели с переводом."
-    },
-    "dontshowbuttonlabel": {
-        "message": "Ничего не делать"
-    },
-    "dontshowbuttonCaptionlabel": {
-        "message": "Не показывать ни кнопку перевода, ни панель с переводом."
-    },
-    "ifCheckLangLabel": {
-        "message": "Не показывать кнопку, если перевод не требуется"
-    },
-    "ifCheckLangCaptionLabel": {
-        "message": "Если язык выделенного текста совпадает с языком перевода, то кнопка не показывается."
-    },
-    "toolbarLabel": {
-        "message": "Окно на панели инструментов"
-    },
-    "ifChangeSecondLangLabel": {
-        "message": "Автоматически переключаться на дополнительный язык перевода"
-    },
-    "ifChangeSecondLangCaptionLabel": {
-        "message": "Переключаться на дополнительный язык перевода в окне на панели инструментов, если язык исходного текста совпадает с языком перевода по умолчанию."
-    },
-    "secondTargetLangLabel": {
-        "message": "Дополнительный язык перевода"
-    },
-    "secondTargetLangCaptionLabel": {
-        "message": "Выберите дополнительный язык перевода."
-    },
-    "menuLabel": {
-        "message": "Контекстное меню"
-    },
-    "ifShowMenuLabel": {
-        "message": "Добавить пункты в контекстное меню"
-    },
-    "ifShowMenuCaptionLabel": {
-        "message": "Добавить команды перевода в контекстное меню веб-страницы и контекстное меню вкладки."
-    },
-    "styleLabel": {
-        "message": "Стиль"
-    },
-    "buttonStyleLabel": {
-        "message": "Кнопка перевода"
-    },
-    "buttonStyleCaptionLabel": {
-        "message": "Настройте стиль кнопки перевода, показываемой на веб-странице."
-    },
-    "buttonSizeLabel": {
-        "message": "Размер"
-    },
-    "buttonPositionLabel": {
-        "message": "Положение"
-    },
-    "rightUpLabel": {
-        "message": "Вверху справа"
-    },
-    "rightDownLabel": {
-        "message": "Внизу справа"
-    },
-    "leftUpLabel": {
-        "message": "Вверху слева"
-    },
-    "leftDownLabel": {
-        "message": "Внизу слева"
-    },
-    "panelStyleLabel": {
-        "message": "Панель с переводом"
-    },
-    "panelStyleCaptionLabel": {
-        "message": "Настройте стиль панели с переводом, показываемой на веб-странице."
-    },
-    "widthLabel": {
-        "message": "Ширина"
-    },
-    "heightLabel": {
-        "message": "Высота"
-    },
-    "fontSizeLabel": {
-        "message": "Размер шрифта"
-    },
-    "bgColorLabel": {
-        "message": "Цвет фона"
-    },
-    "informationLabel": {
-        "message": "Информация"
-    },
-    "licenseLabel": {
-        "message": "Лицензия"
-    },
-    "donationLabel": {
-        "message": "Пожалуйста, поблагодарите автора"
-    },
-    "donationCaptionLabel": {
-        "message": "Спасибо за использование Simple Translate.<br>Ваша поддержка это большая помощь в дальнейшем развитии расширения.<br>Если вам нравится Simple Translate, пожалуйста, подумайте о внесении небольшого пожертвования."
-    },
-    "amazonTitleLabel": {
-        "message": "amazon.co.jp eGift Cards"
-    },
-    "addonPageLabel": {
-        "message": "Страница расширения"
-    },
-    "amazonUrl": {
-        "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
-    },
-    "addonUrl": {
-        "message": "https:\/\/addons.mozilla.org\/ru-RU\/firefox\/addon\/simple-translate\/?src=optionpage"
-    },
-    "translatePageMenu": {
-        "message": "Перевести всю страницу"
-    },
-    "translateTextMenu": {
-        "message": "Перевести выделенный текст"
-    },
-    "translateLinkMenu": {
-        "message": "Перевести страницу по ссылке"
-    }
+  "extName": {
+    "message": "Simple Translate"
+  },
+  "extDescription": {
+    "message": "Простое расширение для быстрого перевода выделенного текста или всей страницы."
+  },
+  "donateWithPaypalLabel": {
+    "message": "Сделать пожертвование через PayPal"
+  },
+  "initialTextArea": {
+    "message": "Введите текст"
+  },
+  "showLink": {
+    "message": "Перевести страницу"
+  },
+  "targetLangLabel": {
+    "message": "Язык перевода"
+  },
+  "langList": {
+    "message": "af:Африкаанс, sq:Албанский, am:Амхарский, ar:Арабский, hy:Армянский, az:Азербайджанский, eu:Баскский, be:Белорусский, bn:Бенгальский, bs:Боснийский, bg:Болгарский, ca:Каталанский, ceb:Себуано, ny:Ньянджа, zh-CN:Китайский (КНР), zh-TW:Китайский (Тайвань), co:Корсиканский, hr:Хорватский, cs:Чешский, da:Датский, nl:Голландский, en:Английский, eo:Эсперанто, et:Эстонский, fi:Финский, fr:Французский, fy:Фризский, gl:Галисийский, ka:Грузинский, de:Немецкий, el:Греческий, gu:Гуджарати, ht:Гаитянский, ha:Хауса, haw:Гавайский, he:Иврит, hi:Хинди, hu:Венгерский, is:Исландский, ig:Игбо, id:Индонезийский, ga:Ирландский, it:Итальянский, ja:Японский, jv:Яванский, kn:Каннада, kk:Казахский, km:Кхмерский, ky:Киргизский, ko:Корейский, ku:Курдский, lo:Лаосский, la:Латинский, lv:Латышский, lt:Литовский, lb:Люксембургский, mk:Македонский, mg:Малагасийский, ms:Малайский, ml:Малаялам, mt:Мальтийский, mi:Маори, mr:Маратхи, mn:Монгольский, hmn:Мяо, my:Бирманский, ne:Непальский, no:Норвежский, fa:Персидский, pl:Польский, pt:Португальский, pa:Пенджабский, ps:Пушту, ro:Румынский, ru:Русский, sm:Самоанский, gd:Гэльский, sr:Сербский, sn:Шона, sd:Синдхи, si:Сингальский, sk:Словацкий, sl:Словенский, so:Сомали, sx:Сото южный, es:Испанский, su:Сунданский, sw:Суахили, sv:Шведский, tl:Тагальский, tg:Таджикский, ta:Тамильский, te:Телугу, th:Тайский, tr:Турецкий, uk:Украинский, ur:Урду, uz:Узбекский, vi:Вьетнамский, cy:Валлийский, xh:Коса, yi:Идиш, yo:Йоруба, zu:Зулу"
+  },
+  "settingsLabel": {
+    "message": "Настройки"
+  },
+  "generalLabel": {
+    "message": "Общие"
+  },
+  "targetLangCaptionLabel": {
+    "message": "Выберите язык перевода по умолчанию."
+  },
+  "webPageLabel": {
+    "message": "Веб-страница"
+  },
+  "ifShowCandidateLabel": {
+    "message": "Показывать варианты перевода"
+  },
+  "ifShowCandidateCaptionLabel": {
+    "message": "Показывать несколько вариантов перевода одиночного слова."
+  },
+  "whenSelectTextLabel": {
+    "message": "Поведение при выделении текста"
+  },
+  "ifAutoTranslateLabel": {
+    "message": "Показать панель с переводом"
+  },
+  "ifAutoTranslateCaptionLabel": {
+    "message": "Сразу показать панель с переводом, не показывая кнопку."
+  },
+  "ifShowButtonLabel": {
+    "message": "Показать кнопку перевода"
+  },
+  "ifShowButtonCaptionLabel": {
+    "message": "Показать кнопку для открытия панели с переводом."
+  },
+  "dontshowbuttonlabel": {
+    "message": "Ничего не делать"
+  },
+  "dontshowbuttonCaptionlabel": {
+    "message": "Не показывать ни кнопку перевода, ни панель с переводом."
+  },
+  "ifCheckLangLabel": {
+    "message": "Не показывать кнопку, если перевод не требуется"
+  },
+  "ifCheckLangCaptionLabel": {
+    "message": "Если язык выделенного текста совпадает с языком перевода, то кнопка не показывается."
+  },
+  "toolbarLabel": {
+    "message": "Окно на панели инструментов"
+  },
+  "ifChangeSecondLangLabel": {
+    "message": "Автоматически переключаться на дополнительный язык перевода"
+  },
+  "ifChangeSecondLangCaptionLabel": {
+    "message": "Переключаться на дополнительный язык перевода в окне на панели инструментов, если язык исходного текста совпадает с языком перевода по умолчанию."
+  },
+  "secondTargetLangLabel": {
+    "message": "Дополнительный язык перевода"
+  },
+  "secondTargetLangCaptionLabel": {
+    "message": "Выберите дополнительный язык перевода."
+  },
+  "waitTimeLabel": {
+    "message": "Waiting time to translate"
+  },
+  "waitTimeCaptionLabel": {
+    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+  },
+  "waitTime2CaptionLabel": {
+    "message": "If you translate it many times in a short time, it may become unusable for a while."
+  },
+  "menuLabel": {
+    "message": "Контекстное меню"
+  },
+  "ifShowMenuLabel": {
+    "message": "Добавить пункты в контекстное меню"
+  },
+  "ifShowMenuCaptionLabel": {
+    "message": "Добавить команды перевода в контекстное меню веб-страницы и контекстное меню вкладки."
+  },
+  "styleLabel": {
+    "message": "Стиль"
+  },
+  "buttonStyleLabel": {
+    "message": "Кнопка перевода"
+  },
+  "buttonStyleCaptionLabel": {
+    "message": "Настройте стиль кнопки перевода, показываемой на веб-странице."
+  },
+  "buttonSizeLabel": {
+    "message": "Размер"
+  },
+  "buttonPositionLabel": {
+    "message": "Положение"
+  },
+  "rightUpLabel": {
+    "message": "Вверху справа"
+  },
+  "rightDownLabel": {
+    "message": "Внизу справа"
+  },
+  "leftUpLabel": {
+    "message": "Вверху слева"
+  },
+  "leftDownLabel": {
+    "message": "Внизу слева"
+  },
+  "panelStyleLabel": {
+    "message": "Панель с переводом"
+  },
+  "panelStyleCaptionLabel": {
+    "message": "Настройте стиль панели с переводом, показываемой на веб-странице."
+  },
+  "widthLabel": {
+    "message": "Ширина"
+  },
+  "heightLabel": {
+    "message": "Высота"
+  },
+  "fontSizeLabel": {
+    "message": "Размер шрифта"
+  },
+  "bgColorLabel": {
+    "message": "Цвет фона"
+  },
+  "informationLabel": {
+    "message": "Информация"
+  },
+  "licenseLabel": {
+    "message": "Лицензия"
+  },
+  "donationLabel": {
+    "message": "Пожалуйста, поблагодарите автора"
+  },
+  "donationCaptionLabel": {
+    "message": "Спасибо за использование Simple Translate.<br>Ваша поддержка это большая помощь в дальнейшем развитии расширения.<br>Если вам нравится Simple Translate, пожалуйста, подумайте о внесении небольшого пожертвования."
+  },
+  "amazonTitleLabel": {
+    "message": "amazon.co.jp eGift Cards"
+  },
+  "addonPageLabel": {
+    "message": "Страница расширения"
+  },
+  "amazonUrl": {
+    "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
+  },
+  "addonUrl": {
+    "message": "https:\/\/addons.mozilla.org\/ru-RU\/firefox\/addon\/simple-translate\/?src=optionpage"
+  },
+  "networkError": {
+    "message": "Error: Check network connection status."
+  },
+  "unavailableError": {
+    "message": "Error: Service usage limit reached. Please wait a while and try again."
+  },
+  "unknownError": {
+    "message": "Error: Unknown error"
+  },
+  "translatePageMenu": {
+    "message": "Перевести всю страницу"
+  },
+  "translateTextMenu": {
+    "message": "Перевести выделенный текст"
+  },
+  "translateLinkMenu": {
+    "message": "Перевести страницу по ссылке"
+  }
 }

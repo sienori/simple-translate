@@ -1,170 +1,188 @@
 {
-    "extName": {
-        "message": "Simple Translate"
-    },
-    "extDescription": {
-        "message": "瀏覽網際網路時可以輕鬆檢視翻譯。"
-    },
-    "donateWithPaypalLabel": {
-        "message": "透過 PayPal 進行贊助"
-    },
-    "initialTextArea": {
-        "message": "輸入文字"
-    },
-    "showLink": {
-        "message": "翻譯此頁面"
-    },
-    "targetLangLabel": {
-        "message": "目標語言"
-    },
-    "langList": {
-        "message": "af:南非語, sq:阿爾巴尼亞語, am:阿姆哈拉語, ar:阿拉伯語, hy:亞美尼亞語, az:阿塞拜疆語, eu:巴斯克語, be:白俄羅斯語, bn:孟加拉語, bs:波士尼亞語, bg:保加利亞語, ca:加泰隆尼亞語, ceb:宿霧語, ny:齊切瓦語, zh-CN:中文 (簡體), zh-TW:中文 (繁體), co:科西嘉語, hr:克羅埃西亞語, cs:捷克語, da:丹麥語, nl:荷蘭語, en:英語, eo:世界語, et:愛沙尼亞語, fi:芬蘭語, fr:法語, fy:菲士蘭語, gl:加利西亞語, ka:喬治亞語, de:德語, el:希臘語, gu:古吉拉特語, ht:海地語, ha:豪薩語, haw:夏威夷語, he:希伯來語, hi:印地語, hu:匈牙利語, is:冰島語, ig:伊博語, id:印尼語, ga:愛爾蘭語, it:義大利語, ja:日語, jv:爪哇語, kn:康納達語, kk:哈薩克語, km:高棉語, ky:柯爾克孜語, ko:韓語, ku:庫德語, lo:寮語, la:拉丁語, lv:拉脫維亞語, lt:立陶宛語, lb:盧森堡語, mk:馬其頓語, mg:馬拉加斯語, ms:馬來語, ml:馬拉雅拉姆語, mt:馬爾他語, mi:毛利語, mr:馬拉提語, mn:蒙古語, hmn:孟語, my:緬甸語, ne:尼泊爾語, no:挪威語, fa:波斯語, pl:波蘭語, pt:葡萄牙語, pa:旁遮普語, ps:普什圖語, ro:羅馬尼亞語, ru:俄語, sm:薩摩亞語, gd:蘇格蘭蓋爾語, sr:塞爾維亞語, sn:修納語, sd:信德語, si:僧伽羅語, sk:斯洛伐克語, sl:斯洛維尼亞語, so:索馬利亞語, sx:塞索托語, es:西班牙語, su:巽他語, sw:斯瓦希里語, sv:瑞典語, tl:他加祿語, tg:塔吉克語, ta:坦米爾語, te:泰盧固語, th:泰語, tr:土耳其語, uk:烏克蘭語, ur:烏爾都語, uz:烏茲別克語, vi:越南語, cy:威爾斯語, xh:科薩語, yi:意第緒語, yo:約魯巴語, zu:祖魯語"
-    },
-    "settingsLabel": {
-        "message": "設定"
-    },
-    "generalLabel": {
-        "message": "一般設定"
-    },
-    "targetLangCaptionLabel": {
-        "message": "選擇預設的目標語言。"
-    },
-    "webPageLabel": {
-        "message": "網頁"
-    },
-    "ifShowCandidateLabel": {
-        "message": "顯示候選翻譯"
-    },
-    "ifShowCandidateCaptionLabel": {
-        "message": "翻譯單字時顯示多個候選翻譯。"
-    },
-    "whenSelectTextLabel": {
-        "message": "選擇文字時的行為"
-    },
-    "ifAutoTranslateLabel": {
-        "message": "顯示翻譯面板"
-    },
-    "ifAutoTranslateCaptionLabel": {
-        "message": "不顯示翻譯按鈕，直接顯示翻譯面板。"
-    },
-    "ifShowButtonLabel": {
-        "message": "顯示翻譯按鈕"
-    },
-    "ifShowButtonCaptionLabel": {
-        "message": "點選時顯示翻譯按鈕以開啟翻譯面板。"
-    },
-    "dontshowbuttonlabel": {
-        "message": "不顯示按鈕與面板"
-    },
-    "dontshowbuttonCaptionlabel": {
-        "message": "不顯示翻譯按鈕或翻譯面板。"
-    },
-    "ifCheckLangLabel": {
-        "message": "如果不需翻譯時, 不要顯示按鈕"
-    },
-    "ifCheckLangCaptionLabel": {
-        "message": "偵測所選文字的語言, 如果它與目標語言相同, 則不顯示按鈕。"
-    },
-    "toolbarLabel": {
-        "message": "工具列彈出式選單"
-    },
-    "ifChangeSecondLangLabel": {
-        "message": "自動切換至第二語言"
-    },
-    "ifChangeSecondLangCaptionLabel": {
-        "message": "偵測輸入文字的語言, 如果它與預設的目標語言相同, 則將其翻譯為第二語言。"
-    },
-    "secondTargetLangLabel": {
-        "message": "第二語言"
-    },
-    "secondTargetLangCaptionLabel": {
-        "message": "選擇第二個目標語言。"
-    },
-    "menuLabel": {
-        "message": "右鍵選單"
-    },
-    "ifShowMenuLabel": {
-        "message": "於右鍵選單中顯示"
-    },
-    "ifShowMenuCaptionLabel": {
-        "message": "將翻譯功能新增至右鍵選單。"
-    },
-    "styleLabel": {
-        "message": "樣式"
-    },
-    "buttonStyleLabel": {
-        "message": "翻譯按鈕"
-    },
-    "buttonStyleCaptionLabel": {
-        "message": "指定在網頁上顯示的翻譯按鈕樣式。"
-    },
-    "buttonSizeLabel": {
-        "message": "大小"
-    },
-    "buttonPositionLabel": {
-        "message": "顯示位置"
-    },
-    "rightUpLabel": {
-        "message": "右上角"
-    },
-    "rightDownLabel": {
-        "message": "右下角"
-    },
-    "leftUpLabel": {
-        "message": "左上角"
-    },
-    "leftDownLabel": {
-        "message": "左下角"
-    },
-    "panelStyleLabel": {
-        "message": "翻譯面板"
-    },
-    "panelStyleCaptionLabel": {
-        "message": "指定在網頁上顯示的翻譯面板樣式。"
-    },
-    "widthLabel": {
-        "message": "寬度"
-    },
-    "heightLabel": {
-        "message": "高度"
-    },
-    "fontSizeLabel": {
-        "message": "字型大小"
-    },
-    "bgColorLabel": {
-        "message": "背景色彩"
-    },
-    "informationLabel": {
-        "message": "附加元件資訊"
-    },
-    "licenseLabel": {
-        "message": "授權條款"
-    },
-    "donationLabel": {
-        "message": "請贊助我吧！"
-    },
-    "donationCaptionLabel": {
-        "message": "感謝您使用 Simple Translate。<br>您的支持是我繼續開發這個附加元件的動力。<br>如果您喜歡 Simple Translate，希望您可以贊助我。"
-    },
-    "amazonTitleLabel": {
-        "message": "贊助我 amazon 電子禮品卡"
-    },
-    "addonPageLabel": {
-        "message": "AMO 附加元件頁面"
-    },
-    "amazonUrl": {
-        "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=zh_CN"
-    },
-    "addonUrl": {
-        "message": "https:\/\/addons.mozilla.org\/zh-TW\/firefox\/addon\/simple-translate\/?src=optionpage"
-    },
-    "translatePageMenu": {
-        "message": "翻譯此頁面"
-    },
-    "translateTextMenu": {
-        "message": "翻譯選取文字"
-    },
-    "translateLinkMenu": {
-        "message": "翻譯選取鏈結"
-    }
+  "extName": {
+    "message": "Simple Translate"
+  },
+  "extDescription": {
+    "message": "瀏覽網際網路時可以輕鬆檢視翻譯。"
+  },
+  "donateWithPaypalLabel": {
+    "message": "透過 PayPal 進行贊助"
+  },
+  "initialTextArea": {
+    "message": "輸入文字"
+  },
+  "showLink": {
+    "message": "翻譯此頁面"
+  },
+  "targetLangLabel": {
+    "message": "目標語言"
+  },
+  "langList": {
+    "message": "af:南非語, sq:阿爾巴尼亞語, am:阿姆哈拉語, ar:阿拉伯語, hy:亞美尼亞語, az:阿塞拜疆語, eu:巴斯克語, be:白俄羅斯語, bn:孟加拉語, bs:波士尼亞語, bg:保加利亞語, ca:加泰隆尼亞語, ceb:宿霧語, ny:齊切瓦語, zh-CN:中文 (簡體), zh-TW:中文 (繁體), co:科西嘉語, hr:克羅埃西亞語, cs:捷克語, da:丹麥語, nl:荷蘭語, en:英語, eo:世界語, et:愛沙尼亞語, fi:芬蘭語, fr:法語, fy:菲士蘭語, gl:加利西亞語, ka:喬治亞語, de:德語, el:希臘語, gu:古吉拉特語, ht:海地語, ha:豪薩語, haw:夏威夷語, he:希伯來語, hi:印地語, hu:匈牙利語, is:冰島語, ig:伊博語, id:印尼語, ga:愛爾蘭語, it:義大利語, ja:日語, jv:爪哇語, kn:康納達語, kk:哈薩克語, km:高棉語, ky:柯爾克孜語, ko:韓語, ku:庫德語, lo:寮語, la:拉丁語, lv:拉脫維亞語, lt:立陶宛語, lb:盧森堡語, mk:馬其頓語, mg:馬拉加斯語, ms:馬來語, ml:馬拉雅拉姆語, mt:馬爾他語, mi:毛利語, mr:馬拉提語, mn:蒙古語, hmn:孟語, my:緬甸語, ne:尼泊爾語, no:挪威語, fa:波斯語, pl:波蘭語, pt:葡萄牙語, pa:旁遮普語, ps:普什圖語, ro:羅馬尼亞語, ru:俄語, sm:薩摩亞語, gd:蘇格蘭蓋爾語, sr:塞爾維亞語, sn:修納語, sd:信德語, si:僧伽羅語, sk:斯洛伐克語, sl:斯洛維尼亞語, so:索馬利亞語, sx:塞索托語, es:西班牙語, su:巽他語, sw:斯瓦希里語, sv:瑞典語, tl:他加祿語, tg:塔吉克語, ta:坦米爾語, te:泰盧固語, th:泰語, tr:土耳其語, uk:烏克蘭語, ur:烏爾都語, uz:烏茲別克語, vi:越南語, cy:威爾斯語, xh:科薩語, yi:意第緒語, yo:約魯巴語, zu:祖魯語"
+  },
+  "settingsLabel": {
+    "message": "設定"
+  },
+  "generalLabel": {
+    "message": "一般設定"
+  },
+  "targetLangCaptionLabel": {
+    "message": "選擇預設的目標語言。"
+  },
+  "webPageLabel": {
+    "message": "網頁"
+  },
+  "ifShowCandidateLabel": {
+    "message": "顯示候選翻譯"
+  },
+  "ifShowCandidateCaptionLabel": {
+    "message": "翻譯單字時顯示多個候選翻譯。"
+  },
+  "whenSelectTextLabel": {
+    "message": "選擇文字時的行為"
+  },
+  "ifAutoTranslateLabel": {
+    "message": "顯示翻譯面板"
+  },
+  "ifAutoTranslateCaptionLabel": {
+    "message": "不顯示翻譯按鈕，直接顯示翻譯面板。"
+  },
+  "ifShowButtonLabel": {
+    "message": "顯示翻譯按鈕"
+  },
+  "ifShowButtonCaptionLabel": {
+    "message": "點選時顯示翻譯按鈕以開啟翻譯面板。"
+  },
+  "dontshowbuttonlabel": {
+    "message": "不顯示按鈕與面板"
+  },
+  "dontshowbuttonCaptionlabel": {
+    "message": "不顯示翻譯按鈕或翻譯面板。"
+  },
+  "ifCheckLangLabel": {
+    "message": "如果不需翻譯時, 不要顯示按鈕"
+  },
+  "ifCheckLangCaptionLabel": {
+    "message": "偵測所選文字的語言, 如果它與目標語言相同, 則不顯示按鈕。"
+  },
+  "toolbarLabel": {
+    "message": "工具列彈出式選單"
+  },
+  "ifChangeSecondLangLabel": {
+    "message": "自動切換至第二語言"
+  },
+  "ifChangeSecondLangCaptionLabel": {
+    "message": "偵測輸入文字的語言, 如果它與預設的目標語言相同, 則將其翻譯為第二語言。"
+  },
+  "secondTargetLangLabel": {
+    "message": "第二語言"
+  },
+  "secondTargetLangCaptionLabel": {
+    "message": "選擇第二個目標語言。"
+  },
+  "waitTimeLabel": {
+    "message": "Waiting time to translate"
+  },
+  "waitTimeCaptionLabel": {
+    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+  },
+  "waitTime2CaptionLabel": {
+    "message": "If you translate it many times in a short time, it may become unusable for a while."
+  },
+  "menuLabel": {
+    "message": "右鍵選單"
+  },
+  "ifShowMenuLabel": {
+    "message": "於右鍵選單中顯示"
+  },
+  "ifShowMenuCaptionLabel": {
+    "message": "將翻譯功能新增至右鍵選單。"
+  },
+  "styleLabel": {
+    "message": "樣式"
+  },
+  "buttonStyleLabel": {
+    "message": "翻譯按鈕"
+  },
+  "buttonStyleCaptionLabel": {
+    "message": "指定在網頁上顯示的翻譯按鈕樣式。"
+  },
+  "buttonSizeLabel": {
+    "message": "大小"
+  },
+  "buttonPositionLabel": {
+    "message": "顯示位置"
+  },
+  "rightUpLabel": {
+    "message": "右上角"
+  },
+  "rightDownLabel": {
+    "message": "右下角"
+  },
+  "leftUpLabel": {
+    "message": "左上角"
+  },
+  "leftDownLabel": {
+    "message": "左下角"
+  },
+  "panelStyleLabel": {
+    "message": "翻譯面板"
+  },
+  "panelStyleCaptionLabel": {
+    "message": "指定在網頁上顯示的翻譯面板樣式。"
+  },
+  "widthLabel": {
+    "message": "寬度"
+  },
+  "heightLabel": {
+    "message": "高度"
+  },
+  "fontSizeLabel": {
+    "message": "字型大小"
+  },
+  "bgColorLabel": {
+    "message": "背景色彩"
+  },
+  "informationLabel": {
+    "message": "附加元件資訊"
+  },
+  "licenseLabel": {
+    "message": "授權條款"
+  },
+  "donationLabel": {
+    "message": "請贊助我吧！"
+  },
+  "donationCaptionLabel": {
+    "message": "感謝您使用 Simple Translate。<br>您的支持是我繼續開發這個附加元件的動力。<br>如果您喜歡 Simple Translate，希望您可以贊助我。"
+  },
+  "amazonTitleLabel": {
+    "message": "贊助我 amazon 電子禮品卡"
+  },
+  "addonPageLabel": {
+    "message": "AMO 附加元件頁面"
+  },
+  "amazonUrl": {
+    "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=zh_CN"
+  },
+  "addonUrl": {
+    "message": "https:\/\/addons.mozilla.org\/zh-TW\/firefox\/addon\/simple-translate\/?src=optionpage"
+  },
+  "networkError": {
+    "message": "Error: Check network connection status."
+  },
+  "unavailableError": {
+    "message": "Error: Service usage limit reached. Please wait a while and try again."
+  },
+  "unknownError": {
+    "message": "Error: Unknown error"
+  },
+  "translatePageMenu": {
+    "message": "翻譯此頁面"
+  },
+  "translateTextMenu": {
+    "message": "翻譯選取文字"
+  },
+  "translateLinkMenu": {
+    "message": "翻譯選取鏈結"
+  }
 }

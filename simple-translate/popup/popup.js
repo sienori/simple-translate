@@ -124,7 +124,8 @@ textarea.addEventListener("paste", resize);
 textarea.addEventListener("keydown", resize);
 
 textarea.addEventListener("keyup", function(event) {
-  //if (event.keyCode == 13) resize();
+  if (sourceWord == textarea.value) return;
+
   resize();
   inputText();
 });
@@ -145,9 +146,23 @@ function textAreaClick() {
   textarea.select();
 }
 
+let inputTimer;
 //文字入力時の処理
-async function inputText() {
+function inputText() {
   sourceWord = textarea.value;
+  const waitTime = S.get().waitTime;
+
+  clearTimeout(inputTimer);
+  inputTimer = setTimeout(() => {
+    runTranslation();
+  }, waitTime);
+}
+
+async function runTranslation() {
+  if (sourceWord == "") {
+    showResult("", "");
+    return;
+  }
 
   const resultData = await T.translate(sourceWord, "auto", langList.value);
   changeSecondLang(defaultTargetLang, resultData.sourceLanguage, resultData.percentage);

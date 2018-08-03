@@ -87,7 +87,7 @@
     "message": "Настройте задержку между вводом символа и началом процесса перевода (миллисекунды)."
   },
   "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
+    "message": "Если запускать перевод слишком часто, сервис может стать недоступным на некоторое время."
   },
   "menuLabel": {
     "message": "Контекстное меню"

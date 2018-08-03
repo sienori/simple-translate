@@ -174,7 +174,7 @@
     "message": "Error: Service usage limit reached. Please wait a while and try again."
   },
   "unknownError": {
-    "message": "Ошибка: Неизвестная ошибка"
+    "message": "Ошибка: Неизвестная ошибка."
   },
   "translatePageMenu": {
     "message": "Перевести всю страницу"

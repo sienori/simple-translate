@@ -81,7 +81,7 @@
     "message": "選擇第二個目標語言。"
   },
   "waitTimeLabel": {
-    "message": "Waiting time to translate"
+    "message": "翻譯等待時間"
   },
   "waitTimeCaptionLabel": {
     "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
@@ -171,10 +171,10 @@
     "message": "Error: Check network connection status."
   },
   "unavailableError": {
-    "message": "Error: Service usage limit reached. Please wait a while and try again."
+    "message": "錯誤: 已達服務使用限制。請稍後再試一次。"
   },
   "unknownError": {
-    "message": "Error: Unknown error"
+    "message": "錯誤：未知的錯誤"
   },
   "translatePageMenu": {
     "message": "翻譯此頁面"

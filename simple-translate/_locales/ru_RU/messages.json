@@ -168,13 +168,13 @@
     "message": "https:\/\/addons.mozilla.org\/ru-RU\/firefox\/addon\/simple-translate\/?src=optionpage"
   },
   "networkError": {
-    "message": "Error: Check network connection status."
+    "message": "Ошибка: Проверьте состояние сетевого подключения."
   },
   "unavailableError": {
     "message": "Error: Service usage limit reached. Please wait a while and try again."
   },
   "unknownError": {
-    "message": "Error: Unknown error"
+    "message": "Ошибка: Неизвестная ошибка"
   },
   "translatePageMenu": {
     "message": "Перевести всю страницу"

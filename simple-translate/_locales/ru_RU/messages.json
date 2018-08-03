@@ -81,7 +81,7 @@
     "message": "Выберите дополнительный язык перевода."
   },
   "waitTimeLabel": {
-    "message": "Waiting time to translate"
+    "message": "Задержка перед переводом"
   },
   "waitTimeCaptionLabel": {
     "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"

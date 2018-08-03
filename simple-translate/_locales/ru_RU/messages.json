@@ -84,7 +84,7 @@
     "message": "Задержка перед переводом"
   },
   "waitTimeCaptionLabel": {
-    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+    "message": "Настройте задержку между вводом символов и началом процесса перевода (миллисекунды)."
   },
   "waitTime2CaptionLabel": {
     "message": "If you translate it many times in a short time, it may become unusable for a while."

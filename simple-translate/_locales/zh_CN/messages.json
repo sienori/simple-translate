@@ -81,13 +81,13 @@
     "message": "选择第二种目标语言。"
   },
   "waitTimeLabel": {
-    "message": "Waiting time to translate"
+    "message": "翻译等待时间"
   },
   "waitTimeCaptionLabel": {
-    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+    "message": "指定从字符输入到翻译开始的等待时间。（毫秒）"
   },
   "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
+    "message": "如果您在短时间内翻译太多次，可能会暂时无法使用翻译功能。"
   },
   "menuLabel": {
     "message": "右键菜单"
@@ -168,13 +168,13 @@
     "message": "https:\/\/addons.mozilla.org\/zh-CN\/firefox\/addon\/simple-translate\/?src=optionpage"
   },
   "networkError": {
-    "message": "Error: Check network connection status."
+    "message": "错误：请检查您的网络连接状态"
   },
   "unavailableError": {
-    "message": "Error: Service usage limit reached. Please wait a while and try again."
+    "message": "错误：已达服务使用限制。请稍后再试。"
   },
   "unknownError": {
-    "message": "Error: Unknown error"
+    "message": "错误：未知错误"
   },
   "translatePageMenu": {
     "message": "翻译此页面"

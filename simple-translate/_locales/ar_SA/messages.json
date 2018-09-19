@@ -81,10 +81,10 @@
     "message": "أخر لغة الهدف الثانية."
   },
   "waitTimeLabel": {
-    "message": "Waiting time to translate"
+    "message": "انتظر قليلا لترجمة"
   },
   "waitTimeCaptionLabel": {
-    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+    "message": "تحديد وقت الانتظار لادخال الاحرف حتي البدء بالترجمة"
   },
   "waitTime2CaptionLabel": {
     "message": "If you translate it many times in a short time, it may become unusable for a while."

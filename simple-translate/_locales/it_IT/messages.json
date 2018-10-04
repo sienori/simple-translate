@@ -51,7 +51,7 @@
     "message": "Mostra il pulsante di traduzione"
   },
   "ifShowButtonCaptionLabel": {
-    "message": "Mostra il pulsante di traduzione per aprire il pannello quando viene cliccato."
+    "message": "Mostra il pulsante di traduzione per aprire il pannello quando viene premuto."
   },
   "dontshowbuttonlabel": {
     "message": "Non mostrare il pulsante o il pannello"
@@ -72,31 +72,31 @@
     "message": "Passa automaticamente alla seconda lingua"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+    "message": "Rileva la lingua di input, e se corrisponde alla lingua predefinitia di destinazione, traducila nella seconda lingua."
   },
   "secondTargetLangLabel": {
     "message": "Seconda lingua"
   },
   "secondTargetLangCaptionLabel": {
-    "message": "Select the second target language."
+    "message": "Seleziona la seconda lingua di destinazione."
   },
   "waitTimeLabel": {
-    "message": "Waiting time to translate"
+    "message": "Tempo di traduzione"
   },
   "waitTimeCaptionLabel": {
-    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+    "message": "Specifica il tempo di attesa dall'input del carattere all'inizio della traduzione. (millisecondi)"
   },
   "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
+    "message": "Se traduci molte volte in poco tempo, potrebbe essere inutilizzabile per un po'."
   },
   "menuLabel": {
-    "message": "Context menu"
+    "message": "Menu contestuale"
   },
   "ifShowMenuLabel": {
-    "message": "Display the context menu"
+    "message": "Mostra il menu contestuale"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+    "message": "Aggiungi voci al menu contestuale quando premi il pulsante destro sulla pagina o sulla scheda."
   },
   "styleLabel": {
     "message": "Style"
@@ -174,7 +174,7 @@
     "message": "Error: Service usage limit reached. Please wait a while and try again."
   },
   "unknownError": {
-    "message": "Error: Unknown error"
+    "message": "Errore: Errore sconosciuto"
   },
   "translatePageMenu": {
     "message": "Traduci questa pagina"

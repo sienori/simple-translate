@@ -99,67 +99,67 @@
     "message": "Aggiungi voci al menu contestuale quando premi il pulsante destro sulla pagina o sulla scheda."
   },
   "styleLabel": {
-    "message": "Style"
+    "message": "Stile"
   },
   "buttonStyleLabel": {
-    "message": "Translation button"
+    "message": "Pulsante di traduzione"
   },
   "buttonStyleCaptionLabel": {
-    "message": "Specify the style of the translation button displayed on the web page."
+    "message": "Specifica lo stile del pulsante di traduzione mostrato sulla pagina."
   },
   "buttonSizeLabel": {
-    "message": "Size"
+    "message": "Dimensione"
   },
   "buttonPositionLabel": {
-    "message": "Display position"
+    "message": "Mostra posizione"
   },
   "rightUpLabel": {
-    "message": "Top right"
+    "message": "In Alto a destra"
   },
   "rightDownLabel": {
     "message": "In basso a destra"
   },
   "leftUpLabel": {
-    "message": "Top left"
+    "message": "In Alto a sinistra"
   },
   "leftDownLabel": {
-    "message": "Bottom left"
+    "message": "In basso a sinistra"
   },
   "panelStyleLabel": {
-    "message": "Translation panel"
+    "message": "Pannello di traduzione"
   },
   "panelStyleCaptionLabel": {
-    "message": "Specify the style of the translation panel displayed on the web page."
+    "message": "Specifica lo stile del pannello di traduzione mostrato sulla pagina."
   },
   "widthLabel": {
-    "message": "Width"
+    "message": "Larghezza"
   },
   "heightLabel": {
-    "message": "Height"
+    "message": "Altezza"
   },
   "fontSizeLabel": {
     "message": "Dimensione del font"
   },
   "bgColorLabel": {
-    "message": "Background color"
+    "message": "Colore sfondo"
   },
   "informationLabel": {
-    "message": "Information"
+    "message": "Informazione"
   },
   "licenseLabel": {
     "message": "Licenza"
   },
   "donationLabel": {
-    "message": "Please make a donation"
+    "message": "Per favore fai una donazione"
   },
   "donationCaptionLabel": {
-    "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+    "message": "Grazie per aver usato Simple Translate:<br>Il tuo supporto sarà un grosso incoraggiamento, per continuare lo sviluppo dell'add-on.<br>Se ti piace Simple Translate, sarei onorato se facessi una donazione."
   },
   "amazonTitleLabel": {
     "message": "amazon.co.jp eGift Cards"
   },
   "addonPageLabel": {
-    "message": "Add-on page"
+    "message": "Pagina dell'Add-on"
   },
   "amazonUrl": {
     "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
@@ -168,10 +168,10 @@
     "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
   },
   "networkError": {
-    "message": "Error: Check network connection status."
+    "message": "Errore: Verifica lo stato della connessione di rete."
   },
   "unavailableError": {
-    "message": "Error: Service usage limit reached. Please wait a while and try again."
+    "message": "Errore: Raggiunto il limite di utilizzo del servizio. Per favore riprova tra un po'."
   },
   "unknownError": {
     "message": "Errore: Errore sconosciuto"

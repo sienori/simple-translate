@@ -4,17 +4,45 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 class Translate {
-  constructor() {}
+  constructor() {
+    this.history = [];
+  }
 
   set sourceWord(word) {
     this.sourceWord = word;
   }
 
+  getHistory(sourceWord, sourceLang, targetLang) {
+    const history = this.history.find(
+      history =>
+        history.sourceWord == sourceWord &&
+        history.sourceLang == sourceLang &&
+        history.targetLang == targetLang &&
+        history.result.statusText == "OK"
+    );
+    return history;
+  }
+
+  setHistory(sourceWord, sourceLang, targetLang, formattedResult) {
+    this.history.push({
+      sourceWord: sourceWord,
+      sourceLang: sourceLang,
+      targetLang: targetLang,
+      result: formattedResult
+    });
+  }
+
   async translate(sourceWord, sourceLang = "auto", targetLang) {
     sourceWord = sourceWord.trim();
 
+    const history = this.getHistory(sourceWord, sourceLang, targetLang);
+    if (history) return history.result;
+
     const result = await this.sendRequest(sourceWord, sourceLang, targetLang);
-    return this.formatResult(result);
+    const formattedResult = this.formatResult(result);
+    this.setHistory(sourceWord, sourceLang, targetLang, formattedResult);
+
+    return formattedResult;
   }
 
   sendRequest(word, sourceLang, targetLang) {

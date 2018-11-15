@@ -38,8 +38,9 @@ async function Select(e) {
     const shouldTranslate = existsSelectionWord && isLeftClick && isPanelOutside;
     if (!shouldTranslate) return;
 
-    //選択した言語が翻訳先言語と異なれば翻訳する
-    if (S.get().ifCheckLang) {
+    //選択した言語が翻訳先言語と異なるか判定
+    const shouldShowButtons = S.get().whenSelectText != "dontShowButton";
+    if (S.get().ifCheckLang && shouldShowButtons) {
       const shouldTranslate = await checkLang(selectionWord, "auto", S.get().targetLang);
       if (!shouldTranslate) return;
     }

@@ -39,8 +39,10 @@ async function Select(e) {
     if (!shouldTranslate) return;
 
     //選択した言語が翻訳先言語と異なれば翻訳する
-    const needTranslate = await checkLang(selectionWord, "auto", S.get().targetLang);
-    if (!needTranslate) return;
+    if (S.get().ifCheckLang) {
+      const shouldTranslate = await checkLang(selectionWord, "auto", S.get().targetLang);
+      if (!shouldTranslate) return;
+    }
 
     clickPosition = e;
     switch (S.get().whenSelectText) {
@@ -59,15 +61,18 @@ async function Select(e) {
   }, 0);
 }
 
-//選択テキストの言語をチェックして返す
+//選択テキストの言語をチェックして返す ターゲットとソースの言語が不一致ならtrue
 async function checkLang(sourceWord, sourceLang, targetLang) {
-  if (!S.get().ifCheckLang) return true; //設定がオフならtrue
-  sourceWord = sourceWord.substr(0, 100); //先頭100字で言語を判定
+  //detectLanguageで判定 ターゲットとソースが一致したらfalse
+  const langInfo = await browser.i18n.detectLanguage(sourceWord);
+  if (langInfo.isReliable && langInfo.languages[0].language == targetLang) return false;
 
+  //先頭100字を翻訳にかけて判定
+  sourceWord = sourceWord.substr(0, 100);
   const resultData = await T.translate(sourceWord, sourceLang, targetLang);
-  const needTranslate =
+  const shouldTranslate =
     S.get().targetLang != resultData.sourceLanguage && resultData.percentage > 0;
-  return needTranslate; //ターゲットとソースの言語が不一致ならtrue
+  return shouldTranslate;
 }
 
 //ボタンを表示

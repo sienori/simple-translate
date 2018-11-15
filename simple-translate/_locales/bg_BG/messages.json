@@ -6,7 +6,7 @@
     "message": "Прегледът на преводите е лесен както сърфирате в мрежата."
   },
   "donateWithPaypalLabel": {
-    "message": "Donate with PayPal"
+    "message": "Дарете чрез PayPal"
   },
   "initialTextArea": {
     "message": "Въведете текст"
@@ -36,7 +36,7 @@
     "message": "Показване на варианти на превода"
   },
   "ifShowCandidateCaptionLabel": {
-    "message": "Показва множество кандидати за превода, когато само една дума бъде преведена."
+    "message": "Show multiple translation candidates when a single word is translated."
   },
   "whenSelectTextLabel": {
     "message": "Поведение при избиране на текст"
@@ -90,7 +90,7 @@
     "message": "If you translate it many times in a short time, it may become unusable for a while."
   },
   "menuLabel": {
-    "message": "Context menu"
+    "message": "Контекстно меню"
   },
   "ifShowMenuLabel": {
     "message": "Показване на контекстното меню"

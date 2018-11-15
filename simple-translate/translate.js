@@ -10,24 +10,13 @@ class Translate {
     this.sourceWord = word;
   }
 
-  translate(sourceWord, sourceLang = "auto", targetLang) {
-    //改行で分割
-    const sourceLines = sourceWord.trim().split("\n");
-
-    let promises = [];
-    for (let sourceLine of sourceLines) {
-      promises.push(this.sendRequest(sourceLine, sourceLang, targetLang));
-    }
-
-    return new Promise(resolve => {
-      Promise.all(promises).then(results => {
-        resolve(this.formatResult(results));
-      });
-    });
+  async translate(sourceWord, sourceLang = "auto", targetLang) {
+    const result = await this.sendRequest(sourceWord, sourceLang, targetLang);
+    return this.formatResult(result);
   }
 
   sendRequest(word, sourceLang, targetLang) {
-    const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=${sourceLang}&tl=${targetLang}&dt=t&dt=bd&q=${encodeURIComponent(
+    const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=${sourceLang}&tl=${targetLang}&dt=t&dt=bd&dj=1&q=${encodeURIComponent(
       word
     )}`;
     const xhr = new XMLHttpRequest();
@@ -45,7 +34,7 @@ class Translate {
     });
   }
 
-  formatResult(results) {
+  formatResult(result) {
     const resultData = {
       resultText: "",
       candidateText: "",
@@ -54,40 +43,17 @@ class Translate {
       statusText: ""
     };
 
-    resultData.statusText = results[0].statusText;
+    resultData.statusText = result.statusText;
     if (resultData.statusText !== "OK") return resultData;
 
-    //翻訳元言語を取得
-    resultData.sourceLanguage = results[0].response[2];
-    resultData.percentage = results[0].response[6];
-
-    let candidateText = "";
-    let wordCount = 0;
-    let lineCount = 0;
-
-    for (const result of results) {
-      lineCount++;
-
-      //翻訳文を取得
-      for (const response of result.response[0]) {
-        resultData.resultText += response[0];
-      }
-      resultData.resultText += "\n";
-
-      //訳候補を取得
-      if (result.response[1]) {
-        wordCount++;
-        for (let i = 0; i < result.response[1].length; i++) {
-          const partsOfSpeech = result.response[1][i][0];
-          const candidates = result.response[1][i][1];
-          candidateText += `${partsOfSpeech}${partsOfSpeech != "" ? ": " : ""}${candidates.join(
-            ", "
-          )}\n`;
-        }
-      }
+    resultData.sourceLanguage = result.response.src;
+    resultData.percentage = result.response.confidence;
+    resultData.resultText = result.response.sentences.map(sentence => sentence.trans).join("");
+    if (result.response.dict) {
+      resultData.candidateText = result.response.dict
+        .map(dict => `${dict.pos}${dict.pos != "" ? ": " : ""}${dict.terms.join(", ")}\n`)
+        .join("");
     }
-    //訳候補が一つの単語のみに対して存在するとき返す
-    if (wordCount == 1 && lineCount == 1) resultData.candidateText = candidateText;
 
     return resultData;
   }

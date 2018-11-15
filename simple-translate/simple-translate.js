@@ -38,6 +38,8 @@ async function Select(e) {
     const shouldTranslate = existsSelectionWord && isLeftClick && isPanelOutside;
     if (!shouldTranslate) return;
 
+    clickPosition = e;
+
     //選択した言語が翻訳先言語と異なるか判定
     const shouldShowButtons = S.get().whenSelectText != "dontShowButton";
     if (S.get().ifCheckLang && shouldShowButtons) {
@@ -45,7 +47,6 @@ async function Select(e) {
       if (!shouldTranslate) return;
     }
 
-    clickPosition = e;
     switch (S.get().whenSelectText) {
       case "showButton":
         if (selectionWord.length == 0) return;

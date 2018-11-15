@@ -113,18 +113,20 @@ button.addEventListener(
 );
 
 async function translate(sourceWord, sourceLang, targetLang) {
-  const resultData = await T.translate(sourceWord, sourceLang, targetLang);
-  showResult(resultData.resultText, resultData.candidateText);
+  const result = await T.translate(sourceWord, sourceLang, targetLang);
+  showResult(result);
   panelPosition(clickPosition);
 }
 
-function showResult(resultText, candidateText) {
+function showResult(result) {
   panel.innerHTML = "<p class=result></p><p class=candidate>";
   const resultArea = panel.getElementsByClassName("result")[0];
   const candidateArea = panel.getElementsByClassName("candidate")[0];
 
-  resultArea.innerText = resultText;
-  if (S.get().ifShowCandidate) candidateArea.innerText = candidateText;
+  resultArea.innerText = result.resultText;
+  if (S.get().ifShowCandidate) candidateArea.innerText = result.candidateText;
+  if (result.statusText == "Service Unavailable")
+    candidateArea.innerText = browser.i18n.getMessage("unavailableError");
 }
 
 //パネル表示

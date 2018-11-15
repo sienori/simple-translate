@@ -8,10 +8,6 @@ class Translate {
     this.history = [];
   }
 
-  set sourceWord(word) {
-    this.sourceWord = word;
-  }
-
   getHistory(sourceWord, sourceLang, targetLang) {
     const history = this.history.find(
       history =>

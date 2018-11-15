@@ -11,6 +11,8 @@ class Translate {
   }
 
   async translate(sourceWord, sourceLang = "auto", targetLang) {
+    sourceWord = sourceWord.trim();
+
     const result = await this.sendRequest(sourceWord, sourceLang, targetLang);
     return this.formatResult(result);
   }

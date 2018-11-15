@@ -27,139 +27,139 @@
     "message": "Generale"
   },
   "targetLangCaptionLabel": {
-    "message": "Select the default target language."
+    "message": "Seleziona la lingua di destinazione predefinita."
   },
   "webPageLabel": {
     "message": "Pagina web"
   },
   "ifShowCandidateLabel": {
-    "message": "Show translation candidates"
+    "message": "Mostra le traduzioni candidate"
   },
   "ifShowCandidateCaptionLabel": {
-    "message": "Show multiple translation candidates when a single word is translated."
+    "message": "Mostra multiple traduzioni quando viene tradotta una sola parola."
   },
   "whenSelectTextLabel": {
-    "message": "Behavior when selecting text"
+    "message": "Comportamento quando si seleziona il testo"
   },
   "ifAutoTranslateLabel": {
-    "message": "Display translation panel"
+    "message": "Mostra il pannello di traduzione"
   },
   "ifAutoTranslateCaptionLabel": {
-    "message": "Directly display the translation panel without displaying the button."
+    "message": "Mostra direttamente il pannello di traduzione senza mostrare il pulsante."
   },
   "ifShowButtonLabel": {
-    "message": "Display translation button"
+    "message": "Mostra il pulsante di traduzione"
   },
   "ifShowButtonCaptionLabel": {
-    "message": "Display the translation button to open the panel when clicked."
+    "message": "Mostra il pulsante di traduzione per aprire il pannello quando viene premuto."
   },
   "dontshowbuttonlabel": {
-    "message": "Don't display button or panel"
+    "message": "Non mostrare il pulsante o il pannello"
   },
   "dontshowbuttonCaptionlabel": {
-    "message": "Don't display the translation button or the translation panel."
+    "message": "Non mostrare il pulsante o il pannello di traduzione."
   },
   "ifCheckLangLabel": {
-    "message": "Do not display the button if translation is not required"
+    "message": "Non mostrare il pulsante se la traduzione non è richiesta"
   },
   "ifCheckLangCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+    "message": "Rileva la lingua del testo selezionato e se corrisponde alla lingua di destinazione, il pulsante non è mostrato."
   },
   "toolbarLabel": {
-    "message": "Toolbar popup"
+    "message": "Barra degli strumenti popup"
   },
   "ifChangeSecondLangLabel": {
-    "message": "Automatically switch to the second language"
+    "message": "Passa automaticamente alla seconda lingua"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+    "message": "Rileva la lingua di input, e se corrisponde alla lingua predefinitia di destinazione, traducila nella seconda lingua."
   },
   "secondTargetLangLabel": {
     "message": "Seconda lingua"
   },
   "secondTargetLangCaptionLabel": {
-    "message": "Select the second target language."
+    "message": "Seleziona la seconda lingua di destinazione."
   },
   "waitTimeLabel": {
-    "message": "Waiting time to translate"
+    "message": "Tempo di traduzione"
   },
   "waitTimeCaptionLabel": {
-    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+    "message": "Specifica il tempo di attesa dall'input del carattere all'inizio della traduzione. (millisecondi)"
   },
   "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
+    "message": "Se traduci molte volte in poco tempo, potrebbe essere inutilizzabile per un po'."
   },
   "menuLabel": {
-    "message": "Context menu"
+    "message": "Menu contestuale"
   },
   "ifShowMenuLabel": {
-    "message": "Display the context menu"
+    "message": "Mostra il menu contestuale"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+    "message": "Aggiungi voci al menu contestuale quando premi il pulsante destro sulla pagina o sulla scheda."
   },
   "styleLabel": {
-    "message": "Style"
+    "message": "Stile"
   },
   "buttonStyleLabel": {
-    "message": "Translation button"
+    "message": "Pulsante di traduzione"
   },
   "buttonStyleCaptionLabel": {
-    "message": "Specify the style of the translation button displayed on the web page."
+    "message": "Specifica lo stile del pulsante di traduzione mostrato sulla pagina."
   },
   "buttonSizeLabel": {
-    "message": "Size"
+    "message": "Dimensione"
   },
   "buttonPositionLabel": {
-    "message": "Display position"
+    "message": "Mostra posizione"
   },
   "rightUpLabel": {
-    "message": "Top right"
+    "message": "In Alto a destra"
   },
   "rightDownLabel": {
     "message": "In basso a destra"
   },
   "leftUpLabel": {
-    "message": "Top left"
+    "message": "In Alto a sinistra"
   },
   "leftDownLabel": {
-    "message": "Bottom left"
+    "message": "In basso a sinistra"
   },
   "panelStyleLabel": {
-    "message": "Translation panel"
+    "message": "Pannello di traduzione"
   },
   "panelStyleCaptionLabel": {
-    "message": "Specify the style of the translation panel displayed on the web page."
+    "message": "Specifica lo stile del pannello di traduzione mostrato sulla pagina."
   },
   "widthLabel": {
-    "message": "Width"
+    "message": "Larghezza"
   },
   "heightLabel": {
-    "message": "Height"
+    "message": "Altezza"
   },
   "fontSizeLabel": {
     "message": "Dimensione del font"
   },
   "bgColorLabel": {
-    "message": "Background color"
+    "message": "Colore sfondo"
   },
   "informationLabel": {
-    "message": "Information"
+    "message": "Informazione"
   },
   "licenseLabel": {
     "message": "Licenza"
   },
   "donationLabel": {
-    "message": "Please make a donation"
+    "message": "Per favore fai una donazione"
   },
   "donationCaptionLabel": {
-    "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+    "message": "Grazie per aver usato Simple Translate:<br>Il tuo supporto sarà un grosso incoraggiamento, per continuare lo sviluppo dell'add-on.<br>Se ti piace Simple Translate, sarei onorato se facessi una donazione."
   },
   "amazonTitleLabel": {
     "message": "amazon.co.jp eGift Cards"
   },
   "addonPageLabel": {
-    "message": "Add-on page"
+    "message": "Pagina dell'Add-on"
   },
   "amazonUrl": {
     "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
@@ -168,13 +168,13 @@
     "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
   },
   "networkError": {
-    "message": "Error: Check network connection status."
+    "message": "Errore: Verifica lo stato della connessione di rete."
   },
   "unavailableError": {
-    "message": "Error: Service usage limit reached. Please wait a while and try again."
+    "message": "Errore: Raggiunto il limite di utilizzo del servizio. Per favore riprova tra un po'."
   },
   "unknownError": {
-    "message": "Error: Unknown error"
+    "message": "Errore: Errore sconosciuto"
   },
   "translatePageMenu": {
     "message": "Traduci questa pagina"

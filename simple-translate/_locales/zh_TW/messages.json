@@ -81,13 +81,13 @@
     "message": "選擇第二個目標語言。"
   },
   "waitTimeLabel": {
-    "message": "Waiting time to translate"
+    "message": "翻譯等待時間"
   },
   "waitTimeCaptionLabel": {
-    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+    "message": "指定從字元輸入至翻譯開始的等待時間 (毫秒)"
   },
   "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
+    "message": "如果您在短時間內翻譯太多次, 可能會暫時無法使用翻譯功能。"
   },
   "menuLabel": {
     "message": "右鍵選單"
@@ -168,13 +168,13 @@
     "message": "https:\/\/addons.mozilla.org\/zh-TW\/firefox\/addon\/simple-translate\/?src=optionpage"
   },
   "networkError": {
-    "message": "Error: Check network connection status."
+    "message": "錯誤：請檢查您的網路連線狀態。"
   },
   "unavailableError": {
-    "message": "Error: Service usage limit reached. Please wait a while and try again."
+    "message": "錯誤：已達服務使用限制。請稍後再試一次。"
   },
   "unknownError": {
-    "message": "Error: Unknown error"
+    "message": "錯誤：未知的錯誤"
   },
   "translatePageMenu": {
     "message": "翻譯此頁面"

@@ -6,7 +6,7 @@
     "message": "Łatwo wyświetl tłumaczenia podczas przeglądania sieci."
   },
   "donateWithPaypalLabel": {
-    "message": "Donate with PayPal"
+    "message": "Wesprzyj przez PayPala"
   },
   "initialTextArea": {
     "message": "Wprowadź tekst"
@@ -90,13 +90,13 @@
     "message": "If you translate it many times in a short time, it may become unusable for a while."
   },
   "menuLabel": {
-    "message": "Context menu"
+    "message": "Menu kontekstowe"
   },
   "ifShowMenuLabel": {
     "message": "Wyświetlaj menu kontekstowe"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+    "message": "Dodaj elementy do menu kontekstowego wyświetlanego, po kliknięciu prawym przyciskiem myszy na stronie internetowej."
   },
   "styleLabel": {
     "message": "Styl"
@@ -156,7 +156,7 @@
     "message": "Dziękujemy za korzystanie z Simple Translate.<br> Twoje wsparcie jest niesamowice dużo dla mnie warte i zachęca do dalszej pracy i w dalszym ciągu rozwijam dodatek.<br>Jeżeli lubisz Simple Translate, byłbym bardzo wdzięczny jeżeli móglbyś\/aś rozważyć wykonanie dotacji."
   },
   "amazonTitleLabel": {
-    "message": "amazon.co.jp eGift Cards"
+    "message": "amazon.co.jp karty podarunkowe"
   },
   "addonPageLabel": {
     "message": "Strona dodatków"
@@ -174,7 +174,7 @@
     "message": "Error: Service usage limit reached. Please wait a while and try again."
   },
   "unknownError": {
-    "message": "Error: Unknown error"
+    "message": "Nieznany błąd"
   },
   "translatePageMenu": {
     "message": "Przetłumacz tę stronę"

@@ -81,13 +81,13 @@
     "message": "Selecione o segundo idioma alvo."
   },
   "waitTimeLabel": {
-    "message": "Waiting time to translate"
+    "message": "Tempo de espera para traduzir"
   },
   "waitTimeCaptionLabel": {
-    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+    "message": "Especifica o tempo de espera da entrada de um caractere para o início da tradução. (milissegundos)"
   },
   "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
+    "message": "Se você traduzi-lo muitas vezes em um curto espaço de tempo, isso pode se tornar inutilizável por um tempo."
   },
   "menuLabel": {
     "message": "Menu de Contexto"
@@ -168,13 +168,13 @@
     "message": "https:\/\/addons.mozilla.org\/pt-BR\/firefox\/addon\/simple-translate\/?src=optionpage"
   },
   "networkError": {
-    "message": "Error: Check network connection status."
+    "message": "Erro: Verifique o status da conexão de rede."
   },
   "unavailableError": {
-    "message": "Error: Service usage limit reached. Please wait a while and try again."
+    "message": "Erro: O limite de uso do serviço foi alcançado. Por favor, aguarde um pouco e tente novamente."
   },
   "unknownError": {
-    "message": "Error: Unknown error"
+    "message": "Erro: Erro desconhecido"
   },
   "translatePageMenu": {
     "message": "Traduzir esta página"

@@ -45,19 +45,19 @@
     "message": "Görüntü çeviri paneli"
   },
   "ifAutoTranslateCaptionLabel": {
-    "message": "Directly display the translation panel without displaying the button."
+    "message": "Çeviriyi düğme olmadan direkt çerçeve olarak görüntüleyin."
   },
   "ifShowButtonLabel": {
     "message": "Görüntü çeviri düğmesini"
   },
   "ifShowButtonCaptionLabel": {
-    "message": "Display the translation button to open the panel when clicked."
+    "message": "Tıklandığında paneli açmak için çeviri düğmesini göster."
   },
   "dontshowbuttonlabel": {
     "message": "Düğmesini veya panelini görüntüleme"
   },
   "dontshowbuttonCaptionlabel": {
-    "message": "Don't display the translation button or the translation panel."
+    "message": "Çeviri düğmesini veya çeviri panelini görüntüleme."
   },
   "ifCheckLangLabel": {
     "message": "Çeviri gerekmedikçe tuşu görüntüleme"
@@ -81,13 +81,13 @@
     "message": "İkinci hedef dilini seçin."
   },
   "waitTimeLabel": {
-    "message": "Waiting time to translate"
+    "message": "Çevirmek için bekleme süresi"
   },
   "waitTimeCaptionLabel": {
-    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+    "message": "Çeviri başlangıcı için gelen bir karakter giriş bekleme süresini belirtin. (milisaniye)"
   },
   "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
+    "message": "Kısa süre içerisinde birçok kez çeviri yaparsanız, bir süreliğine sistem kullanım dışı kalabilir."
   },
   "menuLabel": {
     "message": "Bağlam Menüsü"
@@ -96,7 +96,7 @@
     "message": "İçerik menüsünü görüntüle"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+    "message": "Sayfaya yada sekmeye sağ tıklandığında içerik menüsüne ekle."
   },
   "styleLabel": {
     "message": "Biçim"

@@ -156,7 +156,7 @@
     "message": "Simple Translate'i kullandığınız için teşekkür ederiz.<br>Eklentileri geliştirmeye devam ettikçe, destekleriniz bizim için büyük bir teşvik olacaktır.<br> Simpe Translate'i beğendiyseniz, bağış yaparak bizi mutlu edebilirsiniz."
   },
   "amazonTitleLabel": {
-    "message": "amazon.co.jp eGift Cards"
+    "message": "amazon.Co.jp eGift kartları"
   },
   "addonPageLabel": {
     "message": "Ek sayfa"
@@ -168,13 +168,13 @@
     "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
   },
   "networkError": {
-    "message": "Error: Check network connection status."
+    "message": "Hata: İnternet bağlantınızı kontrol edin."
   },
   "unavailableError": {
-    "message": "Error: Service usage limit reached. Please wait a while and try again."
+    "message": "Hata: Hizmet kullanım limitine eriştiniz. Lütfen biraz bekleyin ve tekrar deneyin."
   },
   "unknownError": {
-    "message": "Error: Unknown error"
+    "message": "Hata: Bilinmeyen hata"
   },
   "translatePageMenu": {
     "message": "Bu sayfayı çevir"

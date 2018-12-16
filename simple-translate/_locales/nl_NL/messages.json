@@ -105,61 +105,61 @@
     "message": "Vertaalknop"
   },
   "buttonStyleCaptionLabel": {
-    "message": "Specify the style of the translation button displayed on the web page."
+    "message": "Specificeer de stijl van de vertaalknop op de webpagina."
   },
   "buttonSizeLabel": {
-    "message": "Size"
+    "message": "Grootte"
   },
   "buttonPositionLabel": {
-    "message": "Display position"
+    "message": "Weergavepositie"
   },
   "rightUpLabel": {
-    "message": "Top right"
+    "message": "Rechtsboven"
   },
   "rightDownLabel": {
     "message": "Rechtsonder"
   },
   "leftUpLabel": {
-    "message": "Top left"
+    "message": "Linksboven"
   },
   "leftDownLabel": {
-    "message": "Bottom left"
+    "message": "Linksonder"
   },
   "panelStyleLabel": {
-    "message": "Translation panel"
+    "message": "Vertaalpaneel"
   },
   "panelStyleCaptionLabel": {
-    "message": "Specify the style of the translation panel displayed on the web page."
+    "message": "Specificeer de stijl van het vertaalpaneel op de webpagina."
   },
   "widthLabel": {
-    "message": "Width"
+    "message": "Breedte"
   },
   "heightLabel": {
-    "message": "Height"
+    "message": "Hoogte"
   },
   "fontSizeLabel": {
     "message": "Lettertypegrootte"
   },
   "bgColorLabel": {
-    "message": "Background color"
+    "message": "Achtergrondkleur"
   },
   "informationLabel": {
-    "message": "Information"
+    "message": "Informatie"
   },
   "licenseLabel": {
-    "message": "License"
+    "message": "Licentie"
   },
   "donationLabel": {
-    "message": "Please make a donation"
+    "message": "Doe alstublieft een donatie"
   },
   "donationCaptionLabel": {
-    "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+    "message": "Bedankt voor het gebruik van Simple Translate.<br>Uw steun is een grote aanmoediging tijdens de verdere ontwikkeling van de add-on.<br>Als u Simple Translate waardeert, overweeg dan een donatie."
   },
   "amazonTitleLabel": {
-    "message": "amazon.co.jp eGift Cards"
+    "message": "amazon.co.jp eGift-kaarten"
   },
   "addonPageLabel": {
-    "message": "Add-on page"
+    "message": "Add-on-pagina"
   },
   "amazonUrl": {
     "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
@@ -168,13 +168,13 @@
     "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
   },
   "networkError": {
-    "message": "Error: Check network connection status."
+    "message": "Fout: Controleer netwerkstatus."
   },
   "unavailableError": {
-    "message": "Error: Service usage limit reached. Please wait a while and try again."
+    "message": "Fout: Gebruikslimiet overschreden. Wacht een moment en probeer het opnieuw."
   },
   "unknownError": {
-    "message": "Error: Unknown error"
+    "message": "Fout: onbekende fout"
   },
   "translatePageMenu": {
     "message": "Deze pagina vertalen"

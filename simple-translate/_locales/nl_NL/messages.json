@@ -51,58 +51,58 @@
     "message": "Toon vertaalknop"
   },
   "ifShowButtonCaptionLabel": {
-    "message": "Display the translation button to open the panel when clicked."
+    "message": "Toon de vertaalknop om het paneel te openen wanneer er op geklikt wordt."
   },
   "dontshowbuttonlabel": {
-    "message": "Don't display button or panel"
+    "message": "Knop of deelvenster niet weergeven"
   },
   "dontshowbuttonCaptionlabel": {
-    "message": "Don't display the translation button or the translation panel."
+    "message": "De vertalings-knop en het vertaalpaneel niet weergeven."
   },
   "ifCheckLangLabel": {
-    "message": "Do not display the button if translation is not required"
+    "message": "De knop niet weergeven als vertaling niet vereist is"
   },
   "ifCheckLangCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+    "message": "Detecteert de taal van de geselecteerde tekst, en als deze hetzelfde is als de doeltaal, dan wordt de knop niet weergegeven."
   },
   "toolbarLabel": {
-    "message": "Toolbar popup"
+    "message": "Werkbalk-popup"
   },
   "ifChangeSecondLangLabel": {
-    "message": "Automatically switch to the second language"
+    "message": "Automatisch overschakelen naar de tweede taal"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+    "message": "De taal van de tekst vaststellen, en als dit hetzelfde is als de standaard-doeltaal, vertaal het in de tweede taal."
   },
   "secondTargetLangLabel": {
     "message": "Tweede taal"
   },
   "secondTargetLangCaptionLabel": {
-    "message": "Select the second target language."
+    "message": "Selecteer de tweede doeltaal."
   },
   "waitTimeLabel": {
-    "message": "Waiting time to translate"
+    "message": "Wachttijd voor vertaling"
   },
   "waitTimeCaptionLabel": {
-    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+    "message": "Specificeer de wachttijd van de invoer van een karakter tot aan het begin van de vertaling. (milliseconde)"
   },
   "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
+    "message": "Als u het vele malen in een korte tijd vertaalt, kan het even onbruikbaar worden."
   },
   "menuLabel": {
-    "message": "Context menu"
+    "message": "Contextmenu"
   },
   "ifShowMenuLabel": {
-    "message": "Display the context menu"
+    "message": "Het contextmenu weergeven"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+    "message": "Items toevoegen aan het contextmenu wanneer er rechts wordt geklikt op de webpagina of het tabblad."
   },
   "styleLabel": {
-    "message": "Style"
+    "message": "Stijl"
   },
   "buttonStyleLabel": {
-    "message": "Translation button"
+    "message": "Vertaalknop"
   },
   "buttonStyleCaptionLabel": {
     "message": "Specify the style of the translation button displayed on the web page."

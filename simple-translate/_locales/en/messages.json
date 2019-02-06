@@ -150,6 +150,12 @@
   "fontSizeLabel": {
     "message": "Font size"
   },
+  "resultFontColorLabel": {
+    "message": "Font color of translation result"
+  },
+  "candidateFontColorLabel": {
+    "message": "Font color of translation candidates"
+  },
   "bgColorLabel": {
     "message": "Background color"
   },

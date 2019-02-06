@@ -182,6 +182,8 @@ function panelPosition(e) {
   panel.style.maxWidth = S.get().width + "px";
   panel.style.maxHeight = S.get().height + "px";
   panel.style.fontSize = S.get().fontSize + "px";
+  panel.getElementsByClassName("result")[0].style.color = S.get().resultFontColor;
+  panel.getElementsByClassName("candidate")[0].style.color = S.get().candidateFontColor;
   panel.style.backgroundColor = S.get().bgColor;
 }
 

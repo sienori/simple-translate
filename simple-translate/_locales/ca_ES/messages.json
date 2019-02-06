@@ -140,6 +140,12 @@
   "fontSizeLabel": {
     "message": "Mida de la lletra"
   },
+  "resultFontColorLabel": {
+    "message": "Font color of translation result"
+  },
+  "candidateFontColorLabel": {
+    "message": "Font color of translation candidates"
+  },
   "bgColorLabel": {
     "message": "Color de fons"
   },

@@ -119,7 +119,10 @@ function refleshSource() {
   }
 }
 
-textarea.addEventListener("paste", resize);
+textarea.addEventListener("paste", () => {
+  resize();
+  inputText();
+});
 
 textarea.addEventListener("keydown", resize);
 

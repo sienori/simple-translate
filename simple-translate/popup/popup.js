@@ -89,7 +89,7 @@ function getSelectionWord(tabs) {
         message: "fromPopup"
       })
       .then(response => {
-        sourceWord = response.word;
+        sourceWord = response.word || "";
         url = response.url;
         refleshSource();
         showLink();

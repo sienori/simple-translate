@@ -141,10 +141,10 @@
     "message": "Tamanho da fonte"
   },
   "resultFontColorLabel": {
-    "message": "Font color of translation result"
+    "message": "Cor da fonte do resultado da tradução"
   },
   "candidateFontColorLabel": {
-    "message": "Font color of translation candidates"
+    "message": "Cor da fonte dos candidatos à tradução"
   },
   "bgColorLabel": {
     "message": "Cor do plano de fundo"

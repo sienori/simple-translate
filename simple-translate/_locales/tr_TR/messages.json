@@ -51,10 +51,10 @@
     "message": "Görüntü çeviri düğmesini"
   },
   "ifShowButtonCaptionLabel": {
-    "message": "Tıklandığında paneli açmak için çeviri düğmesini göster."
+    "message": "Tıklandığında paneli açmak için çeviri düğmesini görüntüleyin."
   },
   "dontshowbuttonlabel": {
-    "message": "Düğmesini veya panelini görüntüleme"
+    "message": "Düğmeyi veya paneli görüntüleme"
   },
   "dontshowbuttonCaptionlabel": {
     "message": "Çeviri düğmesini veya çeviri panelini görüntüleme."
@@ -63,10 +63,10 @@
     "message": "Çeviri gerekmedikçe tuşu görüntüleme"
   },
   "ifCheckLangCaptionLabel": {
-    "message": "Seçili metnin dilini algılar ve dil aynı ise tuş görüntülenmez."
+    "message": "Seçilen metnin dilini algılar ve hedef dil ile aynıysa, düğme görüntülenmez."
   },
   "toolbarLabel": {
-    "message": "Açılır araç çubuğu penceresi"
+    "message": "Araç çubuğu penceresi"
   },
   "ifChangeSecondLangLabel": {
     "message": "İkinci dile otomatik geç"
@@ -84,19 +84,19 @@
     "message": "Çevirmek için bekleme süresi"
   },
   "waitTimeCaptionLabel": {
-    "message": "Çeviri başlangıcı için gelen bir karakter giriş bekleme süresini belirtin. (milisaniye)"
+    "message": "Bir karakterin girişinden çevirinin başlangıcına kadar olan bekleme süresini belirtin. (milisaniye)"
   },
   "waitTime2CaptionLabel": {
     "message": "Kısa süre içerisinde birçok kez çeviri yaparsanız, bir süreliğine sistem kullanım dışı kalabilir."
   },
   "menuLabel": {
-    "message": "Bağlam Menüsü"
+    "message": "İçerik Menüsü"
   },
   "ifShowMenuLabel": {
     "message": "İçerik menüsünü görüntüle"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Sayfaya yada sekmeye sağ tıklandığında içerik menüsüne ekle."
+    "message": "Web sayfasına veya sekmeye sağ tıkladığınızda görüntülenen içerik menüsüne öğe ekleyin."
   },
   "styleLabel": {
     "message": "Biçim"
@@ -111,7 +111,7 @@
     "message": "Boyut"
   },
   "buttonPositionLabel": {
-    "message": "Görüntü konumu"
+    "message": "Ekran konumu"
   },
   "rightUpLabel": {
     "message": "Sağ üst"

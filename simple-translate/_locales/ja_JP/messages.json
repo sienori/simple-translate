@@ -141,10 +141,10 @@
     "message": "フォントサイズ"
   },
   "resultFontColorLabel": {
-    "message": "Font color of translation result"
+    "message": "翻訳結果の文字色"
   },
   "candidateFontColorLabel": {
-    "message": "Font color of translation candidates"
+    "message": "翻訳候補の文字色"
   },
   "bgColorLabel": {
     "message": "背景色"

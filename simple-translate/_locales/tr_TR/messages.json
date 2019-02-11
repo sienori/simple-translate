@@ -42,10 +42,10 @@
     "message": "Metin seçerken davranış"
   },
   "ifAutoTranslateLabel": {
-    "message": "Görüntü çeviri paneli"
+    "message": "Çeviri panelini görüntüle"
   },
   "ifAutoTranslateCaptionLabel": {
-    "message": "Çeviriyi düğme olmadan direkt çerçeve olarak görüntüleyin."
+    "message": "Düğmeyi görüntülemeden çeviri panelini doğrudan görüntüleyin."
   },
   "ifShowButtonLabel": {
     "message": "Görüntü çeviri düğmesini"

@@ -141,7 +141,7 @@
     "message": "Yazı tipi boyutu"
   },
   "resultFontColorLabel": {
-    "message": "Font color of translation result"
+    "message": "Çeviri sonucunun yazı tipi rengi"
   },
   "candidateFontColorLabel": {
     "message": "Font color of translation candidates"

@@ -87,7 +87,7 @@
     "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
   },
   "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
+    "message": "Kung isasalin mo ito ng maraming beses sa loob ng maikling oras, maaaring panandalian ito na hindi magamit."
   },
   "menuLabel": {
     "message": "Context menu"

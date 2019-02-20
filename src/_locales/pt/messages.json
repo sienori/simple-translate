@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "Simple Translate"
+    "message": "Tradução simples"
   },
   "extDescription": {
     "message": "Veja as traduções facilmente à medida que você navega na web."
@@ -150,7 +150,7 @@
     "message": "Cor do plano de fundo"
   },
   "otherLabel": {
-    "message": "Other"
+    "message": "Outros"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
     "message": "Display option page when updating"

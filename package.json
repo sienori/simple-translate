@@ -1,0 +1,52 @@
+{
+  "name": "simple-translate",
+  "version": "0.0.0",
+  "dependencies": {
+    "browser-info": "^1.2.0",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.49",
+    "@babel/preset-env": "^7.0.0-beta.49",
+    "@babel/preset-react": "^7.0.0-beta.49",
+    "babel-loader": "^8.0.0-beta.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.1",
+    "css-loader": "^0.28.11",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.0",
+    "react-svg-loader": "^2.1.0",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "webextension-polyfill": "^0.3.1",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^3.0.1",
+    "zip-webpack-plugin": "^3.0.0"
+  },
+  "scripts": {
+    "watch-dev": "webpack --config webpack.config.dev.js --watch",
+    "build": "webpack --config webpack.config.dist.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sienori/simple-translate.git"
+  },
+  "author": "Sienori",
+  "license": "MPL-2.0",
+  "description": "A simple and powerful WebExtensions for translating pages and text.",
+  "bugs": {
+    "url": "https://github.com/sienori/simple-translate/issues"
+  },
+  "homepage": "https://github.com/sienori/simple-translate#readme",
+  "main": ".src/manifest.json",
+  "keywords": [
+    "webextensions",
+    "firefox",
+    "chrome"
+  ]
+}

@@ -200,6 +200,12 @@
   "invalidShortcutMessage": {
     "message": "The shortcut can not be used"
   },
+  "clear": {
+    "message": "Clear"
+  },
+  "reset": {
+    "message": "Reset"
+  },
   "informationLabel": {
     "message": "Impormasyon"
   },
@@ -241,5 +247,8 @@
   },
   "translateLinkMenu": {
     "message": "Isalin ang piniling link"
+  },
+  "openPopupDescription": {
+    "message": "Open toolbar popup"
   }
 }

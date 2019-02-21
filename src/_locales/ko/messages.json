@@ -200,6 +200,12 @@
   "invalidShortcutMessage": {
     "message": "The shortcut can not be used"
   },
+  "clear": {
+    "message": "Clear"
+  },
+  "reset": {
+    "message": "Reset"
+  },
   "informationLabel": {
     "message": "정보"
   },
@@ -241,5 +247,8 @@
   },
   "translateLinkMenu": {
     "message": "선택된 링크 번역하기"
+  },
+  "openPopupDescription": {
+    "message": "Open toolbar popup"
   }
 }

@@ -6,7 +6,7 @@
     "message": "瀏覽網際網路時可以輕鬆檢視翻譯。"
   },
   "donateWithPaypalLabel": {
-    "message": "透過 PayPal 進行贊助"
+    "message": "透過 PayPal 來贊助我"
   },
   "initialTextArea": {
     "message": "輸入文字"
@@ -141,10 +141,10 @@
     "message": "字型大小"
   },
   "resultFontColorLabel": {
-    "message": "Font color of translation result"
+    "message": "翻譯結果色彩"
   },
   "candidateFontColorLabel": {
-    "message": "Font color of translation candidates"
+    "message": "候選翻譯色彩"
   },
   "bgColorLabel": {
     "message": "背景色彩"

@@ -5,6 +5,7 @@ import { initSettings, handleSettingsChange } from "src/settings/settings";
 import { updateLogLevel, overWriteLogLevel } from "src/common/log";
 import onInstalledListener from "./onInstalledListener";
 import { showMenus, onMenusShownListener, onMenusClickedListener } from "./menus";
+import { onCommandListener } from "./keyboardShortcuts";
 
 const logDir = "background/background";
 
@@ -30,3 +31,4 @@ const init = async () => {
 init();
 
 browser.runtime.onInstalled.addListener(onInstalledListener);
+browser.commands.onCommand.addListener(onCommandListener);

@@ -45,5 +45,23 @@
       "matches": ["http://*/*", "https://*/*", "<all_urls>"],
       "js": ["content/content.js"]
     }
-  ]
+  ],
+
+  "commands": {
+    "_execute_browser_action": {
+      "description": "__MSG_openPopupDescription__",
+      "suggested_key": {
+        "default": "Alt+F1"
+      }
+    },
+    "translateSelectedText": {
+      "description": "__MSG_translateTextMenu__",
+      "suggested_key": {
+        "default": "Alt+F2"
+      }
+    },
+    "translatePage": {
+      "description": "__MSG_translatePageMenu__"
+    }
+  }
 }

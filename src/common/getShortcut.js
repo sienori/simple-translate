@@ -1,5 +1,5 @@
 import browserInfo from "browser-info";
-import manifest from "src/manifest-firefox.json";
+import manifest from "src/manifest-chrome.json";
 
 export default commandId => {
   const suggestedKeys = manifest.commands[commandId].suggested_key || null;

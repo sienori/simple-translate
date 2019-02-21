@@ -200,6 +200,12 @@
   "invalidShortcutMessage": {
     "message": "這個快速鍵無法使用"
   },
+  "clear": {
+    "message": "Clear"
+  },
+  "reset": {
+    "message": "Reset"
+  },
   "informationLabel": {
     "message": "附加元件資訊"
   },
@@ -241,5 +247,8 @@
   },
   "translateLinkMenu": {
     "message": "翻譯選取鏈結"
+  },
+  "openPopupDescription": {
+    "message": "Open toolbar popup"
   }
 }

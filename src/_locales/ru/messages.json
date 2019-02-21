@@ -189,10 +189,10 @@
     "message": "Введите букву"
   },
   "includeModifierKeysMessage": {
-    "message": "Include either Ctrl or Alt"
+    "message": "Добавить клавишу Ctrl или Alt"
   },
   "includeMacModifierKeysMessage": {
-    "message": "Include either Command, Ctrl or Alt"
+    "message": "Добавить клавишу Command, Ctrl или Alt"
   },
   "invalidLetterMessage": {
     "message": "Эта буква не может быть использована"
@@ -249,6 +249,6 @@
     "message": "Перевести страницу по ссылке"
   },
   "openPopupDescription": {
-    "message": "Открыть окно на панели инструментов"
+    "message": "Показать окно на панели инструментов"
   }
 }

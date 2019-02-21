@@ -200,6 +200,12 @@
   "invalidShortcutMessage": {
     "message": "The shortcut can not be used"
   },
+  "clear": {
+    "message": "Clear"
+  },
+  "reset": {
+    "message": "Reset"
+  },
   "informationLabel": {
     "message": "Информация"
   },
@@ -241,5 +247,8 @@
   },
   "translateLinkMenu": {
     "message": "Преведете избраната връзка"
+  },
+  "openPopupDescription": {
+    "message": "Open toolbar popup"
   }
 }

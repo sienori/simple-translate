@@ -200,6 +200,12 @@
   "invalidShortcutMessage": {
     "message": "O atalho não pode ser usado"
   },
+  "clear": {
+    "message": "Clear"
+  },
+  "reset": {
+    "message": "Reset"
+  },
   "informationLabel": {
     "message": "Informação"
   },
@@ -241,5 +247,8 @@
   },
   "translateLinkMenu": {
     "message": "Traduzir o endereço selecionado"
+  },
+  "openPopupDescription": {
+    "message": "Open toolbar popup"
   }
 }

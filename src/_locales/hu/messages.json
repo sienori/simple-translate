@@ -200,6 +200,12 @@
   "invalidShortcutMessage": {
     "message": "The shortcut can not be used"
   },
+  "clear": {
+    "message": "Clear"
+  },
+  "reset": {
+    "message": "Reset"
+  },
   "informationLabel": {
     "message": "Információ"
   },
@@ -241,5 +247,8 @@
   },
   "translateLinkMenu": {
     "message": "A kijelölt hivatkozás fordítása"
+  },
+  "openPopupDescription": {
+    "message": "Open toolbar popup"
   }
 }

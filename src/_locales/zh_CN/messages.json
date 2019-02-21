@@ -200,6 +200,12 @@
   "invalidShortcutMessage": {
     "message": "The shortcut can not be used"
   },
+  "clear": {
+    "message": "Clear"
+  },
+  "reset": {
+    "message": "Reset"
+  },
   "informationLabel": {
     "message": "信息"
   },
@@ -241,5 +247,8 @@
   },
   "translateLinkMenu": {
     "message": "翻译选定链接"
+  },
+  "openPopupDescription": {
+    "message": "Open toolbar popup"
   }
 }

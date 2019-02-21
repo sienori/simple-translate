@@ -1,4 +1,5 @@
-/* Copyright (c) 2018 Kamil Mikosz 
+/* Copyright (c) 2018 Kamil Mikosz
+ * Copyright (c) 2019 Sienori
  * Released under the MIT license.
  * see https://opensource.org/licenses/MIT */
 
@@ -72,6 +73,11 @@ const generalConfig = {
             }
           }
         ]
+      },
+      {
+        test: /\.(png|jpg|gif)$/,
+        loader: "url-loader",
+        options: {}
       }
     ]
   }

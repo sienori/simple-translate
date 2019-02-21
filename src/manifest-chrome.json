@@ -43,8 +43,7 @@
     {
       "all_frames": true,
       "matches": ["http://*/*", "https://*/*", "<all_urls>"],
-      "css": ["content/simple-translate.css"],
-      "js": ["content/simple-translate.js"]
+      "js": ["content/content.js"]
     }
   ]
 }

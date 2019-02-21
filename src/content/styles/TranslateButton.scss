@@ -1,0 +1,40 @@
+#simple-translate {
+  .simple-translate-button {
+    all: initial;
+    background-color: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    border-radius: 10%;
+    background-image: url("../../icons/512.png");
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 22px;
+    width: 22px;
+    position: fixed;
+    z-index: 2147483647;
+    cursor: pointer;
+
+    transition-property: opacity, visibility;
+    transition-duration: 200ms;
+    opacity: 0;
+    visibility: hidden;
+    &.isShow {
+      opacity: 1;
+      visibility: visible;
+      transition-duration: 0ms;
+      animation: simple-translate-showButton 200ms;
+    }
+  }
+
+  @keyframes simple-translate-showButton {
+    0% {
+      transform: scale3d(1, 1, 1);
+    }
+    50% {
+      transform: scale3d(1.1, 1.1, 1.1);
+    }
+    100% {
+      transform: scale3d(1, 1, 1);
+    }
+  }
+}

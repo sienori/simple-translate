@@ -34,7 +34,7 @@ const getEntry = (sourceDir = "src") => {
   return {
     popup: path.resolve(__dirname, `${sourceDir}/popup/index.js`),
     options: path.resolve(__dirname, `${sourceDir}/options/index.js`),
-    content: path.resolve(__dirname, `${sourceDir}/content/simple-translate.js`),
+    content: path.resolve(__dirname, `${sourceDir}/content/index.js`),
     background: path.resolve(__dirname, `${sourceDir}/background/background.js`)
   };
 };
@@ -48,10 +48,6 @@ const getCopyPlugins = (browserDir, outputDir = "dev", sourceDir = "src") => [
     {
       from: `${sourceDir}/_locales`,
       to: path.resolve(__dirname, `${outputDir}/${browserDir}/_locales`)
-    },
-    {
-      from: `${sourceDir}/content/simple-translate.css`,
-      to: path.resolve(__dirname, `${outputDir}/${browserDir}/content/simple-translate.css`)
     },
     {
       from: `${sourceDir}/manifest-chrome.json`,
@@ -69,10 +65,6 @@ const getFirefoxCopyPlugins = (browserDir, outputDir = "dev", sourceDir = "src")
     {
       from: `${sourceDir}/_locales`,
       to: path.resolve(__dirname, `${outputDir}/${browserDir}/_locales`)
-    },
-    {
-      from: `${sourceDir}/content/simple-translate.css`,
-      to: path.resolve(__dirname, `${outputDir}/${browserDir}/content/simple-translate.css`)
     },
     {
       from: `${sourceDir}/manifest-firefox.json`,

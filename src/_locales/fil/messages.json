@@ -1,12 +1,12 @@
 {
   "extName": {
-    "message": "Simple Translate"
+    "message": "Simpleng Pagsalin"
   },
   "extDescription": {
     "message": "Matanaw ang mga madaling pagsasalin bilang pag-browse sa web."
   },
   "donateWithPaypalLabel": {
-    "message": "Donate with PayPal"
+    "message": "Magbigay ng Donasyon Gamit ang PayPal"
   },
   "initialTextArea": {
     "message": "Ipasok ang teksto"

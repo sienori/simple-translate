@@ -141,46 +141,46 @@
     "message": "Размер шрифта"
   },
   "resultFontColorLabel": {
-    "message": "Font color of translation result"
+    "message": "Цвет шрифта результата перевода"
   },
   "candidateFontColorLabel": {
-    "message": "Font color of translation candidates"
+    "message": "Цвет шрифта вариантов перевода"
   },
   "bgColorLabel": {
     "message": "Цвет фона"
   },
   "otherLabel": {
-    "message": "Other"
+    "message": "Другое"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Display option page when updating"
+    "message": "Показать настройки при обновлении"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+    "message": "Показать настройки после обновления расширения. Позволяет быстро узнать что нового."
   },
   "isDebugModeLabel": {
-    "message": "Enable debug mode"
+    "message": "Включить режим отладки"
   },
   "isDebugModeCaptionLabel": {
-    "message": "When debug mode is enabled, the log is output to the debugger."
+    "message": "Если включен режим отладки, то журнал работы будет выводиться в отладчик."
   },
   "resetSettingsLabel": {
-    "message": "Reset settings"
+    "message": "Сброс настроек"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Restore all settings to default."
+    "message": "Восстановить все настройки по умолчанию."
   },
   "resetSettingsButtonLabel": {
-    "message": "Reset"
+    "message": "Сброс"
   },
   "shortcutsLabel": {
-    "message": "Shortcuts"
+    "message": "Горячие клавиши"
   },
   "keyboardShortcutsLabel": {
-    "message": "Keyboard shortcuts"
+    "message": "Сочетания клавиш"
   },
   "setKeyboardShortCutsMessage": {
-    "message": "Set keyboard shortcuts."
+    "message": "Настройка сочетаний клавиш."
   },
   "typeShortcutMessage": {
     "message": "Type a shortcut"
@@ -225,7 +225,7 @@
     "message": "Страница расширения"
   },
   "amazonUrl": {
-    "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
+    "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=ru_RU"
   },
   "addonUrl": {
     "message": "https:\/\/addons.mozilla.org\/ru-RU\/firefox\/addon\/simple-translate\/?src=optionpage"

@@ -1,3 +1,4 @@
+import browser from "webextension-polyfill";
 const alphabeticallySort = (a, b) => a.name.localeCompare(b.name);
 
 export default () => {

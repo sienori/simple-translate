@@ -1,3 +1,4 @@
+import browser from "webextension-polyfill";
 import genelateLangOptions from "src/common/genelateLangOptions";
 
 const getDefaultLangs = () => {

@@ -1,130 +1,32 @@
-/* Copyright (c) 2017-2018 Sienori All rights reserved.
- * This Source Code Form is subject to the terms of the Mozilla Public
- * License, v. 2.0. If a copy of the MPL was not distributed with this
- * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+import browser from "webextension-polyfill";
+import browserInfo from "browser-info";
+import log from "loglevel";
+import { initSettings, handleSettingsChange } from "src/settings/settings";
+import { updateLogLevel, overWriteLogLevel } from "src/common/log";
+import onInstalledListener from "./onInstalledListener";
+import { showMenus, onMenusShownListener, onMenusClickedListener } from "./menus";
 
-//初回起動時にオプションページを表示して設定を初期化
-browser.runtime.onInstalled.addListener(details => {
-  if (details.reason != "install" && details.reason != "update") return;
+const logDir = "background/background";
 
-  browser.tabs.create({
-    url: "options/options.html#information?action=updated",
-    active: false
+const addListeners = () => {
+  browser.storage.onChanged.addListener((changes, areaName) => {
+    handleSettingsChange(changes, areaName);
+    updateLogLevel();
+    showMenus();
   });
-});
+  const isValidMenusOnShown = browserInfo().name === "Firefox" && browserInfo().version >= 60;
+  if (isValidMenusOnShown) browser.contextMenus.onShown.addListener(onMenusShownListener);
+  browser.contextMenus.onClicked.addListener(onMenusClickedListener);
+};
 
-let S = new settingsObj();
+const init = async () => {
+  await initSettings();
+  overWriteLogLevel();
+  updateLogLevel();
+  log.info(logDir, "init()");
+  addListeners();
+  showMenus();
+};
+init();
 
-browser.storage.onChanged.addListener(showMenu);
-if (typeof browser.contextMenus.onShown != "undefined")
-  browser.contextMenus.onShown.addListener(updateMenu);
-
-S.init().then(function() {
-  showMenu();
-});
-
-function showMenu() {
-  if (S.get().ifShowMenu) {
-    menuRemove();
-    menuCreate();
-  } else menuRemove();
-}
-
-//テキストまたはリンクの選択時はページ翻訳を非表示にする
-function updateMenu(info, tab) {
-  if (info.contexts.includes("selection") || info.contexts.includes("link")) {
-    browser.contextMenus.update("translatePage", { contexts: ["password"] }); //passwordにすることで事実上無効にする
-  } else {
-    browser.contextMenus.update("translatePage", { contexts: ["all"] });
-  }
-  browser.contextMenus.refresh();
-}
-
-//メニューを表示
-function menuCreate() {
-  browser.contextMenus.create({
-    id: "translatePageOnTab",
-    title: browser.i18n.getMessage("translatePageMenu"),
-    contexts: ["tab"]
-  });
-
-  browser.contextMenus.create({
-    id: "translatePage",
-    title: browser.i18n.getMessage("translatePageMenu"),
-    contexts: ["all"]
-  });
-
-  browser.contextMenus.create({
-    id: "translateText",
-    title: browser.i18n.getMessage("translateTextMenu"),
-    contexts: ["selection"]
-  });
-
-  browser.contextMenus.create({
-    id: "translateLink",
-    title: browser.i18n.getMessage("translateLinkMenu"),
-    contexts: ["link"]
-  });
-}
-
-//メニューを削除
-function menuRemove() {
-  browser.contextMenus.removeAll();
-}
-
-//メニュークリック時
-browser.contextMenus.onClicked.addListener(function(info, tab) {
-  switch (info.menuItemId) {
-    case "translatePage":
-    case "translatePageOnTab":
-      translatePageMenu(info, tab);
-      break;
-    case "translateText":
-      translateTextMenu(info, tab);
-      break;
-    case "translateLink":
-      translateLinkMenu(info, tab);
-      break;
-  }
-});
-
-//テキストを翻訳
-function translateTextMenu(info, tab) {
-  browser.tabs.sendMessage(tab.id, {
-    message: "showPanelFromMenu"
-  });
-}
-
-//ページ全体を翻訳
-function translatePageMenu(info, tab) {
-  browser.tabs.create({
-    url:
-      "https://translate.google.com/translate?hl=" +
-      S.get().targetLang +
-      "&sl=auto&u=" +
-      encodeURIComponent(info.pageUrl),
-    active: true,
-    index: tab.index + 1
-  });
-}
-
-//リンクを翻訳
-function translateLinkMenu(info, tab) {
-  browser.tabs.create({
-    url:
-      "https://translate.google.com/translate?hl=" +
-      S.get().targetLang +
-      "&sl=auto&u=" +
-      encodeURIComponent(info.linkUrl),
-    active: true,
-    index: tab.index + 1
-  });
-}
-
-//スクリプトからのメッセージに返信
-browser.runtime.onMessage.addListener(function(request) {
-  switch (request.message) {
-    case "getSetting":
-      break;
-  }
-});
+browser.runtime.onInstalled.addListener(onInstalledListener);

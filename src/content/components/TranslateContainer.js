@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import browser from "webextension-polyfill";
 import translate from "src/common/translate";
 import { initSettings, getSettings, handleSettingsChange } from "src/settings/settings";
+import { updateLogLevel, overWriteLogLevel } from "src/common/log";
 import TranslateButton from "./TranslateButton";
 import TranslatePanel from "./TranslatePanel";
 import "../styles/TranslateContainer.scss";
@@ -74,6 +75,8 @@ export default class TranslateContainer extends Component {
     document.addEventListener("keydown", this.handleKeyDown);
     browser.storage.onChanged.addListener(handleSettingsChange);
     browser.runtime.onMessage.addListener(this.handleMessage);
+    overWriteLogLevel();
+    updateLogLevel();
   };
 
   handleMessage = async request => {

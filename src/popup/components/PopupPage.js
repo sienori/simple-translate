@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import browser from "webextension-polyfill";
 import { initSettings, getSettings } from "src/settings/settings";
+import { updateLogLevel, overWriteLogLevel } from "src/common/log";
 import translate from "src/common/translate";
 import Header from "./Header";
 import InputArea from "./InputArea";
@@ -35,6 +36,8 @@ export default class PopupPage extends Component {
 
   init = async () => {
     await initSettings();
+    overWriteLogLevel();
+    updateLogLevel();
 
     const targetLang = getSettings("targetLang");
     this.setState({

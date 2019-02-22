@@ -1,4 +1,7 @@
+import log from "loglevel";
 let translationHistory = [];
+
+const logDir = "common/translate";
 
 const getHistory = (sourceWord, sourceLang, targetLang) => {
   const history = translationHistory.find(
@@ -21,6 +24,7 @@ const setHistory = (sourceWord, sourceLang, targetLang, formattedResult) => {
 };
 
 const sendRequest = (word, sourceLang, targetLang) => {
+  log.log(logDir, "sendRequest()");
   const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=${sourceLang}&tl=${targetLang}&dt=t&dt=bd&dj=1&q=${encodeURIComponent(
     word
   )}`;
@@ -49,7 +53,10 @@ const formatResult = result => {
   };
 
   resultData.statusText = result.statusText;
-  if (resultData.statusText !== "OK") return resultData;
+  if (resultData.statusText !== "OK") {
+    log.error(logDir, "formatResult()", resultData);
+    return resultData;
+  }
 
   resultData.sourceLanguage = result.response.src;
   resultData.percentage = result.response.confidence;
@@ -60,10 +67,12 @@ const formatResult = result => {
       .join("");
   }
 
+  log.log(logDir, "formatResult()", resultData);
   return resultData;
 };
 
 export default async (sourceWord, sourceLang = "auto", targetLang) => {
+  log.log(logDir, "tranlate()", sourceWord, targetLang);
   sourceWord = sourceWord.trim();
   if (sourceWord === "")
     return {

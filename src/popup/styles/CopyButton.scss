@@ -1,7 +1,7 @@
 .row {
   display: flex;
   flex-direction: row;
-  justify-content: right;
+  justify-content: flex-end;
 
   .copiedText {
     color: var(--sub-text);

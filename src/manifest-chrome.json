@@ -51,13 +51,13 @@
     "_execute_browser_action": {
       "description": "__MSG_openPopupDescription__",
       "suggested_key": {
-        "default": "Alt+F1"
+        "default": "Ctrl+Shift+Space"
       }
     },
     "translateSelectedText": {
       "description": "__MSG_translateTextMenu__",
       "suggested_key": {
-        "default": "Alt+F2"
+        "default": "Ctrl+Space"
       }
     },
     "translatePage": {

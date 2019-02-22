@@ -1,7 +1,13 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import { getSettings } from "src/settings/settings";
+import getErrorMessage from "src/common/getErrorMessage";
 import "../styles/TranslatePanel.scss";
+
+const splitLine = text => {
+  const regex = /(\n)/g;
+  return text.split(regex).map((line, i) => (line.match(regex) ? <br key={i} /> : line));
+};
 
 export default class TranslatePanel extends Component {
   constructor(props) {
@@ -75,6 +81,8 @@ export default class TranslatePanel extends Component {
   };
 
   render = () => {
+    const { shouldShow, resultText, candidateText, statusText } = this.props;
+    const isError = statusText !== "OK";
     const { width, height } = this.state.shouldResize
       ? { width: parseInt(getSettings("width")), height: parseInt(getSettings("height")) }
       : { width: this.state.panelWidth, height: this.state.panelHeight };
@@ -99,17 +107,22 @@ export default class TranslatePanel extends Component {
 
     return (
       <div
-        className={`simple-translate-panel ${this.props.shouldShow ? "isShow" : ""}`}
+        className={`simple-translate-panel ${shouldShow ? "isShow" : ""}`}
         ref="panel"
         style={panelStyles}
       >
         <div className="simple-translate-result-wrapper" ref="wrapper" style={wrapperStyles}>
           <p className="simple-translate-result" style={resultStyles}>
-            {this.props.resultText}
+            {splitLine(resultText)}
           </p>
           <p className="simple-translate-candidate" style={candidateStyles}>
-            {this.props.candidateText}
+            {splitLine(candidateText)}
           </p>
+          {isError && (
+            <p className="simple-translate-error" style={candidateStyles}>
+              {getErrorMessage(statusText)}
+            </p>
+          )}
         </div>
       </div>
     );

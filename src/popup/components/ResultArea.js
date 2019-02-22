@@ -1,22 +1,6 @@
 import React from "react";
-import browser from "webextension-polyfill";
+import getErrorMessage from "src/common/getErrorMessage";
 import "../styles/ResultArea.scss";
-
-const getErrorMessage = statusText => {
-  let errorMessage = "";
-  switch (statusText) {
-    case "":
-      errorMessage = browser.i18n.getMessage("networkError");
-      break;
-    case "Service Unavailable":
-      errorMessage = browser.i18n.getMessage("unavailableError");
-      break;
-    default:
-      errorMessage = `${browser.i18n.getMessage("unknownError")} [${statusText}]`;
-      break;
-  }
-  return errorMessage;
-};
 
 const splitLine = text => {
   const regex = /(\n)/g;

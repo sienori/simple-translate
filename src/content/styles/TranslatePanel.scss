@@ -43,7 +43,8 @@
         &.simple-translate-result {
           color: var(--simple-translate-main-text);
         }
-        &.simple-translate-candidate {
+        &.simple-translate-candidate,
+        &.simple-translate-error {
           color: var(--simple-translate-sub-text);
           margin-top: 1em;
           &:empty {

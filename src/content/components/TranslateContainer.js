@@ -62,7 +62,8 @@ export default class TranslateContainer extends Component {
       shouldShowPanel: false,
       panelPosition: { x: 0, y: 0 },
       resultText: "",
-      candidateText: ""
+      candidateText: "",
+      statusText: "OK"
     };
     this.selectedText = "";
     this.init();
@@ -121,7 +122,8 @@ export default class TranslateContainer extends Component {
       shouldShowPanel: true,
       panelPosition: position,
       resultText: result.resultText,
-      candidateText: getSettings("ifShowCandidate") ? result.candidateText : ""
+      candidateText: getSettings("ifShowCandidate") ? result.candidateText : "",
+      statusText: result.statusText
     });
   };
 
@@ -176,6 +178,7 @@ export default class TranslateContainer extends Component {
           position={this.state.panelPosition}
           resultText={this.state.resultText}
           candidateText={this.state.candidateText}
+          statusText={this.state.statusText}
           hidePanel={this.hidePanel}
         />
       </div>

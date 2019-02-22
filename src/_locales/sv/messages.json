@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
+    "message": "Översätt markerad text på en hemsida.. I verktygsfältspopupen, kan du översätta inmatad text."
   },
   "donateWithPaypalLabel": {
     "message": "Donera via PayPal"
@@ -15,13 +15,13 @@
     "message": "Översätt denna sida"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "Öppna i Google Översätt"
   },
   "copyLabel": {
-    "message": "Copy"
+    "message": "Kopiera"
   },
   "copiedLabel": {
-    "message": "Copied."
+    "message": "Kopierad."
   },
   "targetLangLabel": {
     "message": "Målspråk"

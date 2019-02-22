@@ -14,7 +14,8 @@
     &.resultText {
       color: var(--main-text);
     }
-    &.candidateText {
+    &.candidateText,
+    &.error {
       color: var(--sub-text);
       margin-top: 1em;
       &:empty {

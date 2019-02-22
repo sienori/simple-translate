@@ -81,10 +81,10 @@
     "message": "Seleccione el segundo idioma de destino."
   },
   "waitTimeLabel": {
-    "message": "Waiting time to translate"
+    "message": "Tiempo de espera para traducir"
   },
   "waitTimeCaptionLabel": {
-    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+    "message": "Especifique el tiempo de espera desde la entrada de un carácter para empezar a traducir. (milisegundos)"
   },
   "waitTime2CaptionLabel": {
     "message": "If you translate it many times in a short time, it may become unusable for a while."
@@ -237,7 +237,7 @@
     "message": "Error: Service usage limit reached. Please wait a while and try again."
   },
   "unknownError": {
-    "message": "Error: Unknown error"
+    "message": "Error: Desconocido"
   },
   "translatePageMenu": {
     "message": "Traducir esta página"
@@ -249,6 +249,6 @@
     "message": "Traducir enlace seleccionado"
   },
   "openPopupDescription": {
-    "message": "Open toolbar popup"
+    "message": "Abrir la barra de herramientas emergente"
   }
 }

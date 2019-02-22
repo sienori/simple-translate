@@ -48,7 +48,13 @@ const matchesTargetLang = async selectedText => {
   //先頭100字を翻訳にかけて判定
   const partSelectedText = selectedText.substring(0, 100);
   const result = await translateText(partSelectedText);
-  const matchsLangs = targetLang === result.sourceLanguage && result.percentage > 0;
+  const isError = result.statusText !== "OK";
+  if (isError) return false;
+
+  const isNotText = result.percentage === 0;
+  if (isNotText) return true;
+
+  const matchsLangs = targetLang === result.sourceLanguage;
   return matchsLangs;
 };
 

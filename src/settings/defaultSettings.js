@@ -1,9 +1,9 @@
 import browser from "webextension-polyfill";
-import genelateLangOptions from "src/common/genelateLangOptions";
+import generateLangOptions from "src/common/generateLangOptions";
 
 const getDefaultLangs = () => {
   const uiLang = browser.i18n.getUILanguage();
-  const langOptions = genelateLangOptions();
+  const langOptions = generateLangOptions();
 
   const shouldUseUiLang = langOptions.some(lang => lang.value == uiLang);
   const targetLang = shouldUseUiLang ? uiLang : "en";
@@ -12,7 +12,7 @@ const getDefaultLangs = () => {
   return { targetLang, secondTargetLang };
 };
 
-const langListOptions = genelateLangOptions();
+const langListOptions = generateLangOptions();
 const defaultLangs = getDefaultLangs();
 
 export default [

@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import browser from "webextension-polyfill";
-import genelateLangOptions from "src/common/genelateLangOptions";
+import generateLangOptions from "src/common/generateLangOptions";
 import openUrl from "src/common/openUrl";
 import "../styles/Footer.scss";
 
 export default class Footer extends Component {
   constructor(props) {
     super(props);
-    this.langList = genelateLangOptions();
+    this.langList = generateLangOptions();
   }
 
   handleLinkClick = async () => {

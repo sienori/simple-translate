@@ -60,10 +60,10 @@
     "message": "Don't display the translation button or the translation panel."
   },
   "ifCheckLangLabel": {
-    "message": "Do not display the button if translation is not required"
+    "message": "Visa inte knappen om översättning inte behövs"
   },
   "ifCheckLangCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+    "message": "Detekterar språket i den markerade texten och om det är samma som målspråket visas inte knappen."
   },
   "toolbarLabel": {
     "message": "Verktygsfältspopup"
@@ -75,10 +75,10 @@
     "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
   },
   "secondTargetLangLabel": {
-    "message": "Second language"
+    "message": "Andraspråk"
   },
   "secondTargetLangCaptionLabel": {
-    "message": "Select the second target language."
+    "message": "Välj andra målspråk."
   },
   "waitTimeLabel": {
     "message": "Väntetid på att översätta"
@@ -141,10 +141,10 @@
     "message": "Typsnittsstorlek"
   },
   "resultFontColorLabel": {
-    "message": "Font color of translation result"
+    "message": "Typsnittsfärg på översättningsresultatet"
   },
   "candidateFontColorLabel": {
-    "message": "Font color of translation candidates"
+    "message": "Typsnittsfärg på översättningskandidater"
   },
   "bgColorLabel": {
     "message": "Bakgrundsfärg"
@@ -162,13 +162,13 @@
     "message": "Aktivera felsökningsläge"
   },
   "isDebugModeCaptionLabel": {
-    "message": "When debug mode is enabled, the log is output to the debugger."
+    "message": "När felsökningsläget är aktiverat, skickas loggen till avlusaren."
   },
   "resetSettingsLabel": {
-    "message": "Reset settings"
+    "message": "Återställ inställningarna"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Restore all settings to default."
+    "message": "Återställa alla inställningar till standard."
   },
   "resetSettingsButtonLabel": {
     "message": "Återställ"
@@ -177,34 +177,34 @@
     "message": "Genvägar"
   },
   "keyboardShortcutsLabel": {
-    "message": "Keyboard shortcuts"
+    "message": "Tangentbordsgenvägar"
   },
   "setKeyboardShortCutsMessage": {
-    "message": "Set keyboard shortcuts."
+    "message": "Ställ in tangentbordsgenvägar."
   },
   "typeShortcutMessage": {
-    "message": "Type a shortcut"
+    "message": "Ange en genväg"
   },
   "typeLetterMessage": {
-    "message": "Type a letter"
+    "message": "Ange en bokstav"
   },
   "includeModifierKeysMessage": {
-    "message": "Include either Ctrl or Alt"
+    "message": "Inkludera antingen Ctrl eller Alt"
   },
   "includeMacModifierKeysMessage": {
-    "message": "Include either Command, Ctrl or Alt"
+    "message": "Inkludera antingen Kommando, Ctrl eller Alt"
   },
   "invalidLetterMessage": {
-    "message": "The letter can not be used"
+    "message": "Den bokstaven kan inte användas"
   },
   "invalidShortcutMessage": {
-    "message": "The shortcut can not be used"
+    "message": "Genvägen kan inte användas"
   },
   "clear": {
-    "message": "Clear"
+    "message": "Rensa"
   },
   "reset": {
-    "message": "Reset"
+    "message": "Återställ"
   },
   "informationLabel": {
     "message": "Information"
@@ -222,7 +222,7 @@
     "message": "amazon.co.jp eGift Cards"
   },
   "addonPageLabel": {
-    "message": "Add-on page"
+    "message": "Tilläggssida"
   },
   "amazonUrl": {
     "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
@@ -249,6 +249,6 @@
     "message": "Översätt markerad länk"
   },
   "openPopupDescription": {
-    "message": "Open toolbar popup"
+    "message": "Öppna verktygsfältspopup"
   }
 }

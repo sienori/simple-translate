@@ -17,6 +17,12 @@
   "openInGoogleLabel": {
     "message": "Open in Google Translate"
   },
+  "copyLabel": {
+    "message": "Copy"
+  },
+  "copiedLabel": {
+    "message": "Copied."
+  },
   "targetLangLabel": {
     "message": "Target language"
   },

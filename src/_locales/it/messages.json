@@ -14,6 +14,15 @@
   "showLink": {
     "message": "Traduci questa pagina"
   },
+  "openInGoogleLabel": {
+    "message": "Open in Google Translate"
+  },
+  "copyLabel": {
+    "message": "Copy"
+  },
+  "copiedLabel": {
+    "message": "Copied."
+  },
   "targetLangLabel": {
     "message": "Lingua di bersaglio"
   },

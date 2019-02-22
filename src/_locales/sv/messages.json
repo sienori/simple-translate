@@ -111,10 +111,10 @@
     "message": "Stil"
   },
   "buttonStyleLabel": {
-    "message": "Översättknapp"
+    "message": "Översättningsknapp"
   },
   "buttonStyleCaptionLabel": {
-    "message": "Ange stilen för översättsknappen som visas på webbsidan."
+    "message": "Ange stilen för översättningsknappen som visas på webbsidan."
   },
   "buttonSizeLabel": {
     "message": "Storlek"

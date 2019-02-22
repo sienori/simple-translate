@@ -52,7 +52,11 @@ const formatResult = result => {
     statusText: ""
   };
 
-  resultData.statusText = result.statusText;
+  if (result.status === 0) resultData.statusText = "Network Error";
+  else if (result.status === 200) resultData.statusText = "OK";
+  else if (result.status === 503) resultData.statusText = "Service Unavailable";
+  else resultData.statusText = result.statusText || result.status;
+
   if (resultData.statusText !== "OK") {
     log.error(logDir, "formatResult()", resultData);
     return resultData;

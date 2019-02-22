@@ -87,7 +87,7 @@
     "message": "Especifique el tiempo de espera desde la entrada de un carácter para empezar a traducir. (milisegundos)"
   },
   "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
+    "message": "Si traduce muchas veces en poco tiempo, pueden quedar inutilizado por un tiempo."
   },
   "menuLabel": {
     "message": "Menú contextual"
@@ -141,70 +141,70 @@
     "message": "Tamaño de la fuente"
   },
   "resultFontColorLabel": {
-    "message": "Font color of translation result"
+    "message": "Color de fuente del resultado de la traducción"
   },
   "candidateFontColorLabel": {
-    "message": "Font color of translation candidates"
+    "message": "Color de fuente de candidatos a la traducción"
   },
   "bgColorLabel": {
     "message": "Color de fondo"
   },
   "otherLabel": {
-    "message": "Other"
+    "message": "Otro"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Display option page when updating"
+    "message": "Mostrar página de configuración cuando se actualice"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+    "message": "Mostrar la página de opciones cuando se actualice Simple Translate. Puede saber el contenido actualizado rápidamente."
   },
   "isDebugModeLabel": {
-    "message": "Enable debug mode"
+    "message": "Activar modo de depuración"
   },
   "isDebugModeCaptionLabel": {
-    "message": "When debug mode is enabled, the log is output to the debugger."
+    "message": "Cuando está habilitado el modo de depuración, el registro aparece en el depurador."
   },
   "resetSettingsLabel": {
-    "message": "Reset settings"
+    "message": "Restablecer ajustes"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Restore all settings to default."
+    "message": "Restablecer toda la configuración por defecto."
   },
   "resetSettingsButtonLabel": {
-    "message": "Reset"
+    "message": "Restablecer"
   },
   "shortcutsLabel": {
-    "message": "Shortcuts"
+    "message": "Atajos"
   },
   "keyboardShortcutsLabel": {
-    "message": "Keyboard shortcuts"
+    "message": "Atajos de teclado"
   },
   "setKeyboardShortCutsMessage": {
-    "message": "Set keyboard shortcuts."
+    "message": "Definir atajos del teclado."
   },
   "typeShortcutMessage": {
-    "message": "Type a shortcut"
+    "message": "Introduce un atajo"
   },
   "typeLetterMessage": {
-    "message": "Type a letter"
+    "message": "Escriba una letra"
   },
   "includeModifierKeysMessage": {
-    "message": "Include either Ctrl or Alt"
+    "message": "Incluir Ctrl o Alt"
   },
   "includeMacModifierKeysMessage": {
-    "message": "Include either Command, Ctrl or Alt"
+    "message": "Incluir Command, Ctrl o Alt"
   },
   "invalidLetterMessage": {
-    "message": "The letter can not be used"
+    "message": "La letra no puede ser utilizada"
   },
   "invalidShortcutMessage": {
-    "message": "The shortcut can not be used"
+    "message": "El atajo no puede ser usado"
   },
   "clear": {
-    "message": "Clear"
+    "message": "Limpiar"
   },
   "reset": {
-    "message": "Reset"
+    "message": "Restablecer"
   },
   "informationLabel": {
     "message": "Información"
@@ -231,10 +231,10 @@
     "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
   },
   "networkError": {
-    "message": "Error: Check network connection status."
+    "message": "Error: Compruebe el estado de la conexión de red."
   },
   "unavailableError": {
-    "message": "Error: Service usage limit reached. Please wait a while and try again."
+    "message": "Error: Límite de uso de servicio alcanzado. Por favor, espere unos minutos e inténtelo de nuevo."
   },
   "unknownError": {
     "message": "Error: Desconocido"

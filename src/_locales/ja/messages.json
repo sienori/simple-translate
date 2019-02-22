@@ -14,6 +14,15 @@
   "showLink": {
     "message": "このページを翻訳"
   },
+  "openInGoogleLabel": {
+    "message": "Open in Google Translate"
+  },
+  "copyLabel": {
+    "message": "Copy"
+  },
+  "copiedLabel": {
+    "message": "Copied."
+  },
   "targetLangLabel": {
     "message": "翻訳先の言語"
   },

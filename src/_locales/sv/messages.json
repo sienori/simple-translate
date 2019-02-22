@@ -51,13 +51,13 @@
     "message": "Visa översättningsknapp"
   },
   "ifShowButtonCaptionLabel": {
-    "message": "Display the translation button to open the panel when clicked."
+    "message": "Visa översättningsknappen för att öppna panelen vid klick."
   },
   "dontshowbuttonlabel": {
-    "message": "Don't display button or panel"
+    "message": "Visa inte knappen eller panelen"
   },
   "dontshowbuttonCaptionlabel": {
-    "message": "Don't display the translation button or the translation panel."
+    "message": "Visa inte översättningsknapp eller översättningspanel."
   },
   "ifCheckLangLabel": {
     "message": "Visa inte knappen om översättning inte behövs"
@@ -72,7 +72,7 @@
     "message": "Växla automatiskt till det andra språket"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+    "message": "Detektera språket i inmatningstexten och om det är samma som målspråket, översätt det till andraspråket."
   },
   "secondTargetLangLabel": {
     "message": "Andraspråk"
@@ -84,7 +84,7 @@
     "message": "Väntetid på att översätta"
   },
   "waitTimeCaptionLabel": {
-    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+    "message": "Ange väntetiden från inmatningen av ett tecken till början av översättningen (millisekunder)."
   },
   "waitTime2CaptionLabel": {
     "message": "If you translate it many times in a short time, it may become unusable for a while."
@@ -153,10 +153,10 @@
     "message": "Annat"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Display option page when updating"
+    "message": "Visa alternativsidan efter uppdatering"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+    "message": "Visar alternativsidan efter att Simple Translate har uppdaterats. Du kan då snabbt se vad som har uppdaterats."
   },
   "isDebugModeLabel": {
     "message": "Aktivera felsökningsläge"

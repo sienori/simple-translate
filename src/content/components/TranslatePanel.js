@@ -56,7 +56,8 @@ export default class TranslatePanel extends Component {
   componentWillReceiveProps = nextProps => {
     const isChangedContents =
       this.props.resultText !== nextProps.resultText ||
-      this.props.candidateText !== nextProps.candidateText;
+      this.props.candidateText !== nextProps.candidateText ||
+      this.props.position !== nextProps.position;
 
     if (isChangedContents && nextProps.shouldShow) this.setState({ shouldResize: true });
   };

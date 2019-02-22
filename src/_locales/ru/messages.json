@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Простое расширение для быстрого перевода выделенного текста или всей страницы."
+    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
   },
   "donateWithPaypalLabel": {
     "message": "Сделать пожертвование через PayPal"

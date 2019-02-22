@@ -16,7 +16,8 @@ export default class TranslatePanel extends Component {
       panelPosition: { x: 0, y: 0 },
       panelWidth: 0,
       panelHeight: 0,
-      shouldResize: true
+      shouldResize: true,
+      isOverflow: false
     };
     this.isFirst = true;
   }
@@ -72,11 +73,14 @@ export default class TranslatePanel extends Component {
     if (!this.state.shouldResize || !this.props.shouldShow) return;
     const panelPosition = this.calcPosition();
     const { panelWidth, panelHeight } = this.calcSize();
+    const isOverflow = panelHeight == parseInt(getSettings("height"));
+
     this.setState({
       shouldResize: false,
       panelPosition: panelPosition,
       panelWidth: panelWidth,
-      panelHeight: panelHeight
+      panelHeight: panelHeight,
+      isOverflow: isOverflow
     });
   };
 
@@ -96,7 +100,7 @@ export default class TranslatePanel extends Component {
       backgroundColor: getSettings("bgColor")
     };
     const wrapperStyles = {
-      overflow: this.state.shouldResize ? "hidden" : "auto"
+      overflow: this.state.isOverflow ? "auto" : "hidden"
     };
     const resultStyles = {
       color: getSettings("resultFontColor")

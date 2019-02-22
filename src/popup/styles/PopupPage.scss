@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", "San Francisco", "Ubuntu", "Fira Sans", "Roboto", "Arial", "Helvetica",
+    sans-serif;
+  font-size: 13px;
+  width: 348px;
+  overflow: hidden;
+  background-color: var(--main-bg);
+
+  #root {
+    height: 100%;
+  }
+
+  hr {
+    border: none;
+    border-top: solid 1px var(--button);
+    height: 1px;
+    margin: 0px 10px;
+  }
+
+  ::-moz-selection {
+    background: var(--line);
+  }
+}
+
+:root {
+  --main-text: #0c0c0d;
+  --sub-text: #737373;
+  --line: #ededf0;
+  --button: #d7d7db;
+  --highlight: #5595ff;
+  --main-bg: #ffffff;
+  --confirm: #ff4f4f;
+  --error: #d70022;
+  --warn: #ff8f00;
+  --success: #058b00;
+  --info: #0a84ff;
+}

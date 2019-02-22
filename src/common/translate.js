@@ -65,6 +65,15 @@ const formatResult = result => {
 
 export default async (sourceWord, sourceLang = "auto", targetLang) => {
   sourceWord = sourceWord.trim();
+  if (sourceWord === "")
+    return {
+      resultText: "",
+      candidateText: "",
+      sourceLanguage: "en",
+      percentage: 0,
+      statusText: "OK"
+    };
+
   const history = getHistory(sourceWord, sourceLang, targetLang);
   if (history) return history.result;
 

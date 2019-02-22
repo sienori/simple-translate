@@ -1,0 +1,25 @@
+#resultArea {
+  max-height: 240px;
+  min-height: 30px;
+  overflow-y: auto;
+  word-wrap: break-word;
+  background-color: var(--main-bg);
+  margin: 10px;
+
+  p {
+    margin: 0;
+    padding: 0px 5px;
+    background-color: var(--main-bg);
+
+    &.resultText {
+      color: var(--main-text);
+    }
+    &.candidateText {
+      color: var(--sub-text);
+      margin-top: 1em;
+      &:empty {
+        margin-top: 0;
+      }
+    }
+  }
+}

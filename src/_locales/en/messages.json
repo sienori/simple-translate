@@ -15,6 +15,9 @@
   "showLink": {
     "message": "Translate this page"
   },
+  "openInGoogleLabel": {
+    "message": "Open in Google Translate"
+  },
   "targetLangLabel": {
     "message": "Target language"
   },

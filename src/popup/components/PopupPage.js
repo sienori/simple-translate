@@ -111,6 +111,8 @@ export default class PopupPage extends Component {
         <InputArea inputText={this.state.inputText} handleInputText={this.handleInputText} />
         <hr />
         <ResultArea
+          inputText={this.state.inputText}
+          targetLang={this.state.targetLang}
           resultText={this.state.resultText}
           candidateText={this.state.candidateText}
           statusText={this.state.statusText}

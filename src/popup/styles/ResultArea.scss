@@ -23,4 +23,16 @@
       }
     }
   }
+
+  .translateLink {
+    a {
+      font-style: normal;
+      text-decoration: none;
+      color: var(--highlight);
+      cursor: pointer;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
 }

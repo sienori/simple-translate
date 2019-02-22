@@ -4,6 +4,7 @@ import getErrorMessage from "src/common/getErrorMessage";
 import { getSettings } from "src/settings/settings";
 import openUrl from "src/common/openUrl";
 import "../styles/ResultArea.scss";
+import CopyButton from "./CopyButton";
 
 const splitLine = text => {
   const regex = /(\n)/g;
@@ -32,6 +33,7 @@ export default props => {
           <a onClick={handleLinkClick}>{browser.i18n.getMessage("openInGoogleLabel")}</a>
         </p>
       )}
+      <CopyButton resultText={resultText} />
     </div>
   );
 };

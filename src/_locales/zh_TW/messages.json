@@ -201,10 +201,10 @@
     "message": "這個快速鍵無法使用"
   },
   "clear": {
-    "message": "Clear"
+    "message": "清除"
   },
   "reset": {
-    "message": "Reset"
+    "message": "重設"
   },
   "informationLabel": {
     "message": "附加元件資訊"
@@ -249,6 +249,6 @@
     "message": "翻譯選取鏈結"
   },
   "openPopupDescription": {
-    "message": "Open toolbar popup"
+    "message": "開啟工具列彈出式視窗"
   }
 }

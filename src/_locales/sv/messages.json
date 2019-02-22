@@ -231,13 +231,13 @@
     "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
   },
   "networkError": {
-    "message": "Error: Check network connection status."
+    "message": "Fel: Kontrollera status för nätverksanslutningen."
   },
   "unavailableError": {
-    "message": "Error: Service usage limit reached. Please wait a while and try again."
+    "message": "Fel: Användningsgräns uppnådd. Vänta en stund och försök igen."
   },
   "unknownError": {
-    "message": "Error: Unknown error"
+    "message": "Fel: Okänt fel"
   },
   "translatePageMenu": {
     "message": "Översätt denna sida"

@@ -14,6 +14,15 @@
   "showLink": {
     "message": "Преведете тази страница"
   },
+  "openInGoogleLabel": {
+    "message": "Open in Google Translate"
+  },
+  "copyLabel": {
+    "message": "Copy"
+  },
+  "copiedLabel": {
+    "message": "Copied."
+  },
   "targetLangLabel": {
     "message": "Целеви език"
   },

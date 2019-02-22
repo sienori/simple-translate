@@ -26,7 +26,7 @@
       content: "";
       z-index: 1;
       position: absolute;
-      top: 40%;
+      top: 35%;
       right: 7px;
       width: 5px;
       height: 5px;
@@ -44,6 +44,7 @@
 
     select {
       -moz-appearance: none;
+      -webkit-appearance: none;
       text-overflow: ellipsis;
       background-color: var(--main-bg);
       border: var(--button) solid 1px;

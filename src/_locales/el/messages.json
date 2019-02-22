@@ -14,6 +14,15 @@
   "showLink": {
     "message": "Μετάφραση της σελίδας"
   },
+  "openInGoogleLabel": {
+    "message": "Open in Google Translate"
+  },
+  "copyLabel": {
+    "message": "Copy"
+  },
+  "copiedLabel": {
+    "message": "Copied."
+  },
   "targetLangLabel": {
     "message": "Γλώσσα προς μετάφραση"
   },

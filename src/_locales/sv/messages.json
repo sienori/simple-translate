@@ -87,7 +87,7 @@
     "message": "Ange väntetiden från inmatningen av ett tecken till början av översättningen (millisekunder)."
   },
   "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
+    "message": "Om du översätter det många gånger på kort tid kan det bli oanvändbart för ett tag."
   },
   "menuLabel": {
     "message": "Innehållsmeny"

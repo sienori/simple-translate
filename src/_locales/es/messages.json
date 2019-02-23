@@ -122,17 +122,32 @@
   "buttonPositionLabel": {
     "message": "Mostrar posición"
   },
-  "rightUpLabel": {
-    "message": "Arriba a la derecha"
+  "topRightLabel": {
+    "message": "Top right"
   },
-  "rightDownLabel": {
-    "message": "Abajo a la derecha"
+  "bottomRightLabel": {
+    "message": "Bottom right"
   },
-  "leftUpLabel": {
-    "message": "Arriba a la izquierda"
+  "topLeftLabel": {
+    "message": "Top left"
   },
-  "leftDownLabel": {
-    "message": "Abajo a la izquierda"
+  "bottomLeftLabel": {
+    "message": "Bottom left"
+  },
+  "topLabel": {
+    "message": "Top"
+  },
+  "bottomLabel": {
+    "message": "Bottom"
+  },
+  "leftLabel": {
+    "message": "Left"
+  },
+  "rightLabel": {
+    "message": "Right"
+  },
+  "positionOffsetLabel": {
+    "message": "Display position - Offset"
   },
   "panelStyleLabel": {
     "message": "Panel de traducción"
@@ -148,6 +163,21 @@
   },
   "fontSizeLabel": {
     "message": "Tamaño de la fuente"
+  },
+  "referencePointLabel": {
+    "message": "Display position - Reference point"
+  },
+  "bottomSelectedTextLabel": {
+    "message": "Bottom of selected text"
+  },
+  "topSelectedTextLabel": {
+    "message": "Top of selected text"
+  },
+  "clickedPointLabel": {
+    "message": "Clicked point"
+  },
+  "displayDirectionLabel": {
+    "message": "Display position - Direction"
   },
   "resultFontColorLabel": {
     "message": "Color de fuente del resultado de la traducción"

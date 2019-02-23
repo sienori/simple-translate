@@ -168,13 +168,13 @@
     "message": "Размер шрифта"
   },
   "referencePointLabel": {
-    "message": "Display position - Reference point"
+    "message": "Положение"
   },
   "bottomSelectedTextLabel": {
-    "message": "Bottom of selected text"
+    "message": "Внизу выделенного текста"
   },
   "topSelectedTextLabel": {
-    "message": "Top of selected text"
+    "message": "Вверху выделенного текста"
   },
   "clickedPointLabel": {
     "message": "Clicked point"
@@ -183,7 +183,7 @@
     "message": "Положение - Направление"
   },
   "resultFontColorLabel": {
-    "message": "Цвет шрифта результата перевода"
+    "message": "Цвет шрифта перевода"
   },
   "candidateFontColorLabel": {
     "message": "Цвет шрифта вариантов перевода"

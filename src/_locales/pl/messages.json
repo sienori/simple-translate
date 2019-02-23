@@ -74,6 +74,9 @@
   "ifCheckLangCaptionLabel": {
     "message": "Wykrywa język zaznaczonego tekstu i jeżeli jest taki sam jak język docelowy przycisk nie zostaje wyświetlany."
   },
+  "ifChangeSecondLangOnPageCaptionLabel": {
+    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+  },
   "toolbarLabel": {
     "message": "Podręczne narzędzia"
   },
@@ -122,17 +125,32 @@
   "buttonPositionLabel": {
     "message": "Wyświetl pozycję"
   },
-  "rightUpLabel": {
-    "message": "Prawy górny róg"
+  "topRightLabel": {
+    "message": "Top right"
   },
-  "rightDownLabel": {
-    "message": "Prawy dolny róg"
+  "bottomRightLabel": {
+    "message": "Bottom right"
   },
-  "leftUpLabel": {
-    "message": "Lewy górny róg"
+  "topLeftLabel": {
+    "message": "Top left"
   },
-  "leftDownLabel": {
-    "message": "Lewy dolny róg"
+  "bottomLeftLabel": {
+    "message": "Bottom left"
+  },
+  "topLabel": {
+    "message": "Top"
+  },
+  "bottomLabel": {
+    "message": "Bottom"
+  },
+  "leftLabel": {
+    "message": "Left"
+  },
+  "rightLabel": {
+    "message": "Right"
+  },
+  "positionOffsetLabel": {
+    "message": "Display position - Offset"
   },
   "panelStyleLabel": {
     "message": "Panel tłumaczenia"
@@ -148,6 +166,21 @@
   },
   "fontSizeLabel": {
     "message": "Rozmiar czcionki"
+  },
+  "referencePointLabel": {
+    "message": "Display position - Reference point"
+  },
+  "bottomSelectedTextLabel": {
+    "message": "Bottom of selected text"
+  },
+  "topSelectedTextLabel": {
+    "message": "Top of selected text"
+  },
+  "clickedPointLabel": {
+    "message": "Clicked point"
+  },
+  "displayDirectionLabel": {
+    "message": "Display position - Direction"
   },
   "resultFontColorLabel": {
     "message": "Font color of translation result"

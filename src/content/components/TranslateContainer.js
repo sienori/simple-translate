@@ -46,19 +46,6 @@ const getSelectedPosition = () => {
   return selectedPosition;
 };
 
-const calcPanelPosition = clickedPosition => {
-  const panelReferencePoint = getSettings("panelReferencePoint");
-  switch (panelReferencePoint) {
-    case "topSelectedText":
-      return getSelectedPosition("top");
-    case "bottomSelectedText":
-      return getSelectedPosition("bottom");
-    case "clickedPoint":
-      if (clickedPosition) return clickedPosition;
-      else return getSelectedPosition("bottom");
-  }
-};
-
 const translateText = async text => {
   const targetLang = getSettings("targetLang");
   const result = await translate(text, "auto", targetLang);

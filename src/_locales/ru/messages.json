@@ -18,10 +18,10 @@
     "message": "Open in Google Translate"
   },
   "copyLabel": {
-    "message": "Copy"
+    "message": "Копировать"
   },
   "copiedLabel": {
-    "message": "Copied."
+    "message": "Скопировано."
   },
   "targetLangLabel": {
     "message": "Язык перевода"
@@ -75,7 +75,7 @@
     "message": "Если язык выделенного текста совпадает с языком перевода, то кнопка не показывается."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+    "message": "Переключаться на дополнительный язык перевода, если язык выделенного текста совпадает с языком перевода по умолчанию."
   },
   "toolbarLabel": {
     "message": "Окно на панели инструментов"
@@ -126,28 +126,28 @@
     "message": "Положение"
   },
   "topRightLabel": {
-    "message": "Top right"
+    "message": "Вверху справа"
   },
   "bottomRightLabel": {
-    "message": "Bottom right"
+    "message": "Внизу справа"
   },
   "topLeftLabel": {
-    "message": "Top left"
+    "message": "Вверху слева"
   },
   "bottomLeftLabel": {
-    "message": "Bottom left"
+    "message": "Внизу слева"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "Вверху"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "Внизу"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "Слева"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "Справа"
   },
   "positionOffsetLabel": {
     "message": "Display position - Offset"

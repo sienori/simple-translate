@@ -17,8 +17,8 @@ const path = require("path");
 const config = require("./config.json");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
 
-const extVersion = require("./src/manifest.json").version;
-const ffExtVersion = require("./src/manifest-ff.json").version;
+const extVersion = require("./src/manifest-chrome.json").version;
+const ffExtVersion = require("./src/manifest-firefox.json").version;
 
 const generalConfig = {
   mode: "production",
@@ -133,7 +133,7 @@ module.exports = [
         src: path.resolve(__dirname, "src/")
       }
     },
-    entry: { other: path.resolve(__dirname, `src/replaced/replaced.js`) },
+    entry: { other: path.resolve(__dirname, `src/background/background.js`) },
     output: getOutput("copiedSource", config.tempDirectory),
     plugins: [
       new CopyWebpackPlugin([

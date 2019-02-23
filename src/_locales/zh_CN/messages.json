@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
+    "message": "浏览互联网时可以轻松查看翻译。"
   },
   "donateWithPaypalLabel": {
     "message": "使用PayPal 捐赠"
@@ -74,6 +74,9 @@
   "ifCheckLangCaptionLabel": {
     "message": "侦测选取文本的语言，如果它与目标语言相同，则不显示按钮。"
   },
+  "ifChangeSecondLangOnPageCaptionLabel": {
+    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+  },
   "toolbarLabel": {
     "message": "工具栏弹出窗口"
   },
@@ -122,17 +125,32 @@
   "buttonPositionLabel": {
     "message": "显示位置"
   },
-  "rightUpLabel": {
-    "message": "右上角"
+  "topRightLabel": {
+    "message": "Top right"
   },
-  "rightDownLabel": {
-    "message": "右下角"
+  "bottomRightLabel": {
+    "message": "Bottom right"
   },
-  "leftUpLabel": {
-    "message": "左上角"
+  "topLeftLabel": {
+    "message": "Top left"
   },
-  "leftDownLabel": {
-    "message": "左下角"
+  "bottomLeftLabel": {
+    "message": "Bottom left"
+  },
+  "topLabel": {
+    "message": "Top"
+  },
+  "bottomLabel": {
+    "message": "Bottom"
+  },
+  "leftLabel": {
+    "message": "Left"
+  },
+  "rightLabel": {
+    "message": "Right"
+  },
+  "positionOffsetLabel": {
+    "message": "Display position - Offset"
   },
   "panelStyleLabel": {
     "message": "翻译面板"
@@ -148,6 +166,21 @@
   },
   "fontSizeLabel": {
     "message": "字体大小"
+  },
+  "referencePointLabel": {
+    "message": "Display position - Reference point"
+  },
+  "bottomSelectedTextLabel": {
+    "message": "Bottom of selected text"
+  },
+  "topSelectedTextLabel": {
+    "message": "Top of selected text"
+  },
+  "clickedPointLabel": {
+    "message": "Clicked point"
+  },
+  "displayDirectionLabel": {
+    "message": "Display position - Direction"
   },
   "resultFontColorLabel": {
     "message": "Font color of translation result"

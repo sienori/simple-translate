@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
+    "message": "Webページ上の選択されたテキストを瞬時に翻訳します。ツールバーポップアップではテキストを入力して翻訳できます。"
   },
   "donateWithPaypalLabel": {
     "message": "PayPalで寄付"
@@ -15,13 +15,13 @@
     "message": "このページを翻訳"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "Google Translateで開く"
   },
   "copyLabel": {
-    "message": "Copy"
+    "message": "コピー"
   },
   "copiedLabel": {
-    "message": "Copied."
+    "message": "コピーしました。"
   },
   "targetLangLabel": {
     "message": "翻訳先の言語"
@@ -74,6 +74,9 @@
   "ifCheckLangCaptionLabel": {
     "message": "選択したテキストの言語を検出し，翻訳先言語と同じ場合はボタンを表示しません。"
   },
+  "ifChangeSecondLangOnPageCaptionLabel": {
+    "message": "選択されたテキストの言語を検出し，デフォルトの翻訳先言語と同じ場合には第二言語に翻訳します。"
+  },
   "toolbarLabel": {
     "message": "ツールバーポップアップ"
   },
@@ -122,17 +125,32 @@
   "buttonPositionLabel": {
     "message": "表示位置"
   },
-  "rightUpLabel": {
+  "topRightLabel": {
     "message": "右上"
   },
-  "rightDownLabel": {
+  "bottomRightLabel": {
     "message": "右下"
   },
-  "leftUpLabel": {
+  "topLeftLabel": {
     "message": "左上"
   },
-  "leftDownLabel": {
-    "message": "左下"
+  "bottomLeftLabel": {
+    "message": "Bottom left"
+  },
+  "topLabel": {
+    "message": "Top"
+  },
+  "bottomLabel": {
+    "message": "Bottom"
+  },
+  "leftLabel": {
+    "message": "Left"
+  },
+  "rightLabel": {
+    "message": "Right"
+  },
+  "positionOffsetLabel": {
+    "message": "Display position - Offset"
   },
   "panelStyleLabel": {
     "message": "翻訳パネル"
@@ -148,6 +166,21 @@
   },
   "fontSizeLabel": {
     "message": "フォントサイズ"
+  },
+  "referencePointLabel": {
+    "message": "Display position - Reference point"
+  },
+  "bottomSelectedTextLabel": {
+    "message": "Bottom of selected text"
+  },
+  "topSelectedTextLabel": {
+    "message": "Top of selected text"
+  },
+  "clickedPointLabel": {
+    "message": "Clicked point"
+  },
+  "displayDirectionLabel": {
+    "message": "Display position - Direction"
   },
   "resultFontColorLabel": {
     "message": "Font color of translation result"

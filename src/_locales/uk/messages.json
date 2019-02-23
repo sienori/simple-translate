@@ -122,17 +122,32 @@
   "buttonPositionLabel": {
     "message": "Позиція кнопки"
   },
-  "rightUpLabel": {
-    "message": "Зверху праворуч"
+  "topRightLabel": {
+    "message": "Top right"
   },
-  "rightDownLabel": {
-    "message": "Внизу праворуч"
+  "bottomRightLabel": {
+    "message": "Bottom right"
   },
-  "leftUpLabel": {
-    "message": "Зверху ліворуч"
+  "topLeftLabel": {
+    "message": "Top left"
   },
-  "leftDownLabel": {
-    "message": "Внизу ліворуч"
+  "bottomLeftLabel": {
+    "message": "Bottom left"
+  },
+  "topLabel": {
+    "message": "Top"
+  },
+  "bottomLabel": {
+    "message": "Bottom"
+  },
+  "leftLabel": {
+    "message": "Left"
+  },
+  "rightLabel": {
+    "message": "Right"
+  },
+  "positionOffsetLabel": {
+    "message": "Display position - Offset"
   },
   "panelStyleLabel": {
     "message": "Панель перекладу"
@@ -148,6 +163,21 @@
   },
   "fontSizeLabel": {
     "message": "Розмір шрифту"
+  },
+  "referencePointLabel": {
+    "message": "Display position - Reference point"
+  },
+  "bottomSelectedTextLabel": {
+    "message": "Bottom of selected text"
+  },
+  "topSelectedTextLabel": {
+    "message": "Top of selected text"
+  },
+  "clickedPointLabel": {
+    "message": "Clicked point"
+  },
+  "displayDirectionLabel": {
+    "message": "Display position - Direction"
   },
   "resultFontColorLabel": {
     "message": "Font color of translation result"

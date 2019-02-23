@@ -207,22 +207,22 @@
     "message": "When debug mode is enabled, the log is output to the debugger."
   },
   "resetSettingsLabel": {
-    "message": "Reset settings"
+    "message": "Alapbeállítások"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Restore all settings to default."
+    "message": "Minden beállítás visszaállítása alapértelmezettre."
   },
   "resetSettingsButtonLabel": {
-    "message": "Reset"
+    "message": "Visszaállítás"
   },
   "shortcutsLabel": {
-    "message": "Shortcuts"
+    "message": "Gyorsbillentyűk"
   },
   "keyboardShortcutsLabel": {
-    "message": "Keyboard shortcuts"
+    "message": "Billentyű kombinációk"
   },
   "setKeyboardShortCutsMessage": {
-    "message": "Set keyboard shortcuts."
+    "message": "Gyorsbillentyűk beállítása."
   },
   "typeShortcutMessage": {
     "message": "Type a shortcut"
@@ -246,7 +246,7 @@
     "message": "Clear"
   },
   "reset": {
-    "message": "Reset"
+    "message": "Visszaállítás"
   },
   "informationLabel": {
     "message": "Információ"

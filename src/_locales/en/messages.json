@@ -151,6 +151,9 @@
   "rightLabel": {
     "message": "Right"
   },
+  "positionOffsetLabel": {
+    "message": "Display position - Offset"
+  },
   "panelStyleLabel": {
     "message": "Translation panel"
   },

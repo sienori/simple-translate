@@ -4,7 +4,7 @@ import "../styles/TranslateButton.scss";
 
 const calcPosition = () => {
   const buttonSize = parseInt(getSettings("buttonSize"));
-  const offset = 10;
+  const offset = parseInt(getSettings("buttonOffset"));
   switch (getSettings("buttonDirection")) {
     case "top":
       return { top: -buttonSize - offset, left: -buttonSize / 2 };

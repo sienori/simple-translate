@@ -31,7 +31,7 @@ export default class TranslatePanel extends Component {
     const windowWidth = document.documentElement.clientWidth;
     const windowHeight = document.documentElement.clientHeight;
     const referencePosition = this.props.position;
-    const offset = 10;
+    const offset = parseInt(getSettings("panelOffset"));
 
     let position = { x: 0, y: 0 };
     const panelDirection = getSettings("panelDirection");

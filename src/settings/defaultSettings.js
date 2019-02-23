@@ -143,7 +143,7 @@ export default [
           },
           {
             id: "buttonDirection",
-            title: "buttonPositionLabel",
+            title: "displayDirectionLabel",
             captions: [],
             type: "select",
             default: "bottomRight",
@@ -181,6 +181,15 @@ export default [
                 value: "bottomLeft"
               }
             ],
+            new: true
+          },
+          {
+            id: "buttonOffset",
+            title: "positionOffsetLabel",
+            captions: [],
+            type: "number",
+            default: 10,
+            placeholder: 10,
             new: true
           }
         ]
@@ -279,6 +288,15 @@ export default [
                 value: "bottomLeft"
               }
             ],
+            new: true
+          },
+          {
+            id: "panelOffset",
+            title: "positionOffsetLabel",
+            captions: [],
+            type: "number",
+            default: 10,
+            placeholder: 10,
             new: true
           },
           {

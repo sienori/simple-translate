@@ -74,6 +74,9 @@
   "ifCheckLangCaptionLabel": {
     "message": "Detekterar språket i den markerade texten och om det är samma som målspråket visas inte knappen."
   },
+  "ifChangeSecondLangOnPageCaptionLabel": {
+    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+  },
   "toolbarLabel": {
     "message": "Verktygsfältspopup"
   },

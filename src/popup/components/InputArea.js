@@ -13,6 +13,14 @@ export default class InputArea extends Component {
   handleInputText = e => {
     const inputText = e.target.value;
     this.props.handleInputText(inputText);
+  };
+
+  shouldComponentUpdate(nextProps) {
+    const shouldUpdate = this.props.inputText !== nextProps.inputText;
+    return shouldUpdate;
+  }
+
+  componentDidUpdate = () => {
     this.resizeTextArea();
   };
 

@@ -14,6 +14,15 @@
   "showLink": {
     "message": "翻译此页面"
   },
+  "openInGoogleLabel": {
+    "message": "Open in Google Translate"
+  },
+  "copyLabel": {
+    "message": "Copy"
+  },
+  "copiedLabel": {
+    "message": "Copied."
+  },
   "targetLangLabel": {
     "message": "目标语言"
   },
@@ -65,6 +74,9 @@
   "ifCheckLangCaptionLabel": {
     "message": "侦测选取文本的语言，如果它与目标语言相同，则不显示按钮。"
   },
+  "ifChangeSecondLangOnPageCaptionLabel": {
+    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+  },
   "toolbarLabel": {
     "message": "工具栏弹出窗口"
   },
@@ -113,17 +125,32 @@
   "buttonPositionLabel": {
     "message": "显示位置"
   },
-  "rightUpLabel": {
-    "message": "右上角"
+  "topRightLabel": {
+    "message": "Top right"
   },
-  "rightDownLabel": {
-    "message": "右下角"
+  "bottomRightLabel": {
+    "message": "Bottom right"
   },
-  "leftUpLabel": {
-    "message": "左上角"
+  "topLeftLabel": {
+    "message": "Top left"
   },
-  "leftDownLabel": {
-    "message": "左下角"
+  "bottomLeftLabel": {
+    "message": "Bottom left"
+  },
+  "topLabel": {
+    "message": "Top"
+  },
+  "bottomLabel": {
+    "message": "Bottom"
+  },
+  "leftLabel": {
+    "message": "Left"
+  },
+  "rightLabel": {
+    "message": "Right"
+  },
+  "positionOffsetLabel": {
+    "message": "Display position - Offset"
   },
   "panelStyleLabel": {
     "message": "翻译面板"
@@ -140,8 +167,86 @@
   "fontSizeLabel": {
     "message": "字体大小"
   },
+  "referencePointLabel": {
+    "message": "Display position - Reference point"
+  },
+  "bottomSelectedTextLabel": {
+    "message": "Bottom of selected text"
+  },
+  "topSelectedTextLabel": {
+    "message": "Top of selected text"
+  },
+  "clickedPointLabel": {
+    "message": "Clicked point"
+  },
+  "displayDirectionLabel": {
+    "message": "Display position - Direction"
+  },
+  "resultFontColorLabel": {
+    "message": "Font color of translation result"
+  },
+  "candidateFontColorLabel": {
+    "message": "Font color of translation candidates"
+  },
   "bgColorLabel": {
     "message": "背景色"
+  },
+  "otherLabel": {
+    "message": "Other"
+  },
+  "isShowOptionsPageWhenUpdatedLabel": {
+    "message": "Display option page when updating"
+  },
+  "isShowOptionsPageWhenUpdatedCaptionLabel": {
+    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+  },
+  "isDebugModeLabel": {
+    "message": "Enable debug mode"
+  },
+  "isDebugModeCaptionLabel": {
+    "message": "When debug mode is enabled, the log is output to the debugger."
+  },
+  "resetSettingsLabel": {
+    "message": "Reset settings"
+  },
+  "resetSettingsCaptionLabel": {
+    "message": "Restore all settings to default."
+  },
+  "resetSettingsButtonLabel": {
+    "message": "Reset"
+  },
+  "shortcutsLabel": {
+    "message": "Shortcuts"
+  },
+  "keyboardShortcutsLabel": {
+    "message": "Keyboard shortcuts"
+  },
+  "setKeyboardShortCutsMessage": {
+    "message": "Set keyboard shortcuts."
+  },
+  "typeShortcutMessage": {
+    "message": "Type a shortcut"
+  },
+  "typeLetterMessage": {
+    "message": "Type a letter"
+  },
+  "includeModifierKeysMessage": {
+    "message": "Include either Ctrl or Alt"
+  },
+  "includeMacModifierKeysMessage": {
+    "message": "Include either Command, Ctrl or Alt"
+  },
+  "invalidLetterMessage": {
+    "message": "The letter can not be used"
+  },
+  "invalidShortcutMessage": {
+    "message": "The shortcut can not be used"
+  },
+  "clear": {
+    "message": "Clear"
+  },
+  "reset": {
+    "message": "Reset"
   },
   "informationLabel": {
     "message": "信息"
@@ -184,5 +289,8 @@
   },
   "translateLinkMenu": {
     "message": "翻译选定链接"
+  },
+  "openPopupDescription": {
+    "message": "Open toolbar popup"
   }
 }

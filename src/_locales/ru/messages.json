@@ -1,0 +1,296 @@
+{
+  "extName": {
+    "message": "Simple Translate"
+  },
+  "extDescription": {
+    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
+  },
+  "donateWithPaypalLabel": {
+    "message": "Сделать пожертвование через PayPal"
+  },
+  "initialTextArea": {
+    "message": "Введите текст"
+  },
+  "showLink": {
+    "message": "Перевести страницу"
+  },
+  "openInGoogleLabel": {
+    "message": "Open in Google Translate"
+  },
+  "copyLabel": {
+    "message": "Copy"
+  },
+  "copiedLabel": {
+    "message": "Copied."
+  },
+  "targetLangLabel": {
+    "message": "Язык перевода"
+  },
+  "langList": {
+    "message": "af:Африкаанс, sq:Албанский, am:Амхарский, ar:Арабский, hy:Армянский, az:Азербайджанский, eu:Баскский, be:Белорусский, bn:Бенгальский, bs:Боснийский, bg:Болгарский, ca:Каталанский, ceb:Себуано, ny:Ньянджа, zh-CN:Китайский (КНР), zh-TW:Китайский (Тайвань), co:Корсиканский, hr:Хорватский, cs:Чешский, da:Датский, nl:Голландский, en:Английский, eo:Эсперанто, et:Эстонский, fi:Финский, fr:Французский, fy:Фризский, gl:Галисийский, ka:Грузинский, de:Немецкий, el:Греческий, gu:Гуджарати, ht:Гаитянский, ha:Хауса, haw:Гавайский, he:Иврит, hi:Хинди, hu:Венгерский, is:Исландский, ig:Игбо, id:Индонезийский, ga:Ирландский, it:Итальянский, ja:Японский, jv:Яванский, kn:Каннада, kk:Казахский, km:Кхмерский, ky:Киргизский, ko:Корейский, ku:Курдский, lo:Лаосский, la:Латинский, lv:Латышский, lt:Литовский, lb:Люксембургский, mk:Македонский, mg:Малагасийский, ms:Малайский, ml:Малаялам, mt:Мальтийский, mi:Маори, mr:Маратхи, mn:Монгольский, hmn:Мяо, my:Бирманский, ne:Непальский, no:Норвежский, fa:Персидский, pl:Польский, pt:Португальский, pa:Пенджабский, ps:Пушту, ro:Румынский, ru:Русский, sm:Самоанский, gd:Гэльский, sr:Сербский, sn:Шона, sd:Синдхи, si:Сингальский, sk:Словацкий, sl:Словенский, so:Сомали, sx:Сото южный, es:Испанский, su:Сунданский, sw:Суахили, sv:Шведский, tl:Тагальский, tg:Таджикский, ta:Тамильский, te:Телугу, th:Тайский, tr:Турецкий, uk:Украинский, ur:Урду, uz:Узбекский, vi:Вьетнамский, cy:Валлийский, xh:Коса, yi:Идиш, yo:Йоруба, zu:Зулу"
+  },
+  "settingsLabel": {
+    "message": "Настройки"
+  },
+  "generalLabel": {
+    "message": "Общие"
+  },
+  "targetLangCaptionLabel": {
+    "message": "Выберите язык перевода по умолчанию."
+  },
+  "webPageLabel": {
+    "message": "Веб-страница"
+  },
+  "ifShowCandidateLabel": {
+    "message": "Показывать варианты перевода"
+  },
+  "ifShowCandidateCaptionLabel": {
+    "message": "Показывать несколько вариантов перевода одиночного слова."
+  },
+  "whenSelectTextLabel": {
+    "message": "Поведение при выделении текста"
+  },
+  "ifAutoTranslateLabel": {
+    "message": "Показать панель с переводом"
+  },
+  "ifAutoTranslateCaptionLabel": {
+    "message": "Сразу показать панель с переводом, не показывая кнопку."
+  },
+  "ifShowButtonLabel": {
+    "message": "Показать кнопку перевода"
+  },
+  "ifShowButtonCaptionLabel": {
+    "message": "Показать кнопку для открытия панели с переводом."
+  },
+  "dontshowbuttonlabel": {
+    "message": "Ничего не делать"
+  },
+  "dontshowbuttonCaptionlabel": {
+    "message": "Не показывать ни кнопку перевода, ни панель с переводом."
+  },
+  "ifCheckLangLabel": {
+    "message": "Не показывать кнопку, если перевод не требуется"
+  },
+  "ifCheckLangCaptionLabel": {
+    "message": "Если язык выделенного текста совпадает с языком перевода, то кнопка не показывается."
+  },
+  "ifChangeSecondLangOnPageCaptionLabel": {
+    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+  },
+  "toolbarLabel": {
+    "message": "Окно на панели инструментов"
+  },
+  "ifChangeSecondLangLabel": {
+    "message": "Автоматически переключаться на дополнительный язык перевода"
+  },
+  "ifChangeSecondLangCaptionLabel": {
+    "message": "Переключаться на дополнительный язык перевода в окне на панели инструментов, если язык исходного текста совпадает с языком перевода по умолчанию."
+  },
+  "secondTargetLangLabel": {
+    "message": "Дополнительный язык перевода"
+  },
+  "secondTargetLangCaptionLabel": {
+    "message": "Выберите дополнительный язык перевода."
+  },
+  "waitTimeLabel": {
+    "message": "Задержка перед переводом"
+  },
+  "waitTimeCaptionLabel": {
+    "message": "Настройте задержку между вводом символа и началом процесса перевода (миллисекунды)."
+  },
+  "waitTime2CaptionLabel": {
+    "message": "Если запускать перевод слишком часто, сервис может стать временно недоступным."
+  },
+  "menuLabel": {
+    "message": "Контекстное меню"
+  },
+  "ifShowMenuLabel": {
+    "message": "Добавить пункты в контекстное меню"
+  },
+  "ifShowMenuCaptionLabel": {
+    "message": "Добавить команды перевода в контекстное меню веб-страницы и контекстное меню вкладки."
+  },
+  "styleLabel": {
+    "message": "Стиль"
+  },
+  "buttonStyleLabel": {
+    "message": "Кнопка перевода"
+  },
+  "buttonStyleCaptionLabel": {
+    "message": "Настройте стиль кнопки перевода, показываемой на веб-странице."
+  },
+  "buttonSizeLabel": {
+    "message": "Размер"
+  },
+  "buttonPositionLabel": {
+    "message": "Положение"
+  },
+  "topRightLabel": {
+    "message": "Top right"
+  },
+  "bottomRightLabel": {
+    "message": "Bottom right"
+  },
+  "topLeftLabel": {
+    "message": "Top left"
+  },
+  "bottomLeftLabel": {
+    "message": "Bottom left"
+  },
+  "topLabel": {
+    "message": "Top"
+  },
+  "bottomLabel": {
+    "message": "Bottom"
+  },
+  "leftLabel": {
+    "message": "Left"
+  },
+  "rightLabel": {
+    "message": "Right"
+  },
+  "positionOffsetLabel": {
+    "message": "Display position - Offset"
+  },
+  "panelStyleLabel": {
+    "message": "Панель с переводом"
+  },
+  "panelStyleCaptionLabel": {
+    "message": "Настройте стиль панели с переводом, показываемой на веб-странице."
+  },
+  "widthLabel": {
+    "message": "Ширина"
+  },
+  "heightLabel": {
+    "message": "Высота"
+  },
+  "fontSizeLabel": {
+    "message": "Размер шрифта"
+  },
+  "referencePointLabel": {
+    "message": "Display position - Reference point"
+  },
+  "bottomSelectedTextLabel": {
+    "message": "Bottom of selected text"
+  },
+  "topSelectedTextLabel": {
+    "message": "Top of selected text"
+  },
+  "clickedPointLabel": {
+    "message": "Clicked point"
+  },
+  "displayDirectionLabel": {
+    "message": "Display position - Direction"
+  },
+  "resultFontColorLabel": {
+    "message": "Цвет шрифта результата перевода"
+  },
+  "candidateFontColorLabel": {
+    "message": "Цвет шрифта вариантов перевода"
+  },
+  "bgColorLabel": {
+    "message": "Цвет фона"
+  },
+  "otherLabel": {
+    "message": "Другое"
+  },
+  "isShowOptionsPageWhenUpdatedLabel": {
+    "message": "Показать настройки при обновлении"
+  },
+  "isShowOptionsPageWhenUpdatedCaptionLabel": {
+    "message": "Показать настройки после обновления расширения. Позволяет быстро узнать что нового."
+  },
+  "isDebugModeLabel": {
+    "message": "Включить режим отладки"
+  },
+  "isDebugModeCaptionLabel": {
+    "message": "Если включен режим отладки, то журнал работы будет выводиться в отладчик."
+  },
+  "resetSettingsLabel": {
+    "message": "Сброс настроек"
+  },
+  "resetSettingsCaptionLabel": {
+    "message": "Восстановить все настройки по умолчанию."
+  },
+  "resetSettingsButtonLabel": {
+    "message": "Сброс"
+  },
+  "shortcutsLabel": {
+    "message": "Горячие клавиши"
+  },
+  "keyboardShortcutsLabel": {
+    "message": "Сочетания клавиш"
+  },
+  "setKeyboardShortCutsMessage": {
+    "message": "Настройка сочетаний клавиш."
+  },
+  "typeShortcutMessage": {
+    "message": "Введите сочетание клавиш"
+  },
+  "typeLetterMessage": {
+    "message": "Введите букву"
+  },
+  "includeModifierKeysMessage": {
+    "message": "Добавить клавишу Ctrl или Alt"
+  },
+  "includeMacModifierKeysMessage": {
+    "message": "Добавить клавишу Command, Ctrl или Alt"
+  },
+  "invalidLetterMessage": {
+    "message": "Эта буква не может быть использована"
+  },
+  "invalidShortcutMessage": {
+    "message": "Это сочетание клавиш не может быть использовано"
+  },
+  "clear": {
+    "message": "Очистить"
+  },
+  "reset": {
+    "message": "Сброс"
+  },
+  "informationLabel": {
+    "message": "Информация"
+  },
+  "licenseLabel": {
+    "message": "Лицензия"
+  },
+  "donationLabel": {
+    "message": "Пожалуйста, поблагодарите автора"
+  },
+  "donationCaptionLabel": {
+    "message": "Спасибо за использование Simple Translate.<br>Ваша поддержка это большая помощь в дальнейшем развитии расширения.<br>Если вам нравится Simple Translate, пожалуйста, подумайте о внесении небольшого пожертвования."
+  },
+  "amazonTitleLabel": {
+    "message": "Карты eGift от amazon.co.jp"
+  },
+  "addonPageLabel": {
+    "message": "Страница расширения"
+  },
+  "amazonUrl": {
+    "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=ru_RU"
+  },
+  "addonUrl": {
+    "message": "https:\/\/addons.mozilla.org\/ru-RU\/firefox\/addon\/simple-translate\/?src=optionpage"
+  },
+  "networkError": {
+    "message": "Ошибка: Проверьте состояние сетевого подключения."
+  },
+  "unavailableError": {
+    "message": "Ошибка: Достигнут предел использования сервиса. Подождите некоторое время и повторите попытку."
+  },
+  "unknownError": {
+    "message": "Ошибка: Неизвестная ошибка."
+  },
+  "translatePageMenu": {
+    "message": "Перевести всю страницу"
+  },
+  "translateTextMenu": {
+    "message": "Перевести выделенный текст"
+  },
+  "translateLinkMenu": {
+    "message": "Перевести страницу по ссылке"
+  },
+  "openPopupDescription": {
+    "message": "Показать окно на панели инструментов"
+  }
+}

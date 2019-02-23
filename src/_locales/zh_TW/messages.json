@@ -3,16 +3,25 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "瀏覽網際網路時可以輕鬆檢視翻譯。"
+    "message": "快速翻譯網頁上選取的文字。在工具列彈出式視窗中，您可以翻譯輸入的文字。"
   },
   "donateWithPaypalLabel": {
-    "message": "透過 PayPal 進行贊助"
+    "message": "透過 PayPal 來贊助我"
   },
   "initialTextArea": {
     "message": "輸入文字"
   },
   "showLink": {
     "message": "翻譯此頁面"
+  },
+  "openInGoogleLabel": {
+    "message": "在 Google 翻譯開啟"
+  },
+  "copyLabel": {
+    "message": "複製"
+  },
+  "copiedLabel": {
+    "message": "已複製。"
   },
   "targetLangLabel": {
     "message": "目標語言"
@@ -65,6 +74,9 @@
   "ifCheckLangCaptionLabel": {
     "message": "偵測所選文字的語言, 如果它與目標語言相同, 則不顯示按鈕。"
   },
+  "ifChangeSecondLangOnPageCaptionLabel": {
+    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+  },
   "toolbarLabel": {
     "message": "工具列彈出式選單"
   },
@@ -113,17 +125,32 @@
   "buttonPositionLabel": {
     "message": "顯示位置"
   },
-  "rightUpLabel": {
-    "message": "右上角"
+  "topRightLabel": {
+    "message": "Top right"
   },
-  "rightDownLabel": {
-    "message": "右下角"
+  "bottomRightLabel": {
+    "message": "Bottom right"
   },
-  "leftUpLabel": {
-    "message": "左上角"
+  "topLeftLabel": {
+    "message": "Top left"
   },
-  "leftDownLabel": {
-    "message": "左下角"
+  "bottomLeftLabel": {
+    "message": "Bottom left"
+  },
+  "topLabel": {
+    "message": "Top"
+  },
+  "bottomLabel": {
+    "message": "Bottom"
+  },
+  "leftLabel": {
+    "message": "Left"
+  },
+  "rightLabel": {
+    "message": "Right"
+  },
+  "positionOffsetLabel": {
+    "message": "Display position - Offset"
   },
   "panelStyleLabel": {
     "message": "翻譯面板"
@@ -140,8 +167,86 @@
   "fontSizeLabel": {
     "message": "字型大小"
   },
+  "referencePointLabel": {
+    "message": "Display position - Reference point"
+  },
+  "bottomSelectedTextLabel": {
+    "message": "Bottom of selected text"
+  },
+  "topSelectedTextLabel": {
+    "message": "Top of selected text"
+  },
+  "clickedPointLabel": {
+    "message": "Clicked point"
+  },
+  "displayDirectionLabel": {
+    "message": "Display position - Direction"
+  },
+  "resultFontColorLabel": {
+    "message": "翻譯結果色彩"
+  },
+  "candidateFontColorLabel": {
+    "message": "候選翻譯色彩"
+  },
   "bgColorLabel": {
     "message": "背景色彩"
+  },
+  "otherLabel": {
+    "message": "其他"
+  },
+  "isShowOptionsPageWhenUpdatedLabel": {
+    "message": "更新時顯示選項頁面"
+  },
+  "isShowOptionsPageWhenUpdatedCaptionLabel": {
+    "message": "更新 Simple Translate 時顯示選項頁面。讓您可以快速瞭解更新內容。"
+  },
+  "isDebugModeLabel": {
+    "message": "啟用偵錯模式"
+  },
+  "isDebugModeCaptionLabel": {
+    "message": "啟用偵錯模式後, 記錄檔將輸出至偵錯工具。"
+  },
+  "resetSettingsLabel": {
+    "message": "重設設定"
+  },
+  "resetSettingsCaptionLabel": {
+    "message": "還原所有設定為預設值。"
+  },
+  "resetSettingsButtonLabel": {
+    "message": "重設"
+  },
+  "shortcutsLabel": {
+    "message": "快速鍵"
+  },
+  "keyboardShortcutsLabel": {
+    "message": "鍵盤快速鍵"
+  },
+  "setKeyboardShortCutsMessage": {
+    "message": "設定鍵盤快速鍵。"
+  },
+  "typeShortcutMessage": {
+    "message": "輸入快速鍵"
+  },
+  "typeLetterMessage": {
+    "message": "請輸入文字"
+  },
+  "includeModifierKeysMessage": {
+    "message": "包括 Ctrl 鍵 或 Alt 鍵"
+  },
+  "includeMacModifierKeysMessage": {
+    "message": "包括 Command 鍵, Ctrl 鍵或 Alt 鍵"
+  },
+  "invalidLetterMessage": {
+    "message": "這個文字無法使用"
+  },
+  "invalidShortcutMessage": {
+    "message": "這個快速鍵無法使用"
+  },
+  "clear": {
+    "message": "清除"
+  },
+  "reset": {
+    "message": "重設"
   },
   "informationLabel": {
     "message": "附加元件資訊"
@@ -184,5 +289,8 @@
   },
   "translateLinkMenu": {
     "message": "翻譯選取鏈結"
+  },
+  "openPopupDescription": {
+    "message": "開啟工具列彈出式視窗"
   }
 }

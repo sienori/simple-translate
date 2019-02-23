@@ -140,8 +140,65 @@
   "fontSizeLabel": {
     "message": "حجم الخط"
   },
+  "resultFontColorLabel": {
+    "message": "Font color of translation result"
+  },
+  "candidateFontColorLabel": {
+    "message": "Font color of translation candidates"
+  },
   "bgColorLabel": {
     "message": "لون الخلفية"
+  },
+  "otherLabel": {
+    "message": "Other"
+  },
+  "isShowOptionsPageWhenUpdatedLabel": {
+    "message": "Display option page when updating"
+  },
+  "isShowOptionsPageWhenUpdatedCaptionLabel": {
+    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+  },
+  "isDebugModeLabel": {
+    "message": "Enable debug mode"
+  },
+  "isDebugModeCaptionLabel": {
+    "message": "When debug mode is enabled, the log is output to the debugger."
+  },
+  "resetSettingsLabel": {
+    "message": "Reset settings"
+  },
+  "resetSettingsCaptionLabel": {
+    "message": "Restore all settings to default."
+  },
+  "resetSettingsButtonLabel": {
+    "message": "Reset"
+  },
+  "shortcutsLabel": {
+    "message": "Shortcuts"
+  },
+  "keyboardShortcutsLabel": {
+    "message": "Keyboard shortcuts"
+  },
+  "setKeyboardShortCutsMessage": {
+    "message": "Set keyboard shortcuts."
+  },
+  "typeShortcutMessage": {
+    "message": "Type a shortcut"
+  },
+  "typeLetterMessage": {
+    "message": "Type a letter"
+  },
+  "includeModifierKeysMessage": {
+    "message": "Include either Ctrl or Alt"
+  },
+  "includeMacModifierKeysMessage": {
+    "message": "Include either Command, Ctrl or Alt"
+  },
+  "invalidLetterMessage": {
+    "message": "The letter can not be used"
+  },
+  "invalidShortcutMessage": {
+    "message": "The shortcut can not be used"
   },
   "informationLabel": {
     "message": "معلومات"

@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
+    "message": "快速翻譯網頁上選取的文字。在工具列彈出式視窗中，您可以翻譯輸入的文字。"
   },
   "donateWithPaypalLabel": {
     "message": "透過 PayPal 來贊助我"
@@ -15,13 +15,13 @@
     "message": "翻譯此頁面"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "在 Google 翻譯開啟"
   },
   "copyLabel": {
-    "message": "Copy"
+    "message": "複製"
   },
   "copiedLabel": {
-    "message": "Copied."
+    "message": "已複製。"
   },
   "targetLangLabel": {
     "message": "目標語言"

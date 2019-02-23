@@ -86,8 +86,9 @@ export default class TranslatePanel extends Component {
   };
 
   calcSize = () => {
+    const maxWidth = parseInt(getSettings("width"));
     const wrapper = ReactDOM.findDOMNode(this.refs.wrapper);
-    const wrapperWidth = wrapper.clientWidth;
+    const wrapperWidth = wrapper.clientWidth < maxWidth ? wrapper.clientWidth + 1 : maxWidth;
     const wrapperHeight = wrapper.clientHeight;
     return { panelWidth: wrapperWidth, panelHeight: wrapperHeight };
   };

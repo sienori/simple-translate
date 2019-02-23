@@ -7,6 +7,7 @@ const {
   getHTMLPlugins,
   getOutput,
   getCopyPlugins,
+  getOperaCopyPlugins,
   getFirefoxCopyPlugins,
   getEntry
 } = require("./webpack.utils");
@@ -99,7 +100,7 @@ module.exports = [
     output: getOutput("opera", config.devDirectory),
     plugins: [
       ...getHTMLPlugins("opera", config.devDirectory, config.operaPath),
-      ...getCopyPlugins("opera", config.devDirectory, config.operaPath)
+      ...getOperaCopyPlugins("opera", config.devDirectory, config.operaPath)
     ]
   },
   {

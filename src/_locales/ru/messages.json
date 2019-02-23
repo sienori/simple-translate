@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
+    "message": "Быстрый перевод выделенного текста на веб-странице. Можно переводить текст в окне на панели инструментов."
   },
   "donateWithPaypalLabel": {
     "message": "Сделать пожертвование через PayPal"
@@ -15,7 +15,7 @@
     "message": "Перевести страницу"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "Открыть в Переводчике Google"
   },
   "copyLabel": {
     "message": "Копировать"
@@ -150,7 +150,7 @@
     "message": "Справа"
   },
   "positionOffsetLabel": {
-    "message": "Display position - Offset"
+    "message": "Положение - Сдвиг"
   },
   "panelStyleLabel": {
     "message": "Панель с переводом"
@@ -180,7 +180,7 @@
     "message": "Clicked point"
   },
   "displayDirectionLabel": {
-    "message": "Display position - Direction"
+    "message": "Положение - Направление"
   },
   "resultFontColorLabel": {
     "message": "Цвет шрифта результата перевода"

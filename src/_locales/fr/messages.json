@@ -6,7 +6,7 @@
     "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
   },
   "donateWithPaypalLabel": {
-    "message": "Donate with PayPal"
+    "message": "Faire un don avec PayPal"
   },
   "initialTextArea": {
     "message": "Entrer un text"
@@ -15,13 +15,13 @@
     "message": "Traduire cette page"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "Utiliser Google Traduction"
   },
   "copyLabel": {
-    "message": "Copy"
+    "message": "Copier"
   },
   "copiedLabel": {
-    "message": "Copied."
+    "message": "Copié."
   },
   "targetLangLabel": {
     "message": "Langue cible"
@@ -30,16 +30,16 @@
     "message": "af:Afrikaans, sq:Albanian, am:Amharic, ar:Arabic, hy:Armenian, az:Azerbaijani, eu:Basque, be:Belarusian, bn:Bengali, bs:Bosnian, bg:Bulgarian, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Chinese (PRC), zh-TW:Chinese (Taiwan), co:Corsican, hr:Croatian, cs:Czech, da:Danish, nl:Dutch, en:English, eo:Esperanto, et:Estonian, fi:Finnish, fr:French, fy:Frisian, gl:Galician, ka:Georgian, de:German, el:Greek, gu:Gujarati, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesian, ga:Irish, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Korean, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:Macedonian, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persian, pl:Polish, pt:Portuguese, pa:Punjabi, ps:Pushto, ro:Romanian, ru:Russian, sm:Samoan, gd:Scottish Gaelic, sr:Serbian, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovak, sl:Slovenian, so:Somali, sx:Sotho, es:Spanish, su:Sundanese, sw:Swahili, sv:Swedish, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turkish, uk:Ukrainian, ur:Urdu, uz:Uzbek, vi:Vietnamese, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
   },
   "settingsLabel": {
-    "message": "Settings"
+    "message": "Paramètres"
   },
   "generalLabel": {
-    "message": "General"
+    "message": "Général"
   },
   "targetLangCaptionLabel": {
     "message": "Select the default target language."
   },
   "webPageLabel": {
-    "message": "Web page"
+    "message": "Page Web"
   },
   "ifShowCandidateLabel": {
     "message": "Show translation candidates"
@@ -123,43 +123,43 @@
     "message": "Display position"
   },
   "rightUpLabel": {
-    "message": "Top right"
+    "message": "En haut à droite"
   },
   "rightDownLabel": {
-    "message": "Bottom right"
+    "message": "En Bas à Droite"
   },
   "leftUpLabel": {
-    "message": "Top left"
+    "message": "En haut à gauche"
   },
   "leftDownLabel": {
-    "message": "Bottom left"
+    "message": "En bas à gauche"
   },
   "panelStyleLabel": {
-    "message": "Translation panel"
+    "message": "Panneau de traduction"
   },
   "panelStyleCaptionLabel": {
-    "message": "Specify the style of the translation panel displayed on the web page."
+    "message": "Spécifie le style du panneau de traduction affiché sur la page web."
   },
   "widthLabel": {
-    "message": "Width"
+    "message": "Largeur"
   },
   "heightLabel": {
-    "message": "Height"
+    "message": "Hauteur"
   },
   "fontSizeLabel": {
-    "message": "Font size"
+    "message": "Taille du texte"
   },
   "resultFontColorLabel": {
-    "message": "Font color of translation result"
+    "message": "Couleur du texte traduit"
   },
   "candidateFontColorLabel": {
-    "message": "Font color of translation candidates"
+    "message": "Couleur du texte à traduire"
   },
   "bgColorLabel": {
-    "message": "Background color"
+    "message": "Couleur d'arrière-plan"
   },
   "otherLabel": {
-    "message": "Other"
+    "message": "Autre"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
     "message": "Display option page when updating"
@@ -174,19 +174,19 @@
     "message": "When debug mode is enabled, the log is output to the debugger."
   },
   "resetSettingsLabel": {
-    "message": "Reset settings"
+    "message": "Réinitialiser les paramètres"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Restore all settings to default."
+    "message": "Restaurer tous les paramètres par défaut."
   },
   "resetSettingsButtonLabel": {
-    "message": "Reset"
+    "message": "Réinitialiser"
   },
   "shortcutsLabel": {
-    "message": "Shortcuts"
+    "message": "Raccourcis"
   },
   "keyboardShortcutsLabel": {
-    "message": "Keyboard shortcuts"
+    "message": "Raccourcis clavier"
   },
   "setKeyboardShortCutsMessage": {
     "message": "Set keyboard shortcuts."
@@ -204,25 +204,25 @@
     "message": "Include either Command, Ctrl or Alt"
   },
   "invalidLetterMessage": {
-    "message": "The letter can not be used"
+    "message": "Cette lettre ne peut pas être utilisée"
   },
   "invalidShortcutMessage": {
-    "message": "The shortcut can not be used"
+    "message": "Ce raccourci ne peut pas être utilisé"
   },
   "clear": {
-    "message": "Clear"
+    "message": "Effacer"
   },
   "reset": {
-    "message": "Reset"
+    "message": "Réinitialiser"
   },
   "informationLabel": {
-    "message": "Information"
+    "message": "Informations"
   },
   "licenseLabel": {
-    "message": "License"
+    "message": "Licence"
   },
   "donationLabel": {
-    "message": "Please make a donation"
+    "message": "Faites un don"
   },
   "donationCaptionLabel": {
     "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
@@ -231,7 +231,7 @@
     "message": "amazon.co.jp eGift Cards"
   },
   "addonPageLabel": {
-    "message": "Add-on page"
+    "message": "Page de l'extension"
   },
   "amazonUrl": {
     "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
@@ -240,24 +240,24 @@
     "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
   },
   "networkError": {
-    "message": "Error: Check network connection status."
+    "message": "Erreur : Vérifiez l'état de la connexion réseau."
   },
   "unavailableError": {
     "message": "Error: Service usage limit reached. Please wait a while and try again."
   },
   "unknownError": {
-    "message": "Error: Unknown error"
+    "message": "Erreur : inconnue"
   },
   "translatePageMenu": {
-    "message": "Translate this page"
+    "message": "Traduire cette page"
   },
   "translateTextMenu": {
-    "message": "Translate selected text"
+    "message": "Traduire le texte sélectionné"
   },
   "translateLinkMenu": {
-    "message": "Translate selected link"
+    "message": "Traduire le lien sélectionné"
   },
   "openPopupDescription": {
-    "message": "Open toolbar popup"
+    "message": "Ouvrir la barre d’outil en pop-up"
   }
 }

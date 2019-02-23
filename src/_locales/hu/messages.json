@@ -78,7 +78,7 @@
     "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
   },
   "toolbarLabel": {
-    "message": "Felugró eszköztár"
+    "message": "Felugró ablak az eszköztár gombjához"
   },
   "ifChangeSecondLangLabel": {
     "message": "Automatikus váltás a második nyelvre"
@@ -183,10 +183,10 @@
     "message": "Display position - Direction"
   },
   "resultFontColorLabel": {
-    "message": "Font color of translation result"
+    "message": "Fordítás színe"
   },
   "candidateFontColorLabel": {
-    "message": "Font color of translation candidates"
+    "message": "Fordítási javaslatok színe"
   },
   "bgColorLabel": {
     "message": "Háttér színe"
@@ -267,7 +267,7 @@
     "message": "Bővítmény weboldala"
   },
   "amazonUrl": {
-    "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
+    "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=hu_HU"
   },
   "addonUrl": {
     "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"

@@ -1,0 +1,296 @@
+{
+  "extName": {
+    "message": "Simple Translate"
+  },
+  "extDescription": {
+    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
+  },
+  "donateWithPaypalLabel": {
+    "message": "تبرع بواسطة PayPal"
+  },
+  "initialTextArea": {
+    "message": "أادخل النص"
+  },
+  "showLink": {
+    "message": "ترجم هذه الصفحة"
+  },
+  "openInGoogleLabel": {
+    "message": "Open in Google Translate"
+  },
+  "copyLabel": {
+    "message": "Copy"
+  },
+  "copiedLabel": {
+    "message": "Copied."
+  },
+  "targetLangLabel": {
+    "message": "اللغة الهدف"
+  },
+  "langList": {
+    "message": "af:الأفريكانية, sq:الألبانية, am:الأمهرية, ar:عربى, hy:الأرميني, az:أذربيجان, eu:الباسكي, be:البيلاروسية, bn:بنغالي, bs:البوسنية, bg:البلغارية, ca:الكاتالونية, ceb:السيبيونو, ny:الشيوا, zh-CN:صينى (PRC), zh-TW:صينى (تايوان), co:الكورسيكية, hr:الكرواتية, cs:تشيكي, da:Danish, nl:هولندي, en:الإنجليزية, eo:Esperanto, et:Estonian, fi:Finnish, fr:French, fy:Frisian, gl:Galician, ka:الجورجية, de:ألمانية, el:الإغريقي, gu:الغوجاراتية, ht:Haitian, ha:الهوسا, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesian, ga:Irish, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Korean, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:المقدونية, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persian, pl:Polish, pt:Portuguese, pa:Punjabi, ps:Pushto, ro:Romanian, ru:Russian, sm:Samoan, gd:Scottish Gaelic, sr:Serbian, sn:Shona, sd:السندية, si:السنهالية, sk:السلوفاكية, sl:سلوفيني, so:الصومالية, sx:السوتو, es:الأسبانية, su:السودانية, sw:السواحلية, sv:السويدية, tl:التغالوغ, tg:طاجيكي, ta:التاميل, te:التيلجو, th:التايلاندية, tr:التركية, uk:الأوكراني, ur:الأردية, uz:الأوزبكي, vi:الفيتنامية, cy:الولزية, xh:Xosa, yi:اليديشية, yo:اليوروبا, zu:الزولو"
+  },
+  "settingsLabel": {
+    "message": "الإعدادت"
+  },
+  "generalLabel": {
+    "message": "عام"
+  },
+  "targetLangCaptionLabel": {
+    "message": "حدد اللغة الافتراضية."
+  },
+  "webPageLabel": {
+    "message": "صفحة الويب"
+  },
+  "ifShowCandidateLabel": {
+    "message": "عرض المرشحين للترجمة"
+  },
+  "ifShowCandidateCaptionLabel": {
+    "message": "عرض مرشحين للترجمة عند ترجمة كلمة واحدة."
+  },
+  "whenSelectTextLabel": {
+    "message": "السلوك عند اختيار النص"
+  },
+  "ifAutoTranslateLabel": {
+    "message": "عرض لوحة الترجمة"
+  },
+  "ifAutoTranslateCaptionLabel": {
+    "message": "عرض لوحة الترجمة بدون عرض الزر."
+  },
+  "ifShowButtonLabel": {
+    "message": "عرض زر الترجمة"
+  },
+  "ifShowButtonCaptionLabel": {
+    "message": "عرض زر الترجمة لفتح اللوحة عند الضغط عليها."
+  },
+  "dontshowbuttonlabel": {
+    "message": "لا تعرض الزر او اللوحة"
+  },
+  "dontshowbuttonCaptionlabel": {
+    "message": "لا تظهر زر الترجمة أو لوحة الترجمة."
+  },
+  "ifCheckLangLabel": {
+    "message": "لا تظهر الزر اذا كانت الترجمة غير مطلوبة"
+  },
+  "ifCheckLangCaptionLabel": {
+    "message": "تحديد لغة النص المحدد, واذا كان نفس اللغة الهدف, لن يظهر زر الترجمة."
+  },
+  "ifChangeSecondLangOnPageCaptionLabel": {
+    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+  },
+  "toolbarLabel": {
+    "message": "شريط أدوات منبثق"
+  },
+  "ifChangeSecondLangLabel": {
+    "message": "التبديل تلقائياً إلى اللغة الثانية"
+  },
+  "ifChangeSecondLangCaptionLabel": {
+    "message": "تحديد لغة النص المدخل، وإذا كان نفس اللغة المستهدفة الافتراضية، ترجمها إلى اللغة الثانية."
+  },
+  "secondTargetLangLabel": {
+    "message": "اللغة الثانية"
+  },
+  "secondTargetLangCaptionLabel": {
+    "message": "أخر لغة الهدف الثانية."
+  },
+  "waitTimeLabel": {
+    "message": "انتظر قليلا لترجمة"
+  },
+  "waitTimeCaptionLabel": {
+    "message": "تحديد وقت الانتظار لادخال الاحرف حتي البدء بالترجمة"
+  },
+  "waitTime2CaptionLabel": {
+    "message": "If you translate it many times in a short time, it may become unusable for a while."
+  },
+  "menuLabel": {
+    "message": "قائمة السياق"
+  },
+  "ifShowMenuLabel": {
+    "message": "اظهار ايقونة قائمة السياق"
+  },
+  "ifShowMenuCaptionLabel": {
+    "message": "إضافة العناصر الى القائمة التي تظهر عند الضغط بزر الفأرة الإيمن على صفحات الويب او علامة التبويب."
+  },
+  "styleLabel": {
+    "message": "نمط"
+  },
+  "buttonStyleLabel": {
+    "message": "زر الترجمة"
+  },
+  "buttonStyleCaptionLabel": {
+    "message": "إختيار تنسيق لوحة الترجمة التي تظهر على المواقع."
+  },
+  "buttonSizeLabel": {
+    "message": "الحجم"
+  },
+  "buttonPositionLabel": {
+    "message": "مكان العرض"
+  },
+  "topRightLabel": {
+    "message": "Top right"
+  },
+  "bottomRightLabel": {
+    "message": "Bottom right"
+  },
+  "topLeftLabel": {
+    "message": "Top left"
+  },
+  "bottomLeftLabel": {
+    "message": "Bottom left"
+  },
+  "topLabel": {
+    "message": "Top"
+  },
+  "bottomLabel": {
+    "message": "Bottom"
+  },
+  "leftLabel": {
+    "message": "Left"
+  },
+  "rightLabel": {
+    "message": "Right"
+  },
+  "positionOffsetLabel": {
+    "message": "Display position - Offset"
+  },
+  "panelStyleLabel": {
+    "message": "لوحة الترجمة"
+  },
+  "panelStyleCaptionLabel": {
+    "message": "إختيار تنسيق لوحة الترجمة التي تظهر على المواقع."
+  },
+  "widthLabel": {
+    "message": "عرض"
+  },
+  "heightLabel": {
+    "message": "الارتفاع"
+  },
+  "fontSizeLabel": {
+    "message": "حجم الخط"
+  },
+  "referencePointLabel": {
+    "message": "Display position - Reference point"
+  },
+  "bottomSelectedTextLabel": {
+    "message": "Bottom of selected text"
+  },
+  "topSelectedTextLabel": {
+    "message": "Top of selected text"
+  },
+  "clickedPointLabel": {
+    "message": "Clicked point"
+  },
+  "displayDirectionLabel": {
+    "message": "Display position - Direction"
+  },
+  "resultFontColorLabel": {
+    "message": "Font color of translation result"
+  },
+  "candidateFontColorLabel": {
+    "message": "Font color of translation candidates"
+  },
+  "bgColorLabel": {
+    "message": "لون الخلفية"
+  },
+  "otherLabel": {
+    "message": "Other"
+  },
+  "isShowOptionsPageWhenUpdatedLabel": {
+    "message": "Display option page when updating"
+  },
+  "isShowOptionsPageWhenUpdatedCaptionLabel": {
+    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+  },
+  "isDebugModeLabel": {
+    "message": "Enable debug mode"
+  },
+  "isDebugModeCaptionLabel": {
+    "message": "When debug mode is enabled, the log is output to the debugger."
+  },
+  "resetSettingsLabel": {
+    "message": "Reset settings"
+  },
+  "resetSettingsCaptionLabel": {
+    "message": "Restore all settings to default."
+  },
+  "resetSettingsButtonLabel": {
+    "message": "Reset"
+  },
+  "shortcutsLabel": {
+    "message": "Shortcuts"
+  },
+  "keyboardShortcutsLabel": {
+    "message": "Keyboard shortcuts"
+  },
+  "setKeyboardShortCutsMessage": {
+    "message": "Set keyboard shortcuts."
+  },
+  "typeShortcutMessage": {
+    "message": "Type a shortcut"
+  },
+  "typeLetterMessage": {
+    "message": "Type a letter"
+  },
+  "includeModifierKeysMessage": {
+    "message": "Include either Ctrl or Alt"
+  },
+  "includeMacModifierKeysMessage": {
+    "message": "Include either Command, Ctrl or Alt"
+  },
+  "invalidLetterMessage": {
+    "message": "The letter can not be used"
+  },
+  "invalidShortcutMessage": {
+    "message": "The shortcut can not be used"
+  },
+  "clear": {
+    "message": "Clear"
+  },
+  "reset": {
+    "message": "Reset"
+  },
+  "informationLabel": {
+    "message": "معلومات"
+  },
+  "licenseLabel": {
+    "message": "الرخصة"
+  },
+  "donationLabel": {
+    "message": "الرجاء تقديم تبرع"
+  },
+  "donationCaptionLabel": {
+    "message": "شكرا لك لاستخدامك Tab Session Manager.<br> دعمك سوف يكون تشجيع كبير،كما أني اواصل تطوير الخصائص الإضافية.<br>إذا أعجبك Tab Session Manager، سوف أكون مسرورا إذا قدمت تبرعات."
+  },
+  "amazonTitleLabel": {
+    "message": "كروت هدية من amazon.co.jp"
+  },
+  "addonPageLabel": {
+    "message": "صفحة الاضافة"
+  },
+  "amazonUrl": {
+    "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
+  },
+  "addonUrl": {
+    "message": "https:\/\/addons.mozilla.org\/ar\/firefox\/addon\/simple-translate\/?src=optionpage"
+  },
+  "networkError": {
+    "message": "Error: Check network connection status."
+  },
+  "unavailableError": {
+    "message": "Error: Service usage limit reached. Please wait a while and try again."
+  },
+  "unknownError": {
+    "message": "Error: Unknown error"
+  },
+  "translatePageMenu": {
+    "message": "ترجم هذه الصفحة"
+  },
+  "translateTextMenu": {
+    "message": "ترجم النص المحدد"
+  },
+  "translateLinkMenu": {
+    "message": "ترجم الرابط المحدد"
+  },
+  "openPopupDescription": {
+    "message": "Open toolbar popup"
+  }
+}

@@ -76,9 +76,10 @@ export default props => {
             <p>
               <a
                 href={
-                  browserInfo().name === "Firefox"
-                    ? "https://addons.mozilla.org/firefox/addon/simple-translate/?src=optionpage"
-                    : "https://chrome.google.com/webstore/detail/simple-translate/xxxxx" //TODO: Chrome link
+                  browser.i18n.getMessage("addonUrl")
+                  /*browserInfo().name === "Firefox"
+                    ? browser.i18n.getMessage("addonUrl")
+                    : "https://chrome.google.com/webstore/detail/simple-translate/xxxxx" //TODO: Chrome link*/
                 }
                 target="_blank"
               >

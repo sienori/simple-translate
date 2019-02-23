@@ -74,6 +74,9 @@
   "ifCheckLangCaptionLabel": {
     "message": "Tukuyin ang lengguwahe ng napiling teksto, at kung ito ay pareho bilang target na lengguwahe, ang pindutan ay hindi ipinapakita."
   },
+  "ifChangeSecondLangOnPageCaptionLabel": {
+    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+  },
   "toolbarLabel": {
     "message": "Toolbar popup"
   },
@@ -122,17 +125,32 @@
   "buttonPositionLabel": {
     "message": "Ipakit ang posisyon"
   },
-  "rightUpLabel": {
-    "message": "Itaas na kanan"
+  "topRightLabel": {
+    "message": "Top right"
   },
-  "rightDownLabel": {
-    "message": "Ibaba sa kanan"
+  "bottomRightLabel": {
+    "message": "Bottom right"
   },
-  "leftUpLabel": {
-    "message": "Itaas sa kaliwa"
+  "topLeftLabel": {
+    "message": "Top left"
   },
-  "leftDownLabel": {
-    "message": "Ibaba sa kaliwa"
+  "bottomLeftLabel": {
+    "message": "Bottom left"
+  },
+  "topLabel": {
+    "message": "Top"
+  },
+  "bottomLabel": {
+    "message": "Bottom"
+  },
+  "leftLabel": {
+    "message": "Left"
+  },
+  "rightLabel": {
+    "message": "Right"
+  },
+  "positionOffsetLabel": {
+    "message": "Display position - Offset"
   },
   "panelStyleLabel": {
     "message": "Panel ng pagsasalin"
@@ -148,6 +166,21 @@
   },
   "fontSizeLabel": {
     "message": "Laki ng font"
+  },
+  "referencePointLabel": {
+    "message": "Display position - Reference point"
+  },
+  "bottomSelectedTextLabel": {
+    "message": "Bottom of selected text"
+  },
+  "topSelectedTextLabel": {
+    "message": "Top of selected text"
+  },
+  "clickedPointLabel": {
+    "message": "Clicked point"
+  },
+  "displayDirectionLabel": {
+    "message": "Display position - Direction"
   },
   "resultFontColorLabel": {
     "message": "Font color of translation result"

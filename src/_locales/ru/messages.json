@@ -74,6 +74,9 @@
   "ifCheckLangCaptionLabel": {
     "message": "Если язык выделенного текста совпадает с языком перевода, то кнопка не показывается."
   },
+  "ifChangeSecondLangOnPageCaptionLabel": {
+    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+  },
   "toolbarLabel": {
     "message": "Окно на панели инструментов"
   },

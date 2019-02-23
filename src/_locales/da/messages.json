@@ -74,6 +74,9 @@
   "ifCheckLangCaptionLabel": {
     "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
   },
+  "ifChangeSecondLangOnPageCaptionLabel": {
+    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+  },
   "toolbarLabel": {
     "message": "Toolbar popup"
   },
@@ -122,17 +125,32 @@
   "buttonPositionLabel": {
     "message": "Display position"
   },
-  "rightUpLabel": {
+  "topRightLabel": {
     "message": "Top right"
   },
-  "rightDownLabel": {
+  "bottomRightLabel": {
     "message": "Bottom right"
   },
-  "leftUpLabel": {
+  "topLeftLabel": {
     "message": "Top left"
   },
-  "leftDownLabel": {
+  "bottomLeftLabel": {
     "message": "Bottom left"
+  },
+  "topLabel": {
+    "message": "Top"
+  },
+  "bottomLabel": {
+    "message": "Bottom"
+  },
+  "leftLabel": {
+    "message": "Left"
+  },
+  "rightLabel": {
+    "message": "Right"
+  },
+  "positionOffsetLabel": {
+    "message": "Display position - Offset"
   },
   "panelStyleLabel": {
     "message": "Translation panel"
@@ -148,6 +166,21 @@
   },
   "fontSizeLabel": {
     "message": "Font size"
+  },
+  "referencePointLabel": {
+    "message": "Display position - Reference point"
+  },
+  "bottomSelectedTextLabel": {
+    "message": "Bottom of selected text"
+  },
+  "topSelectedTextLabel": {
+    "message": "Top of selected text"
+  },
+  "clickedPointLabel": {
+    "message": "Clicked point"
+  },
+  "displayDirectionLabel": {
+    "message": "Display position - Direction"
   },
   "resultFontColorLabel": {
     "message": "Font color of translation result"

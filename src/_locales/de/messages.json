@@ -1,0 +1,296 @@
+{
+  "extName": {
+    "message": "Simple Translate"
+  },
+  "extDescription": {
+    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
+  },
+  "donateWithPaypalLabel": {
+    "message": "Donate with PayPal"
+  },
+  "initialTextArea": {
+    "message": "Text eingeben"
+  },
+  "showLink": {
+    "message": "Diese Seite übersetzen"
+  },
+  "openInGoogleLabel": {
+    "message": "Open in Google Translate"
+  },
+  "copyLabel": {
+    "message": "Copy"
+  },
+  "copiedLabel": {
+    "message": "Copied."
+  },
+  "targetLangLabel": {
+    "message": "Zielsprache"
+  },
+  "langList": {
+    "message": "af:Afrikanisch, sq:Albanisch, am:Amharisch, ar:Arabisch, hy:Armenisch, az:Aserbeidschanisch, eu:Baskisch, be:Weißrussisch, bn:Bengalisch, bs:Bosnisch, bg:Bulgarisch, ca:Katalanisch, ceb:Cebuano, ny:Nyanja, zh-CN:Chinesisch (VRC), zh-TW:Chinesisch (Taiwan), co:Korsisch, hr:Kroatisch, cs:Tschechisch, da:Dänisch, nl:Niederländisch, en:Englisch, eo:Esperanto, et:Estnisch, fi:Finnisch, fr:Französisch, fy:Friesisch, gl:Galicisch, ka:Georgisch, de:Deutsch, el:Griechisch, gu:Gujarati, ht:Haitien, ha:Haussa, haw:Hawaiisch, he:Hebräisch, hi:Hindi, hu:Ungarisch, is:Isländisch, ig:Ibo, id:Indonesisch, ga:Irisch, it:Italienisch, ja:Japanisch, jv:Javanisch, kn:Kanadisch, kk:Kasachisch, km:Khmer, ky:Kirgisisch, ko:Koreanisch, ku:Kurdisch, lo:Laotisch, la:Latein, lv:Lettisch, lt:Litauisch, lb:Luxemburgisch, mk:Makedonisch, mg:Malagassi, ms:Malaiisch, ml:Malayalam, mt:Maltesisch, mi:Maori, mr:Marathi, mn:Mongolisch, hmn:Miao, my:Birmanisch, ne:Nepali, no:Norwegisch, fa:Persisch, pl:Polnisch, pt:Portugiesisch, pa:Pandschabi, ps:Paschtu, ro:Rumänisch, ru:Russisch, sm:Samoanisch, gd:Gälisch-Schottisch, sr:Serbisch, sn:Schona, sd:Sindhi, si:Singhalesisch, sk:Slowakisch, sl:Slowenisch, so:Somali, sx:Sotho, es:Spanisch, su:Sundanesisch, sw:Swahili, sv:Schwedisch, tl:Tagalog, tg:Tadschikisch, ta:Tamil, te:Telugu, th:Thailändisch, tr:Türkisch, uk:Ukrainisch, ur:Urdu, uz:Usbekisch, vi:Vietnamesisch, cy:Kymrisch, xh:Xhosa, yi:Jiddisch, yo:Yoruba, zu:Zulu"
+  },
+  "settingsLabel": {
+    "message": "Einstellungen"
+  },
+  "generalLabel": {
+    "message": "Allgemein"
+  },
+  "targetLangCaptionLabel": {
+    "message": "Standardzielsprache wählen."
+  },
+  "webPageLabel": {
+    "message": "Internetseite"
+  },
+  "ifShowCandidateLabel": {
+    "message": "Weitere Übersetzungsvorschläge anzeigen"
+  },
+  "ifShowCandidateCaptionLabel": {
+    "message": "Zeige weitere Übersetzungsvorschläge an, wenn ein einzelnes Wort übersetzt wird."
+  },
+  "whenSelectTextLabel": {
+    "message": "Verhalten beim Auswählen von Text"
+  },
+  "ifAutoTranslateLabel": {
+    "message": "Übersetzungsfeld anzeigen"
+  },
+  "ifAutoTranslateCaptionLabel": {
+    "message": "Übersetzungsfeld direkt anzeigen, ohne den Knopf dafür anzuzeigen."
+  },
+  "ifShowButtonLabel": {
+    "message": "Übersetzungsbutton anzeigen"
+  },
+  "ifShowButtonCaptionLabel": {
+    "message": "Zeige den Übersetzen-Knopf an, um beim Klick darauf das Feld mit der Übersetzung anzuzeigen."
+  },
+  "dontshowbuttonlabel": {
+    "message": "Übersetzen-Knopf und Übersetzungsfeld nicht anzeigen"
+  },
+  "dontshowbuttonCaptionlabel": {
+    "message": "Zeige den Übersetzen-Knopf sowie das Feld mit der Übersetzung nicht an."
+  },
+  "ifCheckLangLabel": {
+    "message": "Den Übersetzen-Knopf nicht anzeigen, wenn keine Übersetzung notwendig ist"
+  },
+  "ifCheckLangCaptionLabel": {
+    "message": "Erkennt die Sprache des ausgewählten Textes und zeigt den Übersetzen-Knopf nicht an, wenn der Text bereits in der Zielsprache ist."
+  },
+  "ifChangeSecondLangOnPageCaptionLabel": {
+    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+  },
+  "toolbarLabel": {
+    "message": "Werkzeugleistenfenster"
+  },
+  "ifChangeSecondLangLabel": {
+    "message": "Automatisch zur Zweitsprache wechseln"
+  },
+  "ifChangeSecondLangCaptionLabel": {
+    "message": "Erkennt die Sprache des eingegebenen Textes und übersetzt ihn in die Zweitsprache, falls der eingegebene Text bereits in der Standardzielsprache ist."
+  },
+  "secondTargetLangLabel": {
+    "message": "Zweitsprache"
+  },
+  "secondTargetLangCaptionLabel": {
+    "message": "Zweitsprache wählen."
+  },
+  "waitTimeLabel": {
+    "message": "Waiting time to translate"
+  },
+  "waitTimeCaptionLabel": {
+    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+  },
+  "waitTime2CaptionLabel": {
+    "message": "If you translate it many times in a short time, it may become unusable for a while."
+  },
+  "menuLabel": {
+    "message": "Context menu"
+  },
+  "ifShowMenuLabel": {
+    "message": "Kontextmenü anzeigen"
+  },
+  "ifShowMenuCaptionLabel": {
+    "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+  },
+  "styleLabel": {
+    "message": "Erscheinungsbild"
+  },
+  "buttonStyleLabel": {
+    "message": "Übersetzen-Knopf"
+  },
+  "buttonStyleCaptionLabel": {
+    "message": "Erscheinungsbild des Übersetzen-Knopfes anpassen, der auf den Internetseiten angezeigt wird."
+  },
+  "buttonSizeLabel": {
+    "message": "Größe"
+  },
+  "buttonPositionLabel": {
+    "message": "Anzeigeposition"
+  },
+  "topRightLabel": {
+    "message": "Top right"
+  },
+  "bottomRightLabel": {
+    "message": "Bottom right"
+  },
+  "topLeftLabel": {
+    "message": "Top left"
+  },
+  "bottomLeftLabel": {
+    "message": "Bottom left"
+  },
+  "topLabel": {
+    "message": "Top"
+  },
+  "bottomLabel": {
+    "message": "Bottom"
+  },
+  "leftLabel": {
+    "message": "Left"
+  },
+  "rightLabel": {
+    "message": "Right"
+  },
+  "positionOffsetLabel": {
+    "message": "Display position - Offset"
+  },
+  "panelStyleLabel": {
+    "message": "Übersetzungsfeld"
+  },
+  "panelStyleCaptionLabel": {
+    "message": "Konfiguriere das Layout des Werkzeugleistenfensters, das auf Webseiten angezeigt wird."
+  },
+  "widthLabel": {
+    "message": "Breite"
+  },
+  "heightLabel": {
+    "message": "Höhe"
+  },
+  "fontSizeLabel": {
+    "message": "Schriftgröße"
+  },
+  "referencePointLabel": {
+    "message": "Display position - Reference point"
+  },
+  "bottomSelectedTextLabel": {
+    "message": "Bottom of selected text"
+  },
+  "topSelectedTextLabel": {
+    "message": "Top of selected text"
+  },
+  "clickedPointLabel": {
+    "message": "Clicked point"
+  },
+  "displayDirectionLabel": {
+    "message": "Display position - Direction"
+  },
+  "resultFontColorLabel": {
+    "message": "Font color of translation result"
+  },
+  "candidateFontColorLabel": {
+    "message": "Font color of translation candidates"
+  },
+  "bgColorLabel": {
+    "message": "Hintergrundfarbe"
+  },
+  "otherLabel": {
+    "message": "Other"
+  },
+  "isShowOptionsPageWhenUpdatedLabel": {
+    "message": "Display option page when updating"
+  },
+  "isShowOptionsPageWhenUpdatedCaptionLabel": {
+    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+  },
+  "isDebugModeLabel": {
+    "message": "Enable debug mode"
+  },
+  "isDebugModeCaptionLabel": {
+    "message": "When debug mode is enabled, the log is output to the debugger."
+  },
+  "resetSettingsLabel": {
+    "message": "Reset settings"
+  },
+  "resetSettingsCaptionLabel": {
+    "message": "Restore all settings to default."
+  },
+  "resetSettingsButtonLabel": {
+    "message": "Reset"
+  },
+  "shortcutsLabel": {
+    "message": "Shortcuts"
+  },
+  "keyboardShortcutsLabel": {
+    "message": "Keyboard shortcuts"
+  },
+  "setKeyboardShortCutsMessage": {
+    "message": "Set keyboard shortcuts."
+  },
+  "typeShortcutMessage": {
+    "message": "Type a shortcut"
+  },
+  "typeLetterMessage": {
+    "message": "Type a letter"
+  },
+  "includeModifierKeysMessage": {
+    "message": "Include either Ctrl or Alt"
+  },
+  "includeMacModifierKeysMessage": {
+    "message": "Include either Command, Ctrl or Alt"
+  },
+  "invalidLetterMessage": {
+    "message": "The letter can not be used"
+  },
+  "invalidShortcutMessage": {
+    "message": "The shortcut can not be used"
+  },
+  "clear": {
+    "message": "Clear"
+  },
+  "reset": {
+    "message": "Reset"
+  },
+  "informationLabel": {
+    "message": "Information"
+  },
+  "licenseLabel": {
+    "message": "Lizenz"
+  },
+  "donationLabel": {
+    "message": "Bitte spende"
+  },
+  "donationCaptionLabel": {
+    "message": "Danke für das Benutzen von Simple Translate.<br>Deine Unterstützung wird ein großer Ansporn bei der Weiterentwicklung dieses Add-ons sein.<br>Wenn du Simple Translate magst, wäre es schön, wenn du etwas spenden würdest."
+  },
+  "amazonTitleLabel": {
+    "message": "amazon.co.jp eGift Cards"
+  },
+  "addonPageLabel": {
+    "message": "Add-on-Seite"
+  },
+  "amazonUrl": {
+    "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
+  },
+  "addonUrl": {
+    "message": "https:\/\/addons.mozilla.org\/de\/firefox\/addon\/simple-translate\/?src=optionpage"
+  },
+  "networkError": {
+    "message": "Error: Check network connection status."
+  },
+  "unavailableError": {
+    "message": "Error: Service usage limit reached. Please wait a while and try again."
+  },
+  "unknownError": {
+    "message": "Error: Unknown error"
+  },
+  "translatePageMenu": {
+    "message": "Diese Seite übersetzen"
+  },
+  "translateTextMenu": {
+    "message": "Ausgewählten Text übersetzen"
+  },
+  "translateLinkMenu": {
+    "message": "Ausgewählten Link übersetzen"
+  },
+  "openPopupDescription": {
+    "message": "Open toolbar popup"
+  }
+}

@@ -3,17 +3,12 @@ import browser from "webextension-polyfill";
 import browserInfo from "browser-info";
 import queryString from "query-string";
 import OptionsContainer from "./OptionContainer";
+import { paypalLink, email } from "src/common/personalUrls";
 import manifest from "src/manifest-chrome.json";
 
 export default props => {
   const query = queryString.parse(props.location.search);
-
   const extensionVersion = manifest.version;
-  const isChrome = browserInfo().name == "Chrome";
-  const paypalLink = `https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&no_shipping=1&business=sienori.firefox@gmail.com&item_name=Simple Translate ${
-    isChrome ? "for Chrome " : ""
-  }- Donation`;
-  const email = `sienori.firefox+st${isChrome ? "fc" : ""}@gmail.com`;
 
   return (
     <div>
@@ -83,9 +78,7 @@ export default props => {
                 }
                 target="_blank"
               >
-                {browserInfo().name === "Firefox"
-                  ? browser.i18n.getMessage("addonPageLabel")
-                  : browser.i18n.getMessage("extensionPageLabel")}
+                {browser.i18n.getMessage("addonPageLabel")}
               </a>
               <span>　</span>
               <a href="https://github.com/sienori/simple-translate" target="_blank">

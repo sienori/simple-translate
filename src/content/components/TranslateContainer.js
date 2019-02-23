@@ -101,10 +101,19 @@ export default class TranslateContainer extends Component {
   };
 
   handleMessage = async request => {
+    const empty = new Promise(resolve => {
+      setTimeout(() => {
+        return resolve("");
+      }, 100);
+    });
+
     switch (request.message) {
-      case "getTabInfo":
-        const tabInfo = { url: location.href, selectedText: this.selectedText };
-        return tabInfo;
+      case "getTabUrl":
+        if (window == window.parent) return location.href;
+        else return empty;
+      case "getSelectedText":
+        if (this.selectedText.length === 0) return empty;
+        else return this.selectedText;
       case "translateSelectedText":
         this.selectedText = getSelectedText();
         if (this.selectedText.length === 0) return;

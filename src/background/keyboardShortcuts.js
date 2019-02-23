@@ -50,10 +50,10 @@ const translateSelectedText = async () => {
 };
 const translatePage = async () => {
   const tab = (await browser.tabs.query({ active: true }))[0];
-  const tabInfo = await browser.tabs.sendMessage(tab.id, { message: "getTabInfo" });
+  const tabUrl = await browser.tabs.sendMessage(tab.id, { message: "getTabUrl" });
 
   const targetLang = getSettings("targetLang");
-  const encodedPageUrl = encodeURIComponent(tabInfo.url);
+  const encodedPageUrl = encodeURIComponent(tabUrl);
   const translationUrl = `https://translate.google.com/translate?hl=${targetLang}&sl=auto&u=${encodedPageUrl}`;
 
   browser.tabs.create({

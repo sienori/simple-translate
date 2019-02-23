@@ -12,8 +12,9 @@ import "../styles/PopupPage.scss";
 const getTabInfo = async () => {
   try {
     const tab = (await browser.tabs.query({ currentWindow: true, active: true }))[0];
-    const tabInfo = await browser.tabs.sendMessage(tab.id, { message: "getTabInfo" });
-    return tabInfo;
+    const tabUrl = await browser.tabs.sendMessage(tab.id, { message: "getTabUrl" });
+    const selectedText = await browser.tabs.sendMessage(tab.id, { message: "getSelectedText" });
+    return { url: tabUrl, selectedText: selectedText };
   } catch (e) {
     return { url: "", selectedText: "" };
   }

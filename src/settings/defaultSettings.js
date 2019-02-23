@@ -113,7 +113,7 @@ export default [
         title: "ifChangeSecondLangLabel",
         captions: ["ifChangeSecondLangCaptionLabel"],
         type: "checkbox",
-        default: false
+        default: true
       }
     ]
   },

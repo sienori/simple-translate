@@ -75,7 +75,7 @@
     "message": "Detekterar språket i den markerade texten och om det är samma som målspråket visas inte knappen."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+    "message": "Detektera språket i den markerade texten och om det är samma som standardmålspråket, översätt det till andraspråket."
   },
   "toolbarLabel": {
     "message": "Verktygsfältspopup"
@@ -126,31 +126,31 @@
     "message": "Visa position"
   },
   "topRightLabel": {
-    "message": "Top right"
+    "message": "Överst till höger"
   },
   "bottomRightLabel": {
-    "message": "Bottom right"
+    "message": "Nere till höger"
   },
   "topLeftLabel": {
-    "message": "Top left"
+    "message": "Överst till vänster"
   },
   "bottomLeftLabel": {
-    "message": "Bottom left"
+    "message": "Nere till vänster"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "Överst"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "Nederst"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "Vänster"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "Höger"
   },
   "positionOffsetLabel": {
-    "message": "Display position - Offset"
+    "message": "Visa position - Offset"
   },
   "panelStyleLabel": {
     "message": "Översättningspanel"
@@ -168,19 +168,19 @@
     "message": "Typsnittsstorlek"
   },
   "referencePointLabel": {
-    "message": "Display position - Reference point"
+    "message": "Visa position - Referenspunkt"
   },
   "bottomSelectedTextLabel": {
-    "message": "Bottom of selected text"
+    "message": "Nederst av markerad text"
   },
   "topSelectedTextLabel": {
-    "message": "Top of selected text"
+    "message": "Överst av markerad text"
   },
   "clickedPointLabel": {
-    "message": "Clicked point"
+    "message": "Tryckt punkt"
   },
   "displayDirectionLabel": {
-    "message": "Display position - Direction"
+    "message": "Visa position - Riktning"
   },
   "resultFontColorLabel": {
     "message": "Typsnittsfärg på översättningsresultatet"

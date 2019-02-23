@@ -231,10 +231,10 @@
     "message": "Введите букву"
   },
   "includeModifierKeysMessage": {
-    "message": "Добавить клавишу Ctrl или Alt"
+    "message": "Нажмите клавишу Ctrl или Alt"
   },
   "includeMacModifierKeysMessage": {
-    "message": "Добавить клавишу Command, Ctrl или Alt"
+    "message": "Нажмите клавишу Command, Ctrl или Alt"
   },
   "invalidLetterMessage": {
     "message": "Эта буква не может быть использована"

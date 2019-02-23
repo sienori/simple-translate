@@ -74,6 +74,9 @@
   "ifCheckLangCaptionLabel": {
     "message": "偵測所選文字的語言, 如果它與目標語言相同, 則不顯示按鈕。"
   },
+  "ifChangeSecondLangOnPageCaptionLabel": {
+    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+  },
   "toolbarLabel": {
     "message": "工具列彈出式選單"
   },
@@ -122,17 +125,32 @@
   "buttonPositionLabel": {
     "message": "顯示位置"
   },
-  "rightUpLabel": {
-    "message": "右上角"
+  "topRightLabel": {
+    "message": "Top right"
   },
-  "rightDownLabel": {
-    "message": "右下角"
+  "bottomRightLabel": {
+    "message": "Bottom right"
   },
-  "leftUpLabel": {
-    "message": "左上角"
+  "topLeftLabel": {
+    "message": "Top left"
   },
-  "leftDownLabel": {
-    "message": "左下角"
+  "bottomLeftLabel": {
+    "message": "Bottom left"
+  },
+  "topLabel": {
+    "message": "Top"
+  },
+  "bottomLabel": {
+    "message": "Bottom"
+  },
+  "leftLabel": {
+    "message": "Left"
+  },
+  "rightLabel": {
+    "message": "Right"
+  },
+  "positionOffsetLabel": {
+    "message": "Display position - Offset"
   },
   "panelStyleLabel": {
     "message": "翻譯面板"
@@ -148,6 +166,21 @@
   },
   "fontSizeLabel": {
     "message": "字型大小"
+  },
+  "referencePointLabel": {
+    "message": "Display position - Reference point"
+  },
+  "bottomSelectedTextLabel": {
+    "message": "Bottom of selected text"
+  },
+  "topSelectedTextLabel": {
+    "message": "Top of selected text"
+  },
+  "clickedPointLabel": {
+    "message": "Clicked point"
+  },
+  "displayDirectionLabel": {
+    "message": "Display position - Direction"
   },
   "resultFontColorLabel": {
     "message": "翻譯結果色彩"

@@ -177,7 +177,7 @@
     "message": "Вверху выделенного текста"
   },
   "clickedPointLabel": {
-    "message": "Clicked point"
+    "message": "Рядом с курсором"
   },
   "displayDirectionLabel": {
     "message": "Положение - Направление"

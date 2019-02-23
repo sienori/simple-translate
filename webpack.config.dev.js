@@ -74,11 +74,6 @@ const generalConfig = {
             }
           }
         ]
-      },
-      {
-        test: /\.(png|jpg|gif)$/,
-        loader: "url-loader",
-        options: {}
       }
     ]
   }

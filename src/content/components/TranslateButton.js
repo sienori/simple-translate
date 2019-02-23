@@ -1,4 +1,5 @@
 import React from "react";
+import browser from "webextension-polyfill";
 import { getSettings } from "src/settings/settings";
 import "../styles/TranslateButton.scss";
 
@@ -30,7 +31,9 @@ export default props => {
   const { position, shouldShow } = props;
   const buttonSize = parseInt(getSettings("buttonSize"));
   const { top, left } = calcPosition();
+  const iconUrl = browser.extension.getURL("icons/512.png");
   const buttonStyle = {
+    backgroundImage: `url(${iconUrl})`,
     height: buttonSize,
     width: buttonSize,
     top: top + position.y,

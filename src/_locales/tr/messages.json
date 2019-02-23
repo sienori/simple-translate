@@ -74,6 +74,9 @@
   "ifCheckLangCaptionLabel": {
     "message": "Seçili metnin dilini algılar ve dil aynı ise tuş görüntülenmez."
   },
+  "ifChangeSecondLangOnPageCaptionLabel": {
+    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+  },
   "toolbarLabel": {
     "message": "Açılır araç çubuğu penceresi"
   },

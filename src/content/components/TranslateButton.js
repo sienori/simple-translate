@@ -5,15 +5,24 @@ import "../styles/TranslateButton.scss";
 const calcPosition = () => {
   const buttonSize = parseInt(getSettings("buttonSize"));
   const offset = 10;
-  switch (getSettings("buttonPosition")) {
-    case "rightUp":
+  switch (getSettings("buttonDirection")) {
+    case "top":
+      return { top: -buttonSize - offset, left: -buttonSize / 2 };
+    case "bottom":
+      return { top: offset, left: -buttonSize / 2 };
+    case "right":
+      return { top: -buttonSize / 2, left: offset };
+    case "left":
+      return { top: -buttonSize / 2, left: -buttonSize - offset };
+    case "topRight":
       return { top: -buttonSize - offset, left: offset };
-    case "rightDown":
-      return { top: offset, left: offset };
-    case "leftUp":
+    case "topLeft":
       return { top: -buttonSize - offset, left: -buttonSize - offset };
-    case "leftDown":
+    case "bottomLeft":
       return { top: offset, left: -buttonSize - offset };
+    case "bottomRight":
+    default:
+      return { top: offset, left: offset };
   }
 };
 

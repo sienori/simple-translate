@@ -142,29 +142,46 @@ export default [
             default: 22
           },
           {
-            id: "buttonPosition",
+            id: "buttonDirection",
             title: "buttonPositionLabel",
             captions: [],
             type: "select",
-            default: "rightDown",
+            default: "bottomRight",
             options: [
               {
-                name: "rightUpLabel",
-                value: "rightUp"
+                name: "topLabel",
+                value: "top"
               },
               {
-                name: "rightDownLabel",
-                value: "rightDown"
+                name: "bottomLabel",
+                value: "bottom"
               },
               {
-                name: "leftUpLabel",
-                value: "leftUp"
+                name: "rightLabel",
+                value: "right"
               },
               {
-                name: "leftDownLabel",
-                value: "leftDown"
+                name: "leftLabel",
+                value: "left"
+              },
+              {
+                name: "topRightLabel",
+                value: "topRight"
+              },
+              {
+                name: "topLeftLabel",
+                value: "topLeft"
+              },
+              {
+                name: "bottomRightLabel",
+                value: "bottomRight"
+              },
+              {
+                name: "bottomLeftLabel",
+                value: "bottomLeft"
               }
-            ]
+            ],
+            new: true
           }
         ]
       },
@@ -199,6 +216,70 @@ export default [
             min: 1,
             placeholder: 13,
             default: 13
+          },
+          {
+            id: "panelReferencePoint",
+            title: "referencePointLabel",
+            captions: [],
+            type: "select",
+            default: "bottomSelectedText",
+            options: [
+              {
+                name: "topSelectedTextLabel",
+                value: "topSelectedText"
+              },
+              {
+                name: "bottomSelectedTextLabel",
+                value: "bottomSelectedText"
+              },
+              {
+                name: "clickedPointLabel",
+                value: "clickedPoint"
+              }
+            ],
+            new: true
+          },
+          {
+            id: "panelDirection",
+            title: "displayDirectionLabel",
+            captions: [],
+            type: "select",
+            default: "bottom",
+            options: [
+              {
+                name: "topLabel",
+                value: "top"
+              },
+              {
+                name: "bottomLabel",
+                value: "bottom"
+              },
+              {
+                name: "rightLabel",
+                value: "right"
+              },
+              {
+                name: "leftLabel",
+                value: "left"
+              },
+              {
+                name: "topRightLabel",
+                value: "topRight"
+              },
+              {
+                name: "topLeftLabel",
+                value: "topLeft"
+              },
+              {
+                name: "bottomRightLabel",
+                value: "bottomRight"
+              },
+              {
+                name: "bottomLeftLabel",
+                value: "bottomLeft"
+              }
+            ],
+            new: true
           },
           {
             id: "resultFontColor",

@@ -25,11 +25,38 @@ const getSelectedPosition = () => {
         .getSelection()
         .getRangeAt(0)
         .getBoundingClientRect();
-  const selectedPosition = {
-    x: selectedRect.left + selectedRect.width / 2,
-    y: selectedRect.bottom
-  };
+
+  let selectedPosition;
+  const panelReferencePoint = getSettings("panelReferencePoint");
+  switch (panelReferencePoint) {
+    case "topSelectedText":
+      selectedPosition = {
+        x: selectedRect.left + selectedRect.width / 2,
+        y: selectedRect.top
+      };
+      break;
+    case "bottomSelectedText":
+    default:
+      selectedPosition = {
+        x: selectedRect.left + selectedRect.width / 2,
+        y: selectedRect.bottom
+      };
+      break;
+  }
   return selectedPosition;
+};
+
+const calcPanelPosition = clickedPosition => {
+  const panelReferencePoint = getSettings("panelReferencePoint");
+  switch (panelReferencePoint) {
+    case "topSelectedText":
+      return getSelectedPosition("top");
+    case "bottomSelectedText":
+      return getSelectedPosition("bottom");
+    case "clickedPoint":
+      if (clickedPosition) return clickedPosition;
+      else return getSelectedPosition("bottom");
+  }
 };
 
 const translateText = async text => {
@@ -72,6 +99,7 @@ export default class TranslateContainer extends Component {
       statusText: "OK"
     };
     this.selectedText = "";
+    this.selectedPosition = { x: 0, y: 0 };
     this.init();
   }
 
@@ -93,10 +121,10 @@ export default class TranslateContainer extends Component {
         return tabInfo;
       case "translateSelectedText":
         this.selectedText = getSelectedText();
-        const position = getSelectedPosition();
         if (this.selectedText.length === 0) return;
+        this.selectedPosition = getSelectedPosition();
         this.hideButton();
-        this.showPanel(position);
+        this.showPanel();
         break;
     }
   };
@@ -108,8 +136,8 @@ export default class TranslateContainer extends Component {
     }
   };
 
-  showButton = position => {
-    this.setState({ shouldShowButton: true, buttonPosition: position });
+  showButton = clickedPosition => {
+    this.setState({ shouldShowButton: true, buttonPosition: clickedPosition });
   };
 
   hideButton = () => {
@@ -117,16 +145,20 @@ export default class TranslateContainer extends Component {
   };
 
   handleButtonClick = e => {
-    const position = { x: e.clientX, y: e.clientY };
-    this.showPanel(position);
+    const clickedPosition = { x: e.clientX, y: e.clientY };
+    this.showPanel(clickedPosition);
     this.hideButton();
   };
 
-  showPanel = async position => {
+  showPanel = async (clickedPosition = null) => {
+    const panelReferencePoint = getSettings("panelReferencePoint");
+    const useClickedPosition = panelReferencePoint === "clickedPoint" && clickedPosition !== null;
+    const panelPosition = useClickedPosition ? clickedPosition : this.selectedPosition;
+
     const result = await translateText(this.selectedText);
     this.setState({
       shouldShowPanel: true,
-      panelPosition: position,
+      panelPosition: panelPosition,
       resultText: result.resultText,
       candidateText: getSettings("ifShowCandidate") ? result.candidateText : "",
       statusText: result.statusText
@@ -148,13 +180,14 @@ export default class TranslateContainer extends Component {
     this.hidePanel();
 
     this.selectedText = getSelectedText();
-    const position = { x: e.clientX, y: e.clientY };
+    this.selectedPosition = getSelectedPosition();
+    const clickedPosition = { x: e.clientX, y: e.clientY };
 
     if (this.selectedText.length === 0) return;
-    this.handleTextSelect(position);
+    this.handleTextSelect(clickedPosition);
   };
 
-  handleTextSelect = async position => {
+  handleTextSelect = async clickedPosition => {
     const onSelectBehavior = getSettings("whenSelectText");
     if (onSelectBehavior === "dontShowButton") return;
 
@@ -164,9 +197,9 @@ export default class TranslateContainer extends Component {
     }
 
     if (onSelectBehavior === "showButton") {
-      this.showButton(position);
+      this.showButton(clickedPosition);
     } else if (onSelectBehavior === "showPanel") {
-      this.showPanel(position);
+      this.showPanel(clickedPosition);
     }
   };
 

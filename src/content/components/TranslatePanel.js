@@ -30,13 +30,45 @@ export default class TranslatePanel extends Component {
     const panelHeight = Math.min(wrapper.clientHeight, maxHeight);
     const windowWidth = document.documentElement.clientWidth;
     const windowHeight = document.documentElement.clientHeight;
+    const referencePosition = this.props.position;
     const offset = 10;
 
-    //TODO: パネルの表示位置オプション
-    let position = {
-      x: this.props.position.x - panelWidth / 2,
-      y: this.props.position.y + offset
-    };
+    let position = { x: 0, y: 0 };
+    const panelDirection = getSettings("panelDirection");
+    switch (panelDirection) {
+      case "top":
+        position.x = referencePosition.x - panelWidth / 2;
+        position.y = referencePosition.y - panelHeight - offset;
+        break;
+      case "bottom":
+        position.x = referencePosition.x - panelWidth / 2;
+        position.y = referencePosition.y + offset;
+        break;
+      case "right":
+        position.x = referencePosition.x + offset;
+        position.y = referencePosition.y - panelHeight / 2;
+        break;
+      case "left":
+        position.x = referencePosition.x - panelWidth - offset;
+        position.y = referencePosition.y - panelHeight / 2;
+        break;
+      case "topRight":
+        position.x = referencePosition.x + offset;
+        position.y = referencePosition.y - panelHeight - offset;
+        break;
+      case "topLeft":
+        position.x = referencePosition.x - panelWidth - offset;
+        position.y = referencePosition.y - panelHeight - offset;
+        break;
+      case "bottomRight":
+        position.x = referencePosition.x + offset;
+        position.y = referencePosition.y + offset;
+        break;
+      case "bottomLeft":
+        position.x = referencePosition.x - panelWidth - offset;
+        position.y = referencePosition.y + offset;
+        break;
+    }
 
     if (position.x + panelWidth > windowWidth - offset) {
       position.x = windowWidth - panelWidth - offset;

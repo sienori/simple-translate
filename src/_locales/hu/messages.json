@@ -15,13 +15,13 @@
     "message": "Az oldal fordítása"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "Megnyitás a Google Fordítóban"
   },
   "copyLabel": {
-    "message": "Copy"
+    "message": "Másolás"
   },
   "copiedLabel": {
-    "message": "Copied."
+    "message": "Másolva."
   },
   "targetLangLabel": {
     "message": "Célnyelv"
@@ -126,28 +126,28 @@
     "message": "Megjelenítés helye"
   },
   "topRightLabel": {
-    "message": "Top right"
+    "message": "Jobb felső"
   },
   "bottomRightLabel": {
-    "message": "Bottom right"
+    "message": "Jobb alsó"
   },
   "topLeftLabel": {
-    "message": "Top left"
+    "message": "Bal felső"
   },
   "bottomLeftLabel": {
-    "message": "Bottom left"
+    "message": "Bal alsó"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "Fent"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "Lent"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "Balra"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "Jobbra"
   },
   "positionOffsetLabel": {
     "message": "Display position - Offset"
@@ -192,16 +192,16 @@
     "message": "Háttér színe"
   },
   "otherLabel": {
-    "message": "Other"
+    "message": "Egyéb"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Display option page when updating"
+    "message": "Beállítás oldal megjelenítése frissítéskor"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
     "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
   },
   "isDebugModeLabel": {
-    "message": "Enable debug mode"
+    "message": "Hibakeresési mód engedélyezése"
   },
   "isDebugModeCaptionLabel": {
     "message": "When debug mode is enabled, the log is output to the debugger."

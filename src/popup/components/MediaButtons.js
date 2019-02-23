@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import browser from "webextension-polyfill";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import CopyIcon from "../icons/copy.svg";
-import "../styles/CopyButton.scss";
+import "../styles/MediaButtons.scss";
 
 export default class CopyButton extends Component {
   constructor(props) {
@@ -22,15 +22,17 @@ export default class CopyButton extends Component {
     const { resultText } = this.props;
     return (
       resultText && (
-        <div className="row">
-          {this.state.isCopied && (
-            <span className="copiedText">{browser.i18n.getMessage("copiedLabel")}</span>
-          )}
-          <CopyToClipboard text={resultText} onCopy={this.handleCopy}>
-            <button className="copyButton" title={browser.i18n.getMessage("copyLabel")}>
-              <CopyIcon />
-            </button>
-          </CopyToClipboard>
+        <div className="mediaButtons">
+          <div className="copy">
+            {this.state.isCopied && (
+              <span className="copiedText">{browser.i18n.getMessage("copiedLabel")}</span>
+            )}
+            <CopyToClipboard text={resultText} onCopy={this.handleCopy}>
+              <button className="copyButton" title={browser.i18n.getMessage("copyLabel")}>
+                <CopyIcon />
+              </button>
+            </CopyToClipboard>
+          </div>
         </div>
       )
     );

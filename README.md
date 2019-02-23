@@ -2,9 +2,7 @@
 
 #### Quickly translate selected text on web page. In toolbar popup, you can translate input text.  
 
-[<img src="https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_1.png" align="left" alt="for Firefox">](https://addons.mozilla.org/firefox/addon/simple-translate/)  
-
-<br/>
+[<img src="https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_1.png" alt="for Firefox">](https://addons.mozilla.org/firefox/addon/simple-translate/)
 
 ## Translation
 You can contribute by translating Tab Session Manager on **[Crowdin](https://crowdin.com/project/simple-translate)**.  

@@ -76,6 +76,9 @@
   "ifCheckLangCaptionLabel": {
     "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
   },
+  "ifChangeSecondLangOnPageCaptionLabel": {
+    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+  },
 
   "toolbarLabel": {
     "message": "Toolbar popup"

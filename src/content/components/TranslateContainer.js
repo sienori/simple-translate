@@ -46,8 +46,7 @@ const getSelectedPosition = () => {
   return selectedPosition;
 };
 
-const translateText = async text => {
-  const targetLang = getSettings("targetLang");
+const translateText = async (text, targetLang = getSettings("targetLang")) => {
   const result = await translate(text, "auto", targetLang);
   return result;
 };
@@ -142,7 +141,15 @@ export default class TranslateContainer extends Component {
     const useClickedPosition = panelReferencePoint === "clickedPoint" && clickedPosition !== null;
     const panelPosition = useClickedPosition ? clickedPosition : this.selectedPosition;
 
-    const result = await translateText(this.selectedText);
+    let result = await translateText(this.selectedText);
+    if (getSettings("ifChangeSecondLangOnPage")) {
+      const targetLang = getSettings("targetLang");
+      const secondLang = getSettings("secondTargetLang");
+      const shouldSwitchSecondLang =
+        result.sourceLanguage === targetLang && result.percentage > 0 && targetLang !== secondLang;
+      if (shouldSwitchSecondLang) result = await translateText(this.selectedText, secondLang);
+    }
+
     this.setState({
       shouldShowPanel: true,
       panelPosition: panelPosition,

@@ -29,6 +29,15 @@ export default [
         useRawOptionName: true
       },
       {
+        id: "secondTargetLang",
+        title: "secondTargetLangLabel",
+        captions: ["secondTargetLangCaptionLabel"],
+        type: "select",
+        default: defaultLangs.secondTargetLang,
+        options: langListOptions,
+        useRawOptionName: true
+      },
+      {
         id: "ifShowCandidate",
         title: "ifShowCandidateLabel",
         captions: ["ifShowCandidateCaptionLabel"],
@@ -77,30 +86,19 @@ export default [
             hr: true
           }
         ]
+      },
+      {
+        id: "ifChangeSecondLangOnPage",
+        title: "ifChangeSecondLangLabel",
+        captions: ["ifChangeSecondLangOnPageCaptionLabel"],
+        type: "checkbox",
+        default: false
       }
     ]
   },
   {
     category: "toolbarLabel",
     elements: [
-      {
-        id: "ifChangeSecondLang",
-        title: "ifChangeSecondLangLabel",
-        captions: ["ifChangeSecondLangCaptionLabel"],
-        type: "checkbox",
-        default: false,
-        childElements: [
-          {
-            id: "secondTargetLang",
-            title: "secondTargetLangLabel",
-            captions: ["secondTargetLangCaptionLabel"],
-            type: "select",
-            default: defaultLangs.secondTargetLang,
-            options: langListOptions,
-            useRawOptionName: true
-          }
-        ]
-      },
       {
         id: "waitTime",
         title: "waitTimeLabel",
@@ -109,6 +107,13 @@ export default [
         min: 0,
         placeholder: 500,
         default: 500
+      },
+      {
+        id: "ifChangeSecondLang",
+        title: "ifChangeSecondLangLabel",
+        captions: ["ifChangeSecondLangCaptionLabel"],
+        type: "checkbox",
+        default: false
       }
     ]
   },

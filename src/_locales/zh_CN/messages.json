@@ -15,13 +15,13 @@
     "message": "翻译此页面"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "在 Google 翻译中打开"
   },
   "copyLabel": {
-    "message": "Copy"
+    "message": "复制"
   },
   "copiedLabel": {
-    "message": "Copied."
+    "message": "已复制。"
   },
   "targetLangLabel": {
     "message": "目标语言"
@@ -126,31 +126,31 @@
     "message": "显示位置"
   },
   "topRightLabel": {
-    "message": "Top right"
+    "message": "右上角"
   },
   "bottomRightLabel": {
-    "message": "Bottom right"
+    "message": "右下角"
   },
   "topLeftLabel": {
-    "message": "Top left"
+    "message": "左上角"
   },
   "bottomLeftLabel": {
-    "message": "Bottom left"
+    "message": "左下角"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "顶部"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "底部"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "左侧"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "右侧"
   },
   "positionOffsetLabel": {
-    "message": "Display position - Offset"
+    "message": "显示位置 - 偏移"
   },
   "panelStyleLabel": {
     "message": "翻译面板"
@@ -168,34 +168,34 @@
     "message": "字体大小"
   },
   "referencePointLabel": {
-    "message": "Display position - Reference point"
+    "message": "显示位置 - 参考点"
   },
   "bottomSelectedTextLabel": {
-    "message": "Bottom of selected text"
+    "message": "所选文本的底部"
   },
   "topSelectedTextLabel": {
-    "message": "Top of selected text"
+    "message": "所选文本的顶部"
   },
   "clickedPointLabel": {
     "message": "Clicked point"
   },
   "displayDirectionLabel": {
-    "message": "Display position - Direction"
+    "message": "显示位置 - 方向"
   },
   "resultFontColorLabel": {
-    "message": "Font color of translation result"
+    "message": "翻译结果的字体颜色"
   },
   "candidateFontColorLabel": {
-    "message": "Font color of translation candidates"
+    "message": "翻译候选的字体颜色"
   },
   "bgColorLabel": {
     "message": "背景色"
   },
   "otherLabel": {
-    "message": "Other"
+    "message": "其他"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Display option page when updating"
+    "message": "更新时显示选项页面"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
     "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."

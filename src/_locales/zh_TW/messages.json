@@ -75,7 +75,7 @@
     "message": "偵測所選文字的語言, 如果它與目標語言相同, 則不顯示按鈕。"
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+    "message": "偵測選擇文字的語言, 如果它與預設的目標語言相同, 則將其翻譯為第二語言。"
   },
   "toolbarLabel": {
     "message": "工具列彈出式選單"
@@ -126,25 +126,25 @@
     "message": "顯示位置"
   },
   "topRightLabel": {
-    "message": "Top right"
+    "message": "右上角"
   },
   "bottomRightLabel": {
-    "message": "Bottom right"
+    "message": "右下角"
   },
   "topLeftLabel": {
-    "message": "Top left"
+    "message": "左上角"
   },
   "bottomLeftLabel": {
-    "message": "Bottom left"
+    "message": "左下角"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "頂部"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "底部"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "左側"
   },
   "rightLabel": {
     "message": "Right"

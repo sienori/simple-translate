@@ -198,55 +198,55 @@
     "message": "更新时显示选项页面"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+    "message": "Simple Translate 更新后显示选项页面从而快速了解更新内容。"
   },
   "isDebugModeLabel": {
-    "message": "Enable debug mode"
+    "message": "启用调试模式"
   },
   "isDebugModeCaptionLabel": {
-    "message": "When debug mode is enabled, the log is output to the debugger."
+    "message": "启用调试模式后, 日志将输出到调试器。"
   },
   "resetSettingsLabel": {
-    "message": "Reset settings"
+    "message": "重置设置"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Restore all settings to default."
+    "message": "恢复所有设置为默认值。"
   },
   "resetSettingsButtonLabel": {
-    "message": "Reset"
+    "message": "重置"
   },
   "shortcutsLabel": {
-    "message": "Shortcuts"
+    "message": "快捷键"
   },
   "keyboardShortcutsLabel": {
-    "message": "Keyboard shortcuts"
+    "message": "键盘快捷键"
   },
   "setKeyboardShortCutsMessage": {
-    "message": "Set keyboard shortcuts."
+    "message": "设置键盘快捷键。"
   },
   "typeShortcutMessage": {
-    "message": "Type a shortcut"
+    "message": "输入快捷键"
   },
   "typeLetterMessage": {
-    "message": "Type a letter"
+    "message": "输入一个字母"
   },
   "includeModifierKeysMessage": {
-    "message": "Include either Ctrl or Alt"
+    "message": "必须包含 Ctrl 或 Alt"
   },
   "includeMacModifierKeysMessage": {
-    "message": "Include either Command, Ctrl or Alt"
+    "message": "必须包含 Command，Ctrl 或 Alt"
   },
   "invalidLetterMessage": {
-    "message": "The letter can not be used"
+    "message": "不能使用这个字母"
   },
   "invalidShortcutMessage": {
-    "message": "The shortcut can not be used"
+    "message": "不能使用这个快捷键"
   },
   "clear": {
-    "message": "Clear"
+    "message": "清除"
   },
   "reset": {
-    "message": "Reset"
+    "message": "重置"
   },
   "informationLabel": {
     "message": "信息"
@@ -291,6 +291,6 @@
     "message": "翻译选定链接"
   },
   "openPopupDescription": {
-    "message": "Open toolbar popup"
+    "message": "打开工具栏弹出窗口"
   }
 }

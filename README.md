@@ -5,7 +5,7 @@
 [<img src="https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_1.png" alt="for Firefox">](https://addons.mozilla.org/firefox/addon/simple-translate/)
 
 ## Translation
-You can contribute by translating Tab Session Manager on **[Crowdin](https://crowdin.com/project/simple-translate)**.  
+You can contribute by translating Simple Translate on **[Crowdin](https://crowdin.com/project/simple-translate)**.  
 
 ## Developing
 1. Clone the repository `git clone https://github.com/sienori/simple-translate`
@@ -14,7 +14,7 @@ You can contribute by translating Tab Session Manager on **[Crowdin](https://cro
 ### Load the extension in Chrome
 1. Open Chrome browser and navigate to `chrome://extensions`
 2. Select "Developer Mode" and then click "Load unpacked extension..."
-3. From the file browser, choose to `tab-session-manager/dev/chrome`
+3. From the file browser, choose to `simple-translate/dev/chrome`
 ### Load the extension in Firefox
 1. Open Firefox browser and navigate to `about:debugging`
-2. Click "Load Temporary Add-on" and from the file browser, choose `tab-session-manager/dev/firefox`
+2. Click "Load Temporary Add-on" and from the file browser, choose `simple-translate/dev/firefox`

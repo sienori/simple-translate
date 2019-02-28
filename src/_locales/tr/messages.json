@@ -15,13 +15,13 @@
     "message": "Bu sayfayı çevir"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "Google Translate'de aç"
   },
   "copyLabel": {
-    "message": "Copy"
+    "message": "Kopyala"
   },
   "copiedLabel": {
-    "message": "Copied."
+    "message": "Kopyalandı."
   },
   "targetLangLabel": {
     "message": "Hedef dil"
@@ -192,7 +192,7 @@
     "message": "Arka plan rengi"
   },
   "otherLabel": {
-    "message": "Other"
+    "message": "Diğer"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
     "message": "Display option page when updating"
@@ -207,19 +207,19 @@
     "message": "When debug mode is enabled, the log is output to the debugger."
   },
   "resetSettingsLabel": {
-    "message": "Reset settings"
+    "message": "Ayarları sıfırla"
   },
   "resetSettingsCaptionLabel": {
     "message": "Restore all settings to default."
   },
   "resetSettingsButtonLabel": {
-    "message": "Reset"
+    "message": "Sıfırla"
   },
   "shortcutsLabel": {
-    "message": "Shortcuts"
+    "message": "Kısayollar"
   },
   "keyboardShortcutsLabel": {
-    "message": "Keyboard shortcuts"
+    "message": "Klavye kısayolları"
   },
   "setKeyboardShortCutsMessage": {
     "message": "Set keyboard shortcuts."
@@ -243,10 +243,10 @@
     "message": "The shortcut can not be used"
   },
   "clear": {
-    "message": "Clear"
+    "message": "Temizle"
   },
   "reset": {
-    "message": "Reset"
+    "message": "Sıfırla"
   },
   "informationLabel": {
     "message": "Bilgi"
@@ -264,7 +264,7 @@
     "message": "amazon.co.jp eGift Cards"
   },
   "addonPageLabel": {
-    "message": "Ek sayfa"
+    "message": "Eklenti sayfası"
   },
   "amazonUrl": {
     "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
@@ -273,7 +273,7 @@
     "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
   },
   "networkError": {
-    "message": "Error: Check network connection status."
+    "message": "Hata: Ağ bağlantısı durumunu kontrol edin."
   },
   "unavailableError": {
     "message": "Error: Service usage limit reached. Please wait a while and try again."

@@ -225,13 +225,13 @@
     "message": "Klavye kısayollarını ayarlayın."
   },
   "typeShortcutMessage": {
-    "message": "Type a shortcut"
+    "message": "Bir kısayol yazın"
   },
   "typeLetterMessage": {
-    "message": "Type a letter"
+    "message": "Bir harf yazın"
   },
   "includeModifierKeysMessage": {
-    "message": "Include either Ctrl or Alt"
+    "message": "Ctrl veya Alt’ı dahil et"
   },
   "includeMacModifierKeysMessage": {
     "message": "Include either Command, Ctrl or Alt"

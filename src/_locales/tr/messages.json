@@ -102,7 +102,7 @@
     "message": "Kısa sürede birçok kez çevirirseniz, bir süre kullanılamaz hale gelebilir."
   },
   "menuLabel": {
-    "message": "İçerik Menüsü"
+    "message": "İçerik menüsü"
   },
   "ifShowMenuLabel": {
     "message": "İçerik menüsünü görüntüle"
@@ -174,7 +174,7 @@
     "message": "Seçili metnin altı"
   },
   "topSelectedTextLabel": {
-    "message": "Seçilen metnin üstü"
+    "message": "Seçili metnin üstü"
   },
   "clickedPointLabel": {
     "message": "Tıklanan nokta"

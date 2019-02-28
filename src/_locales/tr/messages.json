@@ -3,10 +3,10 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
+    "message": "Seçilen metni web sayfasında hızlıca çevirin. Araç çubuğu penceresinde giriş metnini çevirebilirsiniz."
   },
   "donateWithPaypalLabel": {
-    "message": "PayPal ile bağış yap"
+    "message": "PayPal ile bağış yapın"
   },
   "initialTextArea": {
     "message": "Metin girin"
@@ -54,19 +54,19 @@
     "message": "Görüntü çeviri paneli"
   },
   "ifAutoTranslateCaptionLabel": {
-    "message": "Directly display the translation panel without displaying the button."
+    "message": "Butonu görüntülemeden çeviri panelini doğrudan görüntüleyin."
   },
   "ifShowButtonLabel": {
     "message": "Görüntü çeviri düğmesini"
   },
   "ifShowButtonCaptionLabel": {
-    "message": "Display the translation button to open the panel when clicked."
+    "message": "Tıklandığında paneli açmak için çeviri butonunu görüntüleyin."
   },
   "dontshowbuttonlabel": {
     "message": "Düğmesini veya panelini görüntüleme"
   },
   "dontshowbuttonCaptionlabel": {
-    "message": "Don't display the translation button or the translation panel."
+    "message": "Çeviri butonunu veya çeviri panelini görüntülemeyin."
   },
   "ifCheckLangLabel": {
     "message": "Çeviri gerekmedikçe tuşu görüntüleme"

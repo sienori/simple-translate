@@ -51,19 +51,19 @@
     "message": "Metin seçerken davranış"
   },
   "ifAutoTranslateLabel": {
-    "message": "Görüntü çeviri paneli"
+    "message": "Çeviri panelini görüntüle"
   },
   "ifAutoTranslateCaptionLabel": {
     "message": "Butonu görüntülemeden çeviri panelini doğrudan görüntüleyin."
   },
   "ifShowButtonLabel": {
-    "message": "Görüntü çeviri düğmesini"
+    "message": "Çeviri butonunu göster"
   },
   "ifShowButtonCaptionLabel": {
     "message": "Tıklandığında paneli açmak için çeviri butonunu görüntüleyin."
   },
   "dontshowbuttonlabel": {
-    "message": "Düğmesini veya panelini görüntüleme"
+    "message": "Butonu veya paneli görüntüleme"
   },
   "dontshowbuttonCaptionlabel": {
     "message": "Çeviri butonunu veya çeviri panelini görüntülemeyin."
@@ -210,7 +210,7 @@
     "message": "Ayarları sıfırla"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Tüm ayarları varsayılana geri yükleyin."
+    "message": "Tüm ayarları varsayılana sıfırla."
   },
   "resetSettingsButtonLabel": {
     "message": "Sıfırla"

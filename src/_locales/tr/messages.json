@@ -69,10 +69,10 @@
     "message": "Çeviri butonunu veya çeviri panelini görüntülemeyin."
   },
   "ifCheckLangLabel": {
-    "message": "Çeviri gerekmedikçe tuşu görüntüleme"
+    "message": "Çeviri gerekli değilse butonu görüntülemeyin"
   },
   "ifCheckLangCaptionLabel": {
-    "message": "Seçili metnin dilini algılar ve dil aynı ise tuş görüntülenmez."
+    "message": "Seçilen metnin dilini algılar ve hedef dil ile aynıysa, buton görüntülenmez."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "Seçili metnin dilini algılar ve varsayılan hedef dille aynıysa, ikinci dile çevirir."
@@ -102,7 +102,7 @@
     "message": "Kısa sürede birçok kez çevirirseniz, bir süre kullanılamaz hale gelebilir."
   },
   "menuLabel": {
-    "message": "Bağlam Menüsü"
+    "message": "İçerik Menüsü"
   },
   "ifShowMenuLabel": {
     "message": "İçerik menüsünü görüntüle"
@@ -114,7 +114,7 @@
     "message": "Biçim"
   },
   "buttonStyleLabel": {
-    "message": "Çeviri düğmesi"
+    "message": "Çeviri butonu"
   },
   "buttonStyleCaptionLabel": {
     "message": "Web sayfasında görüntülenen çeviri düğmesinin biçimini belirleyin."

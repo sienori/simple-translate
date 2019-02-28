@@ -180,13 +180,13 @@
     "message": "Tıklanan nokta"
   },
   "displayDirectionLabel": {
-    "message": "Display position - Direction"
+    "message": "Görüntü konumu - Yön"
   },
   "resultFontColorLabel": {
     "message": "Çeviri sonucunun yazı tipi rengi"
   },
   "candidateFontColorLabel": {
-    "message": "Font color of translation candidates"
+    "message": "Çeviri adaylarının yazı tipi rengi"
   },
   "bgColorLabel": {
     "message": "Arka plan rengi"

@@ -138,16 +138,16 @@
     "message": "Sol alt"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "Üst"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "Alt"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "Sol"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "Sağ"
   },
   "positionOffsetLabel": {
     "message": "Display position - Offset"
@@ -171,19 +171,19 @@
     "message": "Display position - Reference point"
   },
   "bottomSelectedTextLabel": {
-    "message": "Bottom of selected text"
+    "message": "Seçili metnin altı"
   },
   "topSelectedTextLabel": {
-    "message": "Top of selected text"
+    "message": "Seçilen metnin üstü"
   },
   "clickedPointLabel": {
-    "message": "Clicked point"
+    "message": "Tıklanan nokta"
   },
   "displayDirectionLabel": {
     "message": "Display position - Direction"
   },
   "resultFontColorLabel": {
-    "message": "Font color of translation result"
+    "message": "Çeviri sonucunun yazı tipi rengi"
   },
   "candidateFontColorLabel": {
     "message": "Font color of translation candidates"

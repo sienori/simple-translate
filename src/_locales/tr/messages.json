@@ -234,13 +234,13 @@
     "message": "Ctrl veya Alt’ı dahil et"
   },
   "includeMacModifierKeysMessage": {
-    "message": "Include either Command, Ctrl or Alt"
+    "message": "Command tuşunu, Ctrl veya Alt'ı dahil edin"
   },
   "invalidLetterMessage": {
-    "message": "The letter can not be used"
+    "message": "Harf kullanılamaz"
   },
   "invalidShortcutMessage": {
-    "message": "The shortcut can not be used"
+    "message": "Kısayol kullanılamaz"
   },
   "clear": {
     "message": "Temizle"
@@ -276,10 +276,10 @@
     "message": "Hata: Ağ bağlantısı durumunu kontrol edin."
   },
   "unavailableError": {
-    "message": "Error: Service usage limit reached. Please wait a while and try again."
+    "message": "Hata: Servis kullanım limitine ulaşıldı. Lütfen biraz bekleyin ve tekrar deneyin."
   },
   "unknownError": {
-    "message": "Error: Unknown error"
+    "message": "Hata: Bilinmeyen hata"
   },
   "translatePageMenu": {
     "message": "Bu sayfayı çevir"

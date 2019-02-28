@@ -75,7 +75,7 @@
     "message": "Seçili metnin dilini algılar ve dil aynı ise tuş görüntülenmez."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+    "message": "Seçili metnin dilini algılar ve varsayılan hedef dille aynıysa, ikinci dile çevirir."
   },
   "toolbarLabel": {
     "message": "Açılır araç çubuğu penceresi"
@@ -93,13 +93,13 @@
     "message": "İkinci hedef dilini seçin."
   },
   "waitTimeLabel": {
-    "message": "Waiting time to translate"
+    "message": "Çevirmek için bekleme süresi"
   },
   "waitTimeCaptionLabel": {
-    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+    "message": "Bir karakterin girişinden çevirinin başlangıcına kadar olan bekleme süresini belirtin. (milisaniye)"
   },
   "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
+    "message": "Kısa sürede birçok kez çevirirseniz, bir süre kullanılamaz hale gelebilir."
   },
   "menuLabel": {
     "message": "Bağlam Menüsü"
@@ -108,7 +108,7 @@
     "message": "İçerik menüsünü görüntüle"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+    "message": "Web sayfasına veya sekmeye sağ tıkladığınızda görüntülenen içerik menüsüne öğe ekleyin."
   },
   "styleLabel": {
     "message": "Biçim"
@@ -126,16 +126,16 @@
     "message": "Görüntü konumu"
   },
   "topRightLabel": {
-    "message": "Top right"
+    "message": "Sağ üst"
   },
   "bottomRightLabel": {
-    "message": "Bottom right"
+    "message": "Sağ alt"
   },
   "topLeftLabel": {
-    "message": "Top left"
+    "message": "Sol üst"
   },
   "bottomLeftLabel": {
-    "message": "Bottom left"
+    "message": "Sol alt"
   },
   "topLabel": {
     "message": "Top"

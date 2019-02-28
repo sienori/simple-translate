@@ -150,7 +150,7 @@
     "message": "Sağ"
   },
   "positionOffsetLabel": {
-    "message": "Display position - Offset"
+    "message": "Görüntü konumu - Kaydırma"
   },
   "panelStyleLabel": {
     "message": "Çeviri paneli"
@@ -168,7 +168,7 @@
     "message": "Yazı tipi boyutu"
   },
   "referencePointLabel": {
-    "message": "Display position - Reference point"
+    "message": "Görüntü konumu - Referans noktası"
   },
   "bottomSelectedTextLabel": {
     "message": "Seçili metnin altı"

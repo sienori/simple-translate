@@ -2,7 +2,10 @@
 
 #### Quickly translate selected text on web page. In toolbar popup, you can translate input text.  
 
-[<img src="https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_1.png" alt="for Firefox">](https://addons.mozilla.org/firefox/addon/simple-translate/)
+[<img src="https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_1.png" align="left" alt="for Firefox">](https://addons.mozilla.org/firefox/addon/simple-translate/)
+
+[<img src="https://developer.chrome.com/webstore/images/ChromeWebStore_BadgeWBorder_v2_206x58.png" alt="for Chrome">](
+https://chrome.google.com/webstore/detail/simple-translate/ibplnjkanclpjokhdolnendpplpjiace)
 
 ## Translation
 You can contribute by translating Simple Translate on **[Crowdin](https://crowdin.com/project/simple-translate)**.  

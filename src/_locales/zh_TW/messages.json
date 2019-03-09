@@ -150,7 +150,7 @@
     "message": "右側"
   },
   "positionOffsetLabel": {
-    "message": "Display position - Offset"
+    "message": "顯示位置-位移"
   },
   "panelStyleLabel": {
     "message": "翻譯面板"
@@ -168,16 +168,16 @@
     "message": "字型大小"
   },
   "referencePointLabel": {
-    "message": "Display position - Reference point"
+    "message": "顯示位置 - 參考點"
   },
   "bottomSelectedTextLabel": {
-    "message": "Bottom of selected text"
+    "message": "所選文字的底部"
   },
   "topSelectedTextLabel": {
-    "message": "Top of selected text"
+    "message": "所選文字的頂部"
   },
   "clickedPointLabel": {
-    "message": "Clicked point"
+    "message": "點選的位置"
   },
   "displayDirectionLabel": {
     "message": "顯示位置-方向"

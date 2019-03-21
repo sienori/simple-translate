@@ -79,7 +79,7 @@ const generalConfig = {
     ]
   }
 };
-
+const BundleAnalyzerPlugin = require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
 module.exports = [
   {
     ...generalConfig,
@@ -105,7 +105,12 @@ module.exports = [
     output: getOutput("firefox", config.devDirectory),
     plugins: [
       ...getFirefoxCopyPlugins("firefox", config.devDirectory, config.firefoxPath),
-      ...getHTMLPlugins("firefox", config.devDirectory, config.firefoxPath)
+      ...getHTMLPlugins("firefox", config.devDirectory, config.firefoxPath),
+      new BundleAnalyzerPlugin({
+        openAnalyzer: false,
+        analyzerHost: "127.0.0.1",
+        analyzerPort: 8888
+      })
     ]
   }
 ];

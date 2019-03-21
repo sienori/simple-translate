@@ -22,18 +22,21 @@
     "css-loader": "^0.28.11",
     "html-webpack-plugin": "^3.2.0",
     "node-sass": "^4.9.0",
+    "opener": "^1.5.1",
     "react-svg-loader": "^2.1.0",
     "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
     "uglifyjs-webpack-plugin": "^1.2.5",
     "webextension-polyfill": "^0.3.1",
     "webpack": "^4.10.2",
+    "webpack-bundle-analyzer": "^3.0.4",
     "webpack-cli": "^3.0.1",
     "zip-webpack-plugin": "^3.0.0"
   },
   "scripts": {
     "watch-dev": "webpack --config webpack.config.dev.js --watch",
-    "build": "webpack --config webpack.config.dist.js"
+    "build": "webpack --config webpack.config.dist.js",
+    "open-analyzer": "opener http://127.0.0.1:8888/"
   },
   "repository": {
     "type": "git",

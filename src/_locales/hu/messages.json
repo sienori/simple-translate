@@ -3,10 +3,10 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
+    "message": "Gyorsan lefordítja a weblapon kijelölt szöveget. Az eszköztáron felugró ablakban pedig beírt szöveg fordítható."
   },
   "donateWithPaypalLabel": {
-    "message": "Adomány PayPal-al"
+    "message": "Adomány PayPal használatával"
   },
   "initialTextArea": {
     "message": "Írja be a szöveget"
@@ -75,10 +75,10 @@
     "message": "Felismeri a kijelölt szöveg nyelvét és ha az megegyezik a célnyelvvel akkor a gomb nem jelenik meg."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+    "message": "Felismeri a kijelölt szöveg nyelvét és ha az megegyezik az alapértelmezett célnyelvvel akkor a fordítás a második nyelvre történik."
   },
   "toolbarLabel": {
-    "message": "Felugró eszköztár"
+    "message": "Felugró ablak az eszköztár gombjához"
   },
   "ifChangeSecondLangLabel": {
     "message": "Automatikus váltás a második nyelvre"
@@ -93,13 +93,13 @@
     "message": "Válassza ki a második célnyelvet."
   },
   "waitTimeLabel": {
-    "message": "Waiting time to translate"
+    "message": "Várakozási idő fordítás előtt"
   },
   "waitTimeCaptionLabel": {
-    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+    "message": "Várakozási idő a karakterek beírása és a fordítás megkezdése előtt. (ezredmásodperc)"
   },
   "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
+    "message": "Ha sokszor fordít rövid időn belül akkor egy időre használhatatlanná válhat."
   },
   "menuLabel": {
     "message": "Helyi menü"
@@ -150,7 +150,7 @@
     "message": "Jobbra"
   },
   "positionOffsetLabel": {
-    "message": "Display position - Offset"
+    "message": "Megjelenítés helye - Eltolás"
   },
   "panelStyleLabel": {
     "message": "Fordító panel"
@@ -168,7 +168,7 @@
     "message": "Betűméret"
   },
   "referencePointLabel": {
-    "message": "Display position - Reference point"
+    "message": "Megjelenítés helye - Hivatkozási pont"
   },
   "bottomSelectedTextLabel": {
     "message": "Kijelölt szöveg alatt"
@@ -180,13 +180,13 @@
     "message": "Kattintás helye"
   },
   "displayDirectionLabel": {
-    "message": "Display position - Direction"
+    "message": "Megjelenítés helye - Irány"
   },
   "resultFontColorLabel": {
-    "message": "Font color of translation result"
+    "message": "Fordítás színe"
   },
   "candidateFontColorLabel": {
-    "message": "Font color of translation candidates"
+    "message": "Fordítási javaslatok színe"
   },
   "bgColorLabel": {
     "message": "Háttér színe"
@@ -266,8 +266,11 @@
   "addonPageLabel": {
     "message": "Bővítmény weboldala"
   },
+  "extensionPageLabel": {
+    "message": "Extension page"
+  },
   "amazonUrl": {
-    "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
+    "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=hu_HU"
   },
   "addonUrl": {
     "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"

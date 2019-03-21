@@ -15,7 +15,7 @@
     "message": "Isalin ang pahinang ito"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "Buksan sa Google Translate"
   },
   "copyLabel": {
     "message": "Copy"
@@ -265,6 +265,9 @@
   },
   "addonPageLabel": {
     "message": "Pahina ng add-on"
+  },
+  "extensionPageLabel": {
+    "message": "Extension page"
   },
   "amazonUrl": {
     "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"

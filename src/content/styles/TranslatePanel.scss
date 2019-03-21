@@ -18,6 +18,11 @@
     }
 
     .simple-translate-result-wrapper {
+      all: initial;
+      position: inherit;
+      font-size: inherit;
+      visibility: inherit;
+      opacity: inherit;
       padding: 10px 18px;
       box-sizing: border-box;
       width: max-content;

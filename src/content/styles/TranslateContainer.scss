@@ -6,3 +6,10 @@
   --simple-translate-highlight: #5595ff;
   --simple-translate-main-bg: #ffffff;
 }
+
+#simple-translate {
+  all: initial;
+  & > div {
+    all: initial;
+  }
+}

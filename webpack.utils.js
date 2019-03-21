@@ -56,23 +56,6 @@ const getCopyPlugins = (browserDir, outputDir = "dev", sourceDir = "src") => [
   ])
 ];
 
-const getOperaCopyPlugins = (browserDir, outputDir = "dev", sourceDir = "src") => [
-  new CopyWebpackPlugin([
-    {
-      from: `${sourceDir}/icons`,
-      to: path.resolve(__dirname, `${outputDir}/${browserDir}/icons`)
-    },
-    {
-      from: `${sourceDir}/_locales`,
-      to: path.resolve(__dirname, `${outputDir}/${browserDir}/_locales`)
-    },
-    {
-      from: `${sourceDir}/manifest-opera.json`,
-      to: path.resolve(__dirname, `${outputDir}/${browserDir}/manifest.json`)
-    }
-  ])
-];
-
 const getFirefoxCopyPlugins = (browserDir, outputDir = "dev", sourceDir = "src") => [
   new CopyWebpackPlugin([
     {
@@ -110,7 +93,6 @@ module.exports = {
   getHTMLPlugins,
   getOutput,
   getCopyPlugins,
-  getOperaCopyPlugins,
   getFirefoxCopyPlugins,
   getZipPlugin,
   getEntry

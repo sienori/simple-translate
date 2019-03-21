@@ -10,7 +10,6 @@ const {
   getOutput,
   getCopyPlugins,
   getZipPlugin,
-  getOperaCopyPlugins,
   getFirefoxCopyPlugins,
   getEntry
 } = require("./webpack.utils");
@@ -97,18 +96,6 @@ module.exports = [
       ...getHTMLPlugins("chrome", config.tempDirectory, config.chromePath),
       ...getCopyPlugins("chrome", config.tempDirectory, config.chromePath),
       getZipPlugin(`${config.extName}-for-chrome-${extVersion}`, config.distDirectory)
-    ]
-  },
-  {
-    ...generalConfig,
-    output: getOutput("opera", config.tempDirectory),
-    entry: getEntry(config.operaPath),
-    plugins: [
-      new CleanWebpackPlugin(["dist", "temp"]),
-      new UglifyJsPlugin(),
-      ...getHTMLPlugins("opera", config.tempDirectory, config.operaPath),
-      ...getOperaCopyPlugins("opera", config.tempDirectory, config.operaPath),
-      getZipPlugin(`${config.extName}-for-opera-${extVersion}`, config.distDirectory)
     ]
   },
   {

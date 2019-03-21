@@ -180,7 +180,7 @@
     "message": "Clicked point"
   },
   "displayDirectionLabel": {
-    "message": "Display position - Direction"
+    "message": "Posición de visualización - Dirección"
   },
   "resultFontColorLabel": {
     "message": "Color de fuente del resultado de la traducción"
@@ -265,6 +265,9 @@
   },
   "addonPageLabel": {
     "message": "Página de complemento"
+  },
+  "extensionPageLabel": {
+    "message": "Extension page"
   },
   "amazonUrl": {
     "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"

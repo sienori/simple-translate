@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
+    "message": "Быстрый перевод выделенного текста на веб-странице. Можно переводить текст в окне на панели инструментов."
   },
   "donateWithPaypalLabel": {
     "message": "Сделать пожертвование через PayPal"
@@ -15,13 +15,13 @@
     "message": "Перевести страницу"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "Открыть в Переводчике Google"
   },
   "copyLabel": {
-    "message": "Copy"
+    "message": "Копировать"
   },
   "copiedLabel": {
-    "message": "Copied."
+    "message": "Скопировано."
   },
   "targetLangLabel": {
     "message": "Язык перевода"
@@ -75,7 +75,7 @@
     "message": "Если язык выделенного текста совпадает с языком перевода, то кнопка не показывается."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+    "message": "Переключаться на дополнительный язык перевода, если язык выделенного текста совпадает с языком перевода по умолчанию."
   },
   "toolbarLabel": {
     "message": "Окно на панели инструментов"
@@ -126,31 +126,31 @@
     "message": "Положение"
   },
   "topRightLabel": {
-    "message": "Top right"
+    "message": "Вверху справа"
   },
   "bottomRightLabel": {
-    "message": "Bottom right"
+    "message": "Внизу справа"
   },
   "topLeftLabel": {
-    "message": "Top left"
+    "message": "Вверху слева"
   },
   "bottomLeftLabel": {
-    "message": "Bottom left"
+    "message": "Внизу слева"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "Вверху"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "Внизу"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "Слева"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "Справа"
   },
   "positionOffsetLabel": {
-    "message": "Display position - Offset"
+    "message": "Положение - Сдвиг"
   },
   "panelStyleLabel": {
     "message": "Панель с переводом"
@@ -168,22 +168,22 @@
     "message": "Размер шрифта"
   },
   "referencePointLabel": {
-    "message": "Display position - Reference point"
+    "message": "Положение"
   },
   "bottomSelectedTextLabel": {
-    "message": "Bottom of selected text"
+    "message": "Внизу выделенного текста"
   },
   "topSelectedTextLabel": {
-    "message": "Top of selected text"
+    "message": "Вверху выделенного текста"
   },
   "clickedPointLabel": {
-    "message": "Clicked point"
+    "message": "Рядом с курсором"
   },
   "displayDirectionLabel": {
-    "message": "Display position - Direction"
+    "message": "Положение - Направление"
   },
   "resultFontColorLabel": {
-    "message": "Цвет шрифта результата перевода"
+    "message": "Цвет шрифта перевода"
   },
   "candidateFontColorLabel": {
     "message": "Цвет шрифта вариантов перевода"
@@ -231,10 +231,10 @@
     "message": "Введите букву"
   },
   "includeModifierKeysMessage": {
-    "message": "Добавить клавишу Ctrl или Alt"
+    "message": "Нажмите клавишу Ctrl или Alt"
   },
   "includeMacModifierKeysMessage": {
-    "message": "Добавить клавишу Command, Ctrl или Alt"
+    "message": "Нажмите клавишу Command, Ctrl или Alt"
   },
   "invalidLetterMessage": {
     "message": "Эта буква не может быть использована"
@@ -265,6 +265,9 @@
   },
   "addonPageLabel": {
     "message": "Страница расширения"
+  },
+  "extensionPageLabel": {
+    "message": "Extension page"
   },
   "amazonUrl": {
     "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=ru_RU"

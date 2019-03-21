@@ -75,7 +75,7 @@
     "message": "偵測所選文字的語言, 如果它與目標語言相同, 則不顯示按鈕。"
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+    "message": "偵測選擇文字的語言, 如果它與預設的目標語言相同, 則將其翻譯為第二語言。"
   },
   "toolbarLabel": {
     "message": "工具列彈出式選單"
@@ -126,31 +126,31 @@
     "message": "顯示位置"
   },
   "topRightLabel": {
-    "message": "Top right"
+    "message": "右上角"
   },
   "bottomRightLabel": {
-    "message": "Bottom right"
+    "message": "右下角"
   },
   "topLeftLabel": {
-    "message": "Top left"
+    "message": "左上角"
   },
   "bottomLeftLabel": {
-    "message": "Bottom left"
+    "message": "左下角"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "頂部"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "底部"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "左側"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "右側"
   },
   "positionOffsetLabel": {
-    "message": "Display position - Offset"
+    "message": "顯示位置-位移"
   },
   "panelStyleLabel": {
     "message": "翻譯面板"
@@ -168,19 +168,19 @@
     "message": "字型大小"
   },
   "referencePointLabel": {
-    "message": "Display position - Reference point"
+    "message": "顯示位置 - 參考點"
   },
   "bottomSelectedTextLabel": {
-    "message": "Bottom of selected text"
+    "message": "所選文字的底部"
   },
   "topSelectedTextLabel": {
-    "message": "Top of selected text"
+    "message": "所選文字的頂部"
   },
   "clickedPointLabel": {
-    "message": "Clicked point"
+    "message": "點選的位置"
   },
   "displayDirectionLabel": {
-    "message": "Display position - Direction"
+    "message": "顯示位置-方向"
   },
   "resultFontColorLabel": {
     "message": "翻譯結果色彩"
@@ -265,6 +265,9 @@
   },
   "addonPageLabel": {
     "message": "AMO 附加元件頁面"
+  },
+  "extensionPageLabel": {
+    "message": "Extension page"
   },
   "amazonUrl": {
     "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=zh_CN"

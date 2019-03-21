@@ -266,6 +266,9 @@
   "addonPageLabel": {
     "message": "Pàgina complementària"
   },
+  "extensionPageLabel": {
+    "message": "Extension page"
+  },
   "amazonUrl": {
     "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=es_ES"
   },

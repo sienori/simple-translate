@@ -6,7 +6,7 @@
     "message": "浏览互联网时可以轻松查看翻译。"
   },
   "donateWithPaypalLabel": {
-    "message": "使用PayPal 捐赠"
+    "message": "使用 PayPal 捐赠"
   },
   "initialTextArea": {
     "message": "输入文字"
@@ -15,13 +15,13 @@
     "message": "翻译此页面"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "在 Google 翻译中打开"
   },
   "copyLabel": {
-    "message": "Copy"
+    "message": "复制"
   },
   "copiedLabel": {
-    "message": "Copied."
+    "message": "已复制。"
   },
   "targetLangLabel": {
     "message": "目标语言"
@@ -75,7 +75,7 @@
     "message": "侦测选取文本的语言，如果它与目标语言相同，则不显示按钮。"
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+    "message": "检测所选文本的语言，如果与默认目标语言相同，则将其翻译为第二语言。"
   },
   "toolbarLabel": {
     "message": "工具栏弹出窗口"
@@ -126,31 +126,31 @@
     "message": "显示位置"
   },
   "topRightLabel": {
-    "message": "Top right"
+    "message": "右上角"
   },
   "bottomRightLabel": {
-    "message": "Bottom right"
+    "message": "右下角"
   },
   "topLeftLabel": {
-    "message": "Top left"
+    "message": "左上角"
   },
   "bottomLeftLabel": {
-    "message": "Bottom left"
+    "message": "左下角"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "顶部"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "底部"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "左侧"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "右侧"
   },
   "positionOffsetLabel": {
-    "message": "Display position - Offset"
+    "message": "显示位置 - 偏移"
   },
   "panelStyleLabel": {
     "message": "翻译面板"
@@ -168,85 +168,85 @@
     "message": "字体大小"
   },
   "referencePointLabel": {
-    "message": "Display position - Reference point"
+    "message": "显示位置 - 参考点"
   },
   "bottomSelectedTextLabel": {
-    "message": "Bottom of selected text"
+    "message": "所选文本的底部"
   },
   "topSelectedTextLabel": {
-    "message": "Top of selected text"
+    "message": "所选文本的顶部"
   },
   "clickedPointLabel": {
-    "message": "Clicked point"
+    "message": "点击的位置"
   },
   "displayDirectionLabel": {
-    "message": "Display position - Direction"
+    "message": "显示位置 - 方向"
   },
   "resultFontColorLabel": {
-    "message": "Font color of translation result"
+    "message": "翻译结果的字体颜色"
   },
   "candidateFontColorLabel": {
-    "message": "Font color of translation candidates"
+    "message": "翻译候选的字体颜色"
   },
   "bgColorLabel": {
     "message": "背景色"
   },
   "otherLabel": {
-    "message": "Other"
+    "message": "其他"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Display option page when updating"
+    "message": "更新时显示选项页面"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+    "message": "Simple Translate 更新后显示选项页面从而快速了解更新内容。"
   },
   "isDebugModeLabel": {
-    "message": "Enable debug mode"
+    "message": "启用调试模式"
   },
   "isDebugModeCaptionLabel": {
-    "message": "When debug mode is enabled, the log is output to the debugger."
+    "message": "启用调试模式后, 日志将输出到调试器。"
   },
   "resetSettingsLabel": {
-    "message": "Reset settings"
+    "message": "重置设置"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Restore all settings to default."
+    "message": "恢复所有设置为默认值。"
   },
   "resetSettingsButtonLabel": {
-    "message": "Reset"
+    "message": "重置"
   },
   "shortcutsLabel": {
-    "message": "Shortcuts"
+    "message": "快捷键"
   },
   "keyboardShortcutsLabel": {
-    "message": "Keyboard shortcuts"
+    "message": "键盘快捷键"
   },
   "setKeyboardShortCutsMessage": {
-    "message": "Set keyboard shortcuts."
+    "message": "设置键盘快捷键。"
   },
   "typeShortcutMessage": {
-    "message": "Type a shortcut"
+    "message": "输入快捷键"
   },
   "typeLetterMessage": {
-    "message": "Type a letter"
+    "message": "输入一个字母"
   },
   "includeModifierKeysMessage": {
-    "message": "Include either Ctrl or Alt"
+    "message": "必须包含 Ctrl 或 Alt"
   },
   "includeMacModifierKeysMessage": {
-    "message": "Include either Command, Ctrl or Alt"
+    "message": "必须包含 Command，Ctrl 或 Alt"
   },
   "invalidLetterMessage": {
-    "message": "The letter can not be used"
+    "message": "不能使用这个字母"
   },
   "invalidShortcutMessage": {
-    "message": "The shortcut can not be used"
+    "message": "不能使用这个快捷键"
   },
   "clear": {
-    "message": "Clear"
+    "message": "清除"
   },
   "reset": {
-    "message": "Reset"
+    "message": "重置"
   },
   "informationLabel": {
     "message": "信息"
@@ -265,6 +265,9 @@
   },
   "addonPageLabel": {
     "message": "附加组件页面"
+  },
+  "extensionPageLabel": {
+    "message": "Extension page"
   },
   "amazonUrl": {
     "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=zh_CN"
@@ -291,6 +294,6 @@
     "message": "翻译选定链接"
   },
   "openPopupDescription": {
-    "message": "Open toolbar popup"
+    "message": "打开工具栏弹出窗口"
   }
 }

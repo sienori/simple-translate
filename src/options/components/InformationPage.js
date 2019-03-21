@@ -3,7 +3,7 @@ import browser from "webextension-polyfill";
 import browserInfo from "browser-info";
 import queryString from "query-string";
 import OptionsContainer from "./OptionContainer";
-import { paypalLink, email } from "src/common/personalUrls";
+import { paypalLink, email, chromeExtensionUrl, firefoxAddonUrl } from "src/common/personalUrls";
 import manifest from "src/manifest-chrome.json";
 
 export default props => {
@@ -69,17 +69,15 @@ export default props => {
         extraCaption={
           <div>
             <p>
-              <a
-                href={
-                  browser.i18n.getMessage("addonUrl")
-                  /*browserInfo().name === "Firefox"
-                    ? browser.i18n.getMessage("addonUrl")
-                    : "https://chrome.google.com/webstore/detail/simple-translate/xxxxx" //TODO: Chrome link*/
-                }
-                target="_blank"
-              >
-                {browser.i18n.getMessage("addonPageLabel")}
-              </a>
+              {browserInfo().name === "Chrome" ? (
+                <a href={chromeExtensionUrl} target="_blank">
+                  {browser.i18n.getMessage("extensionPageLabel")}
+                </a>
+              ) : (
+                <a href={firefoxAddonUrl} target="_blank">
+                  {browser.i18n.getMessage("addonPageLabel")}
+                </a>
+              )}
               <span>　</span>
               <a href="https://github.com/sienori/simple-translate" target="_blank">
                 GitHub

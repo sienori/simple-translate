@@ -19,7 +19,8 @@ const generalConfig = {
   devtool: "source-map",
   resolve: {
     alias: {
-      src: path.resolve(__dirname, "src/")
+      src: path.resolve(__dirname, "src/"),
+      "webextension-polyfill": "webextension-polyfill/dist/browser-polyfill.min.js"
     }
   },
   module: {

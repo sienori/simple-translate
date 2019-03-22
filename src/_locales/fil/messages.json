@@ -138,16 +138,16 @@
     "message": "Bottom left"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "Taas"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "Ilalim"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "Kaliwa"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "Kanan"
   },
   "positionOffsetLabel": {
     "message": "Display position - Offset"

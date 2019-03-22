@@ -75,7 +75,7 @@
     "message": "Detecta o idioma do texto selecionado e, se for o mesmo que o idioma alvo, o botão não é exibido."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+    "message": "Detecta o idioma do texto selecionado e, se for o mesmo que o idioma alvo padrão, traduz para o segundo idioma."
   },
   "toolbarLabel": {
     "message": "Barra de ferramentas"
@@ -126,28 +126,28 @@
     "message": "Posição de exibição"
   },
   "topRightLabel": {
-    "message": "Top right"
+    "message": "Canto superior direito"
   },
   "bottomRightLabel": {
-    "message": "Bottom right"
+    "message": "Canto inferior direito"
   },
   "topLeftLabel": {
-    "message": "Top left"
+    "message": "Canto superior esquerdo"
   },
   "bottomLeftLabel": {
-    "message": "Bottom left"
+    "message": "Canto inferior esquerdo"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "Acima"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "Abaixo"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "Esquerda"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "Direita"
   },
   "positionOffsetLabel": {
     "message": "Display position - Offset"

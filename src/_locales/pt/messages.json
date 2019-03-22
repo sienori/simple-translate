@@ -3,7 +3,7 @@
     "message": "Tradução simples"
   },
   "extDescription": {
-    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
+    "message": "Tradução rápida do texto selecionado na página. No popup da barra de ferramentas, você pode traduzir a entrada de texto."
   },
   "donateWithPaypalLabel": {
     "message": "Doe com PayPal"
@@ -15,13 +15,13 @@
     "message": "Traduzir esta página"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "Abrir no Google Tradutor"
   },
   "copyLabel": {
-    "message": "Copy"
+    "message": "Copiar"
   },
   "copiedLabel": {
-    "message": "Copied."
+    "message": "Copiado."
   },
   "targetLangLabel": {
     "message": "Idioma alvo"

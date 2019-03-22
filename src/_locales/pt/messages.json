@@ -150,7 +150,7 @@
     "message": "Direita"
   },
   "positionOffsetLabel": {
-    "message": "Display position - Offset"
+    "message": "Posição de exibição - Deslocado"
   },
   "panelStyleLabel": {
     "message": "Painel de tradução"
@@ -168,19 +168,19 @@
     "message": "Tamanho da fonte"
   },
   "referencePointLabel": {
-    "message": "Display position - Reference point"
+    "message": "Posição de exibição - Ponto de referência"
   },
   "bottomSelectedTextLabel": {
-    "message": "Bottom of selected text"
+    "message": "Abaixo do texto selecionado"
   },
   "topSelectedTextLabel": {
-    "message": "Top of selected text"
+    "message": "Acima do texto selecionado"
   },
   "clickedPointLabel": {
-    "message": "Clicked point"
+    "message": "Ponto clicado"
   },
   "displayDirectionLabel": {
-    "message": "Display position - Direction"
+    "message": "Posição de exibição - Direção"
   },
   "resultFontColorLabel": {
     "message": "Cor da fonte do resultado da tradução"
@@ -243,7 +243,7 @@
     "message": "O atalho não pode ser usado"
   },
   "clear": {
-    "message": "Clear"
+    "message": "Limpar"
   },
   "reset": {
     "message": "Resetar"
@@ -267,7 +267,7 @@
     "message": "Página da extensão"
   },
   "extensionPageLabel": {
-    "message": "Extension page"
+    "message": "Página da extensão"
   },
   "amazonUrl": {
     "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=pt_BR"
@@ -294,6 +294,6 @@
     "message": "Traduzir o endereço selecionado"
   },
   "openPopupDescription": {
-    "message": "Open toolbar popup"
+    "message": "Abrir popup da barra de ferramentas"
   }
 }

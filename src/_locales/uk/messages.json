@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
+    "message": "Швидкий переклад тексту на веб-сторінці. Текст для перекладу можна вводити у виринаючому вікні на панелі інструментів."
   },
   "donateWithPaypalLabel": {
     "message": "Допомогти через PayPal"
@@ -18,10 +18,10 @@
     "message": "Відкрити в Google Translate"
   },
   "copyLabel": {
-    "message": "Copy"
+    "message": "Копіювати"
   },
   "copiedLabel": {
-    "message": "Copied."
+    "message": "Скопійовано."
   },
   "targetLangLabel": {
     "message": "Цільова мова"
@@ -93,13 +93,13 @@
     "message": "Мова з якої перекладається."
   },
   "waitTimeLabel": {
-    "message": "Waiting time to translate"
+    "message": "Час очікування для перекладу"
   },
   "waitTimeCaptionLabel": {
     "message": "Налаштування часу очікування від початку введення символа до перекладу. (в мілісекундах)"
   },
   "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
+    "message": "Якщо ви перекладаєте багато разів за короткий час, ця функція не знадобиться."
   },
   "menuLabel": {
     "message": "Контекстне меню"
@@ -126,28 +126,28 @@
     "message": "Позиція кнопки"
   },
   "topRightLabel": {
-    "message": "Top right"
+    "message": "Верхній правий"
   },
   "bottomRightLabel": {
-    "message": "Bottom right"
+    "message": "Нижній правий"
   },
   "topLeftLabel": {
-    "message": "Top left"
+    "message": "Верхній лівий"
   },
   "bottomLeftLabel": {
-    "message": "Bottom left"
+    "message": "Нижній лівий"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "Зверху"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "Внизу"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "Зліва"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "Праворуч"
   },
   "positionOffsetLabel": {
     "message": "Display position - Offset"

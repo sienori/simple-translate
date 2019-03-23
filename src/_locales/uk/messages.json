@@ -6,7 +6,7 @@
     "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
   },
   "donateWithPaypalLabel": {
-    "message": "Пожертвувати через PayPal"
+    "message": "Допомогти через PayPal"
   },
   "initialTextArea": {
     "message": "Введіть текст"
@@ -63,7 +63,7 @@
     "message": "Показувати кнопку, клацнувши по якій відкривається панель перекладу."
   },
   "dontshowbuttonlabel": {
-    "message": "Не показувати ні кнопки ні панелі."
+    "message": "Не показувати ні кнопки, ні панелі"
   },
   "dontshowbuttonCaptionlabel": {
     "message": "Не показувати кнопки перекладу та панелі перекладу."
@@ -267,7 +267,7 @@
     "message": "Сторінка додатка"
   },
   "extensionPageLabel": {
-    "message": "Extension page"
+    "message": "Сторінка додатку"
   },
   "amazonUrl": {
     "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
@@ -276,13 +276,13 @@
     "message": "https:\/\/addons.mozilla.org\/uk\/firefox\/addon\/simple-translate\/?src=optionpage"
   },
   "networkError": {
-    "message": "Error: Check network connection status."
+    "message": "Помилка: Перевірте з'єднання з інтернетом."
   },
   "unavailableError": {
     "message": "Error: Service usage limit reached. Please wait a while and try again."
   },
   "unknownError": {
-    "message": "Error: Unknown error"
+    "message": "Помилка: Невідома помилка"
   },
   "translatePageMenu": {
     "message": "Перекласти цю сторінку"

@@ -12,10 +12,10 @@
     "message": "Введіть текст"
   },
   "showLink": {
-    "message": "Перекласти цю сторінку"
+    "message": "Перекласти всю сторінку"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "Відкрити в Google Translate"
   },
   "copyLabel": {
     "message": "Copy"
@@ -207,13 +207,13 @@
     "message": "When debug mode is enabled, the log is output to the debugger."
   },
   "resetSettingsLabel": {
-    "message": "Reset settings"
+    "message": "Скинути налаштування"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Restore all settings to default."
+    "message": "Відновити стандартні налаштування."
   },
   "resetSettingsButtonLabel": {
-    "message": "Reset"
+    "message": "Скинути"
   },
   "shortcutsLabel": {
     "message": "Клавіатурні скорочення"
@@ -243,10 +243,10 @@
     "message": "The shortcut can not be used"
   },
   "clear": {
-    "message": "Clear"
+    "message": "Очистити"
   },
   "reset": {
-    "message": "Reset"
+    "message": "Скинути"
   },
   "informationLabel": {
     "message": "Інформація"
@@ -294,6 +294,6 @@
     "message": "Перекласти вибране посилання"
   },
   "openPopupDescription": {
-    "message": "Open toolbar popup"
+    "message": "Показати випадаюче вікно"
   }
 }

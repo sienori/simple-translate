@@ -192,19 +192,19 @@
     "message": "Колір фону"
   },
   "otherLabel": {
-    "message": "Other"
+    "message": "Інше"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Display option page when updating"
+    "message": "Показувати сторінку опцій під час оновлення"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
     "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
   },
   "isDebugModeLabel": {
-    "message": "Enable debug mode"
+    "message": "Включити режим зневадження"
   },
   "isDebugModeCaptionLabel": {
-    "message": "When debug mode is enabled, the log is output to the debugger."
+    "message": "Коли включено режим зневадження, лог виводиться в дебаґґер."
   },
   "resetSettingsLabel": {
     "message": "Скинути налаштування"

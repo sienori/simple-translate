@@ -96,7 +96,7 @@
     "message": "Waiting time to translate"
   },
   "waitTimeCaptionLabel": {
-    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+    "message": "Налаштування часу очікування від початку введення символа до перекладу. (в мілісекундах)"
   },
   "waitTime2CaptionLabel": {
     "message": "If you translate it many times in a short time, it may become unusable for a while."
@@ -117,7 +117,7 @@
     "message": "Кнопка перекладу"
   },
   "buttonStyleCaptionLabel": {
-    "message": "Specify the style of the translation button displayed on the web page."
+    "message": "Налаштування кнопки перекладу, що відображається на веб-сторінці."
   },
   "buttonSizeLabel": {
     "message": "Розмір"
@@ -156,7 +156,7 @@
     "message": "Панель перекладу"
   },
   "panelStyleCaptionLabel": {
-    "message": "Specify the style of the translation panel displayed on the web page."
+    "message": "Налаштування стилю панелі перекладу, що відображається на веб-сторінці."
   },
   "widthLabel": {
     "message": "Ширина"
@@ -183,10 +183,10 @@
     "message": "Display position - Direction"
   },
   "resultFontColorLabel": {
-    "message": "Font color of translation result"
+    "message": "Колір тексту для результатів перекладу"
   },
   "candidateFontColorLabel": {
-    "message": "Font color of translation candidates"
+    "message": "Колір тексту для варіантів перекладу"
   },
   "bgColorLabel": {
     "message": "Колір фону"

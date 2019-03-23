@@ -27,7 +27,7 @@
     "message": "Цільова мова"
   },
   "langList": {
-    "message": "af:Afrikaans, sq:Albanian, am:Amharic, ar:Arabic, hy:Armenian, az:Azerbaijani, eu:Basque, be:Belarusian, bn:Bengali, bs:Bosnian, bg:Bulgarian, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Chinese (PRC), zh-TW:Chinese (Taiwan), co:Corsican, hr:Croatian, cs:Czech, da:Danish, nl:Dutch, en:English, eo:Esperanto, et:Estonian, fi:Finnish, fr:French, fy:Frisian, gl:Galician, ka:Georgian, de:German, el:Greek, gu:Gujarati, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesian, ga:Irish, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Korean, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:Macedonian, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persian, pl:Polish, pt:Portuguese, pa:Punjabi, ps:Pushto, ro:Romanian, ru:Russian, sm:Samoan, gd:Scottish Gaelic, sr:Serbian, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovak, sl:Slovenian, so:Somali, sx:Sotho, es:Spanish, su:Sundanese, sw:Swahili, sv:Swedish, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turkish, uk:Ukrainian, ur:Urdu, uz:Uzbek, vi:Vietnamese, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
+    "message": "af:Африкаанс, sq:Албанська, am:Амхарська, ar:Арабська, hy:Вірменська, az:Азербайджанська, eu:Баскійська, be:Білоруська, bn:Бенгальська, bs:Боснійська, bg:Болгарська, ca:Каталонська, ceb:Cebuano, ny:Chewa, zh-CN:Китайська (PRC), zh-TW:Китайська (Taiwan), co:Corsican, hr:Хорватська, cs:Чеська, da:Датська, nl:Нідерландська, en:Англійська, eo:Есперанто, et:Естонська, fi:Фінська, fr:Французька, fy:Frisian, gl:Галісійська, ka:Georgian, de:Німецька, el:Грецька, gu:Гуджараті, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Hebrew, hi:Хінді, hu:Угорська, is:Icelandic, ig:Igbo, id:Indonesian, ga:Ірландська, it:Італійська, ja:Японська, jv:Javanese, kn:Каннада, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Корейська, ku:Kurdish, lo:Laotian, la:Латинська, lv:Латиська, lt:Литовська, lb:Luxembourgish, mk:Македонська, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Монгольська, hmn:Monk, my:Myanmar, ne:Непальська, no:Норвежська, fa:Persian, pl:Польська, pt:Португальська, pa:Punjabi, ps:Pushto, ro:Ромунська, ru:Російська, sm:Самоанська, gd:Scottish Gaelic, sr:Сербійська, sn:Shona, sd:Sindhi, si:Sinhala, sk:Словацька, sl:Словенська, so:Сомалійська, sx:Sotho, es:Іспанська, su:Sundanese, sw:Swahili, sv:Шведська, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Турецька, uk:Українська, ur:Urdu, uz:Узбецька, vi:Vietnamese, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
   },
   "settingsLabel": {
     "message": "Налаштування"
@@ -168,7 +168,7 @@
     "message": "Розмір шрифту"
   },
   "referencePointLabel": {
-    "message": "Display position - Reference point"
+    "message": "Розташування на екрані - орієнтир"
   },
   "bottomSelectedTextLabel": {
     "message": "Нижче виділеного тексту"
@@ -177,7 +177,7 @@
     "message": "Вище виділеного тексту"
   },
   "clickedPointLabel": {
-    "message": "Clicked point"
+    "message": "Точка клацання"
   },
   "displayDirectionLabel": {
     "message": "Розташування на екрані - бік"
@@ -279,7 +279,7 @@
     "message": "Помилка: Перевірте з'єднання з інтернетом."
   },
   "unavailableError": {
-    "message": "Error: Service usage limit reached. Please wait a while and try again."
+    "message": "Помилка: Ліміт використання сервісу вичирпано. Зачекайте трохи і повторіть ще раз."
   },
   "unknownError": {
     "message": "Помилка: Невідома помилка"

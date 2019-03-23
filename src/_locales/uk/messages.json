@@ -36,7 +36,7 @@
     "message": "Загальне"
   },
   "targetLangCaptionLabel": {
-    "message": "Оберіть мову на яку перекладається."
+    "message": "Мова на яку перекладається."
   },
   "webPageLabel": {
     "message": "Веб-сторінка"
@@ -90,7 +90,7 @@
     "message": "Друга мова"
   },
   "secondTargetLangCaptionLabel": {
-    "message": "Оберіть мову з якої перекладається."
+    "message": "Мова з якої перекладається."
   },
   "waitTimeLabel": {
     "message": "Waiting time to translate"
@@ -216,13 +216,13 @@
     "message": "Reset"
   },
   "shortcutsLabel": {
-    "message": "Shortcuts"
+    "message": "Клавіатурні скорочення"
   },
   "keyboardShortcutsLabel": {
-    "message": "Keyboard shortcuts"
+    "message": "Клавіатурні скорочення"
   },
   "setKeyboardShortCutsMessage": {
-    "message": "Set keyboard shortcuts."
+    "message": "Налаштування швидких клавіш."
   },
   "typeShortcutMessage": {
     "message": "Type a shortcut"

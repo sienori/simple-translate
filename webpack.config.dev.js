@@ -12,6 +12,7 @@ const {
 } = require("./webpack.utils");
 const path = require("path");
 const config = require("./config.json");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 const generalConfig = {
   mode: "development",
@@ -48,10 +49,24 @@ const generalConfig = {
       },
       {
         test: /\.scss$/,
+        exclude: [path.resolve(__dirname, "src", "content")],
         use: [
           {
             loader: "style-loader"
           },
+          {
+            loader: "css-loader"
+          },
+          {
+            loader: "sass-loader"
+          }
+        ]
+      },
+      {
+        test: /\.scss$/,
+        include: [path.resolve(__dirname, "src", "content")],
+        use: [
+          MiniCssExtractPlugin.loader,
           {
             loader: "css-loader"
           },
@@ -85,6 +100,9 @@ module.exports = [
     entry: getEntry(config.chromePath),
     output: getOutput("chrome", config.devDirectory),
     plugins: [
+      new MiniCssExtractPlugin({
+        filename: "[name]/[name].css"
+      }),
       ...getHTMLPlugins("chrome", config.devDirectory, config.chromePath),
       ...getCopyPlugins("chrome", config.devDirectory, config.chromePath)
     ]
@@ -94,6 +112,9 @@ module.exports = [
     entry: getEntry(config.firefoxPath),
     output: getOutput("firefox", config.devDirectory),
     plugins: [
+      new MiniCssExtractPlugin({
+        filename: "[name]/[name].css"
+      }),
       ...getFirefoxCopyPlugins("firefox", config.devDirectory, config.firefoxPath),
       ...getHTMLPlugins("firefox", config.devDirectory, config.firefoxPath),
       new BundleAnalyzerPlugin({

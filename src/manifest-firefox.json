@@ -49,7 +49,8 @@
     {
       "all_frames": true,
       "matches": ["http://*/*", "https://*/*", "<all_urls>"],
-      "js": ["content/content.js"]
+      "js": ["content/content.js"],
+      "css": ["content/content.css"]
     }
   ],
 

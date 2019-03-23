@@ -16,6 +16,7 @@ const {
 const path = require("path");
 const config = require("./config.json");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 const extVersion = require("./src/manifest-chrome.json").version;
 const ffExtVersion = require("./src/manifest-firefox.json").version;
@@ -54,10 +55,24 @@ const generalConfig = {
       },
       {
         test: /\.scss$/,
+        exclude: [path.resolve(__dirname, "src", "content")],
         use: [
           {
             loader: "style-loader"
           },
+          {
+            loader: "css-loader"
+          },
+          {
+            loader: "sass-loader"
+          }
+        ]
+      },
+      {
+        test: /\.scss$/,
+        include: [path.resolve(__dirname, "src", "content")],
+        use: [
+          MiniCssExtractPlugin.loader,
           {
             loader: "css-loader"
           },
@@ -93,6 +108,9 @@ module.exports = [
     plugins: [
       new CleanWebpackPlugin(["dist", "temp"]),
       new UglifyJsPlugin(),
+      new MiniCssExtractPlugin({
+        filename: "[name]/[name].css"
+      }),
       ...getHTMLPlugins("chrome", config.tempDirectory, config.chromePath),
       ...getCopyPlugins("chrome", config.tempDirectory, config.chromePath),
       getZipPlugin(`${config.extName}-for-chrome-${extVersion}`, config.distDirectory)
@@ -105,6 +123,9 @@ module.exports = [
     plugins: [
       new CleanWebpackPlugin(["dist", "temp"]),
       new UglifyJsPlugin(),
+      new MiniCssExtractPlugin({
+        filename: "[name]/[name].css"
+      }),
       ...getHTMLPlugins("firefox", config.tempDirectory, config.firefoxPath),
       ...getFirefoxCopyPlugins("firefox", config.tempDirectory, config.firefoxPath),
       getZipPlugin(`${config.extName}-for-firefox-${ffExtVersion}`, config.distDirectory)

@@ -72,19 +72,19 @@
     "message": "Не показувати кнопку, якщо переклад не обов'язковий"
   },
   "ifCheckLangCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+    "message": "Визначити мову виділеного тексту, і якщо вона співпадає з цільовою мовою, кнопка не буде відображатися."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+    "message": "Визначати мову виділеного тексту, і якщо вона співпадає зі стандартною цільовою мовою, перекласти її другою мовою."
   },
   "toolbarLabel": {
-    "message": "Toolbar popup"
+    "message": "Вікно на панелі інструментів"
   },
   "ifChangeSecondLangLabel": {
     "message": "Автоматично переключати на другу мову"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+    "message": "Визначати мову введення, і якщо вона співпадає зі стандартною цільовою мовою, перекласти її другою мовою."
   },
   "secondTargetLangLabel": {
     "message": "Друга мова"

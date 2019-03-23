@@ -81,7 +81,7 @@
     "message": "Toolbar popup"
   },
   "ifChangeSecondLangLabel": {
-    "message": "Automatically switch to the second language"
+    "message": "Автоматично переключати на другу мову"
   },
   "ifChangeSecondLangCaptionLabel": {
     "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
@@ -105,10 +105,10 @@
     "message": "Контекстне меню"
   },
   "ifShowMenuLabel": {
-    "message": "Показувати контекстне меню"
+    "message": "Показувати в контекстному меню"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+    "message": "Додати пункт в контекстне меню, яке відображається під час натискання правої клавіші на веб-сторінці або вкладці."
   },
   "styleLabel": {
     "message": "Стиль"

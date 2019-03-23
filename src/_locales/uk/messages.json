@@ -150,7 +150,7 @@
     "message": "Праворуч"
   },
   "positionOffsetLabel": {
-    "message": "Display position - Offset"
+    "message": "Розташування на екрані - зміщення"
   },
   "panelStyleLabel": {
     "message": "Панель перекладу"
@@ -171,16 +171,16 @@
     "message": "Display position - Reference point"
   },
   "bottomSelectedTextLabel": {
-    "message": "Bottom of selected text"
+    "message": "Нижче виділеного тексту"
   },
   "topSelectedTextLabel": {
-    "message": "Top of selected text"
+    "message": "Вище виділеного тексту"
   },
   "clickedPointLabel": {
     "message": "Clicked point"
   },
   "displayDirectionLabel": {
-    "message": "Display position - Direction"
+    "message": "Розташування на екрані - бік"
   },
   "resultFontColorLabel": {
     "message": "Колір тексту для результатів перекладу"
@@ -225,22 +225,22 @@
     "message": "Налаштування швидких клавіш."
   },
   "typeShortcutMessage": {
-    "message": "Type a shortcut"
+    "message": "Введіть скорочення"
   },
   "typeLetterMessage": {
-    "message": "Type a letter"
+    "message": "Введіть букву"
   },
   "includeModifierKeysMessage": {
-    "message": "Include either Ctrl or Alt"
+    "message": "Використовуйте Ctrl або Alt"
   },
   "includeMacModifierKeysMessage": {
-    "message": "Include either Command, Ctrl or Alt"
+    "message": "Використовуйте Command, Ctrl або Alt"
   },
   "invalidLetterMessage": {
-    "message": "The letter can not be used"
+    "message": "Ця буква не може бути використана"
   },
   "invalidShortcutMessage": {
-    "message": "The shortcut can not be used"
+    "message": "Ця комбінація не може бути використана"
   },
   "clear": {
     "message": "Очистити"

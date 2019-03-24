@@ -105,7 +105,7 @@
     "message": "İçerik menüsü"
   },
   "ifShowMenuLabel": {
-    "message": "İçerik menüsünü görüntüle"
+    "message": "İçerik menüsünde görüntüle"
   },
   "ifShowMenuCaptionLabel": {
     "message": "Web sayfasına veya sekmeye sağ tıkladığınızda görüntülenen içerik menüsüne öğe ekleyin."
@@ -267,7 +267,7 @@
     "message": "Eklenti sayfası"
   },
   "extensionPageLabel": {
-    "message": "Extension page"
+    "message": "Uzantı sayfası"
   },
   "amazonUrl": {
     "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"

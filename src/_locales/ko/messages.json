@@ -93,7 +93,7 @@
     "message": "보조 번역 언어를 선택하세요."
   },
   "waitTimeLabel": {
-    "message": "Waiting time to translate"
+    "message": "번역 대기 시간"
   },
   "waitTimeCaptionLabel": {
     "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"

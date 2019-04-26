@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
+    "message": "웹 페이지에서 선택한 텍스트를 빠르게 번역하세요. 툴바 팝업을 이용해 입력한 내용을 번역할 수도 있습니다."
   },
   "donateWithPaypalLabel": {
     "message": "PayPal로 기부하기"
@@ -96,16 +96,16 @@
     "message": "번역 대기 시간"
   },
   "waitTimeCaptionLabel": {
-    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+    "message": "문자 입력 후 번역까지의 대기 시간을 지정합니다. (밀리초)"
   },
   "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
+    "message": "단시간에 여러 번 번역하면 일시적으로 사용하지 못할 수 있습니다."
   },
   "menuLabel": {
     "message": "컨텍스트 메뉴"
   },
   "ifShowMenuLabel": {
-    "message": "컨텍스트 메뉴 출력"
+    "message": "컨텍스트 메뉴 표시"
   },
   "ifShowMenuCaptionLabel": {
     "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
@@ -150,7 +150,7 @@
     "message": "오른쪽"
   },
   "positionOffsetLabel": {
-    "message": "Display position - Offset"
+    "message": "표시 위치 - 오프셋"
   },
   "panelStyleLabel": {
     "message": "번역 상자"

@@ -174,52 +174,52 @@
     "message": "선택된 텍스트 아래"
   },
   "topSelectedTextLabel": {
-    "message": "Top of selected text"
+    "message": "선택된 텍스트 위"
   },
   "clickedPointLabel": {
-    "message": "Clicked point"
+    "message": "클릭한 위치"
   },
   "displayDirectionLabel": {
-    "message": "Display position - Direction"
+    "message": "표시 위치 - 방향"
   },
   "resultFontColorLabel": {
-    "message": "Font color of translation result"
+    "message": "번역 결과의 글꼴 색"
   },
   "candidateFontColorLabel": {
-    "message": "Font color of translation candidates"
+    "message": "다른 번역의 글꼴 색상"
   },
   "bgColorLabel": {
     "message": "배경색"
   },
   "otherLabel": {
-    "message": "Other"
+    "message": "기타"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Display option page when updating"
+    "message": "업데이트 후 설정 페이지 열기"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+    "message": "Simple Translate가 업데이트 된 경우 설정 페이지를 표시합니다. 업데이트 내용을 바로 알 수 있습니다."
   },
   "isDebugModeLabel": {
-    "message": "Enable debug mode"
+    "message": "디버그 모드 활성화"
   },
   "isDebugModeCaptionLabel": {
-    "message": "When debug mode is enabled, the log is output to the debugger."
+    "message": "디버그 모드가 활성화되면 디버거로 로그가 출력됩니다."
   },
   "resetSettingsLabel": {
-    "message": "Reset settings"
+    "message": "설정 초기화"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Restore all settings to default."
+    "message": "모든 설정을 기본값으로 복원합니다."
   },
   "resetSettingsButtonLabel": {
-    "message": "Reset"
+    "message": "초기화"
   },
   "shortcutsLabel": {
-    "message": "Shortcuts"
+    "message": "단축키"
   },
   "keyboardShortcutsLabel": {
-    "message": "Keyboard shortcuts"
+    "message": "키보드 단축키"
   },
   "setKeyboardShortCutsMessage": {
     "message": "Set keyboard shortcuts."
@@ -246,7 +246,7 @@
     "message": "Clear"
   },
   "reset": {
-    "message": "Reset"
+    "message": "초기화"
   },
   "informationLabel": {
     "message": "정보"

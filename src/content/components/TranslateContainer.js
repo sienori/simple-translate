@@ -71,6 +71,12 @@ const matchesTargetLang = async selectedText => {
   return matchsLangs;
 };
 
+const waitTime = time => {
+  return new Promise(resolve => {
+    setTimeout(resolve(), time);
+  });
+};
+
 export default class TranslateContainer extends Component {
   constructor(props) {
     super(props);
@@ -92,7 +98,7 @@ export default class TranslateContainer extends Component {
   init = async () => {
     await initSettings();
     this.setState({ isInit: true });
-    document.addEventListener("mouseup", e => setTimeout(() => this.handleMouseUp(e), 0));
+    document.addEventListener("mouseup", this.handleMouseUp);
     document.addEventListener("keydown", this.handleKeyDown);
     browser.storage.onChanged.addListener(handleSettingsChange);
     browser.runtime.onMessage.addListener(this.handleMessage);
@@ -121,6 +127,8 @@ export default class TranslateContainer extends Component {
         this.hideButton();
         this.showPanel();
         break;
+      default:
+        return empty;
     }
   };
 
@@ -172,7 +180,8 @@ export default class TranslateContainer extends Component {
     this.setState({ shouldShowPanel: false });
   };
 
-  handleMouseUp = e => {
+  handleMouseUp = async e => {
+    await waitTime(0);
     const isLeftClick = e.button === 0;
     const isInPasswordField = e.target.tagName === "INPUT" && e.target.type === "password";
     const isInThisElement = document.querySelector("#simple-translate").contains(e.target);
@@ -205,6 +214,13 @@ export default class TranslateContainer extends Component {
       this.showPanel(clickedPosition);
     }
   };
+
+  componentWillUnmount() {
+    document.removeEventListener("mouseup", this.handleMouseUp);
+    document.removeEventListener("keydown", this.handleKeyDown);
+    browser.storage.onChanged.removeListener(handleSettingsChange);
+    browser.runtime.onMessage.removeListener(this.handleMessage);
+  }
 
   render = () => {
     if (!this.state.isInit) return null;

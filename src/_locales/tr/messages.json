@@ -9,10 +9,10 @@
     "message": "PayPal ile bağış yapın"
   },
   "enableOnThisPage": {
-    "message": "Enable working on this page"
+    "message": "Bu sayfada çalışmayı etkinleştir"
   },
   "disableOnThisPage": {
-    "message": "Disable working on this page"
+    "message": "Bu sayfada çalışmayı devre dışı bırak"
   },
   "initialTextArea": {
     "message": "Metin girin"

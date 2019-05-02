@@ -9,10 +9,10 @@
     "message": "Donera via PayPal"
   },
   "enableOnThisPage": {
-    "message": "Enable on this page"
+    "message": "Enable working on this page"
   },
   "disableOnThisPage": {
-    "message": "Disable on this page"
+    "message": "Disable working on this page"
   },
   "initialTextArea": {
     "message": "Ange text"
@@ -82,6 +82,12 @@
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "Detektera språket i den markerade texten och om det är samma som standardmålspråket, översätt det till andraspråket."
+  },
+  "disableUrlListLabel": {
+    "message": "URL list to disable working"
+  },
+  "disableUrlListCaptionLabel": {
+    "message": "If the URL matches the list, working on the web page is disabled. Please enter as a regular expression."
   },
   "toolbarLabel": {
     "message": "Verktygsfältspopup"

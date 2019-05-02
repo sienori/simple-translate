@@ -8,6 +8,12 @@
   "donateWithPaypalLabel": {
     "message": "تبرع بواسطة PayPal"
   },
+  "enableOnThisPage": {
+    "message": "Enable on this page"
+  },
+  "disableOnThisPage": {
+    "message": "Disable on this page"
+  },
   "initialTextArea": {
     "message": "أادخل النص"
   },

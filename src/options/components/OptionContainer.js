@@ -68,6 +68,18 @@ export default props => {
         />
       );
       break;
+    case "textarea":
+      formId = id;
+      optionForm = (
+        <textarea
+          id={formId}
+          spellCheck={false}
+          placeholder={props.placeholder}
+          onChange={handleValueChange}
+          defaultValue={getSettings(id)}
+        />
+      );
+      break;
     case "radio":
       formId = `${id}_${props.value}`;
       optionForm = (
@@ -150,7 +162,7 @@ export default props => {
     shouldShow && (
       <li className={`optionContainer ${props.updated ? "updated" : ""} ${props.new ? "new" : ""}`}>
         {props.hr && <hr />}
-        <div className="optionElement">
+        <div className={`optionElement ${type == "textarea" ? "showColumn" : ""}`}>
           <div className="optionText">
             <label className="noHover" htmlFor={formId ? formId : null}>
               <p>{title ? (props.useRawTitle ? title : browser.i18n.getMessage(title)) : ""}</p>

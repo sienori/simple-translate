@@ -94,6 +94,15 @@ export default [
         type: "checkbox",
         default: false,
         new: true
+      },
+      {
+        id: "disableUrlList",
+        title: "disableUrlListLabel",
+        captions: ["disableUrlListCaptionLabel"],
+        type: "textarea",
+        default: "",
+        placeholder: "https://example.com/*\nhttps://example.net/*",
+        new: true
       }
     ]
   },

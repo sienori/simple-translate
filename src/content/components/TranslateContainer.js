@@ -72,9 +72,7 @@ const matchesTargetLang = async selectedText => {
 };
 
 const waitTime = time => {
-  return new Promise(resolve => {
-    setTimeout(resolve(), time);
-  });
+  return new Promise(resolve => setTimeout(() => resolve(), time));
 };
 
 export default class TranslateContainer extends Component {
@@ -104,6 +102,19 @@ export default class TranslateContainer extends Component {
     browser.runtime.onMessage.addListener(this.handleMessage);
     overWriteLogLevel();
     updateLogLevel();
+    if (this.props.isFirst) this.disableExtensionByUrlList();
+  };
+
+  disableExtensionByUrlList = () => {
+    const disableUrlList = getSettings("disableUrlList");
+    const disableUrls = disableUrlList.split("\n");
+    const pageUrl = top.location.href;
+
+    const isMatched = disableUrls.some(urlReg => {
+      if (urlReg.trim() === "") return false;
+      return RegExp("^" + urlReg.trim()).test(pageUrl);
+    });
+    if (isMatched) this.props.removeElement();
   };
 
   handleMessage = async request => {

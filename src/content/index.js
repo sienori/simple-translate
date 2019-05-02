@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import browser from "webextension-polyfill";
 import TranslateContainer from "./components/TranslateContainer";
 
 let isEnabled = true;

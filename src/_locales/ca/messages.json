@@ -8,6 +8,12 @@
   "donateWithPaypalLabel": {
     "message": "Donar per PayPal"
   },
+  "enableOnThisPage": {
+    "message": "Enable on this page"
+  },
+  "disableOnThisPage": {
+    "message": "Disable on this page"
+  },
   "initialTextArea": {
     "message": "Introduïu el text"
   },

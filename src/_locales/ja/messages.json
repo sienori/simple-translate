@@ -8,6 +8,12 @@
   "donateWithPaypalLabel": {
     "message": "PayPalで寄付"
   },
+  "enableOnThisPage": {
+    "message": "Enable on this page"
+  },
+  "disableOnThisPage": {
+    "message": "Disable on this page"
+  },
   "initialTextArea": {
     "message": "テキストを入力"
   },

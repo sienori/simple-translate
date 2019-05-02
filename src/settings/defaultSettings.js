@@ -92,8 +92,7 @@ export default [
         title: "ifChangeSecondLangLabel",
         captions: ["ifChangeSecondLangOnPageCaptionLabel"],
         type: "checkbox",
-        default: false,
-        new: true
+        default: false
       },
       {
         id: "disableUrlList",
@@ -195,8 +194,7 @@ export default [
                 name: "bottomLeftLabel",
                 value: "bottomLeft"
               }
-            ],
-            new: true
+            ]
           },
           {
             id: "buttonOffset",
@@ -204,8 +202,7 @@ export default [
             captions: [],
             type: "number",
             default: 10,
-            placeholder: 10,
-            new: true
+            placeholder: 10
           }
         ]
       },
@@ -260,8 +257,7 @@ export default [
                 name: "clickedPointLabel",
                 value: "clickedPoint"
               }
-            ],
-            new: true
+            ]
           },
           {
             id: "panelDirection",
@@ -302,8 +298,7 @@ export default [
                 name: "bottomLeftLabel",
                 value: "bottomLeft"
               }
-            ],
-            new: true
+            ]
           },
           {
             id: "panelOffset",
@@ -311,24 +306,21 @@ export default [
             captions: [],
             type: "number",
             default: 10,
-            placeholder: 10,
-            new: true
+            placeholder: 10
           },
           {
             id: "resultFontColor",
             title: "resultFontColorLabel",
             captions: [],
             type: "color",
-            default: "#000000",
-            new: true
+            default: "#000000"
           },
           {
             id: "candidateFontColor",
             title: "candidateFontColorLabel",
             captions: [],
             type: "color",
-            default: "#737373",
-            new: true
+            default: "#737373"
           },
           {
             id: "bgColor",
@@ -349,16 +341,14 @@ export default [
         title: "isShowOptionsPageWhenUpdatedLabel",
         captions: ["isShowOptionsPageWhenUpdatedCaptionLabel"],
         type: "checkbox",
-        default: true,
-        new: true
+        default: true
       },
       {
         id: "isDebugMode",
         title: "isDebugModeLabel",
         captions: ["isDebugModeCaptionLabel"],
         type: "checkbox",
-        default: false,
-        new: true
+        default: false
       }
     ]
   }

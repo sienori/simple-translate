@@ -8,6 +8,12 @@
   "donateWithPaypalLabel": {
     "message": "PayPal로 기부하기"
   },
+  "enableOnThisPage": {
+    "message": "Enable on this page"
+  },
+  "disableOnThisPage": {
+    "message": "Disable on this page"
+  },
   "initialTextArea": {
     "message": "텍스트 입력"
   },

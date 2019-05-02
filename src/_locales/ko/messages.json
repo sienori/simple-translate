@@ -9,10 +9,10 @@
     "message": "PayPal로 기부하기"
   },
   "enableOnThisPage": {
-    "message": "Enable on this page"
+    "message": "이 페이지에서 사용"
   },
   "disableOnThisPage": {
-    "message": "Disable on this page"
+    "message": "이 페이지에서 사용 안 함"
   },
   "initialTextArea": {
     "message": "텍스트 입력"

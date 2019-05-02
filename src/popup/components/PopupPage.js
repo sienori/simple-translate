@@ -12,14 +12,14 @@ import "../styles/PopupPage.scss";
 const getTabInfo = async () => {
   try {
     const tab = (await browser.tabs.query({ currentWindow: true, active: true }))[0];
-    const tabUrl = await browser.tabs.sendMessage(tab.id, { message: "getTabUrl" });
-    const selectedText = await browser.tabs.sendMessage(tab.id, { message: "getSelectedText" });
-    const isEnabledOnPage = await browser.tabs.sendMessage(tab.id, { message: "getEnabled" });
+    const tabUrl = browser.tabs.sendMessage(tab.id, { message: "getTabUrl" });
+    const selectedText = browser.tabs.sendMessage(tab.id, { message: "getSelectedText" });
+    const isEnabledOnPage = browser.tabs.sendMessage(tab.id, { message: "getEnabled" });
     return {
       isConnected: true,
-      url: tabUrl,
-      selectedText: selectedText,
-      isEnabledOnPage: isEnabledOnPage
+      url: await tabUrl,
+      selectedText: await selectedText,
+      isEnabledOnPage: await isEnabledOnPage
     };
   } catch (e) {
     return { isConnected: false, url: "", selectedText: "", isEnabledOnPage: false };

@@ -9,10 +9,10 @@
     "message": "Допомогти через PayPal"
   },
   "enableOnThisPage": {
-    "message": "Enable on this page"
+    "message": "Enable working on this page"
   },
   "disableOnThisPage": {
-    "message": "Disable on this page"
+    "message": "Disable working on this page"
   },
   "initialTextArea": {
     "message": "Введіть текст"
@@ -82,6 +82,12 @@
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "Визначати мову виділеного тексту, і якщо вона співпадає зі стандартною цільовою мовою, перекласти її другою мовою."
+  },
+  "disableUrlListLabel": {
+    "message": "URL list to disable working"
+  },
+  "disableUrlListCaptionLabel": {
+    "message": "If the URL matches the list, working on the web page is disabled. Please enter as a regular expression."
   },
   "toolbarLabel": {
     "message": "Вікно на панелі інструментів"

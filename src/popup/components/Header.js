@@ -4,6 +4,8 @@ import openUrl from "src/common/openUrl";
 import { paypalLink } from "src/common/personalUrls";
 import HeartIcon from "../icons/heart.svg";
 import SettingsIcon from "../icons/settings.svg";
+import Toggle from "react-toggle";
+import "react-toggle/style.css";
 import "../styles/header.scss";
 
 const openPayPal = () => {
@@ -14,10 +16,24 @@ const openSettings = () => {
   openUrl(url);
 };
 
-export default () => (
+const getToggleButtonTitle = isEnabled => {
+  return isEnabled
+    ? browser.i18n.getMessage("disableOnThisPage")
+    : browser.i18n.getMessage("enableOnThisPage");
+};
+
+export default props => (
   <div id="header">
     <div className="title">Simple Translate</div>
     <div className="rightButtons">
+      <div className="toggleButton" title={getToggleButtonTitle(props.isEnabledOnPage)}>
+        <Toggle
+          checked={props.isEnabledOnPage}
+          onChange={props.toggleEnabledOnPage}
+          icons={false}
+          disabled={!props.isConnected}
+        />
+      </div>
       <button
         className="heartButton"
         onClick={openPayPal}

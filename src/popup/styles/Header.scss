@@ -24,6 +24,38 @@
     justify-content: flex-end;
     height: 18px;
 
+    .toggleButton {
+      height: 18px;
+      .react-toggle {
+        $offset-width: 15px;
+        .react-toggle-track {
+          height: 18px;
+          width: 50px - $offset-width;
+          background-color: var(--sub-text);
+        }
+        .react-toggle-thumb {
+          height: 16px;
+          width: 16px;
+          -webkit-box-shadow: none;
+          -moz-box-shadow: none;
+          box-shadow: none;
+        }
+
+        &.react-toggle--checked {
+          .react-toggle-track {
+            background-color: var(--highlight);
+          }
+          .react-toggle-thumb {
+            left: 33px - $offset-width;
+            border-color: var(--highlight);
+          }
+        }
+        &.react-toggle--disabled {
+          cursor: unset;
+        }
+      }
+    }
+
     button {
       display: block;
       background-color: transparent;
@@ -36,7 +68,7 @@
     .heartButton {
       display: flex;
       align-items: center;
-      margin-right: 10px;
+      margin: 0px 10px;
       &:hover svg {
         fill: var(--confirm);
       }

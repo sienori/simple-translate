@@ -14,9 +14,15 @@ const getTabInfo = async () => {
     const tab = (await browser.tabs.query({ currentWindow: true, active: true }))[0];
     const tabUrl = await browser.tabs.sendMessage(tab.id, { message: "getTabUrl" });
     const selectedText = await browser.tabs.sendMessage(tab.id, { message: "getSelectedText" });
-    return { url: tabUrl, selectedText: selectedText };
+    const isEnabledOnPage = await browser.tabs.sendMessage(tab.id, { message: "getEnabled" });
+    return {
+      isConnected: true,
+      url: tabUrl,
+      selectedText: selectedText,
+      isEnabledOnPage: isEnabledOnPage
+    };
   } catch (e) {
-    return { url: "", selectedText: "" };
+    return { isConnected: false, url: "", selectedText: "", isEnabledOnPage: false };
   }
 };
 
@@ -29,7 +35,9 @@ export default class PopupPage extends Component {
       resultText: "",
       candidateText: "",
       statusText: "OK",
-      tabUrl: ""
+      tabUrl: "",
+      isConnected: true,
+      isEnabledOnPage: true
     };
     this.isSwitchedSecondLang = false;
     this.init();
@@ -47,8 +55,10 @@ export default class PopupPage extends Component {
 
     const tabInfo = await getTabInfo();
     this.setState({
+      isConnected: tabInfo.isConnected,
       inputText: tabInfo.selectedText,
-      tabUrl: tabInfo.url
+      tabUrl: tabInfo.url,
+      isEnabledOnPage: tabInfo.isEnabledOnPage
     });
     if (tabInfo.selectedText !== "") this.translateText(tabInfo.selectedText, targetLang);
   };
@@ -105,10 +115,24 @@ export default class PopupPage extends Component {
     }
   };
 
+  toggleEnabledOnPage = async e => {
+    const isEnabled = e.target.checked;
+    this.setState({ isEnabledOnPage: isEnabled });
+    try {
+      const tab = (await browser.tabs.query({ currentWindow: true, active: true }))[0];
+      if (isEnabled) await browser.tabs.sendMessage(tab.id, { message: "enableExtension" });
+      else await browser.tabs.sendMessage(tab.id, { message: "disableExtension" });
+    } catch (e) {}
+  };
+
   render() {
     return (
       <div>
-        <Header />
+        <Header
+          toggleEnabledOnPage={this.toggleEnabledOnPage}
+          isEnabledOnPage={this.state.isEnabledOnPage}
+          isConnected={this.state.isConnected}
+        />
         <InputArea inputText={this.state.inputText} handleInputText={this.handleInputText} />
         <hr />
         <ResultArea

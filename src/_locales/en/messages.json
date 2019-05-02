@@ -9,6 +9,12 @@
   "donateWithPaypalLabel": {
     "message": "Donate with PayPal"
   },
+  "enableOnThisPage": {
+    "message": "Enable on this page"
+  },
+  "disableOnThisPage": {
+    "message": "Disable on this page"
+  },
   "initialTextArea": {
     "message": "Enter text"
   },

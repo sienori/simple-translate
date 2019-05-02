@@ -48,7 +48,7 @@ const generalConfig = {
         }
       },
       {
-        test: /\.scss$/,
+        test: /\.(scss|css)$/,
         exclude: [path.resolve(__dirname, "src", "content")],
         use: [
           {
@@ -63,7 +63,7 @@ const generalConfig = {
         ]
       },
       {
-        test: /\.scss$/,
+        test: /\.(scss|css)$/,
         include: [path.resolve(__dirname, "src", "content")],
         use: [
           MiniCssExtractPlugin.loader,

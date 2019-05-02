@@ -9,10 +9,10 @@
     "message": "Adomány PayPal használatával"
   },
   "enableOnThisPage": {
-    "message": "Enable on this page"
+    "message": "Engedélyezés ezen az oldalon"
   },
   "disableOnThisPage": {
-    "message": "Disable on this page"
+    "message": "Letiltás ezen az oldalon"
   },
   "initialTextArea": {
     "message": "Írja be a szöveget"

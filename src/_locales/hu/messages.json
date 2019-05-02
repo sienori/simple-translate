@@ -8,6 +8,12 @@
   "donateWithPaypalLabel": {
     "message": "Adomány PayPal használatával"
   },
+  "enableOnThisPage": {
+    "message": "Enable on this page"
+  },
+  "disableOnThisPage": {
+    "message": "Disable on this page"
+  },
   "initialTextArea": {
     "message": "Írja be a szöveget"
   },

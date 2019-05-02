@@ -108,7 +108,12 @@ export default class TranslateContainer extends Component {
   disableExtensionByUrlList = () => {
     const disableUrlList = getSettings("disableUrlList");
     const disableUrls = disableUrlList.split("\n");
-    const pageUrl = top.location.href;
+    let pageUrl;
+    try {
+      pageUrl = top.location.href;
+    } catch (e) {
+      pageUrl = document.referrer;
+    }
 
     const isMatched = disableUrls.some(urlReg => {
       if (urlReg.trim() === "") return false;

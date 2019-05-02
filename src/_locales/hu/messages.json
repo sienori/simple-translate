@@ -9,10 +9,10 @@
     "message": "Adomány PayPal használatával"
   },
   "enableOnThisPage": {
-    "message": "Engedélyezés ezen az oldalon"
+    "message": "Enable working on this page"
   },
   "disableOnThisPage": {
-    "message": "Letiltás ezen az oldalon"
+    "message": "Disable working on this page"
   },
   "initialTextArea": {
     "message": "Írja be a szöveget"
@@ -82,6 +82,12 @@
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "Felismeri a kijelölt szöveg nyelvét és ha az megegyezik az alapértelmezett célnyelvvel akkor a fordítás a második nyelvre történik."
+  },
+  "disableUrlListLabel": {
+    "message": "URL list to disable working"
+  },
+  "disableUrlListCaptionLabel": {
+    "message": "If the URL matches the list, working on the web page is disabled. Please enter as a regular expression."
   },
   "toolbarLabel": {
     "message": "Felugró ablak az eszköztár gombjához"

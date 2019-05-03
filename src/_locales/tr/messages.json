@@ -8,6 +8,12 @@
   "donateWithPaypalLabel": {
     "message": "PayPal ile bağış yapın"
   },
+  "enableOnThisPage": {
+    "message": "Enable translation on this page"
+  },
+  "disableOnThisPage": {
+    "message": "Disable translation on this page"
+  },
   "initialTextArea": {
     "message": "Metin girin"
   },
@@ -77,6 +83,12 @@
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "Seçili metnin dilini algılar ve varsayılan hedef dille aynıysa, ikinci dile çevirir."
   },
+  "disableUrlListLabel": {
+    "message": "URL list to disable translation"
+  },
+  "disableUrlListCaptionLabel": {
+    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
+  },
   "toolbarLabel": {
     "message": "Açılır araç çubuğu penceresi"
   },
@@ -105,7 +117,7 @@
     "message": "İçerik menüsü"
   },
   "ifShowMenuLabel": {
-    "message": "İçerik menüsünü görüntüle"
+    "message": "İçerik menüsünde görüntüle"
   },
   "ifShowMenuCaptionLabel": {
     "message": "Web sayfasına veya sekmeye sağ tıkladığınızda görüntülenen içerik menüsüne öğe ekleyin."
@@ -267,7 +279,7 @@
     "message": "Eklenti sayfası"
   },
   "extensionPageLabel": {
-    "message": "Extension page"
+    "message": "Uzantı sayfası"
   },
   "amazonUrl": {
     "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"

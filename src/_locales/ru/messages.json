@@ -84,10 +84,10 @@
     "message": "Переключаться на дополнительный язык перевода, если язык выделенного текста совпадает с языком перевода по умолчанию."
   },
   "disableUrlListLabel": {
-    "message": "URL list to disable translation"
+    "message": "Список URL где перевод будет отключен"
   },
   "disableUrlListCaptionLabel": {
-    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
+    "message": "Если URL страницы попадает в список исключений перевод будет отключен. Список правил позволяет использовать \"*\"."
   },
   "toolbarLabel": {
     "message": "Окно на панели инструментов"

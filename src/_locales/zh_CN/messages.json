@@ -3,10 +3,16 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "浏览互联网时可以轻松查看翻译。"
+    "message": "快捷翻译网页上选中的文本。亦可在工具栏弹窗中输入文本进行翻译。"
   },
   "donateWithPaypalLabel": {
     "message": "使用 PayPal 捐赠"
+  },
+  "enableOnThisPage": {
+    "message": "Enable translation on this page"
+  },
+  "disableOnThisPage": {
+    "message": "Disable translation on this page"
   },
   "initialTextArea": {
     "message": "输入文字"
@@ -33,7 +39,7 @@
     "message": "设置"
   },
   "generalLabel": {
-    "message": "一般设置"
+    "message": "常规"
   },
   "targetLangCaptionLabel": {
     "message": "选择默认的目标语言"
@@ -76,6 +82,12 @@
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "检测所选文本的语言，如果与默认目标语言相同，则将其翻译为第二语言。"
+  },
+  "disableUrlListLabel": {
+    "message": "URL list to disable translation"
+  },
+  "disableUrlListCaptionLabel": {
+    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
   },
   "toolbarLabel": {
     "message": "工具栏弹出窗口"
@@ -267,7 +279,7 @@
     "message": "附加组件页面"
   },
   "extensionPageLabel": {
-    "message": "Extension page"
+    "message": "拓展页面"
   },
   "amazonUrl": {
     "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=zh_CN"
@@ -291,7 +303,7 @@
     "message": "翻译选中的文本"
   },
   "translateLinkMenu": {
-    "message": "翻译选定链接"
+    "message": "翻译选中的链接"
   },
   "openPopupDescription": {
     "message": "打开工具栏弹出窗口"

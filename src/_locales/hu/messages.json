@@ -8,6 +8,12 @@
   "donateWithPaypalLabel": {
     "message": "Adomány PayPal használatával"
   },
+  "enableOnThisPage": {
+    "message": "Enable translation on this page"
+  },
+  "disableOnThisPage": {
+    "message": "Disable translation on this page"
+  },
   "initialTextArea": {
     "message": "Írja be a szöveget"
   },
@@ -76,6 +82,12 @@
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "Felismeri a kijelölt szöveg nyelvét és ha az megegyezik az alapértelmezett célnyelvvel akkor a fordítás a második nyelvre történik."
+  },
+  "disableUrlListLabel": {
+    "message": "URL list to disable translation"
+  },
+  "disableUrlListCaptionLabel": {
+    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
   },
   "toolbarLabel": {
     "message": "Felugró ablak az eszköztár gombjához"
@@ -267,7 +279,7 @@
     "message": "Bővítmény weboldala"
   },
   "extensionPageLabel": {
-    "message": "Kiterjesztő oldal"
+    "message": "Kiegészítő oldala"
   },
   "amazonUrl": {
     "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=hu_HU"

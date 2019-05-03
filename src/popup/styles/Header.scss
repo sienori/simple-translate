@@ -27,18 +27,29 @@
     .toggleButton {
       height: 18px;
       .react-toggle {
-        $offset-width: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 18px;
+        $offset-width: 18px;
         .react-toggle-track {
-          height: 18px;
+          height: 10px;
           width: 50px - $offset-width;
           background-color: var(--sub-text);
+          -webkit-box-transition: all 100ms ease;
+          -moz-box-transition: all 100ms ease;
+          transition: all 100ms ease;
         }
         .react-toggle-thumb {
           height: 16px;
           width: 16px;
+          left: 0px;
           -webkit-box-shadow: none;
           -moz-box-shadow: none;
           box-shadow: none;
+          -webkit-box-transition: all 100ms ease;
+          -moz-box-transition: all 100ms ease;
+          transition: all 100ms ease;
         }
 
         &.react-toggle--checked {
@@ -46,7 +57,7 @@
             background-color: var(--highlight);
           }
           .react-toggle-thumb {
-            left: 33px - $offset-width;
+            left: 34px - $offset-width;
             border-color: var(--highlight);
           }
         }

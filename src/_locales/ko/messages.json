@@ -3,10 +3,16 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
+    "message": "웹 페이지에서 선택한 텍스트를 빠르게 번역하세요. 툴바 팝업을 이용해 입력한 내용을 번역할 수도 있습니다."
   },
   "donateWithPaypalLabel": {
-    "message": "Donate with PayPal"
+    "message": "PayPal로 기부하기"
+  },
+  "enableOnThisPage": {
+    "message": "이 페이지에서 번역 사용"
+  },
+  "disableOnThisPage": {
+    "message": "이 페이지에서 번역 사용 안 함"
   },
   "initialTextArea": {
     "message": "텍스트 입력"
@@ -15,13 +21,13 @@
     "message": "이 페이지 번역"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "Google 번역으로 열기"
   },
   "copyLabel": {
-    "message": "Copy"
+    "message": "복사"
   },
   "copiedLabel": {
-    "message": "Copied."
+    "message": "복사됨"
   },
   "targetLangLabel": {
     "message": "번역 언어"
@@ -75,7 +81,13 @@
     "message": "선택된 텍스트의 언어를 감지해 번역 대상 언어와 일치하면 버튼을 보여주지 않습니다."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+    "message": "선택된 텍스트의 언어를 감지해 번역 대상 언어와 일치하면 보조 언어로 번역합니다."
+  },
+  "disableUrlListLabel": {
+    "message": "번역을 비활성화할 URL 목록"
+  },
+  "disableUrlListCaptionLabel": {
+    "message": "페이지 URL이 목록과 일치하면 번역을 비활성화합니다. \"*\" 와일드 카드를 지원합니다."
   },
   "toolbarLabel": {
     "message": "툴바 팝업"
@@ -93,22 +105,22 @@
     "message": "보조 번역 언어를 선택하세요."
   },
   "waitTimeLabel": {
-    "message": "Waiting time to translate"
+    "message": "번역 대기 시간"
   },
   "waitTimeCaptionLabel": {
-    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+    "message": "문자 입력 후 번역까지의 대기 시간을 지정합니다. (밀리초)"
   },
   "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
+    "message": "단시간에 여러 번 번역하면 일시적으로 사용하지 못할 수 있습니다."
   },
   "menuLabel": {
-    "message": "Context menu"
+    "message": "컨텍스트 메뉴"
   },
   "ifShowMenuLabel": {
-    "message": "컨텍스트 메뉴 출력"
+    "message": "컨텍스트 메뉴 표시"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+    "message": "웹 페이지 또는 탭을 마우스 오른쪽 클릭했을 때 나타나는 컨텍스트 메뉴에 항목을 추가합니다."
   },
   "styleLabel": {
     "message": "모양"
@@ -123,40 +135,40 @@
     "message": "크기"
   },
   "buttonPositionLabel": {
-    "message": "출력 위치"
+    "message": "표시 위치"
   },
   "topRightLabel": {
-    "message": "Top right"
+    "message": "오른쪽 위"
   },
   "bottomRightLabel": {
-    "message": "Bottom right"
+    "message": "오른쪽 아래"
   },
   "topLeftLabel": {
-    "message": "Top left"
+    "message": "왼쪽 위"
   },
   "bottomLeftLabel": {
-    "message": "Bottom left"
+    "message": "왼쪽 아래"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "위"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "아래"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "왼쪽"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "오른쪽"
   },
   "positionOffsetLabel": {
-    "message": "Display position - Offset"
+    "message": "표시 위치 - 오프셋"
   },
   "panelStyleLabel": {
-    "message": "번역 상자"
+    "message": "번역 결과 창"
   },
   "panelStyleCaptionLabel": {
-    "message": "웹 페이지에서 보이는 번역 상자에 대한 모양을 설정합니다."
+    "message": "웹 페이지에서 보이는 번역 결과 창에 대한 모양을 설정합니다."
   },
   "widthLabel": {
     "message": "가로 길이"
@@ -168,58 +180,58 @@
     "message": "글자 크기"
   },
   "referencePointLabel": {
-    "message": "Display position - Reference point"
+    "message": "표시 위치 - 기준점"
   },
   "bottomSelectedTextLabel": {
-    "message": "Bottom of selected text"
+    "message": "선택된 텍스트 아래"
   },
   "topSelectedTextLabel": {
-    "message": "Top of selected text"
+    "message": "선택된 텍스트 위"
   },
   "clickedPointLabel": {
-    "message": "Clicked point"
+    "message": "클릭한 위치"
   },
   "displayDirectionLabel": {
-    "message": "Display position - Direction"
+    "message": "표시 위치 - 방향"
   },
   "resultFontColorLabel": {
-    "message": "Font color of translation result"
+    "message": "번역 결과의 글꼴 색"
   },
   "candidateFontColorLabel": {
-    "message": "Font color of translation candidates"
+    "message": "다른 번역의 글꼴 색상"
   },
   "bgColorLabel": {
     "message": "배경색"
   },
   "otherLabel": {
-    "message": "Other"
+    "message": "기타"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Display option page when updating"
+    "message": "업데이트 후 설정 페이지 열기"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+    "message": "Simple Translate가 업데이트 된 경우 설정 페이지를 표시합니다. 업데이트 내용을 바로 알 수 있습니다."
   },
   "isDebugModeLabel": {
-    "message": "Enable debug mode"
+    "message": "디버그 모드 활성화"
   },
   "isDebugModeCaptionLabel": {
-    "message": "When debug mode is enabled, the log is output to the debugger."
+    "message": "디버그 모드가 활성화되면 디버거로 로그가 출력됩니다."
   },
   "resetSettingsLabel": {
-    "message": "Reset settings"
+    "message": "설정 초기화"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Restore all settings to default."
+    "message": "모든 설정을 기본값으로 복원합니다."
   },
   "resetSettingsButtonLabel": {
-    "message": "Reset"
+    "message": "초기화"
   },
   "shortcutsLabel": {
-    "message": "Shortcuts"
+    "message": "단축키"
   },
   "keyboardShortcutsLabel": {
-    "message": "Keyboard shortcuts"
+    "message": "키보드 단축키"
   },
   "setKeyboardShortCutsMessage": {
     "message": "Set keyboard shortcuts."
@@ -246,28 +258,28 @@
     "message": "Clear"
   },
   "reset": {
-    "message": "Reset"
+    "message": "초기화"
   },
   "informationLabel": {
     "message": "정보"
   },
   "licenseLabel": {
-    "message": "라이센스"
+    "message": "라이선스"
   },
   "donationLabel": {
     "message": "기부 해주세요"
   },
   "donationCaptionLabel": {
-    "message": "Simple Translator를 사용해 주셔서 감사합니다.<br>보내주신 지원이 제가 이 Add-on을 지속적으로 개발하는데 큰 도움이 될 것입니다<br>Simple Translator가 마음에 드신다면, 기부를 고려해 주시길 부탁드립니다."
+    "message": "Simple Translator를 사용해 주셔서 감사합니다.<br>보내주신 지원은 제가 이 확장 프로그램을 지속적으로 개발하는데 큰 도움이 됩니다.<br>Simple Translator가 마음에 드신다면 기부를 고려해 주시길 부탁드립니다."
   },
   "amazonTitleLabel": {
-    "message": "amazon.co.jp eGift Cards"
+    "message": "amazon.co.jp eGift 카드"
   },
   "addonPageLabel": {
     "message": "Add-on 페이지"
   },
   "extensionPageLabel": {
-    "message": "Extension page"
+    "message": "확장 프로그램 페이지"
   },
   "amazonUrl": {
     "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
@@ -276,13 +288,13 @@
     "message": "https:\/\/addons.mozilla.org\/ko\/firefox\/addon\/simple-translate\/?src=optionpage"
   },
   "networkError": {
-    "message": "Error: Check network connection status."
+    "message": "오류: 네트워크 연결 상태를 확인하세요."
   },
   "unavailableError": {
-    "message": "Error: Service usage limit reached. Please wait a while and try again."
+    "message": "오류: 서비스 이용 제한에 도달했습니다. 잠시 후에 다시 시도해주세요."
   },
   "unknownError": {
-    "message": "Error: Unknown error"
+    "message": "오류: 알 수 없는 오류"
   },
   "translatePageMenu": {
     "message": "이 페이지 번역하기"
@@ -294,6 +306,6 @@
     "message": "선택된 링크 번역하기"
   },
   "openPopupDescription": {
-    "message": "Open toolbar popup"
+    "message": "툴바 팝업 열기"
   }
 }

@@ -9,10 +9,10 @@
     "message": "PayPal ile bağış yapın"
   },
   "enableOnThisPage": {
-    "message": "Bu sayfada çalışmayı etkinleştir"
+    "message": "Enable translation on this page"
   },
   "disableOnThisPage": {
-    "message": "Bu sayfada çalışmayı devre dışı bırak"
+    "message": "Disable translation on this page"
   },
   "initialTextArea": {
     "message": "Metin girin"
@@ -84,10 +84,10 @@
     "message": "Seçili metnin dilini algılar ve varsayılan hedef dille aynıysa, ikinci dile çevirir."
   },
   "disableUrlListLabel": {
-    "message": "URL list to disable working"
+    "message": "URL list to disable translation"
   },
   "disableUrlListCaptionLabel": {
-    "message": "If the URL matches the list, working on the web page is disabled. Please enter as a regular expression."
+    "message": "If the URL matches the list, translation on the web page is disabled. Please enter as a regular expression."
   },
   "toolbarLabel": {
     "message": "Açılır araç çubuğu penceresi"

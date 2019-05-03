@@ -87,7 +87,7 @@
     "message": "翻訳を無効にするURLリスト"
   },
   "disableUrlListCaptionLabel": {
-    "message": "URLがリストにマッチする場合，Webページ上での翻訳を無効にします。正規表現で入力してください。"
+    "message": "ページURLがリストに一致する場合，Webページ上での翻訳を無効にします。リストにはワイルドカード \"*\" を使用できます。"
   },
   "toolbarLabel": {
     "message": "ツールバーポップアップ"

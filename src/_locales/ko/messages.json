@@ -87,7 +87,7 @@
     "message": "번역을 비활성화할 URL 목록"
   },
   "disableUrlListCaptionLabel": {
-    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
+    "message": "페이지 URL이 목록과 일치하면 번역을 비활성화합니다. \"*\" 와일드 카드를 지원합니다."
   },
   "toolbarLabel": {
     "message": "툴바 팝업"

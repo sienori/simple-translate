@@ -8,6 +8,12 @@
   "donateWithPaypalLabel": {
     "message": "Сделать пожертвование через PayPal"
   },
+  "enableOnThisPage": {
+    "message": "Enable translation on this page"
+  },
+  "disableOnThisPage": {
+    "message": "Disable translation on this page"
+  },
   "initialTextArea": {
     "message": "Введите текст"
   },
@@ -76,6 +82,12 @@
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "Переключаться на дополнительный язык перевода, если язык выделенного текста совпадает с языком перевода по умолчанию."
+  },
+  "disableUrlListLabel": {
+    "message": "URL list to disable translation"
+  },
+  "disableUrlListCaptionLabel": {
+    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
   },
   "toolbarLabel": {
     "message": "Окно на панели инструментов"

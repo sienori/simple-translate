@@ -8,6 +8,12 @@
   "donateWithPaypalLabel": {
     "message": "Magbigay ng Donasyon Gamit ang PayPal"
   },
+  "enableOnThisPage": {
+    "message": "Enable translation on this page"
+  },
+  "disableOnThisPage": {
+    "message": "Disable translation on this page"
+  },
   "initialTextArea": {
     "message": "Ipasok ang teksto"
   },
@@ -76,6 +82,12 @@
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+  },
+  "disableUrlListLabel": {
+    "message": "URL list to disable translation"
+  },
+  "disableUrlListCaptionLabel": {
+    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
   },
   "toolbarLabel": {
     "message": "Toolbar popup"

@@ -3,31 +3,37 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
+    "message": "Швидкий переклад тексту на веб-сторінці. Текст для перекладу можна вводити у виринаючому вікні на панелі інструментів."
   },
   "donateWithPaypalLabel": {
-    "message": "Пожертвувати через PayPal"
+    "message": "Допомогти через PayPal"
+  },
+  "enableOnThisPage": {
+    "message": "Enable translation on this page"
+  },
+  "disableOnThisPage": {
+    "message": "Disable translation on this page"
   },
   "initialTextArea": {
     "message": "Введіть текст"
   },
   "showLink": {
-    "message": "Перекласти цю сторінку"
+    "message": "Перекласти всю сторінку"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "Відкрити в Google Translate"
   },
   "copyLabel": {
-    "message": "Copy"
+    "message": "Копіювати"
   },
   "copiedLabel": {
-    "message": "Copied."
+    "message": "Скопійовано."
   },
   "targetLangLabel": {
     "message": "Цільова мова"
   },
   "langList": {
-    "message": "af:Afrikaans, sq:Albanian, am:Amharic, ar:Arabic, hy:Armenian, az:Azerbaijani, eu:Basque, be:Belarusian, bn:Bengali, bs:Bosnian, bg:Bulgarian, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Chinese (PRC), zh-TW:Chinese (Taiwan), co:Corsican, hr:Croatian, cs:Czech, da:Danish, nl:Dutch, en:English, eo:Esperanto, et:Estonian, fi:Finnish, fr:French, fy:Frisian, gl:Galician, ka:Georgian, de:German, el:Greek, gu:Gujarati, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesian, ga:Irish, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Korean, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:Macedonian, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persian, pl:Polish, pt:Portuguese, pa:Punjabi, ps:Pushto, ro:Romanian, ru:Russian, sm:Samoan, gd:Scottish Gaelic, sr:Serbian, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovak, sl:Slovenian, so:Somali, sx:Sotho, es:Spanish, su:Sundanese, sw:Swahili, sv:Swedish, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turkish, uk:Ukrainian, ur:Urdu, uz:Uzbek, vi:Vietnamese, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
+    "message": "af:Африкаанс, sq:Албанська, am:Амхарська, ar:Арабська, hy:Вірменська, az:Азербайджанська, eu:Баскійська, be:Білоруська, bn:Бенгальська, bs:Боснійська, bg:Болгарська, ca:Каталонська, ceb:Cebuano, ny:Chewa, zh-CN:Китайська (PRC), zh-TW:Китайська (Taiwan), co:Corsican, hr:Хорватська, cs:Чеська, da:Датська, nl:Нідерландська, en:Англійська, eo:Есперанто, et:Естонська, fi:Фінська, fr:Французька, fy:Frisian, gl:Галісійська, ka:Georgian, de:Німецька, el:Грецька, gu:Гуджараті, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Hebrew, hi:Хінді, hu:Угорська, is:Icelandic, ig:Igbo, id:Indonesian, ga:Ірландська, it:Італійська, ja:Японська, jv:Javanese, kn:Каннада, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Корейська, ku:Kurdish, lo:Laotian, la:Латинська, lv:Латиська, lt:Литовська, lb:Luxembourgish, mk:Македонська, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Монгольська, hmn:Monk, my:Myanmar, ne:Непальська, no:Норвежська, fa:Persian, pl:Польська, pt:Португальська, pa:Punjabi, ps:Pushto, ro:Ромунська, ru:Російська, sm:Самоанська, gd:Scottish Gaelic, sr:Сербійська, sn:Shona, sd:Sindhi, si:Sinhala, sk:Словацька, sl:Словенська, so:Сомалійська, sx:Sotho, es:Іспанська, su:Sundanese, sw:Swahili, sv:Шведська, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Турецька, uk:Українська, ur:Urdu, uz:Узбецька, vi:Vietnamese, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
   },
   "settingsLabel": {
     "message": "Налаштування"
@@ -36,7 +42,7 @@
     "message": "Загальне"
   },
   "targetLangCaptionLabel": {
-    "message": "Оберіть мову на яку перекладається."
+    "message": "Мова на яку перекладається."
   },
   "webPageLabel": {
     "message": "Веб-сторінка"
@@ -48,67 +54,73 @@
     "message": "Показувати варіанти перекладу, коли перекладається одне слово."
   },
   "whenSelectTextLabel": {
-    "message": "Коли виділено текст"
+    "message": "Якщо виділено текст"
   },
   "ifAutoTranslateLabel": {
-    "message": "Показати панель перекладу"
+    "message": "Показувати панель перекладу"
   },
   "ifAutoTranslateCaptionLabel": {
-    "message": "Directly display the translation panel without displaying the button."
+    "message": "Відразу показувати панель перекладу, без кнопки по якій треба клацати."
   },
   "ifShowButtonLabel": {
-    "message": "Показати кнопку перекладу"
+    "message": "Показувати кнопку перекладу"
   },
   "ifShowButtonCaptionLabel": {
-    "message": "Display the translation button to open the panel when clicked."
+    "message": "Показувати кнопку, клацнувши по якій відкривається панель перекладу."
   },
   "dontshowbuttonlabel": {
-    "message": "Не показувати ні кнопки ні панелі."
+    "message": "Не показувати ні кнопки, ні панелі"
   },
   "dontshowbuttonCaptionlabel": {
-    "message": "Don't display the translation button or the translation panel."
+    "message": "Не показувати кнопки перекладу та панелі перекладу."
   },
   "ifCheckLangLabel": {
     "message": "Не показувати кнопку, якщо переклад не обов'язковий"
   },
   "ifCheckLangCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+    "message": "Визначити мову виділеного тексту, і якщо вона співпадає з цільовою мовою, кнопка не буде відображатися."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+    "message": "Визначати мову виділеного тексту, і якщо вона співпадає зі стандартною цільовою мовою, перекласти її другою мовою."
+  },
+  "disableUrlListLabel": {
+    "message": "URL list to disable translation"
+  },
+  "disableUrlListCaptionLabel": {
+    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
   },
   "toolbarLabel": {
-    "message": "Toolbar popup"
+    "message": "Вікно на панелі інструментів"
   },
   "ifChangeSecondLangLabel": {
-    "message": "Automatically switch to the second language"
+    "message": "Автоматично переключати на другу мову"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+    "message": "Визначати мову введення, і якщо вона співпадає зі стандартною цільовою мовою, перекласти її другою мовою."
   },
   "secondTargetLangLabel": {
     "message": "Друга мова"
   },
   "secondTargetLangCaptionLabel": {
-    "message": "Оберіть мову з якої перекладається."
+    "message": "Мова з якої перекладається."
   },
   "waitTimeLabel": {
-    "message": "Waiting time to translate"
+    "message": "Час очікування для перекладу"
   },
   "waitTimeCaptionLabel": {
-    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+    "message": "Налаштування часу очікування від початку введення символа до перекладу. (в мілісекундах)"
   },
   "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
+    "message": "Якщо ви перекладаєте багато разів за короткий час, ця функція не знадобиться."
   },
   "menuLabel": {
     "message": "Контекстне меню"
   },
   "ifShowMenuLabel": {
-    "message": "Показувати контекстне меню"
+    "message": "Показувати в контекстному меню"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+    "message": "Додати пункт в контекстне меню, яке відображається під час натискання правої клавіші на веб-сторінці або вкладці."
   },
   "styleLabel": {
     "message": "Стиль"
@@ -117,7 +129,7 @@
     "message": "Кнопка перекладу"
   },
   "buttonStyleCaptionLabel": {
-    "message": "Specify the style of the translation button displayed on the web page."
+    "message": "Налаштування кнопки перекладу, що відображається на веб-сторінці."
   },
   "buttonSizeLabel": {
     "message": "Розмір"
@@ -126,37 +138,37 @@
     "message": "Позиція кнопки"
   },
   "topRightLabel": {
-    "message": "Top right"
+    "message": "Верхній правий"
   },
   "bottomRightLabel": {
-    "message": "Bottom right"
+    "message": "Нижній правий"
   },
   "topLeftLabel": {
-    "message": "Top left"
+    "message": "Верхній лівий"
   },
   "bottomLeftLabel": {
-    "message": "Bottom left"
+    "message": "Нижній лівий"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "Зверху"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "Внизу"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "Зліва"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "Праворуч"
   },
   "positionOffsetLabel": {
-    "message": "Display position - Offset"
+    "message": "Розташування на екрані - зміщення"
   },
   "panelStyleLabel": {
     "message": "Панель перекладу"
   },
   "panelStyleCaptionLabel": {
-    "message": "Specify the style of the translation panel displayed on the web page."
+    "message": "Налаштування стилю панелі перекладу, що відображається на веб-сторінці."
   },
   "widthLabel": {
     "message": "Ширина"
@@ -168,85 +180,85 @@
     "message": "Розмір шрифту"
   },
   "referencePointLabel": {
-    "message": "Display position - Reference point"
+    "message": "Розташування на екрані - орієнтир"
   },
   "bottomSelectedTextLabel": {
-    "message": "Bottom of selected text"
+    "message": "Нижче виділеного тексту"
   },
   "topSelectedTextLabel": {
-    "message": "Top of selected text"
+    "message": "Вище виділеного тексту"
   },
   "clickedPointLabel": {
-    "message": "Clicked point"
+    "message": "Точка клацання"
   },
   "displayDirectionLabel": {
-    "message": "Display position - Direction"
+    "message": "Розташування на екрані - бік"
   },
   "resultFontColorLabel": {
-    "message": "Font color of translation result"
+    "message": "Колір тексту для результатів перекладу"
   },
   "candidateFontColorLabel": {
-    "message": "Font color of translation candidates"
+    "message": "Колір тексту для варіантів перекладу"
   },
   "bgColorLabel": {
     "message": "Колір фону"
   },
   "otherLabel": {
-    "message": "Other"
+    "message": "Інше"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Display option page when updating"
+    "message": "Показувати сторінку опцій під час оновлення"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+    "message": "Показувати сторінку опцій коли Simple Translate оновлено. Так ви швидко дізнаєтеся про нові оновлення."
   },
   "isDebugModeLabel": {
-    "message": "Enable debug mode"
+    "message": "Включити режим зневадження"
   },
   "isDebugModeCaptionLabel": {
-    "message": "When debug mode is enabled, the log is output to the debugger."
+    "message": "Коли включено режим зневадження, лог виводиться в дебаґґер."
   },
   "resetSettingsLabel": {
-    "message": "Reset settings"
+    "message": "Скинути налаштування"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Restore all settings to default."
+    "message": "Відновити стандартні налаштування."
   },
   "resetSettingsButtonLabel": {
-    "message": "Reset"
+    "message": "Скинути"
   },
   "shortcutsLabel": {
-    "message": "Shortcuts"
+    "message": "Клавіатурні скорочення"
   },
   "keyboardShortcutsLabel": {
-    "message": "Keyboard shortcuts"
+    "message": "Клавіатурні скорочення"
   },
   "setKeyboardShortCutsMessage": {
-    "message": "Set keyboard shortcuts."
+    "message": "Налаштування швидких клавіш."
   },
   "typeShortcutMessage": {
-    "message": "Type a shortcut"
+    "message": "Введіть скорочення"
   },
   "typeLetterMessage": {
-    "message": "Type a letter"
+    "message": "Введіть букву"
   },
   "includeModifierKeysMessage": {
-    "message": "Include either Ctrl or Alt"
+    "message": "Використовуйте Ctrl або Alt"
   },
   "includeMacModifierKeysMessage": {
-    "message": "Include either Command, Ctrl or Alt"
+    "message": "Використовуйте Command, Ctrl або Alt"
   },
   "invalidLetterMessage": {
-    "message": "The letter can not be used"
+    "message": "Ця буква не може бути використана"
   },
   "invalidShortcutMessage": {
-    "message": "The shortcut can not be used"
+    "message": "Ця комбінація не може бути використана"
   },
   "clear": {
-    "message": "Clear"
+    "message": "Очистити"
   },
   "reset": {
-    "message": "Reset"
+    "message": "Скинути"
   },
   "informationLabel": {
     "message": "Інформація"
@@ -267,7 +279,7 @@
     "message": "Сторінка додатка"
   },
   "extensionPageLabel": {
-    "message": "Extension page"
+    "message": "Сторінка додатку"
   },
   "amazonUrl": {
     "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
@@ -276,13 +288,13 @@
     "message": "https:\/\/addons.mozilla.org\/uk\/firefox\/addon\/simple-translate\/?src=optionpage"
   },
   "networkError": {
-    "message": "Error: Check network connection status."
+    "message": "Помилка: Перевірте з'єднання з інтернетом."
   },
   "unavailableError": {
-    "message": "Error: Service usage limit reached. Please wait a while and try again."
+    "message": "Помилка: Ліміт використання сервісу вичирпано. Зачекайте трохи і повторіть ще раз."
   },
   "unknownError": {
-    "message": "Error: Unknown error"
+    "message": "Помилка: Невідома помилка"
   },
   "translatePageMenu": {
     "message": "Перекласти цю сторінку"
@@ -294,6 +306,6 @@
     "message": "Перекласти вибране посилання"
   },
   "openPopupDescription": {
-    "message": "Open toolbar popup"
+    "message": "Показати випадаюче вікно"
   }
 }

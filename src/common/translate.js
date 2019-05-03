@@ -54,6 +54,7 @@ const formatResult = result => {
 
   if (result.status === 0) resultData.statusText = "Network Error";
   else if (result.status === 200) resultData.statusText = "OK";
+  else if (result.status === 429) resultData.statusText = "Service Unavailable";
   else if (result.status === 503) resultData.statusText = "Service Unavailable";
   else resultData.statusText = result.statusText || result.status;
 

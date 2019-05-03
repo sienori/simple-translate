@@ -9,10 +9,10 @@
     "message": "Сделать пожертвование через PayPal"
   },
   "enableOnThisPage": {
-    "message": "Enable translation on this page"
+    "message": "Включить перевод на этой странице"
   },
   "disableOnThisPage": {
-    "message": "Disable translation on this page"
+    "message": "Выключить перевод на этой странице"
   },
   "initialTextArea": {
     "message": "Введите текст"

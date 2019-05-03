@@ -9,10 +9,10 @@
     "message": "Сделать пожертвование через PayPal"
   },
   "enableOnThisPage": {
-    "message": "Enable working on this page"
+    "message": "Enable translation on this page"
   },
   "disableOnThisPage": {
-    "message": "Disable working on this page"
+    "message": "Disable translation on this page"
   },
   "initialTextArea": {
     "message": "Введите текст"
@@ -84,10 +84,10 @@
     "message": "Переключаться на дополнительный язык перевода, если язык выделенного текста совпадает с языком перевода по умолчанию."
   },
   "disableUrlListLabel": {
-    "message": "URL list to disable working"
+    "message": "URL list to disable translation"
   },
   "disableUrlListCaptionLabel": {
-    "message": "If the URL matches the list, working on the web page is disabled. Please enter as a regular expression."
+    "message": "If the URL matches the list, translation on the web page is disabled. Please enter as a regular expression."
   },
   "toolbarLabel": {
     "message": "Окно на панели инструментов"

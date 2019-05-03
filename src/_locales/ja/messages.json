@@ -9,10 +9,10 @@
     "message": "PayPalで寄付"
   },
   "enableOnThisPage": {
-    "message": "このページでの動作を有効化"
+    "message": "このページでの翻訳を有効化"
   },
   "disableOnThisPage": {
-    "message": "このページでの動作を無効化"
+    "message": "このページでの翻訳を無効化"
   },
   "initialTextArea": {
     "message": "テキストを入力"
@@ -84,10 +84,10 @@
     "message": "選択されたテキストの言語を検出し，デフォルトの翻訳先言語と同じ場合には第二言語に翻訳します。"
   },
   "disableUrlListLabel": {
-    "message": "動作を無効化するURLリスト"
+    "message": "翻訳を無効にするURLリスト"
   },
   "disableUrlListCaptionLabel": {
-    "message": "URLがリストにマッチする場合，Webページ上での動作を無効化します。正規表現で入力してください。"
+    "message": "URLがリストにマッチする場合，Webページ上での翻訳を無効にします。正規表現で入力してください。"
   },
   "toolbarLabel": {
     "message": "ツールバーポップアップ"

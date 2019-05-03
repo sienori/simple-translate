@@ -8,6 +8,12 @@
   "donateWithPaypalLabel": {
     "message": "透過 PayPal 來贊助我"
   },
+  "enableOnThisPage": {
+    "message": "在此頁面上啟用翻譯"
+  },
+  "disableOnThisPage": {
+    "message": "在此頁面上停用翻譯"
+  },
   "initialTextArea": {
     "message": "輸入文字"
   },
@@ -76,6 +82,12 @@
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "偵測選擇文字的語言, 如果它與預設的目標語言相同, 則將其翻譯為第二語言。"
+  },
+  "disableUrlListLabel": {
+    "message": "URL list to disable translation"
+  },
+  "disableUrlListCaptionLabel": {
+    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
   },
   "toolbarLabel": {
     "message": "工具列彈出式選單"

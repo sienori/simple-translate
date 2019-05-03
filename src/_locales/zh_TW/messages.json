@@ -9,10 +9,10 @@
     "message": "透過 PayPal 來贊助我"
   },
   "enableOnThisPage": {
-    "message": "Enable translation on this page"
+    "message": "在此頁面上啟用翻譯"
   },
   "disableOnThisPage": {
-    "message": "Disable translation on this page"
+    "message": "在此頁面上停用翻譯"
   },
   "initialTextArea": {
     "message": "輸入文字"

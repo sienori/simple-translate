@@ -9,10 +9,10 @@
     "message": "Допомогти через PayPal"
   },
   "enableOnThisPage": {
-    "message": "Enable translation on this page"
+    "message": "Увімкнути переклад на цій сторінці"
   },
   "disableOnThisPage": {
-    "message": "Disable translation on this page"
+    "message": "Вимкнути переклад на цій сторінці"
   },
   "initialTextArea": {
     "message": "Введіть текст"

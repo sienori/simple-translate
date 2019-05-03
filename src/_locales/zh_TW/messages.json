@@ -84,10 +84,10 @@
     "message": "偵測選擇文字的語言, 如果它與預設的目標語言相同, 則將其翻譯為第二語言。"
   },
   "disableUrlListLabel": {
-    "message": "URL list to disable translation"
+    "message": "要停用翻譯的 URL 清單"
   },
   "disableUrlListCaptionLabel": {
-    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
+    "message": "如果頁面 URL 符合此清單，網頁上的翻譯就會停用。清單允許使用 \"*\" 萬用字元。"
   },
   "toolbarLabel": {
     "message": "工具列彈出式選單"

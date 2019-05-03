@@ -2,6 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 import browser from "webextension-polyfill";
 import TranslateContainer from "./components/TranslateContainer";
+import log from "loglevel";
+
+const logDir = "constent/index";
 
 let isEnabled = true;
 const handleMessage = async request => {
@@ -29,6 +32,7 @@ browser.runtime.onMessage.addListener(handleMessage);
 const removeElement = () => {
   const element = document.getElementById("simple-translate");
   if (!element) return;
+  log.log(logDir, "removeElement()");
 
   ReactDOM.unmountComponentAtNode(element);
   element.parentNode.removeChild(element);
@@ -39,6 +43,7 @@ let isFirst = true;
 const insertElement = () => {
   const element = document.getElementById("simple-translate");
   if (element) return;
+  log.log(logDir, "insertElement()");
 
   document.body.insertAdjacentHTML("beforeend", "<div id='simple-translate'></div>");
   ReactDOM.render(

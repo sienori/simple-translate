@@ -106,8 +106,7 @@ export default class TranslateContainer extends Component {
   };
 
   disableExtensionByUrlList = () => {
-    const disableUrlList = getSettings("disableUrlList");
-    const disableUrls = disableUrlList.split("\n");
+    const disableUrls = getSettings("disableUrlList").split("\n");
     let pageUrl;
     try {
       pageUrl = top.location.href;
@@ -115,10 +114,15 @@ export default class TranslateContainer extends Component {
       pageUrl = document.referrer;
     }
 
-    const isMatched = disableUrls.some(urlReg => {
-      if (urlReg.trim() === "") return false;
-      return RegExp("^" + urlReg.trim()).test(pageUrl);
-    });
+    const matchesPageUrl = urlPattern => {
+      const pattern = urlPattern
+        .trim()
+        .replace(/[-[\]{}()*+?.,\\^$|#\s]/g, match => (match === "*" ? ".*" : "\\" + match));
+      if (pattern === "") return false;
+      return RegExp("^" + pattern + "$").test(pageUrl);
+    };
+
+    const isMatched = disableUrls.some(matchesPageUrl);
     if (isMatched) this.props.removeElement();
   };
 

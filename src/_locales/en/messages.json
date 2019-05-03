@@ -10,10 +10,10 @@
     "message": "Donate with PayPal"
   },
   "enableOnThisPage": {
-    "message": "Enable working on this page"
+    "message": "Enable translation on this page"
   },
   "disableOnThisPage": {
-    "message": "Disable working on this page"
+    "message": "Disable translation on this page"
   },
   "initialTextArea": {
     "message": "Enter text"
@@ -86,10 +86,10 @@
     "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
   },
   "disableUrlListLabel": {
-    "message": "URL list to disable working"
+    "message": "URL list to disable translation"
   },
   "disableUrlListCaptionLabel": {
-    "message": "If the URL matches the list, working on the web page is disabled. Please enter as a regular expression."
+    "message": "If the URL matches the list, translation on the web page is disabled. Please enter as a regular expression."
   },
 
   "toolbarLabel": {

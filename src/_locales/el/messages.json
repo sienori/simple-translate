@@ -84,31 +84,31 @@
     "message": "Εντοπίζει τη γλώσσα του επιλεγμένου κειμένου και αν είναι ίδια με τη γλώσσα προορισμού, μεταφράζει στη δεύτερη γλώσσα."
   },
   "disableUrlListLabel": {
-    "message": "URL list to disable translation"
+    "message": "Λίστα URL για απενεργοποίηση μετάφρασης"
   },
   "disableUrlListCaptionLabel": {
-    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
+    "message": "Εάν το URL της σελίδας υπάρχει στη λίστα, η μετάφραση στην ιστοσελίδα είναι απενεργοποιημένη. Η λίστα επιτρέπει χαρακτήρες \"*\" μπαλαντέρ."
   },
   "toolbarLabel": {
     "message": "Toolbar popup"
   },
   "ifChangeSecondLangLabel": {
-    "message": "Automatically switch to the second language"
+    "message": "Αυτόματη αλλαγή στη δεύτερη γλώσσα"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+    "message": "Εντοπίζει τη γλώσσα του επιλεγμένου κειμένου και αν είναι ίδια με τη γλώσσα προορισμού, μεταφράζει στη δεύτερη γλώσσα."
   },
   "secondTargetLangLabel": {
     "message": "Δευτερεύουσα Γλώσσα προς μετάφραση"
   },
   "secondTargetLangCaptionLabel": {
-    "message": "Select the second target language."
+    "message": "Επιλέξτε την δεύτερη προεπιλεγμένη γλώσσα-στόχο."
   },
   "waitTimeLabel": {
-    "message": "Waiting time to translate"
+    "message": "Χρόνος αναμονής για μετάφραση"
   },
   "waitTimeCaptionLabel": {
-    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+    "message": "Καθορίστε το χρόνο αναμονής από την εισαγωγή ενός χαρακτήρα ως την εκκίνηση της μετάφρασης. (χιλιοστοδευτερόλεπτα)"
   },
   "waitTime2CaptionLabel": {
     "message": "If you translate it many times in a short time, it may become unusable for a while."

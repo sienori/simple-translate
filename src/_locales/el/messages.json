@@ -18,10 +18,10 @@
     "message": "Εισαγωγή κειμένου"
   },
   "showLink": {
-    "message": "Μετάφραση της σελίδας"
+    "message": "Μετάφραση αυτής της σελίδας"
   },
   "openInGoogleLabel": {
-    "message": "Χρήση του Google Translate"
+    "message": "Χρήση της μετάφρασης Google"
   },
   "copyLabel": {
     "message": "Αντιγραφή"
@@ -111,58 +111,58 @@
     "message": "Καθορίστε το χρόνο αναμονής από την εισαγωγή ενός χαρακτήρα ως την εκκίνηση της μετάφρασης. (χιλιοστοδευτερόλεπτα)"
   },
   "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
+    "message": "Αν μεταφράζετε πολλές φορές σε σύντομο χρονικό διάστημα, μπορεί να τεθεί εκτός λειτουργίας για λίγο."
   },
   "menuLabel": {
-    "message": "Context menu"
+    "message": "Μενού πλαισίου"
   },
   "ifShowMenuLabel": {
-    "message": "Display the context menu"
+    "message": "Εμφάνιση του μενού πλαισίου"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+    "message": "Προσθέστε στοιχεία στο μενού πλαισίου που εμφανίζεται όταν κάνετε δεξί κλικ στην ιστοσελίδα ή την καρτέλα."
   },
   "styleLabel": {
-    "message": "Style"
+    "message": "Τεχνοτροπία"
   },
   "buttonStyleLabel": {
-    "message": "Translation button"
+    "message": "Κουμπί μετάφρασης"
   },
   "buttonStyleCaptionLabel": {
-    "message": "Specify the style of the translation button displayed on the web page."
+    "message": "Καθορίστε το στυλ του κουμπιού μετάφρασης που εμφανίζεται στην ιστοσελίδα."
   },
   "buttonSizeLabel": {
-    "message": "Size"
+    "message": "Μέγεθος"
   },
   "buttonPositionLabel": {
-    "message": "Display position"
+    "message": "Θέση εμφάνισης"
   },
   "topRightLabel": {
-    "message": "Top right"
+    "message": "Πάνω δεξιά"
   },
   "bottomRightLabel": {
-    "message": "Bottom right"
+    "message": "Κάτω δεξιά"
   },
   "topLeftLabel": {
-    "message": "Top left"
+    "message": "Πάνω αριστερά"
   },
   "bottomLeftLabel": {
-    "message": "Bottom left"
+    "message": "Κάτω αριστερά"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "Πάνω"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "Κάτω"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "Αριστερά"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "Δεξιά"
   },
   "positionOffsetLabel": {
-    "message": "Display position - Offset"
+    "message": "Θέση εμφάνισης - Μετατόπιση"
   },
   "panelStyleLabel": {
     "message": "Translation panel"
@@ -303,7 +303,7 @@
     "message": "Μετάφραση επιλεγμένου κειμένου"
   },
   "translateLinkMenu": {
-    "message": "Μετάφραση του επιλεγμένου υπερσυνδέσμου"
+    "message": "Μετάφραση του επιλεγμένου συνδέσμου"
   },
   "openPopupDescription": {
     "message": "Open toolbar popup"

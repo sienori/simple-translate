@@ -84,10 +84,10 @@
     "message": "Felismeri a kijelölt szöveg nyelvét és ha az megegyezik az alapértelmezett célnyelvvel akkor a fordítás a második nyelvre történik."
   },
   "disableUrlListLabel": {
-    "message": "URL list to disable translation"
+    "message": "URL-ek listája, ahol a fordítás le lesz tiltásra"
   },
   "disableUrlListCaptionLabel": {
-    "message": "Ha az oldal URL-je illeszkedik a mintára akkor a weblap fordítása le lesz tiltva. A listában használható a \"*\" helyettesítőkarakter."
+    "message": "Ha az oldal URL-je illeszkedik a mintára akkor a weblapon a fordítása le lesz tiltva. A listában használható a \"*\" helyettesítőkarakter."
   },
   "toolbarLabel": {
     "message": "Felugró ablak az eszköztár gombjához"

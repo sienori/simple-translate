@@ -9,10 +9,10 @@
     "message": "Adomány PayPal használatával"
   },
   "enableOnThisPage": {
-    "message": "Enable translation on this page"
+    "message": "Fordítás engedélyezése ezen az oldalon"
   },
   "disableOnThisPage": {
-    "message": "Disable translation on this page"
+    "message": "Fordítás letiltása ezen az oldalon"
   },
   "initialTextArea": {
     "message": "Írja be a szöveget"

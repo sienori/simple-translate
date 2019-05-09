@@ -51,7 +51,7 @@
     "message": "다른 번역 보기"
   },
   "ifShowCandidateCaptionLabel": {
-    "message": "한 단어를 번역할 때 다른 여러 번역 결과를 보여줍니다."
+    "message": "단어 번역시 단어가 가진 여러 의미를 함께 보여줍니다."
   },
   "whenSelectTextLabel": {
     "message": "텍스트가 선택되었을 때 동작"

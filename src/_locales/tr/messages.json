@@ -9,10 +9,10 @@
     "message": "PayPal ile bağış yapın"
   },
   "enableOnThisPage": {
-    "message": "Bu sayfada çeviriyi etkinleştirin"
+    "message": "Çeviriyi bu sayfada etkinleştirin"
   },
   "disableOnThisPage": {
-    "message": "Bu sayfada çeviriyi devre dışı bırakın"
+    "message": "Çeviriyi bu sayfada devre dışı bırakın"
   },
   "initialTextArea": {
     "message": "Metin girin"
@@ -87,10 +87,10 @@
     "message": "Çeviriyi devre dışı bırakmak için URL listesi"
   },
   "disableUrlListCaptionLabel": {
-    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
+    "message": "Sayfa URL’si listeyle eşleşirse, web sayfasındaki çeviri devre dışı bırakılır. Liste özel karakterlere \"*\"  izin verir."
   },
   "toolbarLabel": {
-    "message": "Açılır araç çubuğu penceresi"
+    "message": "Araç çubuğu penceresi"
   },
   "ifChangeSecondLangLabel": {
     "message": "İkinci dile otomatik geç"

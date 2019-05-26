@@ -9,10 +9,10 @@
     "message": "Dona con PayPal"
   },
   "enableOnThisPage": {
-    "message": "Enable translation on this page"
+    "message": "Abilita la traduzione in questa pagina"
   },
   "disableOnThisPage": {
-    "message": "Disable translation on this page"
+    "message": "Disabilita la traduzione in questa pagina"
   },
   "initialTextArea": {
     "message": "Scrivere testo"
@@ -21,13 +21,13 @@
     "message": "Traduci questa pagina"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "Apri in Google Translate"
   },
   "copyLabel": {
-    "message": "Copy"
+    "message": "Copia"
   },
   "copiedLabel": {
-    "message": "Copied."
+    "message": "Copiato."
   },
   "targetLangLabel": {
     "message": "Lingua di bersaglio"

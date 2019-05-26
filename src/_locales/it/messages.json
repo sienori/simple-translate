@@ -207,58 +207,58 @@
     "message": "Altro"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Display option page when updating"
+    "message": "Mostra pagina delle opzioni quando si aggiorna"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+    "message": "Mostra la pagina delle opzioni dopo che Simple Translate è stato aggiornato, così da poter conoscere le nuove modifiche."
   },
   "isDebugModeLabel": {
-    "message": "Enable debug mode"
+    "message": "Abilità modalità debug"
   },
   "isDebugModeCaptionLabel": {
-    "message": "When debug mode is enabled, the log is output to the debugger."
+    "message": "Quando la modalità di debug è abilitata, le informazioni sono mostrate nel debugger."
   },
   "resetSettingsLabel": {
-    "message": "Reset settings"
+    "message": "Ripristina impostazioni"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Restore all settings to default."
+    "message": "Ripristina tutte le impostazioni predefinite."
   },
   "resetSettingsButtonLabel": {
-    "message": "Reset"
+    "message": "Ripristina"
   },
   "shortcutsLabel": {
-    "message": "Shortcuts"
+    "message": "Scorciatoie"
   },
   "keyboardShortcutsLabel": {
-    "message": "Keyboard shortcuts"
+    "message": "Scorciatoie da tastiera"
   },
   "setKeyboardShortCutsMessage": {
-    "message": "Set keyboard shortcuts."
+    "message": "Configura scorciatoie da tastiera."
   },
   "typeShortcutMessage": {
-    "message": "Type a shortcut"
+    "message": "Digita una scorciatoia"
   },
   "typeLetterMessage": {
-    "message": "Type a letter"
+    "message": "Digita una lettera"
   },
   "includeModifierKeysMessage": {
-    "message": "Include either Ctrl or Alt"
+    "message": "Includi Ctrl o Alt"
   },
   "includeMacModifierKeysMessage": {
-    "message": "Include either Command, Ctrl or Alt"
+    "message": "Includi Command, Ctrl o Alt"
   },
   "invalidLetterMessage": {
-    "message": "The letter can not be used"
+    "message": "La lettera non può essere utilizzata"
   },
   "invalidShortcutMessage": {
-    "message": "The shortcut can not be used"
+    "message": "La scorciatoia non può essere utilizzata"
   },
   "clear": {
-    "message": "Clear"
+    "message": "Cancella"
   },
   "reset": {
-    "message": "Reset"
+    "message": "Ripristina"
   },
   "informationLabel": {
     "message": "Informazione"
@@ -273,13 +273,13 @@
     "message": "Grazie per aver usato Simple Translate:<br>Il tuo supporto sarà un grosso incoraggiamento, per continuare lo sviluppo dell'add-on.<br>Se ti piace Simple Translate, sarei onorato se facessi una donazione."
   },
   "amazonTitleLabel": {
-    "message": "amazon.co.jp eGift Cards"
+    "message": "Buoni Regalo amazon.co.jp"
   },
   "addonPageLabel": {
     "message": "Pagina dell'Add-on"
   },
   "extensionPageLabel": {
-    "message": "Extension page"
+    "message": "Pagina dell'estensione"
   },
   "amazonUrl": {
     "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
@@ -306,6 +306,6 @@
     "message": "Tradurre il link selezionato"
   },
   "openPopupDescription": {
-    "message": "Open toolbar popup"
+    "message": "Apri popup della barra degli strumenti"
   }
 }

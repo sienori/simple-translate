@@ -9,10 +9,10 @@
     "message": "Spenden via PayPal"
   },
   "enableOnThisPage": {
-    "message": "Enable translation on this page"
+    "message": "Übersetzung auf dieser Seite aktivieren"
   },
   "disableOnThisPage": {
-    "message": "Disable translation on this page"
+    "message": "Übersetzung auf dieser Seite deaktivieren"
   },
   "initialTextArea": {
     "message": "Text eingeben"

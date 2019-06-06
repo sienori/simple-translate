@@ -162,7 +162,7 @@
     "message": "Rechts"
   },
   "positionOffsetLabel": {
-    "message": "Display position - Offset"
+    "message": "Anzeigeposition - Versatz"
   },
   "panelStyleLabel": {
     "message": "Übersetzungsfeld"
@@ -180,7 +180,7 @@
     "message": "Schriftgröße"
   },
   "referencePointLabel": {
-    "message": "Display position - Reference point"
+    "message": "Anzeigeposition - Orientierungspunkt"
   },
   "bottomSelectedTextLabel": {
     "message": "Unterer Teil des ausgewählten Textes"
@@ -195,10 +195,10 @@
     "message": "Anzeigeposition - Richtung"
   },
   "resultFontColorLabel": {
-    "message": "Font color of translation result"
+    "message": "Schriftfarbe des Übersetzungsergebnisses"
   },
   "candidateFontColorLabel": {
-    "message": "Font color of translation candidates"
+    "message": "Schriftfarbe der Übersetzungskandidaten"
   },
   "bgColorLabel": {
     "message": "Hintergrundfarbe"

@@ -9,10 +9,10 @@
     "message": "Faire un don avec PayPal"
   },
   "enableOnThisPage": {
-    "message": "Enable translation on this page"
+    "message": "Activer la traduction sur cette page"
   },
   "disableOnThisPage": {
-    "message": "Disable translation on this page"
+    "message": "Désactiver la traduction sur cette page"
   },
   "initialTextArea": {
     "message": "Entrer un text"
@@ -42,13 +42,13 @@
     "message": "Général"
   },
   "targetLangCaptionLabel": {
-    "message": "Select the default target language."
+    "message": "Sélectionnez la langue cible par défaut."
   },
   "webPageLabel": {
     "message": "Page Web"
   },
   "ifShowCandidateLabel": {
-    "message": "Show translation candidates"
+    "message": "Afficher les candidats à la traduction"
   },
   "ifShowCandidateCaptionLabel": {
     "message": "Show multiple translation candidates when a single word is translated."
@@ -132,37 +132,37 @@
     "message": "Specify the style of the translation button displayed on the web page."
   },
   "buttonSizeLabel": {
-    "message": "Size"
+    "message": "Taille"
   },
   "buttonPositionLabel": {
-    "message": "Display position"
+    "message": "Position d'affichage"
   },
   "topRightLabel": {
-    "message": "Top right"
+    "message": "En haut à droite"
   },
   "bottomRightLabel": {
-    "message": "Bottom right"
+    "message": "En Bas à Droite"
   },
   "topLeftLabel": {
-    "message": "Top left"
+    "message": "En haut à gauche"
   },
   "bottomLeftLabel": {
-    "message": "Bottom left"
+    "message": "En bas à gauche"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "Haut"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "Bas"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "Gauche"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "Droite"
   },
   "positionOffsetLabel": {
-    "message": "Display position - Offset"
+    "message": "Position d'affichage - Offset"
   },
   "panelStyleLabel": {
     "message": "Panneau de traduction"
@@ -180,16 +180,16 @@
     "message": "Taille du texte"
   },
   "referencePointLabel": {
-    "message": "Display position - Reference point"
+    "message": "Position d'affichage - Point de référence"
   },
   "bottomSelectedTextLabel": {
-    "message": "Bottom of selected text"
+    "message": "Bas du texte sélectionné"
   },
   "topSelectedTextLabel": {
-    "message": "Top of selected text"
+    "message": "Haut de texte sélectionné"
   },
   "clickedPointLabel": {
-    "message": "Clicked point"
+    "message": "Point cliqué"
   },
   "displayDirectionLabel": {
     "message": "Display position - Direction"

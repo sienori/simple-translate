@@ -6,7 +6,7 @@
     "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
   },
   "donateWithPaypalLabel": {
-    "message": "Donate with PayPal"
+    "message": "Donasi dengan PayPal"
   },
   "enableOnThisPage": {
     "message": "Enable translation on this page"
@@ -24,10 +24,10 @@
     "message": "Open in Google Translate"
   },
   "copyLabel": {
-    "message": "Copy"
+    "message": "Salin"
   },
   "copiedLabel": {
-    "message": "Copied."
+    "message": "Disalin."
   },
   "targetLangLabel": {
     "message": "Bahasa Target"

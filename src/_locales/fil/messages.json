@@ -9,10 +9,10 @@
     "message": "Magbigay ng Donasyon Gamit ang PayPal"
   },
   "enableOnThisPage": {
-    "message": "Enable translation on this page"
+    "message": "Paganahin ang pagsalin sa pahinang ito"
   },
   "disableOnThisPage": {
-    "message": "Disable translation on this page"
+    "message": "Huwag paganahin ang pagsalin sa pahinang ito"
   },
   "initialTextArea": {
     "message": "Ipasok ang teksto"
@@ -24,10 +24,10 @@
     "message": "Buksan sa Google Translate"
   },
   "copyLabel": {
-    "message": "Copy"
+    "message": "Kopya"
   },
   "copiedLabel": {
-    "message": "Copied."
+    "message": "Nakopya."
   },
   "targetLangLabel": {
     "message": "Target na lengguwahe"
@@ -105,13 +105,13 @@
     "message": "Piliin ang pangalawang target na lengguwahe."
   },
   "waitTimeLabel": {
-    "message": "Waiting time to translate"
+    "message": "Naghihintay ng oras upang magsalin"
   },
   "waitTimeCaptionLabel": {
     "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
   },
   "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
+    "message": "Kung naisalin mo ito ng maraming beses sa maikling oras, maari panandalian itong hindi magamit."
   },
   "menuLabel": {
     "message": "Context menu"
@@ -183,10 +183,10 @@
     "message": "Display position - Reference point"
   },
   "bottomSelectedTextLabel": {
-    "message": "Bottom of selected text"
+    "message": "Ilalim ng napiling teksto"
   },
   "topSelectedTextLabel": {
-    "message": "Top of selected text"
+    "message": "Taas ng napiling teksto"
   },
   "clickedPointLabel": {
     "message": "Clicked point"
@@ -204,10 +204,10 @@
     "message": "Kulay ng background"
   },
   "otherLabel": {
-    "message": "Other"
+    "message": "Iba pa"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Display option page when updating"
+    "message": "Ipakita ang pagpipiliang pahina habang naga-update"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
     "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."

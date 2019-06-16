@@ -87,37 +87,37 @@
     "message": "Lista URL-urilor pentru care traducerea va fi dezactivată"
   },
   "disableUrlListCaptionLabel": {
-    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
+    "message": "Daca URL-ul paginii se potrivește in listă, traducerea pe pagina web este dezactivată. Lista permite wildcard-uri de tip \"*\"."
   },
   "toolbarLabel": {
     "message": "Toolbar popup"
   },
   "ifChangeSecondLangLabel": {
-    "message": "Automatically switch to the second language"
+    "message": "Schimbă automat pe limba secundară"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+    "message": "Detectează limba textului introdus, iar dacă e identică cu limba țintă implicită, tradu in limba secundară."
   },
   "secondTargetLangLabel": {
     "message": "A doua limbă"
   },
   "secondTargetLangCaptionLabel": {
-    "message": "Select the second target language."
+    "message": "Selectează limba țintă secundară."
   },
   "waitTimeLabel": {
-    "message": "Waiting time to translate"
+    "message": "Timpul de așteptare pentru tradus"
   },
   "waitTimeCaptionLabel": {
-    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+    "message": "Specifică timpul de așteptare din momentul in care se introduce un caracter, până in momentul când se incepe traducerea. (în milisecunde)"
   },
   "waitTime2CaptionLabel": {
     "message": "If you translate it many times in a short time, it may become unusable for a while."
   },
   "menuLabel": {
-    "message": "Context menu"
+    "message": "Meniu contextual"
   },
   "ifShowMenuLabel": {
-    "message": "Display the context menu"
+    "message": "Arată meniul contextual"
   },
   "ifShowMenuCaptionLabel": {
     "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
@@ -150,43 +150,43 @@
     "message": "Bottom left"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "Sus"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "Jos"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "Stânga"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "Dreapta"
   },
   "positionOffsetLabel": {
     "message": "Display position - Offset"
   },
   "panelStyleLabel": {
-    "message": "Translation panel"
+    "message": "Panou de traducere"
   },
   "panelStyleCaptionLabel": {
-    "message": "Specify the style of the translation panel displayed on the web page."
+    "message": "Specifică stilul panoului de traducere afișat pe pagina web."
   },
   "widthLabel": {
-    "message": "Width"
+    "message": "Lațime"
   },
   "heightLabel": {
-    "message": "Height"
+    "message": "Înălțime"
   },
   "fontSizeLabel": {
     "message": "Dimensiune font"
   },
   "referencePointLabel": {
-    "message": "Display position - Reference point"
+    "message": "Poziție - Punct de referință"
   },
   "bottomSelectedTextLabel": {
-    "message": "Bottom of selected text"
+    "message": "Josul textului selectat"
   },
   "topSelectedTextLabel": {
-    "message": "Top of selected text"
+    "message": "Susul textului selectat"
   },
   "clickedPointLabel": {
     "message": "Clicked point"
@@ -195,19 +195,19 @@
     "message": "Display position - Direction"
   },
   "resultFontColorLabel": {
-    "message": "Font color of translation result"
+    "message": "Culoarea fontului rezultatului tradus"
   },
   "candidateFontColorLabel": {
-    "message": "Font color of translation candidates"
+    "message": "Culoarea fontului variantelor de traducere"
   },
   "bgColorLabel": {
-    "message": "Background color"
+    "message": "Culoare de fundal"
   },
   "otherLabel": {
-    "message": "Other"
+    "message": "Altele"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Display option page when updating"
+    "message": "Arată pagina de opțiuni cand se actualizează"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
     "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."

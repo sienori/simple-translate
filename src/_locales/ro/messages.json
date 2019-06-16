@@ -42,49 +42,49 @@
     "message": "General"
   },
   "targetLangCaptionLabel": {
-    "message": "Select the default target language."
+    "message": "Selectează limba implicită."
   },
   "webPageLabel": {
     "message": "Pagină web"
   },
   "ifShowCandidateLabel": {
-    "message": "Show translation candidates"
+    "message": "Arată variante de traducere"
   },
   "ifShowCandidateCaptionLabel": {
-    "message": "Show multiple translation candidates when a single word is translated."
+    "message": "Arată variante multiple de traducere când un singur cuvânt e tradus."
   },
   "whenSelectTextLabel": {
-    "message": "Behavior when selecting text"
+    "message": "Comportament când textul este selectat"
   },
   "ifAutoTranslateLabel": {
-    "message": "Display translation panel"
+    "message": "Arată panou de traducere"
   },
   "ifAutoTranslateCaptionLabel": {
-    "message": "Directly display the translation panel without displaying the button."
+    "message": "Arată direct panoul de traducere, fără a afișa butonul."
   },
   "ifShowButtonLabel": {
-    "message": "Display translation button"
+    "message": "Arată butonul de traducere"
   },
   "ifShowButtonCaptionLabel": {
     "message": "Display the translation button to open the panel when clicked."
   },
   "dontshowbuttonlabel": {
-    "message": "Don't display button or panel"
+    "message": "Nu arăta butonul sau panoul"
   },
   "dontshowbuttonCaptionlabel": {
-    "message": "Don't display the translation button or the translation panel."
+    "message": "Nu arăta butonul de traducere sau panoul de traducere."
   },
   "ifCheckLangLabel": {
-    "message": "Do not display the button if translation is not required"
+    "message": "Nu arăta butonul dacă traducerea nu este necesară"
   },
   "ifCheckLangCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+    "message": "Detectează limba textului selectat, iar dacă e identică cu limba țintă, butonul nu este afișat."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+    "message": "Detectează limba textului selectat, iar dacă e identică cu limba țintă implicită, tradu in limba secundară."
   },
   "disableUrlListLabel": {
-    "message": "URL list to disable translation"
+    "message": "Lista URL-urilor pentru care traducerea va fi dezactivată"
   },
   "disableUrlListCaptionLabel": {
     "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."

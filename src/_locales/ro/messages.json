@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
+    "message": "Tradu rapid textul selectat pe pagina web. In fereastra din toolbar, poți traduce textul introdus."
   },
   "donateWithPaypalLabel": {
     "message": "Donează prin PayPal"
@@ -33,7 +33,7 @@
     "message": "Limba ţintă"
   },
   "langList": {
-    "message": "af:Afrikaans, sq:Albanian, am:Amharic, ar:Arabic, hy:Armenian, az:Azerbaijani, eu:Basque, be:Belarusian, bn:Bengali, bs:Bosnian, bg:Bulgarian, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Chinese (PRC), zh-TW:Chinese (Taiwan), co:Corsican, hr:Croatian, cs:Czech, da:Danish, nl:Dutch, en:English, eo:Esperanto, et:Estonian, fi:Finnish, fr:French, fy:Frisian, gl:Galician, ka:Georgian, de:German, el:Greek, gu:Gujarati, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesian, ga:Irish, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Korean, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:Macedonian, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persian, pl:Polish, pt:Portuguese, pa:Punjabi, ps:Pushto, ro:Romanian, ru:Russian, sm:Samoan, gd:Scottish Gaelic, sr:Serbian, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovak, sl:Slovenian, so:Somali, sx:Sotho, es:Spanish, su:Sundanese, sw:Swahili, sv:Swedish, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turkish, uk:Ukrainian, ur:Urdu, uz:Uzbek, vi:Vietnamese, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
+    "message": "af:Afrikaans, sq:Albaneză, am:Amharic, ar:Arabă, hy:Armenian, az:Azerbaijani, eu:Basque, be: Belarusian, bn:Cebuano, ny:Chewa, zh-CN:Chineză (PRC), zh-TW:Chineză (Taiwan), co:Corsicană, hr:Esperanto, et:Estoniană, fi:Finlandeză, fr:Franceză, fy:Friziană, gl:Galiciană, ka:Georgiană, el:Ebraică, hi:Hindi, hu:Maghiară, is:Islandeză, ig:Igbo, id:Indoneziană, ga:Khmer, ky:Kirghiz, ko:Coreeană, ku:Kurdă, lo:Laotiană, la:Latină, lv:Letoniană mt:Malteză, mi:Maori, mr:Marathi, mn:Mongolă, hmn:Monk, my:Myanmar, ne:Nepali, no:Norvegiană, fa:Persană, pl: Poloneză, pt:Portugheză, pa:Punjabi, my:Myanmar, ne:Nepali, Pushto, ro:Română, ru:Rusă, sm:Samoan, gd:Gaelică scoțiană, sr:Sârbă, sn:Shona, sd:Sindh i, si:Sinhala, sk:Slovacă, sl:Slovenă, deci:Somali, sx:Sotho, es:Spaniolă, te:Telugu, th:Tailandeză, tr:Turcă, uk:Ucraineană, ur: Urdu, uz:Uzbek, vi:Vietnameză, cy:Galeză, xh:Xosa, yi:Idiș, yo:Yoruba, zu:Zulu"
   },
   "settingsLabel": {
     "message": "Setări"
@@ -66,7 +66,7 @@
     "message": "Arată butonul de traducere"
   },
   "ifShowButtonCaptionLabel": {
-    "message": "Display the translation button to open the panel when clicked."
+    "message": "Arată butonul de traducere ce deschide panoul atunci cand este apăsat."
   },
   "dontshowbuttonlabel": {
     "message": "Nu arăta butonul sau panoul"
@@ -90,7 +90,7 @@
     "message": "Daca URL-ul paginii se potrivește in listă, traducerea pe pagina web este dezactivată. Lista permite wildcard-uri de tip \"*\"."
   },
   "toolbarLabel": {
-    "message": "Toolbar popup"
+    "message": "Fereastra din toolbar"
   },
   "ifChangeSecondLangLabel": {
     "message": "Schimbă automat pe limba secundară"
@@ -111,7 +111,7 @@
     "message": "Specifică timpul de așteptare din momentul in care se introduce un caracter, până in momentul când se incepe traducerea. (în milisecunde)"
   },
   "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
+    "message": "Dacă traduci de multe ori intr-un timp scurt, ar putea deveni nefolosibil pentru scurt timp."
   },
   "menuLabel": {
     "message": "Meniu contextual"
@@ -120,7 +120,7 @@
     "message": "Arată meniul contextual"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+    "message": "Adaugă obiecte in meniul contextual afișat atunci cand faci click dreapta pe o pagină web sau pe un tab."
   },
   "styleLabel": {
     "message": "Stil"
@@ -162,7 +162,7 @@
     "message": "Dreapta"
   },
   "positionOffsetLabel": {
-    "message": "Display position - Offset"
+    "message": "Poziție - Decalaj"
   },
   "panelStyleLabel": {
     "message": "Panou de traducere"
@@ -210,7 +210,7 @@
     "message": "Arată pagina de opțiuni cand se actualizează"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+    "message": "Afișează pagina de opțiuni când Simple Translate este actualizat. Poți afla rapid conținutul actualizării."
   },
   "isDebugModeLabel": {
     "message": "Activați modul de depanare"

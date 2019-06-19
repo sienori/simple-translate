@@ -3,25 +3,25 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
+    "message": "Nhanh chóng dịch văn bản đã chọn trên trang web. Trong thanh công cụ bật lên, bạn có thể dịch văn bản nguồn."
   },
   "donateWithPaypalLabel": {
-    "message": "Donate with PayPal"
+    "message": "Đóng góp bằng PayPal"
   },
   "enableOnThisPage": {
-    "message": "Enable translation on this page"
+    "message": "Cho phép dịch trên trang này"
   },
   "disableOnThisPage": {
-    "message": "Disable translation on this page"
+    "message": "Vô hiệu hóa dịch trên trang này"
   },
   "initialTextArea": {
-    "message": "Enter text"
+    "message": "Nhập văn bản"
   },
   "showLink": {
     "message": "Dịch trang này"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "Mở trong Google Dịch"
   },
   "copyLabel": {
     "message": "Sao chép"
@@ -30,7 +30,7 @@
     "message": "Đã sao chép."
   },
   "targetLangLabel": {
-    "message": "Target language"
+    "message": "Ngôn ngữ đích"
   },
   "langList": {
     "message": "af:Afrikaans, sq:Albanian, am:Amharic, ar:Arabic, hy:Armenian, az:Azerbaijani, eu:Basque, be:Belarusian, bn:Bengali, bs:Bosnian, bg:Bulgarian, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Chinese (PRC), zh-TW:Chinese (Taiwan), co:Corsican, hr:Croatian, cs:Czech, da:Danish, nl:Dutch, en:English, eo:Esperanto, et:Estonian, fi:Finnish, fr:French, fy:Frisian, gl:Galician, ka:Georgian, de:German, el:Greek, gu:Gujarati, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesian, ga:Irish, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Korean, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:Macedonian, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persian, pl:Polish, pt:Portuguese, pa:Punjabi, ps:Pushto, ro:Romanian, ru:Russian, sm:Samoan, gd:Scottish Gaelic, sr:Serbian, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovak, sl:Slovenian, so:Somali, sx:Sotho, es:Spanish, su:Sundanese, sw:Swahili, sv:Swedish, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turkish, uk:Ukrainian, ur:Urdu, uz:Uzbek, vi:Vietnamese, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
@@ -39,13 +39,13 @@
     "message": "Cài đặt"
   },
   "generalLabel": {
-    "message": "General"
+    "message": "Tổng quát"
   },
   "targetLangCaptionLabel": {
-    "message": "Select the default target language."
+    "message": "Chọn ngôn ngữ đích mặc định."
   },
   "webPageLabel": {
-    "message": "Web page"
+    "message": "Trang Web"
   },
   "ifShowCandidateLabel": {
     "message": "Show translation candidates"
@@ -54,34 +54,34 @@
     "message": "Show multiple translation candidates when a single word is translated."
   },
   "whenSelectTextLabel": {
-    "message": "Behavior when selecting text"
+    "message": "Hành động khi chọn văn bản"
   },
   "ifAutoTranslateLabel": {
-    "message": "Display translation panel"
+    "message": "Hiển thị bảng dịch"
   },
   "ifAutoTranslateCaptionLabel": {
-    "message": "Directly display the translation panel without displaying the button."
+    "message": "Hiển thị trực tiếp bảng dịch mà không hiển thị nút."
   },
   "ifShowButtonLabel": {
-    "message": "Display translation button"
+    "message": "Hiển thị nút dịch"
   },
   "ifShowButtonCaptionLabel": {
-    "message": "Display the translation button to open the panel when clicked."
+    "message": "Hiển thị nút dịch để mở bảng điều khiển khi nhấp vào."
   },
   "dontshowbuttonlabel": {
-    "message": "Don't display button or panel"
+    "message": "Không hiển thị nút hoặc bảng điều khiển"
   },
   "dontshowbuttonCaptionlabel": {
-    "message": "Don't display the translation button or the translation panel."
+    "message": "Không hiển thị nút để dịch hoặc bảng dịch."
   },
   "ifCheckLangLabel": {
-    "message": "Do not display the button if translation is not required"
+    "message": "Không hiển thị nút nếu không cần dịch"
   },
   "ifCheckLangCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+    "message": "Phát hiện ngôn ngữ của văn bản đã chọn và nếu nó giống với ngôn ngữ đích, nút sẽ không hiển thị."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+    "message": "Phát hiện ngôn ngữ của văn bản đã chọn và nếu nó giống với ngôn ngữ đích mặc định, hãy dịch nó sang ngôn ngữ thứ hai."
   },
   "disableUrlListLabel": {
     "message": "URL list to disable translation"

@@ -189,7 +189,7 @@
     "message": "Phía trên văn bản được chọn"
   },
   "clickedPointLabel": {
-    "message": "Clicked point"
+    "message": "Điểm nhấp"
   },
   "displayDirectionLabel": {
     "message": "Vị trí hiển thị - Hướng"
@@ -243,13 +243,13 @@
     "message": "Nhập một kí tự"
   },
   "includeModifierKeysMessage": {
-    "message": "Include either Ctrl or Alt"
+    "message": "Bao gồm phím Ctrl hoặc Alt"
   },
   "includeMacModifierKeysMessage": {
-    "message": "Include either Command, Ctrl or Alt"
+    "message": "Bao gồm phím Command, Ctrl hoặc Alt"
   },
   "invalidLetterMessage": {
-    "message": "The letter can not be used"
+    "message": "Không thể sử dụng kí tự này"
   },
   "invalidShortcutMessage": {
     "message": "Không thể sử dụng phím tắt này"
@@ -270,7 +270,7 @@
     "message": "Hãy đóng góp"
   },
   "donationCaptionLabel": {
-    "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+    "message": "Cảm ơn bạn đã sử dụng Simple Translate.<br>Sự hỗ trợ của bạn sẽ là một sự khích lệ lớn, khi tôi tiếp tục phát triển tiện ích mở rộng.<br>Nếu bạn thích Simple Translate, tôi sẽ rất vui nếu bạn có thể xem xét quyên góp."
   },
   "amazonTitleLabel": {
     "message": "Thẻ eGift của amazon.co.jp"

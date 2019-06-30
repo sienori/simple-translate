@@ -270,7 +270,7 @@
     "message": "Faites un don"
   },
   "donationCaptionLabel": {
-    "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+    "message": "Merci d'utiliser Simple Translate. <br>Votre soutien sera un grand encouragement, car je continue à développer le module. <br> Si vous aimez Simple Translate, je serais ravi si vous pouviez envisager de faire un don."
   },
   "amazonTitleLabel": {
     "message": "Cartes Cadeaux (amazon.co.jp)"
@@ -291,7 +291,7 @@
     "message": "Erreur : Vérifiez l'état de la connexion réseau."
   },
   "unavailableError": {
-    "message": "Error: Service usage limit reached. Please wait a while and try again."
+    "message": "Erreur : Limite d'utilisation du service atteinte. Veuillez patienter un moment et réessayer."
   },
   "unknownError": {
     "message": "Erreur : inconnue"

@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Traduit rapidement le texte sélectionné sur la page web. Dans la barre d'outils, vous pouvez traduire le texte entré."
+    "message": "Traduit rapidement le texte sélectionné sur la page web. Dans la fenêtre popup de la barre d'outils, vous pouvez traduire le texte entré."
   },
   "donateWithPaypalLabel": {
     "message": "Faire un don avec PayPal"
@@ -54,55 +54,55 @@
     "message": "Afficher plusieurs propositions de traduction lorsqu'un seul mot est traduit."
   },
   "whenSelectTextLabel": {
-    "message": "Behavior when selecting text"
+    "message": "Comportement lorsque le texte est sélectionné"
   },
   "ifAutoTranslateLabel": {
-    "message": "Display translation panel"
+    "message": "Affiche le panneau de traduction"
   },
   "ifAutoTranslateCaptionLabel": {
-    "message": "Directly display the translation panel without displaying the button."
+    "message": "Affiche directement le panneau de traduction sans afficher le bouton."
   },
   "ifShowButtonLabel": {
-    "message": "Display translation button"
+    "message": "Affiche le bouton de traduction"
   },
   "ifShowButtonCaptionLabel": {
-    "message": "Display the translation button to open the panel when clicked."
+    "message": "Affiche le bouton de traduction pour ouvrir le panneau lorsque l'on clique dessus."
   },
   "dontshowbuttonlabel": {
-    "message": "Don't display button or panel"
+    "message": "Ne pas afficher le bouton ou le panneau"
   },
   "dontshowbuttonCaptionlabel": {
-    "message": "Don't display the translation button or the translation panel."
+    "message": "Ne pas afficher le bouton de traduction ou le panneau de traduction."
   },
   "ifCheckLangLabel": {
-    "message": "Do not display the button if translation is not required"
+    "message": "Ne pas afficher le bouton si la traduction n'est pas requise"
   },
   "ifCheckLangCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+    "message": "Détecte la langue du texte sélectionné, et si c'est la même que la langue cible, le bouton ne s'affiche pas."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+    "message": "Détecte la langue du texte sélectionné, et si elle est la même que la langue cible par défaut, traduire le texte dans la seconde langue."
   },
   "disableUrlListLabel": {
-    "message": "URL list to disable translation"
+    "message": "Liste URL pour désactiver la traduction"
   },
   "disableUrlListCaptionLabel": {
-    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
+    "message": "Si l'URL de la page correspond à la liste, la traduction sur la page web est désactivée. La liste permet les caractères \"*\"."
   },
   "toolbarLabel": {
-    "message": "Toolbar popup"
+    "message": "Fenêtre popup de la barre d'outils"
   },
   "ifChangeSecondLangLabel": {
-    "message": "Automatically switch to the second language"
+    "message": "Basculer automatiquement vers la deuxième langue"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+    "message": "Détecte la langue du texte entré, et si elle est la même que la langue cible par défaut, traduire le texte dans la seconde langue."
   },
   "secondTargetLangLabel": {
-    "message": "Second language"
+    "message": "Deuxième langue"
   },
   "secondTargetLangCaptionLabel": {
-    "message": "Select the second target language."
+    "message": "Sélectionnez la seconde langue cible."
   },
   "waitTimeLabel": {
     "message": "Waiting time to translate"

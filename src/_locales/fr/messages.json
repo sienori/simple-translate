@@ -105,31 +105,31 @@
     "message": "Sélectionnez la seconde langue cible."
   },
   "waitTimeLabel": {
-    "message": "Waiting time to translate"
+    "message": "Temps d'attente pour la traduction"
   },
   "waitTimeCaptionLabel": {
-    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+    "message": "Précise le temps d'attente de l'entrée d'un caractère au début de la traduction. (milliseconde)"
   },
   "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
+    "message": "Si vous le traduisez plusieurs fois dans un court laps de temps, il peut devenir inutilisable pendant un moment."
   },
   "menuLabel": {
-    "message": "Context menu"
+    "message": "Menu contextuel"
   },
   "ifShowMenuLabel": {
-    "message": "Display the context menu"
+    "message": "Afficher le menu contextuel"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+    "message": "Ajoute des éléments au menu contextuel affiché lorsque vous cliquez avec le bouton droit sur la page Web ou l'onglet."
   },
   "styleLabel": {
     "message": "Style"
   },
   "buttonStyleLabel": {
-    "message": "Translation button"
+    "message": "Bouton de traduction"
   },
   "buttonStyleCaptionLabel": {
-    "message": "Specify the style of the translation button displayed on the web page."
+    "message": "Définit le style du bouton de traduction affiché sur la page web."
   },
   "buttonSizeLabel": {
     "message": "Taille"
@@ -192,7 +192,7 @@
     "message": "Point cliqué"
   },
   "displayDirectionLabel": {
-    "message": "Display position - Direction"
+    "message": "Position d'affichage - Direction"
   },
   "resultFontColorLabel": {
     "message": "Couleur du texte traduit"
@@ -207,16 +207,16 @@
     "message": "Autre"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Display option page when updating"
+    "message": "Affiche la page d'option lors de la mise à jour"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+    "message": "Afficher la page des options lorsque Simple Translate est mis à jour. Vous pouvez connaître le contenu de la mise à jour rapidement."
   },
   "isDebugModeLabel": {
-    "message": "Enable debug mode"
+    "message": "Activer le mode débogage"
   },
   "isDebugModeCaptionLabel": {
-    "message": "When debug mode is enabled, the log is output to the debugger."
+    "message": "Lorsque le mode débogage est activé, les données sont sorties vers le débogueur."
   },
   "resetSettingsLabel": {
     "message": "Réinitialiser les paramètres"
@@ -234,19 +234,19 @@
     "message": "Raccourcis clavier"
   },
   "setKeyboardShortCutsMessage": {
-    "message": "Set keyboard shortcuts."
+    "message": "Définir les raccourcis clavier."
   },
   "typeShortcutMessage": {
-    "message": "Type a shortcut"
+    "message": "Tapez un raccourci"
   },
   "typeLetterMessage": {
-    "message": "Type a letter"
+    "message": "Tapez une lettre"
   },
   "includeModifierKeysMessage": {
-    "message": "Include either Ctrl or Alt"
+    "message": "Il faut au moins utiliser Ctrl ou Alt"
   },
   "includeMacModifierKeysMessage": {
-    "message": "Include either Command, Ctrl or Alt"
+    "message": "Il faut au moins utiliser Commond, Ctrl ou Alt"
   },
   "invalidLetterMessage": {
     "message": "Cette lettre ne peut pas être utilisée"
@@ -273,13 +273,13 @@
     "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
   },
   "amazonTitleLabel": {
-    "message": "amazon.co.jp eGift Cards"
+    "message": "Cartes Cadeaux (amazon.co.jp)"
   },
   "addonPageLabel": {
     "message": "Page de l'extension"
   },
   "extensionPageLabel": {
-    "message": "Extension page"
+    "message": "Page de l'extension"
   },
   "amazonUrl": {
     "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"

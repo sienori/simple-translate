@@ -9,10 +9,10 @@
     "message": "Donasi dengan PayPal"
   },
   "enableOnThisPage": {
-    "message": "Enable translation on this page"
+    "message": "aktifkan terjemahan pada halaman ini"
   },
   "disableOnThisPage": {
-    "message": "Disable translation on this page"
+    "message": "matikan terjemahan pada halaman ini"
   },
   "initialTextArea": {
     "message": "Masukkan teks"

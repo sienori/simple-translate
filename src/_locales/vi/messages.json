@@ -48,10 +48,10 @@
     "message": "Trang Web"
   },
   "ifShowCandidateLabel": {
-    "message": "Show translation candidates"
+    "message": "Hiển thị ứng viên dịch thuật"
   },
   "ifShowCandidateCaptionLabel": {
-    "message": "Show multiple translation candidates when a single word is translated."
+    "message": "Hiển thị nhiều ứng viên dịch khi một từ duy nhất được dịch."
   },
   "whenSelectTextLabel": {
     "message": "Hành động khi chọn văn bản"

@@ -48,10 +48,10 @@
     "message": "Trang Web"
   },
   "ifShowCandidateLabel": {
-    "message": "Hiển thị ứng viên dịch thuật"
+    "message": "Hiển thị đề cử dịch thuật"
   },
   "ifShowCandidateCaptionLabel": {
-    "message": "Hiển thị nhiều ứng viên dịch khi một từ duy nhất được dịch."
+    "message": "Hiển thị nhiều đề cử dịch khi một từ duy nhất được dịch."
   },
   "whenSelectTextLabel": {
     "message": "Hành động khi chọn văn bản"
@@ -162,7 +162,7 @@
     "message": "Phải"
   },
   "positionOffsetLabel": {
-    "message": "Display position - Offset"
+    "message": "Vị trí hiển thị - Bù đắp"
   },
   "panelStyleLabel": {
     "message": "Bảng dịch"
@@ -198,7 +198,7 @@
     "message": "Màu chữ của kết quả dịch"
   },
   "candidateFontColorLabel": {
-    "message": "Font color of translation candidates"
+    "message": "Màu chữ của đề cử dịch thuật"
   },
   "bgColorLabel": {
     "message": "Màu nền"

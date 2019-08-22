@@ -60,7 +60,7 @@ export default class PopupPage extends Component {
       tabUrl: tabInfo.url,
       isEnabledOnPage: tabInfo.isEnabledOnPage
     });
-    if (tabInfo.selectedText !== "") this.translateText(tabInfo.selectedText, targetLang);
+    if (tabInfo.selectedText !== "") this.handleInputText(tabInfo.selectedText);
   };
 
   handleInputText = inputText => {
@@ -68,10 +68,10 @@ export default class PopupPage extends Component {
 
     const waitTime = getSettings("waitTime");
     clearTimeout(this.inputTimer);
-    this.inputTimer = setTimeout(
-      () => this.translateText(inputText, this.state.targetLang),
-      waitTime
-    );
+    this.inputTimer = setTimeout(async () => {
+      const result = await this.translateText(inputText, this.state.targetLang);
+      this.switchSecondLang(result);
+    }, waitTime);
   };
 
   handleLangChange = lang => {
@@ -87,7 +87,7 @@ export default class PopupPage extends Component {
       candidateText: result.candidateText,
       statusText: result.statusText
     });
-    this.switchSecondLang(result);
+    return result;
   };
 
   switchSecondLang = result => {

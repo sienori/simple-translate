@@ -64,7 +64,7 @@ const formatResult = result => {
   }
 
   resultData.sourceLanguage = result.response.src;
-  resultData.percentage = result.response.confidence;
+  resultData.percentage = result.response.ld_result.srclangs_confidences[0];
   resultData.resultText = result.response.sentences.map(sentence => sentence.trans).join("");
   if (result.response.dict) {
     resultData.candidateText = result.response.dict

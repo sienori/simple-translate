@@ -18,11 +18,13 @@ const getTabInfo = async () => {
     const tabUrl = browser.tabs.sendMessage(tab.id, { message: "getTabUrl" });
     const selectedText = browser.tabs.sendMessage(tab.id, { message: "getSelectedText" });
     const isEnabledOnPage = browser.tabs.sendMessage(tab.id, { message: "getEnabled" });
+
+    const tabInfo = await Promise.all([tabUrl, selectedText, isEnabledOnPage]);
     return {
       isConnected: true,
-      url: await tabUrl,
-      selectedText: await selectedText,
-      isEnabledOnPage: await isEnabledOnPage
+      url: tabInfo[0],
+      selectedText: tabInfo[1],
+      isEnabledOnPage: tabInfo[2]
     };
   } catch (e) {
     return { isConnected: false, url: "", selectedText: "", isEnabledOnPage: false };

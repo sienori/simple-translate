@@ -3,16 +3,16 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
+    "message": "Übersetzen Sie schnell ausgewählten Text auf einer Webseite. Im Popup-Fenster der Symbolleiste können Sie den eingegebenen Text übersetzen."
   },
   "donateWithPaypalLabel": {
-    "message": "Donate with PayPal"
+    "message": "Spenden via PayPal"
   },
   "enableOnThisPage": {
-    "message": "Enable translation on this page"
+    "message": "Übersetzung auf dieser Seite aktivieren"
   },
   "disableOnThisPage": {
-    "message": "Disable translation on this page"
+    "message": "Übersetzung auf dieser Seite deaktivieren"
   },
   "initialTextArea": {
     "message": "Text eingeben"
@@ -21,13 +21,13 @@
     "message": "Diese Seite übersetzen"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "Öffne in Google Translate"
   },
   "copyLabel": {
-    "message": "Copy"
+    "message": "Kopieren"
   },
   "copiedLabel": {
-    "message": "Copied."
+    "message": "Kopiert."
   },
   "targetLangLabel": {
     "message": "Zielsprache"
@@ -81,13 +81,13 @@
     "message": "Erkennt die Sprache des ausgewählten Textes und zeigt den Übersetzen-Knopf nicht an, wenn der Text bereits in der Zielsprache ist."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+    "message": "Erkennt die Sprache des ausgewählten Textes, und wenn sie mit der Standard-Zielsprache übereinstimmt, übersetzen Sie sie in die zweite Sprache."
   },
   "disableUrlListLabel": {
-    "message": "URL list to disable translation"
+    "message": "URL-Liste zum Deaktivieren der Übersetzung"
   },
   "disableUrlListCaptionLabel": {
-    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
+    "message": "Wenn die Seiten-URL mit der Liste übereinstimmt, ist die Übersetzung auf der Webseite deaktiviert. Die Liste erlaubt \"*\" Wildcards."
   },
   "toolbarLabel": {
     "message": "Werkzeugleistenfenster"
@@ -105,22 +105,22 @@
     "message": "Zweitsprache wählen."
   },
   "waitTimeLabel": {
-    "message": "Waiting time to translate"
+    "message": "Wartezeit bis zur Übersetzung"
   },
   "waitTimeCaptionLabel": {
-    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+    "message": "Geben Sie die Wartezeit von der Eingabe eines Zeichens bis zum Beginn der Übersetzung an. (Millisekunde)"
   },
   "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
+    "message": "Wenn Sie es in kurzer Zeit mehrmals übersetzen, kann es für eine Weile unbrauchbar werden."
   },
   "menuLabel": {
-    "message": "Context menu"
+    "message": "Kontextmenü"
   },
   "ifShowMenuLabel": {
     "message": "Kontextmenü anzeigen"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+    "message": "Fügen Sie Elemente zu dem Kontextmenü hinzu, das beim Rechtsklick auf die Webseite oder dem Tab angezeigt wird."
   },
   "styleLabel": {
     "message": "Erscheinungsbild"
@@ -138,31 +138,31 @@
     "message": "Anzeigeposition"
   },
   "topRightLabel": {
-    "message": "Top right"
+    "message": "Oben rechts"
   },
   "bottomRightLabel": {
-    "message": "Bottom right"
+    "message": "Unten rechts"
   },
   "topLeftLabel": {
-    "message": "Top left"
+    "message": "Oben links"
   },
   "bottomLeftLabel": {
-    "message": "Bottom left"
+    "message": "Unten links"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "Oben"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "Unten"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "Links"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "Rechts"
   },
   "positionOffsetLabel": {
-    "message": "Display position - Offset"
+    "message": "Anzeigeposition - Versatz"
   },
   "panelStyleLabel": {
     "message": "Übersetzungsfeld"
@@ -180,85 +180,85 @@
     "message": "Schriftgröße"
   },
   "referencePointLabel": {
-    "message": "Display position - Reference point"
+    "message": "Anzeigeposition - Orientierungspunkt"
   },
   "bottomSelectedTextLabel": {
-    "message": "Bottom of selected text"
+    "message": "Unterer Teil des ausgewählten Textes"
   },
   "topSelectedTextLabel": {
-    "message": "Top of selected text"
+    "message": "Oberer Teil des ausgewählten Textes"
   },
   "clickedPointLabel": {
-    "message": "Clicked point"
+    "message": "Angeklickter Punkt"
   },
   "displayDirectionLabel": {
-    "message": "Display position - Direction"
+    "message": "Anzeigeposition - Richtung"
   },
   "resultFontColorLabel": {
-    "message": "Font color of translation result"
+    "message": "Schriftfarbe des Übersetzungsergebnisses"
   },
   "candidateFontColorLabel": {
-    "message": "Font color of translation candidates"
+    "message": "Schriftfarbe der Übersetzungskandidaten"
   },
   "bgColorLabel": {
     "message": "Hintergrundfarbe"
   },
   "otherLabel": {
-    "message": "Other"
+    "message": "Andere"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Display option page when updating"
+    "message": "Öffne die Einstellungen bei Aktualisierungen"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+    "message": "Zeigt die Einstellugen an, wenn Simple Translate aktualisiert wird. Sie können den Inhalt des Updates schnell erkennen."
   },
   "isDebugModeLabel": {
-    "message": "Enable debug mode"
+    "message": "Debugs-Modus aktivieren"
   },
   "isDebugModeCaptionLabel": {
-    "message": "When debug mode is enabled, the log is output to the debugger."
+    "message": "Wenn der Debug-Modus aktiviert ist, wird das Protokoll an den Debugger ausgegeben."
   },
   "resetSettingsLabel": {
-    "message": "Reset settings"
+    "message": "Einstellungen zurücksetzen"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Restore all settings to default."
+    "message": "Alle Einstellungen auf den Standardwert zurücksetzen."
   },
   "resetSettingsButtonLabel": {
-    "message": "Reset"
+    "message": "Zurücksetzen"
   },
   "shortcutsLabel": {
-    "message": "Shortcuts"
+    "message": "Tastenkürzel"
   },
   "keyboardShortcutsLabel": {
-    "message": "Keyboard shortcuts"
+    "message": "Tastenkombinationen"
   },
   "setKeyboardShortCutsMessage": {
-    "message": "Set keyboard shortcuts."
+    "message": "Definiere Tastenkürzel."
   },
   "typeShortcutMessage": {
-    "message": "Type a shortcut"
+    "message": "Tastenkürzel eingeben"
   },
   "typeLetterMessage": {
-    "message": "Type a letter"
+    "message": "Geben Sie einen Buchstaben ein"
   },
   "includeModifierKeysMessage": {
-    "message": "Include either Ctrl or Alt"
+    "message": "Binden Sie entweder Strg oder Alt ein"
   },
   "includeMacModifierKeysMessage": {
-    "message": "Include either Command, Ctrl or Alt"
+    "message": "Binden Sie entweder Befehl, Strg oder Alt ein"
   },
   "invalidLetterMessage": {
-    "message": "The letter can not be used"
+    "message": "Dieser Buchstabe kann nicht verwendet werden"
   },
   "invalidShortcutMessage": {
-    "message": "The shortcut can not be used"
+    "message": "Dieser Tastenkürzel kann nicht verwendet werden"
   },
   "clear": {
-    "message": "Clear"
+    "message": "Löschen"
   },
   "reset": {
-    "message": "Reset"
+    "message": "Zurücksetzen"
   },
   "informationLabel": {
     "message": "Information"
@@ -273,13 +273,13 @@
     "message": "Danke für das Benutzen von Simple Translate.<br>Deine Unterstützung wird ein großer Ansporn bei der Weiterentwicklung dieses Add-ons sein.<br>Wenn du Simple Translate magst, wäre es schön, wenn du etwas spenden würdest."
   },
   "amazonTitleLabel": {
-    "message": "amazon.co.jp eGift Cards"
+    "message": "amazon.co.jp eGeschenkekarten"
   },
   "addonPageLabel": {
     "message": "Add-on-Seite"
   },
   "extensionPageLabel": {
-    "message": "Extension page"
+    "message": "Erweiterungs Seite"
   },
   "amazonUrl": {
     "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
@@ -288,13 +288,13 @@
     "message": "https:\/\/addons.mozilla.org\/de\/firefox\/addon\/simple-translate\/?src=optionpage"
   },
   "networkError": {
-    "message": "Error: Check network connection status."
+    "message": "Fehler: Überprüfen Sie den Netzwerkstatus."
   },
   "unavailableError": {
-    "message": "Error: Service usage limit reached. Please wait a while and try again."
+    "message": "Fehler: Service-Nutzungslimit erreicht. Bitte warten Sie einen Moment und versuchen Sie es erneut."
   },
   "unknownError": {
-    "message": "Error: Unknown error"
+    "message": "Fehler: Unbekannter Fehler"
   },
   "translatePageMenu": {
     "message": "Diese Seite übersetzen"
@@ -306,6 +306,6 @@
     "message": "Ausgewählten Link übersetzen"
   },
   "openPopupDescription": {
-    "message": "Open toolbar popup"
+    "message": "Toolbar-Popup öffnen"
   }
 }

@@ -9,10 +9,10 @@
     "message": "PayPal ile bağış yapın"
   },
   "enableOnThisPage": {
-    "message": "Enable translation on this page"
+    "message": "Çeviriyi bu sayfada etkinleştirin"
   },
   "disableOnThisPage": {
-    "message": "Disable translation on this page"
+    "message": "Çeviriyi bu sayfada devre dışı bırakın"
   },
   "initialTextArea": {
     "message": "Metin girin"
@@ -84,13 +84,13 @@
     "message": "Seçili metnin dilini algılar ve varsayılan hedef dille aynıysa, ikinci dile çevirir."
   },
   "disableUrlListLabel": {
-    "message": "URL list to disable translation"
+    "message": "Çeviriyi devre dışı bırakmak için URL listesi"
   },
   "disableUrlListCaptionLabel": {
-    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
+    "message": "Sayfa URL’si listeyle eşleşirse, web sayfasındaki çeviri devre dışı bırakılır. Liste özel karakterlere \"*\"  izin verir."
   },
   "toolbarLabel": {
-    "message": "Açılır araç çubuğu penceresi"
+    "message": "Araç çubuğu penceresi"
   },
   "ifChangeSecondLangLabel": {
     "message": "İkinci dile otomatik geç"
@@ -117,7 +117,7 @@
     "message": "İçerik menüsü"
   },
   "ifShowMenuLabel": {
-    "message": "İçerik menüsünde görüntüle"
+    "message": "İçerik menüsünü görüntüle"
   },
   "ifShowMenuCaptionLabel": {
     "message": "Web sayfasına veya sekmeye sağ tıkladığınızda görüntülenen içerik menüsüne öğe ekleyin."
@@ -207,7 +207,7 @@
     "message": "Diğer"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Güncelleme yaparken seçenek sayfasını görüntüle"
+    "message": "Güncelleme yaparken seçenekler sayfasını görüntüle"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
     "message": "Simple Translate güncellendiğinde seçenekler sayfasını görüntüleyin. Güncelleme içeriğini hızlı bir şekilde öğrenebilirsiniz."

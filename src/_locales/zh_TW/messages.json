@@ -6,7 +6,7 @@
     "message": "快速翻譯網頁上選取的文字。在工具列彈出式視窗中，您可以翻譯輸入的文字。"
   },
   "donateWithPaypalLabel": {
-    "message": "透過 PayPal 來贊助我"
+    "message": "透過 PayPal 贊助"
   },
   "enableOnThisPage": {
     "message": "在此頁面上啟用翻譯"
@@ -21,7 +21,7 @@
     "message": "翻譯此頁面"
   },
   "openInGoogleLabel": {
-    "message": "在 Google 翻譯開啟"
+    "message": "在 Google 翻譯中開啟"
   },
   "copyLabel": {
     "message": "複製"
@@ -84,10 +84,10 @@
     "message": "偵測選擇文字的語言, 如果它與預設的目標語言相同, 則將其翻譯為第二語言。"
   },
   "disableUrlListLabel": {
-    "message": "URL list to disable translation"
+    "message": "要停用翻譯的 URL 清單"
   },
   "disableUrlListCaptionLabel": {
-    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
+    "message": "如果頁面 URL 符合此清單，網頁上的翻譯就會停用。清單允許使用 \"*\" 萬用字元。"
   },
   "toolbarLabel": {
     "message": "工具列彈出式選單"

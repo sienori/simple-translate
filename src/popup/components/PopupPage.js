@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import browser from "webextension-polyfill";
+import log from "loglevel";
 import { initSettings, getSettings } from "src/settings/settings";
 import { updateLogLevel, overWriteLogLevel } from "src/common/log";
 import translate from "src/common/translate";
@@ -8,6 +9,8 @@ import InputArea from "./InputArea";
 import ResultArea from "./ResultArea";
 import Footer from "./Footer";
 import "../styles/PopupPage.scss";
+
+const logDir = "popup/PopupPage";
 
 const getTabInfo = async () => {
   try {
@@ -64,6 +67,7 @@ export default class PopupPage extends Component {
   };
 
   handleInputText = inputText => {
+    log.log(logDir, "handleInputText()", inputText);
     this.setState({ inputText: inputText });
 
     const waitTime = getSettings("waitTime");
@@ -75,12 +79,14 @@ export default class PopupPage extends Component {
   };
 
   handleLangChange = lang => {
+    log.info(logDir, "handleLangChange()", lang);
     this.setState({ targetLang: lang });
     const inputText = this.state.inputText;
     if (inputText !== "") this.translateText(inputText, lang);
   };
 
   translateText = async (text, targetLang) => {
+    log.info(logDir, "translateText()", text, targetLang);
     const result = await translate(text, "auto", targetLang);
     this.setState({
       resultText: result.resultText,
@@ -104,11 +110,13 @@ export default class PopupPage extends Component {
 
     if (!this.isSwitchedSecondLang) {
       if (equalsSourceAndTarget && equalsSourceAndDefault) {
+        log.info(logDir, "=>switchSecondLang()", result, secondLang);
         this.handleLangChange(secondLang);
         this.isSwitchedSecondLang = true;
       }
     } else {
       if (!equalsSourceAndDefault) {
+        log.info(logDir, "=>switchSecondLang()", result, defaultTargetLang);
         this.handleLangChange(defaultTargetLang);
         this.isSwitchedSecondLang = false;
       }

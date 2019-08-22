@@ -3,166 +3,166 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
+    "message": "Γρήγορη μετάφραση του επιλεγμένου κειμένου στην ιστοσελίδα. Στο αναδυόμενο παράθυρο της γραμμής εργαλείων, μπορείτε να μεταφράσετε το δοσμένο κείμενο."
   },
   "donateWithPaypalLabel": {
-    "message": "Donate with PayPal"
+    "message": "Δωρεά μέσω PayPal"
   },
   "enableOnThisPage": {
-    "message": "Enable translation on this page"
+    "message": "Ενεργοποίηση μετάφρασης σε αυτή τη σελίδα"
   },
   "disableOnThisPage": {
-    "message": "Disable translation on this page"
+    "message": "Απενεργοποίηση μετάφρασης σε αυτή τη σελίδα"
   },
   "initialTextArea": {
     "message": "Εισαγωγή κειμένου"
   },
   "showLink": {
-    "message": "Μετάφραση της σελίδας"
+    "message": "Μετάφραση αυτής της σελίδας"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "Χρήση της μετάφρασης Google"
   },
   "copyLabel": {
-    "message": "Copy"
+    "message": "Αντιγραφή"
   },
   "copiedLabel": {
-    "message": "Copied."
+    "message": "Αντιγράφηκε."
   },
   "targetLangLabel": {
-    "message": "Γλώσσα προς μετάφραση"
+    "message": "Γλώσσα-στόχος"
   },
   "langList": {
     "message": "af:Afrikaans, sq:Albanian, am:Amharic, ar:Arabic, hy:Armenian, az:Azerbaijani, eu:Basque, be:Belarusian, bn:Bengali, bs:Bosnian, bg:Bulgarian, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Chinese (PRC), zh-TW:Chinese (Taiwan), co:Corsican, hr:Croatian, cs:Czech, da:Danish, nl:Dutch, en:English, eo:Esperanto, et:Estonian, fi:Finnish, fr:French, fy:Frisian, gl:Galician, ka:Georgian, de:German, el:Greek, gu:Gujarati, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesian, ga:Irish, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Korean, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:Macedonian, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persian, pl:Polish, pt:Portuguese, pa:Punjabi, ps:Pushto, ro:Romanian, ru:Russian, sm:Samoan, gd:Scottish Gaelic, sr:Serbian, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovak, sl:Slovenian, so:Somali, sx:Sotho, es:Spanish, su:Sundanese, sw:Swahili, sv:Swedish, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turkish, uk:Ukrainian, ur:Urdu, uz:Uzbek, vi:Vietnamese, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
   },
   "settingsLabel": {
-    "message": "Settings"
+    "message": "Ρυθμίσεις"
   },
   "generalLabel": {
-    "message": "General"
+    "message": "Γενικές"
   },
   "targetLangCaptionLabel": {
-    "message": "Select the default target language."
+    "message": "Επιλέξτε την προεπιλεγμένη γλώσσα-στόχο."
   },
   "webPageLabel": {
-    "message": "Web page"
+    "message": "Ιστοσελίδα"
   },
   "ifShowCandidateLabel": {
-    "message": "Show translation candidates"
+    "message": "Εμφάνιση προτεινόμενων μεταφράσεων"
   },
   "ifShowCandidateCaptionLabel": {
-    "message": "Show multiple translation candidates when a single word is translated."
+    "message": "Εμφάνιση πολλαπλών προτεινόμενων μεταφράσεων όταν μεταφράζεται μία μόνο λέξη."
   },
   "whenSelectTextLabel": {
-    "message": "Behavior when selecting text"
+    "message": "Ενέργεια όταν επιλέγεται κείμενο"
   },
   "ifAutoTranslateLabel": {
-    "message": "Display translation panel"
+    "message": "Εμφάνιση του πλαισίου μετάφρασης"
   },
   "ifAutoTranslateCaptionLabel": {
-    "message": "Directly display the translation panel without displaying the button."
+    "message": "Άμεση εμφάνιση του πλαισίου μετάφρασης χωρίς εμφάνιση του κουμπιού."
   },
   "ifShowButtonLabel": {
-    "message": "Display translation button"
+    "message": "Εμφάνιση του κουμπιού μετάφρασης"
   },
   "ifShowButtonCaptionLabel": {
-    "message": "Display the translation button to open the panel when clicked."
+    "message": "Εμφάνιση του κουμπιού για άνοιγμα του πλαισίου όταν πατηθεί."
   },
   "dontshowbuttonlabel": {
-    "message": "Don't display button or panel"
+    "message": "Μη εμφάνιση κουμπιού ή πλαισίου"
   },
   "dontshowbuttonCaptionlabel": {
-    "message": "Don't display the translation button or the translation panel."
+    "message": "Μη εμφάνιση του κουμπιού ή του πλαισίου μετάφρασης."
   },
   "ifCheckLangLabel": {
-    "message": "Do not display the button if translation is not required"
+    "message": "Μη εμφάνιση κουμπιού μετάφρασης όταν δεν χρειάζεται μετάφραση"
   },
   "ifCheckLangCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+    "message": "Εντοπίζει τη γλώσσα του επιλεγμένου κειμένου και αν είναι ίδια με τη γλώσσα προορισμού, το κουμπί δεν εμφανίζεται."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+    "message": "Εντοπίζει τη γλώσσα του επιλεγμένου κειμένου και αν είναι ίδια με τη γλώσσα προορισμού, μεταφράζει στη δεύτερη γλώσσα."
   },
   "disableUrlListLabel": {
-    "message": "URL list to disable translation"
+    "message": "Λίστα URL για απενεργοποίηση μετάφρασης"
   },
   "disableUrlListCaptionLabel": {
-    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
+    "message": "Εάν το URL της σελίδας υπάρχει στη λίστα, η μετάφραση στην ιστοσελίδα είναι απενεργοποιημένη. Η λίστα επιτρέπει χαρακτήρες \"*\" μπαλαντέρ."
   },
   "toolbarLabel": {
     "message": "Toolbar popup"
   },
   "ifChangeSecondLangLabel": {
-    "message": "Automatically switch to the second language"
+    "message": "Αυτόματη αλλαγή στη δεύτερη γλώσσα"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+    "message": "Εντοπίζει τη γλώσσα του επιλεγμένου κειμένου και αν είναι ίδια με τη γλώσσα προορισμού, μεταφράζει στη δεύτερη γλώσσα."
   },
   "secondTargetLangLabel": {
     "message": "Δευτερεύουσα Γλώσσα προς μετάφραση"
   },
   "secondTargetLangCaptionLabel": {
-    "message": "Select the second target language."
+    "message": "Επιλέξτε την δεύτερη προεπιλεγμένη γλώσσα-στόχο."
   },
   "waitTimeLabel": {
-    "message": "Waiting time to translate"
+    "message": "Χρόνος αναμονής για μετάφραση"
   },
   "waitTimeCaptionLabel": {
-    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+    "message": "Καθορίστε το χρόνο αναμονής από την εισαγωγή ενός χαρακτήρα ως την εκκίνηση της μετάφρασης. (χιλιοστοδευτερόλεπτα)"
   },
   "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
+    "message": "Αν μεταφράζετε πολλές φορές σε σύντομο χρονικό διάστημα, μπορεί να τεθεί εκτός λειτουργίας για λίγο."
   },
   "menuLabel": {
-    "message": "Context menu"
+    "message": "Μενού πλαισίου"
   },
   "ifShowMenuLabel": {
-    "message": "Display the context menu"
+    "message": "Εμφάνιση του μενού πλαισίου"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+    "message": "Προσθέστε στοιχεία στο μενού πλαισίου που εμφανίζεται όταν κάνετε δεξί κλικ στην ιστοσελίδα ή την καρτέλα."
   },
   "styleLabel": {
-    "message": "Style"
+    "message": "Τεχνοτροπία"
   },
   "buttonStyleLabel": {
-    "message": "Translation button"
+    "message": "Κουμπί μετάφρασης"
   },
   "buttonStyleCaptionLabel": {
-    "message": "Specify the style of the translation button displayed on the web page."
+    "message": "Καθορίστε το στυλ του κουμπιού μετάφρασης που εμφανίζεται στην ιστοσελίδα."
   },
   "buttonSizeLabel": {
-    "message": "Size"
+    "message": "Μέγεθος"
   },
   "buttonPositionLabel": {
-    "message": "Display position"
+    "message": "Θέση εμφάνισης"
   },
   "topRightLabel": {
-    "message": "Top right"
+    "message": "Πάνω δεξιά"
   },
   "bottomRightLabel": {
-    "message": "Bottom right"
+    "message": "Κάτω δεξιά"
   },
   "topLeftLabel": {
-    "message": "Top left"
+    "message": "Πάνω αριστερά"
   },
   "bottomLeftLabel": {
-    "message": "Bottom left"
+    "message": "Κάτω αριστερά"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "Πάνω"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "Κάτω"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "Αριστερά"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "Δεξιά"
   },
   "positionOffsetLabel": {
-    "message": "Display position - Offset"
+    "message": "Θέση εμφάνισης - Μετατόπιση"
   },
   "panelStyleLabel": {
     "message": "Translation panel"
@@ -303,7 +303,7 @@
     "message": "Μετάφραση επιλεγμένου κειμένου"
   },
   "translateLinkMenu": {
-    "message": "Μετάφραση του επιλεγμένου υπερσυνδέσμου"
+    "message": "Μετάφραση του επιλεγμένου συνδέσμου"
   },
   "openPopupDescription": {
     "message": "Open toolbar popup"

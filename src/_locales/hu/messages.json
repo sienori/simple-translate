@@ -9,10 +9,10 @@
     "message": "Adomány PayPal használatával"
   },
   "enableOnThisPage": {
-    "message": "Enable translation on this page"
+    "message": "Fordítás engedélyezése ezen az oldalon"
   },
   "disableOnThisPage": {
-    "message": "Disable translation on this page"
+    "message": "Fordítás letiltása ezen az oldalon"
   },
   "initialTextArea": {
     "message": "Írja be a szöveget"
@@ -84,10 +84,10 @@
     "message": "Felismeri a kijelölt szöveg nyelvét és ha az megegyezik az alapértelmezett célnyelvvel akkor a fordítás a második nyelvre történik."
   },
   "disableUrlListLabel": {
-    "message": "URL list to disable translation"
+    "message": "URL-ek listája, ahol a fordítás le lesz tiltásra"
   },
   "disableUrlListCaptionLabel": {
-    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
+    "message": "Ha az oldal URL-je illeszkedik a mintára akkor a weblapon a fordítása le lesz tiltva. A listában használható a \"*\" helyettesítőkarakter."
   },
   "toolbarLabel": {
     "message": "Felugró ablak az eszköztár gombjához"

@@ -9,10 +9,10 @@
     "message": "Donera via PayPal"
   },
   "enableOnThisPage": {
-    "message": "Enable translation on this page"
+    "message": "Aktivera översättning på den här sidan"
   },
   "disableOnThisPage": {
-    "message": "Disable translation on this page"
+    "message": "Inaktivera översättning på den här sidan"
   },
   "initialTextArea": {
     "message": "Ange text"
@@ -84,10 +84,10 @@
     "message": "Detektera språket i den markerade texten och om det är samma som standardmålspråket, översätt det till andraspråket."
   },
   "disableUrlListLabel": {
-    "message": "URL list to disable translation"
+    "message": "Webbadresslista för att inaktivera översättning"
   },
   "disableUrlListCaptionLabel": {
-    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
+    "message": "Om sidans webbadress matchar listan, inaktiveras översättningen på webbsidan. Listan tillåter \"*\" jokertecken."
   },
   "toolbarLabel": {
     "message": "Verktygsfältspopup"

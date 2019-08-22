@@ -3,16 +3,16 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
+    "message": "Tradu rapid textul selectat pe pagina web. In fereastra din toolbar, poți traduce textul introdus."
   },
   "donateWithPaypalLabel": {
-    "message": "Donate with PayPal"
+    "message": "Donează prin PayPal"
   },
   "enableOnThisPage": {
-    "message": "Enable translation on this page"
+    "message": "Activează traducerea pe această pagină"
   },
   "disableOnThisPage": {
-    "message": "Disable translation on this page"
+    "message": "Dezactivează traducerea pe această pagină"
   },
   "initialTextArea": {
     "message": "Introduceți textul"
@@ -21,265 +21,265 @@
     "message": "Traduceți această pagină"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "Deschide în Google Translate"
   },
   "copyLabel": {
-    "message": "Copy"
+    "message": "Copiază"
   },
   "copiedLabel": {
-    "message": "Copied."
+    "message": "Copiat."
   },
   "targetLangLabel": {
     "message": "Limba ţintă"
   },
   "langList": {
-    "message": "af:Afrikaans, sq:Albanian, am:Amharic, ar:Arabic, hy:Armenian, az:Azerbaijani, eu:Basque, be:Belarusian, bn:Bengali, bs:Bosnian, bg:Bulgarian, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Chinese (PRC), zh-TW:Chinese (Taiwan), co:Corsican, hr:Croatian, cs:Czech, da:Danish, nl:Dutch, en:English, eo:Esperanto, et:Estonian, fi:Finnish, fr:French, fy:Frisian, gl:Galician, ka:Georgian, de:German, el:Greek, gu:Gujarati, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesian, ga:Irish, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Korean, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:Macedonian, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persian, pl:Polish, pt:Portuguese, pa:Punjabi, ps:Pushto, ro:Romanian, ru:Russian, sm:Samoan, gd:Scottish Gaelic, sr:Serbian, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovak, sl:Slovenian, so:Somali, sx:Sotho, es:Spanish, su:Sundanese, sw:Swahili, sv:Swedish, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turkish, uk:Ukrainian, ur:Urdu, uz:Uzbek, vi:Vietnamese, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
+    "message": "af:Afrikaans, sq:Albaneză, am:Amharic, ar:Arabă, hy:Armenian, az:Azerbaijani, eu:Basque, be:Belarusian,bn:Bengali, bs:Bosniacă, bg:Bulgară, ca:Catalană, bn:Cebuano, ny:Chewa, zh-CN:Chineză (PRC), zh-TW:Chineză (Taiwan), co:Corsicană, hr:Esperanto, et:Estoniană, fi:Finlandeză, fr:Franceză, fy:Friziană, gl:Galiciană, ka:Georgiană, de:Germană, el:Greacă, gu:Gujarati, ht:Haitiană, ha:Hausă, haw:Hawaiană, he:Ebraică, hi:Hindi, hu:Maghiară, is:Islandeză, ig:Igbo, id:Indoneziană, ga:Khmer, ky:Kirghiz, ko:Coreeană, ku:Kurdă, lo:Laotiană, la:Latină, lv:Letonian, lt:Lituaniană, lb:Luxemburgheză, mk:Macedoneană, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Malteză, mi:Maori, mr:Marathi, mn:Mongolă, hmn:Monk, my:Myanmar, ne:Nepali, no:Norvegiană, fa:Persană, pl: Poloneză, pt:Portugheză, pa:Punjabi, my:Myanmar, ne:Nepali, Pushto, ro:Română, ru:Rusă, sm:Samoan, gd:Gaelică scoțiană, sr:Sârbă, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovacă, sl:Slovenă, deci:Somali, sx:Sotho, es:Spaniolă, su:Sundaneză, sw:Swahili, sv:Suedeză, tl:Tagalog, tg: Tajiki, ta:Tamil, te:Telugu, th:Tailandeză, tr:Turcă, uk:Ucraineană, ur:Urdu, uz:Uzbek, vi:Vietnameză, cy:Galeză, xh:Xosa, yi:Idiș, yo:Yoruba, zu:Zulu"
   },
   "settingsLabel": {
-    "message": "Settings"
+    "message": "Setări"
   },
   "generalLabel": {
     "message": "General"
   },
   "targetLangCaptionLabel": {
-    "message": "Select the default target language."
+    "message": "Selectează limba implicită."
   },
   "webPageLabel": {
-    "message": "Web page"
+    "message": "Pagină web"
   },
   "ifShowCandidateLabel": {
-    "message": "Show translation candidates"
+    "message": "Arată variante de traducere"
   },
   "ifShowCandidateCaptionLabel": {
-    "message": "Show multiple translation candidates when a single word is translated."
+    "message": "Arată variante multiple de traducere când un singur cuvânt e tradus."
   },
   "whenSelectTextLabel": {
-    "message": "Behavior when selecting text"
+    "message": "Comportament când textul este selectat"
   },
   "ifAutoTranslateLabel": {
-    "message": "Display translation panel"
+    "message": "Arată panou de traducere"
   },
   "ifAutoTranslateCaptionLabel": {
-    "message": "Directly display the translation panel without displaying the button."
+    "message": "Arată direct panoul de traducere, fără a afișa butonul."
   },
   "ifShowButtonLabel": {
-    "message": "Display translation button"
+    "message": "Arată butonul de traducere"
   },
   "ifShowButtonCaptionLabel": {
-    "message": "Display the translation button to open the panel when clicked."
+    "message": "Arată butonul de traducere ce deschide panoul atunci cand este apăsat."
   },
   "dontshowbuttonlabel": {
-    "message": "Don't display button or panel"
+    "message": "Nu arăta butonul sau panoul"
   },
   "dontshowbuttonCaptionlabel": {
-    "message": "Don't display the translation button or the translation panel."
+    "message": "Nu arăta butonul de traducere sau panoul de traducere."
   },
   "ifCheckLangLabel": {
-    "message": "Do not display the button if translation is not required"
+    "message": "Nu arăta butonul dacă traducerea nu este necesară"
   },
   "ifCheckLangCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+    "message": "Detectează limba textului selectat, iar dacă e identică cu limba țintă, butonul nu este afișat."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+    "message": "Detectează limba textului selectat, iar dacă e identică cu limba țintă implicită, tradu in limba secundară."
   },
   "disableUrlListLabel": {
-    "message": "URL list to disable translation"
+    "message": "Lista URL-urilor pentru care traducerea va fi dezactivată"
   },
   "disableUrlListCaptionLabel": {
-    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
+    "message": "Daca URL-ul paginii se potrivește in listă, traducerea pe pagina web este dezactivată. Lista permite wildcard-uri de tip \"*\"."
   },
   "toolbarLabel": {
-    "message": "Toolbar popup"
+    "message": "Fereastra din toolbar"
   },
   "ifChangeSecondLangLabel": {
-    "message": "Automatically switch to the second language"
+    "message": "Schimbă automat pe limba secundară"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+    "message": "Detectează limba textului introdus, iar dacă e identică cu limba țintă implicită, tradu in limba secundară."
   },
   "secondTargetLangLabel": {
     "message": "A doua limbă"
   },
   "secondTargetLangCaptionLabel": {
-    "message": "Select the second target language."
+    "message": "Selectează limba țintă secundară."
   },
   "waitTimeLabel": {
-    "message": "Waiting time to translate"
+    "message": "Timpul de așteptare pentru tradus"
   },
   "waitTimeCaptionLabel": {
-    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+    "message": "Specifică timpul de așteptare din momentul in care se introduce un caracter, până in momentul când se incepe traducerea. (în milisecunde)"
   },
   "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
+    "message": "Dacă traduci de multe ori intr-un timp scurt, ar putea deveni nefolosibil pentru scurt timp."
   },
   "menuLabel": {
-    "message": "Context menu"
+    "message": "Meniu contextual"
   },
   "ifShowMenuLabel": {
-    "message": "Display the context menu"
+    "message": "Arată meniul contextual"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+    "message": "Adaugă obiecte in meniul contextual afișat atunci cand faci click dreapta pe o pagină web sau pe un tab."
   },
   "styleLabel": {
-    "message": "Style"
+    "message": "Stil"
   },
   "buttonStyleLabel": {
-    "message": "Translation button"
+    "message": "Butonul de traducere"
   },
   "buttonStyleCaptionLabel": {
-    "message": "Specify the style of the translation button displayed on the web page."
+    "message": "Specifică stilul butonului de traducere afișat pe pagina web."
   },
   "buttonSizeLabel": {
-    "message": "Size"
+    "message": "Dimensiune"
   },
   "buttonPositionLabel": {
-    "message": "Display position"
+    "message": "Poziţia de afişare"
   },
   "topRightLabel": {
-    "message": "Top right"
+    "message": "Dreapta sus"
   },
   "bottomRightLabel": {
-    "message": "Bottom right"
+    "message": "Dreapta jos"
   },
   "topLeftLabel": {
-    "message": "Top left"
+    "message": "Stânga sus"
   },
   "bottomLeftLabel": {
-    "message": "Bottom left"
+    "message": "Stânga jos"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "Sus"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "Jos"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "Stânga"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "Dreapta"
   },
   "positionOffsetLabel": {
-    "message": "Display position - Offset"
+    "message": "Poziție - Decalaj"
   },
   "panelStyleLabel": {
-    "message": "Translation panel"
+    "message": "Panou de traducere"
   },
   "panelStyleCaptionLabel": {
-    "message": "Specify the style of the translation panel displayed on the web page."
+    "message": "Specifică stilul panoului de traducere afișat pe pagina web."
   },
   "widthLabel": {
-    "message": "Width"
+    "message": "Lațime"
   },
   "heightLabel": {
-    "message": "Height"
+    "message": "Înălțime"
   },
   "fontSizeLabel": {
     "message": "Dimensiune font"
   },
   "referencePointLabel": {
-    "message": "Display position - Reference point"
+    "message": "Poziție - Punct de referință"
   },
   "bottomSelectedTextLabel": {
-    "message": "Bottom of selected text"
+    "message": "Josul textului selectat"
   },
   "topSelectedTextLabel": {
-    "message": "Top of selected text"
+    "message": "Susul textului selectat"
   },
   "clickedPointLabel": {
-    "message": "Clicked point"
+    "message": "Punct click-uit"
   },
   "displayDirectionLabel": {
-    "message": "Display position - Direction"
+    "message": "Poziție - Direcție"
   },
   "resultFontColorLabel": {
-    "message": "Font color of translation result"
+    "message": "Culoarea fontului rezultatului tradus"
   },
   "candidateFontColorLabel": {
-    "message": "Font color of translation candidates"
+    "message": "Culoarea fontului variantelor de traducere"
   },
   "bgColorLabel": {
-    "message": "Background color"
+    "message": "Culoare de fundal"
   },
   "otherLabel": {
-    "message": "Other"
+    "message": "Altele"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Display option page when updating"
+    "message": "Arată pagina de opțiuni cand se actualizează"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+    "message": "Afișează pagina de opțiuni când Simple Translate este actualizat. Poți afla rapid conținutul actualizării."
   },
   "isDebugModeLabel": {
-    "message": "Enable debug mode"
+    "message": "Activați modul de depanare"
   },
   "isDebugModeCaptionLabel": {
-    "message": "When debug mode is enabled, the log is output to the debugger."
+    "message": "Când modul de depanare este activat, jurnalizarea va fi scrisă in depanator (debugger)."
   },
   "resetSettingsLabel": {
-    "message": "Reset settings"
+    "message": "Resetează setări"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Restore all settings to default."
+    "message": "Resetează la setările implicite."
   },
   "resetSettingsButtonLabel": {
-    "message": "Reset"
+    "message": "Resetează"
   },
   "shortcutsLabel": {
-    "message": "Shortcuts"
+    "message": "Scurtături"
   },
   "keyboardShortcutsLabel": {
-    "message": "Keyboard shortcuts"
+    "message": "Scurtături taste"
   },
   "setKeyboardShortCutsMessage": {
-    "message": "Set keyboard shortcuts."
+    "message": "Setează comenzi rapide."
   },
   "typeShortcutMessage": {
-    "message": "Type a shortcut"
+    "message": "Adăugați o scurtătură"
   },
   "typeLetterMessage": {
-    "message": "Type a letter"
+    "message": "Adăugați o literă"
   },
   "includeModifierKeysMessage": {
-    "message": "Include either Ctrl or Alt"
+    "message": "Includeți Ctrl sau Alt"
   },
   "includeMacModifierKeysMessage": {
-    "message": "Include either Command, Ctrl or Alt"
+    "message": "Includeți Command, Ctrl sau Alt"
   },
   "invalidLetterMessage": {
-    "message": "The letter can not be used"
+    "message": "Litera nu poate fi folosită"
   },
   "invalidShortcutMessage": {
-    "message": "The shortcut can not be used"
+    "message": "Scurtătura nu poate fi folosită"
   },
   "clear": {
-    "message": "Clear"
+    "message": "Golește"
   },
   "reset": {
-    "message": "Reset"
+    "message": "Resetează"
   },
   "informationLabel": {
-    "message": "Information"
+    "message": "Informaţii"
   },
   "licenseLabel": {
-    "message": "License"
+    "message": "Licenţă"
   },
   "donationLabel": {
-    "message": "Please make a donation"
+    "message": "Vă rugăm să faceți o donație"
   },
   "donationCaptionLabel": {
-    "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+    "message": "Vă mulţumim că utilizaţi Tab Session Manager. <br>Sprijinul dumneavoastră ar însemna foarte mult, deoarce ne-ar ajuta să continuam dezvoltarea extensie. <br>Dacă vă place Tab Session Manager, orice donație este binevenită."
   },
   "amazonTitleLabel": {
     "message": "amazon.co.jp eGift Cards"
   },
   "addonPageLabel": {
-    "message": "Add-on page"
+    "message": "Pagină de add-on-uri"
   },
   "extensionPageLabel": {
-    "message": "Extension page"
+    "message": "Pagină de extensii"
   },
   "amazonUrl": {
     "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
@@ -288,13 +288,13 @@
     "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
   },
   "networkError": {
-    "message": "Error: Check network connection status."
+    "message": "Eroare: Verifică starea conexiunii la rețea."
   },
   "unavailableError": {
-    "message": "Error: Service usage limit reached. Please wait a while and try again."
+    "message": "Eroare: Limita utilizării serviciului a fost atinsă. Te rog așteapta puțin, apoi incearcă din nou."
   },
   "unknownError": {
-    "message": "Error: Unknown error"
+    "message": "Eroare: Necunoscut"
   },
   "translatePageMenu": {
     "message": "Traduceți această pagină"
@@ -306,6 +306,6 @@
     "message": "Traduceți link-ul selectat"
   },
   "openPopupDescription": {
-    "message": "Open toolbar popup"
+    "message": "Deschide fereastra din toolbar"
   }
 }

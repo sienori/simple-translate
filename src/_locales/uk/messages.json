@@ -6,13 +6,13 @@
     "message": "Швидкий переклад тексту на веб-сторінці. Текст для перекладу можна вводити у виринаючому вікні на панелі інструментів."
   },
   "donateWithPaypalLabel": {
-    "message": "Допомогти через PayPal"
+    "message": "Пожертвувати через PayPal"
   },
   "enableOnThisPage": {
-    "message": "Enable translation on this page"
+    "message": "Увімкнути переклад на цій сторінці"
   },
   "disableOnThisPage": {
-    "message": "Disable translation on this page"
+    "message": "Вимкнути переклад на цій сторінці"
   },
   "initialTextArea": {
     "message": "Введіть текст"
@@ -33,7 +33,7 @@
     "message": "Цільова мова"
   },
   "langList": {
-    "message": "af:Африкаанс, sq:Албанська, am:Амхарська, ar:Арабська, hy:Вірменська, az:Азербайджанська, eu:Баскійська, be:Білоруська, bn:Бенгальська, bs:Боснійська, bg:Болгарська, ca:Каталонська, ceb:Cebuano, ny:Chewa, zh-CN:Китайська (PRC), zh-TW:Китайська (Taiwan), co:Corsican, hr:Хорватська, cs:Чеська, da:Датська, nl:Нідерландська, en:Англійська, eo:Есперанто, et:Естонська, fi:Фінська, fr:Французька, fy:Frisian, gl:Галісійська, ka:Georgian, de:Німецька, el:Грецька, gu:Гуджараті, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Hebrew, hi:Хінді, hu:Угорська, is:Icelandic, ig:Igbo, id:Indonesian, ga:Ірландська, it:Італійська, ja:Японська, jv:Javanese, kn:Каннада, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Корейська, ku:Kurdish, lo:Laotian, la:Латинська, lv:Латиська, lt:Литовська, lb:Luxembourgish, mk:Македонська, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Монгольська, hmn:Monk, my:Myanmar, ne:Непальська, no:Норвежська, fa:Persian, pl:Польська, pt:Португальська, pa:Punjabi, ps:Pushto, ro:Ромунська, ru:Російська, sm:Самоанська, gd:Scottish Gaelic, sr:Сербійська, sn:Shona, sd:Sindhi, si:Sinhala, sk:Словацька, sl:Словенська, so:Сомалійська, sx:Sotho, es:Іспанська, su:Sundanese, sw:Swahili, sv:Шведська, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Турецька, uk:Українська, ur:Urdu, uz:Узбецька, vi:Vietnamese, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
+    "message": "af:Африканс, sq:Албанська, am:Амхарська, ar:Арабська, hy:Вірменська, az:Азербайджанська, eu:Баскська, be:Білоруська, bn:Бенгальська, bs:Боснійська, bg:Болгарська, ca:Каталонська, ceb:Себуанська, ny:Ньянджа, zh-CN:Китайська (PRC), zh-TW:Китайська (Тайвань), co:Корсиканська, hr:Хорватська, cs:Чеська, da:Данська, nl:Нідерландська, en:Англійська, eo:Есперанто, et:Естонська, fi:Фінська, fr:Французька, fy:Західно-фризька, gl:Галісійська, ka:Грузинська, de:Німецька, el:Грецька, gu:Гуджараті, ht:Гаїтянська, ha:Хауса, haw:Гавайська, he:Іврит, hi:Хінді, hu:Угорська, is:Ісландська, ig:Ігбо, id:Індонезійська, ga:Ірландська, it:Італійська, ja:Японська, jv:Яванська, kn:Каннада, kk:Казахська, km:Кхмерська, ky:Киргизька, ko:Корейська, ku:Курдська, lo:Лаоська, la:Латинська, lv:Латиська, lt:Литовська, lb:Люксембурзька, mk:Македонська, mg:Малагасійська, ms:Малайська, ml:Малаялам, mt:Мальтійська, mi:Маорі, mr:Маратхі, mn:Монгольська, hmn:Монґ, my:Бірманська, ne:Непальська, no:Норвезька, fa:Перська, pl:Польська, pt:Португальська, pa:Панджабі, ps:Пушту, ro:Ромунська, ru:Російська, sm:Самоанська, gd:Гельська (Шотландія), sr:Сербська, sn:Шона, sd:Сіндхі, si:Сингальська, sk:Словацька, sl:Словенська, so:Сомалі, sx:Сотхо, es:Іспанська, su:Сунданська, sw:Свахілі, sv:Шведська, tl:Тагалог, tg:Таджицька, ta:Тамільська, te:Телугу, th:Тайська, tr:Турецька, uk:Українська, ur:Урду, uz:Узбецька, vi:В’єтнамська, cy:Валлійська, xh:Ксоза, yi:Їдиш, yo:Йоруба, zu:Зулу"
   },
   "settingsLabel": {
     "message": "Налаштування"
@@ -84,10 +84,10 @@
     "message": "Визначати мову виділеного тексту, і якщо вона співпадає зі стандартною цільовою мовою, перекласти її другою мовою."
   },
   "disableUrlListLabel": {
-    "message": "URL list to disable translation"
+    "message": "Список адрес для відключення перекладу"
   },
   "disableUrlListCaptionLabel": {
-    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
+    "message": "Якщо URL-адреса в списку, переклад для сторінки буде відключено. Дозволено спеціальні символи, такі як \"*\"."
   },
   "toolbarLabel": {
     "message": "Вікно на панелі інструментів"
@@ -228,10 +228,10 @@
     "message": "Скинути"
   },
   "shortcutsLabel": {
-    "message": "Клавіатурні скорочення"
+    "message": "Швидкі клавіші"
   },
   "keyboardShortcutsLabel": {
-    "message": "Клавіатурні скорочення"
+    "message": "Налаштування клавіш"
   },
   "setKeyboardShortCutsMessage": {
     "message": "Налаштування швидких клавіш."

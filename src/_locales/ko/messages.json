@@ -51,7 +51,7 @@
     "message": "다른 번역 보기"
   },
   "ifShowCandidateCaptionLabel": {
-    "message": "한 단어를 번역할 때 다른 여러 번역 결과를 보여줍니다."
+    "message": "단어 번역시 단어가 가진 여러 의미를 함께 보여줍니다."
   },
   "whenSelectTextLabel": {
     "message": "텍스트가 선택되었을 때 동작"
@@ -234,28 +234,28 @@
     "message": "키보드 단축키"
   },
   "setKeyboardShortCutsMessage": {
-    "message": "Set keyboard shortcuts."
+    "message": "키보드 단축키를 설정합니다."
   },
   "typeShortcutMessage": {
-    "message": "Type a shortcut"
+    "message": "단축키를 입력하세요"
   },
   "typeLetterMessage": {
-    "message": "Type a letter"
+    "message": "글자를 입력하세요"
   },
   "includeModifierKeysMessage": {
-    "message": "Include either Ctrl or Alt"
+    "message": "Ctrl 또는 Alt 키와 함께 누르세요"
   },
   "includeMacModifierKeysMessage": {
-    "message": "Include either Command, Ctrl or Alt"
+    "message": "Command, Ctrl 또는 Alt 키와 함께 누르세요"
   },
   "invalidLetterMessage": {
-    "message": "The letter can not be used"
+    "message": "사용할 수 없는 글자입니다"
   },
   "invalidShortcutMessage": {
-    "message": "The shortcut can not be used"
+    "message": "사용할 수 없는 단축키입니다"
   },
   "clear": {
-    "message": "Clear"
+    "message": "지우기"
   },
   "reset": {
     "message": "초기화"
@@ -276,7 +276,7 @@
     "message": "amazon.co.jp eGift 카드"
   },
   "addonPageLabel": {
-    "message": "Add-on 페이지"
+    "message": "부가 기능 페이지"
   },
   "extensionPageLabel": {
     "message": "확장 프로그램 페이지"

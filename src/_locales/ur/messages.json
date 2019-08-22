@@ -3,25 +3,25 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
+    "message": "ویب سائٹ پر ٹیکسٹ کا جلدی سے ترجمہ کریں۔ ٹول بار پاپ اپ پر، آپ ٹیکسٹ داخل کر سکتے ہیں۔"
   },
   "donateWithPaypalLabel": {
-    "message": "Donate with PayPal"
+    "message": "پے پال کے ساتھ ادا کریں"
   },
   "enableOnThisPage": {
-    "message": "Enable translation on this page"
+    "message": "اس صفحے پر ترجمے کو فعال کریں"
   },
   "disableOnThisPage": {
-    "message": "Disable translation on this page"
+    "message": "اس صفحے پر ترجمے کو غیرفعال کریں"
   },
   "initialTextArea": {
-    "message": "Enter text"
+    "message": "ٹیکسٹ درج کریں"
   },
   "showLink": {
-    "message": "Translate this page"
+    "message": "اس صفحے کا ترجمہ کریں"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "گوگل ترجمے میں کھولیں"
   },
   "copyLabel": {
     "message": "Copy"
@@ -297,7 +297,7 @@
     "message": "Error: Unknown error"
   },
   "translatePageMenu": {
-    "message": "Translate this page"
+    "message": "اس صفحے کا ترجمہ کریں"
   },
   "translateTextMenu": {
     "message": "Translate selected text"

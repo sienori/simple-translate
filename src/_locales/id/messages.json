@@ -6,13 +6,13 @@
     "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
   },
   "donateWithPaypalLabel": {
-    "message": "Donate with PayPal"
+    "message": "Donasi dengan PayPal"
   },
   "enableOnThisPage": {
-    "message": "Enable translation on this page"
+    "message": "aktifkan terjemahan pada halaman ini"
   },
   "disableOnThisPage": {
-    "message": "Disable translation on this page"
+    "message": "matikan terjemahan pada halaman ini"
   },
   "initialTextArea": {
     "message": "Masukkan teks"
@@ -24,10 +24,10 @@
     "message": "Open in Google Translate"
   },
   "copyLabel": {
-    "message": "Copy"
+    "message": "Salin"
   },
   "copiedLabel": {
-    "message": "Copied."
+    "message": "Disalin."
   },
   "targetLangLabel": {
     "message": "Bahasa Target"
@@ -84,7 +84,7 @@
     "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
   },
   "disableUrlListLabel": {
-    "message": "URL list to disable translation"
+    "message": "daftar alamat yang dinonaktifkan terjemahan"
   },
   "disableUrlListCaptionLabel": {
     "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
@@ -255,7 +255,7 @@
     "message": "The shortcut can not be used"
   },
   "clear": {
-    "message": "Clear"
+    "message": "bersih"
   },
   "reset": {
     "message": "Reset"
@@ -279,7 +279,7 @@
     "message": "Halaman pengaya"
   },
   "extensionPageLabel": {
-    "message": "Extension page"
+    "message": "halaman ekstensi"
   },
   "amazonUrl": {
     "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"

@@ -9,10 +9,10 @@
     "message": "使用 PayPal 捐赠"
   },
   "enableOnThisPage": {
-    "message": "Enable translation on this page"
+    "message": "在此页面启用翻译"
   },
   "disableOnThisPage": {
-    "message": "Disable translation on this page"
+    "message": "在此页面禁用翻译"
   },
   "initialTextArea": {
     "message": "输入文字"
@@ -84,10 +84,10 @@
     "message": "检测所选文本的语言，如果与默认目标语言相同，则将其翻译为第二语言。"
   },
   "disableUrlListLabel": {
-    "message": "URL list to disable translation"
+    "message": "URL 白名单"
   },
   "disableUrlListCaptionLabel": {
-    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
+    "message": "如果页面的URL匹配该白名单，该页面的翻译将被禁用。你可以使用“*”通配符。"
   },
   "toolbarLabel": {
     "message": "工具栏弹出窗口"

@@ -159,7 +159,7 @@
     "message": "Izquierda"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "Derecha"
   },
   "positionOffsetLabel": {
     "message": "Display position - Offset"
@@ -180,13 +180,13 @@
     "message": "Tamaño de la fuente"
   },
   "referencePointLabel": {
-    "message": "Display position - Reference point"
+    "message": "Mostrar posición - punto de referencia"
   },
   "bottomSelectedTextLabel": {
-    "message": "Bottom of selected text"
+    "message": "Parte inferior del texto seleccionado"
   },
   "topSelectedTextLabel": {
-    "message": "Top of selected text"
+    "message": "Parte superior del texto seleccionado"
   },
   "clickedPointLabel": {
     "message": "Clicked point"
@@ -279,7 +279,7 @@
     "message": "Página de complemento"
   },
   "extensionPageLabel": {
-    "message": "Extension page"
+    "message": "Página de extensión"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"

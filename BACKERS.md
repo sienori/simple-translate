@@ -7,3 +7,5 @@ Thank you to the awesome backers who supported Simple Translate!
 </a>
 
 ## Backers via Patreon
+
+- kometchtech

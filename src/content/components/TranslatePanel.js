@@ -20,7 +20,41 @@ export default class TranslatePanel extends Component {
       isOverflow: false
     };
     this.isFirst = true;
+    document.addEventListener("dragstart", this.handleDragStart);
+    document.addEventListener("dragover", this.handleDragOver);
+    document.addEventListener("drop", this.handleDrop);
   }
+
+  handleDragStart = e => {
+    // Firefox.
+    if (e.explicitOriginalTarget) {
+      if (e.explicitOriginalTarget.className !== "simple-translate-move") {
+        return;
+      }
+    }
+    // Chrome.
+    else if (e.target.className !== "simple-translate-move") {
+      return;
+    }
+    const rect = document.querySelector(".simple-translate-panel").getBoundingClientRect();
+    const offsets = {
+        x: e.clientX - rect.left,
+        y: e.clientY - rect.top
+    };
+    e.dataTransfer.setData("text/plain", JSON.stringify(offsets));
+  };
+
+  handleDragOver = e => {
+    e.preventDefault();
+  };
+
+  handleDrop = e => {
+    e.preventDefault();
+    const panel = document.querySelector(".simple-translate-panel");
+    const offsets = JSON.parse(e.dataTransfer.getData("text/plain"));
+    panel.style.top = `${e.clientY - offsets.y}px`;
+    panel.style.left = `${e.clientX - offsets.x}px`;
+  };
 
   calcPosition = () => {
     const maxWidth = parseInt(getSettings("width"));
@@ -141,6 +175,11 @@ export default class TranslatePanel extends Component {
     const candidateStyles = {
       color: getSettings("candidateFontColor")
     };
+    const moveStyles = {
+      backgroundColor: "rgb(0, 145, 247)",
+      cursor: "grab",
+      height: "15px"
+    };
 
     return (
       <div
@@ -148,6 +187,7 @@ export default class TranslatePanel extends Component {
         ref="panel"
         style={panelStyles}
       >
+        <div className="simple-translate-move" draggable="true" style={moveStyles}></div>
         <div className="simple-translate-result-wrapper" ref="wrapper" style={wrapperStyles}>
           <p className="simple-translate-result" style={resultStyles}>
             {splitLine(resultText)}

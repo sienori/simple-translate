@@ -95,13 +95,20 @@ export default [
         default: false
       },
       {
+        id: "isDisabledInTextFields",
+        title: "isDisabledInTextFieldsLabel",
+        captions: ["isDisabledInTextFieldsCaptionLabel"],
+        type: "checkbox",
+        default: false,
+        new: true
+      },
+      {
         id: "disableUrlList",
         title: "disableUrlListLabel",
         captions: ["disableUrlListCaptionLabel"],
         type: "textarea",
         default: "",
-        placeholder: "https://example.com/*\nhttps://example.net/*",
-        new: true
+        placeholder: "https://example.com/*\nhttps://example.net/*"
       }
     ]
   },

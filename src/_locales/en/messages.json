@@ -85,6 +85,12 @@
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
   },
+  "isDisabledInTextFieldsLabel": {
+    "message": "Disable translation in text fields"
+  },
+  "isDisabledInTextFieldsCaptionLabel": {
+    "message": "Don't display translation button or panel when selecting text in a text field."
+  },
   "disableUrlListLabel": {
     "message": "URL list to disable translation"
   },

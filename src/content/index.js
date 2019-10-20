@@ -34,6 +34,10 @@ const handleMouseUp = async e => {
   prevSelectedText = selectedText;
   if (selectedText.length === 0) return;
 
+  if (getSettings("isDisabledInTextFields")) {
+    if (isInContentEditable()) return;
+  }
+
   const clickedPosition = { x: e.clientX, y: e.clientY };
   const selectedPosition = getSelectedPosition();
   showTranslateContainer(selectedText, selectedPosition, clickedPosition);
@@ -80,6 +84,13 @@ const getSelectedPosition = () => {
       break;
   }
   return selectedPosition;
+};
+
+const isInContentEditable = () => {
+  const element = document.activeElement;
+  if (element.tagName === "INPUT" || element.tagName === "TEXTAREA") return true;
+  if (element.contentEditable === "true") return true;
+  return false;
 };
 
 const handleKeyDown = e => {

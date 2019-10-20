@@ -90,7 +90,7 @@
     "message": "Inaktivera översättningar i textfälten"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in a text field."
+    "message": "Visa inte översättningsknapp eller -panel när du markerar text i ett textfält."
   },
   "disableUrlListLabel": {
     "message": "Webbadresslista för att inaktivera översättning"

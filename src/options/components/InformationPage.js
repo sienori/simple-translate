@@ -3,7 +3,13 @@ import browser from "webextension-polyfill";
 import browserInfo from "browser-info";
 import queryString from "query-string";
 import OptionsContainer from "./OptionContainer";
-import { paypalLink, email, chromeExtensionUrl, firefoxAddonUrl } from "src/common/personalUrls";
+import {
+  paypalLink,
+  patreonLink,
+  email,
+  chromeExtensionUrl,
+  firefoxAddonUrl
+} from "src/common/personalUrls";
 import manifest from "src/manifest-chrome.json";
 
 export default props => {
@@ -24,6 +30,13 @@ export default props => {
             <a href="https://github.com/sienori/simple-translate/releases" target="_blank">
               Version {extensionVersion}
             </a>
+            <span>　</span>
+            <a
+              href="https://github.com/sienori/simple-translate/blob/master/BACKERS.md"
+              target="_blank"
+            >
+              {browser.i18n.getMessage("backersLabel")}
+            </a>
           </p>
         }
       />
@@ -41,8 +54,24 @@ export default props => {
         captions={[]}
         type={"none"}
         extraCaption={
+          <a href={patreonLink} target="_blank">
+            <img
+              src="https://c5.patreon.com/external/logo/become_a_patron_button.png"
+              alt="Donate"
+            />
+          </a>
+        }
+      />
+      <OptionsContainer
+        title={""}
+        captions={[]}
+        type={"none"}
+        extraCaption={
           <a href={paypalLink} target="_blank">
-            <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" alt="Donate" />
+            <img
+              src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/checkout-logo-medium.png"
+              alt="Donate"
+            />
           </a>
         }
       />

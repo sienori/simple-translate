@@ -9,6 +9,9 @@
   "donateWithPaypalLabel": {
     "message": "Donate with PayPal"
   },
+  "donateLabel": {
+    "message": "Donate"
+  },
   "enableOnThisPage": {
     "message": "Enable translation on this page"
   },
@@ -276,6 +279,9 @@
 
   "informationLabel": {
     "message": "Information"
+  },
+  "backersLabel": {
+    "message": "Backers"
   },
   "licenseLabel": {
     "message": "License"

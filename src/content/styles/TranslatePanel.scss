@@ -23,7 +23,6 @@
       font-size: inherit;
       visibility: inherit;
       opacity: inherit;
-      padding: 10px 18px;
       box-sizing: border-box;
       width: max-content;
       height: max-content;
@@ -33,32 +32,40 @@
       max-height: 100%;
       overflow: auto;
 
-      p {
-        all: initial;
-        display: block;
-        margin: 0;
-        font-family: "Segoe UI", "San Francisco", "Ubuntu", "Fira Sans", "Roboto", "Arial",
-          "Helvetica", sans-serif !important;
-        text-align: left;
-        word-wrap: break-word;
-        font-size: inherit;
-        line-height: 150%;
-        visibility: inherit;
-        opacity: inherit;
+      .simple-translate-move {
+        height: 15px;
+        cursor: grab;
+      }
 
-        &::-moz-selection {
-          background: var(--simple-translate-line);
-        }
+      .simple-translate-result-contents {
+        padding: 0px 18px 15px;
+        p {
+          all: initial;
+          display: block;
+          margin: 0;
+          font-family: "Segoe UI", "San Francisco", "Ubuntu", "Fira Sans", "Roboto", "Arial",
+            "Helvetica", sans-serif !important;
+          text-align: left;
+          word-wrap: break-word;
+          font-size: inherit;
+          line-height: 150%;
+          visibility: inherit;
+          opacity: inherit;
 
-        &.simple-translate-result {
-          color: var(--simple-translate-main-text);
-        }
-        &.simple-translate-candidate,
-        &.simple-translate-error {
-          color: var(--simple-translate-sub-text);
-          margin-top: 1em;
-          &:empty {
-            margin-top: 0;
+          &::-moz-selection {
+            background: var(--simple-translate-line);
+          }
+
+          &.simple-translate-result {
+            color: var(--simple-translate-main-text);
+          }
+          &.simple-translate-candidate,
+          &.simple-translate-error {
+            color: var(--simple-translate-sub-text);
+            margin-top: 1em;
+            &:empty {
+              margin-top: 0;
+            }
           }
         }
       }

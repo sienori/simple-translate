@@ -1,50 +1,10 @@
 import React, { Component } from "react";
 import browser from "webextension-polyfill";
 import translate from "src/common/translate";
-import { initSettings, getSettings, handleSettingsChange } from "src/settings/settings";
-import { updateLogLevel, overWriteLogLevel } from "src/common/log";
+import { getSettings } from "src/settings/settings";
 import TranslateButton from "./TranslateButton";
 import TranslatePanel from "./TranslatePanel";
 import "../styles/TranslateContainer.scss";
-
-const getSelectedText = () => {
-  const element = document.activeElement;
-  const isInTextField = element.tagName === "INPUT" || element.tagName === "TEXTAREA";
-  const selectedText = isInTextField
-    ? element.value.substring(element.selectionStart, element.selectionEnd)
-    : window.getSelection().toString();
-  return selectedText;
-};
-
-const getSelectedPosition = () => {
-  const element = document.activeElement;
-  const isInTextField = element.tagName === "INPUT" || element.tagName === "TEXTAREA";
-  const selectedRect = isInTextField
-    ? element.getBoundingClientRect()
-    : window
-        .getSelection()
-        .getRangeAt(0)
-        .getBoundingClientRect();
-
-  let selectedPosition;
-  const panelReferencePoint = getSettings("panelReferencePoint");
-  switch (panelReferencePoint) {
-    case "topSelectedText":
-      selectedPosition = {
-        x: selectedRect.left + selectedRect.width / 2,
-        y: selectedRect.top
-      };
-      break;
-    case "bottomSelectedText":
-    default:
-      selectedPosition = {
-        x: selectedRect.left + selectedRect.width / 2,
-        y: selectedRect.bottom
-      };
-      break;
-  }
-  return selectedPosition;
-};
 
 const translateText = async (text, targetLang = getSettings("targetLang")) => {
   const result = await translate(text, "auto", targetLang);
@@ -71,15 +31,10 @@ const matchesTargetLang = async selectedText => {
   return matchsLangs;
 };
 
-const waitTime = time => {
-  return new Promise(resolve => setTimeout(() => resolve(), time));
-};
-
 export default class TranslateContainer extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      isInit: false,
       shouldShowButton: false,
       buttonPosition: { x: 0, y: 0 },
       shouldShowPanel: false,
@@ -88,75 +43,26 @@ export default class TranslateContainer extends Component {
       candidateText: "",
       statusText: "OK"
     };
-    this.selectedText = "";
-    this.selectedPosition = { x: 0, y: 0 };
-    this.init();
+    this.selectedText = props.selectedText;
+    this.selectedPosition = props.selectedPosition;
   }
 
-  init = async () => {
-    await initSettings();
-    this.setState({ isInit: true });
-    document.addEventListener("mouseup", this.handleMouseUp);
-    document.addEventListener("keydown", this.handleKeyDown);
-    browser.storage.onChanged.addListener(handleSettingsChange);
-    browser.runtime.onMessage.addListener(this.handleMessage);
-    overWriteLogLevel();
-    updateLogLevel();
-    if (this.props.isFirst) this.disableExtensionByUrlList();
+  componentDidMount = () => {
+    if (this.props.shouldTranslate) this.showPanel();
+    else this.handleTextSelect(this.props.clickedPosition);
   };
 
-  disableExtensionByUrlList = () => {
-    const disableUrls = getSettings("disableUrlList").split("\n");
-    let pageUrl;
-    try {
-      pageUrl = top.location.href;
-    } catch (e) {
-      pageUrl = document.referrer;
+  handleTextSelect = async clickedPosition => {
+    const onSelectBehavior = getSettings("whenSelectText");
+    if (onSelectBehavior === "dontShowButton") return this.props.removeContainer();
+
+    if (getSettings("ifCheckLang")) {
+      const matchesLang = await matchesTargetLang(this.selectedText);
+      if (matchesLang) return this.props.removeContainer();
     }
 
-    const matchesPageUrl = urlPattern => {
-      const pattern = urlPattern
-        .trim()
-        .replace(/[-[\]{}()*+?.,\\^$|#\s]/g, match => (match === "*" ? ".*" : "\\" + match));
-      if (pattern === "") return false;
-      return RegExp("^" + pattern + "$").test(pageUrl);
-    };
-
-    const isMatched = disableUrls.some(matchesPageUrl);
-    if (isMatched) this.props.removeElement();
-  };
-
-  handleMessage = async request => {
-    const empty = new Promise(resolve => {
-      setTimeout(() => {
-        return resolve("");
-      }, 100);
-    });
-
-    switch (request.message) {
-      case "getTabUrl":
-        if (window == window.parent) return location.href;
-        else return empty;
-      case "getSelectedText":
-        if (this.selectedText.length === 0) return empty;
-        else return this.selectedText;
-      case "translateSelectedText":
-        this.selectedText = getSelectedText();
-        if (this.selectedText.length === 0) return;
-        this.selectedPosition = getSelectedPosition();
-        this.hideButton();
-        this.showPanel();
-        break;
-      default:
-        return empty;
-    }
-  };
-
-  handleKeyDown = e => {
-    if (e.key === "Escape") {
-      this.hideButton();
-      this.hidePanel();
-    }
+    if (onSelectBehavior === "showButton") this.showButton(clickedPosition);
+    else if (onSelectBehavior === "showPanel") this.showPanel(clickedPosition);
   };
 
   showButton = clickedPosition => {
@@ -200,50 +106,7 @@ export default class TranslateContainer extends Component {
     this.setState({ shouldShowPanel: false });
   };
 
-  handleMouseUp = async e => {
-    await waitTime(0);
-    const isLeftClick = e.button === 0;
-    const isInPasswordField = e.target.tagName === "INPUT" && e.target.type === "password";
-    const isInThisElement = document.querySelector("#simple-translate").contains(e.target);
-    if (!isLeftClick) return;
-    if (isInPasswordField) return;
-    if (isInThisElement) return;
-    this.hideButton();
-    this.hidePanel();
-
-    this.selectedText = getSelectedText();
-    this.selectedPosition = getSelectedPosition();
-    const clickedPosition = { x: e.clientX, y: e.clientY };
-
-    if (this.selectedText.length === 0) return;
-    this.handleTextSelect(clickedPosition);
-  };
-
-  handleTextSelect = async clickedPosition => {
-    const onSelectBehavior = getSettings("whenSelectText");
-    if (onSelectBehavior === "dontShowButton") return;
-
-    if (getSettings("ifCheckLang")) {
-      const matchesLang = await matchesTargetLang(this.selectedText);
-      if (matchesLang) return;
-    }
-
-    if (onSelectBehavior === "showButton") {
-      this.showButton(clickedPosition);
-    } else if (onSelectBehavior === "showPanel") {
-      this.showPanel(clickedPosition);
-    }
-  };
-
-  componentWillUnmount() {
-    document.removeEventListener("mouseup", this.handleMouseUp);
-    document.removeEventListener("keydown", this.handleKeyDown);
-    browser.storage.onChanged.removeListener(handleSettingsChange);
-    browser.runtime.onMessage.removeListener(this.handleMessage);
-  }
-
   render = () => {
-    if (!this.state.isInit) return null;
     return (
       <div>
         <TranslateButton

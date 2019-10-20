@@ -9,7 +9,7 @@
     "message": "Δωρεά μέσω PayPal"
   },
   "donateLabel": {
-    "message": "Donate"
+    "message": "Κάνετε Δωρεά"
   },
   "enableOnThisPage": {
     "message": "Ενεργοποίηση μετάφρασης σε αυτή τη σελίδα"
@@ -87,7 +87,7 @@
     "message": "Εντοπίζει τη γλώσσα του επιλεγμένου κειμένου και αν είναι ίδια με τη γλώσσα προορισμού, μεταφράζει στη δεύτερη γλώσσα."
   },
   "isDisabledInTextFieldsLabel": {
-    "message": "Disable translation in text fields"
+    "message": "Απενεργοποίηση μετάφρασης σε πεδία κειμένου"
   },
   "isDisabledInTextFieldsCaptionLabel": {
     "message": "Don't display translation button or panel when selecting text in a text field."

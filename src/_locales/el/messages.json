@@ -90,7 +90,7 @@
     "message": "Απενεργοποίηση μετάφρασης σε πεδία κειμένου"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in a text field."
+    "message": "Μη εμφάνιση κουμπιού ή πλαισίου μετάφρασης όταν επιλέγεται κείμενο σε πεδίο κειμένου."
   },
   "disableUrlListLabel": {
     "message": "Λίστα URL για απενεργοποίηση μετάφρασης"
@@ -99,7 +99,7 @@
     "message": "Εάν το URL της σελίδας υπάρχει στη λίστα, η μετάφραση στην ιστοσελίδα είναι απενεργοποιημένη. Η λίστα επιτρέπει χαρακτήρες \"*\" μπαλαντέρ."
   },
   "toolbarLabel": {
-    "message": "Toolbar popup"
+    "message": "Εμφάνιση αναδυόμενης γραμμής εργαλείων"
   },
   "ifChangeSecondLangLabel": {
     "message": "Αυτόματη αλλαγή στη δεύτερη γλώσσα"
@@ -174,34 +174,34 @@
     "message": "Θέση εμφάνισης - Μετατόπιση"
   },
   "panelStyleLabel": {
-    "message": "Translation panel"
+    "message": "Πλαίσιο μεταφράσεων"
   },
   "panelStyleCaptionLabel": {
-    "message": "Specify the style of the translation panel displayed on the web page."
+    "message": "Καθορίστε το στυλ του πλαισίου μετάφρασης που εμφανίζεται στην ιστοσελίδα."
   },
   "widthLabel": {
-    "message": "Width"
+    "message": "Πλάτος"
   },
   "heightLabel": {
-    "message": "Height"
+    "message": "Ύψος"
   },
   "fontSizeLabel": {
     "message": "Μέγεθος γραμματοσειράς"
   },
   "referencePointLabel": {
-    "message": "Display position - Reference point"
+    "message": "Θέση εμφάνισης - Σημείο αναφοράς"
   },
   "bottomSelectedTextLabel": {
-    "message": "Bottom of selected text"
+    "message": "Κάτω από το επιλεγμένο κείμενο"
   },
   "topSelectedTextLabel": {
-    "message": "Top of selected text"
+    "message": "Πάνω από το επιλεγμένο κείμενο"
   },
   "clickedPointLabel": {
-    "message": "Clicked point"
+    "message": "Στο σημείο που έγινε κλικ"
   },
   "displayDirectionLabel": {
-    "message": "Display position - Direction"
+    "message": "Θέση εμφάνισης - Κατεύθυνση"
   },
   "resultFontColorLabel": {
     "message": "Font color of translation result"

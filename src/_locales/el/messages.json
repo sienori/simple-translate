@@ -204,22 +204,22 @@
     "message": "Θέση εμφάνισης - Κατεύθυνση"
   },
   "resultFontColorLabel": {
-    "message": "Font color of translation result"
+    "message": "Χρώμα γραμματοσειράς του μεταφρασμένου κειμένου"
   },
   "candidateFontColorLabel": {
-    "message": "Font color of translation candidates"
+    "message": "Χρώμα γραμματοσειράς των υποψηφίων μεταφράσεων"
   },
   "bgColorLabel": {
-    "message": "Background color"
+    "message": "Χρώμα φόντου"
   },
   "otherLabel": {
-    "message": "Other"
+    "message": "Άλλο"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Display option page when updating"
+    "message": "Εμφάνιση της σελίδας επιλογών μετά από ενημέρωση"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+    "message": "Να εμφανίζεται η σελίδα των επιλογών μετά από ενημέρωση του Simple Translate. Αποκτάτε γρήγορα γνώση των περιεχομένων της ενημέρωσης."
   },
   "isDebugModeLabel": {
     "message": "Enable debug mode"

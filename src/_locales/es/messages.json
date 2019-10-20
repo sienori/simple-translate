@@ -8,6 +8,9 @@
   "donateWithPaypalLabel": {
     "message": "Donar con PayPal"
   },
+  "donateLabel": {
+    "message": "Donate"
+  },
   "enableOnThisPage": {
     "message": "Habilitar traducción en esta página"
   },
@@ -82,6 +85,12 @@
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "Detecta el idioma del texto seleccionado, y si es el mismo que el idioma predeterminado de destino, traducir al segundo idioma."
+  },
+  "isDisabledInTextFieldsLabel": {
+    "message": "Disable translation in text fields"
+  },
+  "isDisabledInTextFieldsCaptionLabel": {
+    "message": "Don't display translation button or panel when selecting text in a text field."
   },
   "disableUrlListLabel": {
     "message": "Lista de URL para desactivar la traducción"
@@ -262,6 +271,9 @@
   },
   "informationLabel": {
     "message": "Información"
+  },
+  "backersLabel": {
+    "message": "Backers"
   },
   "licenseLabel": {
     "message": "Licencia"

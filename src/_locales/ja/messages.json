@@ -9,7 +9,7 @@
     "message": "PayPalで寄付"
   },
   "donateLabel": {
-    "message": "Donate"
+    "message": "寄付する"
   },
   "enableOnThisPage": {
     "message": "このページでの翻訳を有効化"
@@ -87,10 +87,10 @@
     "message": "選択されたテキストの言語を検出し，デフォルトの翻訳先言語と同じ場合には第二言語に翻訳します。"
   },
   "isDisabledInTextFieldsLabel": {
-    "message": "Disable translation in text fields"
+    "message": "テキストフィールド内での翻訳を無効にする"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in a text field."
+    "message": "テキストフィールド内のテキストが選択されたとき、翻訳ボタンや翻訳パネルを表示しません。"
   },
   "disableUrlListLabel": {
     "message": "翻訳を無効にするURLリスト"
@@ -273,7 +273,7 @@
     "message": "情報"
   },
   "backersLabel": {
-    "message": "Backers"
+    "message": "支援者"
   },
   "licenseLabel": {
     "message": "ライセンス"

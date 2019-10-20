@@ -9,7 +9,7 @@
     "message": "Adomány PayPal használatával"
   },
   "donateLabel": {
-    "message": "Donate"
+    "message": "Támogatás"
   },
   "enableOnThisPage": {
     "message": "Fordítás engedélyezése ezen az oldalon"
@@ -87,10 +87,10 @@
     "message": "Felismeri a kijelölt szöveg nyelvét és ha az megegyezik az alapértelmezett célnyelvvel akkor a fordítás a második nyelvre történik."
   },
   "isDisabledInTextFieldsLabel": {
-    "message": "Disable translation in text fields"
+    "message": "Fordítás letiltása a szövegmezőkben"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in a text field."
+    "message": "Ne jelenítse meg a fordítói gombot vagy panelt, amikor szöveget választ a szövegmezőben."
   },
   "disableUrlListLabel": {
     "message": "URL-ek listája, ahol a fordítás le lesz tiltásra"
@@ -273,7 +273,7 @@
     "message": "Információ"
   },
   "backersLabel": {
-    "message": "Backers"
+    "message": "Támogatók"
   },
   "licenseLabel": {
     "message": "Licensz"

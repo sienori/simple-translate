@@ -17,6 +17,7 @@ const init = async () => {
 };
 init();
 
+let prevSelectedText = "";
 const handleMouseUp = async e => {
   await waitTime(10);
   const isLeftClick = e.button === 0;
@@ -30,6 +31,7 @@ const handleMouseUp = async e => {
   removeTranslatecontainer();
 
   const selectedText = getSelectedText();
+  prevSelectedText = selectedText;
   if (selectedText.length === 0) return;
 
   const clickedPosition = { x: e.clientX, y: e.clientY };
@@ -99,12 +101,10 @@ const handleMessage = async request => {
       if (!isEnabled) return empty;
       if (window == window.parent) return location.href;
       else return empty;
-    case "getSelectedText": {
+    case "getSelectedText":
       if (!isEnabled) return empty;
-      const selectedText = getSelectedText();
-      if (selectedText.length === 0) return empty;
-      else return selectedText;
-    }
+      if (prevSelectedText.length === 0) return empty;
+      else return prevSelectedText;
     case "translateSelectedText": {
       if (!isEnabled) return empty;
       const selectedText = getSelectedText();

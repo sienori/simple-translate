@@ -3,16 +3,19 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
+    "message": "Traducir rápidamente el texto seleccionado en la página web. En la ventana emergente de la barra de herramientas, puede traducir el texto de entrada."
   },
   "donateWithPaypalLabel": {
     "message": "Donar con PayPal"
   },
+  "donateLabel": {
+    "message": "Donate"
+  },
   "enableOnThisPage": {
-    "message": "Enable translation on this page"
+    "message": "Habilitar traducción en esta página"
   },
   "disableOnThisPage": {
-    "message": "Disable translation on this page"
+    "message": "inhabilitar traducción en esta página"
   },
   "initialTextArea": {
     "message": "Introducir texto"
@@ -21,13 +24,13 @@
     "message": "Traducir esta página"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "Abrir en Traductor de Google"
   },
   "copyLabel": {
-    "message": "Copy"
+    "message": "Copiar"
   },
   "copiedLabel": {
-    "message": "Copied."
+    "message": "Copiado."
   },
   "targetLangLabel": {
     "message": "Idioma de destino"
@@ -42,7 +45,7 @@
     "message": "General"
   },
   "targetLangCaptionLabel": {
-    "message": "Seleccione el idiota predeterminado de destino."
+    "message": "Seleccione el idioma predeterminado de destino."
   },
   "webPageLabel": {
     "message": "Página web"
@@ -81,13 +84,19 @@
     "message": "Detecta el idioma del texto seleccionado, y si es el mismo que el idioma de destino, el botón no se muestra."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+    "message": "Detecta el idioma del texto seleccionado, y si es el mismo que el idioma predeterminado de destino, traducir al segundo idioma."
+  },
+  "isDisabledInTextFieldsLabel": {
+    "message": "Disable translation in text fields"
+  },
+  "isDisabledInTextFieldsCaptionLabel": {
+    "message": "Don't display translation button or panel when selecting text in a text field."
   },
   "disableUrlListLabel": {
-    "message": "URL list to disable translation"
+    "message": "Lista de URL para desactivar la traducción"
   },
   "disableUrlListCaptionLabel": {
-    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
+    "message": "Si la URL de la página coincide con la lista, la traducción en la página web es desactivada. La lista permite comodines \"*\"."
   },
   "toolbarLabel": {
     "message": "Ventana emergente de la barra de herramientas"
@@ -138,28 +147,28 @@
     "message": "Mostrar posición"
   },
   "topRightLabel": {
-    "message": "Top right"
+    "message": "Arriba a la derecha"
   },
   "bottomRightLabel": {
-    "message": "Bottom right"
+    "message": "Abajo a la derecha"
   },
   "topLeftLabel": {
-    "message": "Top left"
+    "message": "Arriba a la izquierda"
   },
   "bottomLeftLabel": {
-    "message": "Bottom left"
+    "message": "Abajo a la izquierda"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "Arriba"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "Abajo"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "Izquierda"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "Derecha"
   },
   "positionOffsetLabel": {
     "message": "Display position - Offset"
@@ -180,13 +189,13 @@
     "message": "Tamaño de la fuente"
   },
   "referencePointLabel": {
-    "message": "Display position - Reference point"
+    "message": "Mostrar posición - punto de referencia"
   },
   "bottomSelectedTextLabel": {
-    "message": "Bottom of selected text"
+    "message": "Parte inferior del texto seleccionado"
   },
   "topSelectedTextLabel": {
-    "message": "Top of selected text"
+    "message": "Parte superior del texto seleccionado"
   },
   "clickedPointLabel": {
     "message": "Clicked point"
@@ -263,6 +272,9 @@
   "informationLabel": {
     "message": "Información"
   },
+  "backersLabel": {
+    "message": "Backers"
+  },
   "licenseLabel": {
     "message": "Licencia"
   },
@@ -279,13 +291,13 @@
     "message": "Página de complemento"
   },
   "extensionPageLabel": {
-    "message": "Extension page"
+    "message": "Página de extensión"
   },
   "amazonUrl": {
-    "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
+    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
   },
   "addonUrl": {
-    "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
+    "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
     "message": "Error: Compruebe el estado de la conexión de red."

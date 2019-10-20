@@ -8,6 +8,9 @@
   "donateWithPaypalLabel": {
     "message": "Пожертвувати через PayPal"
   },
+  "donateLabel": {
+    "message": "Donate"
+  },
   "enableOnThisPage": {
     "message": "Увімкнути переклад на цій сторінці"
   },
@@ -82,6 +85,12 @@
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "Визначати мову виділеного тексту, і якщо вона співпадає зі стандартною цільовою мовою, перекласти її другою мовою."
+  },
+  "isDisabledInTextFieldsLabel": {
+    "message": "Disable translation in text fields"
+  },
+  "isDisabledInTextFieldsCaptionLabel": {
+    "message": "Don't display translation button or panel when selecting text in a text field."
   },
   "disableUrlListLabel": {
     "message": "Список адрес для відключення перекладу"
@@ -263,6 +272,9 @@
   "informationLabel": {
     "message": "Інформація"
   },
+  "backersLabel": {
+    "message": "Backers"
+  },
   "licenseLabel": {
     "message": "Ліцензія"
   },
@@ -282,10 +294,10 @@
     "message": "Сторінка додатку"
   },
   "amazonUrl": {
-    "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
+    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
   },
   "addonUrl": {
-    "message": "https:\/\/addons.mozilla.org\/uk\/firefox\/addon\/simple-translate\/?src=optionpage"
+    "message": "https://addons.mozilla.org/uk/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
     "message": "Помилка: Перевірте з'єднання з інтернетом."

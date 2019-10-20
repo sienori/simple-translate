@@ -8,6 +8,9 @@
   "donateWithPaypalLabel": {
     "message": "Δωρεά μέσω PayPal"
   },
+  "donateLabel": {
+    "message": "Donate"
+  },
   "enableOnThisPage": {
     "message": "Ενεργοποίηση μετάφρασης σε αυτή τη σελίδα"
   },
@@ -82,6 +85,12 @@
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "Εντοπίζει τη γλώσσα του επιλεγμένου κειμένου και αν είναι ίδια με τη γλώσσα προορισμού, μεταφράζει στη δεύτερη γλώσσα."
+  },
+  "isDisabledInTextFieldsLabel": {
+    "message": "Disable translation in text fields"
+  },
+  "isDisabledInTextFieldsCaptionLabel": {
+    "message": "Don't display translation button or panel when selecting text in a text field."
   },
   "disableUrlListLabel": {
     "message": "Λίστα URL για απενεργοποίηση μετάφρασης"
@@ -263,6 +272,9 @@
   "informationLabel": {
     "message": "Information"
   },
+  "backersLabel": {
+    "message": "Backers"
+  },
   "licenseLabel": {
     "message": "License"
   },
@@ -282,10 +294,10 @@
     "message": "Extension page"
   },
   "amazonUrl": {
-    "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
+    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
   },
   "addonUrl": {
-    "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
+    "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
     "message": "Error: Check network connection status."

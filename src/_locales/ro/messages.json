@@ -8,6 +8,9 @@
   "donateWithPaypalLabel": {
     "message": "Donează prin PayPal"
   },
+  "donateLabel": {
+    "message": "Donate"
+  },
   "enableOnThisPage": {
     "message": "Activează traducerea pe această pagină"
   },
@@ -82,6 +85,12 @@
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "Detectează limba textului selectat, iar dacă e identică cu limba țintă implicită, tradu in limba secundară."
+  },
+  "isDisabledInTextFieldsLabel": {
+    "message": "Disable translation in text fields"
+  },
+  "isDisabledInTextFieldsCaptionLabel": {
+    "message": "Don't display translation button or panel when selecting text in a text field."
   },
   "disableUrlListLabel": {
     "message": "Lista URL-urilor pentru care traducerea va fi dezactivată"
@@ -263,6 +272,9 @@
   "informationLabel": {
     "message": "Informaţii"
   },
+  "backersLabel": {
+    "message": "Backers"
+  },
   "licenseLabel": {
     "message": "Licenţă"
   },
@@ -282,10 +294,10 @@
     "message": "Pagină de extensii"
   },
   "amazonUrl": {
-    "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
+    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
   },
   "addonUrl": {
-    "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
+    "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
     "message": "Eroare: Verifică starea conexiunii la rețea."

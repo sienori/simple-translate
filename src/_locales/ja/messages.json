@@ -8,6 +8,9 @@
   "donateWithPaypalLabel": {
     "message": "PayPalで寄付"
   },
+  "donateLabel": {
+    "message": "寄付する"
+  },
   "enableOnThisPage": {
     "message": "このページでの翻訳を有効化"
   },
@@ -82,6 +85,12 @@
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "選択されたテキストの言語を検出し，デフォルトの翻訳先言語と同じ場合には第二言語に翻訳します。"
+  },
+  "isDisabledInTextFieldsLabel": {
+    "message": "テキストフィールド内での翻訳を無効にする"
+  },
+  "isDisabledInTextFieldsCaptionLabel": {
+    "message": "テキストフィールド内のテキストが選択されたとき、翻訳ボタンや翻訳パネルを表示しません。"
   },
   "disableUrlListLabel": {
     "message": "翻訳を無効にするURLリスト"
@@ -263,6 +272,9 @@
   "informationLabel": {
     "message": "情報"
   },
+  "backersLabel": {
+    "message": "支援者"
+  },
   "licenseLabel": {
     "message": "ライセンス"
   },
@@ -282,10 +294,10 @@
     "message": "拡張機能ページ"
   },
   "amazonUrl": {
-    "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=ja_JP"
+    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=ja_JP"
   },
   "addonUrl": {
-    "message": "https:\/\/addons.mozilla.org\/ja\/firefox\/addon\/simple-translate\/?src=optionpage"
+    "message": "https://addons.mozilla.org/ja/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
     "message": "エラー: ネットワークの接続状態を確認してください。"

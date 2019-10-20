@@ -8,6 +8,9 @@
   "donateWithPaypalLabel": {
     "message": "使用 PayPal 捐赠"
   },
+  "donateLabel": {
+    "message": "Donate"
+  },
   "enableOnThisPage": {
     "message": "在此页面启用翻译"
   },
@@ -82,6 +85,12 @@
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "检测所选文本的语言，如果与默认目标语言相同，则将其翻译为第二语言。"
+  },
+  "isDisabledInTextFieldsLabel": {
+    "message": "Disable translation in text fields"
+  },
+  "isDisabledInTextFieldsCaptionLabel": {
+    "message": "Don't display translation button or panel when selecting text in a text field."
   },
   "disableUrlListLabel": {
     "message": "URL 白名单"
@@ -263,6 +272,9 @@
   "informationLabel": {
     "message": "信息"
   },
+  "backersLabel": {
+    "message": "Backers"
+  },
   "licenseLabel": {
     "message": "授权条款"
   },
@@ -282,10 +294,10 @@
     "message": "拓展页面"
   },
   "amazonUrl": {
-    "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=zh_CN"
+    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=zh_CN"
   },
   "addonUrl": {
-    "message": "https:\/\/addons.mozilla.org\/zh-CN\/firefox\/addon\/simple-translate\/?src=optionpage"
+    "message": "https://addons.mozilla.org/zh-CN/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
     "message": "错误：请检查您的网络连接状态"

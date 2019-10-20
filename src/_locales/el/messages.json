@@ -222,10 +222,10 @@
     "message": "Να εμφανίζεται η σελίδα των επιλογών μετά από ενημέρωση του Simple Translate. Αποκτάτε γρήγορα γνώση των περιεχομένων της ενημέρωσης."
   },
   "isDebugModeLabel": {
-    "message": "Enable debug mode"
+    "message": "Ενεργοποίηση εντοπισμού σφαλμάτων"
   },
   "isDebugModeCaptionLabel": {
-    "message": "When debug mode is enabled, the log is output to the debugger."
+    "message": "Όταν έχει ενεργοποιηθεί ο εντοπισμός σφαλμάτων, το περιεχόμενο καταγραφής κατευθύνεται στο πρόγραμμα εκσφαλμάτωσης."
   },
   "resetSettingsLabel": {
     "message": "Reset settings"

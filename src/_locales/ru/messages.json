@@ -87,10 +87,10 @@
     "message": "Переключаться на дополнительный язык перевода, если язык выделенного текста совпадает с языком перевода по умолчанию."
   },
   "isDisabledInTextFieldsLabel": {
-    "message": "Disable translation in text fields"
+    "message": "Отключить перевод в текстовых полях"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in a text field."
+    "message": "Не показывать кнопку или панель перевода при выборе текста в текстовом поле."
   },
   "disableUrlListLabel": {
     "message": "Список сайтов, на которых перевод отключён"

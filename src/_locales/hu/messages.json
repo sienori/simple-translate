@@ -8,6 +8,9 @@
   "donateWithPaypalLabel": {
     "message": "Adomány PayPal használatával"
   },
+  "donateLabel": {
+    "message": "Donate"
+  },
   "enableOnThisPage": {
     "message": "Fordítás engedélyezése ezen az oldalon"
   },
@@ -82,6 +85,12 @@
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "Felismeri a kijelölt szöveg nyelvét és ha az megegyezik az alapértelmezett célnyelvvel akkor a fordítás a második nyelvre történik."
+  },
+  "isDisabledInTextFieldsLabel": {
+    "message": "Disable translation in text fields"
+  },
+  "isDisabledInTextFieldsCaptionLabel": {
+    "message": "Don't display translation button or panel when selecting text in a text field."
   },
   "disableUrlListLabel": {
     "message": "URL-ek listája, ahol a fordítás le lesz tiltásra"
@@ -263,6 +272,9 @@
   "informationLabel": {
     "message": "Információ"
   },
+  "backersLabel": {
+    "message": "Backers"
+  },
   "licenseLabel": {
     "message": "Licensz"
   },
@@ -282,10 +294,10 @@
     "message": "Kiegészítő oldala"
   },
   "amazonUrl": {
-    "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=hu_HU"
+    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=hu_HU"
   },
   "addonUrl": {
-    "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
+    "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
     "message": "Hiba: Ellenőrizze a hálózati kapcsolat állapotát."

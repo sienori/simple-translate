@@ -8,6 +8,9 @@
   "donateWithPaypalLabel": {
     "message": "Donasi dengan PayPal"
   },
+  "donateLabel": {
+    "message": "Donate"
+  },
   "enableOnThisPage": {
     "message": "aktifkan terjemahan pada halaman ini"
   },
@@ -82,6 +85,12 @@
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+  },
+  "isDisabledInTextFieldsLabel": {
+    "message": "Disable translation in text fields"
+  },
+  "isDisabledInTextFieldsCaptionLabel": {
+    "message": "Don't display translation button or panel when selecting text in a text field."
   },
   "disableUrlListLabel": {
     "message": "daftar alamat yang dinonaktifkan terjemahan"
@@ -263,6 +272,9 @@
   "informationLabel": {
     "message": "Informasi"
   },
+  "backersLabel": {
+    "message": "Backers"
+  },
   "licenseLabel": {
     "message": "Lisensi"
   },
@@ -282,10 +294,10 @@
     "message": "halaman ekstensi"
   },
   "amazonUrl": {
-    "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
+    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
   },
   "addonUrl": {
-    "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
+    "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
     "message": "Error: Check network connection status."

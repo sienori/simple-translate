@@ -8,6 +8,9 @@
   "donateWithPaypalLabel": {
     "message": "PayPal로 기부하기"
   },
+  "donateLabel": {
+    "message": "Donate"
+  },
   "enableOnThisPage": {
     "message": "이 페이지에서 번역 사용"
   },
@@ -82,6 +85,12 @@
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "선택된 텍스트의 언어를 감지해 번역 대상 언어와 일치하면 보조 언어로 번역합니다."
+  },
+  "isDisabledInTextFieldsLabel": {
+    "message": "Disable translation in text fields"
+  },
+  "isDisabledInTextFieldsCaptionLabel": {
+    "message": "Don't display translation button or panel when selecting text in a text field."
   },
   "disableUrlListLabel": {
     "message": "번역을 비활성화할 URL 목록"
@@ -263,6 +272,9 @@
   "informationLabel": {
     "message": "정보"
   },
+  "backersLabel": {
+    "message": "Backers"
+  },
   "licenseLabel": {
     "message": "라이선스"
   },
@@ -282,10 +294,10 @@
     "message": "확장 프로그램 페이지"
   },
   "amazonUrl": {
-    "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
+    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
   },
   "addonUrl": {
-    "message": "https:\/\/addons.mozilla.org\/ko\/firefox\/addon\/simple-translate\/?src=optionpage"
+    "message": "https://addons.mozilla.org/ko/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
     "message": "오류: 네트워크 연결 상태를 확인하세요."

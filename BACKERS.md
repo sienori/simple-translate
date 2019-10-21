@@ -9,3 +9,4 @@ Thank you to the awesome backers who supported Simple Translate!
 ## Backers via Patreon
 
 - kometchtech
+- 準平 大坪

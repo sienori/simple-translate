@@ -87,10 +87,10 @@
     "message": "偵測選擇文字的語言, 如果它與預設的目標語言相同, 則將其翻譯為第二語言。"
   },
   "isDisabledInTextFieldsLabel": {
-    "message": "Disable translation in text fields"
+    "message": "在文字區域停用翻譯"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in a text field."
+    "message": "不要在文字區域選取文字時顯示翻譯按鈕或面板。"
   },
   "disableUrlListLabel": {
     "message": "要停用翻譯的 URL 清單"

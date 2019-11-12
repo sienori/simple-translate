@@ -10,3 +10,4 @@ Thank you to the awesome backers who supported Simple Translate!
 
 - kometchtech
 - 準平 大坪
+- Hans Zhang

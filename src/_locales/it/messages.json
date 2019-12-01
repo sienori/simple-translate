@@ -9,7 +9,7 @@
     "message": "Dona con PayPal"
   },
   "donateLabel": {
-    "message": "Donate"
+    "message": "Donare"
   },
   "enableOnThisPage": {
     "message": "Abilita la traduzione in questa pagina"
@@ -87,10 +87,10 @@
     "message": "Rileva la lingua del testo selezionato, e se è uguale alla lingua predefinita, traducilo nella seconda lingua."
   },
   "isDisabledInTextFieldsLabel": {
-    "message": "Disable translation in text fields"
+    "message": "Disabilita la traduzione nei campi di testo"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in a text field."
+    "message": "Non visualizzare il pulsante o il pannello di traduzione quando si seleziona il testo in un campo di testo."
   },
   "disableUrlListLabel": {
     "message": "Lista degli URL per i quali la traduzione è disabilitata"
@@ -273,7 +273,7 @@
     "message": "Informazione"
   },
   "backersLabel": {
-    "message": "Backers"
+    "message": "I sostenitori"
   },
   "licenseLabel": {
     "message": "Licenza"

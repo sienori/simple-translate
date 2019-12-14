@@ -87,10 +87,10 @@
     "message": "Seçili metnin dilini algılar ve varsayılan hedef dille aynıysa, ikinci dile çevirir."
   },
   "isDisabledInTextFieldsLabel": {
-    "message": "Disable translation in text fields"
+    "message": "Metin alanlarındaki çeviriyi devre dışı bırakın"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in a text field."
+    "message": "Bir metin alanında metin seçerken çeviri butonunu veya paneli görüntülemeyin."
   },
   "disableUrlListLabel": {
     "message": "Çeviriyi devre dışı bırakmak için URL listesi"
@@ -273,7 +273,7 @@
     "message": "Bilgi"
   },
   "backersLabel": {
-    "message": "Backers"
+    "message": "Destekleyenler"
   },
   "licenseLabel": {
     "message": "Lisans"

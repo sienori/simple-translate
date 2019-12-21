@@ -84,16 +84,16 @@
     "message": "Detecta el idioma del texto seleccionado y, si es el mismo que el idioma de destino, no se muestra el botón."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detecta el idioma del texto seleccionado, y si es el mismo que el idioma predeterminado de destino, traducir al segundo idioma."
+    "message": "Detecta el idioma del texto seleccionado y, si es el mismo que el idioma de destino por defecto, traduce el texto al segundo idioma."
   },
   "isDisabledInTextFieldsLabel": {
     "message": "Desactivar la traducción en los campos de texto"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "No mostrar el botón o el panel de traducción al seleccionar texto en un campo de texto."
+    "message": "No muestra el botón ni el panel de traducción al seleccionar texto en un campo de texto."
   },
   "disableUrlListLabel": {
-    "message": "Lista de URL para desactivar la traducción"
+    "message": "Lista de URL para los que se desactiva la traducción"
   },
   "disableUrlListCaptionLabel": {
     "message": "Si la URL de la página coincide con la lista, la traducción en la página web es desactivada. La lista permite comodines \"*\"."

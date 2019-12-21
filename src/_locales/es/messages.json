@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Traducir rápidamente el texto seleccionado en la página web. En la ventana emergente de la barra de herramientas, puede traducir el texto de entrada."
+    "message": "Traducir rápidamente el texto seleccionado en la página web. En la ventana emergente de la barra de herramientas, puede traducir el texto introducido."
   },
   "donateWithPaypalLabel": {
     "message": "Donar con PayPal"
@@ -63,7 +63,7 @@
     "message": "Mostrar el panel de traducción"
   },
   "ifAutoTranslateCaptionLabel": {
-    "message": "Visualice directamente el panel de traducción sin mostrar el botón."
+    "message": "Muestra directamente el panel de traducción sin mostrar el botón."
   },
   "ifShowButtonLabel": {
     "message": "Mostrar el botón de traducción"
@@ -96,7 +96,7 @@
     "message": "Lista de URL para los que se desactiva la traducción"
   },
   "disableUrlListCaptionLabel": {
-    "message": "Si el URL de la página coincide con los de lista, se desactiva la traducción en la página web. La lista permite el uso de caracteres comodín «*»."
+    "message": "Si el URL de la página se encuentra en la lista, se desactiva la traducción en la página web. La lista permite el uso de caracteres comodín «*»."
   },
   "toolbarLabel": {
     "message": "Ventana emergente de la barra de herramientas"

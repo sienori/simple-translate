@@ -258,13 +258,13 @@
     "message": "Incluya Comando, Ctrl o Alt"
   },
   "invalidLetterMessage": {
-    "message": "La letra no puede ser utilizada"
+    "message": "No se puede usar la letra"
   },
   "invalidShortcutMessage": {
-    "message": "El atajo no puede ser usado"
+    "message": "No se puede usar el atajo"
   },
   "clear": {
-    "message": "Limpiar"
+    "message": "Borrar"
   },
   "reset": {
     "message": "Restablecer"
@@ -279,19 +279,19 @@
     "message": "Licencia"
   },
   "donationLabel": {
-    "message": "Por favor haga una donación"
+    "message": "Por favor, haga una donación"
   },
   "donationCaptionLabel": {
-    "message": "Gracias por usar Simple Translate.<br> Su apoyo será un gran estímulo para continuar el desarrollo del complemento.<br>Si le gusta Simple Translate, me alegraría si pudiera considerar una donación."
+    "message": "Gracias por usar Simple Translate.<br> Su apoyo será un gran estímulo para continuar el desarrollo del complemento.<br>Si le gusta Simple Translate, me encantaría que pudiera considerar la posibilidad de hacer una donación."
   },
   "amazonTitleLabel": {
     "message": "amazon.co.jp tarjetas eGift"
   },
   "addonPageLabel": {
-    "message": "Página de complemento"
+    "message": "Página del complemento"
   },
   "extensionPageLabel": {
-    "message": "Página de extensión"
+    "message": "Página de la extensión"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
@@ -300,10 +300,10 @@
     "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
-    "message": "Error: Compruebe el estado de la conexión de red."
+    "message": "Error: compruebe el estado de la conexión a la red."
   },
   "unavailableError": {
-    "message": "Error: Límite de uso de servicio alcanzado. Por favor, espere unos minutos e inténtelo de nuevo."
+    "message": "Error: se ha alcanzado el límite de uso del servicio. Espere un momento e inténtelo de nuevo."
   },
   "unknownError": {
     "message": "Error: Desconocido"

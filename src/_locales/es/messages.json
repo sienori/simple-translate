@@ -36,10 +36,10 @@
     "message": "Idioma de destino"
   },
   "langList": {
-    "message": "af:Africano, sq:Albanés, am:Amárico, ar:Arábe, hy:Armenio, az:Azerbaijani, eu:Vasco, be:Bielorruso, bn:Bengalí, bs:Bosnio, bg:Búlgaro, ca:Catalán, ceb:Cebuano, ny:Chewa, zh-CN:Chino (PRC), zh-TW:Chino (Taiwan), co:Corso, hr:Croata, cs:Checo, da:Danés, nl:Holandés, en:Inglés, eo:Esperanto, et:Estonio, fi:Finlandés, fr:French, fy:Frisio, gl:Gallego, ka:Georgiano, de:Alemán, el:Griego, gu:Gujarati, ht:Haitiano, ha:Hausa, haw:Hawaiano, he:Hebreo, hi:Hindi, hu:Húngaro, is:Islandés, ig:Igbo, id:Indonesio, ga:Iirlandés, it:Italiano, ja:Japonés, jv:Javanés, kn:Kannada, kk:Kazaj, km:Khmer, ky:Kirguiz, ko:Coreano, ku:Kurdo, lo:Laotiano, la:Latín, lv:Letón, lt:Lituano, lb:Luxemburgués, mk:Macedonio, mg:Madagascarí, ms:Malayo, ml:Malayalam, mt:Maltés, mi:Maorí, mr:Marathi, mn:Mongól, hmn:Monje, my:Myanmar, ne:Nepalí, no:Noruego, fa:Persa, pl:Polaco, pt:Portugués, pa:Punjabi, ps:Pushto, ro:Rúmano, ru:Ruso, sm:Samoano, gd:Escocés Gaélico, sr:Serbio, sn:Shona, sd:Sindhi, si:Sinhala, sk:Eslováco, sl:Esloveno, so:Somalí, sx:Sotho, es:Español, su:Sundanés, sw:Swahili, sv:Sueco, tl:Tagalo, tg:Tajiki, ta:Tamil, te:Telugu, th:Tailandés, tr:Turco, uk:Ucraniano, ur:Urdu, uz:Uzbek, vi:Vietnamita, cy:Welsh, xh:Xosa, yi:Yídish, yo:Yoruba, zu:Zulú"
+    "message": "af:Afrikáans, sq:Albanés, am:Amhárico, ar:Árabe, hy:Armenio, az:Azerí, eu:Euskera, be:Bielorruso, bn:Bengalí, bs:Bosnio, bg:Búlgaro, ca:Catalán, ceb:Cebuano, ny:Chichewa, zh-CN:Chino (China), zh-TW:Chino (Taiwan), co:Corso, hr:Croata, cs:Checo, da:Danés, nl:Neerlandés, en:Inglés, eo:Esperanto, et:Estonio, fi:Finlandés, fr:Francés, fy:Frisio, gl:Gallego, ka:Georgiano, de:Alemán, el:Griego, gu:Gujarati, ht:Haitiano, ha:Hausa, haw:Hawaiano, he:Hebreo, hi:Hindi, hu:Húngaro, is:Islandés, ig:Igbo, id:Indonesio, ga:Irlandés, it:Italiano, ja:Japonés, jv:Javanés, kn:Canarés, kk:Kazajo, km:Khmer, ky:Kirguís, ko:Coreano, ku:Kurdo, lo:Lao, la:Latín, lv:Letón, lt:Lituano, lb:Luxemburgués, mk:Macedonio, mg:Malgache, ms:Malayo, ml:Malayalam, mt:Maltés, mi:Maorí, mr:Maratí, mn:Mongol, hmn:Hmong, my:Birmano, ne:Nepalí, no:Noruego, fa:Persa, pl:Polaco, pt:Portugués, pa:Punjabí, ps:Pastún, ro:Rumano, ru:Ruso, sm:Samoano, gd:Gaélico escocés, sr:Serbio, sn:Shona, sd:Sindhi, si:Cingalés, sk:Eslovaco, sl:Esloveno, so:Somalí, st:Sesoto, es:Español, su:Sundanés, sw:Suajili, sv:Sueco, tl:Tagalo, tg:Tayico, ta:Tamil, te:Telugu, th:Tailandés, tr:Turco, uk:Ucraniano, ur:Urdu, uz:Uzbeko, vi:Vietnamita, cy:Galés, xh:Xhosa, yi:Yidis, yo:Yoruba, zu:Zulú"
   },
   "settingsLabel": {
-    "message": "Ajustes"
+    "message": "Configuración"
   },
   "generalLabel": {
     "message": "General"
@@ -51,7 +51,7 @@
     "message": "Página web"
   },
   "ifShowCandidateLabel": {
-    "message": "Mostrar candidatos para traducción"
+    "message": "Mostrar candidatos a la traducción"
   },
   "ifShowCandidateCaptionLabel": {
     "message": "Mostrar múltiples candidatos de traducción cuando se una sola palabra es traducida."

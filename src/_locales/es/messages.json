@@ -54,7 +54,7 @@
     "message": "Mostrar candidatos a la traducción"
   },
   "ifShowCandidateCaptionLabel": {
-    "message": "Mostrar múltiples candidatos de traducción cuando se una sola palabra es traducida."
+    "message": "Muestra varios candidatos a la traducción al traducir una sola palabra."
   },
   "whenSelectTextLabel": {
     "message": "Comportamiento al seleccionar texto"
@@ -69,19 +69,19 @@
     "message": "Mostrar el botón de traducción"
   },
   "ifShowButtonCaptionLabel": {
-    "message": "Muestre el botón de traducción para abrir el panel al hacer clic."
+    "message": "Muestra el botón de traducción para abrir el panel al hacer clic."
   },
   "dontshowbuttonlabel": {
-    "message": "No mostrar el botón o panel"
+    "message": "No mostrar el botón ni el panel"
   },
   "dontshowbuttonCaptionlabel": {
-    "message": "No muestre el botón de traducción o el panel de traducción."
+    "message": "No muestra el botón de traducción ni el panel de traducción."
   },
   "ifCheckLangLabel": {
     "message": "No mostrar el botón si la traducción no es necesaria"
   },
   "ifCheckLangCaptionLabel": {
-    "message": "Detecta el idioma del texto seleccionado, y si es el mismo que el idioma de destino, el botón no se muestra."
+    "message": "Detecta el idioma del texto seleccionado y, si es el mismo que el idioma de destino, no se muestra el botón."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "Detecta el idioma del texto seleccionado, y si es el mismo que el idioma predeterminado de destino, traducir al segundo idioma."

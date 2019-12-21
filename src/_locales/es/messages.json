@@ -96,19 +96,19 @@
     "message": "Lista de URL para los que se desactiva la traducción"
   },
   "disableUrlListCaptionLabel": {
-    "message": "Si la URL de la página coincide con la lista, la traducción en la página web es desactivada. La lista permite comodines \"*\"."
+    "message": "Si el URL de la página coincide con los de lista, se desactiva la traducción en la página web. La lista permite el uso de caracteres comodín «*»."
   },
   "toolbarLabel": {
     "message": "Ventana emergente de la barra de herramientas"
   },
   "ifChangeSecondLangLabel": {
-    "message": "Cambiar automáticamente al segundo lenguaje"
+    "message": "Cambiar automáticamente al segundo idioma"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "Detecta el idioma del texto de entrada, y si es el mismo que el idioma predeterminado de destino, traducir al segundo idioma."
+    "message": "Detecta el idioma del texto de entrada y, si es el mismo que el idioma de destino por defecto, traduce el texto al segundo idioma."
   },
   "secondTargetLangLabel": {
-    "message": "Segunda lengua"
+    "message": "Segundo idioma"
   },
   "secondTargetLangCaptionLabel": {
     "message": "Seleccione el segundo idioma de destino."
@@ -117,7 +117,7 @@
     "message": "Tiempo de espera para traducir"
   },
   "waitTimeCaptionLabel": {
-    "message": "Especifique el tiempo de espera desde la entrada de un carácter para empezar a traducir. (milisegundos)"
+    "message": "Especifique el tiempo de espera desde la introducción de un carácter hasta el inicio de la traducción. (milisegundos)"
   },
   "waitTime2CaptionLabel": {
     "message": "Si traduce muchas veces en poco tiempo, pueden quedar inutilizado por un tiempo."

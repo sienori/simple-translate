@@ -12,19 +12,19 @@
     "message": "Donar"
   },
   "enableOnThisPage": {
-    "message": "Habilitar traducción en esta página"
+    "message": "Activar la traducción en esta página"
   },
   "disableOnThisPage": {
-    "message": "inhabilitar traducción en esta página"
+    "message": "Desactivar la traducción en esta página"
   },
   "initialTextArea": {
-    "message": "Introducir texto"
+    "message": "Introducir el texto"
   },
   "showLink": {
     "message": "Traducir esta página"
   },
   "openInGoogleLabel": {
-    "message": "Abrir en Traductor de Google"
+    "message": "Abrir en el traductor de Google"
   },
   "copyLabel": {
     "message": "Copiar"
@@ -273,7 +273,7 @@
     "message": "Información"
   },
   "backersLabel": {
-    "message": "Backers"
+    "message": "Donantes"
   },
   "licenseLabel": {
     "message": "Licencia"

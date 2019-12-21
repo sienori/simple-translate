@@ -306,18 +306,18 @@
     "message": "Error: se ha alcanzado el límite de uso del servicio. Espere un momento e inténtelo de nuevo."
   },
   "unknownError": {
-    "message": "Error: Desconocido"
+    "message": "Error desconocido"
   },
   "translatePageMenu": {
     "message": "Traducir esta página"
   },
   "translateTextMenu": {
-    "message": "Traducir texto seleccionado"
+    "message": "Traducir el texto seleccionado"
   },
   "translateLinkMenu": {
-    "message": "Traducir enlace seleccionado"
+    "message": "Traducir el enlace seleccionado"
   },
   "openPopupDescription": {
-    "message": "Abrir la barra de herramientas emergente"
+    "message": "Abrir la ventana emergente de la barra de herramientas"
   }
 }

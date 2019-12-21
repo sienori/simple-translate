@@ -87,10 +87,10 @@
     "message": "Detecta el idioma del texto seleccionado, y si es el mismo que el idioma predeterminado de destino, traducir al segundo idioma."
   },
   "isDisabledInTextFieldsLabel": {
-    "message": "Disable translation in text fields"
+    "message": "Desactivar la traducción en los campos de texto"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in a text field."
+    "message": "No mostrar el botón o el panel de traducción al seleccionar texto en un campo de texto."
   },
   "disableUrlListLabel": {
     "message": "Lista de URL para desactivar la traducción"

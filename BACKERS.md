@@ -12,3 +12,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - 準平 大坪
 - Hans Zhang
 - Daisuke SAKAMOTO
+- BIlY4kgVBE

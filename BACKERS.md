@@ -13,3 +13,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - Hans Zhang
 - Daisuke SAKAMOTO
 - BIlY4kgVBE
+- Christian Mårtensson

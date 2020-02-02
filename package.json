@@ -2,6 +2,7 @@
   "name": "simple-translate",
   "version": "0.0.0",
   "dependencies": {
+    "aws-sdk": "^2.610.0",
     "browser-info": "^1.2.0",
     "loglevel": "^1.6.1",
     "query-string": "^6.1.0",

@@ -7,7 +7,7 @@ import TranslatePanel from "./TranslatePanel";
 import "../styles/TranslateContainer.scss";
 
 const translateText = async (text, targetLang = getSettings("targetLang")) => {
-  const result = await translate(text, "auto", targetLang);
+  const result = await translate(text, "en", targetLang);
   return result;
 };
 

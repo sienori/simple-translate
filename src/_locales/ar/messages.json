@@ -87,13 +87,13 @@
     "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
   },
   "isDisabledInTextFieldsLabel": {
-    "message": "Disable translation in text fields"
+    "message": "تعطيل الترجمة في حقول النص"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in a text field."
+    "message": "لا تعرض زر أو لوحة الترجمة عند اختيار النص في حقل نص."
   },
   "disableUrlListLabel": {
-    "message": "URL list to disable translation"
+    "message": "قائمة عناوين لتعطيل الترجمة"
   },
   "disableUrlListCaptionLabel": {
     "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."

@@ -3,19 +3,19 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
+    "message": "ترجم النص المحدد على صفحة الويب بسرعة. في شريط الأدوات ، يمكنك ترجمة النص المُدْخل."
   },
   "donateWithPaypalLabel": {
     "message": "تبرع بواسطة PayPal"
   },
   "donateLabel": {
-    "message": "Donate"
+    "message": "تبرع"
   },
   "enableOnThisPage": {
-    "message": "Enable translation on this page"
+    "message": "فعل الترجمة على هذه الصفحة"
   },
   "disableOnThisPage": {
-    "message": "Disable translation on this page"
+    "message": "عطل الترجمة على هذه الصفحة"
   },
   "initialTextArea": {
     "message": "أادخل النص"
@@ -24,13 +24,13 @@
     "message": "ترجم هذه الصفحة"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "إفتح في ترجمة جوجل"
   },
   "copyLabel": {
-    "message": "Copy"
+    "message": "نسخ"
   },
   "copiedLabel": {
-    "message": "Copied."
+    "message": "تم النسخ."
   },
   "targetLangLabel": {
     "message": "اللغة الهدف"

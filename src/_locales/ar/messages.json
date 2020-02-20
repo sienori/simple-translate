@@ -96,7 +96,7 @@
     "message": "قائمة عناوين لتعطيل الترجمة"
   },
   "disableUrlListCaptionLabel": {
-    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
+    "message": "إذا تطابق عنوان الصفحة مع القائمة ، فإن الترجمة على صفحة الويب تعطل. تسمح القائمة بالرمز \"*\"."
   },
   "toolbarLabel": {
     "message": "شريط أدوات منبثق"
@@ -120,7 +120,7 @@
     "message": "تحديد وقت الانتظار لادخال الاحرف حتي البدء بالترجمة"
   },
   "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
+    "message": "إذا ترجمتها مرات عديدة في وقت قصير ، قد تصبح غير صالحة للاستخدام لفترة من الوقت."
   },
   "menuLabel": {
     "message": "قائمة السياق"
@@ -147,31 +147,31 @@
     "message": "مكان العرض"
   },
   "topRightLabel": {
-    "message": "Top right"
+    "message": "أعلى اليمين"
   },
   "bottomRightLabel": {
-    "message": "Bottom right"
+    "message": "أسفل اليمين"
   },
   "topLeftLabel": {
-    "message": "Top left"
+    "message": "أعلى اليسار"
   },
   "bottomLeftLabel": {
-    "message": "Bottom left"
+    "message": "أسفل اليسار"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "أعلى"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "أسفل"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "يسار"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "يمين"
   },
   "positionOffsetLabel": {
-    "message": "Display position - Offset"
+    "message": "عرض الموضع - الإحداثيات"
   },
   "panelStyleLabel": {
     "message": "لوحة الترجمة"
@@ -189,13 +189,13 @@
     "message": "حجم الخط"
   },
   "referencePointLabel": {
-    "message": "Display position - Reference point"
+    "message": "عرض الموضع - النقطة المرجعية"
   },
   "bottomSelectedTextLabel": {
-    "message": "Bottom of selected text"
+    "message": "أسفل النص المحدد"
   },
   "topSelectedTextLabel": {
-    "message": "Top of selected text"
+    "message": "أعلى النص المحدد"
   },
   "clickedPointLabel": {
     "message": "Clicked point"

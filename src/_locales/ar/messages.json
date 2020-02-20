@@ -219,49 +219,49 @@
     "message": "Display option page when updating"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+    "message": "اعرض صفحة الخيارات عندما يتم تحديث الترجمة البسيطة. ليمكنك معرفة محتويات التحديث بسرعة."
   },
   "isDebugModeLabel": {
-    "message": "Enable debug mode"
+    "message": "فعل نمط التنقيح"
   },
   "isDebugModeCaptionLabel": {
     "message": "When debug mode is enabled, the log is output to the debugger."
   },
   "resetSettingsLabel": {
-    "message": "Reset settings"
+    "message": "إستعادة الإعدادات"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Restore all settings to default."
+    "message": "إستعادة جميع الإعدادات الأولية."
   },
   "resetSettingsButtonLabel": {
     "message": "إعادة"
   },
   "shortcutsLabel": {
-    "message": "Shortcuts"
+    "message": "اختصارات"
   },
   "keyboardShortcutsLabel": {
-    "message": "Keyboard shortcuts"
+    "message": "اختصارات لوحة المفاتيح"
   },
   "setKeyboardShortCutsMessage": {
     "message": "Set keyboard shortcuts."
   },
   "typeShortcutMessage": {
-    "message": "Type a shortcut"
+    "message": "اختر اختصار"
   },
   "typeLetterMessage": {
-    "message": "Type a letter"
+    "message": "اكتب حرف"
   },
   "includeModifierKeysMessage": {
-    "message": "Include either Ctrl or Alt"
+    "message": "أدرج Ctrl أو Alt"
   },
   "includeMacModifierKeysMessage": {
     "message": "Include either Command, Ctrl or Alt"
   },
   "invalidLetterMessage": {
-    "message": "The letter can not be used"
+    "message": "هذا الحرف لا يمكن إستخدامه"
   },
   "invalidShortcutMessage": {
-    "message": "The shortcut can not be used"
+    "message": "هذا الإختصار لا يمكن إستخدامه"
   },
   "clear": {
     "message": "مسح"

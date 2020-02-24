@@ -198,28 +198,28 @@
     "message": "Part superior del text seleccionat"
   },
   "clickedPointLabel": {
-    "message": "Clicked point"
+    "message": "Punt de clic"
   },
   "displayDirectionLabel": {
-    "message": "Display position - Direction"
+    "message": "Posició de la pantalla - Direcció"
   },
   "resultFontColorLabel": {
-    "message": "Font color of translation result"
+    "message": "Color de la lletra del resultat de traducció"
   },
   "candidateFontColorLabel": {
-    "message": "Font color of translation candidates"
+    "message": "Color de la lletra dels canditats a traducció"
   },
   "bgColorLabel": {
     "message": "Color de fons"
   },
   "otherLabel": {
-    "message": "Other"
+    "message": "Altres"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Display option page when updating"
+    "message": "Mostra la pàgina d'opcions quan s'actualitza"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+    "message": "Mostra la pàgina d'opcions quan Simple Translate s'actualitza. Podeu conèixer el contingut de l'actualització ràpidament."
   },
   "isDebugModeLabel": {
     "message": "Enable debug mode"

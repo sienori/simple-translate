@@ -120,7 +120,7 @@
     "message": "Especifiqueu el temps d'espera des de l'entrada d'un personatge fins a l'inici de la traducció. (mil·lisegons)"
   },
   "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
+    "message": "Si tradueixes moltes vegades en poc temps, pot ser que sigui inutilitzable durant un temps."
   },
   "menuLabel": {
     "message": "Menú contextual"
@@ -147,31 +147,31 @@
     "message": "Posició de la pantalla"
   },
   "topRightLabel": {
-    "message": "Top right"
+    "message": "A dalt a la dreta"
   },
   "bottomRightLabel": {
-    "message": "Bottom right"
+    "message": "Abaix a la dreta"
   },
   "topLeftLabel": {
-    "message": "Top left"
+    "message": "A dalt a l'esquerra"
   },
   "bottomLeftLabel": {
-    "message": "Bottom left"
+    "message": "Abaix a l'esquerra"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "Superior"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "Baix"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "Esquerra"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "Dreta"
   },
   "positionOffsetLabel": {
-    "message": "Display position - Offset"
+    "message": "Posició de la pantalla - Desplaçar"
   },
   "panelStyleLabel": {
     "message": "Tauler de traducció"
@@ -189,13 +189,13 @@
     "message": "Mida de la lletra"
   },
   "referencePointLabel": {
-    "message": "Display position - Reference point"
+    "message": "Posició de la pantalla - Punt de referència"
   },
   "bottomSelectedTextLabel": {
-    "message": "Bottom of selected text"
+    "message": "Part inferior del text seleccionat"
   },
   "topSelectedTextLabel": {
-    "message": "Top of selected text"
+    "message": "Part superior del text seleccionat"
   },
   "clickedPointLabel": {
     "message": "Clicked point"

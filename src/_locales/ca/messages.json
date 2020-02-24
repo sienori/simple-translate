@@ -258,13 +258,13 @@
     "message": "Incluir qualsevol de les ordres, Ctrl o Alt"
   },
   "invalidLetterMessage": {
-    "message": "The letter can not be used"
+    "message": "La lletra no es pot utilitzar"
   },
   "invalidShortcutMessage": {
-    "message": "The shortcut can not be used"
+    "message": "La drecera no es pot utilitzar"
   },
   "clear": {
-    "message": "Clear"
+    "message": "Netejar"
   },
   "reset": {
     "message": "Restablir"
@@ -273,7 +273,7 @@
     "message": "Informació"
   },
   "backersLabel": {
-    "message": "Backers"
+    "message": "Patrocinadors"
   },
   "licenseLabel": {
     "message": "Llicència"
@@ -291,7 +291,7 @@
     "message": "Pàgina complementària"
   },
   "extensionPageLabel": {
-    "message": "Extension page"
+    "message": "Pàgina d'extensions"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=es_ES"
@@ -300,7 +300,7 @@
     "message": "https://addons.mozilla.org/es-ES/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
-    "message": "Error: Check network connection status."
+    "message": "Error: Comprova l'estat de la connexió de xarxa."
   },
   "unavailableError": {
     "message": "Error: Service usage limit reached. Please wait a while and try again."

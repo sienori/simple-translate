@@ -84,16 +84,16 @@
     "message": "Detecta l'idioma del text seleccionat i, si és el mateix que l'idioma de destinació, no es mostra el botó."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+    "message": "Detecta l'idioma del text seleccionat, i si es el mateix com a idioma de destinació predeterminada, traduir-lo al segon idioma."
   },
   "isDisabledInTextFieldsLabel": {
-    "message": "Disable translation in text fields"
+    "message": "Desactiva la traducció en els camps de text"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in a text field."
+    "message": "No mostrar el botó de traducció o el panell quan seleccioneu el text en un camp de text."
   },
   "disableUrlListLabel": {
-    "message": "URL list to disable translation"
+    "message": "Llista URL per a desactivar la traducció"
   },
   "disableUrlListCaptionLabel": {
     "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."

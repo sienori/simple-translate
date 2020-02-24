@@ -303,10 +303,10 @@
     "message": "Error: Comprova l'estat de la connexió de xarxa."
   },
   "unavailableError": {
-    "message": "Error: Service usage limit reached. Please wait a while and try again."
+    "message": "Error: S'ha arribat al límit d'ús del servei. Espera una estona i intententa-ho de nou."
   },
   "unknownError": {
-    "message": "Error: Unknown error"
+    "message": "Error: Error desconegut"
   },
   "translatePageMenu": {
     "message": "Tradueix aquesta pàgina"
@@ -318,6 +318,6 @@
     "message": "Tradueix l'enlaç selecionat"
   },
   "openPopupDescription": {
-    "message": "Open toolbar popup"
+    "message": "Obri la finestra emergent de la barra d'eines"
   }
 }

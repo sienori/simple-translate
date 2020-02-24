@@ -96,7 +96,7 @@
     "message": "Llista URL per a desactivar la traducció"
   },
   "disableUrlListCaptionLabel": {
-    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
+    "message": "Si l'URL de la pàgina coincideix amb la llista, la traducció a la pàgina web esta desactivada. La llista permet comodins \"*\"."
   },
   "toolbarLabel": {
     "message": "Barra d'eines de la finestra emergent"
@@ -114,10 +114,10 @@
     "message": "Seleccioneu el segon idioma."
   },
   "waitTimeLabel": {
-    "message": "Waiting time to translate"
+    "message": "Temps d'espera per a traduir"
   },
   "waitTimeCaptionLabel": {
-    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+    "message": "Especifiqueu el temps d'espera des de l'entrada d'un personatge fins a l'inici de la traducció. (mil·lisegons)"
   },
   "waitTime2CaptionLabel": {
     "message": "If you translate it many times in a short time, it may become unusable for a while."

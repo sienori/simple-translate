@@ -14,3 +14,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - Daisuke SAKAMOTO
 - BIlY4kgVBE
 - Christian Mårtensson
+- shintaks

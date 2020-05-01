@@ -3,7 +3,6 @@
  * Released under the MIT license.
  * see https://opensource.org/licenses/MIT */
 
-const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 const {
   getHTMLPlugins,
@@ -35,20 +34,6 @@ const generalConfig = {
         loader: "babel-loader",
         exclude: /node_modules/,
         test: /\.(js|jsx)$/,
-        query: {
-          presets: [
-            [
-              "@babel/preset-env",
-              {
-                targets: {
-                  firefox: 57
-                }
-              }
-            ],
-            "@babel/preset-react"
-          ],
-          plugins: ["transform-class-properties"]
-        },
         resolve: {
           extensions: [".js", ".jsx"]
         }
@@ -105,9 +90,11 @@ module.exports = [
     ...generalConfig,
     output: getOutput("chrome", config.tempDirectory),
     entry: getEntry(config.chromePath),
+    optimization: {
+      minimize: true
+    },
     plugins: [
       new CleanWebpackPlugin(["dist", "temp"]),
-      new UglifyJsPlugin(),
       new MiniCssExtractPlugin({
         filename: "[name]/[name].css"
       }),
@@ -120,9 +107,11 @@ module.exports = [
     ...generalConfig,
     entry: getEntry(config.firefoxPath),
     output: getOutput("firefox", config.tempDirectory),
+    optimization: {
+      minimize: true
+    },
     plugins: [
       new CleanWebpackPlugin(["dist", "temp"]),
-      new UglifyJsPlugin(),
       new MiniCssExtractPlugin({
         filename: "[name]/[name].css"
       }),

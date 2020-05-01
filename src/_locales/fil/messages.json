@@ -32,6 +32,9 @@
   "copiedLabel": {
     "message": "Nakopya."
   },
+  "listenLabel": {
+    "message": "Listen"
+  },
   "targetLangLabel": {
     "message": "Target na lengguwahe"
   },

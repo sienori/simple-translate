@@ -6,7 +6,7 @@ import HeartIcon from "../icons/heart.svg";
 import SettingsIcon from "../icons/settings.svg";
 import Toggle from "react-toggle";
 import "react-toggle/style.css";
-import "../styles/header.scss";
+import "../styles/Header.scss";
 
 const openPatreon = () => {
   openUrl(patreonLink);

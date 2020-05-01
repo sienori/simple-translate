@@ -32,6 +32,9 @@
   "copiedLabel": {
     "message": "تم النسخ."
   },
+  "listenLabel": {
+    "message": "Listen"
+  },
   "targetLangLabel": {
     "message": "اللغة الهدف"
   },

@@ -32,6 +32,9 @@
   "copiedLabel": {
     "message": "Đã sao chép."
   },
+  "listenLabel": {
+    "message": "Listen"
+  },
   "targetLangLabel": {
     "message": "Ngôn ngữ đích"
   },

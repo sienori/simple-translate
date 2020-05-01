@@ -32,6 +32,9 @@
   "copiedLabel": {
     "message": "복사됨"
   },
+  "listenLabel": {
+    "message": "Listen"
+  },
   "targetLangLabel": {
     "message": "번역 언어"
   },

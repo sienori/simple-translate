@@ -32,6 +32,9 @@
   "copiedLabel": {
     "message": "已複製。"
   },
+  "listenLabel": {
+    "message": "Listen"
+  },
   "targetLangLabel": {
     "message": "目標語言"
   },

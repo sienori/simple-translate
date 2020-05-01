@@ -32,6 +32,9 @@
   "copiedLabel": {
     "message": "Αντιγράφηκε."
   },
+  "listenLabel": {
+    "message": "Listen"
+  },
   "targetLangLabel": {
     "message": "Γλώσσα-στόχος"
   },

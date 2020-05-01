@@ -1,18 +1,18 @@
 {
   "manifest_version": 2,
-
   "version": "2.2.0",
   "name": "__MSG_extName__",
   "description": "__MSG_extDescription__",
   "default_locale": "en",
-
-  "permissions": ["<all_urls>", "storage", "contextMenus"],
-
+  "permissions": [
+    "<all_urls>",
+    "storage",
+    "contextMenus"
+  ],
   "options_ui": {
     "page": "options/index.html",
     "open_in_tab": true
   },
-
   "icons": {
     "512": "icons/512.png",
     "128": "icons/128.png",
@@ -20,11 +20,11 @@
     "48": "icons/48.png",
     "32": "icons/32.png"
   },
-
   "background": {
-    "scripts": ["background/background.js"]
+    "scripts": [
+      "background/background.js"
+    ]
   },
-
   "browser_action": {
     "default_icon": {
       "512": "icons/512.png",
@@ -38,18 +38,25 @@
     },
     "default_popup": "popup/index.html"
   },
-
   "content_scripts": [
     {
       "all_frames": true,
-      "matches": ["http://*/*", "https://*/*", "<all_urls>"],
-      "js": ["content/content.js"],
-      "css": ["content/content.css"]
+      "matches": [
+        "http://*/*",
+        "https://*/*",
+        "<all_urls>"
+      ],
+      "js": [
+        "content/content.js"
+      ],
+      "css": [
+        "content/content.css"
+      ]
     }
   ],
-
-  "web_accessible_resources": ["icons/512.png"],
-
+  "web_accessible_resources": [
+    "icons/512.png"
+  ],
   "commands": {
     "_execute_browser_action": {
       "description": "__MSG_openPopupDescription__",

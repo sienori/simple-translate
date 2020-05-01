@@ -32,6 +32,9 @@
   "copiedLabel": {
     "message": "Disalin."
   },
+  "listenLabel": {
+    "message": "Listen"
+  },
   "targetLangLabel": {
     "message": "Bahasa Target"
   },

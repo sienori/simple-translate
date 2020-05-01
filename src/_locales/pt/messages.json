@@ -18,7 +18,7 @@
     "message": "Desativar tradução nesta página"
   },
   "initialTextArea": {
-    "message": "Digite o texto"
+    "message": "Insira o texto"
   },
   "showLink": {
     "message": "Traduzir esta página"
@@ -31,6 +31,9 @@
   },
   "copiedLabel": {
     "message": "Copiado."
+  },
+  "listenLabel": {
+    "message": "Listen"
   },
   "targetLangLabel": {
     "message": "Idioma alvo"
@@ -48,34 +51,34 @@
     "message": "Selecione o idioma alvo padrão."
   },
   "webPageLabel": {
-    "message": "Página web"
+    "message": "Página"
   },
   "ifShowCandidateLabel": {
-    "message": "Mostrar traduções candidatas"
+    "message": "Mostrar candidatos à tradução"
   },
   "ifShowCandidateCaptionLabel": {
-    "message": "Mostrar várias traduções candidatas quando uma única palavra é traduzida."
+    "message": "Mostrar vários candidatos à tradução quando uma única palavra é traduzida."
   },
   "whenSelectTextLabel": {
-    "message": "Comportamento ao selecionar texto"
+    "message": "Comportamento ao selecionar o texto"
   },
   "ifAutoTranslateLabel": {
     "message": "Exibir o painel de tradução"
   },
   "ifAutoTranslateCaptionLabel": {
-    "message": "Exibir o painel de tradução diretamente sem exibir o botão."
+    "message": "Exibe o painel de tradução diretamente sem exibir o botão."
   },
   "ifShowButtonLabel": {
     "message": "Exibir o botão de tradução"
   },
   "ifShowButtonCaptionLabel": {
-    "message": "Exibir o botão de tradução para abrir o painel quando clicado."
+    "message": "Exibe o botão de tradução para abrir o painel quando clicado."
   },
   "dontshowbuttonlabel": {
     "message": "Não exibir o botão ou o painel"
   },
   "dontshowbuttonCaptionlabel": {
-    "message": "Não exibir o botão de tradução ou o painel de tradução."
+    "message": "Não exibe o botão de tradução ou o painel de tradução."
   },
   "ifCheckLangLabel": {
     "message": "Não mostrar o botão se a tradução não for necessária"
@@ -87,7 +90,7 @@
     "message": "Detecta o idioma do texto selecionado e, se for o mesmo que o idioma alvo padrão, traduz para o segundo idioma."
   },
   "isDisabledInTextFieldsLabel": {
-    "message": "Desabilita tradução em campos de texto"
+    "message": "Desabilitar tradução em campos de texto"
   },
   "isDisabledInTextFieldsCaptionLabel": {
     "message": "Não mostra o botão de traduzir ou o painel ao selecionar texto em um campo de texto."
@@ -99,10 +102,10 @@
     "message": "Se endereço da página corresponde à lista, a tradução na página web está desativada. A lista permite curingas \"*\"."
   },
   "toolbarLabel": {
-    "message": "Barra de ferramentas"
+    "message": "Pop-up da barra de ferramentas"
   },
   "ifChangeSecondLangLabel": {
-    "message": "Automaticamente troca para o segundo idioma"
+    "message": "Trocar automaticamente para o segundo idioma"
   },
   "ifChangeSecondLangCaptionLabel": {
     "message": "Detecta o idioma do texto entrado, e se for o mesmo que o idioma alvo padrão, traduz para o segundo idioma."
@@ -123,7 +126,7 @@
     "message": "Se você traduzi-lo muitas vezes em um curto espaço de tempo, isso pode se tornar inutilizável por um tempo."
   },
   "menuLabel": {
-    "message": "Menu de Contexto"
+    "message": "Menu de contexto"
   },
   "ifShowMenuLabel": {
     "message": "Exibir o menu de contexto"

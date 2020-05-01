@@ -73,7 +73,7 @@ const getFirefoxCopyPlugins = (browserDir, outputDir = "dev", sourceDir = "src")
   ])
 ];
 
-const getZipPlugin = (browserDir, outputDir = "dist") =>
+const getZipPlugin = (browserDir, outputDir = "dist", exclude = "") =>
   new ZipPlugin({
     path: path.resolve(__dirname, `${outputDir}`),
     filename: browserDir,
@@ -86,7 +86,8 @@ const getZipPlugin = (browserDir, outputDir = "dist") =>
     },
     zipOptions: {
       forceZip64Format: false
-    }
+    },
+    exclude: exclude
   });
 
 module.exports = {

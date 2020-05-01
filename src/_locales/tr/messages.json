@@ -32,6 +32,9 @@
   "copiedLabel": {
     "message": "Kopyalandı."
   },
+  "listenLabel": {
+    "message": "Listen"
+  },
   "targetLangLabel": {
     "message": "Hedef dil"
   },

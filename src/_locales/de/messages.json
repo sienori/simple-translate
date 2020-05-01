@@ -32,6 +32,9 @@
   "copiedLabel": {
     "message": "Kopiert."
   },
+  "listenLabel": {
+    "message": "Listen"
+  },
   "targetLangLabel": {
     "message": "Zielsprache"
   },

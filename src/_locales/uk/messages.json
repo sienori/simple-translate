@@ -32,6 +32,9 @@
   "copiedLabel": {
     "message": "Скопійовано."
   },
+  "listenLabel": {
+    "message": "Listen"
+  },
   "targetLangLabel": {
     "message": "Цільова мова"
   },

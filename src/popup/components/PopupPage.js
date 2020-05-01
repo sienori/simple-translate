@@ -39,6 +39,7 @@ export default class PopupPage extends Component {
       inputText: "",
       resultText: "",
       candidateText: "",
+      sourceLang: "",
       statusText: "OK",
       tabUrl: "",
       isConnected: true,
@@ -93,7 +94,8 @@ export default class PopupPage extends Component {
     this.setState({
       resultText: result.resultText,
       candidateText: result.candidateText,
-      statusText: result.statusText
+      statusText: result.statusText,
+      sourceLang: result.sourceLanguage
     });
     return result;
   };
@@ -143,7 +145,11 @@ export default class PopupPage extends Component {
           isEnabledOnPage={this.state.isEnabledOnPage}
           isConnected={this.state.isConnected}
         />
-        <InputArea inputText={this.state.inputText} handleInputText={this.handleInputText} />
+        <InputArea
+          inputText={this.state.inputText}
+          handleInputText={this.handleInputText}
+          sourceLang={this.state.sourceLang}
+        />
         <hr />
         <ResultArea
           inputText={this.state.inputText}

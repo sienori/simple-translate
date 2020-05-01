@@ -1,5 +1,7 @@
 #inputArea {
+  position: relative;
   margin: 10px;
+
   textarea {
     font: inherit;
     resize: none;
@@ -22,5 +24,12 @@
   textarea:hover,
   textarea:focus {
     border-color: var(--highlight);
+  }
+
+  .listen {
+    position: absolute;
+    height: 16px;
+    right: 5px;
+    bottom: 5px;
   }
 }

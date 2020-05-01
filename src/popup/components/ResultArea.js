@@ -3,8 +3,9 @@ import browser from "webextension-polyfill";
 import getErrorMessage from "src/common/getErrorMessage";
 import { getSettings } from "src/settings/settings";
 import openUrl from "src/common/openUrl";
+import CopyButton from "./CopyButton";
+import ListenButton from "./ListenButton";
 import "../styles/ResultArea.scss";
-import MediaButtons from "./MediaButtons";
 
 const splitLine = text => {
   const regex = /(\n)/g;
@@ -12,7 +13,7 @@ const splitLine = text => {
 };
 
 export default props => {
-  const { resultText, candidateText, statusText } = props;
+  const { resultText, candidateText, statusText, targetLang } = props;
   const isError = statusText !== "OK";
   const shouldShowCandidate = getSettings("ifShowCandidate");
 
@@ -33,7 +34,10 @@ export default props => {
           <a onClick={handleLinkClick}>{browser.i18n.getMessage("openInGoogleLabel")}</a>
         </p>
       )}
-      <MediaButtons resultText={resultText} />
+      <div className="mediaButtons">
+        <CopyButton text={resultText} />
+        <ListenButton text={resultText} lang={targetLang} />
+      </div>
     </div>
   );
 };

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import browser from "webextension-polyfill";
+import ListenButton from "./ListenButton";
 import "../styles/inputArea.scss";
 
 export default class InputArea extends Component {
@@ -16,7 +17,9 @@ export default class InputArea extends Component {
   };
 
   shouldComponentUpdate(nextProps) {
-    const shouldUpdate = this.props.inputText !== nextProps.inputText;
+    const shouldUpdate =
+      this.props.inputText !== nextProps.inputText ||
+      this.props.sourceLang !== nextProps.sourceLang;
     return shouldUpdate;
   }
 
@@ -25,16 +28,20 @@ export default class InputArea extends Component {
   };
 
   render() {
+    const { inputText, sourceLang } = this.props;
     return (
       <div id="inputArea">
         <textarea
-          value={this.props.inputText}
+          value={inputText}
           ref="textarea"
           placeholder={browser.i18n.getMessage("initialTextArea")}
           onChange={this.handleInputText}
           autoFocus
           spellCheck={false}
         />
+        <div className="listen">
+          {sourceLang && <ListenButton text={inputText} lang={sourceLang} />}
+        </div>
       </div>
     );
   }

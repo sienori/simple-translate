@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Traducir rápidamente el texto seleccionado en la página web. En la ventana emergente de la barra de herramientas, puede traducir el texto introducido."
+    "message": "Traducir rápidamente el texto seleccionado en la página web. En la ventana emergente de la barra de herramientas, puede traducir el texto de entrada."
   },
   "donateWithPaypalLabel": {
     "message": "Donar con PayPal"
@@ -31,6 +31,9 @@
   },
   "copiedLabel": {
     "message": "Copiado."
+  },
+  "listenLabel": {
+    "message": "Listen"
   },
   "targetLangLabel": {
     "message": "Idioma de destino"

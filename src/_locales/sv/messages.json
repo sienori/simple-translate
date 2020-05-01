@@ -32,6 +32,9 @@
   "copiedLabel": {
     "message": "Kopierad."
   },
+  "listenLabel": {
+    "message": "Listen"
+  },
   "targetLangLabel": {
     "message": "Målspråk"
   },

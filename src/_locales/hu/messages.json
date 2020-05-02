@@ -32,6 +32,9 @@
   "copiedLabel": {
     "message": "Másolva."
   },
+  "listenLabel": {
+    "message": "Hallgat"
+  },
   "targetLangLabel": {
     "message": "Célnyelv"
   },

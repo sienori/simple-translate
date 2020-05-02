@@ -9,7 +9,7 @@
     "message": "使用 PayPal 捐赠"
   },
   "donateLabel": {
-    "message": "Donate"
+    "message": "在Google翻译中打开"
   },
   "enableOnThisPage": {
     "message": "在此页面启用翻译"
@@ -31,6 +31,9 @@
   },
   "copiedLabel": {
     "message": "已复制。"
+  },
+  "listenLabel": {
+    "message": "朗读"
   },
   "targetLangLabel": {
     "message": "目标语言"
@@ -87,10 +90,10 @@
     "message": "检测所选文本的语言，如果与默认目标语言相同，则将其翻译为第二语言。"
   },
   "isDisabledInTextFieldsLabel": {
-    "message": "Disable translation in text fields"
+    "message": "禁用文本字段中的翻译"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in a text field."
+    "message": "在文本字段中选择文本时，不显示翻译按钮或面板。"
   },
   "disableUrlListLabel": {
     "message": "URL 白名单"
@@ -273,7 +276,7 @@
     "message": "信息"
   },
   "backersLabel": {
-    "message": "Backers"
+    "message": "支持者"
   },
   "licenseLabel": {
     "message": "授权条款"

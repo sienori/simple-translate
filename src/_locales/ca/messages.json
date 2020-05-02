@@ -3,19 +3,19 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
+    "message": "Tradueix ràpidament el text seleccionat en la pàgina web. Al menú emergent de la barra d'eines, podeu traduir l'entrada de text."
   },
   "donateWithPaypalLabel": {
     "message": "Donar per PayPal"
   },
   "donateLabel": {
-    "message": "Donate"
+    "message": "Donar"
   },
   "enableOnThisPage": {
-    "message": "Enable translation on this page"
+    "message": "Activa la traducció en esta pàgina"
   },
   "disableOnThisPage": {
-    "message": "Disable translation on this page"
+    "message": "Desactiva la traducció en esta pàgina"
   },
   "initialTextArea": {
     "message": "Introduïu el text"
@@ -24,13 +24,16 @@
     "message": "Traduir aquesta pàgina"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "Obri en Google Traductor"
   },
   "copyLabel": {
-    "message": "Copy"
+    "message": "Copiar"
   },
   "copiedLabel": {
-    "message": "Copied."
+    "message": "Copiat."
+  },
+  "listenLabel": {
+    "message": "Listen"
   },
   "targetLangLabel": {
     "message": "Idioma a traduir"
@@ -84,19 +87,19 @@
     "message": "Detecta l'idioma del text seleccionat i, si és el mateix que l'idioma de destinació, no es mostra el botó."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+    "message": "Detecta l'idioma del text seleccionat, i si es el mateix com a idioma de destinació predeterminada, traduir-lo al segon idioma."
   },
   "isDisabledInTextFieldsLabel": {
-    "message": "Disable translation in text fields"
+    "message": "Desactiva la traducció en els camps de text"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in a text field."
+    "message": "No mostrar el botó de traducció o el panell quan seleccioneu el text en un camp de text."
   },
   "disableUrlListLabel": {
-    "message": "URL list to disable translation"
+    "message": "Llista URL per a desactivar la traducció"
   },
   "disableUrlListCaptionLabel": {
-    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
+    "message": "Si l'URL de la pàgina coincideix amb la llista, la traducció a la pàgina web esta desactivada. La llista permet comodins \"*\"."
   },
   "toolbarLabel": {
     "message": "Barra d'eines de la finestra emergent"
@@ -114,13 +117,13 @@
     "message": "Seleccioneu el segon idioma."
   },
   "waitTimeLabel": {
-    "message": "Waiting time to translate"
+    "message": "Temps d'espera per a traduir"
   },
   "waitTimeCaptionLabel": {
-    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+    "message": "Especifiqueu el temps d'espera des de l'entrada d'un personatge fins a l'inici de la traducció. (mil·lisegons)"
   },
   "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
+    "message": "Si tradueixes moltes vegades en poc temps, pot ser que sigui inutilitzable durant un temps."
   },
   "menuLabel": {
     "message": "Menú contextual"
@@ -147,31 +150,31 @@
     "message": "Posició de la pantalla"
   },
   "topRightLabel": {
-    "message": "Top right"
+    "message": "A dalt a la dreta"
   },
   "bottomRightLabel": {
-    "message": "Bottom right"
+    "message": "Abaix a la dreta"
   },
   "topLeftLabel": {
-    "message": "Top left"
+    "message": "A dalt a l'esquerra"
   },
   "bottomLeftLabel": {
-    "message": "Bottom left"
+    "message": "Abaix a l'esquerra"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "Superior"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "Baix"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "Esquerra"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "Dreta"
   },
   "positionOffsetLabel": {
-    "message": "Display position - Offset"
+    "message": "Posició de la pantalla - Desplaçar"
   },
   "panelStyleLabel": {
     "message": "Tauler de traducció"
@@ -189,91 +192,91 @@
     "message": "Mida de la lletra"
   },
   "referencePointLabel": {
-    "message": "Display position - Reference point"
+    "message": "Posició de la pantalla - Punt de referència"
   },
   "bottomSelectedTextLabel": {
-    "message": "Bottom of selected text"
+    "message": "Part inferior del text seleccionat"
   },
   "topSelectedTextLabel": {
-    "message": "Top of selected text"
+    "message": "Part superior del text seleccionat"
   },
   "clickedPointLabel": {
-    "message": "Clicked point"
+    "message": "Punt de clic"
   },
   "displayDirectionLabel": {
-    "message": "Display position - Direction"
+    "message": "Posició de la pantalla - Direcció"
   },
   "resultFontColorLabel": {
-    "message": "Font color of translation result"
+    "message": "Color de la lletra del resultat de traducció"
   },
   "candidateFontColorLabel": {
-    "message": "Font color of translation candidates"
+    "message": "Color de la lletra dels canditats a traducció"
   },
   "bgColorLabel": {
     "message": "Color de fons"
   },
   "otherLabel": {
-    "message": "Other"
+    "message": "Altres"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Display option page when updating"
+    "message": "Mostra la pàgina d'opcions quan s'actualitza"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+    "message": "Mostra la pàgina d'opcions quan Simple Translate s'actualitza. Podeu conèixer el contingut de l'actualització ràpidament."
   },
   "isDebugModeLabel": {
-    "message": "Enable debug mode"
+    "message": "Activar el mode de depuració"
   },
   "isDebugModeCaptionLabel": {
-    "message": "When debug mode is enabled, the log is output to the debugger."
+    "message": "Quan el mode depuració esta activat, el registre es produeix al depurador."
   },
   "resetSettingsLabel": {
-    "message": "Reset settings"
+    "message": "Restableix la configuració"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Restore all settings to default."
+    "message": "Restaurar totes les configuracións per defecte."
   },
   "resetSettingsButtonLabel": {
-    "message": "Reset"
+    "message": "Restablir"
   },
   "shortcutsLabel": {
-    "message": "Shortcuts"
+    "message": "Dreceres"
   },
   "keyboardShortcutsLabel": {
-    "message": "Keyboard shortcuts"
+    "message": "Dreceres de teclat"
   },
   "setKeyboardShortCutsMessage": {
-    "message": "Set keyboard shortcuts."
+    "message": "Conjunt de dreceres del teclat."
   },
   "typeShortcutMessage": {
-    "message": "Type a shortcut"
+    "message": "Escriviu una drecera"
   },
   "typeLetterMessage": {
-    "message": "Type a letter"
+    "message": "Tipus de lletra"
   },
   "includeModifierKeysMessage": {
-    "message": "Include either Ctrl or Alt"
+    "message": "Incluir qualsevol dels dos Ctrl o Alt"
   },
   "includeMacModifierKeysMessage": {
-    "message": "Include either Command, Ctrl or Alt"
+    "message": "Incluir qualsevol de les ordres, Ctrl o Alt"
   },
   "invalidLetterMessage": {
-    "message": "The letter can not be used"
+    "message": "La lletra no es pot utilitzar"
   },
   "invalidShortcutMessage": {
-    "message": "The shortcut can not be used"
+    "message": "La drecera no es pot utilitzar"
   },
   "clear": {
-    "message": "Clear"
+    "message": "Netejar"
   },
   "reset": {
-    "message": "Reset"
+    "message": "Restablir"
   },
   "informationLabel": {
     "message": "Informació"
   },
   "backersLabel": {
-    "message": "Backers"
+    "message": "Patrocinadors"
   },
   "licenseLabel": {
     "message": "Llicència"
@@ -291,7 +294,7 @@
     "message": "Pàgina complementària"
   },
   "extensionPageLabel": {
-    "message": "Extension page"
+    "message": "Pàgina d'extensions"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=es_ES"
@@ -300,13 +303,13 @@
     "message": "https://addons.mozilla.org/es-ES/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
-    "message": "Error: Check network connection status."
+    "message": "Error: Comprova l'estat de la connexió de xarxa."
   },
   "unavailableError": {
-    "message": "Error: Service usage limit reached. Please wait a while and try again."
+    "message": "Error: S'ha arribat al límit d'ús del servei. Espera una estona i intententa-ho de nou."
   },
   "unknownError": {
-    "message": "Error: Unknown error"
+    "message": "Error: Error desconegut"
   },
   "translatePageMenu": {
     "message": "Tradueix aquesta pàgina"
@@ -318,6 +321,6 @@
     "message": "Tradueix l'enlaç selecionat"
   },
   "openPopupDescription": {
-    "message": "Open toolbar popup"
+    "message": "Obri la finestra emergent de la barra d'eines"
   }
 }

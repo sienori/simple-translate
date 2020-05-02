@@ -99,8 +99,7 @@ export default [
         title: "isDisabledInTextFieldsLabel",
         captions: ["isDisabledInTextFieldsCaptionLabel"],
         type: "checkbox",
-        default: false,
-        new: true
+        default: false
       },
       {
         id: "disableUrlList",

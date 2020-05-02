@@ -3,19 +3,19 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
+    "message": "ترجم النص المحدد على صفحة الويب بسرعة. في شريط الأدوات ، يمكنك ترجمة النص المُدْخل."
   },
   "donateWithPaypalLabel": {
     "message": "تبرع بواسطة PayPal"
   },
   "donateLabel": {
-    "message": "Donate"
+    "message": "تبرع"
   },
   "enableOnThisPage": {
-    "message": "Enable translation on this page"
+    "message": "فعل الترجمة على هذه الصفحة"
   },
   "disableOnThisPage": {
-    "message": "Disable translation on this page"
+    "message": "عطل الترجمة على هذه الصفحة"
   },
   "initialTextArea": {
     "message": "أادخل النص"
@@ -24,13 +24,16 @@
     "message": "ترجم هذه الصفحة"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "إفتح في ترجمة جوجل"
   },
   "copyLabel": {
-    "message": "Copy"
+    "message": "نسخ"
   },
   "copiedLabel": {
-    "message": "Copied."
+    "message": "تم النسخ."
+  },
+  "listenLabel": {
+    "message": "Listen"
   },
   "targetLangLabel": {
     "message": "اللغة الهدف"
@@ -87,16 +90,16 @@
     "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
   },
   "isDisabledInTextFieldsLabel": {
-    "message": "Disable translation in text fields"
+    "message": "تعطيل الترجمة في حقول النص"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in a text field."
+    "message": "لا تعرض زر أو لوحة الترجمة عند اختيار النص في حقل نص."
   },
   "disableUrlListLabel": {
-    "message": "URL list to disable translation"
+    "message": "قائمة عناوين لتعطيل الترجمة"
   },
   "disableUrlListCaptionLabel": {
-    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
+    "message": "إذا تطابق عنوان الصفحة مع القائمة ، فإن الترجمة على صفحة الويب تعطل. تسمح القائمة بالرمز \"*\"."
   },
   "toolbarLabel": {
     "message": "شريط أدوات منبثق"
@@ -120,7 +123,7 @@
     "message": "تحديد وقت الانتظار لادخال الاحرف حتي البدء بالترجمة"
   },
   "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
+    "message": "إذا ترجمتها مرات عديدة في وقت قصير ، قد تصبح غير صالحة للاستخدام لفترة من الوقت."
   },
   "menuLabel": {
     "message": "قائمة السياق"
@@ -147,31 +150,31 @@
     "message": "مكان العرض"
   },
   "topRightLabel": {
-    "message": "Top right"
+    "message": "أعلى اليمين"
   },
   "bottomRightLabel": {
-    "message": "Bottom right"
+    "message": "أسفل اليمين"
   },
   "topLeftLabel": {
-    "message": "Top left"
+    "message": "فوق على اليسار"
   },
   "bottomLeftLabel": {
-    "message": "Bottom left"
+    "message": "اسفل على اليسار"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "أعلى"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "أسفل"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "يسار"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "يمين"
   },
   "positionOffsetLabel": {
-    "message": "Display position - Offset"
+    "message": "عرض الموضع - الإزاحة"
   },
   "panelStyleLabel": {
     "message": "لوحة الترجمة"
@@ -189,91 +192,91 @@
     "message": "حجم الخط"
   },
   "referencePointLabel": {
-    "message": "Display position - Reference point"
+    "message": "عرض الموضع - النقطة المرجعية"
   },
   "bottomSelectedTextLabel": {
-    "message": "Bottom of selected text"
+    "message": "أسفل النص المحدد"
   },
   "topSelectedTextLabel": {
-    "message": "Top of selected text"
+    "message": "أعلى النص المحدد"
   },
   "clickedPointLabel": {
-    "message": "Clicked point"
+    "message": "النقطة المنقورة"
   },
   "displayDirectionLabel": {
-    "message": "Display position - Direction"
+    "message": "عرض الموضع - الإتجاه"
   },
   "resultFontColorLabel": {
-    "message": "Font color of translation result"
+    "message": "لون خط نتيجة الترجمة"
   },
   "candidateFontColorLabel": {
-    "message": "Font color of translation candidates"
+    "message": "لون خط الترجمة المقترحة"
   },
   "bgColorLabel": {
     "message": "لون الخلفية"
   },
   "otherLabel": {
-    "message": "Other"
+    "message": "غير ذلك"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
     "message": "Display option page when updating"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+    "message": "اعرض صفحة الخيارات عندما يتم تحديث الترجمة البسيطة. ليمكنك معرفة محتويات التحديث بسرعة."
   },
   "isDebugModeLabel": {
-    "message": "Enable debug mode"
+    "message": "فعل نمط التنقيح"
   },
   "isDebugModeCaptionLabel": {
-    "message": "When debug mode is enabled, the log is output to the debugger."
+    "message": "عندما يكون وضع التنقيح مفعل، يخرج السجل إلى المصحح."
   },
   "resetSettingsLabel": {
-    "message": "Reset settings"
+    "message": "إستعادة الإعدادات"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Restore all settings to default."
+    "message": "إستعادة جميع الإعدادات الأولية."
   },
   "resetSettingsButtonLabel": {
-    "message": "Reset"
+    "message": "إعادة"
   },
   "shortcutsLabel": {
-    "message": "Shortcuts"
+    "message": "اختصارات"
   },
   "keyboardShortcutsLabel": {
-    "message": "Keyboard shortcuts"
+    "message": "اختصارات لوحة المفاتيح"
   },
   "setKeyboardShortCutsMessage": {
-    "message": "Set keyboard shortcuts."
+    "message": "حدد اختصارات لوحة المفاتيح."
   },
   "typeShortcutMessage": {
-    "message": "Type a shortcut"
+    "message": "اختر اختصار"
   },
   "typeLetterMessage": {
-    "message": "Type a letter"
+    "message": "اكتب حرف"
   },
   "includeModifierKeysMessage": {
-    "message": "Include either Ctrl or Alt"
+    "message": "أدرج Ctrl أو Alt"
   },
   "includeMacModifierKeysMessage": {
-    "message": "Include either Command, Ctrl or Alt"
+    "message": "أدرج Command, Ctrl أو Alt"
   },
   "invalidLetterMessage": {
-    "message": "The letter can not be used"
+    "message": "هذا الحرف لا يمكن إستخدامه"
   },
   "invalidShortcutMessage": {
-    "message": "The shortcut can not be used"
+    "message": "هذا الإختصار لا يمكن إستخدامه"
   },
   "clear": {
-    "message": "Clear"
+    "message": "مسح"
   },
   "reset": {
-    "message": "Reset"
+    "message": "إعادة"
   },
   "informationLabel": {
     "message": "معلومات"
   },
   "backersLabel": {
-    "message": "Backers"
+    "message": "الداعمون"
   },
   "licenseLabel": {
     "message": "الرخصة"

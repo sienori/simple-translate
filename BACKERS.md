@@ -16,3 +16,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - Christian Mårtensson
 - shintaks
 - Ha Do Manh
+- 아영 김

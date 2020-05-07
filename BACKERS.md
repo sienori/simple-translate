@@ -15,3 +15,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - BIlY4kgVBE
 - Christian Mårtensson
 - shintaks
+- Ha Do Manh

@@ -1,9 +1,11 @@
-# <sub><img src="/src/icons/64.png" width=64px height=64px></sub> Simple Translate
+<img src="https://raw.githubusercontent.com/sienori/simple-translate/master/src/icons/64.png" align="left" height="64px" style="margin-right:10px">
 
-#### Quickly translate selected text on web page. In toolbar popup, you can translate input text.
+# Simple Translate
+
+Quickly translate selected text on web page. In toolbar popup, you can translate input text.
 
 [<img src="https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_1.png" align="left" alt="for Firefox">](https://addons.mozilla.org/firefox/addon/simple-translate/)
-
+&ensp;
 [<img src="https://developer.chrome.com/webstore/images/ChromeWebStore_BadgeWBorder_v2_206x58.png" alt="for Chrome">](https://chrome.google.com/webstore/detail/simple-translate/ibplnjkanclpjokhdolnendpplpjiace)
 
 ## Backers
@@ -32,3 +34,7 @@ You can contribute by translating Simple Translate on **[Crowdin](https://crowdi
 
 1. Open Firefox browser and navigate to `about:debugging`
 2. Click "Load Temporary Add-on" and from the file browser, choose `simple-translate/dev/firefox`
+
+## Privacy Policy
+
+[Privacy Policy](https://simple-translate.sienori.com/privacy-policy) of Simple Translate

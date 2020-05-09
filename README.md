@@ -32,3 +32,7 @@ You can contribute by translating Simple Translate on **[Crowdin](https://crowdi
 
 1. Open Firefox browser and navigate to `about:debugging`
 2. Click "Load Temporary Add-on" and from the file browser, choose `simple-translate/dev/firefox`
+
+## Privacy Policy
+
+[Privacy Policy](https://simple-translate.sienori.com/privacy-policy) of Simple Translate

@@ -33,7 +33,7 @@
     "message": "Αντιγράφηκε."
   },
   "listenLabel": {
-    "message": "Listen"
+    "message": "Εκφώνση"
   },
   "targetLangLabel": {
     "message": "Γλώσσα-στόχος"
@@ -231,7 +231,7 @@
     "message": "Όταν έχει ενεργοποιηθεί ο εντοπισμός σφαλμάτων, το περιεχόμενο καταγραφής κατευθύνεται στο πρόγραμμα εκσφαλμάτωσης."
   },
   "resetSettingsLabel": {
-    "message": "Reset settings"
+    "message": "Επαναφορά"
   },
   "resetSettingsCaptionLabel": {
     "message": "Restore all settings to default."

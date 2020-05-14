@@ -234,28 +234,28 @@
     "message": "Επαναφορά"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Restore all settings to default."
+    "message": "Επαναφορά αρχικών ρυθμίσεων."
   },
   "resetSettingsButtonLabel": {
-    "message": "Reset"
+    "message": "Επαναφορά"
   },
   "shortcutsLabel": {
-    "message": "Shortcuts"
+    "message": "Συντομεύσεις"
   },
   "keyboardShortcutsLabel": {
-    "message": "Keyboard shortcuts"
+    "message": "Συντομεύσεις πληκτρολογίου"
   },
   "setKeyboardShortCutsMessage": {
-    "message": "Set keyboard shortcuts."
+    "message": "Ορισμός συντομεύσεων πληκτρολογίου."
   },
   "typeShortcutMessage": {
-    "message": "Type a shortcut"
+    "message": "Πληκτρολογήστε μία συντόμευση"
   },
   "typeLetterMessage": {
-    "message": "Type a letter"
+    "message": "Πληκτρολογήστε ένα γράμμα"
   },
   "includeModifierKeysMessage": {
-    "message": "Include either Ctrl or Alt"
+    "message": "Συμπερίληψη το πλήκτρου Ctrl ή Alt"
   },
   "includeMacModifierKeysMessage": {
     "message": "Include either Command, Ctrl or Alt"
@@ -270,7 +270,7 @@
     "message": "Clear"
   },
   "reset": {
-    "message": "Reset"
+    "message": "Επαναφορά"
   },
   "informationLabel": {
     "message": "Information"

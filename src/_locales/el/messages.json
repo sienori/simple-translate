@@ -285,16 +285,16 @@
     "message": "Κάντε μια δωρεά"
   },
   "donationCaptionLabel": {
-    "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+    "message": "Ευχαριστούμε που χρησιμοποιείτε το Simple Translate.<br>Η υποστήριξή σας με ενθαρρύνει να συνεχίσω να αναπτύσσω αυτό το πρόσθετο.<br>Αν σας αρέσει το Simple Translate, θα ήμουν ευτυχής αν σκεφτείτε να κάνετε μια δωρεά."
   },
   "amazonTitleLabel": {
     "message": "amazon.co.jp eGift Cards"
   },
   "addonPageLabel": {
-    "message": "Add-on page"
+    "message": "Σελίδα πρόσθετου"
   },
   "extensionPageLabel": {
-    "message": "Extension page"
+    "message": "Σελίδα επέκτασης"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
@@ -303,13 +303,13 @@
     "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
-    "message": "Error: Check network connection status."
+    "message": "Σφάλμα: Ελέγξτε την κατάσταση σύνδεσης του δικτύου."
   },
   "unavailableError": {
-    "message": "Error: Service usage limit reached. Please wait a while and try again."
+    "message": "Σφάλμα: Υπέρβαση ορίου χρήσης της υπηρεσίας. Περιμένετε λίγο και δοκιμάστε ξανά."
   },
   "unknownError": {
-    "message": "Error: Unknown error"
+    "message": "Σφάλμα: Άγνωστο λάθος"
   },
   "translatePageMenu": {
     "message": "Μετάφραση της σελίδας"
@@ -321,6 +321,6 @@
     "message": "Μετάφραση του επιλεγμένου συνδέσμου"
   },
   "openPopupDescription": {
-    "message": "Open toolbar popup"
+    "message": "Άνοιγμα του αναδυόμενου παραθύρου της γραμμής εργαλείων"
   }
 }

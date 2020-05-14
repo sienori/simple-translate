@@ -258,31 +258,31 @@
     "message": "Συμπερίληψη το πλήκτρου Ctrl ή Alt"
   },
   "includeMacModifierKeysMessage": {
-    "message": "Include either Command, Ctrl or Alt"
+    "message": "Συμπερίληψη του πλήκτρου Command, Ctrl ή Alt"
   },
   "invalidLetterMessage": {
-    "message": "The letter can not be used"
+    "message": "Αυτό το γράμμα δεν μπορεί να χρησιμοποιηθεί"
   },
   "invalidShortcutMessage": {
-    "message": "The shortcut can not be used"
+    "message": "Η συντόμευση δεν μπορεί να χρησιμοποιηθεί"
   },
   "clear": {
-    "message": "Clear"
+    "message": "Καθάρισμα"
   },
   "reset": {
     "message": "Επαναφορά"
   },
   "informationLabel": {
-    "message": "Information"
+    "message": "Πληροφόρηση"
   },
   "backersLabel": {
-    "message": "Backers"
+    "message": "Υποστηρικτές"
   },
   "licenseLabel": {
-    "message": "License"
+    "message": "Άδεια χρήσης"
   },
   "donationLabel": {
-    "message": "Please make a donation"
+    "message": "Κάντε μια δωρεά"
   },
   "donationCaptionLabel": {
     "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."

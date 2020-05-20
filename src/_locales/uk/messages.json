@@ -9,7 +9,7 @@
     "message": "Пожертвувати через PayPal"
   },
   "donateLabel": {
-    "message": "Donate"
+    "message": "Підтримати"
   },
   "enableOnThisPage": {
     "message": "Увімкнути переклад на цій сторінці"
@@ -90,10 +90,10 @@
     "message": "Визначати мову виділеного тексту, і якщо вона співпадає зі стандартною цільовою мовою, перекласти її другою мовою."
   },
   "isDisabledInTextFieldsLabel": {
-    "message": "Disable translation in text fields"
+    "message": "Не перекладати текстові поля"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in a text field."
+    "message": "Не відображати кнопку перекладу і панель при виборі тексту у текстовому полі."
   },
   "disableUrlListLabel": {
     "message": "Список адрес для відключення перекладу"
@@ -276,7 +276,7 @@
     "message": "Інформація"
   },
   "backersLabel": {
-    "message": "Backers"
+    "message": "Меценати"
   },
   "licenseLabel": {
     "message": "Ліцензія"

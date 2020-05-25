@@ -3,19 +3,19 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
+    "message": "Błyskawicznie przetłumacz zaznaczony tekst na stronie. W oknie wywołanym z paska narzędzi, możesz przetłumaczyć wpisany tekst."
   },
   "donateWithPaypalLabel": {
     "message": "Wesprzyj przez PayPala"
   },
   "donateLabel": {
-    "message": "Donate"
+    "message": "Wspieraj"
   },
   "enableOnThisPage": {
-    "message": "Enable translation on this page"
+    "message": "Włącz tłumaczenie dla tej strony"
   },
   "disableOnThisPage": {
-    "message": "Disable translation on this page"
+    "message": "Wyłącz tłumaczenie dla tej strony"
   },
   "initialTextArea": {
     "message": "Wprowadź tekst"
@@ -24,7 +24,7 @@
     "message": "Przetłumacz tę stronę"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "Otwórz w Tłumaczu Google"
   },
   "copyLabel": {
     "message": "Kopiuj"
@@ -33,7 +33,7 @@
     "message": "Skopiowane"
   },
   "listenLabel": {
-    "message": "Listen"
+    "message": "Słuchaj"
   },
   "targetLangLabel": {
     "message": "Język docelowy"
@@ -87,19 +87,19 @@
     "message": "Wykrywa język zaznaczonego tekstu i jeżeli jest taki sam jak język docelowy przycisk nie zostaje wyświetlany."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+    "message": "Wykrywa język wprowadzonego tekstu, a jeśli jest taki sam jak domyślny język docelowy, tłumaczy go na drugi język."
   },
   "isDisabledInTextFieldsLabel": {
-    "message": "Disable translation in text fields"
+    "message": "Wyłącz tłumaczenie w polach tekstowych"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in a text field."
+    "message": "Nie wyświetlaj przycisku ani panelu tłumaczenia podczas zaznaczania tekstu w polu tekstowym."
   },
   "disableUrlListLabel": {
-    "message": "URL list to disable translation"
+    "message": "Lista adresów URL, gdzie wyłączono tłumaczenie"
   },
   "disableUrlListCaptionLabel": {
-    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
+    "message": "Jeśli adres URL pasuje do listy, tłumaczenie na tej stronie jest wyłączone. Lista pozwala na używanie wieloznacznika \"*\"."
   },
   "toolbarLabel": {
     "message": "Podręczne narzędzia"
@@ -117,13 +117,13 @@
     "message": "Wybierz domyślny język docelowy."
   },
   "waitTimeLabel": {
-    "message": "Waiting time to translate"
+    "message": "Czas oczekiwania na tłumaczenie"
   },
   "waitTimeCaptionLabel": {
-    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+    "message": "Określ czas oczekiwania od wprowadzenia znaku do startu tłumaczenia. (milisekundy)"
   },
   "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
+    "message": "Jeśli tłumaczysz to wiele razy w krótkim czasie, to może to przestać działać przez pewien czas."
   },
   "menuLabel": {
     "message": "Menu kontekstowe"
@@ -150,28 +150,28 @@
     "message": "Wyświetl pozycję"
   },
   "topRightLabel": {
-    "message": "Top right"
+    "message": "Prawy górny"
   },
   "bottomRightLabel": {
-    "message": "Bottom right"
+    "message": "Prawy dolny"
   },
   "topLeftLabel": {
-    "message": "Top left"
+    "message": "Lewy górny"
   },
   "bottomLeftLabel": {
-    "message": "Bottom left"
+    "message": "Lewy dolny"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "Góra"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "Dół"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "Lewo"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "Prawo"
   },
   "positionOffsetLabel": {
     "message": "Display position - Offset"

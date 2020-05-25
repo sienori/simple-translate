@@ -174,7 +174,7 @@
     "message": "Prawo"
   },
   "positionOffsetLabel": {
-    "message": "Display position - Offset"
+    "message": "Miejsce wyświetlania - przesunięcie"
   },
   "panelStyleLabel": {
     "message": "Panel tłumaczenia"
@@ -192,31 +192,31 @@
     "message": "Rozmiar czcionki"
   },
   "referencePointLabel": {
-    "message": "Display position - Reference point"
+    "message": "Miejsce wyświetlania - Punkt odniesienia"
   },
   "bottomSelectedTextLabel": {
-    "message": "Bottom of selected text"
+    "message": "Dół zaznaczonego tekstu"
   },
   "topSelectedTextLabel": {
-    "message": "Top of selected text"
+    "message": "Góra zaznaczonego tekstu"
   },
   "clickedPointLabel": {
-    "message": "Clicked point"
+    "message": "Wciśnięty punkt"
   },
   "displayDirectionLabel": {
-    "message": "Display position - Direction"
+    "message": "Miejsce wyświetlania - Kierunek"
   },
   "resultFontColorLabel": {
-    "message": "Font color of translation result"
+    "message": "Kolor czcionki wyniku tłumaczenia"
   },
   "candidateFontColorLabel": {
-    "message": "Font color of translation candidates"
+    "message": "Kolor czcionki kandydatów do tłumaczenia"
   },
   "bgColorLabel": {
     "message": "Kolor tła"
   },
   "otherLabel": {
-    "message": "Other"
+    "message": "Inne"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
     "message": "Display option page when updating"
@@ -237,46 +237,46 @@
     "message": "Restore all settings to default."
   },
   "resetSettingsButtonLabel": {
-    "message": "Reset"
+    "message": "Zresetuj"
   },
   "shortcutsLabel": {
-    "message": "Shortcuts"
+    "message": "Skróty"
   },
   "keyboardShortcutsLabel": {
-    "message": "Keyboard shortcuts"
+    "message": "Skróty klawiszowe"
   },
   "setKeyboardShortCutsMessage": {
-    "message": "Set keyboard shortcuts."
+    "message": "Ustaw skróty klawiszowe."
   },
   "typeShortcutMessage": {
-    "message": "Type a shortcut"
+    "message": "Wpisz skrót"
   },
   "typeLetterMessage": {
-    "message": "Type a letter"
+    "message": "Wpisz literę"
   },
   "includeModifierKeysMessage": {
-    "message": "Include either Ctrl or Alt"
+    "message": "Skorzystaj z klawiszy Ctrl lub Alt"
   },
   "includeMacModifierKeysMessage": {
-    "message": "Include either Command, Ctrl or Alt"
+    "message": "Skorzystaj z klawiszy Command, Ctrl lub Alt"
   },
   "invalidLetterMessage": {
-    "message": "The letter can not be used"
+    "message": "Nie można użyć tej litery"
   },
   "invalidShortcutMessage": {
-    "message": "The shortcut can not be used"
+    "message": "Nie można użyć tego skrótu"
   },
   "clear": {
-    "message": "Clear"
+    "message": "Wyczyść"
   },
   "reset": {
-    "message": "Reset"
+    "message": "Zresetuj"
   },
   "informationLabel": {
     "message": "Informacje"
   },
   "backersLabel": {
-    "message": "Backers"
+    "message": "Wspierający"
   },
   "licenseLabel": {
     "message": "Licencja"
@@ -294,19 +294,19 @@
     "message": "Strona dodatków"
   },
   "extensionPageLabel": {
-    "message": "Extension page"
+    "message": "Strona rozszerzenia"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
   },
   "addonUrl": {
-    "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
+    "message": "https://addons.mozilla.org/pl/firefox/addon/simple-translate/"
   },
   "networkError": {
-    "message": "Error: Check network connection status."
+    "message": "Błąd: Sprawdź stan połączenia sieciowego."
   },
   "unavailableError": {
-    "message": "Error: Service usage limit reached. Please wait a while and try again."
+    "message": "Błąd: Limit użycia serwisu został osiągnięty. Poczekaj chwilę i spróbuj ponownie."
   },
   "unknownError": {
     "message": "Nieznany błąd"
@@ -321,6 +321,6 @@
     "message": "Przetłumacz wybrany link"
   },
   "openPopupDescription": {
-    "message": "Open toolbar popup"
+    "message": "Otwórz okienko paska narzędzi"
   }
 }

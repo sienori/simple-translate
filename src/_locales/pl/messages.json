@@ -27,7 +27,7 @@
     "message": "Otwórz w Tłumaczu Google"
   },
   "copyLabel": {
-    "message": "Kopiuj"
+    "message": "Skopiuj"
   },
   "copiedLabel": {
     "message": "Skopiowane"
@@ -57,7 +57,7 @@
     "message": "Pokaż kandydatów do tłumaczenia"
   },
   "ifShowCandidateCaptionLabel": {
-    "message": "Pokaż wiele kandydatów do tłumaczenia kiedy słowo zoataje przetłumaczone."
+    "message": "Pokaż wiele kandydatów do tłumaczenia kiedy słowo zostanie przetłumaczone."
   },
   "whenSelectTextLabel": {
     "message": "Zachowanie podczas zaznaczania textu"

@@ -17,3 +17,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - shintaks
 - Ha Do Manh
 - 아영 김
+- ovgolovin

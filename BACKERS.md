@@ -19,3 +19,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - 아영 김
 - ovgolovin
 - 忠郎 蔡
+- alexey vav

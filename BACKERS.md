@@ -20,3 +20,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - ovgolovin
 - 忠郎 蔡
 - alexey vav
+- REN YAMAZAKI

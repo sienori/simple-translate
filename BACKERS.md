@@ -21,3 +21,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - 忠郎 蔡
 - alexey vav
 - REN YAMAZAKI
+- daniel

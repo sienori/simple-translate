@@ -22,3 +22,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - alexey vav
 - REN YAMAZAKI
 - daniel
+- Salah Morabit

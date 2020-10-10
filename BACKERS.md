@@ -23,3 +23,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - REN YAMAZAKI
 - daniel
 - Salah Morabit
+- Khaled

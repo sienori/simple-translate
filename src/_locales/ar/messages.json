@@ -87,7 +87,7 @@
     "message": "تحديد لغة النص المحدد, واذا كان نفس اللغة الهدف, لن يظهر زر الترجمة."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+    "message": "اكتشاف لغة النص المحدد، فإن كانت نفس لغة الترجمة الإفتراضية، ترجمة النص للغة الثانية."
   },
   "isDisabledInTextFieldsLabel": {
     "message": "تعطيل الترجمة في حقول النص"

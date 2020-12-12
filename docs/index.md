@@ -6,9 +6,9 @@ Quickly translate selected text on web page. In toolbar popup, you can translate
 
 ## Download
 
-[<img src="https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_1.png" align="left" alt="for Firefox">](https://addons.mozilla.org/firefox/addon/simple-translate/)
+[<img src="https://raw.githubusercontent.com/sienori/simple-translate/master/other/promotion/badges/firefox.png" align="left" alt="for Firefox">](https://addons.mozilla.org/firefox/addon/simple-translate/)
 &ensp;
-[<img src="https://developer.chrome.com/webstore/images/ChromeWebStore_BadgeWBorder_v2_206x58.png" alt="for Chrome">](https://chrome.google.com/webstore/detail/simple-translate/ibplnjkanclpjokhdolnendpplpjiace)
+[<img src="https://raw.githubusercontent.com/sienori/simple-translate/master/other/promotion/badges/chrome.png" alt="for Chrome" height="60px">](https://chrome.google.com/webstore/detail/simple-translate/ibplnjkanclpjokhdolnendpplpjiace)
 
 [for Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/cllnohpbfenopiakdcjmjcbaeapmkcdl)
 
@@ -16,7 +16,8 @@ Quickly translate selected text on web page. In toolbar popup, you can translate
 
 Thank you to the awesome **[backers](https://github.com/sienori/simple-translate/blob/master/BACKERS.md)** who supported Simple Translate!
 
-[<img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Became a Patreon">](https://www.patreon.com/sienori)
+[<img src="https://raw.githubusercontent.com/sienori/simple-translate/master/other/promotion/badges/patreon.png" alt="Became a Patreon">](https://www.patreon.com/sienori)
+[<img src="https://raw.githubusercontent.com/sienori/simple-translate/master/other/promotion/badges/paypal.png" alt="Check out with PayPal">](https://www.paypal.me/sienoriExt)
 
 ## Translation
 

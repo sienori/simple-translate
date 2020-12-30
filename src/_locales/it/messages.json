@@ -108,31 +108,31 @@
     "message": "Passa automaticamente alla seconda lingua"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "Rileva la lingua di input, e se corrisponde alla lingua predefinitia di destinazione, traducila nella seconda lingua."
+    "message": "Rileva la lingua del testo inserito e se corrisponde alla lingua di arrivo predefinita, lo traduce nella seconda."
   },
   "secondTargetLangLabel": {
     "message": "Seconda lingua"
   },
   "secondTargetLangCaptionLabel": {
-    "message": "Seleziona la seconda lingua di destinazione."
+    "message": "Seleziona la seconda lingua di arrivo."
   },
   "waitTimeLabel": {
-    "message": "Tempo di traduzione"
+    "message": "Tempo di attesa per tradurre"
   },
   "waitTimeCaptionLabel": {
-    "message": "Specifica il tempo di attesa dall'input del carattere all'inizio della traduzione. (millisecondi)"
+    "message": "Specifica il tempo di attesa per l'avvio di traduzione dell'inserimento di un carattere. (millisecondi)"
   },
   "waitTime2CaptionLabel": {
-    "message": "Se traduci molte volte in poco tempo, potrebbe essere inutilizzabile per un po'."
+    "message": "Se lo traduci molte volte in poco tempo, potrebbe divenire inutilizzabile per un po'."
   },
   "menuLabel": {
-    "message": "Menu contestuale"
+    "message": "Menu del contesto"
   },
   "ifShowMenuLabel": {
-    "message": "Mostra il menu contestuale"
+    "message": "Mostra il menu del contesto"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Aggiungi voci al menu contestuale quando premi il pulsante destro sulla pagina o sulla scheda."
+    "message": "Aggiungi voci al menu di contesto mostrato cliccando con il destro sulla pagina web o la scheda."
   },
   "styleLabel": {
     "message": "Stile"
@@ -141,7 +141,7 @@
     "message": "Pulsante di traduzione"
   },
   "buttonStyleCaptionLabel": {
-    "message": "Specifica lo stile del pulsante di traduzione mostrato sulla pagina."
+    "message": "Specifica lo stile del pulsante di traduzione mostrato sulla pagina web."
   },
   "buttonSizeLabel": {
     "message": "Dimensione"
@@ -180,7 +180,7 @@
     "message": "Pannello di traduzione"
   },
   "panelStyleCaptionLabel": {
-    "message": "Specifica lo stile del pannello di traduzione mostrato sulla pagina."
+    "message": "Specifica lo stile del pannello di traduzione mostrato sulla pagina web."
   },
   "widthLabel": {
     "message": "Larghezza"
@@ -195,10 +195,10 @@
     "message": "Posizione display - punto di riferimento"
   },
   "bottomSelectedTextLabel": {
-    "message": "Sotto il testo selezionato"
+    "message": "Sotto al testo selezionato"
   },
   "topSelectedTextLabel": {
-    "message": "Sopra il testo selezionato"
+    "message": "Sul testo selezionato"
   },
   "clickedPointLabel": {
     "message": "Punto cliccato"
@@ -210,31 +210,31 @@
     "message": "Colore del font del risultato della traduzione"
   },
   "candidateFontColorLabel": {
-    "message": "Colore del font delle possibili traduzioni"
+    "message": "Colore del font dei candidati di traduzione"
   },
   "bgColorLabel": {
-    "message": "Colore sfondo"
+    "message": "Colore di sfondo"
   },
   "otherLabel": {
     "message": "Altro"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Mostra pagina delle opzioni quando si aggiorna"
+    "message": "Mostra pagina delle opzioni all'aggiornamento"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Mostra la pagina delle opzioni dopo che Simple Translate è stato aggiornato, così da poter conoscere le nuove modifiche."
+    "message": "Mostra la pagina delle opzioni all'aggiornamento di Simple Translate. Puoi scoprire rapidamente i contenuti dell'aggiornamento."
   },
   "isDebugModeLabel": {
-    "message": "Abilità modalità debug"
+    "message": "Abilità modalità di debug"
   },
   "isDebugModeCaptionLabel": {
-    "message": "Quando la modalità di debug è abilitata, le informazioni sono mostrate nel debugger."
+    "message": "Quando la modalità di debug è abilitata, il registro è mostrato al debugger."
   },
   "resetSettingsLabel": {
     "message": "Ripristina impostazioni"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Ripristina tutte le impostazioni predefinite."
+    "message": "Ripristina tutte le impostazioni ai valori predefiniti."
   },
   "resetSettingsButtonLabel": {
     "message": "Ripristina"
@@ -246,7 +246,7 @@
     "message": "Scorciatoie da tastiera"
   },
   "setKeyboardShortCutsMessage": {
-    "message": "Configura scorciatoie da tastiera."
+    "message": "Imposta le scorciatoie da tastiera."
   },
   "typeShortcutMessage": {
     "message": "Digita una scorciatoia"
@@ -261,10 +261,10 @@
     "message": "Includi Command, Ctrl o Alt"
   },
   "invalidLetterMessage": {
-    "message": "La lettera non può essere utilizzata"
+    "message": "Lettera inutilizzabile"
   },
   "invalidShortcutMessage": {
-    "message": "La scorciatoia non può essere utilizzata"
+    "message": "Scorciatoia inutilizzabile"
   },
   "clear": {
     "message": "Cancella"
@@ -273,25 +273,25 @@
     "message": "Ripristina"
   },
   "informationLabel": {
-    "message": "Informazione"
+    "message": "Informazioni"
   },
   "backersLabel": {
-    "message": "I sostenitori"
+    "message": "Sostenitori"
   },
   "licenseLabel": {
     "message": "Licenza"
   },
   "donationLabel": {
-    "message": "Per favore fai una donazione"
+    "message": "Sei pregato di donare"
   },
   "donationCaptionLabel": {
-    "message": "Grazie per aver usato Simple Translate:<br>Il tuo supporto sarà un grosso incoraggiamento, per continuare lo sviluppo dell'add-on.<br>Se ti piace Simple Translate, sarei onorato se facessi una donazione."
+    "message": "Grazie per aver usato Simple Translate.<br>Il tuo supporto sarà un grande incoraggiamento, mentre continuo a sviluppare l'addon.<br>Se Simple Translate ti piace, sarei grato se considerassi di donare."
   },
   "amazonTitleLabel": {
-    "message": "Buoni Regalo amazon.co.jp"
+    "message": "Carte eGift di amazon.co.jp"
   },
   "addonPageLabel": {
-    "message": "Pagina dell'Add-on"
+    "message": "Pagina dell'addon"
   },
   "extensionPageLabel": {
     "message": "Pagina dell'estensione"
@@ -303,10 +303,10 @@
     "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
-    "message": "Errore: Verifica lo stato della connessione di rete."
+    "message": "Errore: Verifica lo stato di connessione della rete."
   },
   "unavailableError": {
-    "message": "Errore: Raggiunto il limite di utilizzo del servizio. Per favore riprova tra un po'."
+    "message": "Errore: Limite d'uso del servizio raggiunto. Sei pregato di attendere un po' e riprovare."
   },
   "unknownError": {
     "message": "Errore: Errore sconosciuto"
@@ -315,12 +315,12 @@
     "message": "Traduci questa pagina"
   },
   "translateTextMenu": {
-    "message": "Tradurre il testo selezionato"
+    "message": "Traduci il testo selezionato"
   },
   "translateLinkMenu": {
-    "message": "Tradurre il link selezionato"
+    "message": "Traduci il collegamento selezionato"
   },
   "openPopupDescription": {
-    "message": "Apri popup della barra degli strumenti"
+    "message": "Apri il popup della barra degli strumenti"
   }
 }

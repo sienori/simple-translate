@@ -3,28 +3,28 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Traduci rapidamente il testo selezionato sulla pagina web. Nel popup della barra degli strumenti puoi tradurre il testo di input."
+    "message": "Traduci rapidamente il testo selezionato sulla pagina web. Nel popup della barra degli strumenti puoi tradurre il testo inserito."
   },
   "donateWithPaypalLabel": {
     "message": "Dona con PayPal"
   },
   "donateLabel": {
-    "message": "Donare"
+    "message": "Dona"
   },
   "enableOnThisPage": {
-    "message": "Abilita la traduzione in questa pagina"
+    "message": "Abilita la traduzione su questa pagina"
   },
   "disableOnThisPage": {
-    "message": "Disabilita la traduzione in questa pagina"
+    "message": "Disabilita la traduzione su questa pagina"
   },
   "initialTextArea": {
-    "message": "Scrivere testo"
+    "message": "Inserisci testo"
   },
   "showLink": {
     "message": "Traduci questa pagina"
   },
   "openInGoogleLabel": {
-    "message": "Apri in Google Translate"
+    "message": "Apri su Google Translate"
   },
   "copyLabel": {
     "message": "Copia"
@@ -36,10 +36,10 @@
     "message": "Ascolta"
   },
   "targetLangLabel": {
-    "message": "Lingua di bersaglio"
+    "message": "Lingua di Arrivo"
   },
   "langList": {
-    "message": "af:Afrikaans, sq:Albanese, am:Amharic, ar:Arabo, hy:Armeno, az:Azerbaijani, eu:Basco, be:Bielorusso, bn:Bengali, bs:Bosnian, bg:Bulgaro, ca:Catalano, ceb:Cubano, ny:Chewa, zh-CN:Cinese (PRC), zh-TW:Cinese (Taiwan), co:Corsican, hr:Croato, cs:Ceco, da:Danese, nl:Olandese, en:Inglese, eo:Esperanto, et:Estone, fi:Finlandese, fr:Francese, fy:Frisian, gl:Galiziano, ka:Georgiano, de:Tedesco, el:Greco, gu:Gujarati, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Ebraico, hi:Hindi, hu:Ungherese, is:Islandese, ig:Igbo, id:Indonesiano, ga:Irlandese, it:Italiano, ja:Giapponese, jv:Javanese, kn:Kannada, kk:Kazako, km:Khmer, ky:Kirghiz, ko:Coreano, ku:Kurdish, lo:Laotian, la:Latino, lv:Lettone, lt:Lituano, lb:Luxembourgish, mk:Macedone, mg:Malagasy, ms:Malese, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolo, hmn:Monk, my:Myanmar, ne:Nepalese, no:Norvegese, fa:Persiano, pl:Polacco, pt:Portoghese, pa:Punjabi, ps:Pushto, ro:Rumeno, ru:Russo, sm:Samoan, gd:Scozzese Gaelico, sr:Serbo, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovacco, sl:Sloveno, so:Somalo, sx:Sotho, es:Spagnolo, su:Sundanese, sw:Swahili, sv:Svedese, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Tailandese, tr:Turco, uk:Ucraino, ur:Urdu, uz:Uzbeko, vi:Vietnamita, cy:Gallese, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
+    "message": "af:Afrikaans, sq:Albanese, am:Amarico, ar:Arabo, hy:Armeno, az:Azero, eu:Basco, be:Bielorusso, bn:Bengalese, bs:Bosniaco, bg:Bulgaro, ca:Catalano, ceb:Cubano, ny:Chewa, zh-CN:Cinese (PRC), zh-TW:Cinese (Taiwan), co:Corso, hr:Croato, cs:Ceco, da:Danese, nl:Olandese, en:Inglese, eo:Esperanto, et:Estone, fi:Finlandese, fr:Francese, fy:Frisone, gl:Galiziano, ka:Georgiano, de:Tedesco, el:Greco, gu:Gujarati, ht:Haitiano, ha:Hausa, haw:Hawaiano, he:Ebraico, hi:Hindi, hu:Ungherese, is:Islandese, ig:Igbo, id:Indonesiano, ga:Irlandese, it:Italiano, ja:Giapponese, jv:Javanese, kn:Kannada, kk:Kazako, km:Khmer, ky:Kirghiz, ko:Coreano, ku:Curdo, lo:Laotian, la:Latino, lv:Lettone, lt:Lituano, lb:Lussemburghese, mk:Macedone, mg:Malagasy, ms:Malese, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolo, hmn:Monk, my:Myanmar, ne:Nepalese, no:Norvegese, fa:Persiano, pl:Polacco, pt:Portoghese, pa:Punjabi, ps:Pushto, ro:Rumeno, ru:Russo, sm:Samoano, gd:Scozzese Gaelico, sr:Serbo, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovacco, sl:Sloveno, so:Somalo, sx:Sotho, es:Spagnolo, su:Sudanese, sw:Swahili, sv:Svedese, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Tailandese, tr:Turco, uk:Ucraino, ur:Urdu, uz:Uzbeko, vi:Vietnamita, cy:Gallese, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
   },
   "settingsLabel": {
     "message": "Impostazioni"
@@ -48,22 +48,22 @@
     "message": "Generale"
   },
   "targetLangCaptionLabel": {
-    "message": "Seleziona la lingua di destinazione predefinita."
+    "message": "Seleziona la lingua di arrivo predefinita."
   },
   "webPageLabel": {
     "message": "Pagina web"
   },
   "ifShowCandidateLabel": {
-    "message": "Mostra le traduzioni candidate"
+    "message": "Mostra candidati di traduzione"
   },
   "ifShowCandidateCaptionLabel": {
-    "message": "Mostra multiple traduzioni quando viene tradotta una sola parola."
+    "message": "Mostra candidati di traduzione multipli alla traduzione di una parola singola."
   },
   "whenSelectTextLabel": {
-    "message": "Comportamento quando si seleziona il testo"
+    "message": "Comportamento alla selezione del testo"
   },
   "ifAutoTranslateLabel": {
-    "message": "Mostra il pannello di traduzione"
+    "message": "Mostra pannello di traduzione"
   },
   "ifAutoTranslateCaptionLabel": {
     "message": "Mostra direttamente il pannello di traduzione senza mostrare il pulsante."
@@ -72,7 +72,7 @@
     "message": "Mostra il pulsante di traduzione"
   },
   "ifShowButtonCaptionLabel": {
-    "message": "Mostra il pulsante di traduzione per aprire il pannello quando viene premuto."
+    "message": "Mostra il pulsante di traduzione per aprire il pannello quando cliccato."
   },
   "dontshowbuttonlabel": {
     "message": "Non mostrare il pulsante o il pannello"
@@ -84,25 +84,25 @@
     "message": "Non mostrare il pulsante se la traduzione non è richiesta"
   },
   "ifCheckLangCaptionLabel": {
-    "message": "Rileva la lingua del testo selezionato e se corrisponde alla lingua di destinazione, il pulsante non è mostrato."
+    "message": "Rileva la lingua del testo selezionato e se corrisponde alla lingua di arrivo, il pulsante non viene mostrato."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Rileva la lingua del testo selezionato, e se è uguale alla lingua predefinita, traducilo nella seconda lingua."
+    "message": "Rileva la lingua del testo selezionato e se corrisponde alla lingua di arrivo predefinita, lo traduce nella seconda."
   },
   "isDisabledInTextFieldsLabel": {
     "message": "Disabilita la traduzione nei campi di testo"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Non visualizzare il pulsante o il pannello di traduzione quando si seleziona il testo in un campo di testo."
+    "message": "Non mostrare il pulsante o il pannello di traduzione alla selezione del testo nel campo del testo."
   },
   "disableUrlListLabel": {
-    "message": "Lista degli URL per i quali la traduzione è disabilitata"
+    "message": "Elenca gli URL per disabilitare la traduzione"
   },
   "disableUrlListCaptionLabel": {
     "message": "Se l'URL della pagina corrisponde alla lista, la traduzione nella pagina web è disabilitata. L'elenco consente wildcard \"*\"."
   },
   "toolbarLabel": {
-    "message": "Barra degli strumenti popup"
+    "message": "Popup della barra degli strumenti"
   },
   "ifChangeSecondLangLabel": {
     "message": "Passa automaticamente alla seconda lingua"

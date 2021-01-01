@@ -33,7 +33,7 @@
     "message": "تم النسخ."
   },
   "listenLabel": {
-    "message": "Listen"
+    "message": "Dengarkan"
   },
   "targetLangLabel": {
     "message": "اللغة الهدف"
@@ -87,7 +87,7 @@
     "message": "تحديد لغة النص المحدد, واذا كان نفس اللغة الهدف, لن يظهر زر الترجمة."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+    "message": "اكتشاف لغة النص المحدد، فإن كانت نفس لغة الترجمة الإفتراضية، ترجمة النص للغة الثانية."
   },
   "isDisabledInTextFieldsLabel": {
     "message": "تعطيل الترجمة في حقول النص"
@@ -219,7 +219,7 @@
     "message": "غير ذلك"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Display option page when updating"
+    "message": "عرض صفحة الإعدادات عند التحديث"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
     "message": "اعرض صفحة الخيارات عندما يتم تحديث الترجمة البسيطة. ليمكنك معرفة محتويات التحديث بسرعة."
@@ -294,7 +294,7 @@
     "message": "صفحة الاضافة"
   },
   "extensionPageLabel": {
-    "message": "Extension page"
+    "message": "صفحة الإضافة"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
@@ -303,13 +303,13 @@
     "message": "https://addons.mozilla.org/ar/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
-    "message": "Error: Check network connection status."
+    "message": "خطأ: تحقق من حالة اتصال الشبكة."
   },
   "unavailableError": {
-    "message": "Error: Service usage limit reached. Please wait a while and try again."
+    "message": "خطأ: وصل الحد الأقصى لاستخدام الخدمة. الرجاء الانتظار بعض الوقت وحاول مرة أخرى."
   },
   "unknownError": {
-    "message": "Error: Unknown error"
+    "message": "خطأ: غير معروف"
   },
   "translatePageMenu": {
     "message": "ترجم هذه الصفحة"
@@ -321,6 +321,6 @@
     "message": "ترجم الرابط المحدد"
   },
   "openPopupDescription": {
-    "message": "Open toolbar popup"
+    "message": "فتح شريط الأدوات المنبثق"
   }
 }

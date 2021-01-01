@@ -30,10 +30,10 @@
     "message": "Αντιγραφή"
   },
   "copiedLabel": {
-    "message": "Αντιγράφηκε."
+    "message": "Αντιγράφτηκε."
   },
   "listenLabel": {
-    "message": "Listen"
+    "message": "Εκφώνηση"
   },
   "targetLangLabel": {
     "message": "Γλώσσα-στόχος"
@@ -120,7 +120,7 @@
     "message": "Χρόνος αναμονής για μετάφραση"
   },
   "waitTimeCaptionLabel": {
-    "message": "Καθορίστε το χρόνο αναμονής από την εισαγωγή ενός χαρακτήρα ως την εκκίνηση της μετάφρασης. (χιλιοστοδευτερόλεπτα)"
+    "message": "Καθορίστε το χρόνο αναμονής από την εισαγωγή ενός χαρακτήρα ως την εκκίνηση της μετάφρασης. (χιλιοστά δευτερολέπτου)"
   },
   "waitTime2CaptionLabel": {
     "message": "Αν μεταφράζετε πολλές φορές σε σύντομο χρονικό διάστημα, μπορεί να τεθεί εκτός λειτουργίας για λίγο."
@@ -228,73 +228,73 @@
     "message": "Ενεργοποίηση εντοπισμού σφαλμάτων"
   },
   "isDebugModeCaptionLabel": {
-    "message": "Όταν έχει ενεργοποιηθεί ο εντοπισμός σφαλμάτων, το περιεχόμενο καταγραφής κατευθύνεται στο πρόγραμμα εκσφαλμάτωσης."
+    "message": "Όταν έχει ενεργοποιηθεί ο εντοπισμός σφαλμάτων, το περιεχόμενο καταγραφής κατευθύνεται στο πρόγραμμα αποσφαλμάτωσης."
   },
   "resetSettingsLabel": {
-    "message": "Reset settings"
+    "message": "Επαναφορά"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Restore all settings to default."
+    "message": "Επαναφορά αρχικών ρυθμίσεων."
   },
   "resetSettingsButtonLabel": {
-    "message": "Reset"
+    "message": "Επαναφορά"
   },
   "shortcutsLabel": {
-    "message": "Shortcuts"
+    "message": "Συντομεύσεις"
   },
   "keyboardShortcutsLabel": {
-    "message": "Keyboard shortcuts"
+    "message": "Συντομεύσεις πληκτρολογίου"
   },
   "setKeyboardShortCutsMessage": {
-    "message": "Set keyboard shortcuts."
+    "message": "Ορισμός συντομεύσεων πληκτρολογίου."
   },
   "typeShortcutMessage": {
-    "message": "Type a shortcut"
+    "message": "Πληκτρολογήστε μία συντόμευση"
   },
   "typeLetterMessage": {
-    "message": "Type a letter"
+    "message": "Πληκτρολογήστε ένα γράμμα"
   },
   "includeModifierKeysMessage": {
-    "message": "Include either Ctrl or Alt"
+    "message": "Συμπερίληψη το πλήκτρου Ctrl ή Alt"
   },
   "includeMacModifierKeysMessage": {
-    "message": "Include either Command, Ctrl or Alt"
+    "message": "Συμπερίληψη του πλήκτρου Command, Ctrl ή Alt"
   },
   "invalidLetterMessage": {
-    "message": "The letter can not be used"
+    "message": "Αυτό το γράμμα δεν μπορεί να χρησιμοποιηθεί"
   },
   "invalidShortcutMessage": {
-    "message": "The shortcut can not be used"
+    "message": "Η συντόμευση δεν μπορεί να χρησιμοποιηθεί"
   },
   "clear": {
-    "message": "Clear"
+    "message": "Καθάρισμα"
   },
   "reset": {
-    "message": "Reset"
+    "message": "Επαναφορά"
   },
   "informationLabel": {
-    "message": "Information"
+    "message": "Πληροφόρηση"
   },
   "backersLabel": {
-    "message": "Backers"
+    "message": "Υποστηρικτές"
   },
   "licenseLabel": {
-    "message": "License"
+    "message": "Άδεια χρήσης"
   },
   "donationLabel": {
-    "message": "Please make a donation"
+    "message": "Κάντε μια δωρεά"
   },
   "donationCaptionLabel": {
-    "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+    "message": "Ευχαριστούμε που χρησιμοποιείτε το Simple Translate.<br>Η υποστήριξή σας με ενθαρρύνει να συνεχίσω να αναπτύσσω αυτό το πρόσθετο.<br>Αν σας αρέσει το Simple Translate, θα ήμουν ευτυχής αν σκεφτείτε να κάνετε μια δωρεά."
   },
   "amazonTitleLabel": {
     "message": "amazon.co.jp eGift Cards"
   },
   "addonPageLabel": {
-    "message": "Add-on page"
+    "message": "Σελίδα πρόσθετου"
   },
   "extensionPageLabel": {
-    "message": "Extension page"
+    "message": "Σελίδα επέκτασης"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
@@ -303,13 +303,13 @@
     "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
-    "message": "Error: Check network connection status."
+    "message": "Σφάλμα: Ελέγξτε την κατάσταση σύνδεσης του δικτύου."
   },
   "unavailableError": {
-    "message": "Error: Service usage limit reached. Please wait a while and try again."
+    "message": "Σφάλμα: Υπέρβαση ορίου χρήσης της υπηρεσίας. Περιμένετε λίγο και δοκιμάστε ξανά."
   },
   "unknownError": {
-    "message": "Error: Unknown error"
+    "message": "Σφάλμα: Άγνωστο λάθος"
   },
   "translatePageMenu": {
     "message": "Μετάφραση της σελίδας"
@@ -321,6 +321,6 @@
     "message": "Μετάφραση του επιλεγμένου συνδέσμου"
   },
   "openPopupDescription": {
-    "message": "Open toolbar popup"
+    "message": "Άνοιγμα του αναδυόμενου παραθύρου της γραμμής εργαλείων"
   }
 }

@@ -6,7 +6,7 @@
     "message": "Tradu rapid textul selectat pe pagina web. În fereastra din bara de instrumente, puteți traduce textul introdus."
   },
   "donateWithPaypalLabel": {
-    "message": "Donează prin PayPal"
+    "message": "Donează prin Paypal"
   },
   "donateLabel": {
     "message": "Donează"
@@ -36,7 +36,7 @@
     "message": "Ascultă"
   },
   "targetLangLabel": {
-    "message": "Limba ţintă"
+    "message": "Limba țintă"
   },
   "langList": {
     "message": "af:afrikaans, sq:albaneză, am:amhară, ar:arabă, hy:armeană, az:azeră, eu:bască, be:belarusă,bn:bengaleză, bs:bosniacă, bg:bulgară, ca:catalană, bn:cebuană, ny:Chewa, zh-CN:chineză (PRC), zh-TW:chineză (Taiwan), co:corsicană, hr:esperanto, et:estonă, fi:finlandeză, fr:franceză, fy:friziană, gl:galiciană, ka:georgiană, de:germană, el:greacă, gu:gujarati, ht:haitiană, ha:hausă, haw:hawaiiană, he:ebraică, hi:hindi, hu:maghiară, is:islandeză, ig:igbo, id:indoneziană, ga:khmeră, ky:kirghiză, ko:coreeană, ku:kurdă, lo:laoțiană, la:latină, lv:letonă, lt:lituaniană, lb:luxemburgheză, mk:macedoneană, mg:malgaşă, ms:malaieză, ml:malayalam, mt:malteză, mi:maori, mr:marathi, mn:mongolă, hmn:Monk, my:birmană, ne:nepaleză, no:norvegiană, fa:persană, pl:poloneză, pt:portugheză, pa:punjabă, ro:română, ru:rusă, sm:samoană, gd:galica scoțiană, sr:sârbă, sn:shona, sd:Sindhi, si:singaleză, sk:slovacă, sl:slovenă, deci:somaleză, sx:sotho, es:spaniolă, su:sundaneză, sw:swahili, sv:suedeză, tl:tagalog, tg: tadjică, ta:tamilă, te:telugu, th:tailandeză, tr:turcă, uk:ucraineană, ur:urdu, uz:uzbecă, vi:vietnameză, cy:galeză, xh:xosa, yi:idiș, yo:yoruba, zu:zulu"
@@ -48,7 +48,7 @@
     "message": "General"
   },
   "targetLangCaptionLabel": {
-    "message": "Selectaţi limba ţintă implicită."
+    "message": "Selectați limba țintă implicită."
   },
   "webPageLabel": {
     "message": "Pagină web"
@@ -174,7 +174,7 @@
     "message": "Dreapta"
   },
   "positionOffsetLabel": {
-    "message": "Decalaj poziţie de afişare"
+    "message": "Decalaj poziție de afişare"
   },
   "panelStyleLabel": {
     "message": "Panou de traducere"
@@ -273,13 +273,13 @@
     "message": "Resetează"
   },
   "informationLabel": {
-    "message": "Informaţii"
+    "message": "Informații"
   },
   "backersLabel": {
-    "message": "Susţinători"
+    "message": "Susținători"
   },
   "licenseLabel": {
-    "message": "Licenţă"
+    "message": "Licență"
   },
   "donationLabel": {
     "message": "Vă rugăm să faceți o donație"
@@ -288,7 +288,7 @@
     "message": "Vă mulțumesc pentru că utilizați Simple Translate. <br>Sprijinul dumneavoastră m-ar încuraja mult pe măsură ce voi continua dezvoltarea acestei extensii. <br>Dacă vă place Simple Translate, orice donație este binevenită."
   },
   "amazonTitleLabel": {
-    "message": "carduri eGift amazon.co.jp"
+    "message": "Carduri eGift amazon.co.jp"
   },
   "addonPageLabel": {
     "message": "Pagină de add-on-uri"

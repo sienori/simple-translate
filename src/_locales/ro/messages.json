@@ -222,7 +222,7 @@
     "message": "Afișează pagina de opțiuni la actualizare"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Afișează pagina de opțiuni când traducerea simplă este actualizaăt. Poți afla rapid conținutul actualizării."
+    "message": "Afișează pagina de opțiuni când Simple Translate este actualizat. Poți afla rapid conținutul actualizării."
   },
   "isDebugModeLabel": {
     "message": "Activeaza modul de depanare"
@@ -276,7 +276,7 @@
     "message": "Informaţii"
   },
   "backersLabel": {
-    "message": "Galerie"
+    "message": "Susţinători"
   },
   "licenseLabel": {
     "message": "Licenţă"
@@ -285,10 +285,10 @@
     "message": "Vă rugăm să faceți o donație"
   },
   "donationCaptionLabel": {
-    "message": "Vă mulţumim că utilizaţi Tab Session Manager. <br>Sprijinul dumneavoastră ar însemna foarte mult, deoarce ne-ar ajuta să continuam dezvoltarea extensie. <br>Dacă vă place Tab Session Manager, orice donație este binevenită."
+    "message": "Vă mulţumim că utilizaţi Simple Translate. <br>Sprijinul dumneavoastră m-ar încuraja mult, pe măsură ce voi continua dezvoltarea acestei extensii. <br>Dacă vă place Simple Translate, orice donație este binevenită."
   },
   "amazonTitleLabel": {
-    "message": "amazon.co.jp eGift Cards"
+    "message": "carduri eGift amazon.co.jp"
   },
   "addonPageLabel": {
     "message": "Pagină de add-on-uri"
@@ -297,30 +297,30 @@
     "message": "Pagină de extensii"
   },
   "amazonUrl": {
-    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
+    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=ro_US"
   },
   "addonUrl": {
-    "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
+    "message": "https://addons.mozilla.org/ro-RO/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
-    "message": "Eroare: Verifică starea conexiunii la rețea."
+    "message": "Eroare: Verificați conexiunea la rețea."
   },
   "unavailableError": {
-    "message": "Eroare: Limita utilizării serviciului a fost atinsă. Te rog așteapta puțin, apoi incearcă din nou."
+    "message": "Eroare: Limita utilizării serviciului a fost atinsă. Te rog așteaptă puțin, apoi încearcă din nou."
   },
   "unknownError": {
-    "message": "Eroare: Necunoscut"
+    "message": "Eroare: Eroare necunoscută"
   },
   "translatePageMenu": {
     "message": "Traduceți această pagină"
   },
   "translateTextMenu": {
-    "message": "Traduceți textul selectat"
+    "message": "Tradu textul selectat"
   },
   "translateLinkMenu": {
-    "message": "Traduceți link-ul selectat"
+    "message": "Tradu link-ul selectat"
   },
   "openPopupDescription": {
-    "message": "Deschide fereastra din toolbar"
+    "message": "Deschide fereastra din bara de instrumente"
   }
 }

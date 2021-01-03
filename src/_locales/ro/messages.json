@@ -3,13 +3,13 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Tradu rapid textul selectat pe pagina web. In fereastra din toolbar, poți traduce textul introdus."
+    "message": "Tradu rapid textul selectat pe pagina web. În fereastra din bara de instrumente, puteți traduce textul introdus."
   },
   "donateWithPaypalLabel": {
     "message": "Donează prin PayPal"
   },
   "donateLabel": {
-    "message": "Dona"
+    "message": "Doează"
   },
   "enableOnThisPage": {
     "message": "Activează traducerea pe această pagină"

@@ -192,22 +192,22 @@
     "message": "Dimensiune font"
   },
   "referencePointLabel": {
-    "message": "Poziție - Punct de referință"
+    "message": "Poziție de afişare - Punct de referință"
   },
   "bottomSelectedTextLabel": {
-    "message": "Josul textului selectat"
+    "message": "Sfârșitul textului selectat"
   },
   "topSelectedTextLabel": {
-    "message": "Susul textului selectat"
+    "message": "Începutul textului selectat"
   },
   "clickedPointLabel": {
     "message": "Punct click-uit"
   },
   "displayDirectionLabel": {
-    "message": "Poziție - Direcție"
+    "message": "Poziție de afişare - Direcție"
   },
   "resultFontColorLabel": {
-    "message": "Culoarea fontului rezultatului tradus"
+    "message": "Culoarea fontului rezultatului traducerii"
   },
   "candidateFontColorLabel": {
     "message": "Culoarea fontului variantelor de traducere"
@@ -219,19 +219,19 @@
     "message": "Altele"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Arată pagina de opțiuni cand se actualizează"
+    "message": "Afișează pagina de opțiuni la actualizare"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Afișează pagina de opțiuni când Simple Translate este actualizat. Poți afla rapid conținutul actualizării."
+    "message": "Afișează pagina de opțiuni când traducerea simplă este actualizaăt. Poți afla rapid conținutul actualizării."
   },
   "isDebugModeLabel": {
-    "message": "Activați modul de depanare"
+    "message": "Activeaza modul de depanare"
   },
   "isDebugModeCaptionLabel": {
-    "message": "Când modul de depanare este activat, jurnalizarea va fi scrisă in depanator (debugger)."
+    "message": "Când modul de depanare este activat, jurnalizarea va fi scrisă in depanator."
   },
   "resetSettingsLabel": {
-    "message": "Resetează setări"
+    "message": "Resetare setări"
   },
   "resetSettingsCaptionLabel": {
     "message": "Resetează la setările implicite."
@@ -240,31 +240,31 @@
     "message": "Resetează"
   },
   "shortcutsLabel": {
-    "message": "Scurtături"
+    "message": "Comenzi rapide"
   },
   "keyboardShortcutsLabel": {
-    "message": "Scurtături taste"
+    "message": "Scurtături tastatură"
   },
   "setKeyboardShortCutsMessage": {
-    "message": "Setează comenzi rapide."
+    "message": "Setează scurtături tastatură."
   },
   "typeShortcutMessage": {
     "message": "Adăugați o scurtătură"
   },
   "typeLetterMessage": {
-    "message": "Adăugați o literă"
+    "message": "Tastează o literă"
   },
   "includeModifierKeysMessage": {
-    "message": "Includeți Ctrl sau Alt"
+    "message": "Include Ctrl sau Alt"
   },
   "includeMacModifierKeysMessage": {
-    "message": "Includeți Command, Ctrl sau Alt"
+    "message": "Include Command, Ctrl sau Alt"
   },
   "invalidLetterMessage": {
     "message": "Litera nu poate fi folosită"
   },
   "invalidShortcutMessage": {
-    "message": "Scurtătura nu poate fi folosită"
+    "message": "Comanda rapidă nu poate fi folosită"
   },
   "clear": {
     "message": "Golește"

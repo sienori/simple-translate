@@ -9,7 +9,7 @@
     "message": "Donează prin PayPal"
   },
   "donateLabel": {
-    "message": "Doează"
+    "message": "Donează"
   },
   "enableOnThisPage": {
     "message": "Activează traducerea pe această pagină"
@@ -99,7 +99,7 @@
     "message": "Lista URL-urilor pentru care traducerea va fi dezactivată"
   },
   "disableUrlListCaptionLabel": {
-    "message": "Dacă URL-ul paginii se potrivește in listă, traducerea pe pagina web este dezactivată. Lista permite wildcard-uri de tip \"*\"."
+    "message": "Dacă URL-ul paginii se potrivește in listă, traducerea pe pagina web este dezactivată. Lista permite caractere de tip „*”."
   },
   "toolbarLabel": {
     "message": "Fereastra din bara de instrumente"
@@ -225,7 +225,7 @@
     "message": "Afișează pagina de opțiuni când Simple Translate este actualizat. Poți afla rapid conținutul actualizării."
   },
   "isDebugModeLabel": {
-    "message": "Activeaza modul de depanare"
+    "message": "Activează modul de depanare"
   },
   "isDebugModeCaptionLabel": {
     "message": "Când modul de depanare este activat, jurnalizarea va fi scrisă in depanator."
@@ -285,7 +285,7 @@
     "message": "Vă rugăm să faceți o donație"
   },
   "donationCaptionLabel": {
-    "message": "Vă mulţumim că utilizaţi Simple Translate. <br>Sprijinul dumneavoastră m-ar încuraja mult, pe măsură ce voi continua dezvoltarea acestei extensii. <br>Dacă vă place Simple Translate, orice donație este binevenită."
+    "message": "Vă mulțumesc pentru că utilizați Simple Translate. <br>Sprijinul dumneavoastră m-ar încuraja mult pe măsură ce voi continua dezvoltarea acestei extensii. <br>Dacă vă place Simple Translate, orice donație este binevenită."
   },
   "amazonTitleLabel": {
     "message": "carduri eGift amazon.co.jp"

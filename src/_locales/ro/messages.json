@@ -60,28 +60,28 @@
     "message": "Arată variante multiple de traducere când un singur cuvânt e tradus."
   },
   "whenSelectTextLabel": {
-    "message": "Comportament când textul este selectat"
+    "message": "Comportament la selectarea textului"
   },
   "ifAutoTranslateLabel": {
-    "message": "Arată panou de traducere"
+    "message": "Afișează panoul de traducere"
   },
   "ifAutoTranslateCaptionLabel": {
-    "message": "Arată direct panoul de traducere, fără a afișa butonul."
+    "message": "Afișează direct panoul de traducere fără a afișa butonul."
   },
   "ifShowButtonLabel": {
-    "message": "Arată butonul de traducere"
+    "message": "Afișează butonul de traducere"
   },
   "ifShowButtonCaptionLabel": {
-    "message": "Arată butonul de traducere ce deschide panoul atunci cand este apăsat."
+    "message": "Afișează butonul de traducere pentru a deschide panoul când se dă click pe el."
   },
   "dontshowbuttonlabel": {
-    "message": "Nu arăta butonul sau panoul"
+    "message": "Nu afişa butonul sau panoul"
   },
   "dontshowbuttonCaptionlabel": {
-    "message": "Nu arăta butonul de traducere sau panoul de traducere."
+    "message": "Nu afișa butonul de traducere sau panoul de traducere."
   },
   "ifCheckLangLabel": {
-    "message": "Nu arăta butonul dacă traducerea nu este necesară"
+    "message": "Nu afișa butonul dacă traducerea nu este necesară"
   },
   "ifCheckLangCaptionLabel": {
     "message": "Detectează limba textului selectat, iar dacă e identică cu limba țintă, butonul nu este afișat."
@@ -90,22 +90,22 @@
     "message": "Detectează limba textului selectat, iar dacă e identică cu limba țintă implicită, tradu in limba secundară."
   },
   "isDisabledInTextFieldsLabel": {
-    "message": "Dezactivați traducerea în câmpurile text"
+    "message": "Dezactivează traducerea în câmpurile de text"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Nu afișați butonul sau panoul de traducere atunci când selectați text într-un câmp text."
+    "message": "Nu afișa butonul sau panoul de traducere la selectarea textului într-un câmp text."
   },
   "disableUrlListLabel": {
     "message": "Lista URL-urilor pentru care traducerea va fi dezactivată"
   },
   "disableUrlListCaptionLabel": {
-    "message": "Daca URL-ul paginii se potrivește in listă, traducerea pe pagina web este dezactivată. Lista permite wildcard-uri de tip \"*\"."
+    "message": "Dacă URL-ul paginii se potrivește in listă, traducerea pe pagina web este dezactivată. Lista permite wildcard-uri de tip \"*\"."
   },
   "toolbarLabel": {
-    "message": "Fereastra din toolbar"
+    "message": "Fereastra din bara de instrumente"
   },
   "ifChangeSecondLangLabel": {
-    "message": "Schimbă automat pe limba secundară"
+    "message": "Comută automat la a doua limbă"
   },
   "ifChangeSecondLangCaptionLabel": {
     "message": "Detectează limba textului introdus, iar dacă e identică cu limba țintă implicită, tradu in limba secundară."
@@ -114,10 +114,10 @@
     "message": "A doua limbă"
   },
   "secondTargetLangCaptionLabel": {
-    "message": "Selectează limba țintă secundară."
+    "message": "Selectează a doua limbă țintă."
   },
   "waitTimeLabel": {
-    "message": "Timpul de așteptare pentru tradus"
+    "message": "Timpul de așteptare pentru traducere"
   },
   "waitTimeCaptionLabel": {
     "message": "Specifică timpul de așteptare din momentul in care se introduce un caracter, până in momentul când se incepe traducerea. (în milisecunde)"

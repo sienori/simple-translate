@@ -39,7 +39,7 @@
     "message": "Limba ţintă"
   },
   "langList": {
-    "message": "af:Afrikaans, sq:Albaneză, am:Amharic, ar:Arabă, hy:Armenian, az:Azerbaijani, eu:Basque, be:Belarusian,bn:Bengali, bs:Bosniacă, bg:Bulgară, ca:Catalană, bn:Cebuano, ny:Chewa, zh-CN:Chineză (PRC), zh-TW:Chineză (Taiwan), co:Corsicană, hr:Esperanto, et:Estoniană, fi:Finlandeză, fr:Franceză, fy:Friziană, gl:Galiciană, ka:Georgiană, de:Germană, el:Greacă, gu:Gujarati, ht:Haitiană, ha:Hausă, haw:Hawaiană, he:Ebraică, hi:Hindi, hu:Maghiară, is:Islandeză, ig:Igbo, id:Indoneziană, ga:Khmer, ky:Kirghiz, ko:Coreeană, ku:Kurdă, lo:Laotiană, la:Latină, lv:Letonian, lt:Lituaniană, lb:Luxemburgheză, mk:Macedoneană, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Malteză, mi:Maori, mr:Marathi, mn:Mongolă, hmn:Monk, my:Myanmar, ne:Nepali, no:Norvegiană, fa:Persană, pl: Poloneză, pt:Portugheză, pa:Punjabi, my:Myanmar, ne:Nepali, Pushto, ro:Română, ru:Rusă, sm:Samoan, gd:Gaelică scoțiană, sr:Sârbă, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovacă, sl:Slovenă, deci:Somali, sx:Sotho, es:Spaniolă, su:Sundaneză, sw:Swahili, sv:Suedeză, tl:Tagalog, tg: Tajiki, ta:Tamil, te:Telugu, th:Tailandeză, tr:Turcă, uk:Ucraineană, ur:Urdu, uz:Uzbek, vi:Vietnameză, cy:Galeză, xh:Xosa, yi:Idiș, yo:Yoruba, zu:Zulu"
+    "message": "af:afrikaans, sq:albaneză, am:amhară, ar:arabă, hy:armeană, az:azeră, eu:bască, be:belarusă,bn:bengaleză, bs:bosniacă, bg:bulgară, ca:catalană, bn:cebuană, ny:Chewa, zh-CN:chineză (PRC), zh-TW:chineză (Taiwan), co:corsicană, hr:esperanto, et:estonă, fi:finlandeză, fr:franceză, fy:friziană, gl:galiciană, ka:georgiană, de:germană, el:greacă, gu:gujarati, ht:haitiană, ha:hausă, haw:hawaiiană, he:ebraică, hi:hindi, hu:maghiară, is:islandeză, ig:igbo, id:indoneziană, ga:khmeră, ky:kirghiză, ko:coreeană, ku:kurdă, lo:laoțiană, la:latină, lv:letonă, lt:lituaniană, lb:luxemburgheză, mk:macedoneană, mg:malgaşă, ms:malaieză, ml:malayalam, mt:malteză, mi:maori, mr:marathi, mn:mongolă, hmn:Monk, my:birmană, ne:nepaleză, no:norvegiană, fa:persană, pl:poloneză, pt:portugheză, pa:punjabă, ro:română, ru:rusă, sm:samoană, gd:galica scoțiană, sr:sârbă, sn:shona, sd:Sindhi, si:singaleză, sk:slovacă, sl:slovenă, deci:somaleză, sx:sotho, es:spaniolă, su:sundaneză, sw:swahili, sv:suedeză, tl:tagalog, tg: tadjică, ta:tamilă, te:telugu, th:tailandeză, tr:turcă, uk:ucraineană, ur:urdu, uz:uzbecă, vi:vietnameză, cy:galeză, xh:xosa, yi:idiș, yo:yoruba, zu:zulu"
   },
   "settingsLabel": {
     "message": "Setări"
@@ -48,7 +48,7 @@
     "message": "General"
   },
   "targetLangCaptionLabel": {
-    "message": "Selectează limba implicită."
+    "message": "Selectaţi limba ţintă implicită."
   },
   "webPageLabel": {
     "message": "Pagină web"

@@ -33,7 +33,7 @@
     "message": "Copiat."
   },
   "listenLabel": {
-    "message": "Listen"
+    "message": "Ascultă"
   },
   "targetLangLabel": {
     "message": "Limba ţintă"
@@ -120,19 +120,19 @@
     "message": "Timpul de așteptare pentru traducere"
   },
   "waitTimeCaptionLabel": {
-    "message": "Specifică timpul de așteptare din momentul in care se introduce un caracter, până in momentul când se incepe traducerea. (în milisecunde)"
+    "message": "Specifică timpul de așteptare de la introducerea unui caracter, până la începutul traducerii. (milisecunde)"
   },
   "waitTime2CaptionLabel": {
-    "message": "Dacă traduci de multe ori intr-un timp scurt, ar putea deveni nefolosibil pentru scurt timp."
+    "message": "Dacă îl traduceți de mai multe ori într-un timp scurt, poate deveni inutilizabil pentru o vreme."
   },
   "menuLabel": {
     "message": "Meniu contextual"
   },
   "ifShowMenuLabel": {
-    "message": "Arată meniul contextual"
+    "message": "Afișează meniul contextual"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Adaugă obiecte in meniul contextual afișat atunci cand faci click dreapta pe o pagină web sau pe un tab."
+    "message": "Adaugă obiecte in meniul contextual afișat atunci când se face click dreapta pe o pagină web sau pe un tab."
   },
   "styleLabel": {
     "message": "Stil"
@@ -141,7 +141,7 @@
     "message": "Butonul de traducere"
   },
   "buttonStyleCaptionLabel": {
-    "message": "Specifică stilul butonului de traducere afișat pe pagina web."
+    "message": "Specificați stilul butonului de traducere afișat pe pagina web."
   },
   "buttonSizeLabel": {
     "message": "Dimensiune"
@@ -174,7 +174,7 @@
     "message": "Dreapta"
   },
   "positionOffsetLabel": {
-    "message": "Poziție - Decalaj"
+    "message": "Decalaj poziţie de afişare"
   },
   "panelStyleLabel": {
     "message": "Panou de traducere"

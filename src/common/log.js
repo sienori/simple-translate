@@ -18,6 +18,6 @@ export const overWriteLogLevel = () => {
 
 export const updateLogLevel = () => {
   const isDebugMode = getSettings("isDebugMode");
-  if (isDebugMode) log.enableAll();
-  else log.disableAll();
+  if (isDebugMode) log.enableAll(false);
+  else log.disableAll(false);
 };

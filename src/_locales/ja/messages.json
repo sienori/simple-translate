@@ -296,6 +296,9 @@
   "extensionPageLabel": {
     "message": "拡張機能ページ"
   },
+  "privacyPolicyLabel": {
+    "message": "Privacy policy"
+  },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=ja_JP"
   },

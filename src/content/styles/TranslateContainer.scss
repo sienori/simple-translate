@@ -1,15 +1,13 @@
-:root {
+#simple-translate {
+  all: initial;
+  & > div {
+    all: initial;
+  }
+
   --simple-translate-main-text: #0c0c0d;
   --simple-translate-sub-text: #737373;
   --simple-translate-line: #ededf0;
   --simple-translate-button: #d7d7db;
   --simple-translate-highlight: #5595ff;
   --simple-translate-main-bg: #ffffff;
-}
-
-#simple-translate {
-  all: initial;
-  & > div {
-    all: initial;
-  }
 }

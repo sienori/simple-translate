@@ -13,7 +13,7 @@ export default class Footer extends Component {
   handleLinkClick = async () => {
     const { tabUrl, targetLang } = this.props;
     const encodedUrl = encodeURIComponent(tabUrl);
-    const translateUrl = `https://translate.google.com/translate?hl=${targetLang}&sl=auto&u=${encodedUrl}`;
+    const translateUrl = `https://translate.google.com/translate?hl=${targetLang}&tl=${targetLang}&sl=auto&u=${encodedUrl}`;
     openUrl(translateUrl);
   };
 

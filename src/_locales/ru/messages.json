@@ -99,7 +99,7 @@
     "message": "Переводить при нажатии клавиши модификатора"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Only display translation on specified modifier key pressed."
+    "message": "Показывать перевод только при нажатии клавиши модификатора."
   },
   "modifierKeyLabel": {
     "message": "Клавиша модификатор"
@@ -159,16 +159,16 @@
     "message": "Стиль"
   },
   "themeLabel": {
-    "message": "Theme"
+    "message": "Тема оформления"
   },
   "themeCaptionLabel": {
-    "message": "Specify the color scheme."
+    "message": "Выберите тему оформления."
   },
   "lightLabel": {
-    "message": "Light"
+    "message": "Светлая"
   },
   "darkLabel": {
-    "message": "Dark"
+    "message": "Тёмная"
   },
   "buttonStyleLabel": {
     "message": "Кнопка перевода"

@@ -38,6 +38,26 @@ const handleMouseUp = async e => {
     if (isInContentEditable()) return;
   }
 
+  if (getSettings("ifOnlyTranslateWhenShiftPressed")) {
+    const spKey = getSettings("specifiedKey")
+    switch(spKey){
+      case "shift":
+        if (!e.shiftKey) return;
+        break;
+      case "alt":
+        if (!e.altKey) return;
+        break;
+      case "ctrl":
+        if (!e.ctrlKey) return;
+        break;
+      case "cmd":
+        if (!e.metaKey) return;
+        break;
+      default:
+          break;
+    }
+  }
+
   const clickedPosition = { x: e.clientX, y: e.clientY };
   const selectedPosition = getSelectedPosition();
   showTranslateContainer(selectedText, selectedPosition, clickedPosition);

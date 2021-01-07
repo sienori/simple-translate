@@ -88,6 +88,44 @@ export default [
         ]
       },
       {
+        title: "specifiedKeyLabel",
+        captions: [],
+        type: "none",
+        childElements:[
+          {
+            id: "ifOnlyTranslateWhenShiftPressed",
+            title: "ifOnlyTranslateWhenShiftPressedLabel",
+            captions: ["ifOnlyTranslateWhenShiftPressedCaptionLabel"],
+            type: "checkbox",
+            default: false
+          },
+          {
+            id: "specifiedKey",
+            title: "specifiedKeyLabel",
+            captions: [],
+            type: "select",
+            default: "shift",
+            options: [
+              {
+                name: "shiftLabel",
+                value: "shift"
+              },
+              {
+                name: "ctrlLabel",
+                value: "ctrl"
+              },
+              {
+                name: "altLabel",
+                value: "alt"
+              },
+              {
+                name: "cmdLabel",
+                value: "cmd"
+              }]
+          }
+        ]
+      },
+      {
         id: "ifChangeSecondLangOnPage",
         title: "ifChangeSecondLangLabel",
         captions: ["ifChangeSecondLangOnPageCaptionLabel"],

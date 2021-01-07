@@ -99,7 +99,7 @@
     "message": "보조 키가 눌린 경우에만 번역"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "지정된 보조 키가 눌린 경우에만 번역을 표시합니다"
+    "message": "Only display translation on specified modifier key pressed."
   },
   "modifierKeyLabel": {
     "message": "보조 키"

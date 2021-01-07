@@ -102,7 +102,7 @@
     "message": "Only display translation on specified modifier key pressed"
   },
   "modifierKeyLabel": {
-    "message": "Modifier Key"
+    "message": "修飾キー"
   },
   "shiftLabel": {
     "message": "Shift"

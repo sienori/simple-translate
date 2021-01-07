@@ -158,6 +158,18 @@
   "styleLabel": {
     "message": "Phong cách"
   },
+  "themeLabel": {
+    "message": "Theme"
+  },
+  "themeCaptionLabel": {
+    "message": "Specify the color scheme."
+  },
+  "lightLabel": {
+    "message": "Light"
+  },
+  "darkLabel": {
+    "message": "Dark"
+  },
   "buttonStyleLabel": {
     "message": "Nút dịch"
   },

@@ -96,13 +96,13 @@
     "message": "Не показывать ни кнопку перевода, ни панель с переводом при выделении текста в текстовом поле."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Translate on modifier key pressed"
+    "message": "Переводить при нажатии клавиши модификатора"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Only display translation on specified modifier key pressed"
+    "message": "Показывать перевод только при нажатии клавиши модификатора"
   },
   "modifierKeyLabel": {
-    "message": "Modifier Key"
+    "message": "Клавиша модификатор"
   },
   "shiftLabel": {
     "message": "Shift"
@@ -318,7 +318,7 @@
     "message": "Страница расширения"
   },
   "privacyPolicyLabel": {
-    "message": "Privacy policy"
+    "message": "Политика конфиденциальности"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=ru_RU"

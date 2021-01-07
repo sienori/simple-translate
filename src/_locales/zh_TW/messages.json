@@ -159,16 +159,16 @@
     "message": "樣式"
   },
   "themeLabel": {
-    "message": "Theme"
+    "message": "主題"
   },
   "themeCaptionLabel": {
     "message": "Specify the color scheme."
   },
   "lightLabel": {
-    "message": "Light"
+    "message": "淺色"
   },
   "darkLabel": {
-    "message": "Dark"
+    "message": "深色主題"
   },
   "buttonStyleLabel": {
     "message": "翻譯按鈕"

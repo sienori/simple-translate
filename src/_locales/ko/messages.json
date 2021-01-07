@@ -96,10 +96,10 @@
     "message": "텍스트 필드에서 텍스트를 선택할 때 번역 버튼 또는 창 보이지 않기"
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "보조 키를 눌러 번역"
+    "message": "보조 키가 눌린 경우에만 번역"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "지정된 보조 키를 누르면 번역을 표시합니다"
+    "message": "지정된 보조 키가 눌린 경우에만 번역을 표시합니다"
   },
   "modifierKeyLabel": {
     "message": "보조 키"

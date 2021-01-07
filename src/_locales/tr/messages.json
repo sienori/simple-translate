@@ -158,6 +158,18 @@
   "styleLabel": {
     "message": "Biçim"
   },
+  "themeLabel": {
+    "message": "Theme"
+  },
+  "themeCaptionLabel": {
+    "message": "Specify the color scheme."
+  },
+  "lightLabel": {
+    "message": "Light"
+  },
+  "darkLabel": {
+    "message": "Dark"
+  },
   "buttonStyleLabel": {
     "message": "Çeviri butonu"
   },

@@ -95,17 +95,14 @@
   "isDisabledInTextFieldsCaptionLabel": {
     "message": "不要在文字區域選取文字時顯示翻譯按鈕或面板。"
   },
-  "ifOnlyTranslateWhenShiftPressedLabel": {
-    "message": "Translate on specified key pressed"
+  "ifOnlyTranslateWhenModifierKeyPressedLabel": {
+    "message": "Translate on modifier key pressed"
   },
-  "ifOnlyTranslateWhenShiftPressedCaptionLabel": {
-    "message": "Only display translation on Shift key pressed"
+  "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
+    "message": "Only display translation on specified modifier key pressed"
   },
-  "specifiedKeyLabel": {
-    "message": "Specified Key"
-  },
-  "specifyKeyLabel": {
-    "message": "Specify Key"
+  "modifierKeyLabel": {
+    "message": "Modifier Key"
   },
   "shiftLabel": {
     "message": "Shift"

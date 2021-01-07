@@ -96,13 +96,13 @@
     "message": "不要在文字區域選取文字時顯示翻譯按鈕或面板。"
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Translate on modifier key pressed"
+    "message": "按下輔助按鍵時進行翻譯"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Only display translation on specified modifier key pressed."
+    "message": "按下輔助按鍵時才顯示翻譯"
   },
   "modifierKeyLabel": {
-    "message": "Modifier Key"
+    "message": "輔助按鍵"
   },
   "shiftLabel": {
     "message": "Shift"
@@ -162,13 +162,13 @@
     "message": "主題"
   },
   "themeCaptionLabel": {
-    "message": "Specify the color scheme."
+    "message": "指定色彩配置"
   },
   "lightLabel": {
     "message": "淺色"
   },
   "darkLabel": {
-    "message": "深色主題"
+    "message": "深色"
   },
   "buttonStyleLabel": {
     "message": "翻譯按鈕"

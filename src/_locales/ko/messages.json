@@ -158,6 +158,18 @@
   "styleLabel": {
     "message": "모양"
   },
+  "themeLabel": {
+    "message": "Theme"
+  },
+  "themeCaptionLabel": {
+    "message": "Specify the color scheme."
+  },
+  "lightLabel": {
+    "message": "Light"
+  },
+  "darkLabel": {
+    "message": "Dark"
+  },
   "buttonStyleLabel": {
     "message": "번역 버튼"
   },

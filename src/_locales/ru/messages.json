@@ -99,7 +99,7 @@
     "message": "Переводить при нажатии клавиши модификатора"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Показывать перевод только при нажатии клавиши модификатора"
+    "message": "Only display translation on specified modifier key pressed."
   },
   "modifierKeyLabel": {
     "message": "Клавиша модификатор"

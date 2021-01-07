@@ -99,7 +99,7 @@
     "message": "Translate on modifier key pressed"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Only display translation on specified modifier key pressed"
+    "message": "Only display translation on specified modifier key pressed."
   },
   "modifierKeyLabel": {
     "message": "Modifier Key"

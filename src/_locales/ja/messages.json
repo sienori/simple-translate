@@ -99,7 +99,7 @@
     "message": "修飾キーが押されたときに翻訳する"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Only display translation on specified modifier key pressed."
+    "message": "指定された修飾キーを押している間だけ翻訳を表示します。"
   },
   "modifierKeyLabel": {
     "message": "修飾キー"

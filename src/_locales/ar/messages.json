@@ -95,6 +95,30 @@
   "isDisabledInTextFieldsCaptionLabel": {
     "message": "لا تعرض زر أو لوحة الترجمة عند اختيار النص في حقل نص."
   },
+  "ifOnlyTranslateWhenShiftPressedLabel": {
+    "message": "Translate on specified key pressed"
+  },
+  "ifOnlyTranslateWhenShiftPressedCaptionLabel": {
+    "message": "Only display translation on Shift key pressed"
+  },
+  "specifiedKeyLabel": {
+    "message": "Specified Key"
+  },
+  "specifyKeyLabel": {
+    "message": "Specify Key"
+  },
+  "shiftLabel": {
+    "message": "Shift"
+  },
+  "ctrlLabel": {
+    "message": "Ctrl"
+  },
+  "altLabel": {
+    "message": "Alt"
+  },
+  "cmdLabel": {
+    "message": "Command"
+  },
   "disableUrlListLabel": {
     "message": "قائمة عناوين لتعطيل الترجمة"
   },

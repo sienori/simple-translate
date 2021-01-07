@@ -95,6 +95,27 @@
   "isDisabledInTextFieldsCaptionLabel": {
     "message": "不要在文字區域選取文字時顯示翻譯按鈕或面板。"
   },
+  "ifOnlyTranslateWhenModifierKeyPressedLabel": {
+    "message": "按下輔助按鍵時進行翻譯"
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
+    "message": "按下輔助按鍵時才顯示翻譯"
+  },
+  "modifierKeyLabel": {
+    "message": "輔助按鍵"
+  },
+  "shiftLabel": {
+    "message": "Shift"
+  },
+  "ctrlLabel": {
+    "message": "Ctrl"
+  },
+  "altLabel": {
+    "message": "Alt"
+  },
+  "cmdLabel": {
+    "message": "Command"
+  },
   "disableUrlListLabel": {
     "message": "要停用翻譯的 URL 清單"
   },
@@ -136,6 +157,18 @@
   },
   "styleLabel": {
     "message": "樣式"
+  },
+  "themeLabel": {
+    "message": "主題"
+  },
+  "themeCaptionLabel": {
+    "message": "指定色彩配置"
+  },
+  "lightLabel": {
+    "message": "淺色"
+  },
+  "darkLabel": {
+    "message": "深色"
   },
   "buttonStyleLabel": {
     "message": "翻譯按鈕"
@@ -295,6 +328,9 @@
   },
   "extensionPageLabel": {
     "message": "Chrome 應用程式商店頁面"
+  },
+  "privacyPolicyLabel": {
+    "message": "隱私權政策"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=zh_CN"

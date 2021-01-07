@@ -54,6 +54,7 @@ export default class PopupPage extends Component {
     overWriteLogLevel();
     updateLogLevel();
 
+    document.body.dataset.theme = getSettings("theme");
     const targetLang = getSettings("targetLang");
     this.setState({
       targetLang: targetLang

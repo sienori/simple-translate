@@ -14,6 +14,8 @@ const getDefaultLangs = () => {
 
 const langListOptions = generateLangOptions();
 const defaultLangs = getDefaultLangs();
+const getTheme = () =>
+  window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark" : "light";
 
 export default [
   {
@@ -91,6 +93,7 @@ export default [
         title: "modifierKeyLabel",
         captions: [],
         type: "none",
+        new: true,
         childElements: [
           {
             id: "ifOnlyTranslateWhenModifierKeyPressed",
@@ -185,6 +188,24 @@ export default [
   {
     category: "styleLabel",
     elements: [
+      {
+        id: "theme",
+        title: "themeLabel",
+        captions: ["themeCaptionLabel"],
+        type: "select",
+        default: getTheme(),
+        options: [
+          {
+            name: "lightLabel",
+            value: "light"
+          },
+          {
+            name: "darkLabel",
+            value: "dark"
+          }
+        ],
+        new: true
+      },
       {
         title: "buttonStyleLabel",
         captions: ["buttonStyleCaptionLabel"],
@@ -357,21 +378,21 @@ export default [
             title: "resultFontColorLabel",
             captions: [],
             type: "color",
-            default: "#000000"
+            default: getTheme() === "light" ? "#000000" : "#e6e6e6"
           },
           {
             id: "candidateFontColor",
             title: "candidateFontColorLabel",
             captions: [],
             type: "color",
-            default: "#737373"
+            default: getTheme() === "light" ? "#737373" : "#aaaaaa"
           },
           {
             id: "bgColor",
             title: "bgColorLabel",
             captions: [],
             type: "color",
-            default: "#ffffff"
+            default: getTheme() === "light" ? "#ffffff" : "#181818"
           }
         ]
       }

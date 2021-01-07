@@ -47,12 +47,14 @@
       -webkit-appearance: none;
       text-overflow: ellipsis;
       background-color: var(--main-bg);
+      color: var(--main-text);
       border: var(--button) solid 1px;
       border-radius: 2px;
       padding: 3px 5px;
       padding-right: 20px;
       width: 100%;
       transition: border-color 100ms ease-out;
+      scrollbar-color: var(--button) var(--line);
       &:hover {
         border-color: var(--highlight);
       }

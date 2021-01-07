@@ -6,6 +6,7 @@
     font: inherit;
     resize: none;
     overflow: auto;
+    color: var(--main-text);
     background-color: var(--main-bg);
 
     box-sizing: border-box;
@@ -18,6 +19,7 @@
     padding: 10px;
     border: solid 1px var(--button);
     border-radius: 2px;
+    outline: none;
     transition: border-color 100ms ease-out;
   }
 

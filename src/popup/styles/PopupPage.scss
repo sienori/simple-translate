@@ -21,9 +21,7 @@ body {
   ::-moz-selection {
     background: var(--line);
   }
-}
 
-:root {
   --main-text: #0c0c0d;
   --sub-text: #737373;
   --line: #ededf0;
@@ -35,4 +33,19 @@ body {
   --warn: #ff8f00;
   --success: #058b00;
   --info: #0a84ff;
+
+  &[data-theme="dark"] {
+    --main-text: #e6e6e6;
+    --sub-text: #aaaaaa;
+    --line: #373737;
+    --button: #929292;
+    --highlight: #5595ff;
+    --main-bg: #181818;
+    --highlight-bg: #2e4343;
+    --confirm: #ed5f5f;
+    --error: #ca1532;
+    --warn: #ee8e12;
+    --success: #2a9c26;
+    --info: #1471d0;
+  }
 }

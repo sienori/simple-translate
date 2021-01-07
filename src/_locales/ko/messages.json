@@ -95,17 +95,14 @@
   "isDisabledInTextFieldsCaptionLabel": {
     "message": "텍스트 필드에서 텍스트를 선택할 때 번역 버튼 또는 창 보이지 않기"
   },
-  "ifOnlyTranslateWhenShiftPressedLabel": {
-    "message": "Translate on specified key pressed"
+  "ifOnlyTranslateWhenModifierKeyPressedLabel": {
+    "message": "Translate on modifier key pressed"
   },
-  "ifOnlyTranslateWhenShiftPressedCaptionLabel": {
-    "message": "Only display translation on Shift key pressed"
+  "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
+    "message": "Only display translation on specified modifier key pressed"
   },
-  "specifiedKeyLabel": {
-    "message": "Specified Key"
-  },
-  "specifyKeyLabel": {
-    "message": "Specify Key"
+  "modifierKeyLabel": {
+    "message": "Modifier Key"
   },
   "shiftLabel": {
     "message": "Shift"

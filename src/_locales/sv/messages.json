@@ -95,6 +95,30 @@
   "isDisabledInTextFieldsCaptionLabel": {
     "message": "Visa inte översättningsknapp eller -panel när du markerar text i ett textfält."
   },
+  "ifOnlyTranslateWhenShiftPressedLabel": {
+    "message": "Translate on specified key pressed"
+  },
+  "ifOnlyTranslateWhenShiftPressedCaptionLabel": {
+    "message": "Only display translation on Shift key pressed"
+  },
+  "specifiedKeyLabel": {
+    "message": "Specified Key"
+  },
+  "specifyKeyLabel": {
+    "message": "Specify Key"
+  },
+  "shiftLabel": {
+    "message": "Shift"
+  },
+  "ctrlLabel": {
+    "message": "Ctrl"
+  },
+  "altLabel": {
+    "message": "Alt"
+  },
+  "cmdLabel": {
+    "message": "Command"
+  },
   "disableUrlListLabel": {
     "message": "Webbadresslista för att inaktivera översättning"
   },

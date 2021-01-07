@@ -95,6 +95,27 @@
   "isDisabledInTextFieldsCaptionLabel": {
     "message": "텍스트 필드에서 텍스트를 선택할 때 번역 버튼 또는 창 보이지 않기"
   },
+  "ifOnlyTranslateWhenModifierKeyPressedLabel": {
+    "message": "보조 키가 눌린 경우에만 번역"
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
+    "message": "Only display translation on specified modifier key pressed."
+  },
+  "modifierKeyLabel": {
+    "message": "보조 키"
+  },
+  "shiftLabel": {
+    "message": "Shift"
+  },
+  "ctrlLabel": {
+    "message": "Ctrl"
+  },
+  "altLabel": {
+    "message": "Alt"
+  },
+  "cmdLabel": {
+    "message": "Command"
+  },
   "disableUrlListLabel": {
     "message": "번역을 사용하지 않을 URL 목록"
   },
@@ -136,6 +157,18 @@
   },
   "styleLabel": {
     "message": "모양"
+  },
+  "themeLabel": {
+    "message": "Theme"
+  },
+  "themeCaptionLabel": {
+    "message": "Specify the color scheme."
+  },
+  "lightLabel": {
+    "message": "Light"
+  },
+  "darkLabel": {
+    "message": "Dark"
   },
   "buttonStyleLabel": {
     "message": "번역 버튼"
@@ -295,6 +328,9 @@
   },
   "extensionPageLabel": {
     "message": "확장 프로그램 페이지"
+  },
+  "privacyPolicyLabel": {
+    "message": "개인정보처리방침"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"

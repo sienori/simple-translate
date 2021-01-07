@@ -95,6 +95,27 @@
   "isDisabledInTextFieldsCaptionLabel": {
     "message": "Не показывать ни кнопку перевода, ни панель с переводом при выделении текста в текстовом поле."
   },
+  "ifOnlyTranslateWhenModifierKeyPressedLabel": {
+    "message": "Переводить при нажатии клавиши модификатора"
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
+    "message": "Показывать перевод только при нажатии клавиши модификатора."
+  },
+  "modifierKeyLabel": {
+    "message": "Клавиша модификатор"
+  },
+  "shiftLabel": {
+    "message": "Shift"
+  },
+  "ctrlLabel": {
+    "message": "Ctrl"
+  },
+  "altLabel": {
+    "message": "Alt"
+  },
+  "cmdLabel": {
+    "message": "Command"
+  },
   "disableUrlListLabel": {
     "message": "Список URL, для которых перевод будет отключен"
   },
@@ -136,6 +157,18 @@
   },
   "styleLabel": {
     "message": "Стиль"
+  },
+  "themeLabel": {
+    "message": "Тема оформления"
+  },
+  "themeCaptionLabel": {
+    "message": "Выберите тему оформления."
+  },
+  "lightLabel": {
+    "message": "Светлая"
+  },
+  "darkLabel": {
+    "message": "Тёмная"
   },
   "buttonStyleLabel": {
     "message": "Кнопка перевода"
@@ -295,6 +328,9 @@
   },
   "extensionPageLabel": {
     "message": "Страница расширения"
+  },
+  "privacyPolicyLabel": {
+    "message": "Политика конфиденциальности"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=ru_RU"

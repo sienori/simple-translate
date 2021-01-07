@@ -18,7 +18,7 @@
     "message": "Désactiver la traduction sur cette page"
   },
   "initialTextArea": {
-    "message": "Entrer un text"
+    "message": "Entrer un texte"
   },
   "showLink": {
     "message": "Traduire cette page"
@@ -95,6 +95,27 @@
   "isDisabledInTextFieldsCaptionLabel": {
     "message": "Ne pas afficher le bouton ou panneau de traduction lors de la sélection du texte dans un champ texte."
   },
+  "ifOnlyTranslateWhenModifierKeyPressedLabel": {
+    "message": "Translate on modifier key pressed"
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
+    "message": "Only display translation on specified modifier key pressed."
+  },
+  "modifierKeyLabel": {
+    "message": "Modifier Key"
+  },
+  "shiftLabel": {
+    "message": "Shift"
+  },
+  "ctrlLabel": {
+    "message": "Ctrl"
+  },
+  "altLabel": {
+    "message": "Alt"
+  },
+  "cmdLabel": {
+    "message": "Command"
+  },
   "disableUrlListLabel": {
     "message": "Liste URL pour désactiver la traduction"
   },
@@ -136,6 +157,18 @@
   },
   "styleLabel": {
     "message": "Style"
+  },
+  "themeLabel": {
+    "message": "Theme"
+  },
+  "themeCaptionLabel": {
+    "message": "Specify the color scheme."
+  },
+  "lightLabel": {
+    "message": "Light"
+  },
+  "darkLabel": {
+    "message": "Dark"
   },
   "buttonStyleLabel": {
     "message": "Bouton de traduction"
@@ -295,6 +328,9 @@
   },
   "extensionPageLabel": {
     "message": "Page de l'extension"
+  },
+  "privacyPolicyLabel": {
+    "message": "Privacy policy"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"

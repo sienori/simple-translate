@@ -95,6 +95,27 @@
   "isDisabledInTextFieldsCaptionLabel": {
     "message": "テキストフィールド内のテキストが選択されたとき、翻訳ボタンや翻訳パネルを表示しません。"
   },
+  "ifOnlyTranslateWhenModifierKeyPressedLabel": {
+    "message": "修飾キーが押されたときに翻訳する"
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
+    "message": "指定された修飾キーを押している間だけ翻訳を表示します。"
+  },
+  "modifierKeyLabel": {
+    "message": "修飾キー"
+  },
+  "shiftLabel": {
+    "message": "Shift"
+  },
+  "ctrlLabel": {
+    "message": "Ctrl"
+  },
+  "altLabel": {
+    "message": "Alt"
+  },
+  "cmdLabel": {
+    "message": "Command"
+  },
   "disableUrlListLabel": {
     "message": "翻訳を無効にするURLリスト"
   },
@@ -136,6 +157,18 @@
   },
   "styleLabel": {
     "message": "スタイル"
+  },
+  "themeLabel": {
+    "message": "テーマ"
+  },
+  "themeCaptionLabel": {
+    "message": "配色を指定します。"
+  },
+  "lightLabel": {
+    "message": "ライト"
+  },
+  "darkLabel": {
+    "message": "ダーク"
   },
   "buttonStyleLabel": {
     "message": "翻訳ボタン"
@@ -295,6 +328,9 @@
   },
   "extensionPageLabel": {
     "message": "拡張機能ページ"
+  },
+  "privacyPolicyLabel": {
+    "message": "プライバシーポリシー"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=ja_JP"

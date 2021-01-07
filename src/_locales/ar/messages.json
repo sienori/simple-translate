@@ -95,6 +95,27 @@
   "isDisabledInTextFieldsCaptionLabel": {
     "message": "لا تعرض زر أو لوحة الترجمة عند اختيار النص في حقل نص."
   },
+  "ifOnlyTranslateWhenModifierKeyPressedLabel": {
+    "message": "Translate on modifier key pressed"
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
+    "message": "Only display translation on specified modifier key pressed."
+  },
+  "modifierKeyLabel": {
+    "message": "Modifier Key"
+  },
+  "shiftLabel": {
+    "message": "Shift"
+  },
+  "ctrlLabel": {
+    "message": "Ctrl"
+  },
+  "altLabel": {
+    "message": "Alt"
+  },
+  "cmdLabel": {
+    "message": "Command"
+  },
   "disableUrlListLabel": {
     "message": "قائمة عناوين لتعطيل الترجمة"
   },
@@ -136,6 +157,18 @@
   },
   "styleLabel": {
     "message": "نمط"
+  },
+  "themeLabel": {
+    "message": "Theme"
+  },
+  "themeCaptionLabel": {
+    "message": "Specify the color scheme."
+  },
+  "lightLabel": {
+    "message": "Light"
+  },
+  "darkLabel": {
+    "message": "Dark"
   },
   "buttonStyleLabel": {
     "message": "زر الترجمة"
@@ -295,6 +328,9 @@
   },
   "extensionPageLabel": {
     "message": "صفحة الإضافة"
+  },
+  "privacyPolicyLabel": {
+    "message": "سياسة الخصوصية"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"

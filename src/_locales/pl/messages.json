@@ -95,6 +95,27 @@
   "isDisabledInTextFieldsCaptionLabel": {
     "message": "Nie wyświetlaj przycisku ani panelu tłumaczenia podczas zaznaczania tekstu w polu tekstowym."
   },
+  "ifOnlyTranslateWhenModifierKeyPressedLabel": {
+    "message": "Translate on modifier key pressed"
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
+    "message": "Only display translation on specified modifier key pressed."
+  },
+  "modifierKeyLabel": {
+    "message": "Modifier Key"
+  },
+  "shiftLabel": {
+    "message": "Shift"
+  },
+  "ctrlLabel": {
+    "message": "Ctrl"
+  },
+  "altLabel": {
+    "message": "Alt"
+  },
+  "cmdLabel": {
+    "message": "Command"
+  },
   "disableUrlListLabel": {
     "message": "Lista adresów URL, gdzie wyłączono tłumaczenie"
   },
@@ -136,6 +157,18 @@
   },
   "styleLabel": {
     "message": "Styl"
+  },
+  "themeLabel": {
+    "message": "Theme"
+  },
+  "themeCaptionLabel": {
+    "message": "Specify the color scheme."
+  },
+  "lightLabel": {
+    "message": "Light"
+  },
+  "darkLabel": {
+    "message": "Dark"
   },
   "buttonStyleLabel": {
     "message": "Przycisk tłumaczenia"
@@ -295,6 +328,9 @@
   },
   "extensionPageLabel": {
     "message": "Strona rozszerzenia"
+  },
+  "privacyPolicyLabel": {
+    "message": "Privacy policy"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"

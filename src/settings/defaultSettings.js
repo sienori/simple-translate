@@ -88,20 +88,20 @@ export default [
         ]
       },
       {
-        title: "specifiedKeyLabel",
+        title: "modifierKeyLabel",
         captions: [],
         type: "none",
-        childElements:[
+        childElements: [
           {
-            id: "ifOnlyTranslateWhenShiftPressed",
-            title: "ifOnlyTranslateWhenShiftPressedLabel",
-            captions: ["ifOnlyTranslateWhenShiftPressedCaptionLabel"],
+            id: "ifOnlyTranslateWhenModifierKeyPressed",
+            title: "ifOnlyTranslateWhenModifierKeyPressedLabel",
+            captions: ["ifOnlyTranslateWhenModifierKeyPressedCaptionLabel"],
             type: "checkbox",
             default: false
           },
           {
-            id: "specifiedKey",
-            title: "specifiedKeyLabel",
+            id: "modifierKey",
+            title: "modifierKeyLabel",
             captions: [],
             type: "select",
             default: "shift",

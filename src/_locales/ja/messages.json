@@ -96,10 +96,10 @@
     "message": "テキストフィールド内のテキストが選択されたとき、翻訳ボタンや翻訳パネルを表示しません。"
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Translate on modifier key pressed"
+    "message": "修飾キーが押されたときに翻訳する"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Only display translation on specified modifier key pressed"
+    "message": "Only display translation on specified modifier key pressed."
   },
   "modifierKeyLabel": {
     "message": "修飾キー"
@@ -159,16 +159,16 @@
     "message": "スタイル"
   },
   "themeLabel": {
-    "message": "Theme"
+    "message": "テーマ"
   },
   "themeCaptionLabel": {
-    "message": "Specify the color scheme."
+    "message": "配色を指定します。"
   },
   "lightLabel": {
-    "message": "Light"
+    "message": "ライト"
   },
   "darkLabel": {
-    "message": "Dark"
+    "message": "ダーク"
   },
   "buttonStyleLabel": {
     "message": "翻訳ボタン"

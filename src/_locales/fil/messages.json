@@ -158,6 +158,18 @@
   "styleLabel": {
     "message": "Istilo"
   },
+  "themeLabel": {
+    "message": "Theme"
+  },
+  "themeCaptionLabel": {
+    "message": "Specify the color scheme."
+  },
+  "lightLabel": {
+    "message": "Light"
+  },
+  "darkLabel": {
+    "message": "Dark"
+  },
   "buttonStyleLabel": {
     "message": "Pindutan ng pagsasalin"
   },

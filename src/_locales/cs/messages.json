@@ -95,6 +95,30 @@
   "isDisabledInTextFieldsCaptionLabel": {
     "message": "Don't display translation button or panel when selecting text in a text field."
   },
+  "ifOnlyTranslateWhenShiftPressedLabel": {
+    "message": "Translate on specified key pressed"
+  },
+  "ifOnlyTranslateWhenShiftPressedCaptionLabel": {
+    "message": "Only display translation on Shift key pressed"
+  },
+  "specifiedKeyLabel": {
+    "message": "Specified Key"
+  },
+  "specifyKeyLabel": {
+    "message": "Specify Key"
+  },
+  "shiftLabel": {
+    "message": "Shift"
+  },
+  "ctrlLabel": {
+    "message": "Ctrl"
+  },
+  "altLabel": {
+    "message": "Alt"
+  },
+  "cmdLabel": {
+    "message": "Command"
+  },
   "disableUrlListLabel": {
     "message": "URL list to disable translation"
   },

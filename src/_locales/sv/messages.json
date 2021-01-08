@@ -96,13 +96,13 @@
     "message": "Visa inte översättningsknapp eller -panel när du markerar text i ett textfält."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Translate on modifier key pressed"
+    "message": "Översätt när modifierartangenten är nertryckt"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Only display translation on specified modifier key pressed."
+    "message": "Visa endast översättning då angiven modifieringsnyckel är nertryckt."
   },
   "modifierKeyLabel": {
-    "message": "Modifier Key"
+    "message": "Modifieringstangent"
   },
   "shiftLabel": {
     "message": "Skift"

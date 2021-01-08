@@ -96,13 +96,13 @@
     "message": "Não mostra o botão de traduzir ou o painel ao selecionar texto em um campo de texto."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Translate on modifier key pressed"
+    "message": "Traduzir ao pressionar a tecla modificadora"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Only display translation on specified modifier key pressed."
+    "message": "Exibe a tradução apenas ao pressionar a tecla modificadora especificada."
   },
   "modifierKeyLabel": {
-    "message": "Modifier Key"
+    "message": "Tecla modificadora"
   },
   "shiftLabel": {
     "message": "Shift"
@@ -159,16 +159,16 @@
     "message": "Estilo"
   },
   "themeLabel": {
-    "message": "Theme"
+    "message": "Tema"
   },
   "themeCaptionLabel": {
-    "message": "Specify the color scheme."
+    "message": "Especifique o esquema de cores."
   },
   "lightLabel": {
-    "message": "Light"
+    "message": "Claro"
   },
   "darkLabel": {
-    "message": "Dark"
+    "message": "Escuro"
   },
   "buttonStyleLabel": {
     "message": "Botão de tradução"

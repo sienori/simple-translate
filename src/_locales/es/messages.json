@@ -159,16 +159,16 @@
     "message": "Estilo"
   },
   "themeLabel": {
-    "message": "Theme"
+    "message": "Tema"
   },
   "themeCaptionLabel": {
-    "message": "Specify the color scheme."
+    "message": "Especifique el esquema de color."
   },
   "lightLabel": {
-    "message": "Light"
+    "message": "Claro"
   },
   "darkLabel": {
-    "message": "Dark"
+    "message": "Oscuro"
   },
   "buttonStyleLabel": {
     "message": "Botón de traducción"
@@ -330,7 +330,7 @@
     "message": "Página de la extensión"
   },
   "privacyPolicyLabel": {
-    "message": "Privacy policy"
+    "message": "Política de privacidad"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"

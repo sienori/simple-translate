@@ -105,7 +105,7 @@
     "message": "Modifier Key"
   },
   "shiftLabel": {
-    "message": "Shift"
+    "message": "Skift"
   },
   "ctrlLabel": {
     "message": "Ctrl"
@@ -114,7 +114,7 @@
     "message": "Alt"
   },
   "cmdLabel": {
-    "message": "Command"
+    "message": "Kommando"
   },
   "disableUrlListLabel": {
     "message": "Webbadresslista för att inaktivera översättning"
@@ -159,16 +159,16 @@
     "message": "Stil"
   },
   "themeLabel": {
-    "message": "Theme"
+    "message": "Tema"
   },
   "themeCaptionLabel": {
-    "message": "Specify the color scheme."
+    "message": "Ange färgschemat."
   },
   "lightLabel": {
-    "message": "Light"
+    "message": "Ljust"
   },
   "darkLabel": {
-    "message": "Dark"
+    "message": "Mörkt"
   },
   "buttonStyleLabel": {
     "message": "Översättningsknapp"
@@ -330,7 +330,7 @@
     "message": "Tilläggssida"
   },
   "privacyPolicyLabel": {
-    "message": "Privacy policy"
+    "message": "Integritetspolicy"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"

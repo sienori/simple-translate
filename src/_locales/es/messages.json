@@ -96,16 +96,16 @@
     "message": "No muestra el botón ni el panel de traducción al seleccionar texto en un campo de texto."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Translate on modifier key pressed"
+    "message": "Traducir al presionar la tecla modificadora"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Only display translation on specified modifier key pressed."
+    "message": "Solo muestra la traducción al presionar la tecla modificadora especificada."
   },
   "modifierKeyLabel": {
-    "message": "Modifier Key"
+    "message": "Tecla modificadora"
   },
   "shiftLabel": {
-    "message": "Shift"
+    "message": "Mayús"
   },
   "ctrlLabel": {
     "message": "Ctrl"

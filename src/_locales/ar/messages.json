@@ -96,13 +96,13 @@
     "message": "لا تعرض زر أو لوحة الترجمة عند اختيار النص في حقل نص."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "ترجم عند الضغط على المفتاح المخصص"
+    "message": "ترجم عند الضغط على مفتاح التعديل"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "عرض الترجمة فقط عند الضغط على المفتاح المخصص."
+    "message": "عرض الترجمة فقط عند الضغط على مفتاح التعديل المحدد."
   },
   "modifierKeyLabel": {
-    "message": "المفتاح المخصص"
+    "message": "مفتاح التعديل"
   },
   "shiftLabel": {
     "message": "Shift"

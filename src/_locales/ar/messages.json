@@ -96,13 +96,13 @@
     "message": "لا تعرض زر أو لوحة الترجمة عند اختيار النص في حقل نص."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Translate on modifier key pressed"
+    "message": "ترجم عند الضغط على المفتاح المخصص"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Only display translation on specified modifier key pressed."
+    "message": "عرض الترجمة فقط عند الضغط على المفتاح المخصص."
   },
   "modifierKeyLabel": {
-    "message": "Modifier Key"
+    "message": "المفتاح المخصص"
   },
   "shiftLabel": {
     "message": "Shift"
@@ -159,16 +159,16 @@
     "message": "نمط"
   },
   "themeLabel": {
-    "message": "Theme"
+    "message": "السِمة"
   },
   "themeCaptionLabel": {
-    "message": "Specify the color scheme."
+    "message": "حدد نظام الألوان."
   },
   "lightLabel": {
-    "message": "Light"
+    "message": "فاتح"
   },
   "darkLabel": {
-    "message": "Dark"
+    "message": "داكن"
   },
   "buttonStyleLabel": {
     "message": "زر الترجمة"

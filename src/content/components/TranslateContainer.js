@@ -26,6 +26,19 @@ const matchesTargetLang = async selectedText => {
 
   const isNotText = result.percentage === 0;
   if (isNotText) return true;
+  
+  //Insert CSS to Correct text direction for RTL languages
+  const rtlLangs = ['ar', 'fa', 'iw', 'ps', 'sd', 'ur', 'ug', 'yi'];
+  const findRtlLang = rtlLangs.indexOf(targetLang);
+
+  if (findRtlLang >= 0){
+    let rtlResult = document.getElementsByClassName('simple-translate-result')[0];
+    let rtlCandidate = document.getElementsByClassName('simple-translate-candidate')[0];
+    rtlResult.style.textAlign= 'right';
+    rtlResult.style.direction= 'rtl';
+    rtlCandidate.style.textAlign= 'right';
+    rtlCandidate.style.direction= 'rtl';
+  };
 
   const matchsLangs = targetLang === result.sourceLanguage;
   return matchsLangs;

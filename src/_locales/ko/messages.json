@@ -99,7 +99,7 @@
     "message": "보조 키가 눌린 경우에만 번역"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Only display translation on specified modifier key pressed."
+    "message": "지정된 보조 키가 눌린 경우에만 번역을 표시합니다."
   },
   "modifierKeyLabel": {
     "message": "보조 키"
@@ -159,10 +159,10 @@
     "message": "모양"
   },
   "themeLabel": {
-    "message": "Theme"
+    "message": "테마"
   },
   "themeCaptionLabel": {
-    "message": "Specify the color scheme."
+    "message": "색 구성표를 지정합니다."
   },
   "lightLabel": {
     "message": "Light"

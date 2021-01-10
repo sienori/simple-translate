@@ -165,10 +165,10 @@
     "message": "색 구성표를 지정합니다."
   },
   "lightLabel": {
-    "message": "Light"
+    "message": "밝은 테마"
   },
   "darkLabel": {
-    "message": "Dark"
+    "message": "어두운 테마"
   },
   "buttonStyleLabel": {
     "message": "번역 버튼"

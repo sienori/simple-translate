@@ -15,7 +15,7 @@
     "message": "Дозволити переклад на цій сторінці"
   },
   "disableOnThisPage": {
-    "message": "Вимкнути переклад на цій сторінці"
+    "message": "Заборонити переклад на цій сторінці"
   },
   "initialTextArea": {
     "message": "Введіть текст"
@@ -24,7 +24,7 @@
     "message": "Перекласти всю сторінку"
   },
   "openInGoogleLabel": {
-    "message": "Відкрити в Google Translate"
+    "message": "Відкрити в перекладачі Google"
   },
   "copyLabel": {
     "message": "Копіювати"
@@ -33,7 +33,7 @@
     "message": "Скопійовано."
   },
   "listenLabel": {
-    "message": "Прослухати"
+    "message": "Слухати"
   },
   "targetLangLabel": {
     "message": "Цільова мова"

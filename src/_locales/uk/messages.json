@@ -135,7 +135,7 @@
     "message": "Друга мова"
   },
   "secondTargetLangCaptionLabel": {
-    "message": "Мова з якої перекладається."
+    "message": "Оберіть мову з якої перекладається."
   },
   "waitTimeLabel": {
     "message": "Час очікування для перекладу"
@@ -318,7 +318,7 @@
     "message": "Зробіть пожертву, будь ласка"
   },
   "donationCaptionLabel": {
-    "message": "Дякую за те, що використовуєте Simple Translate.<br>Ваша підтримка буде великим стимулом продовжувати розробку цього додатку.<br>Якщо вам подобається Simple Translate, буду дуже вдячний вашим пожертвуванням."
+    "message": "Дякую за те, що користуєтеся Simple Translate.<br>Ваша підтримка буде великим стимулом продовжувати розробку цього додатка.<br>Якщо вам подобається Simple Translate, буду вдячним за ваші пожертвування."
   },
   "amazonTitleLabel": {
     "message": "Картки amazon.co.jp eGift"
@@ -327,7 +327,7 @@
     "message": "Сторінка додатка"
   },
   "extensionPageLabel": {
-    "message": "Сторінка додатку"
+    "message": "Сторінка додатка"
   },
   "privacyPolicyLabel": {
     "message": "Політика приватності"

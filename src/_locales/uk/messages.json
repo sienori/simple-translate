@@ -96,13 +96,13 @@
     "message": "Не відображати кнопку перекладу і панель при виборі тексту у текстовому полі."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Translate on modifier key pressed"
+    "message": "Перекладати вирішною клавішою"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Only display translation on specified modifier key pressed."
+    "message": "Відображати переклад лише при натиснутій вирішній клавіші."
   },
   "modifierKeyLabel": {
-    "message": "Modifier Key"
+    "message": "Вирішна клавіша"
   },
   "shiftLabel": {
     "message": "Shift"

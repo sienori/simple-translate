@@ -159,16 +159,16 @@
     "message": "Стиль"
   },
   "themeLabel": {
-    "message": "Theme"
+    "message": "Тема"
   },
   "themeCaptionLabel": {
-    "message": "Specify the color scheme."
+    "message": "Виберіть кольорову схему."
   },
   "lightLabel": {
-    "message": "Light"
+    "message": "Світла"
   },
   "darkLabel": {
-    "message": "Dark"
+    "message": "Темна"
   },
   "buttonStyleLabel": {
     "message": "Кнопка перекладу"
@@ -330,7 +330,7 @@
     "message": "Сторінка додатку"
   },
   "privacyPolicyLabel": {
-    "message": "Privacy policy"
+    "message": "Політика приватності"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"

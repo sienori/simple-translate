@@ -279,10 +279,10 @@
     "message": "Atalhos do teclado"
   },
   "setKeyboardShortCutsMessage": {
-    "message": "Configurar Atalho no Teclado."
+    "message": "Definir atalhos do teclado."
   },
   "typeShortcutMessage": {
-    "message": "Digita um atalho"
+    "message": "Digite um atalho"
   },
   "typeLetterMessage": {
     "message": "Digite uma letra"

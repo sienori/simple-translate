@@ -255,7 +255,7 @@
     "message": "Exibir página de opção ao atualizar"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Exibir a página de opções quando a tradução simples é atualizada. Você pode saber o conteúdo da atualização rapidamente."
+    "message": "Exibe a página de opções quando o Simple Translate é atualizado. Você pode saber o conteúdo da atualização rapidamente."
   },
   "isDebugModeLabel": {
     "message": "Ativar o modo de depuração"

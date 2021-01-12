@@ -261,7 +261,7 @@
     "message": "Ativar o modo de depuração"
   },
   "isDebugModeCaptionLabel": {
-    "message": "Quando o modo de depuração estiver ativado, o log é saída para o depurador."
+    "message": "Quando o modo de depuração está ativado, o registro é enviado para o depurador."
   },
   "resetSettingsLabel": {
     "message": "Redefinir as configurações"
@@ -270,7 +270,7 @@
     "message": "Restaurar todas as configurações para o padrão."
   },
   "resetSettingsButtonLabel": {
-    "message": "Resetar"
+    "message": "Redefinir"
   },
   "shortcutsLabel": {
     "message": "Atalhos"
@@ -303,7 +303,7 @@
     "message": "Limpar"
   },
   "reset": {
-    "message": "Resetar"
+    "message": "Redefinir"
   },
   "informationLabel": {
     "message": "Informação"

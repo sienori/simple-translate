@@ -24,3 +24,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - Salah Morabit
 - Khaled
 - [Gyurme](https://github.com/gpg-dev)
+- Roman

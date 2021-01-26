@@ -123,7 +123,7 @@
     "message": "Se endereço da página corresponde à lista, a tradução na página web está desativada. A lista permite curingas \"*\"."
   },
   "toolbarLabel": {
-    "message": "Pop-up da barra de ferramentas"
+    "message": "Popup da barra de ferramentas"
   },
   "ifChangeSecondLangLabel": {
     "message": "Trocar automaticamente para o segundo idioma"

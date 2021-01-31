@@ -26,3 +26,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - [Gyurme](https://github.com/gpg-dev)
 - Roman
 - Maurizio
+- Sutekh Merksmer

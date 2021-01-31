@@ -33,7 +33,7 @@
     "message": "Đã sao chép."
   },
   "listenLabel": {
-    "message": "Listen"
+    "message": "Nghe"
   },
   "targetLangLabel": {
     "message": "Ngôn ngữ đích"
@@ -90,13 +90,13 @@
     "message": "Phát hiện ngôn ngữ của văn bản đã chọn và nếu nó giống với ngôn ngữ đích mặc định, hãy dịch nó sang ngôn ngữ thứ hai."
   },
   "isDisabledInTextFieldsLabel": {
-    "message": "Disable translation in text fields"
+    "message": "Tắt tính năng dịch trong các trường văn bản"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in a text field."
+    "message": "Không hiển thị nút hoặc bảng dịch khi chọn văn bản trong trường văn bản."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Translate on modifier key pressed"
+    "message": "Dịch trên phím bổ trợ được nhấn"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
     "message": "Only display translation on specified modifier key pressed."

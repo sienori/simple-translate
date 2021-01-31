@@ -99,10 +99,10 @@
     "message": "Dịch trên phím bổ trợ được nhấn"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Only display translation on specified modifier key pressed."
+    "message": "Chỉ hiển thị bản dịch trên phím bổ trợ được chỉ định được nhấn."
   },
   "modifierKeyLabel": {
-    "message": "Modifier Key"
+    "message": "Phím bổ trợ"
   },
   "shiftLabel": {
     "message": "Shift"
@@ -159,16 +159,16 @@
     "message": "Phong cách"
   },
   "themeLabel": {
-    "message": "Theme"
+    "message": "Chủ Đề"
   },
   "themeCaptionLabel": {
-    "message": "Specify the color scheme."
+    "message": "Chỉ định bảng màu."
   },
   "lightLabel": {
-    "message": "Light"
+    "message": "Sáng"
   },
   "darkLabel": {
-    "message": "Dark"
+    "message": "Tối"
   },
   "buttonStyleLabel": {
     "message": "Nút dịch"
@@ -309,7 +309,7 @@
     "message": "Thông tin"
   },
   "backersLabel": {
-    "message": "Backers"
+    "message": "Người ủng hộ"
   },
   "licenseLabel": {
     "message": "Giấy phép"
@@ -330,7 +330,7 @@
     "message": "Trang tiện ích"
   },
   "privacyPolicyLabel": {
-    "message": "Privacy policy"
+    "message": "Chính sách bảo mật"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"

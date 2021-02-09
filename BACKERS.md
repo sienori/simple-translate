@@ -27,3 +27,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - Roman
 - Maurizio
 - Sutekh Merksmer
+- Artem

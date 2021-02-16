@@ -195,10 +195,10 @@ export default class TranslatePanel extends Component {
         <div className="simple-translate-result-wrapper" ref="wrapper" style={wrapperStyles}>
           <div className="simple-translate-move" draggable="true" ref="move"></div>
           <div className="simple-translate-result-contents">
-            <p className="simple-translate-result" style={resultStyles}>
+            <p className="simple-translate-result" style={resultStyles} dir="auto">
               {splitLine(resultText)}
             </p>
-            <p className="simple-translate-candidate" style={candidateStyles}>
+            <p className="simple-translate-candidate" style={candidateStyles} dir="auto">
               {splitLine(candidateText)}
             </p>
             {isError && (

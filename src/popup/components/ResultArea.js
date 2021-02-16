@@ -26,8 +26,8 @@ export default props => {
 
   return (
     <div id="resultArea">
-      <p className="resultText">{splitLine(resultText)}</p>
-      {shouldShowCandidate && <p className="candidateText">{splitLine(candidateText)}</p>}
+      <p className="resultText" dir="auto">{splitLine(resultText)}</p>
+      {shouldShowCandidate && <p className="candidateText" dir="auto">{splitLine(candidateText)}</p>}
       {isError && <p className="error">{getErrorMessage(statusText)}</p>}
       {isError && (
         <p className="translateLink">

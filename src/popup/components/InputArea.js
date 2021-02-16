@@ -38,6 +38,7 @@ export default class InputArea extends Component {
           onChange={this.handleInputText}
           autoFocus
           spellCheck={false}
+          dir="auto"
         />
         <div className="listen">
           {sourceLang && <ListenButton text={inputText} lang={sourceLang} />}

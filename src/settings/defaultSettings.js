@@ -40,6 +40,15 @@ export default [
         useRawOptionName: true
       },
       {
+        id: "ignoredDocumentLang",
+        title: "ignoredDocumentLangLabel",
+        captions: ["ignoredDocumentLangCaptionLabel"],
+        type: "text",
+        default: "",
+        placeholder: "en, ru, ch",
+        new: true,
+      },
+      {
         id: "ifShowCandidate",
         title: "ifShowCandidateLabel",
         captions: ["ifShowCandidateCaptionLabel"],

@@ -20,14 +20,18 @@ init();
 let prevSelectedText = "";
 const handleMouseUp = async e => {
   await waitTime(10);
+
   const isLeftClick = e.button === 0;
+  if (!isLeftClick) return;
+
   const isInPasswordField = e.target.tagName === "INPUT" && e.target.type === "password";
+  if (isInPasswordField) return;
+
   const isInThisElement =
     document.querySelector("#simple-translate") &&
     document.querySelector("#simple-translate").contains(e.target);
-  if (!isLeftClick) return;
-  if (isInPasswordField) return;
   if (isInThisElement) return;
+
   removeTranslatecontainer();
 
   const selectedText = getSelectedText();

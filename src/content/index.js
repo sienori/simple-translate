@@ -27,6 +27,9 @@ const handleMouseUp = async e => {
   const isInPasswordField = e.target.tagName === "INPUT" && e.target.type === "password";
   if (isInPasswordField) return;
 
+  const inCodeElement = e.target.tagName === 'CODE' || !!e.target.closest('code')
+  if (inCodeElement) return;
+
   const isInThisElement =
     document.querySelector("#simple-translate") &&
     document.querySelector("#simple-translate").contains(e.target);

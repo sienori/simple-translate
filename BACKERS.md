@@ -29,3 +29,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - Sutekh Merksmer
 - Artem
 - infi ziert
+- 柱君 叶

@@ -105,10 +105,10 @@
     "message": "Modifier Key"
   },
   "shiftLabel": {
-    "message": "Shift"
+    "message": "Umschalttaste"
   },
   "ctrlLabel": {
-    "message": "Ctrl"
+    "message": "Strg"
   },
   "altLabel": {
     "message": "Alt"

@@ -162,13 +162,13 @@
     "message": "Theme"
   },
   "themeCaptionLabel": {
-    "message": "Specify the color scheme."
+    "message": "Farbschema festlegen."
   },
   "lightLabel": {
-    "message": "Light"
+    "message": "Hell"
   },
   "darkLabel": {
-    "message": "Dark"
+    "message": "Dunkel"
   },
   "buttonStyleLabel": {
     "message": "Übersetzen-Knopf"
@@ -330,7 +330,7 @@
     "message": "Erweiterungs Seite"
   },
   "privacyPolicyLabel": {
-    "message": "Privacy policy"
+    "message": "Datenschutzrichtlinien"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"

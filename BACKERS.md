@@ -30,3 +30,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - Artem
 - infi ziert
 - 柱君 叶
+- mgulick

@@ -89,6 +89,9 @@
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "检测所选文本的语言，如果与默认目标语言相同，则将其翻译为第二语言。"
   },
+  "disableTranslationLabel": {
+    "message": "Disable translation"
+  },
   "isDisabledInTextFieldsLabel": {
     "message": "禁用文本字段中的翻译"
   },
@@ -138,10 +141,10 @@
     "message": "选择第二种目标语言。"
   },
   "ignoredDocumentLangLabel": {
-    "message": "Ignore documents in the following languages"
+    "message": "Disable translation by lang attribute"
   },
   "ignoredDocumentLangCaptionLabel": {
-    "message": "Comma separated languages that do not need to be translated."
+    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
   },
   "waitTimeLabel": {
     "message": "翻译等待时间"

@@ -148,6 +148,14 @@ export default [
             default: false
           },
           {
+            id: "isDisabledInCodeElement",
+            title: "isDisabledInCodeElementLabel",
+            captions: ["isDisabledInCodeElementCaptionLabel"],
+            type: "checkbox",
+            default: false,
+            new: true
+          },
+          {
             id: "ignoredDocumentLang",
             title: "ignoredDocumentLangLabel",
             captions: ["ignoredDocumentLangCaptionLabel"],

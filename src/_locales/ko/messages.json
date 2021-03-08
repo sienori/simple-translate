@@ -137,6 +137,12 @@
   "secondTargetLangCaptionLabel": {
     "message": "보조 번역 언어를 선택하세요."
   },
+  "ignoredDocumentLangLabel": {
+    "message": "Ignore documents in the following languages"
+  },
+  "ignoredDocumentLangCaptionLabel": {
+    "message": "Comma separated languages that do not need to be translated."
+  },
   "waitTimeLabel": {
     "message": "번역 대기 시간"
   },

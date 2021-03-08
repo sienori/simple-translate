@@ -28,7 +28,11 @@ const handleMouseUp = async e => {
   if (!isLeftClick) return;
   if (isInPasswordField) return;
   if (isInThisElement) return;
+
   removeTranslatecontainer();
+
+  const ignoredDocumentLang = getSettings('ignoredDocumentLang').split(',').map(s => s.trim()).filter(s => !!s)
+  if (!!document.documentElement.lang && ignoredDocumentLang.includes(document.documentElement.lang)) return;
 
   const selectedText = getSelectedText();
   prevSelectedText = selectedText;

@@ -137,6 +137,12 @@
   "secondTargetLangCaptionLabel": {
     "message": "Επιλέξτε την δεύτερη προεπιλεγμένη γλώσσα-στόχο."
   },
+  "ignoredDocumentLangLabel": {
+    "message": "Ignore documents in the following languages"
+  },
+  "ignoredDocumentLangCaptionLabel": {
+    "message": "Comma separated languages that do not need to be translated."
+  },
   "waitTimeLabel": {
     "message": "Χρόνος αναμονής για μετάφραση"
   },

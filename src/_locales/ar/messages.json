@@ -102,7 +102,7 @@
     "message": "تعطيل الترجمة لعناصر الشفرة البرمجية"
   },
   "isDisabledInCodeElementCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in code tag."
+    "message": "لا تعرض زر أو لوحة الترجمة عندما يكون النص المحدد عنصر شفرة برمجية."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
     "message": "ترجم عند الضغط على مفتاح التعديل"

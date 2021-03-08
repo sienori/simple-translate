@@ -98,6 +98,12 @@
   "isDisabledInTextFieldsCaptionLabel": {
     "message": "Don't display translation button or panel when selecting text in a text field."
   },
+  "isDisabledInCodeElementLabel": {
+    "message": "Disable translation in code tags"
+  },
+  "isDisabledInCodeElementCaptionLabel": {
+    "message": "Don't display translation button or panel when selecting text in code tag."
+  },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
     "message": "Translate on modifier key pressed"
   },

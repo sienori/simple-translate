@@ -89,6 +89,9 @@
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "Erkennt die Sprache des ausgewählten Textes, und wenn sie mit der Standard-Zielsprache übereinstimmt, übersetzen Sie sie in die zweite Sprache."
   },
+  "disableTranslationLabel": {
+    "message": "Disable translation"
+  },
   "isDisabledInTextFieldsLabel": {
     "message": "Übersetzung in Textfeldern deaktivieren"
   },
@@ -138,10 +141,10 @@
     "message": "Zweitsprache wählen."
   },
   "ignoredDocumentLangLabel": {
-    "message": "Ignore documents in the following languages"
+    "message": "Disable translation by lang attribute"
   },
   "ignoredDocumentLangCaptionLabel": {
-    "message": "Comma separated languages that do not need to be translated."
+    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
   },
   "waitTimeLabel": {
     "message": "Wartezeit bis zur Übersetzung"

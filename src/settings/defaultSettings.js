@@ -40,15 +40,6 @@ export default [
         useRawOptionName: true
       },
       {
-        id: "ignoredDocumentLang",
-        title: "ignoredDocumentLangLabel",
-        captions: ["ignoredDocumentLangCaptionLabel"],
-        type: "text",
-        default: "",
-        placeholder: "en, ru, ch",
-        new: true,
-      },
-      {
         id: "ifShowCandidate",
         title: "ifShowCandidateLabel",
         captions: ["ifShowCandidateCaptionLabel"],
@@ -145,19 +136,35 @@ export default [
         default: false
       },
       {
-        id: "isDisabledInTextFields",
-        title: "isDisabledInTextFieldsLabel",
-        captions: ["isDisabledInTextFieldsCaptionLabel"],
-        type: "checkbox",
-        default: false
-      },
-      {
-        id: "disableUrlList",
-        title: "disableUrlListLabel",
-        captions: ["disableUrlListCaptionLabel"],
-        type: "textarea",
-        default: "",
-        placeholder: "https://example.com/*\nhttps://example.net/*"
+        title: "disableTranslationLabel",
+        captions: [],
+        type: "none",
+        childElements: [
+          {
+            id: "isDisabledInTextFields",
+            title: "isDisabledInTextFieldsLabel",
+            captions: ["isDisabledInTextFieldsCaptionLabel"],
+            type: "checkbox",
+            default: false
+          },
+          {
+            id: "ignoredDocumentLang",
+            title: "ignoredDocumentLangLabel",
+            captions: ["ignoredDocumentLangCaptionLabel"],
+            type: "text",
+            default: "",
+            placeholder: "en, ru, zh",
+            new: true,
+          },
+          {
+            id: "disableUrlList",
+            title: "disableUrlListLabel",
+            captions: ["disableUrlListCaptionLabel"],
+            type: "textarea",
+            default: "",
+            placeholder: "https://example.com/*\nhttps://example.net/*"
+          }
+        ]
       }
     ]
   },

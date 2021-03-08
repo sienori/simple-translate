@@ -147,10 +147,10 @@
     "message": "أخر لغة الهدف الثانية."
   },
   "ignoredDocumentLangLabel": {
-    "message": "Disable translation by lang attribute"
+    "message": "تعطيل الترجمة بواسطة رمز اللغة"
   },
   "ignoredDocumentLangCaptionLabel": {
-    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
+    "message": "تعطيل الترجمة إذا كان رمز اللغة من ضمن الرموز في القائمة. أدخل رموز اللغة مفصولة بفاصلة."
   },
   "waitTimeLabel": {
     "message": "انتظر قليلا لترجمة"

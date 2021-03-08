@@ -147,10 +147,10 @@
     "message": "Выберите дополнительный язык перевода."
   },
   "ignoredDocumentLangLabel": {
-    "message": "Disable translation by lang attribute"
+    "message": "Отключить перевод по хтмл аттрибуту"
   },
   "ignoredDocumentLangCaptionLabel": {
-    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
+    "message": "Отключить перевод если язык страницы совпадает с языком в списке. Введите список языков через запятую."
   },
   "waitTimeLabel": {
     "message": "Задержка перед переводом"

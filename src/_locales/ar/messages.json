@@ -90,7 +90,7 @@
     "message": "اكتشاف لغة النص المحدد، فإن كانت نفس لغة الترجمة الإفتراضية، ترجمة النص للغة الثانية."
   },
   "disableTranslationLabel": {
-    "message": "Disable translation"
+    "message": "تعطيل الترجمة"
   },
   "isDisabledInTextFieldsLabel": {
     "message": "تعطيل الترجمة في حقول النص"
@@ -99,7 +99,7 @@
     "message": "لا تعرض زر أو لوحة الترجمة عند اختيار النص في حقل نص."
   },
   "isDisabledInCodeElementLabel": {
-    "message": "Disable translation in code tags"
+    "message": "تعطيل الترجمة لعناصر الشفرة البرمجية"
   },
   "isDisabledInCodeElementCaptionLabel": {
     "message": "Don't display translation button or panel when selecting text in code tag."

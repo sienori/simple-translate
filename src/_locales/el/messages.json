@@ -89,6 +89,9 @@
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "Εντοπίζει τη γλώσσα του επιλεγμένου κειμένου και αν είναι ίδια με τη γλώσσα προορισμού, μεταφράζει στη δεύτερη γλώσσα."
   },
+  "disableTranslationLabel": {
+    "message": "Disable translation"
+  },
   "isDisabledInTextFieldsLabel": {
     "message": "Απενεργοποίηση μετάφρασης σε πεδία κειμένου"
   },
@@ -138,10 +141,10 @@
     "message": "Επιλέξτε την δεύτερη προεπιλεγμένη γλώσσα-στόχο."
   },
   "ignoredDocumentLangLabel": {
-    "message": "Ignore documents in the following languages"
+    "message": "Disable translation by lang attribute"
   },
   "ignoredDocumentLangCaptionLabel": {
-    "message": "Comma separated languages that do not need to be translated."
+    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
   },
   "waitTimeLabel": {
     "message": "Χρόνος αναμονής για μετάφραση"

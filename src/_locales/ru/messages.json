@@ -90,7 +90,7 @@
     "message": "Переключаться на дополнительный язык перевода, если язык выделенного текста совпадает с языком перевода по умолчанию."
   },
   "disableTranslationLabel": {
-    "message": "Disable translation"
+    "message": "Отключить перевод"
   },
   "isDisabledInTextFieldsLabel": {
     "message": "Отключить перевод в текстовых полях"
@@ -99,10 +99,10 @@
     "message": "Не показывать ни кнопку перевода, ни панель с переводом при выделении текста в текстовом поле."
   },
   "isDisabledInCodeElementLabel": {
-    "message": "Disable translation in code tags"
+    "message": "Отключить перевод в коде"
   },
   "isDisabledInCodeElementCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in code tag."
+    "message": "Не показывать кнопку перевода или панель при выделении текста в коде."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
     "message": "Переводить при нажатии клавиши модификатора"

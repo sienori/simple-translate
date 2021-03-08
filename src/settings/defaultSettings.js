@@ -90,18 +90,12 @@ export default [
         ]
       },
       {
-        title: "modifierKeyLabel",
-        captions: [],
-        type: "none",
-        new: true,
+        id: "ifOnlyTranslateWhenModifierKeyPressed",
+        title: "ifOnlyTranslateWhenModifierKeyPressedLabel",
+        captions: ["ifOnlyTranslateWhenModifierKeyPressedCaptionLabel"],
+        type: "checkbox",
+        default: false,
         childElements: [
-          {
-            id: "ifOnlyTranslateWhenModifierKeyPressed",
-            title: "ifOnlyTranslateWhenModifierKeyPressedLabel",
-            captions: ["ifOnlyTranslateWhenModifierKeyPressedCaptionLabel"],
-            type: "checkbox",
-            default: false
-          },
           {
             id: "modifierKey",
             title: "modifierKeyLabel",

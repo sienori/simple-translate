@@ -137,6 +137,12 @@
   "secondTargetLangCaptionLabel": {
     "message": "Välj andra målspråk."
   },
+  "ignoredDocumentLangLabel": {
+    "message": "Ignore documents in the following languages"
+  },
+  "ignoredDocumentLangCaptionLabel": {
+    "message": "Comma separated languages that do not need to be translated."
+  },
   "waitTimeLabel": {
     "message": "Väntetid på att översätta"
   },

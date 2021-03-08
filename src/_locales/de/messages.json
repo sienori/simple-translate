@@ -90,7 +90,7 @@
     "message": "Erkennt die Sprache des ausgewählten Textes, und wenn sie mit der Standard-Zielsprache übereinstimmt, übersetzen Sie sie in die zweite Sprache."
   },
   "disableTranslationLabel": {
-    "message": "Disable translation"
+    "message": "Übersetzung ausschalten"
   },
   "isDisabledInTextFieldsLabel": {
     "message": "Übersetzung in Textfeldern deaktivieren"

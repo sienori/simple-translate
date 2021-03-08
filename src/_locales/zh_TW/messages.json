@@ -137,6 +137,12 @@
   "secondTargetLangCaptionLabel": {
     "message": "選擇第二個目標語言。"
   },
+  "ignoredDocumentLangLabel": {
+    "message": "Ignore documents in the following languages"
+  },
+  "ignoredDocumentLangCaptionLabel": {
+    "message": "Comma separated languages that do not need to be translated."
+  },
   "waitTimeLabel": {
     "message": "翻譯等待時間"
   },

@@ -27,7 +27,7 @@ const handleMouseUp = async e => {
   const isInPasswordField = e.target.tagName === "INPUT" && e.target.type === "password";
   if (isInPasswordField) return;
 
-  const inCodeElement = e.target.tagName === 'CODE' || !!e.target.closest('code');
+  const inCodeElement = e.target.tagName === "CODE" || !!e.target.closest("code");
   if (inCodeElement && getSettings("isDisabledInCodeElement")) return;
 
   const isInThisElement =
@@ -37,7 +37,7 @@ const handleMouseUp = async e => {
 
   removeTranslatecontainer();
 
-  const ignoredDocumentLang = getSettings('ignoredDocumentLang').split(',').map(s => s.trim()).filter(s => !!s)
+  const ignoredDocumentLang = getSettings("ignoredDocumentLang").split(",").map(s => s.trim()).filter(s => !!s);
   if (!!document.documentElement.lang && ignoredDocumentLang.includes(document.documentElement.lang)) return;
 
   const selectedText = getSelectedText();
@@ -92,9 +92,9 @@ const getSelectedPosition = () => {
   const selectedRect = isInTextField
     ? element.getBoundingClientRect()
     : window
-        .getSelection()
-        .getRangeAt(0)
-        .getBoundingClientRect();
+      .getSelection()
+      .getRangeAt(0)
+      .getBoundingClientRect();
 
   let selectedPosition;
   const panelReferencePoint = getSettings("panelReferencePoint");

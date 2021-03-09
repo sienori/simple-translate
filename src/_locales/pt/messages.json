@@ -90,7 +90,7 @@
     "message": "Detecta o idioma do texto selecionado e, se for o mesmo que o idioma alvo padrão, traduz para o segundo idioma."
   },
   "disableTranslationLabel": {
-    "message": "Disable translation"
+    "message": "Desativar tradução"
   },
   "isDisabledInTextFieldsLabel": {
     "message": "Desabilitar tradução em campos de texto"
@@ -99,7 +99,7 @@
     "message": "Não mostra o botão de traduzir ou o painel ao selecionar texto em um campo de texto."
   },
   "isDisabledInCodeElementLabel": {
-    "message": "Disable translation in code tags"
+    "message": "Desativar tradução em tags de código"
   },
   "isDisabledInCodeElementCaptionLabel": {
     "message": "Don't display translation button or panel when selecting text in code tag."
@@ -147,7 +147,7 @@
     "message": "Selecione o segundo idioma alvo."
   },
   "ignoredDocumentLangLabel": {
-    "message": "Disable translation by lang attribute"
+    "message": "Desativar tradução por atributo lang"
   },
   "ignoredDocumentLangCaptionLabel": {
     "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."

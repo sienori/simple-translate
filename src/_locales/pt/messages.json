@@ -150,7 +150,7 @@
     "message": "Desativar tradução por atributo lang"
   },
   "ignoredDocumentLangCaptionLabel": {
-    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
+    "message": "Desativa a tradução se o atributo lang no elemento html da página corresponder à lista. Insira tags de idioma separadas por vírgulas."
   },
   "waitTimeLabel": {
     "message": "Tempo de espera para traduzir"

@@ -41,6 +41,12 @@
   "langList": {
     "message": "af:Africain, sq:Albanais, am:Amharique, ar:Arabe, hy:Armenien, az:Azerbaïdjanais, eu:Basque, be:Belorussien, bn:Bengali, bs:Bosnien, bg:Bulgare, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Chinois (PRC), zh-TW:Chinois (Taiwan), co:Corse, hr:Croate, cs:Tchèque, da:Danois, nl:Néerlandais, en:Anglais, eo:Esperanto, et:Estonien, fi:Finnois, fr:Français, fy:Frison, gl:Galicien, ka:Georgien, de:Allemand, el:Grec, gu:Gujarati, ht:Haïtien, ha:Hausa, haw:Hawaiien, he:Hébreu, hi:Hindi, hu:Hongrois, is:Islandais, ig:Igbo, id:Indonesien, ga:Irlandais, it:Italien, ja:Japonais, jv:Javanais, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Coréen, ku:Kurde, lo:Laotien, la:Latin, lv:Letton, lt:Lituanien, lb:Luxembourgeois, mk:Macédonien, mg:Malgache, ms:Malais, ml:Malayalam, mt:Maltais, mi:Maori, mr:Marathi, mn:Mongolien, hmn:Monk, my:Myanmar, ne:Nepalais, no:Norvégien, fa:Perse, pl:Polonais, pt:Portuguais, pa:Punjabi, ps:Pushto, ro:Roumain, ru:Russe, sm:Samoan, gd:Gaélique écossais, sr:Serbe, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovaque, sl:Slovenien, so:Somalien, sx:Sotho, es:Espagnol, su:Sundanais, sw:Swahili, sv:Suédois, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turque, uk:Ukrainien, ur:Urdu, uz:Ouzbek, vi:Vietnamien, cy:Gallois, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zoulou"
   },
+  "allLangLabel": {
+    "message": "All languages"
+  },
+  "recentLangLabel": {
+    "message": "Recent languages"
+  },
   "settingsLabel": {
     "message": "Paramètres"
   },

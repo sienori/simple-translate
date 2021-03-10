@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import browser from "webextension-polyfill";
 import log from "loglevel";
-import { initSettings, getSettings } from "src/settings/settings";
+import { initSettings, getSettings, setSettings } from "src/settings/settings";
 import { updateLogLevel, overWriteLogLevel } from "src/common/log";
 import translate from "src/common/translate";
 import Header from "./Header";
@@ -43,7 +43,8 @@ export default class PopupPage extends Component {
       statusText: "OK",
       tabUrl: "",
       isConnected: true,
-      isEnabledOnPage: true
+      isEnabledOnPage: true,
+      langHistory: []
     };
     this.isSwitchedSecondLang = false;
     this.init();
@@ -56,8 +57,15 @@ export default class PopupPage extends Component {
 
     document.body.dataset.theme = getSettings("theme");
     const targetLang = getSettings("targetLang");
+    let langHistory = getSettings("langHistory");
+    if (!langHistory) {
+      const secondLang = getSettings("secondTargetLang");
+      langHistory = [targetLang, secondLang];
+      setSettings("langHistory", langHistory);
+    }
     this.setState({
-      targetLang: targetLang
+      targetLang: targetLang,
+      langHistory: langHistory
     });
 
     const tabInfo = await getTabInfo();
@@ -82,11 +90,20 @@ export default class PopupPage extends Component {
     }, waitTime);
   };
 
+  setLangHistory = lang => {
+    let langHistory = getSettings("langHistory") || [];
+    langHistory.push(lang);
+    if (langHistory.length > 30) langHistory = langHistory.slice(-30);
+    setSettings("langHistory", langHistory);
+    this.setState({ langHistory: langHistory });
+  };
+
   handleLangChange = lang => {
     log.info(logDir, "handleLangChange()", lang);
     this.setState({ targetLang: lang });
     const inputText = this.state.inputText;
     if (inputText !== "") this.translateText(inputText, lang);
+    this.setLangHistory(lang);
   };
 
   translateText = async (text, targetLang) => {
@@ -162,6 +179,7 @@ export default class PopupPage extends Component {
         <Footer
           tabUrl={this.state.tabUrl}
           targetLang={this.state.targetLang}
+          langHistory={this.state.langHistory}
           handleLangChange={this.handleLangChange}
         />
       </div>

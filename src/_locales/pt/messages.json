@@ -192,10 +192,10 @@
     "message": "Escuro"
   },
   "buttonStyleLabel": {
-    "message": "Botão de tradução"
+    "message": "Botão traduzir"
   },
   "buttonStyleCaptionLabel": {
-    "message": "Especifique o estilo do botão de tradução exibido na página web."
+    "message": "Especifique o estilo do botão traduzir exibido na página."
   },
   "buttonSizeLabel": {
     "message": "Tamanho"

@@ -102,13 +102,13 @@
     "message": "Desativar tradução em campos de texto"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Não mostra o botão de traduzir ou o painel ao selecionar texto em um campo de texto."
+    "message": "Não exibe o botão traduzir ou o painel ao selecionar texto em um campo de texto."
   },
   "isDisabledInCodeElementLabel": {
     "message": "Desativar tradução em tags de código"
   },
   "isDisabledInCodeElementCaptionLabel": {
-    "message": "Não exibir o botão traduzir ou painel ao selecionar texto em código."
+    "message": "Não exibe o botão traduzir ou o painel ao selecionar texto em tag de código."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
     "message": "Traduzir ao pressionar a tecla modificadora"
@@ -117,7 +117,7 @@
     "message": "Exibe a tradução apenas ao pressionar a tecla modificadora especificada."
   },
   "modifierKeyLabel": {
-    "message": "Tecla modificadora"
+    "message": "Tecla Modificadora"
   },
   "shiftLabel": {
     "message": "Shift"
@@ -135,7 +135,7 @@
     "message": "Lista de links para desativar tradução"
   },
   "disableUrlListCaptionLabel": {
-    "message": "Se endereço da página corresponde à lista, a tradução na página web está desativada. A lista permite curingas \"*\"."
+    "message": "Se o link da página está na lista, a tradução na página é desativada. A lista permite caracteres \"*\"."
   },
   "toolbarLabel": {
     "message": "Popup da barra de ferramentas"

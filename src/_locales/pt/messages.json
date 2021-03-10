@@ -6,7 +6,7 @@
     "message": "Tradução rápida do texto selecionado na página. No popup da barra de ferramentas, você pode traduzir a entrada de texto."
   },
   "donateWithPaypalLabel": {
-    "message": "Doe com PayPal"
+    "message": "Doar com PayPal"
   },
   "donateLabel": {
     "message": "Doar"
@@ -174,7 +174,7 @@
     "message": "Exibir o menu de contexto"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Adicionar itens ao menu de contexto exibido quando clicar com o botão direito do mouse na página web ou na guia."
+    "message": "Adiciona itens ao menu de contexto exibido ao clicar com o botão direito na página ou na guia."
   },
   "styleLabel": {
     "message": "Estilo"
@@ -363,7 +363,7 @@
     "message": "Erro: Verifique o status da conexão de rede."
   },
   "unavailableError": {
-    "message": "Erro: O limite de uso do serviço foi alcançado. Por favor, aguarde um pouco e tente novamente."
+    "message": "Erro: Limite de uso do serviço atingido. Por favor, aguarde um pouco e tente novamente."
   },
   "unknownError": {
     "message": "Erro: Erro desconhecido"

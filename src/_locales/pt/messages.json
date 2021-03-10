@@ -144,7 +144,7 @@
     "message": "Trocar automaticamente para o segundo idioma"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "Detecta o idioma do texto entrado, e se for o mesmo que o idioma alvo padrão, traduz para o segundo idioma."
+    "message": "Detecta o idioma do texto inserido, e se igual ao idioma alvo padrão, traduz para o segundo idioma."
   },
   "secondTargetLangLabel": {
     "message": "Segundo idioma"

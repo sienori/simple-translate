@@ -41,6 +41,12 @@
   "langList": {
     "message": "af: Afrikaans, vk: Albanees, am: Amharies, ar: Arabies, hy: Armeens, az: Azerbeidjans, eu: Baskies, be: Belo-Russies, bn: Bengali, bs: Bosnies, bg: Bulgaars, ca: Katalaans, ceb: Cebuano, ny: Chewa, zh-CN: Chinees (PRC), zh-TW: Chinees (Taiwan), mede: Corsican, hr: Kroaties, cs: Tsjeggies, da: Deens, nl: Nederlands, en: Engels, eo: Esperanto, et: Esties, fi: Fins, fr: Frans, fy: Fries, gl: Galisies, ka: Georgies, de: Duits, el: Grieks, gu: Gujarati, ht: Haïtiaans, ha: Hausa, haw: Hawaiiaans, hy: Hebreeus, hi: Hindi, hu: Hongaars, is: Yslands, ig: Igbo, id: Indonesies, ga: Iers, dit: Italiaans, ja: Japannees, jv: Javaans, kn: Kannada, kk: Kazakh, km: Khmer, ky: Kirghiz, ko: Koreaans, ku: Koerdies, lo: Laoties, la: Latyn, lv: Lets, lt: Litaus, lb: Luxemburgs, mk: Masedonies, mg: Maleis, ms: Maleis, ml: Malabaars, mt: Maltees, mi: Maori, mnr: Marathi, mn: Mongools, hmn: monnik, my: Myanmar, ne: Nepalees, geen: Noors, fa: Persies, pl: Pools, pt: Portugees, pa: Punjabi, ps: Pushto, ro: Roemeens, ru: Russies, sm: Samoan, gd: Scottish Gaelic, sr: Serbian, sn: Shona, sd: Sindh i, si: Sinhala, sk: Slowaakse, sl: Sloweens, so: Somalies, sx: Sotho, es: Spaans, su: Sundanees, sw: Swahili, sv: Sweeds, tl: Tagalog, tg: Tajiki, ta: Tamil, te: Telugu, th: Thai, tr: Turks, uk: Oekraïens, ur: Urdu, uz: Oezbeeks, vi: Viëtnamees, cy: Wallies, xh: Xosa, yi: Jiddisj, yo: Yoruba, zu: Zulu"
   },
+  "allLangLabel": {
+    "message": "All languages"
+  },
+  "recentLangLabel": {
+    "message": "Recent languages"
+  },
   "settingsLabel": {
     "message": "Instellings"
   },

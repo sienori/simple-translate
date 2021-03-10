@@ -135,7 +135,7 @@
     "message": "Lista de links para desativar tradução"
   },
   "disableUrlListCaptionLabel": {
-    "message": "Se o link da página está na lista, a tradução na página é desativada. A lista permite caracteres \"*\"."
+    "message": "Se o link da página corresponde à lista, a tradução na página é desativada. A lista permite caracteres \"*\"."
   },
   "toolbarLabel": {
     "message": "Popup da barra de ferramentas"
@@ -204,22 +204,22 @@
     "message": "Posição de exibição"
   },
   "topRightLabel": {
-    "message": "Canto superior direito"
+    "message": "Superior direito"
   },
   "bottomRightLabel": {
-    "message": "Canto inferior direito"
+    "message": "Inferior direito"
   },
   "topLeftLabel": {
-    "message": "Canto superior esquerdo"
+    "message": "Superior esquerdo"
   },
   "bottomLeftLabel": {
-    "message": "Canto inferior esquerdo"
+    "message": "Inferior esquerdo"
   },
   "topLabel": {
-    "message": "Acima"
+    "message": "Superior"
   },
   "bottomLabel": {
-    "message": "Abaixo"
+    "message": "Inferior"
   },
   "leftLabel": {
     "message": "Esquerda"
@@ -228,13 +228,13 @@
     "message": "Direita"
   },
   "positionOffsetLabel": {
-    "message": "Posição de exibição - Deslocado"
+    "message": "Posição de exibição - Deslocamento"
   },
   "panelStyleLabel": {
     "message": "Painel de tradução"
   },
   "panelStyleCaptionLabel": {
-    "message": "Especifique o estilo do painel de tradução exibido na página web."
+    "message": "Especifique o estilo do painel de tradução exibido na página."
   },
   "widthLabel": {
     "message": "Largura"
@@ -279,16 +279,16 @@
     "message": "Exibe a página de opções quando o Simple Translate é atualizado. Você pode saber o conteúdo da atualização rapidamente."
   },
   "isDebugModeLabel": {
-    "message": "Ativar o modo de depuração"
+    "message": "Ativar modo de depuração"
   },
   "isDebugModeCaptionLabel": {
-    "message": "Quando o modo de depuração está ativado, o registro é enviado para o depurador."
+    "message": "Quando o modo de depuração é ativado, o registro de eventos é enviado ao depurador."
   },
   "resetSettingsLabel": {
-    "message": "Redefinir as configurações"
+    "message": "Redefinir configurações"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Restaurar todas as configurações para o padrão."
+    "message": "Restaura todas as configurações ao padrão."
   },
   "resetSettingsButtonLabel": {
     "message": "Redefinir"

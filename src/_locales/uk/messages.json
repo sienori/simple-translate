@@ -42,10 +42,10 @@
     "message": "af:Африканс, sq:Албанська, am:Амхарська, ar:Арабська, hy:Вірменська, az:Азербайджанська, eu:Баскська, be:Білоруська, bn:Бенгальська, bs:Боснійська, bg:Болгарська, ca:Каталонська, ceb:Себуанська, ny:Ньянджа, zh-CN:Китайська (PRC), zh-TW:Китайська (Тайвань), co:Корсиканська, hr:Хорватська, cs:Чеська, da:Данська, nl:Нідерландська, en:Англійська, eo:Есперанто, et:Естонська, fi:Фінська, fr:Французька, fy:Західно-фризька, gl:Галісійська, ka:Грузинська, de:Німецька, el:Грецька, gu:Гуджараті, ht:Гаїтянська, ha:Хауса, haw:Гавайська, he:Іврит, hi:Хінді, hu:Угорська, is:Ісландська, ig:Ігбо, id:Індонезійська, ga:Ірландська, it:Італійська, ja:Японська, jv:Яванська, kn:Каннада, kk:Казахська, km:Кхмерська, ky:Киргизька, ko:Корейська, ku:Курдська, lo:Лаоська, la:Латинська, lv:Латиська, lt:Литовська, lb:Люксембурзька, mk:Македонська, mg:Малагасійська, ms:Малайська, ml:Малаялам, mt:Мальтійська, mi:Маорі, mr:Маратхі, mn:Монгольська, hmn:Монґ, my:Бірманська, ne:Непальська, no:Норвезька, fa:Перська, pl:Польська, pt:Португальська, pa:Панджабі, ps:Пушту, ro:Ромунська, ru:Російська, sm:Самоанська, gd:Гельська (Шотландія), sr:Сербська, sn:Шона, sd:Сіндхі, si:Сингальська, sk:Словацька, sl:Словенська, so:Сомалі, sx:Сотхо, es:Іспанська, su:Сунданська, sw:Свахілі, sv:Шведська, tl:Тагалог, tg:Таджицька, ta:Тамільська, te:Телугу, th:Тайська, tr:Турецька, uk:Українська, ur:Урду, uz:Узбецька, vi:В'єтнамська, cy:Валлійська, xh:Ксоза, yi:Їдиш, yo:Йоруба, zu:Зулу"
   },
   "allLangLabel": {
-    "message": "All languages"
+    "message": "Усі мови"
   },
   "recentLangLabel": {
-    "message": "Recent languages"
+    "message": "Останні мови"
   },
   "settingsLabel": {
     "message": "Налаштування"
@@ -96,7 +96,7 @@
     "message": "Визначати мову виділеного тексту, і якщо вона співпадає зі стандартною цільовою мовою, перекласти її другою мовою."
   },
   "disableTranslationLabel": {
-    "message": "Disable translation"
+    "message": "Вимкнути переклад"
   },
   "isDisabledInTextFieldsLabel": {
     "message": "Не перекладати текстові поля"
@@ -105,10 +105,10 @@
     "message": "Не відображати кнопку перекладу і панель при виборі тексту у текстовому полі."
   },
   "isDisabledInCodeElementLabel": {
-    "message": "Disable translation in code tags"
+    "message": "Не перекладати в теґу code"
   },
   "isDisabledInCodeElementCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in code tag."
+    "message": "Не показувати кнопку перекладу чи панель коли виділено текст з теґом code."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
     "message": "Перекладати вирішною клавішою"
@@ -153,7 +153,7 @@
     "message": "Оберіть мову з якої перекладається."
   },
   "ignoredDocumentLangLabel": {
-    "message": "Disable translation by lang attribute"
+    "message": "Не перекладати за атрибутом lang"
   },
   "ignoredDocumentLangCaptionLabel": {
     "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."

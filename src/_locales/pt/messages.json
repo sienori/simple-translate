@@ -3,7 +3,7 @@
     "message": "Tradução simples"
   },
   "extDescription": {
-    "message": "Tradução rápida do texto selecionado na página. No popup da barra de ferramentas, você pode traduzir a entrada de texto."
+    "message": "Tradução rápida do texto selecionado na página. É possível traduzir texto inserindo no popup da barra de ferramentas."
   },
   "donateWithPaypalLabel": {
     "message": "Doar com PayPal"
@@ -99,7 +99,7 @@
     "message": "Desativar tradução"
   },
   "isDisabledInTextFieldsLabel": {
-    "message": "Desabilitar tradução em campos de texto"
+    "message": "Desativar tradução em campos de texto"
   },
   "isDisabledInTextFieldsCaptionLabel": {
     "message": "Não mostra o botão de traduzir ou o painel ao selecionar texto em um campo de texto."
@@ -132,7 +132,7 @@
     "message": "Command"
   },
   "disableUrlListLabel": {
-    "message": "Lista de endereços web para desabilitar a tradução"
+    "message": "Lista de links para desativar tradução"
   },
   "disableUrlListCaptionLabel": {
     "message": "Se endereço da página corresponde à lista, a tradução na página web está desativada. A lista permite curingas \"*\"."
@@ -162,10 +162,10 @@
     "message": "Tempo de espera para traduzir"
   },
   "waitTimeCaptionLabel": {
-    "message": "Especifica o tempo de espera da entrada de um caractere para o início da tradução. (milissegundos)"
+    "message": "Especifica o tempo de espera da entrada de um caractere até o início da tradução. (milissegundo)"
   },
   "waitTime2CaptionLabel": {
-    "message": "Se você traduzi-lo muitas vezes em um curto espaço de tempo, isso pode se tornar inutilizável por um tempo."
+    "message": "Se você traduzir muitas vezes em pouco tempo, pode ficar inutilizável por algum tempo."
   },
   "menuLabel": {
     "message": "Menu de contexto"
@@ -345,7 +345,7 @@
     "message": "Cartões de presentes da Amazon.co.jp"
   },
   "addonPageLabel": {
-    "message": "Página da extensão"
+    "message": "Página do add-on"
   },
   "extensionPageLabel": {
     "message": "Página da extensão"
@@ -375,7 +375,7 @@
     "message": "Traduzir o texto selecionado"
   },
   "translateLinkMenu": {
-    "message": "Traduzir o endereço selecionado"
+    "message": "Traduzir o link selecionado"
   },
   "openPopupDescription": {
     "message": "Abrir popup da barra de ferramentas"

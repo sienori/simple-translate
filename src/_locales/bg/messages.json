@@ -41,6 +41,12 @@
   "langList": {
     "message": "af:Африканс, sq:Албански, am:Амхарски, ar:Арабски, hy:Арменски, az:Азербайджански, eu:Баскски, be:Беларуски, bn:Бенгалски, bs:Босненски, bg:Български, ca:Каталонски, ceb:Себуански, ny:Нянджа, zh-CN:Китайски (КНР), zh-TW:Китайски (Тайван), co:Корсикански, hr:Хърватски, cs:Чешки, da:Датски, nl:Нидерландски, en:Английски, eo:Есперанто, et:Естонски, fi:Фински, fr:Френски, fy:Фризийски, gl:Галисийски, ka:Грузински, de:Немски, el:Гръцки, gu:Гуджаратски, ht:Хаитянски, ha:Хауса, haw:Хавайски, he:Иврит, hi:Хинди, hu:Унгарски, is:Исландски, ig:Игбо, id:Индонезийски, ga:Ирландски, it:Италиански, ja:Японски, jv:Явански, kn:Каннада, kk:Казахски, km:Кхмерски, ky:Киргизки, ko:Корейски, ku:Кюрдски, lo:Лаоски, la:Латински, lv:Латвийски, lt:Литовски, lb:Люксембургски, mk:Македонски, mg:Малгашки, ms:Малайски, ml:Малаялам, mt:Малтийски, mi:Маорски, mr:Маратхи, mn:Монголски, hmn:Монк, my:Бирмански, ne:Непалски, no:Норвежки, fa:Персийски, pl:Полски, pt:Португалски, pa:Панджабски, ps:Пущунски, ro:Румънски, ru:Руски, sm:Самоански, gd:Шотландски Келтски, sr:Сръбски, sn:Шона, sd:Синдхи, si:Синхалски, sk:Словашки, sl:Словенски, so:Сомалийски, sx:Сото, es:Испански, su:Сундански, sw:Суахили, sv:Шведски, tl:Тагалог, tg:Таджикски, ta:Тамилски, te:Телугу, th:Тайски, tr:Турски, uk:Украински, ur:Урду, uz:Узбекски, vi:Виетнамски, cy:Уелски, xh:Кхоса, yi:Идиш, yo:Йоруба, zu:Зулуски"
   },
+  "allLangLabel": {
+    "message": "All languages"
+  },
+  "recentLangLabel": {
+    "message": "Recent languages"
+  },
   "settingsLabel": {
     "message": "Настройки"
   },
@@ -89,11 +95,20 @@
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
   },
+  "disableTranslationLabel": {
+    "message": "Disable translation"
+  },
   "isDisabledInTextFieldsLabel": {
     "message": "Disable translation in text fields"
   },
   "isDisabledInTextFieldsCaptionLabel": {
     "message": "Don't display translation button or panel when selecting text in a text field."
+  },
+  "isDisabledInCodeElementLabel": {
+    "message": "Disable translation in code tags"
+  },
+  "isDisabledInCodeElementCaptionLabel": {
+    "message": "Don't display translation button or panel when selecting text in code tag."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
     "message": "Translate on modifier key pressed"
@@ -136,6 +151,12 @@
   },
   "secondTargetLangCaptionLabel": {
     "message": "Изберете втория целеви език."
+  },
+  "ignoredDocumentLangLabel": {
+    "message": "Disable translation by lang attribute"
+  },
+  "ignoredDocumentLangCaptionLabel": {
+    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
   },
   "waitTimeLabel": {
     "message": "Waiting time to translate"

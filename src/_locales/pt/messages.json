@@ -69,22 +69,22 @@
     "message": "Comportamento ao selecionar o texto"
   },
   "ifAutoTranslateLabel": {
-    "message": "Exibir o painel de tradução"
+    "message": "Exibir painel de tradução"
   },
   "ifAutoTranslateCaptionLabel": {
     "message": "Exibe o painel de tradução diretamente sem exibir o botão."
   },
   "ifShowButtonLabel": {
-    "message": "Exibir o botão de tradução"
+    "message": "Exibir botão traduzir"
   },
   "ifShowButtonCaptionLabel": {
-    "message": "Exibe o botão de tradução para abrir o painel quando clicado."
+    "message": "Exibe o botão traduzir para abrir o painel quando clicado."
   },
   "dontshowbuttonlabel": {
     "message": "Não exibir o botão ou o painel"
   },
   "dontshowbuttonCaptionlabel": {
-    "message": "Não exibe o botão de tradução ou o painel de tradução."
+    "message": "Não exibe o botão traduzir ou o painel de tradução."
   },
   "ifCheckLangLabel": {
     "message": "Não mostrar o botão se a tradução não for necessária"
@@ -93,7 +93,7 @@
     "message": "Detecta o idioma do texto selecionado e, se for o mesmo que o idioma alvo, o botão não é exibido."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detecta o idioma do texto selecionado e, se for o mesmo que o idioma alvo padrão, traduz para o segundo idioma."
+    "message": "Detecta o idioma do texto selecionado e, se for igual ao idioma alvo padrão, traduz para o segundo idioma."
   },
   "disableTranslationLabel": {
     "message": "Desativar tradução"
@@ -144,7 +144,7 @@
     "message": "Trocar automaticamente para o segundo idioma"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "Detecta o idioma do texto inserido, e se igual ao idioma alvo padrão, traduz para o segundo idioma."
+    "message": "Detecta o idioma do texto inserido e, se for igual ao idioma alvo padrão, traduz para o segundo idioma."
   },
   "secondTargetLangLabel": {
     "message": "Segundo idioma"
@@ -312,7 +312,7 @@
     "message": "Incluir Ctrl ou Alt"
   },
   "includeMacModifierKeysMessage": {
-    "message": "Incluir comando, Ctrl ou Alt"
+    "message": "Incluir Command, Ctrl ou Alt"
   },
   "invalidLetterMessage": {
     "message": "A letra não pode ser usada"
@@ -360,19 +360,19 @@
     "message": "https://addons.mozilla.org/pt-BR/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
-    "message": "Erro: Verifique o status da conexão de rede."
+    "message": "Falha: Verifique o status da conexão de rede."
   },
   "unavailableError": {
     "message": "Erro: Limite de uso do serviço atingido. Por favor, aguarde um pouco e tente novamente."
   },
   "unknownError": {
-    "message": "Erro: Erro desconhecido"
+    "message": "Falha: Erro desconhecido"
   },
   "translatePageMenu": {
     "message": "Traduzir esta página"
   },
   "translateTextMenu": {
-    "message": "Traduzir o texto selecionado"
+    "message": "Traduzir texto selecionado"
   },
   "translateLinkMenu": {
     "message": "Traduzir o link selecionado"

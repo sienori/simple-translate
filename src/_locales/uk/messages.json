@@ -96,7 +96,7 @@
     "message": "Визначати мову виділеного тексту, і якщо вона співпадає зі стандартною цільовою мовою, перекласти її другою мовою."
   },
   "disableTranslationLabel": {
-    "message": "Вимкнути переклад"
+    "message": "Заборонити переклад"
   },
   "isDisabledInTextFieldsLabel": {
     "message": "Не перекладати текстові поля"
@@ -105,7 +105,7 @@
     "message": "Не відображати кнопку перекладу і панель при виборі тексту у текстовому полі."
   },
   "isDisabledInCodeElementLabel": {
-    "message": "Не перекладати в теґу code"
+    "message": "Не перекладати текст з теґом code"
   },
   "isDisabledInCodeElementCaptionLabel": {
     "message": "Не показувати кнопку перекладу чи панель коли виділено текст з теґом code."
@@ -156,7 +156,7 @@
     "message": "Не перекладати за атрибутом lang"
   },
   "ignoredDocumentLangCaptionLabel": {
-    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
+    "message": "Заборонити переклад, якщо атрибут lang в елементі html відповідає списку. Введіть, розділені комами, теґи мов."
   },
   "waitTimeLabel": {
     "message": "Час очікування для перекладу"

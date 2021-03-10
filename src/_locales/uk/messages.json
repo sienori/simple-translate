@@ -219,7 +219,7 @@
     "message": "Зверху"
   },
   "bottomLabel": {
-    "message": "Внизу"
+    "message": "Знизу"
   },
   "leftLabel": {
     "message": "Зліва"
@@ -234,7 +234,7 @@
     "message": "Панель перекладу"
   },
   "panelStyleCaptionLabel": {
-    "message": "Налаштування стилю панелі перекладу, що відображається на веб-сторінці."
+    "message": "Налаштування стилю панелі перекладу, що відображається на вебсторінці."
   },
   "widthLabel": {
     "message": "Ширина"
@@ -282,7 +282,7 @@
     "message": "Увімкнути режим зневадження"
   },
   "isDebugModeCaptionLabel": {
-    "message": "Коли увімкнено режим зневадження, лоґ виводиться до дебаґґера."
+    "message": "Коли ввімкнено режим зневадження, журнал виводиться до зневаджувача."
   },
   "resetSettingsLabel": {
     "message": "Скинути налаштування"
@@ -300,10 +300,10 @@
     "message": "Налаштування клавіш"
   },
   "setKeyboardShortCutsMessage": {
-    "message": "Налаштування швидких клавіш."
+    "message": "Налаштування комбінацій клавіш."
   },
   "typeShortcutMessage": {
-    "message": "Введіть скорочення"
+    "message": "Введіть комбінацію"
   },
   "typeLetterMessage": {
     "message": "Введіть букву"
@@ -315,10 +315,10 @@
     "message": "Використовуйте Command, Ctrl або Alt"
   },
   "invalidLetterMessage": {
-    "message": "Ця буква не може бути використана"
+    "message": "Цю букву не можна використовувати"
   },
   "invalidShortcutMessage": {
-    "message": "Ця комбінація не може бути використана"
+    "message": "Цю комбінацію не можна використовувати"
   },
   "clear": {
     "message": "Очистити"

@@ -41,6 +41,12 @@
   "langList": {
     "message": "af:Afrikaanca, sq:Arnavutça, am:Amharca, ar:Arapça, hy:Ermenice, az:Azerice, eu:Baskça, be:Belarusça, bn:Bengalce, bs:Boşnakça, bg:Bulgarca, ca:Katalanca, ceb:Sabuanca, ny:Çevaca, zh-CN:Çince (Çin Halk Cumhuriyeti), zh-TW:Çince (Tayvan), co:Korsikaca, hr:Hırvatça, cs:Çekçe, da:Danimarkaca, nl:Flemenkçe, en:İngilizce, eo:Esperanto, et:Estonca, fi:Fince, fr:Fransızca, fy:Frizce, gl:Galiçyaca, ka:Gürcüce, de:Almanca, el:Yunanca, gu:Guceratça, ht:Haitice, ha:Hausaca, haw:Hawai Dili, he:İbranice, hi:Hintçe, hu:Macarca, is:İzlandaca, ig:İgbo Dili, id:Endonezyaca, ga:İrlandaca, it:İtalyanca, ja:Japonca, jv:Cavaca, kn:Kannada Dili, kk:Kazakça, km:Kmerce, ky:Kırgızca, ko:Korece, ku:Kürtçe, lo:Laoca, la:Latince, lv:Letonca, lt:Litvanca, lb:Lüksemburgca, mk:Makedonca, mg:Malgaşça, ms:Malayca, ml:Malayalamca, mt:Maltaca, mi:Maorice, mr:Marathi, mn:Moğolca, hmn:Monk Dili, my:Birmanca, ne:Nepalce, no:Norveççe, fa:Farsça, pl:Polonyaca, pt:Portekizce, pa:Pencapça, ps:Peştuca, ro:Rumence, ru:Rusça, sm:Samoaca, gd:İskoçça, sr:Sırpça, sn:Shona Dili, sd:Sindhi, si:Seylanca, sk:Slovakça, sl:Slovence, so:Somalice, sx:Sotho Dili, es:İspanyolca, su:Sundaca, sw:Svahili, sv:İsveççe, tl:Tagalogca, tg:Tacikçe, ta:Tamilce, te:Teluguca, th:Tayca, tr:Türkçe, uk:Ukraynaca, ur:Urduca, uz:Özbekçe, vi:Vietnamca, cy:Galce, xh:Xosa Dili, yi:Yidiş, yo:Yoruba Dili, zu:Zuluca"
   },
+  "allLangLabel": {
+    "message": "All languages"
+  },
+  "recentLangLabel": {
+    "message": "Recent languages"
+  },
   "settingsLabel": {
     "message": "Ayarlar"
   },
@@ -89,11 +95,20 @@
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "Seçili metnin dilini algılar ve varsayılan hedef dille aynıysa, ikinci dile çevirir."
   },
+  "disableTranslationLabel": {
+    "message": "Disable translation"
+  },
   "isDisabledInTextFieldsLabel": {
     "message": "Metin alanlarındaki çeviriyi devre dışı bırakın"
   },
   "isDisabledInTextFieldsCaptionLabel": {
     "message": "Bir metin alanında metin seçerken çeviri butonunu veya paneli görüntülemeyin."
+  },
+  "isDisabledInCodeElementLabel": {
+    "message": "Disable translation in code tags"
+  },
+  "isDisabledInCodeElementCaptionLabel": {
+    "message": "Don't display translation button or panel when selecting text in code tag."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
     "message": "Translate on modifier key pressed"
@@ -136,6 +151,12 @@
   },
   "secondTargetLangCaptionLabel": {
     "message": "İkinci hedef dilini seçin."
+  },
+  "ignoredDocumentLangLabel": {
+    "message": "Disable translation by lang attribute"
+  },
+  "ignoredDocumentLangCaptionLabel": {
+    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
   },
   "waitTimeLabel": {
     "message": "Çevirmek için bekleme süresi"

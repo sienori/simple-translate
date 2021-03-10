@@ -41,6 +41,12 @@
   "langList": {
     "message": "af:afrikáans, sq:albanés, am:amhárico, ar:árabe, hy:armenio, az:azerí, eu:euskera, be:bielorruso, bn:bengalí, bs:bosnio, bg:búlgaro, ca:catalán, ceb:cebuano, ny:chichewa, zh-CN:chino (simplificado), zh-TW:chino (tradicional), co:corso, hr:croata, cs:checo, da:danés, nl:neerlandés, en:inglés, eo:esperanto, et:estonio, fi:finlandés, fr:francés, fy:frisio, gl:gallego, ka:georgiano, de:alemán, el:griego, gu:gujarati, ht:haitiano, ha:hausa, haw:hawaiano, he:hebreo, hi:hindi, hu:húngaro, is:islandés, ig:igbo, id:indonesio, ga:irlandés, it:italiano, ja:japonés, jv:javanés, kn:canarés, kk:kazajo, km:khmer, ky:kirguís, ko:coreano, ku:kurdo, lo:lao, la:latín, lv:letón, lt:lituano, lb:luxemburgués, mk:macedonio, mg:malgache, ms:malayo, ml:malayalam, mt:maltés, mi:maorí, mr:maratí, mn:mongol, hmn:hmong, my:birmano, ne:nepalí, no:noruego, fa:persa, pl:polaco, pt:portugués, pa:panyabí, ps:pastún, ro:Rumano, ru:ruso, sm:samoano, gd:gaélico escocés, sr:serbio, sn:shona, sd:sindhi, si:cingalés, sk:eslovaco, sl:esloveno, so:somalí, st:sesoto, es:español, su:sundanés, sw:suajili, sv:sueco, tl:tagalo, tg:tayico, ta:tamil, te:telugu, th:tailandés, tr:turco, uk:ucraniano, ur:urdu, uz:uzbeko, vi:vietnamita, cy:galés, xh:xhosa, yi:yidis, yo:yoruba, zu:zulú"
   },
+  "allLangLabel": {
+    "message": "All languages"
+  },
+  "recentLangLabel": {
+    "message": "Recent languages"
+  },
   "settingsLabel": {
     "message": "Configuración"
   },
@@ -89,23 +95,32 @@
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "Detecta el idioma del texto seleccionado y, si es el mismo que el idioma de destino por defecto, traduce el texto al segundo idioma."
   },
+  "disableTranslationLabel": {
+    "message": "Disable translation"
+  },
   "isDisabledInTextFieldsLabel": {
     "message": "Desactivar la traducción en los campos de texto"
   },
   "isDisabledInTextFieldsCaptionLabel": {
     "message": "No muestra el botón ni el panel de traducción al seleccionar texto en un campo de texto."
   },
+  "isDisabledInCodeElementLabel": {
+    "message": "Disable translation in code tags"
+  },
+  "isDisabledInCodeElementCaptionLabel": {
+    "message": "Don't display translation button or panel when selecting text in code tag."
+  },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Translate on modifier key pressed"
+    "message": "Traducir al presionar la tecla modificadora"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Only display translation on specified modifier key pressed."
+    "message": "Solo muestra la traducción al presionar la tecla modificadora especificada."
   },
   "modifierKeyLabel": {
-    "message": "Modifier Key"
+    "message": "Tecla modificadora"
   },
   "shiftLabel": {
-    "message": "Shift"
+    "message": "Mayús"
   },
   "ctrlLabel": {
     "message": "Ctrl"
@@ -137,6 +152,12 @@
   "secondTargetLangCaptionLabel": {
     "message": "Seleccione el segundo idioma de destino."
   },
+  "ignoredDocumentLangLabel": {
+    "message": "Disable translation by lang attribute"
+  },
+  "ignoredDocumentLangCaptionLabel": {
+    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
+  },
   "waitTimeLabel": {
     "message": "Tiempo de espera para traducir"
   },
@@ -159,16 +180,16 @@
     "message": "Estilo"
   },
   "themeLabel": {
-    "message": "Theme"
+    "message": "Tema"
   },
   "themeCaptionLabel": {
-    "message": "Specify the color scheme."
+    "message": "Especifique el esquema de color."
   },
   "lightLabel": {
-    "message": "Light"
+    "message": "Claro"
   },
   "darkLabel": {
-    "message": "Dark"
+    "message": "Oscuro"
   },
   "buttonStyleLabel": {
     "message": "Botón de traducción"
@@ -330,7 +351,7 @@
     "message": "Página de la extensión"
   },
   "privacyPolicyLabel": {
-    "message": "Privacy policy"
+    "message": "Política de privacidad"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"

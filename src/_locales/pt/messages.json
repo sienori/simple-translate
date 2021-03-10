@@ -41,6 +41,12 @@
   "langList": {
     "message": "af:Africâner, sq:Albanês, am:Amárico, ar:Árabe, hy:Armênio, az:Azeri, eu:Basco, be:Bielorrusso, bn:Bengali, bs:Bósnio, bg:Búlgaro, ca:Catalão, ceb:Cebuano, ny:Nianja, zh-CN:Mandarim Chinês Padrão, zh-TW:Mandarim Taiuanês, co:Corso, hr:Croata, cs:Tcheco, da:Dinamarquês, nl:Holandês, en:Inglês, eo:Esperanto, et:Estoniano, fi:Finlandês, fr:Francês, fy:Frísio, gl:Galego, ka:Georgiano, de:Alemão, el:Grego, gu:Guzerate, ht:Haitiano, ha:Hauçá, haw:Havaiano, he:Hebraico, hi:Hindi, hu:Húngaro, is:Islandês, ig:Igbo, id:Indonésia, ga:Irlandês, it:Italiano, ja:Japonês, jv:Javanês, kn:Canarim, kk:Cazaque, km:Khmer, ky:Quirguiz, ko:Coreano, ku:Curdo, lo:Laosiano, la:Latim, lv:Letão, lt:Lituano, lb:Luxemburguês, mk:Macedônio, mg:Malgaxe, ms:Malaio, ml:Malaiala, mt:Maltês, mi:Maori, mr:Marata, mn:Mongol, hmn:Monk, my:Birmanês, ne:Nepali, no:Norueguês, fa:Persa, pl:Polonês, pt:Português, pa:Panjabi, ps:Pachto, ro:Romeno, ru:Russo, sm:Samoano, gd:Gaélico Escocês, sr:Sérvio, sn:Xona, sd:Sindi, si:Cingalês, sk:Eslovaco, sl:Esloveno, so:Somali, sx:Sesoto, es:Espanhol, su:Sundanês, sw:Suaíli, sv:Sueco, tl:Tagalog (Filipino), tg:Tajique, ta:Tâmil, te:Telugo, th:Tailandês, tr:Turco, uk:Ucraniano, ur:Urdu, uz:Usbeque, vi:Vietnamita, cy:Galês, xh:Xhosa, yi:Iídiche, yo:Iorubá, zu:Zulu"
   },
+  "allLangLabel": {
+    "message": "All languages"
+  },
+  "recentLangLabel": {
+    "message": "Recent languages"
+  },
   "settingsLabel": {
     "message": "Configurações"
   },
@@ -89,20 +95,29 @@
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "Detecta o idioma do texto selecionado e, se for o mesmo que o idioma alvo padrão, traduz para o segundo idioma."
   },
+  "disableTranslationLabel": {
+    "message": "Desativar tradução"
+  },
   "isDisabledInTextFieldsLabel": {
     "message": "Desabilitar tradução em campos de texto"
   },
   "isDisabledInTextFieldsCaptionLabel": {
     "message": "Não mostra o botão de traduzir ou o painel ao selecionar texto em um campo de texto."
   },
+  "isDisabledInCodeElementLabel": {
+    "message": "Desativar tradução em tags de código"
+  },
+  "isDisabledInCodeElementCaptionLabel": {
+    "message": "Don't display translation button or panel when selecting text in code tag."
+  },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Translate on modifier key pressed"
+    "message": "Traduzir ao pressionar a tecla modificadora"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Only display translation on specified modifier key pressed."
+    "message": "Exibe a tradução apenas ao pressionar a tecla modificadora especificada."
   },
   "modifierKeyLabel": {
-    "message": "Modifier Key"
+    "message": "Tecla modificadora"
   },
   "shiftLabel": {
     "message": "Shift"
@@ -123,7 +138,7 @@
     "message": "Se endereço da página corresponde à lista, a tradução na página web está desativada. A lista permite curingas \"*\"."
   },
   "toolbarLabel": {
-    "message": "Pop-up da barra de ferramentas"
+    "message": "Popup da barra de ferramentas"
   },
   "ifChangeSecondLangLabel": {
     "message": "Trocar automaticamente para o segundo idioma"
@@ -136,6 +151,12 @@
   },
   "secondTargetLangCaptionLabel": {
     "message": "Selecione o segundo idioma alvo."
+  },
+  "ignoredDocumentLangLabel": {
+    "message": "Desativar tradução por atributo lang"
+  },
+  "ignoredDocumentLangCaptionLabel": {
+    "message": "Desativa a tradução se o atributo lang no elemento html da página corresponder à lista. Insira tags de idioma separadas por vírgulas."
   },
   "waitTimeLabel": {
     "message": "Tempo de espera para traduzir"
@@ -159,16 +180,16 @@
     "message": "Estilo"
   },
   "themeLabel": {
-    "message": "Theme"
+    "message": "Tema"
   },
   "themeCaptionLabel": {
-    "message": "Specify the color scheme."
+    "message": "Especifique o esquema de cores."
   },
   "lightLabel": {
-    "message": "Light"
+    "message": "Claro"
   },
   "darkLabel": {
-    "message": "Dark"
+    "message": "Escuro"
   },
   "buttonStyleLabel": {
     "message": "Botão de tradução"
@@ -252,16 +273,16 @@
     "message": "Outros"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Exibir página de opção ao atualizar"
+    "message": "Exibir página de opções ao atualizar"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Exibir a página de opções quando a tradução simples é atualizada. Você pode saber o conteúdo da atualização rapidamente."
+    "message": "Exibe a página de opções quando o Simple Translate é atualizado. Você pode saber o conteúdo da atualização rapidamente."
   },
   "isDebugModeLabel": {
     "message": "Ativar o modo de depuração"
   },
   "isDebugModeCaptionLabel": {
-    "message": "Quando o modo de depuração estiver ativado, o log é saída para o depurador."
+    "message": "Quando o modo de depuração está ativado, o registro é enviado para o depurador."
   },
   "resetSettingsLabel": {
     "message": "Redefinir as configurações"
@@ -270,7 +291,7 @@
     "message": "Restaurar todas as configurações para o padrão."
   },
   "resetSettingsButtonLabel": {
-    "message": "Resetar"
+    "message": "Redefinir"
   },
   "shortcutsLabel": {
     "message": "Atalhos"
@@ -279,10 +300,10 @@
     "message": "Atalhos do teclado"
   },
   "setKeyboardShortCutsMessage": {
-    "message": "Configurar Atalho no Teclado."
+    "message": "Definir atalhos do teclado."
   },
   "typeShortcutMessage": {
-    "message": "Digita um atalho"
+    "message": "Digite um atalho"
   },
   "typeLetterMessage": {
     "message": "Digite uma letra"
@@ -303,7 +324,7 @@
     "message": "Limpar"
   },
   "reset": {
-    "message": "Resetar"
+    "message": "Redefinir"
   },
   "informationLabel": {
     "message": "Informação"

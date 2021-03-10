@@ -41,6 +41,12 @@
   "langList": {
     "message": "af:Afrikanisch, sq:Albanisch, am:Amharisch, ar:Arabisch, hy:Armenisch, az:Aserbeidschanisch, eu:Baskisch, be:Weißrussisch, bn:Bengalisch, bs:Bosnisch, bg:Bulgarisch, ca:Katalanisch, ceb:Cebuano, ny:Nyanja, zh-CN:Chinesisch (VRC), zh-TW:Chinesisch (Taiwan), co:Korsisch, hr:Kroatisch, cs:Tschechisch, da:Dänisch, nl:Niederländisch, en:Englisch, eo:Esperanto, et:Estnisch, fi:Finnisch, fr:Französisch, fy:Friesisch, gl:Galicisch, ka:Georgisch, de:Deutsch, el:Griechisch, gu:Gujarati, ht:Haitien, ha:Haussa, haw:Hawaiisch, he:Hebräisch, hi:Hindi, hu:Ungarisch, is:Isländisch, ig:Ibo, id:Indonesisch, ga:Irisch, it:Italienisch, ja:Japanisch, jv:Javanisch, kn:Kanadisch, kk:Kasachisch, km:Khmer, ky:Kirgisisch, ko:Koreanisch, ku:Kurdisch, lo:Laotisch, la:Latein, lv:Lettisch, lt:Litauisch, lb:Luxemburgisch, mk:Makedonisch, mg:Malagassi, ms:Malaiisch, ml:Malayalam, mt:Maltesisch, mi:Maori, mr:Marathi, mn:Mongolisch, hmn:Miao, my:Birmanisch, ne:Nepali, no:Norwegisch, fa:Persisch, pl:Polnisch, pt:Portugiesisch, pa:Pandschabi, ps:Paschtu, ro:Rumänisch, ru:Russisch, sm:Samoanisch, gd:Gälisch-Schottisch, sr:Serbisch, sn:Schona, sd:Sindhi, si:Singhalesisch, sk:Slowakisch, sl:Slowenisch, so:Somali, sx:Sotho, es:Spanisch, su:Sundanesisch, sw:Swahili, sv:Schwedisch, tl:Tagalog, tg:Tadschikisch, ta:Tamil, te:Telugu, th:Thailändisch, tr:Türkisch, uk:Ukrainisch, ur:Urdu, uz:Usbekisch, vi:Vietnamesisch, cy:Kymrisch, xh:Xhosa, yi:Jiddisch, yo:Yoruba, zu:Zulu"
   },
+  "allLangLabel": {
+    "message": "All languages"
+  },
+  "recentLangLabel": {
+    "message": "Recent languages"
+  },
   "settingsLabel": {
     "message": "Einstellungen"
   },
@@ -89,11 +95,20 @@
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "Erkennt die Sprache des ausgewählten Textes, und wenn sie mit der Standard-Zielsprache übereinstimmt, übersetzen Sie sie in die zweite Sprache."
   },
+  "disableTranslationLabel": {
+    "message": "Übersetzung ausschalten"
+  },
   "isDisabledInTextFieldsLabel": {
     "message": "Übersetzung in Textfeldern deaktivieren"
   },
   "isDisabledInTextFieldsCaptionLabel": {
     "message": "Zeigt keine Übersetzungsschaltfläche oder -panel an, wenn ein Text in einem Textfeld markiert wird."
+  },
+  "isDisabledInCodeElementLabel": {
+    "message": "Disable translation in code tags"
+  },
+  "isDisabledInCodeElementCaptionLabel": {
+    "message": "Don't display translation button or panel when selecting text in code tag."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
     "message": "Translate on modifier key pressed"
@@ -105,10 +120,10 @@
     "message": "Modifier Key"
   },
   "shiftLabel": {
-    "message": "Shift"
+    "message": "Umschalttaste"
   },
   "ctrlLabel": {
-    "message": "Ctrl"
+    "message": "Strg"
   },
   "altLabel": {
     "message": "Alt"
@@ -137,6 +152,12 @@
   "secondTargetLangCaptionLabel": {
     "message": "Zweitsprache wählen."
   },
+  "ignoredDocumentLangLabel": {
+    "message": "Disable translation by lang attribute"
+  },
+  "ignoredDocumentLangCaptionLabel": {
+    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
+  },
   "waitTimeLabel": {
     "message": "Wartezeit bis zur Übersetzung"
   },
@@ -162,13 +183,13 @@
     "message": "Theme"
   },
   "themeCaptionLabel": {
-    "message": "Specify the color scheme."
+    "message": "Farbschema festlegen."
   },
   "lightLabel": {
-    "message": "Light"
+    "message": "Hell"
   },
   "darkLabel": {
-    "message": "Dark"
+    "message": "Dunkel"
   },
   "buttonStyleLabel": {
     "message": "Übersetzen-Knopf"
@@ -330,7 +351,7 @@
     "message": "Erweiterungs Seite"
   },
   "privacyPolicyLabel": {
-    "message": "Privacy policy"
+    "message": "Datenschutzrichtlinien"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"

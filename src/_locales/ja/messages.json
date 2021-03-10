@@ -41,6 +41,12 @@
   "langList": {
     "message": "af:アフリカーンス語, sq:アルバニア語, am:アムハラ語, ar:アラビア語, hy:アルメニア語, az:アゼルバイジャン語, eu:バスク語, be:ベラルーシ語, bn:ベンガル語, bs:ボスニア語, bg:ブルガリア語, ca:カタルーニャ語, ceb:セブアノ語, ny:チェワ語, zh-CN:中国語 (簡体), zh-TW:中国語 (繁体), co:コルシカ語, hr:クロアチア語, cs:チェコ語, da:デンマーク語, nl:オランダ語, en:英語, eo:エスペラント語, et:エストニア語, fi:フィンランド語, fr:フランス語, fy:フリジア語, gl:ガリシア語, ka:ジョージア(グルジア)語, de:ドイツ語, el:ギリシャ語, gu:グジャラト語, ht:ハイチ語, ha:ハウサ語, haw:ハワイ語, he:ヘブライ語, hi:ヒンディー語, hu:ハンガリー語, is:アイスランド語, ig:イボ語, id:インドネシア語, ga:アイルランド語, it:イタリア語, ja:日本語, jv:ジャワ語, kn:カンナダ語, kk:カザフ語, km:クメール語, ky:キルギス語, ko:韓国語, ku:クルド語, lo:ラオ語, la:ラテン語, lv:ラトビア語, lt:リトアニア語, lb:ルクセンブルク語, mk:マケドニア語, mg:マラガシ語, ms:マレー語, ml:マラヤーラム語, mt:マルタ語, mi:マオリ語, mr:マラーティー語, mn:モンゴル語, hmn:モン語, my:ミャンマー語, ne:ネパール語, no:ノルウェー語, fa:ペルシャ語, pl:ポーランド語, pt:ポルトガル語, pa:パンジャブ語, ps:パシュト語, ro:ルーマニア語, ru:ロシア語, sm:サモア語, gd:スコットランド ゲール語, sr:セルビア語, sn:ショナ語, sd:シンド語, si:シンハラ語, sk:スロバキア語, sl:スロベニア語, so:ソマリ語, sx:ソト語, es:スペイン語, su:スンダ語, sw:スワヒリ語, sv:スウェーデン語, tl:タガログ語, tg:タジク語, ta:タミル語, te:テルグ語, th:タイ語, tr:トルコ語, uk:ウクライナ語, ur:ウルドゥ語, uz:ウズベク語, vi:ベトナム語, cy:ウェールズ語, xh:コーサ語, yi:イディッシュ語, yo:ヨルバ語, zu:ズールー語"
   },
+  "allLangLabel": {
+    "message": "すべての言語"
+  },
+  "recentLangLabel": {
+    "message": "最近使用した言語"
+  },
   "settingsLabel": {
     "message": "設定"
   },
@@ -89,11 +95,20 @@
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "選択されたテキストの言語を検出し，デフォルトの翻訳先言語と同じ場合には第二言語に翻訳します。"
   },
+  "disableTranslationLabel": {
+    "message": "翻訳の無効化"
+  },
   "isDisabledInTextFieldsLabel": {
     "message": "テキストフィールド内での翻訳を無効にする"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "テキストフィールド内のテキストが選択されたとき、翻訳ボタンや翻訳パネルを表示しません。"
+    "message": "テキストフィールド内のテキストが選択されたとき，翻訳ボタンや翻訳パネルを表示しません。"
+  },
+  "isDisabledInCodeElementLabel": {
+    "message": "コードタグ内での翻訳を無効にする"
+  },
+  "isDisabledInCodeElementCaptionLabel": {
+    "message": "コードタグ内のテキストが選択されたとき，翻訳ボタンや翻訳パネルを表示しません。"
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
     "message": "修飾キーが押されたときに翻訳する"
@@ -136,6 +151,12 @@
   },
   "secondTargetLangCaptionLabel": {
     "message": "第二言語を指定します。"
+  },
+  "ignoredDocumentLangLabel": {
+    "message": "lang属性によって翻訳を無効にする"
+  },
+  "ignoredDocumentLangCaptionLabel": {
+    "message": "ページのhtml要素に含まれるlang属性がリストに一致する場合，翻訳を無効にします。カンマ区切りで言語タグを入力してください。"
   },
   "waitTimeLabel": {
     "message": "翻訳までの待ち時間"

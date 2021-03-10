@@ -3,19 +3,19 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Швидкий переклад тексту на веб-сторінці. Текст для перекладу можна вводити у виринаючому вікні на панелі інструментів."
+    "message": "Швидко перекладає виділений текст на вебсторінці. Текст можна вводити у вікні на панелі інструментів."
   },
   "donateWithPaypalLabel": {
-    "message": "Пожертвувати через PayPal"
+    "message": "Офірувати через PayPal"
   },
   "donateLabel": {
     "message": "Підтримати"
   },
   "enableOnThisPage": {
-    "message": "Увімкнути переклад на цій сторінці"
+    "message": "Дозволити переклад на цій сторінці"
   },
   "disableOnThisPage": {
-    "message": "Вимкнути переклад на цій сторінці"
+    "message": "Заборонити переклад на цій сторінці"
   },
   "initialTextArea": {
     "message": "Введіть текст"
@@ -24,7 +24,7 @@
     "message": "Перекласти всю сторінку"
   },
   "openInGoogleLabel": {
-    "message": "Відкрити в Google Translate"
+    "message": "Відкрити в перекладачі Google"
   },
   "copyLabel": {
     "message": "Копіювати"
@@ -33,13 +33,19 @@
     "message": "Скопійовано."
   },
   "listenLabel": {
-    "message": "Прослухати"
+    "message": "Слухати"
   },
   "targetLangLabel": {
     "message": "Цільова мова"
   },
   "langList": {
-    "message": "af:Африканс, sq:Албанська, am:Амхарська, ar:Арабська, hy:Вірменська, az:Азербайджанська, eu:Баскська, be:Білоруська, bn:Бенгальська, bs:Боснійська, bg:Болгарська, ca:Каталонська, ceb:Себуанська, ny:Ньянджа, zh-CN:Китайська (PRC), zh-TW:Китайська (Тайвань), co:Корсиканська, hr:Хорватська, cs:Чеська, da:Данська, nl:Нідерландська, en:Англійська, eo:Есперанто, et:Естонська, fi:Фінська, fr:Французька, fy:Західно-фризька, gl:Галісійська, ka:Грузинська, de:Німецька, el:Грецька, gu:Гуджараті, ht:Гаїтянська, ha:Хауса, haw:Гавайська, he:Іврит, hi:Хінді, hu:Угорська, is:Ісландська, ig:Ігбо, id:Індонезійська, ga:Ірландська, it:Італійська, ja:Японська, jv:Яванська, kn:Каннада, kk:Казахська, km:Кхмерська, ky:Киргизька, ko:Корейська, ku:Курдська, lo:Лаоська, la:Латинська, lv:Латиська, lt:Литовська, lb:Люксембурзька, mk:Македонська, mg:Малагасійська, ms:Малайська, ml:Малаялам, mt:Мальтійська, mi:Маорі, mr:Маратхі, mn:Монгольська, hmn:Монґ, my:Бірманська, ne:Непальська, no:Норвезька, fa:Перська, pl:Польська, pt:Португальська, pa:Панджабі, ps:Пушту, ro:Ромунська, ru:Російська, sm:Самоанська, gd:Гельська (Шотландія), sr:Сербська, sn:Шона, sd:Сіндхі, si:Сингальська, sk:Словацька, sl:Словенська, so:Сомалі, sx:Сотхо, es:Іспанська, su:Сунданська, sw:Свахілі, sv:Шведська, tl:Тагалог, tg:Таджицька, ta:Тамільська, te:Телугу, th:Тайська, tr:Турецька, uk:Українська, ur:Урду, uz:Узбецька, vi:В’єтнамська, cy:Валлійська, xh:Ксоза, yi:Їдиш, yo:Йоруба, zu:Зулу"
+    "message": "af:Африканс, sq:Албанська, am:Амхарська, ar:Арабська, hy:Вірменська, az:Азербайджанська, eu:Баскська, be:Білоруська, bn:Бенгальська, bs:Боснійська, bg:Болгарська, ca:Каталонська, ceb:Себуанська, ny:Ньянджа, zh-CN:Китайська (PRC), zh-TW:Китайська (Тайвань), co:Корсиканська, hr:Хорватська, cs:Чеська, da:Данська, nl:Нідерландська, en:Англійська, eo:Есперанто, et:Естонська, fi:Фінська, fr:Французька, fy:Західно-фризька, gl:Галісійська, ka:Грузинська, de:Німецька, el:Грецька, gu:Гуджараті, ht:Гаїтянська, ha:Хауса, haw:Гавайська, he:Іврит, hi:Хінді, hu:Угорська, is:Ісландська, ig:Ігбо, id:Індонезійська, ga:Ірландська, it:Італійська, ja:Японська, jv:Яванська, kn:Каннада, kk:Казахська, km:Кхмерська, ky:Киргизька, ko:Корейська, ku:Курдська, lo:Лаоська, la:Латинська, lv:Латиська, lt:Литовська, lb:Люксембурзька, mk:Македонська, mg:Малагасійська, ms:Малайська, ml:Малаялам, mt:Мальтійська, mi:Маорі, mr:Маратхі, mn:Монгольська, hmn:Монґ, my:Бірманська, ne:Непальська, no:Норвезька, fa:Перська, pl:Польська, pt:Португальська, pa:Панджабі, ps:Пушту, ro:Ромунська, ru:Російська, sm:Самоанська, gd:Гельська (Шотландія), sr:Сербська, sn:Шона, sd:Сіндхі, si:Сингальська, sk:Словацька, sl:Словенська, so:Сомалі, sx:Сотхо, es:Іспанська, su:Сунданська, sw:Свахілі, sv:Шведська, tl:Тагалог, tg:Таджицька, ta:Тамільська, te:Телугу, th:Тайська, tr:Турецька, uk:Українська, ur:Урду, uz:Узбецька, vi:В'єтнамська, cy:Валлійська, xh:Ксоза, yi:Їдиш, yo:Йоруба, zu:Зулу"
+  },
+  "allLangLabel": {
+    "message": "All languages"
+  },
+  "recentLangLabel": {
+    "message": "Recent languages"
   },
   "settingsLabel": {
     "message": "Налаштування"
@@ -48,10 +54,10 @@
     "message": "Загальне"
   },
   "targetLangCaptionLabel": {
-    "message": "Мова на яку перекладається."
+    "message": "Оберіть мову на яку перекладається."
   },
   "webPageLabel": {
-    "message": "Веб-сторінка"
+    "message": "Вебсторінка"
   },
   "ifShowCandidateLabel": {
     "message": "Показувати варіанти перекладу"
@@ -60,7 +66,7 @@
     "message": "Показувати варіанти перекладу, коли перекладається одне слово."
   },
   "whenSelectTextLabel": {
-    "message": "Якщо виділено текст"
+    "message": "Коли виділено текст"
   },
   "ifAutoTranslateLabel": {
     "message": "Показувати панель перекладу"
@@ -89,20 +95,29 @@
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "Визначати мову виділеного тексту, і якщо вона співпадає зі стандартною цільовою мовою, перекласти її другою мовою."
   },
+  "disableTranslationLabel": {
+    "message": "Disable translation"
+  },
   "isDisabledInTextFieldsLabel": {
     "message": "Не перекладати текстові поля"
   },
   "isDisabledInTextFieldsCaptionLabel": {
     "message": "Не відображати кнопку перекладу і панель при виборі тексту у текстовому полі."
   },
+  "isDisabledInCodeElementLabel": {
+    "message": "Disable translation in code tags"
+  },
+  "isDisabledInCodeElementCaptionLabel": {
+    "message": "Don't display translation button or panel when selecting text in code tag."
+  },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Translate on modifier key pressed"
+    "message": "Перекладати вирішною клавішою"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Only display translation on specified modifier key pressed."
+    "message": "Відображати переклад лише при натиснутій вирішній клавіші."
   },
   "modifierKeyLabel": {
-    "message": "Modifier Key"
+    "message": "Вирішна клавіша"
   },
   "shiftLabel": {
     "message": "Shift"
@@ -135,7 +150,13 @@
     "message": "Друга мова"
   },
   "secondTargetLangCaptionLabel": {
-    "message": "Мова з якої перекладається."
+    "message": "Оберіть мову з якої перекладається."
+  },
+  "ignoredDocumentLangLabel": {
+    "message": "Disable translation by lang attribute"
+  },
+  "ignoredDocumentLangCaptionLabel": {
+    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
   },
   "waitTimeLabel": {
     "message": "Час очікування для перекладу"
@@ -159,16 +180,16 @@
     "message": "Стиль"
   },
   "themeLabel": {
-    "message": "Theme"
+    "message": "Тема"
   },
   "themeCaptionLabel": {
-    "message": "Specify the color scheme."
+    "message": "Виберіть кольорову схему."
   },
   "lightLabel": {
-    "message": "Light"
+    "message": "Світла"
   },
   "darkLabel": {
-    "message": "Dark"
+    "message": "Темна"
   },
   "buttonStyleLabel": {
     "message": "Кнопка перекладу"
@@ -318,7 +339,7 @@
     "message": "Зробіть пожертву, будь ласка"
   },
   "donationCaptionLabel": {
-    "message": "Дякую за те, що використовуєте Simple Translate.<br>Ваша підтримка буде великим стимулом продовжувати розробку цього додатку.<br>Якщо вам подобається Simple Translate, буду дуже вдячний вашим пожертвуванням."
+    "message": "Дякую за те, що користуєтеся Simple Translate.<br>Ваша підтримка буде великим стимулом продовжувати розробку цього додатка.<br>Якщо вам подобається Simple Translate, буду вдячним за ваші пожертвування."
   },
   "amazonTitleLabel": {
     "message": "Картки amazon.co.jp eGift"
@@ -327,10 +348,10 @@
     "message": "Сторінка додатка"
   },
   "extensionPageLabel": {
-    "message": "Сторінка додатку"
+    "message": "Сторінка додатка"
   },
   "privacyPolicyLabel": {
-    "message": "Privacy policy"
+    "message": "Політика приватності"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
@@ -342,7 +363,7 @@
     "message": "Помилка: Перевірте з'єднання з інтернетом."
   },
   "unavailableError": {
-    "message": "Помилка: Ліміт використання сервісу вичирпано. Зачекайте трохи і повторіть ще раз."
+    "message": "Помилка: Ліміт використання сервісу вичерпано. Зачекайте трохи і повторіть ще раз."
   },
   "unknownError": {
     "message": "Помилка: Невідома помилка"

@@ -60,10 +60,10 @@
     "message": "Página"
   },
   "ifShowCandidateLabel": {
-    "message": "Mostrar candidatos à tradução"
+    "message": "Mostrar candidatos de tradução"
   },
   "ifShowCandidateCaptionLabel": {
-    "message": "Mostrar vários candidatos à tradução quando uma única palavra é traduzida."
+    "message": "Mostrar vários candidatos de tradução ao traduzir uma única palavra."
   },
   "whenSelectTextLabel": {
     "message": "Comportamento ao selecionar o texto"
@@ -81,16 +81,16 @@
     "message": "Exibe o botão traduzir para abrir o painel quando clicado."
   },
   "dontshowbuttonlabel": {
-    "message": "Não exibir o botão ou o painel"
+    "message": "Não exibir botão ou painel"
   },
   "dontshowbuttonCaptionlabel": {
     "message": "Não exibe o botão traduzir ou o painel de tradução."
   },
   "ifCheckLangLabel": {
-    "message": "Não mostrar o botão se a tradução não for necessária"
+    "message": "Não exibir o botão se a tradução não for exigida"
   },
   "ifCheckLangCaptionLabel": {
-    "message": "Detecta o idioma do texto selecionado e, se for o mesmo que o idioma alvo, o botão não é exibido."
+    "message": "Detecta o idioma do texto selecionado e, se for igual ao idioma alvo, o botão não é exibido."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "Detecta o idioma do texto selecionado e, se for igual ao idioma alvo padrão, traduz para o segundo idioma."
@@ -162,7 +162,7 @@
     "message": "Tempo de espera para traduzir"
   },
   "waitTimeCaptionLabel": {
-    "message": "Especifica o tempo de espera da entrada de um caractere até o início da tradução. (milissegundo)"
+    "message": "Especifica o tempo de espera da inserção de um caractere até o início da tradução. (milissegundo)"
   },
   "waitTime2CaptionLabel": {
     "message": "Se você traduzir muitas vezes em pouco tempo, pode ficar inutilizável por algum tempo."
@@ -171,7 +171,7 @@
     "message": "Menu de contexto"
   },
   "ifShowMenuLabel": {
-    "message": "Exibir o menu de contexto"
+    "message": "Exibir menu de contexto"
   },
   "ifShowMenuCaptionLabel": {
     "message": "Adiciona itens ao menu de contexto exibido ao clicar com o botão direito na página ou na guia."
@@ -342,7 +342,7 @@
     "message": "Obrigado por usar o Simple Translate.<br>O seu apoio será um grande incentivo, à medida que continuarmos desenvolvendo a extensão.<br>Se você gosta do Simple Translate, ficaríamos satisfeitos se você pudesse considerar uma doação."
   },
   "amazonTitleLabel": {
-    "message": "Cartões de presentes da Amazon.co.jp"
+    "message": "Vales-presente virtuais da amazon.co.jp"
   },
   "addonPageLabel": {
     "message": "Página do add-on"

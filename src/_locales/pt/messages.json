@@ -345,7 +345,7 @@
     "message": "Vales-presente virtuais da amazon.co.jp"
   },
   "addonPageLabel": {
-    "message": "Página do add-on"
+    "message": "Página da extensão"
   },
   "extensionPageLabel": {
     "message": "Página da extensão"
@@ -363,7 +363,7 @@
     "message": "Falha: Verifique o status da conexão de rede."
   },
   "unavailableError": {
-    "message": "Erro: Limite de uso do serviço atingido. Por favor, aguarde um pouco e tente novamente."
+    "message": "Falha: Limite de uso do serviço atingido. Por favor, aguarde um pouco e tente novamente."
   },
   "unknownError": {
     "message": "Falha: Erro desconhecido"
@@ -375,7 +375,7 @@
     "message": "Traduzir texto selecionado"
   },
   "translateLinkMenu": {
-    "message": "Traduzir o link selecionado"
+    "message": "Traduzir link selecionado"
   },
   "openPopupDescription": {
     "message": "Abrir popup da barra de ferramentas"

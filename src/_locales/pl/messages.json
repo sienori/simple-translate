@@ -42,10 +42,10 @@
     "message": "af:Afrykanerski, sq:Albański, am:Amharyjski, ar:Arabski, hy:Armeński, az:Azerbejdżański, eu:Baskijski, bn:Bengalijski, bs:Bośniacki, bg:Bułgarski, ca:Kataloński, ceb:Cebuański, ny:Chewa, zh-CN:Chiński (PRC), zh-TW:Chiński (Tajwan), co:Korsykański, hr:Chorwacki, cs:Czeski, da:Duński, nl:Holenderski, en:Angielski, eo:Esperanto et:Estoński, fi:Fiński, fr:Francuski, fy:Frisian, gl:Galicyjski, ka:Georgiański, de:Niemiecki, el:Grecki, gu:Gudźarati, ht:Haitański, ha:Hausa, haw:Hawajski, he:Hebrajski, hi:Indyjski, hu:Węgierski, is:Islandzki, ig:Igbo, id:Indonezyjski, ga:Irlandzki, it:Włoski, ja:Japoński, jv:Javoński, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Koreański, ku:Kurdyjski, lo:Laotian, la:Łaciński, lv:Łotewski, lt:Litewski, lb:Luksemburski, mk:Macedoński, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norweski, fa:Perski, pl:Polski, pt:Portugalski, pa:Punjabi, ps:Pushto, ro:Rumuński, sm:Samoan, gd:Szkocki, sr:Serban, sn:Shona, sd:Sindhi, si:Sinhala, sk:Słowacki, sl:Słoweński, so:Somali, sx:Sotho, es:Hiszpański, su:Sundanese, sw:Swahili, sv:Szwecki tl:Tagalog, tg:Tadżyki, ta:Tamil, te:Telugu, th:Thai, tr:Turecki, uk:Ukraiński, ur:Urdu, uz:Uzbecki, vi:Wietnamski, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
   },
   "allLangLabel": {
-    "message": "All languages"
+    "message": "Wszystkie języki"
   },
   "recentLangLabel": {
-    "message": "Recent languages"
+    "message": "Najnowsze języki"
   },
   "settingsLabel": {
     "message": "Ustawienia"
@@ -96,7 +96,7 @@
     "message": "Wykrywa język wprowadzonego tekstu, a jeśli jest taki sam jak domyślny język docelowy, tłumaczy go na drugi język."
   },
   "disableTranslationLabel": {
-    "message": "Disable translation"
+    "message": "Wyłącz tłumaczenie"
   },
   "isDisabledInTextFieldsLabel": {
     "message": "Wyłącz tłumaczenie w polach tekstowych"
@@ -105,19 +105,19 @@
     "message": "Nie wyświetlaj przycisku ani panelu tłumaczenia podczas zaznaczania tekstu w polu tekstowym."
   },
   "isDisabledInCodeElementLabel": {
-    "message": "Disable translation in code tags"
+    "message": "Wyłącz tłumaczenie w tagach kodu"
   },
   "isDisabledInCodeElementCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in code tag."
+    "message": "Nie wyświetlaj przycisku ani panelu tłumaczenia podczas wybierania tekstu w znaczniku kodu."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Translate on modifier key pressed"
+    "message": "Przetłumacz po naciśnięciu przycisku modyfikującego"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Only display translation on specified modifier key pressed."
+    "message": "Wyświetlaj tłumaczenie tylko po naciśnięciu określonego klawisza modyfikującego."
   },
   "modifierKeyLabel": {
-    "message": "Modifier Key"
+    "message": "Klawisz Modyfikacji"
   },
   "shiftLabel": {
     "message": "Shift"
@@ -129,7 +129,7 @@
     "message": "Alt"
   },
   "cmdLabel": {
-    "message": "Command"
+    "message": "Klawisz super"
   },
   "disableUrlListLabel": {
     "message": "Lista adresów URL, gdzie wyłączono tłumaczenie"
@@ -153,10 +153,10 @@
     "message": "Wybierz domyślny język docelowy."
   },
   "ignoredDocumentLangLabel": {
-    "message": "Disable translation by lang attribute"
+    "message": "Wyłącz tłumaczenie przez atrybut lang"
   },
   "ignoredDocumentLangCaptionLabel": {
-    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
+    "message": "Wyłącz tłumaczenie, jeśli atrybut lang w elemencie html strony pasuje do listy. Wprowadź tagi językowe rozdzielone przecinkami."
   },
   "waitTimeLabel": {
     "message": "Czas oczekiwania na tłumaczenie"
@@ -180,16 +180,16 @@
     "message": "Styl"
   },
   "themeLabel": {
-    "message": "Theme"
+    "message": "Motyw"
   },
   "themeCaptionLabel": {
-    "message": "Specify the color scheme."
+    "message": "Określ schemat kolorów."
   },
   "lightLabel": {
-    "message": "Light"
+    "message": "Jasny"
   },
   "darkLabel": {
-    "message": "Dark"
+    "message": "Ciemny"
   },
   "buttonStyleLabel": {
     "message": "Przycisk tłumaczenia"
@@ -351,7 +351,7 @@
     "message": "Strona rozszerzenia"
   },
   "privacyPolicyLabel": {
-    "message": "Privacy policy"
+    "message": "Polityka prywatności"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"

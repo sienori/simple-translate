@@ -41,6 +41,12 @@
   "langList": {
     "message": "af:Afrikaans, sq:Albanese, am:Amarico, ar:Arabo, hy:Armeno, az:Azero, eu:Basco, be:Bielorusso, bn:Bengalese, bs:Bosniaco, bg:Bulgaro, ca:Catalano, ceb:Cubano, ny:Chewa, zh-CN:Cinese (PRC), zh-TW:Cinese (Taiwan), co:Corso, hr:Croato, cs:Ceco, da:Danese, nl:Olandese, en:Inglese, eo:Esperanto, et:Estone, fi:Finlandese, fr:Francese, fy:Frisone, gl:Galiziano, ka:Georgiano, de:Tedesco, el:Greco, gu:Gujarati, ht:Haitiano, ha:Hausa, haw:Hawaiano, he:Ebraico, hi:Hindi, hu:Ungherese, is:Islandese, ig:Igbo, id:Indonesiano, ga:Irlandese, it:Italiano, ja:Giapponese, jv:Javanese, kn:Kannada, kk:Kazako, km:Khmer, ky:Kirghiz, ko:Coreano, ku:Curdo, lo:Laotian, la:Latino, lv:Lettone, lt:Lituano, lb:Lussemburghese, mk:Macedone, mg:Malagasy, ms:Malese, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolo, hmn:Monk, my:Myanmar, ne:Nepalese, no:Norvegese, fa:Persiano, pl:Polacco, pt:Portoghese, pa:Punjabi, ps:Pushto, ro:Rumeno, ru:Russo, sm:Samoano, gd:Scozzese Gaelico, sr:Serbo, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovacco, sl:Sloveno, so:Somalo, sx:Sotho, es:Spagnolo, su:Sudanese, sw:Swahili, sv:Svedese, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Tailandese, tr:Turco, uk:Ucraino, ur:Urdu, uz:Uzbeko, vi:Vietnamita, cy:Gallese, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
   },
+  "allLangLabel": {
+    "message": "All languages"
+  },
+  "recentLangLabel": {
+    "message": "Recent languages"
+  },
   "settingsLabel": {
     "message": "Impostazioni"
   },

@@ -117,7 +117,7 @@
     "message": "Εμφάνιση μετάφρασης μόνο με το πάτημα του πλήκτρου τροποποίησης."
   },
   "modifierKeyLabel": {
-    "message": "Modifier Key"
+    "message": "Πλήκτρο Τροποποίησης"
   },
   "shiftLabel": {
     "message": "Shift"
@@ -129,7 +129,7 @@
     "message": "Alt"
   },
   "cmdLabel": {
-    "message": "Command"
+    "message": "Εντολή"
   },
   "disableUrlListLabel": {
     "message": "Λίστα URL για απενεργοποίηση μετάφρασης"
@@ -153,10 +153,10 @@
     "message": "Επιλέξτε την δεύτερη προεπιλεγμένη γλώσσα-στόχο."
   },
   "ignoredDocumentLangLabel": {
-    "message": "Disable translation by lang attribute"
+    "message": "Απενεργοποίηση μετάφρασης με βάση τα χαρακτηριστικά γλώσσας"
   },
   "ignoredDocumentLangCaptionLabel": {
-    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
+    "message": "Απενεργοποίηση μετάφρασης εάν το χαρακτηριστικό γλώσσας στο στοιχείο html της σελίδας ταιριάζει με τη λίστα. Εισάγετε ετικέτες γλώσσας χωρισμένες με κόμμα."
   },
   "waitTimeLabel": {
     "message": "Χρόνος αναμονής για μετάφραση"
@@ -180,16 +180,16 @@
     "message": "Τεχνοτροπία"
   },
   "themeLabel": {
-    "message": "Theme"
+    "message": "Θέμα"
   },
   "themeCaptionLabel": {
-    "message": "Specify the color scheme."
+    "message": "Καθορίστε το θέμα χρωμάτων."
   },
   "lightLabel": {
-    "message": "Light"
+    "message": "Ανοιχτόχρωμο"
   },
   "darkLabel": {
-    "message": "Dark"
+    "message": "Σκούρο"
   },
   "buttonStyleLabel": {
     "message": "Κουμπί μετάφρασης"
@@ -351,7 +351,7 @@
     "message": "Σελίδα επέκτασης"
   },
   "privacyPolicyLabel": {
-    "message": "Privacy policy"
+    "message": "Πολιτική απορρήτου"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"

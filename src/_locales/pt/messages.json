@@ -132,7 +132,7 @@
     "message": "Command"
   },
   "disableUrlListLabel": {
-    "message": "Lista de links para desativar tradução"
+    "message": "Lista de URLs para desativar tradução"
   },
   "disableUrlListCaptionLabel": {
     "message": "Se o link da página corresponde à lista, a tradução na página é desativada. A lista permite caracteres \"*\"."

@@ -108,7 +108,7 @@
     "message": "Inaktivera översättning i kodtaggar"
   },
   "isDisabledInCodeElementCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in code tag."
+    "message": "Visa inte översättningsknappen eller panelen när du väljer text i kodtaggen."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
     "message": "Översätt när modifierartangenten är nertryckt"
@@ -153,10 +153,10 @@
     "message": "Välj andra målspråk."
   },
   "ignoredDocumentLangLabel": {
-    "message": "Disable translation by lang attribute"
+    "message": "Inaktivera översättning med attribut lang"
   },
   "ignoredDocumentLangCaptionLabel": {
-    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
+    "message": "Inaktivera översättning om attributet lang i html-elementet på sidan matchar listan. Ange kommaseparerade språktaggar."
   },
   "waitTimeLabel": {
     "message": "Väntetid på att översätta"

@@ -108,7 +108,7 @@
     "message": "Desativar tradução em tags de código"
   },
   "isDisabledInCodeElementCaptionLabel": {
-    "message": "Não exibe o botão traduzir ou o painel ao selecionar texto em tag de código."
+    "message": "Não exibe o botão traduzir ou o painel ao selecionar texto em tags de código."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
     "message": "Traduzir ao pressionar a tecla modificadora"

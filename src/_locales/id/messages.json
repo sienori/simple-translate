@@ -3,13 +3,13 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
+    "message": "Terjemahkan teks yang dipilih dengan cepat di halaman web. Dalam popup toolbar, Anda dapat menerjemahkan teks input."
   },
   "donateWithPaypalLabel": {
     "message": "Donasi dengan PayPal"
   },
   "donateLabel": {
-    "message": "Donate"
+    "message": "Donasi"
   },
   "enableOnThisPage": {
     "message": "aktifkan terjemahan pada halaman ini"
@@ -24,7 +24,7 @@
     "message": "Terjemahkan halaman ini"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "Buka di Google Translate"
   },
   "copyLabel": {
     "message": "Salin"
@@ -33,7 +33,7 @@
     "message": "Disalin."
   },
   "listenLabel": {
-    "message": "Listen"
+    "message": "Dengar"
   },
   "targetLangLabel": {
     "message": "Bahasa Target"

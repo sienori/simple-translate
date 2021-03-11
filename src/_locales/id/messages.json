@@ -99,25 +99,25 @@
     "message": "Nonaktifkan terjemahan"
   },
   "isDisabledInTextFieldsLabel": {
-    "message": "Disable translation in text fields"
+    "message": "Nonaktifkan terjemahan pada kolom isian teks"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in a text field."
+    "message": "Jangan tampilkan tombol terjemahan atau panel saat menyeleksi teks di kolom isian teks."
   },
   "isDisabledInCodeElementLabel": {
-    "message": "Disable translation in code tags"
+    "message": "Nonaktifkan terjemahan pada tag kode"
   },
   "isDisabledInCodeElementCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in code tag."
+    "message": "Jangan tampilkan tombol terjemahan atau panel saat menyeleksi teks di tag kode."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Translate on modifier key pressed"
+    "message": "Terjemahkan saat tombol pengubah ditekan"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Only display translation on specified modifier key pressed."
+    "message": "Hanya tampilkan terjamahan saat tombol pengubah ditekan."
   },
   "modifierKeyLabel": {
-    "message": "Modifier Key"
+    "message": "Tombol Pengubah"
   },
   "shiftLabel": {
     "message": "Shift"
@@ -135,7 +135,7 @@
     "message": "daftar alamat yang dinonaktifkan terjemahan"
   },
   "disableUrlListCaptionLabel": {
-    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
+    "message": "Jika URL halaman sesuai dengan daftar, terjemahan untuk halaman tersebut dinonaktifkan. Daftar mengizinkan wildcard \"*\"."
   },
   "toolbarLabel": {
     "message": "Toolbar pengaya"
@@ -153,22 +153,22 @@
     "message": "Pilih bahasa target yang kedua."
   },
   "ignoredDocumentLangLabel": {
-    "message": "Disable translation by lang attribute"
+    "message": "Nonaktifkan terjemahan menurut atribut bahasa"
   },
   "ignoredDocumentLangCaptionLabel": {
-    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
+    "message": "Nonaktifkan terjemahan jika atribut bahasa di elemen hmtl halaman sesuai dengan daftar. Masukkan tag bahasa yang dipisahkan koma."
   },
   "waitTimeLabel": {
-    "message": "Waiting time to translate"
+    "message": "Waktu tunggu terjemahan"
   },
   "waitTimeCaptionLabel": {
-    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+    "message": "Tentukan waktu tunggu dari memasukan karakter sampai terjemahan dimulai. (milidetik)"
   },
   "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
+    "message": "Jika Anda menerjemahkannya berkali-kali dalam waktu singkat, ini mungkin tidak dapat digunakan untuk sementara waktu."
   },
   "menuLabel": {
-    "message": "Context menu"
+    "message": "Menu konteks"
   },
   "ifShowMenuLabel": {
     "message": "Menampilkan menu konteks"

@@ -90,10 +90,10 @@
     "message": "Jangan menampilkan tombol jika terjemahan tidak diperlukan"
   },
   "ifCheckLangCaptionLabel": {
-    "message": "Mendeteksi bahasa teks yang dipilih, dan jika itu adalah sama dengan bahasa target, tombol tidak ditampilkan."
+    "message": "Deteksi bahasa teks yang dipilih, dan jika itu adalah sama dengan bahasa target, tombol tidak ditampilkan."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Mendeteksi bahasa dari seleksi teks, dan jika itu adalah sama dengan bahasa target bawaan, terjemahkan ke dalam bahasa kedua."
+    "message": "Deteksi bahasa dari seleksi teks, dan jika itu adalah sama dengan bahasa target bawaan, terjemahkan ke dalam bahasa kedua."
   },
   "disableTranslationLabel": {
     "message": "Nonaktifkan terjemahan"
@@ -174,22 +174,22 @@
     "message": "Menampilkan menu konteks"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+    "message": "Tambah item ke tampilan menu konteks saat mengklik kanan di halaman web atau tab."
   },
   "styleLabel": {
     "message": "Gaya"
   },
   "themeLabel": {
-    "message": "Theme"
+    "message": "Tema"
   },
   "themeCaptionLabel": {
-    "message": "Specify the color scheme."
+    "message": "Tentukan warna skema."
   },
   "lightLabel": {
-    "message": "Light"
+    "message": "Terang"
   },
   "darkLabel": {
-    "message": "Dark"
+    "message": "Gelap"
   },
   "buttonStyleLabel": {
     "message": "Tombol terjemahan"
@@ -204,31 +204,31 @@
     "message": "Tampilan Posisi"
   },
   "topRightLabel": {
-    "message": "Top right"
+    "message": "Kanan atas"
   },
   "bottomRightLabel": {
-    "message": "Bottom right"
+    "message": "Kanan bawah"
   },
   "topLeftLabel": {
-    "message": "Top left"
+    "message": "Kiri atas"
   },
   "bottomLeftLabel": {
-    "message": "Bottom left"
+    "message": "Kiri bawah"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "Atas"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "Bawah"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "Kiri"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "Kanan"
   },
   "positionOffsetLabel": {
-    "message": "Display position - Offset"
+    "message": "Posisi tampilan - Offset"
   },
   "panelStyleLabel": {
     "message": "Panel terjemahan"
@@ -246,79 +246,79 @@
     "message": "Ukuran huruf"
   },
   "referencePointLabel": {
-    "message": "Display position - Reference point"
+    "message": "Posisi tampilan - Titik referensi"
   },
   "bottomSelectedTextLabel": {
-    "message": "Bottom of selected text"
+    "message": "Bagian bawah seleksi teks"
   },
   "topSelectedTextLabel": {
-    "message": "Top of selected text"
+    "message": "Bagian atas seleksi teks"
   },
   "clickedPointLabel": {
-    "message": "Clicked point"
+    "message": "Titik klik"
   },
   "displayDirectionLabel": {
-    "message": "Display position - Direction"
+    "message": "Tampilan posisi - Arah"
   },
   "resultFontColorLabel": {
-    "message": "Font color of translation result"
+    "message": "Warna font hasil terjemahan"
   },
   "candidateFontColorLabel": {
-    "message": "Font color of translation candidates"
+    "message": "Warna font kandidat terjemahan"
   },
   "bgColorLabel": {
     "message": "Warna latar belakang"
   },
   "otherLabel": {
-    "message": "Other"
+    "message": "Lainnya"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Display option page when updating"
+    "message": "Tampilkan halaman pengaturan saat pembaharuan"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+    "message": "Tampilkan halaman pengaturan saat Simple Translate diperbaharui. Anda bisa mengetahui konten pembaharuan dengan cepat."
   },
   "isDebugModeLabel": {
-    "message": "Enable debug mode"
+    "message": "Aktifkan mode debug"
   },
   "isDebugModeCaptionLabel": {
-    "message": "When debug mode is enabled, the log is output to the debugger."
+    "message": "Saat mode debug diaktifkan, hasil log adalah keluaran untuk debugger."
   },
   "resetSettingsLabel": {
-    "message": "Reset settings"
+    "message": "Setel ulang"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Restore all settings to default."
+    "message": "Kembalikan setelan ulang ke bawaan."
   },
   "resetSettingsButtonLabel": {
     "message": "Reset"
   },
   "shortcutsLabel": {
-    "message": "Shortcuts"
+    "message": "Pintasan"
   },
   "keyboardShortcutsLabel": {
-    "message": "Keyboard shortcuts"
+    "message": "Pintasan keyboard"
   },
   "setKeyboardShortCutsMessage": {
-    "message": "Set keyboard shortcuts."
+    "message": "Atur pintasan keyboard."
   },
   "typeShortcutMessage": {
-    "message": "Type a shortcut"
+    "message": "Ketik pintasan"
   },
   "typeLetterMessage": {
-    "message": "Type a letter"
+    "message": "Ketik sebuah huruf"
   },
   "includeModifierKeysMessage": {
-    "message": "Include either Ctrl or Alt"
+    "message": "Masukkan antara Ctrl atau Alt"
   },
   "includeMacModifierKeysMessage": {
-    "message": "Include either Command, Ctrl or Alt"
+    "message": "Masukkan antara Command, Ctrl atau Alt"
   },
   "invalidLetterMessage": {
-    "message": "The letter can not be used"
+    "message": "Huruf ini tidak dapat digunakan"
   },
   "invalidShortcutMessage": {
-    "message": "The shortcut can not be used"
+    "message": "Pintasan ini tidak dapat digunakan"
   },
   "clear": {
     "message": "bersih"
@@ -330,7 +330,7 @@
     "message": "Informasi"
   },
   "backersLabel": {
-    "message": "Backers"
+    "message": "Pendukung"
   },
   "licenseLabel": {
     "message": "Lisensi"

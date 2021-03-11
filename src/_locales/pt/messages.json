@@ -135,7 +135,7 @@
     "message": "Lista de URLs para desativar tradução"
   },
   "disableUrlListCaptionLabel": {
-    "message": "Se o link da página corresponde à lista, a tradução na página é desativada. A lista permite caracteres \"*\"."
+    "message": "Se o URL da página corresponde à lista, a tradução na página é desativada. A lista permite curingas \"*\"."
   },
   "toolbarLabel": {
     "message": "Popup da barra de ferramentas"

@@ -351,7 +351,7 @@
     "message": "halaman ekstensi"
   },
   "privacyPolicyLabel": {
-    "message": "Privacy policy"
+    "message": "Kebijakan privasi"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
@@ -360,13 +360,13 @@
     "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
-    "message": "Error: Check network connection status."
+    "message": "Error: Periksa status koneksi jaringan."
   },
   "unavailableError": {
-    "message": "Error: Service usage limit reached. Please wait a while and try again."
+    "message": "Error: Penggunaan jasa berlebihan. Tunggu beberapa saat dan coba lagi."
   },
   "unknownError": {
-    "message": "Error: Unknown error"
+    "message": "Error: Tidak diketahui"
   },
   "translatePageMenu": {
     "message": "Terjemahkan halaman ini"
@@ -378,6 +378,6 @@
     "message": "Terjemahkan tautan yang dipilih"
   },
   "openPopupDescription": {
-    "message": "Open toolbar popup"
+    "message": "Buka popup toolbar"
   }
 }

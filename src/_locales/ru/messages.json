@@ -111,10 +111,10 @@
     "message": "Не показывать кнопку перевода или панель при выделении текста в коде."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Переводить при нажатии клавиши модификатора"
+    "message": "Переводить только c модификатором"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Показывать перевод только при нажатии клавиши модификатора."
+    "message": "Переводить только c модификатором"
   },
   "modifierKeyLabel": {
     "message": "Клавиша модификатор"
@@ -132,7 +132,7 @@
     "message": "Command"
   },
   "disableUrlListLabel": {
-    "message": "Список URL, для которых перевод будет отключен"
+    "message": "Список URL для которых перевод будет отключен"
   },
   "disableUrlListCaptionLabel": {
     "message": "Если URL страницы соответствует списку, то перевод будет отключен. Список позволяет использовать подстановку \"*\"."

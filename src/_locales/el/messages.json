@@ -42,10 +42,10 @@
     "message": "af:Afrikaans, sq:Albanian, am:Amharic, ar:Arabic, hy:Armenian, az:Azerbaijani, eu:Basque, be:Belarusian, bn:Bengali, bs:Bosnian, bg:Bulgarian, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Chinese (PRC), zh-TW:Chinese (Taiwan), co:Corsican, hr:Croatian, cs:Czech, da:Danish, nl:Dutch, en:English, eo:Esperanto, et:Estonian, fi:Finnish, fr:French, fy:Frisian, gl:Galician, ka:Georgian, de:German, el:Greek, gu:Gujarati, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesian, ga:Irish, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Korean, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:Macedonian, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persian, pl:Polish, pt:Portuguese, pa:Punjabi, ps:Pushto, ro:Romanian, ru:Russian, sm:Samoan, gd:Scottish Gaelic, sr:Serbian, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovak, sl:Slovenian, so:Somali, sx:Sotho, es:Spanish, su:Sundanese, sw:Swahili, sv:Swedish, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turkish, uk:Ukrainian, ur:Urdu, uz:Uzbek, vi:Vietnamese, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
   },
   "allLangLabel": {
-    "message": "All languages"
+    "message": "Όλες οι γλώσσες"
   },
   "recentLangLabel": {
-    "message": "Recent languages"
+    "message": "Πρόσφατες γλώσσες"
   },
   "settingsLabel": {
     "message": "Ρυθμίσεις"
@@ -96,7 +96,7 @@
     "message": "Εντοπίζει τη γλώσσα του επιλεγμένου κειμένου και αν είναι ίδια με τη γλώσσα προορισμού, μεταφράζει στη δεύτερη γλώσσα."
   },
   "disableTranslationLabel": {
-    "message": "Disable translation"
+    "message": "Απενεργοποίηση μετάφρασης"
   },
   "isDisabledInTextFieldsLabel": {
     "message": "Απενεργοποίηση μετάφρασης σε πεδία κειμένου"
@@ -105,16 +105,16 @@
     "message": "Μη εμφάνιση κουμπιού ή πλαισίου μετάφρασης όταν επιλέγεται κείμενο σε πεδίο κειμένου."
   },
   "isDisabledInCodeElementLabel": {
-    "message": "Disable translation in code tags"
+    "message": "Απενεργοποίηση μετάφρασης στις ετικέτες κώδικα"
   },
   "isDisabledInCodeElementCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in code tag."
+    "message": "Να μην εμφανίζεται το κουμπί ή ο πίνακας μετάφρασης κατά την επιλογή κειμένου στην ετικέτα κώδικα."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Translate on modifier key pressed"
+    "message": "Μετάφραση με το πάτημα του πλήκτρου τροποποίησης"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Only display translation on specified modifier key pressed."
+    "message": "Εμφάνιση μετάφρασης μόνο με το πάτημα του πλήκτρου τροποποίησης."
   },
   "modifierKeyLabel": {
     "message": "Modifier Key"

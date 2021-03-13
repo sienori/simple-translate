@@ -156,7 +156,7 @@
     "message": "透過 lang 屬性停用翻譯"
   },
   "ignoredDocumentLangCaptionLabel": {
-    "message": "如果頁面的 html 元素中有 lang 屬性符合列表中的條件則停用翻譯。輸入以英文逗號分隔的語言標籤。"
+    "message": "如果頁面的 html 元素中有 lang 屬性符合清單中的條件則停用翻譯。輸入以英文逗號分隔的語言標籤。"
   },
   "waitTimeLabel": {
     "message": "翻譯等待時間"

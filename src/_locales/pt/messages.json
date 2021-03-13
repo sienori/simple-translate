@@ -162,10 +162,10 @@
     "message": "Tempo de espera para traduzir"
   },
   "waitTimeCaptionLabel": {
-    "message": "Especifica o tempo de espera da inserção de um caractere até o início da tradução. (milissegundo)"
+    "message": "Especifique o tempo de espera da inserção de um caractere até o início da tradução. (milissegundo)"
   },
   "waitTime2CaptionLabel": {
-    "message": "Se você traduzir muitas vezes em pouco tempo, pode ficar inutilizável por algum tempo."
+    "message": "Se você traduzir muitas vezes em pouco tempo, pode ficar inutilizável por um tempo."
   },
   "menuLabel": {
     "message": "Menu de contexto"

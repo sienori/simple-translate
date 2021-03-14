@@ -42,10 +42,10 @@
     "message": "af:Afrikanisch, sq:Albanisch, am:Amharisch, ar:Arabisch, hy:Armenisch, az:Aserbeidschanisch, eu:Baskisch, be:Weißrussisch, bn:Bengalisch, bs:Bosnisch, bg:Bulgarisch, ca:Katalanisch, ceb:Cebuano, ny:Nyanja, zh-CN:Chinesisch (VRC), zh-TW:Chinesisch (Taiwan), co:Korsisch, hr:Kroatisch, cs:Tschechisch, da:Dänisch, nl:Niederländisch, en:Englisch, eo:Esperanto, et:Estnisch, fi:Finnisch, fr:Französisch, fy:Friesisch, gl:Galicisch, ka:Georgisch, de:Deutsch, el:Griechisch, gu:Gujarati, ht:Haitien, ha:Haussa, haw:Hawaiisch, he:Hebräisch, hi:Hindi, hu:Ungarisch, is:Isländisch, ig:Ibo, id:Indonesisch, ga:Irisch, it:Italienisch, ja:Japanisch, jv:Javanisch, kn:Kanadisch, kk:Kasachisch, km:Khmer, ky:Kirgisisch, ko:Koreanisch, ku:Kurdisch, lo:Laotisch, la:Latein, lv:Lettisch, lt:Litauisch, lb:Luxemburgisch, mk:Makedonisch, mg:Malagassi, ms:Malaiisch, ml:Malayalam, mt:Maltesisch, mi:Maori, mr:Marathi, mn:Mongolisch, hmn:Miao, my:Birmanisch, ne:Nepali, no:Norwegisch, fa:Persisch, pl:Polnisch, pt:Portugiesisch, pa:Pandschabi, ps:Paschtu, ro:Rumänisch, ru:Russisch, sm:Samoanisch, gd:Gälisch-Schottisch, sr:Serbisch, sn:Schona, sd:Sindhi, si:Singhalesisch, sk:Slowakisch, sl:Slowenisch, so:Somali, sx:Sotho, es:Spanisch, su:Sundanesisch, sw:Swahili, sv:Schwedisch, tl:Tagalog, tg:Tadschikisch, ta:Tamil, te:Telugu, th:Thailändisch, tr:Türkisch, uk:Ukrainisch, ur:Urdu, uz:Usbekisch, vi:Vietnamesisch, cy:Kymrisch, xh:Xhosa, yi:Jiddisch, yo:Yoruba, zu:Zulu"
   },
   "allLangLabel": {
-    "message": "All languages"
+    "message": "Alle Sprachen"
   },
   "recentLangLabel": {
-    "message": "Recent languages"
+    "message": "Kürzlich verwendete Sprachen"
   },
   "settingsLabel": {
     "message": "Einstellungen"
@@ -105,19 +105,19 @@
     "message": "Zeigt keine Übersetzungsschaltfläche oder -panel an, wenn ein Text in einem Textfeld markiert wird."
   },
   "isDisabledInCodeElementLabel": {
-    "message": "Disable translation in code tags"
+    "message": "Übersetzung in Code-Tags deaktivieren"
   },
   "isDisabledInCodeElementCaptionLabel": {
     "message": "Don't display translation button or panel when selecting text in code tag."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Translate on modifier key pressed"
+    "message": "Bei gedrückter Modifikator-Taste übersetzen"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Only display translation on specified modifier key pressed."
+    "message": "Übersetzung nur bei gedrückter Modifikator-Taste anzeigen."
   },
   "modifierKeyLabel": {
-    "message": "Modifier Key"
+    "message": "Modifikator-Taste"
   },
   "shiftLabel": {
     "message": "Umschalttaste"
@@ -153,10 +153,10 @@
     "message": "Zweitsprache wählen."
   },
   "ignoredDocumentLangLabel": {
-    "message": "Disable translation by lang attribute"
+    "message": "Übersetzung je nach lang-Attribut deaktivieren"
   },
   "ignoredDocumentLangCaptionLabel": {
-    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
+    "message": "Übersetzung deaktivieren, wenn das lang-Attribut im HTML-Element der Seite in der Liste enthalten ist. Sprachenkürzel durch Kommas getrennt eingeben."
   },
   "waitTimeLabel": {
     "message": "Wartezeit bis zur Übersetzung"

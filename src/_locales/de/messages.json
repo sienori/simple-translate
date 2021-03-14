@@ -108,7 +108,7 @@
     "message": "Übersetzung in Code-Tags deaktivieren"
   },
   "isDisabledInCodeElementCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in code tag."
+    "message": "Übersetzungsschaltfläche und -panel nicht anzeigen, wenn Text im Code-Tag ausgewählt wird."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
     "message": "Bei gedrückter Modifikator-Taste übersetzen"

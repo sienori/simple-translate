@@ -32,3 +32,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - 柱君 叶
 - mgulick
 - Carol Li
+- James

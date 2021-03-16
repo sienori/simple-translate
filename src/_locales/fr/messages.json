@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Traduit rapidement le texte sélectionné sur la page web. Dans la fenêtre popup de la barre d'outils, vous pouvez traduire le texte entré."
+    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
   },
   "donateWithPaypalLabel": {
     "message": "Faire un don avec PayPal"
@@ -24,7 +24,7 @@
     "message": "Traduire cette page"
   },
   "openInGoogleLabel": {
-    "message": "Utiliser Google Traduction"
+    "message": "Ouvrir dans Google Traduction"
   },
   "copyLabel": {
     "message": "Copier"
@@ -33,7 +33,7 @@
     "message": "Copié."
   },
   "listenLabel": {
-    "message": "Listen"
+    "message": "Écouter"
   },
   "targetLangLabel": {
     "message": "Langue cible"
@@ -111,13 +111,13 @@
     "message": "Ne pas afficher le bouton ou le panneau de traduction lors de la sélection de texte dans le code."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Translate on modifier key pressed"
+    "message": "Traduire lors de l'appui sur une touche de combinaison"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Only display translation on specified modifier key pressed."
+    "message": "Afficher la traduction uniquement lorsque la touche de combinaison spécifiée est pressée."
   },
   "modifierKeyLabel": {
-    "message": "Modifier Key"
+    "message": "Touche de combinaison"
   },
   "shiftLabel": {
     "message": "Shift"
@@ -129,7 +129,7 @@
     "message": "Alt"
   },
   "cmdLabel": {
-    "message": "Command"
+    "message": "Commande"
   },
   "disableUrlListLabel": {
     "message": "Liste URL pour désactiver la traduction"
@@ -153,10 +153,10 @@
     "message": "Sélectionnez la seconde langue cible."
   },
   "ignoredDocumentLangLabel": {
-    "message": "Disable translation by lang attribute"
+    "message": "Désactiver la traduction par attribut lang"
   },
   "ignoredDocumentLangCaptionLabel": {
-    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
+    "message": "Désactiver la traduction si l'attribut lang de l'élément HTML de la page correspond à la liste. Entrez des balises de langue séparées par des virgules."
   },
   "waitTimeLabel": {
     "message": "Temps d'attente pour la traduction"
@@ -180,16 +180,16 @@
     "message": "Style"
   },
   "themeLabel": {
-    "message": "Theme"
+    "message": "Thème"
   },
   "themeCaptionLabel": {
-    "message": "Specify the color scheme."
+    "message": "Spécifiez le schéma de couleurs."
   },
   "lightLabel": {
-    "message": "Light"
+    "message": "Lumière"
   },
   "darkLabel": {
-    "message": "Dark"
+    "message": "Sombre"
   },
   "buttonStyleLabel": {
     "message": "Bouton de traduction"
@@ -351,7 +351,7 @@
     "message": "Page de l'extension"
   },
   "privacyPolicyLabel": {
-    "message": "Privacy policy"
+    "message": "Politique de confidentialité"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"

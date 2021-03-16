@@ -42,10 +42,10 @@
     "message": "af:Africain, sq:Albanais, am:Amharique, ar:Arabe, hy:Armenien, az:Azerbaïdjanais, eu:Basque, be:Belorussien, bn:Bengali, bs:Bosnien, bg:Bulgare, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Chinois (PRC), zh-TW:Chinois (Taiwan), co:Corse, hr:Croate, cs:Tchèque, da:Danois, nl:Néerlandais, en:Anglais, eo:Esperanto, et:Estonien, fi:Finnois, fr:Français, fy:Frison, gl:Galicien, ka:Georgien, de:Allemand, el:Grec, gu:Gujarati, ht:Haïtien, ha:Hausa, haw:Hawaiien, he:Hébreu, hi:Hindi, hu:Hongrois, is:Islandais, ig:Igbo, id:Indonesien, ga:Irlandais, it:Italien, ja:Japonais, jv:Javanais, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Coréen, ku:Kurde, lo:Laotien, la:Latin, lv:Letton, lt:Lituanien, lb:Luxembourgeois, mk:Macédonien, mg:Malgache, ms:Malais, ml:Malayalam, mt:Maltais, mi:Maori, mr:Marathi, mn:Mongolien, hmn:Monk, my:Myanmar, ne:Nepalais, no:Norvégien, fa:Perse, pl:Polonais, pt:Portuguais, pa:Punjabi, ps:Pushto, ro:Roumain, ru:Russe, sm:Samoan, gd:Gaélique écossais, sr:Serbe, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovaque, sl:Slovenien, so:Somalien, sx:Sotho, es:Espagnol, su:Sundanais, sw:Swahili, sv:Suédois, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turque, uk:Ukrainien, ur:Urdu, uz:Ouzbek, vi:Vietnamien, cy:Gallois, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zoulou"
   },
   "allLangLabel": {
-    "message": "All languages"
+    "message": "Toutes les langues"
   },
   "recentLangLabel": {
-    "message": "Recent languages"
+    "message": "Langues récentes"
   },
   "settingsLabel": {
     "message": "Paramètres"
@@ -96,7 +96,7 @@
     "message": "Détecte la langue du texte sélectionné, et si elle est la même que la langue cible par défaut, traduire le texte dans la seconde langue."
   },
   "disableTranslationLabel": {
-    "message": "Disable translation"
+    "message": "Désactiver la traduction"
   },
   "isDisabledInTextFieldsLabel": {
     "message": "Désactiver la traduction dans les champs texte"
@@ -105,10 +105,10 @@
     "message": "Ne pas afficher le bouton ou panneau de traduction lors de la sélection du texte dans un champ texte."
   },
   "isDisabledInCodeElementLabel": {
-    "message": "Disable translation in code tags"
+    "message": "Désactiver la traduction dans les tags de code"
   },
   "isDisabledInCodeElementCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in code tag."
+    "message": "Ne pas afficher le bouton ou le panneau de traduction lors de la sélection de texte dans le code."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
     "message": "Translate on modifier key pressed"

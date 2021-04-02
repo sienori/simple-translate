@@ -60,10 +60,10 @@
     "message": "صفحة الويب"
   },
   "ifShowCandidateLabel": {
-    "message": "عرض المرشحين للترجمة"
+    "message": "عرض مرشحي للترجمة"
   },
   "ifShowCandidateCaptionLabel": {
-    "message": "عرض مرشحين للترجمة عند ترجمة كلمة واحدة."
+    "message": "عرض مرشحي الترجمة عند ترجمة كلمة واحدة."
   },
   "whenSelectTextLabel": {
     "message": "السلوك عند اختيار النص"
@@ -72,7 +72,7 @@
     "message": "عرض لوحة الترجمة"
   },
   "ifAutoTranslateCaptionLabel": {
-    "message": "عرض لوحة الترجمة بدون عرض الزر."
+    "message": "عرض لوحة الترجمة مباشرة بدون عرض الزر."
   },
   "ifShowButtonLabel": {
     "message": "عرض زر الترجمة"
@@ -171,10 +171,10 @@
     "message": "قائمة السياق"
   },
   "ifShowMenuLabel": {
-    "message": "اظهار ايقونة قائمة السياق"
+    "message": "إظهار أيقونة قائمة السياق"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "إضافة العناصر الى القائمة التي تظهر عند الضغط بزر الفأرة الإيمن على صفحات الويب او علامة التبويب."
+    "message": "إضافة العناصر إلى القائمة التي تظهر عند الضغط زر الفأرة الأيمن على صفحات الويب أو علامة التبويب."
   },
   "styleLabel": {
     "message": "نمط"

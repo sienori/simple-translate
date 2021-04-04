@@ -30,6 +30,10 @@ const handleMouseUp = async e => {
   const inCodeElement = e.target.tagName === "CODE" || !!e.target.closest("code");
   if (inCodeElement && getSettings("isDisabledInCodeElement")) return;
 
+
+  const isTranslateDisabled = e.target.translate === undefined ? e.target.getAttribute('translate') === 'no' : e.target.translate === false;
+  if (isTranslateDisabled) return;
+
   const isInThisElement =
     document.querySelector("#simple-translate") &&
     document.querySelector("#simple-translate").contains(e.target);

@@ -12,7 +12,7 @@
 
 Thank you to the awesome **[backers](https://github.com/sienori/simple-translate/blob/master/BACKERS.md)** who supported Simple Translate!
 
-[<img src="other/promotion/badges/patreon.png" alt="Became a Patreon">](https://www.patreon.com/sienori)
+[<img src="other/promotion/badges/patreon.png" alt="Became a Patreon" height="44px" align="left">](https://www.patreon.com/sienori)
 [<img src="other/promotion/badges/paypal.png" alt="Check out with PayPal">](https://www.paypal.me/sienoriExt)
 
 ## Sponsors

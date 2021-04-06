@@ -62,22 +62,18 @@ export default props => {
       <OptionsContainer title={"donationLabel"} captions={["donationCaptionLabel"]} type={"none"} />
       <OptionsContainer
         title={""}
-        captions={[]}
+        captions={[""]}
         type={"none"}
         extraCaption={
-          <a href={patreonLink} target="_blank">
-            <img src="/icons/patreonButton.png" alt="Donate" />
-          </a>
-        }
-      />
-      <OptionsContainer
-        title={""}
-        captions={[]}
-        type={"none"}
-        extraCaption={
-          <a href={paypalLink} target="_blank">
-            <img src="/icons/paypalButton.png" alt="Donate" />
-          </a>
+          <div>
+            <a href={patreonLink} target="_blank">
+              <img src="/icons/patreonButton.png" alt="Patreon"
+                style={{ height: 44, marginRight: 20 }} />
+            </a>
+            <a href={paypalLink} target="_blank">
+              <img src="/icons/paypalButton.png" alt="Paypal" />
+            </a>
+          </div>
         }
       />
       <OptionsContainer

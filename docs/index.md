@@ -16,7 +16,7 @@ Quickly translate selected text on web page. In toolbar popup, you can translate
 
 Thank you to the awesome **[backers](https://github.com/sienori/simple-translate/blob/master/BACKERS.md)** who supported Simple Translate!
 
-[<img src="https://raw.githubusercontent.com/sienori/simple-translate/master/other/promotion/badges/patreon.png" alt="Became a Patreon">](https://www.patreon.com/sienori)
+[<img src="https://raw.githubusercontent.com/sienori/simple-translate/master/other/promotion/badges/patreon.png" alt="Became a Patreon" height="44px">](https://www.patreon.com/sienori)
 [<img src="https://raw.githubusercontent.com/sienori/simple-translate/master/other/promotion/badges/paypal.png" alt="Check out with PayPal">](https://www.paypal.me/sienoriExt)
 
 ## Sponsors

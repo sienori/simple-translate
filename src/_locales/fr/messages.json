@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Traduit rapidement le texte sélectionné sur la page web. Dans la fenêtre popup de la barre d'outils, vous pouvez traduire le texte entré."
+    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
   },
   "donateWithPaypalLabel": {
     "message": "Faire un don avec PayPal"
@@ -24,7 +24,7 @@
     "message": "Traduire cette page"
   },
   "openInGoogleLabel": {
-    "message": "Utiliser Google Traduction"
+    "message": "Ouvrir dans Google Traduction"
   },
   "copyLabel": {
     "message": "Copier"
@@ -33,7 +33,7 @@
     "message": "Copié."
   },
   "listenLabel": {
-    "message": "Listen"
+    "message": "Écouter"
   },
   "targetLangLabel": {
     "message": "Langue cible"
@@ -42,10 +42,10 @@
     "message": "af:Africain, sq:Albanais, am:Amharique, ar:Arabe, hy:Armenien, az:Azerbaïdjanais, eu:Basque, be:Belorussien, bn:Bengali, bs:Bosnien, bg:Bulgare, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Chinois (PRC), zh-TW:Chinois (Taiwan), co:Corse, hr:Croate, cs:Tchèque, da:Danois, nl:Néerlandais, en:Anglais, eo:Esperanto, et:Estonien, fi:Finnois, fr:Français, fy:Frison, gl:Galicien, ka:Georgien, de:Allemand, el:Grec, gu:Gujarati, ht:Haïtien, ha:Hausa, haw:Hawaiien, he:Hébreu, hi:Hindi, hu:Hongrois, is:Islandais, ig:Igbo, id:Indonesien, ga:Irlandais, it:Italien, ja:Japonais, jv:Javanais, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Coréen, ku:Kurde, lo:Laotien, la:Latin, lv:Letton, lt:Lituanien, lb:Luxembourgeois, mk:Macédonien, mg:Malgache, ms:Malais, ml:Malayalam, mt:Maltais, mi:Maori, mr:Marathi, mn:Mongolien, hmn:Monk, my:Myanmar, ne:Nepalais, no:Norvégien, fa:Perse, pl:Polonais, pt:Portuguais, pa:Punjabi, ps:Pushto, ro:Roumain, ru:Russe, sm:Samoan, gd:Gaélique écossais, sr:Serbe, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovaque, sl:Slovenien, so:Somalien, sx:Sotho, es:Espagnol, su:Sundanais, sw:Swahili, sv:Suédois, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turque, uk:Ukrainien, ur:Urdu, uz:Ouzbek, vi:Vietnamien, cy:Gallois, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zoulou"
   },
   "allLangLabel": {
-    "message": "All languages"
+    "message": "Toutes les langues"
   },
   "recentLangLabel": {
-    "message": "Recent languages"
+    "message": "Langues récentes"
   },
   "settingsLabel": {
     "message": "Paramètres"
@@ -96,7 +96,7 @@
     "message": "Détecte la langue du texte sélectionné, et si elle est la même que la langue cible par défaut, traduire le texte dans la seconde langue."
   },
   "disableTranslationLabel": {
-    "message": "Disable translation"
+    "message": "Désactiver la traduction"
   },
   "isDisabledInTextFieldsLabel": {
     "message": "Désactiver la traduction dans les champs texte"
@@ -105,19 +105,19 @@
     "message": "Ne pas afficher le bouton ou panneau de traduction lors de la sélection du texte dans un champ texte."
   },
   "isDisabledInCodeElementLabel": {
-    "message": "Disable translation in code tags"
+    "message": "Désactiver la traduction dans les tags de code"
   },
   "isDisabledInCodeElementCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in code tag."
+    "message": "Ne pas afficher le bouton ou le panneau de traduction lors de la sélection de texte dans le code."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Translate on modifier key pressed"
+    "message": "Traduire lors de l'appui sur une touche de combinaison"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Only display translation on specified modifier key pressed."
+    "message": "Afficher la traduction uniquement lorsque la touche de combinaison spécifiée est pressée."
   },
   "modifierKeyLabel": {
-    "message": "Modifier Key"
+    "message": "Touche de combinaison"
   },
   "shiftLabel": {
     "message": "Shift"
@@ -129,7 +129,7 @@
     "message": "Alt"
   },
   "cmdLabel": {
-    "message": "Command"
+    "message": "Commande"
   },
   "disableUrlListLabel": {
     "message": "Liste URL pour désactiver la traduction"
@@ -153,10 +153,10 @@
     "message": "Sélectionnez la seconde langue cible."
   },
   "ignoredDocumentLangLabel": {
-    "message": "Disable translation by lang attribute"
+    "message": "Désactiver la traduction par attribut lang"
   },
   "ignoredDocumentLangCaptionLabel": {
-    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
+    "message": "Désactiver la traduction si l'attribut lang de l'élément HTML de la page correspond à la liste. Entrez des balises de langue séparées par des virgules."
   },
   "waitTimeLabel": {
     "message": "Temps d'attente pour la traduction"
@@ -180,16 +180,16 @@
     "message": "Style"
   },
   "themeLabel": {
-    "message": "Theme"
+    "message": "Thème"
   },
   "themeCaptionLabel": {
-    "message": "Specify the color scheme."
+    "message": "Spécifiez le schéma de couleurs."
   },
   "lightLabel": {
-    "message": "Light"
+    "message": "Lumière"
   },
   "darkLabel": {
-    "message": "Dark"
+    "message": "Sombre"
   },
   "buttonStyleLabel": {
     "message": "Bouton de traduction"
@@ -344,6 +344,9 @@
   "amazonTitleLabel": {
     "message": "Cartes Cadeaux (amazon.co.jp)"
   },
+  "sponsorsLabel": {
+    "message": "Sponsors"
+  },
   "addonPageLabel": {
     "message": "Page de l'extension"
   },
@@ -351,7 +354,7 @@
     "message": "Page de l'extension"
   },
   "privacyPolicyLabel": {
-    "message": "Privacy policy"
+    "message": "Politique de confidentialité"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"

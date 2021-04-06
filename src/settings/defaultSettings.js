@@ -146,8 +146,7 @@ export default [
             title: "isDisabledInCodeElementLabel",
             captions: ["isDisabledInCodeElementCaptionLabel"],
             type: "checkbox",
-            default: false,
-            new: true
+            default: false
           },
           {
             id: "ignoredDocumentLang",
@@ -155,8 +154,7 @@ export default [
             captions: ["ignoredDocumentLangCaptionLabel"],
             type: "text",
             default: "",
-            placeholder: "en, ru, zh",
-            new: true,
+            placeholder: "en, ru, zh"
           },
           {
             id: "disableUrlList",

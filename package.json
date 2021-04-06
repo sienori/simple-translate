@@ -5,9 +5,9 @@
     "browser-info": "^1.2.0",
     "loglevel": "^1.6.1",
     "query-string": "^6.1.0",
-    "react": "^16.4.0",
+    "react": "^16.13.1",
     "react-copy-to-clipboard": "^5.0.1",
-    "react-dom": "^16.4.0",
+    "react-dom": "^16.13.1",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
     "react-toggle": "^4.0.2"

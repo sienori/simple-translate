@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import browser from "webextension-polyfill";
 import browserInfo from "browser-info";
 import queryString from "query-string";
@@ -15,6 +15,17 @@ import manifest from "src/manifest-chrome.json";
 export default props => {
   const query = queryString.parse(props.location.search);
   const extensionVersion = manifest.version;
+
+  const [sponsorsHeihgt, setSponsorsHeight] = useState();
+
+  useEffect(() => {
+    const setHeight = e => {
+      if (e.data[0] !== "setSponsorsHeight") return;
+      setSponsorsHeight(e.data[1]);
+    };
+    window.addEventListener("message", setHeight);
+    return () => window.removeEventListener("message", setHeight);
+  });
 
   return (
     <div>
@@ -86,6 +97,16 @@ export default props => {
       />
       <hr />
       <OptionsContainer
+        title={"sponsorsLabel"}
+        captions={[""]}
+        type={"none"}
+        extraCaption={
+          <iframe src="https://simple-translate.sienori.com/sponsors.html"
+            style={{ height: sponsorsHeihgt, marginTop: 10 }} />
+        }
+      />
+      <hr />
+      <OptionsContainer
         title={""}
         captions={[]}
         type={"none"}
@@ -97,10 +118,10 @@ export default props => {
                   {browser.i18n.getMessage("extensionPageLabel")}
                 </a>
               ) : (
-                <a href={firefoxAddonUrl} target="_blank">
-                  {browser.i18n.getMessage("addonPageLabel")}
-                </a>
-              )}
+                  <a href={firefoxAddonUrl} target="_blank">
+                    {browser.i18n.getMessage("addonPageLabel")}
+                  </a>
+                )}
               <span>　</span>
               <a href="https://github.com/sienori/simple-translate" target="_blank">
                 GitHub

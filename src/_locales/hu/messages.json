@@ -344,6 +344,9 @@
   "amazonTitleLabel": {
     "message": "amazon.co.jp elektronikus ajándék kártya"
   },
+  "sponsorsLabel": {
+    "message": "Sponsors"
+  },
   "addonPageLabel": {
     "message": "Bővítmény weboldala"
   },

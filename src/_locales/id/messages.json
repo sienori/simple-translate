@@ -3,13 +3,13 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
+    "message": "Terjemahkan teks yang dipilih dengan cepat di halaman web. Dalam popup toolbar, Anda dapat menerjemahkan teks input."
   },
   "donateWithPaypalLabel": {
     "message": "Donasi dengan PayPal"
   },
   "donateLabel": {
-    "message": "Donate"
+    "message": "Donasi"
   },
   "enableOnThisPage": {
     "message": "aktifkan terjemahan pada halaman ini"
@@ -24,7 +24,7 @@
     "message": "Terjemahkan halaman ini"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "Buka di Google Translate"
   },
   "copyLabel": {
     "message": "Salin"
@@ -33,19 +33,19 @@
     "message": "Disalin."
   },
   "listenLabel": {
-    "message": "Listen"
+    "message": "Dengar"
   },
   "targetLangLabel": {
     "message": "Bahasa Target"
   },
   "langList": {
-    "message": "af:Afrikaans, sq:Albanian, am:Amharic, ar:Arabic, hy:Armenian, az:Azerbaijani, eu:Basque, be:Belarusian, bn:Bengali, bs:Bosnian, bg:Bulgarian, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Chinese (PRC), zh-TW:Chinese (Taiwan), co:Corsican, hr:Croatian, cs:Czech, da:Danish, nl:Dutch, en:English, eo:Esperanto, et:Estonian, fi:Finnish, fr:French, fy:Frisian, gl:Galician, ka:Georgian, de:German, el:Greek, gu:Gujarati, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesian, ga:Irish, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Korean, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:Macedonian, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persian, pl:Polish, pt:Portuguese, pa:Punjabi, ps:Pushto, ro:Romanian, ru:Russian, sm:Samoan, gd:Scottish Gaelic, sr:Serbian, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovak, sl:Slovenian, so:Somali, sx:Sotho, es:Spanish, su:Sundanese, sw:Swahili, sv:Swedish, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turkish, uk:Ukrainian, ur:Urdu, uz:Uzbek, vi:Vietnamese, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
+    "message": "af:Afrika, sq:Albania, am:Amharik, ar:Arab, hy:Armenia, az:Azerbaijan, eu:Basque, be:Belarusia, bn:Bengali, bs:Bosnia, bg:Bulgaria, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Tiongkok (RRT), zh-TW:Cina (Taiwan), co:Korsika, hr:Kroasia, cs:Ceko, da:Denmark, Belanda, en:Inggris, eo:Esperanto, et:Estonia, fi:Finnish, fr:Prancis, fy:Frisian, gl:Galician, ka:Georgian, de:Jerman, el:Yunani gu:Gujarati, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesia, ga:Irish, it:Itali, ja:Jepang, jv:Jawa, kn:Kanada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Korea, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:Macedonian, mg:Malagasy, ms:Malaysia, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persia, pl:Polandia, pt:Portugis, pa:Punjabi, ps:Pushto, ro:Romania, ru:Russia, sm:Samoan, gd:Scottish Gaelic, sr:Serbia, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovak, sl:Slovenian, so:Somali, sx:Sotho, es:Spanyol. su:Sunda, sw:Swahili, sv:Swedia, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turki, uk:Ukrainian, ur:Urdu, uz:Uzbek, vi:Vietnam, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
   },
   "allLangLabel": {
-    "message": "All languages"
+    "message": "Semua bahasa"
   },
   "recentLangLabel": {
-    "message": "Recent languages"
+    "message": "Bahasa baru-baru ini"
   },
   "settingsLabel": {
     "message": "Pengaturan"
@@ -90,34 +90,34 @@
     "message": "Jangan menampilkan tombol jika terjemahan tidak diperlukan"
   },
   "ifCheckLangCaptionLabel": {
-    "message": "Mendeteksi bahasa teks yang dipilih, dan jika itu adalah sama dengan bahasa target, tombol tidak ditampilkan."
+    "message": "Deteksi bahasa teks yang dipilih, dan jika itu adalah sama dengan bahasa target, tombol tidak ditampilkan."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+    "message": "Deteksi bahasa dari seleksi teks, dan jika itu adalah sama dengan bahasa target bawaan, terjemahkan ke dalam bahasa kedua."
   },
   "disableTranslationLabel": {
-    "message": "Disable translation"
+    "message": "Nonaktifkan terjemahan"
   },
   "isDisabledInTextFieldsLabel": {
-    "message": "Disable translation in text fields"
+    "message": "Nonaktifkan terjemahan pada kolom isian teks"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in a text field."
+    "message": "Jangan tampilkan tombol terjemahan atau panel saat menyeleksi teks di kolom isian teks."
   },
   "isDisabledInCodeElementLabel": {
-    "message": "Disable translation in code tags"
+    "message": "Nonaktifkan terjemahan pada tag kode"
   },
   "isDisabledInCodeElementCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in code tag."
+    "message": "Jangan tampilkan tombol terjemahan atau panel saat menyeleksi teks di tag kode."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Translate on modifier key pressed"
+    "message": "Terjemahkan saat tombol pengubah ditekan"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Only display translation on specified modifier key pressed."
+    "message": "Hanya tampilkan terjamahan saat tombol pengubah ditekan."
   },
   "modifierKeyLabel": {
-    "message": "Modifier Key"
+    "message": "Tombol Pengubah"
   },
   "shiftLabel": {
     "message": "Shift"
@@ -135,7 +135,7 @@
     "message": "daftar alamat yang dinonaktifkan terjemahan"
   },
   "disableUrlListCaptionLabel": {
-    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
+    "message": "Jika URL halaman sesuai dengan daftar, terjemahan untuk halaman tersebut dinonaktifkan. Daftar mengizinkan wildcard \"*\"."
   },
   "toolbarLabel": {
     "message": "Toolbar pengaya"
@@ -153,43 +153,43 @@
     "message": "Pilih bahasa target yang kedua."
   },
   "ignoredDocumentLangLabel": {
-    "message": "Disable translation by lang attribute"
+    "message": "Nonaktifkan terjemahan menurut atribut bahasa"
   },
   "ignoredDocumentLangCaptionLabel": {
-    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
+    "message": "Nonaktifkan terjemahan jika atribut bahasa di elemen hmtl halaman sesuai dengan daftar. Masukkan tag bahasa yang dipisahkan koma."
   },
   "waitTimeLabel": {
-    "message": "Waiting time to translate"
+    "message": "Waktu tunggu terjemahan"
   },
   "waitTimeCaptionLabel": {
-    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+    "message": "Tentukan waktu tunggu dari memasukan karakter sampai terjemahan dimulai. (milidetik)"
   },
   "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
+    "message": "Jika Anda menerjemahkannya berkali-kali dalam waktu singkat, ini mungkin tidak dapat digunakan untuk sementara waktu."
   },
   "menuLabel": {
-    "message": "Context menu"
+    "message": "Menu konteks"
   },
   "ifShowMenuLabel": {
     "message": "Menampilkan menu konteks"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+    "message": "Tambah item ke tampilan menu konteks saat mengklik kanan di halaman web atau tab."
   },
   "styleLabel": {
     "message": "Gaya"
   },
   "themeLabel": {
-    "message": "Theme"
+    "message": "Tema"
   },
   "themeCaptionLabel": {
-    "message": "Specify the color scheme."
+    "message": "Tentukan warna skema."
   },
   "lightLabel": {
-    "message": "Light"
+    "message": "Terang"
   },
   "darkLabel": {
-    "message": "Dark"
+    "message": "Gelap"
   },
   "buttonStyleLabel": {
     "message": "Tombol terjemahan"
@@ -204,31 +204,31 @@
     "message": "Tampilan Posisi"
   },
   "topRightLabel": {
-    "message": "Top right"
+    "message": "Kanan atas"
   },
   "bottomRightLabel": {
-    "message": "Bottom right"
+    "message": "Kanan bawah"
   },
   "topLeftLabel": {
-    "message": "Top left"
+    "message": "Kiri atas"
   },
   "bottomLeftLabel": {
-    "message": "Bottom left"
+    "message": "Kiri bawah"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "Atas"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "Bawah"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "Kiri"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "Kanan"
   },
   "positionOffsetLabel": {
-    "message": "Display position - Offset"
+    "message": "Posisi tampilan - Offset"
   },
   "panelStyleLabel": {
     "message": "Panel terjemahan"
@@ -246,79 +246,79 @@
     "message": "Ukuran huruf"
   },
   "referencePointLabel": {
-    "message": "Display position - Reference point"
+    "message": "Posisi tampilan - Titik referensi"
   },
   "bottomSelectedTextLabel": {
-    "message": "Bottom of selected text"
+    "message": "Bagian bawah seleksi teks"
   },
   "topSelectedTextLabel": {
-    "message": "Top of selected text"
+    "message": "Bagian atas seleksi teks"
   },
   "clickedPointLabel": {
-    "message": "Clicked point"
+    "message": "Titik klik"
   },
   "displayDirectionLabel": {
-    "message": "Display position - Direction"
+    "message": "Tampilan posisi - Arah"
   },
   "resultFontColorLabel": {
-    "message": "Font color of translation result"
+    "message": "Warna font hasil terjemahan"
   },
   "candidateFontColorLabel": {
-    "message": "Font color of translation candidates"
+    "message": "Warna font kandidat terjemahan"
   },
   "bgColorLabel": {
     "message": "Warna latar belakang"
   },
   "otherLabel": {
-    "message": "Other"
+    "message": "Lainnya"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Display option page when updating"
+    "message": "Tampilkan halaman pengaturan saat pembaharuan"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+    "message": "Tampilkan halaman pengaturan saat Simple Translate diperbaharui. Anda bisa mengetahui konten pembaharuan dengan cepat."
   },
   "isDebugModeLabel": {
-    "message": "Enable debug mode"
+    "message": "Aktifkan mode debug"
   },
   "isDebugModeCaptionLabel": {
-    "message": "When debug mode is enabled, the log is output to the debugger."
+    "message": "Saat mode debug diaktifkan, hasil log adalah keluaran untuk debugger."
   },
   "resetSettingsLabel": {
-    "message": "Reset settings"
+    "message": "Setel ulang"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Restore all settings to default."
+    "message": "Kembalikan setelan ulang ke bawaan."
   },
   "resetSettingsButtonLabel": {
     "message": "Reset"
   },
   "shortcutsLabel": {
-    "message": "Shortcuts"
+    "message": "Pintasan"
   },
   "keyboardShortcutsLabel": {
-    "message": "Keyboard shortcuts"
+    "message": "Pintasan keyboard"
   },
   "setKeyboardShortCutsMessage": {
-    "message": "Set keyboard shortcuts."
+    "message": "Atur pintasan keyboard."
   },
   "typeShortcutMessage": {
-    "message": "Type a shortcut"
+    "message": "Ketik pintasan"
   },
   "typeLetterMessage": {
-    "message": "Type a letter"
+    "message": "Ketik sebuah huruf"
   },
   "includeModifierKeysMessage": {
-    "message": "Include either Ctrl or Alt"
+    "message": "Masukkan antara Ctrl atau Alt"
   },
   "includeMacModifierKeysMessage": {
-    "message": "Include either Command, Ctrl or Alt"
+    "message": "Masukkan antara Command, Ctrl atau Alt"
   },
   "invalidLetterMessage": {
-    "message": "The letter can not be used"
+    "message": "Huruf ini tidak dapat digunakan"
   },
   "invalidShortcutMessage": {
-    "message": "The shortcut can not be used"
+    "message": "Pintasan ini tidak dapat digunakan"
   },
   "clear": {
     "message": "bersih"
@@ -330,7 +330,7 @@
     "message": "Informasi"
   },
   "backersLabel": {
-    "message": "Backers"
+    "message": "Pendukung"
   },
   "licenseLabel": {
     "message": "Lisensi"
@@ -344,6 +344,9 @@
   "amazonTitleLabel": {
     "message": "amazon.co.jp eGift Cards"
   },
+  "sponsorsLabel": {
+    "message": "Sponsors"
+  },
   "addonPageLabel": {
     "message": "Halaman pengaya"
   },
@@ -351,7 +354,7 @@
     "message": "halaman ekstensi"
   },
   "privacyPolicyLabel": {
-    "message": "Privacy policy"
+    "message": "Kebijakan privasi"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
@@ -360,13 +363,13 @@
     "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
-    "message": "Error: Check network connection status."
+    "message": "Error: Periksa status koneksi jaringan."
   },
   "unavailableError": {
-    "message": "Error: Service usage limit reached. Please wait a while and try again."
+    "message": "Error: Penggunaan jasa berlebihan. Tunggu beberapa saat dan coba lagi."
   },
   "unknownError": {
-    "message": "Error: Unknown error"
+    "message": "Error: Tidak diketahui"
   },
   "translatePageMenu": {
     "message": "Terjemahkan halaman ini"
@@ -378,6 +381,6 @@
     "message": "Terjemahkan tautan yang dipilih"
   },
   "openPopupDescription": {
-    "message": "Open toolbar popup"
+    "message": "Buka popup toolbar"
   }
 }

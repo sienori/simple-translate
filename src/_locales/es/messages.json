@@ -344,6 +344,9 @@
   "amazonTitleLabel": {
     "message": "amazon.co.jp tarjetas eGift"
   },
+  "sponsorsLabel": {
+    "message": "Sponsors"
+  },
   "addonPageLabel": {
     "message": "Página del complemento"
   },

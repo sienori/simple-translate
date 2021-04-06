@@ -344,6 +344,9 @@
   "amazonTitleLabel": {
     "message": "Карты eGift от amazon.co.jp"
   },
+  "sponsorsLabel": {
+    "message": "Sponsors"
+  },
   "addonPageLabel": {
     "message": "Страница расширения"
   },

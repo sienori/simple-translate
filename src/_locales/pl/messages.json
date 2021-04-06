@@ -344,6 +344,9 @@
   "amazonTitleLabel": {
     "message": "amazon.co.jp karty podarunkowe"
   },
+  "sponsorsLabel": {
+    "message": "Sponsors"
+  },
   "addonPageLabel": {
     "message": "Strona dodatków"
   },

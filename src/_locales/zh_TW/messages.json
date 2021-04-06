@@ -344,6 +344,9 @@
   "amazonTitleLabel": {
     "message": "贊助我 amazon 電子禮品卡"
   },
+  "sponsorsLabel": {
+    "message": "Sponsors"
+  },
   "addonPageLabel": {
     "message": "AMO 附加元件頁面"
   },

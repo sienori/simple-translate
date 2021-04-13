@@ -186,7 +186,7 @@
     "message": "Specify the color scheme."
   },
   "lightLabel": {
-    "message": "Light"
+    "message": "දීප්ත"
   },
   "darkLabel": {
     "message": "අඳුරු"
@@ -285,13 +285,13 @@
     "message": "When debug mode is enabled, the log is output to the debugger."
   },
   "resetSettingsLabel": {
-    "message": "Reset settings"
+    "message": "සැකසුම් යළි පිහිටුවන්න"
   },
   "resetSettingsCaptionLabel": {
     "message": "Restore all settings to default."
   },
   "resetSettingsButtonLabel": {
-    "message": "Reset"
+    "message": "යලි පිහිටුවන්න"
   },
   "shortcutsLabel": {
     "message": "කෙටිමං"

@@ -339,13 +339,13 @@
     "message": "Proszę o dokonanie dotacji"
   },
   "donationCaptionLabel": {
-    "message": "Dziękujemy za korzystanie z Simple Translate.<br> Twoje wsparcie jest niesamowice dużo dla mnie warte i zachęca do dalszej pracy i w dalszym ciągu rozwijam dodatek.<br>Jeżeli lubisz Simple Translate, byłbym bardzo wdzięczny jeżeli móglbyś/aś rozważyć wykonanie dotacji."
+    "message": "Dziękuję za korzystanie z Simple Translate.<br> Twoje wsparcie będzie olbrzymią zachętą dla mnie do dalszej pracy nad tym rozszerzeniem.<br>Jeżeli lubisz Simple Translate, byłbym wdzięczny za rozważenie dokonania donacji."
   },
   "amazonTitleLabel": {
     "message": "amazon.co.jp karty podarunkowe"
   },
   "sponsorsLabel": {
-    "message": "Sponsors"
+    "message": "Sponsorzy"
   },
   "addonPageLabel": {
     "message": "Strona dodatków"
@@ -369,7 +369,7 @@
     "message": "Błąd: Limit użycia serwisu został osiągnięty. Poczekaj chwilę i spróbuj ponownie."
   },
   "unknownError": {
-    "message": "Nieznany błąd"
+    "message": "Error: Nieznany błąd"
   },
   "translatePageMenu": {
     "message": "Przetłumacz tę stronę"

@@ -6,7 +6,7 @@
     "message": "Błyskawicznie przetłumacz zaznaczony tekst na stronie. W oknie wywołanym z paska narzędzi, możesz przetłumaczyć wpisany tekst."
   },
   "donateWithPaypalLabel": {
-    "message": "Wesprzyj przez PayPal"
+    "message": "Wspieraj przez PayPal"
   },
   "donateLabel": {
     "message": "Wesprzyj"
@@ -129,7 +129,7 @@
     "message": "Alt"
   },
   "cmdLabel": {
-    "message": "Klawisz super"
+    "message": "Command"
   },
   "disableUrlListLabel": {
     "message": "Lista adresów URL, gdzie wyłączono tłumaczenie"
@@ -138,25 +138,25 @@
     "message": "Jeśli adres URL pasuje do listy, tłumaczenie na tej stronie jest wyłączone. Lista pozwala na używanie wieloznacznika \"*\"."
   },
   "toolbarLabel": {
-    "message": "Podręczne narzędzia"
+    "message": "Okienko z paska narzędziowego"
   },
   "ifChangeSecondLangLabel": {
     "message": "Automatycznie przełącz na drugi język"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "Wykrywa język wprowadzonego tekstu, a jeśli jest taki sam jak domyślny język docelowy, tłumaczy go na drugi język."
+    "message": "Wykrywa język wprowadzonego tekstu, jeżeli ten jest taki sam jak domyślny język docelowy, tłumaczy go na drugi język."
   },
   "secondTargetLangLabel": {
     "message": "Drugi język"
   },
   "secondTargetLangCaptionLabel": {
-    "message": "Wybierz domyślny język docelowy."
+    "message": "Wybierz drugi język docelowy."
   },
   "ignoredDocumentLangLabel": {
-    "message": "Wyłącz tłumaczenie przez atrybut lang"
+    "message": "Wyłącz tłumaczenie przy użyciu atrybutu lang"
   },
   "ignoredDocumentLangCaptionLabel": {
-    "message": "Wyłącz tłumaczenie, jeśli atrybut lang w elemencie html strony pasuje do listy. Wprowadź tagi językowe rozdzielone przecinkami."
+    "message": "Wyłącz tłumaczenie, jeśli atrybut lang w elemencie html strony pasuje do listy. Wprowadź tagi językowe oddzielone przecinkami."
   },
   "waitTimeLabel": {
     "message": "Czas oczekiwania na tłumaczenie"
@@ -192,7 +192,7 @@
     "message": "Ciemny"
   },
   "buttonStyleLabel": {
-    "message": "Przycisk tłumaczenia"
+    "message": "Przycisk translacji"
   },
   "buttonStyleCaptionLabel": {
     "message": "Określ styl przycisku translacji wyświetlanego na stronie internetowej."
@@ -342,7 +342,7 @@
     "message": "Dziękuję za korzystanie z Simple Translate.<br> Twoje wsparcie będzie olbrzymią zachętą dla mnie do dalszej pracy nad tym rozszerzeniem.<br>Jeżeli lubisz Simple Translate, byłbym wdzięczny za rozważenie dokonania donacji."
   },
   "amazonTitleLabel": {
-    "message": "amazon.co.jp karty podarunkowe"
+    "message": "Karty podarunkowe amazon.co.jp"
   },
   "sponsorsLabel": {
     "message": "Sponsorzy"

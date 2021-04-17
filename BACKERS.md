@@ -33,3 +33,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - mgulick
 - Carol Li
 - James
+- Quinton Ashley

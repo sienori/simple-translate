@@ -144,7 +144,7 @@
     "message": "Trocar automaticamente para o segundo idioma"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "Detecta o idioma do texto inserido e, se for igual ao idioma alvo padrão, traduz para o segundo idioma."
+    "message": "Detecta o idioma do texto inserido e, se igual ao idioma alvo padrão, traduz no segundo idioma."
   },
   "secondTargetLangLabel": {
     "message": "Segundo idioma"
@@ -174,7 +174,7 @@
     "message": "Exibir menu de contexto"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Adiciona itens ao menu de contexto exibido ao clicar com o botão direito na página ou na aba."
+    "message": "Adiciona itens ao menu de contexto exibido ao clicar o botão direito na página ou na aba."
   },
   "styleLabel": {
     "message": "Estilo"
@@ -228,7 +228,7 @@
     "message": "Direita"
   },
   "positionOffsetLabel": {
-    "message": "Posição de exibição - Deslocamento"
+    "message": "Posição de exibição - Distância"
   },
   "panelStyleLabel": {
     "message": "Painel de tradução"

@@ -57,7 +57,7 @@
     "message": "Select the default target language."
   },
   "webPageLabel": {
-    "message": "Web page"
+    "message": "වියමන පිටුව"
   },
   "ifShowCandidateLabel": {
     "message": "Show translation candidates"
@@ -180,16 +180,16 @@
     "message": "මෝස්තරය"
   },
   "themeLabel": {
-    "message": "Theme"
+    "message": "තේමාව"
   },
   "themeCaptionLabel": {
     "message": "Specify the color scheme."
   },
   "lightLabel": {
-    "message": "Light"
+    "message": "දීප්ත"
   },
   "darkLabel": {
-    "message": "Dark"
+    "message": "අඳුරු"
   },
   "buttonStyleLabel": {
     "message": "පරිවර්තන බොත්තම"
@@ -243,7 +243,7 @@
     "message": "උස"
   },
   "fontSizeLabel": {
-    "message": "අක්ෂරයේ ප්‍රමාණය"
+    "message": "මුද්‍රණාක්ෂරයේ ප්‍රමාණය"
   },
   "referencePointLabel": {
     "message": "Display position - Reference point"
@@ -285,16 +285,16 @@
     "message": "When debug mode is enabled, the log is output to the debugger."
   },
   "resetSettingsLabel": {
-    "message": "Reset settings"
+    "message": "සැකසුම් යළි පිහිටුවන්න"
   },
   "resetSettingsCaptionLabel": {
     "message": "Restore all settings to default."
   },
   "resetSettingsButtonLabel": {
-    "message": "Reset"
+    "message": "යලි පිහිටුවන්න"
   },
   "shortcutsLabel": {
-    "message": "Shortcuts"
+    "message": "කෙටිමං"
   },
   "keyboardShortcutsLabel": {
     "message": "Keyboard shortcuts"
@@ -321,10 +321,10 @@
     "message": "The shortcut can not be used"
   },
   "clear": {
-    "message": "Clear"
+    "message": "හිස් කරන්න"
   },
   "reset": {
-    "message": "Reset"
+    "message": "යලි පිහිටුවන්න"
   },
   "informationLabel": {
     "message": "තොරතුරු"
@@ -345,7 +345,7 @@
     "message": "amazon.co.jp eGift Cards"
   },
   "sponsorsLabel": {
-    "message": "Sponsors"
+    "message": "අනුග්‍රාහකයින්"
   },
   "addonPageLabel": {
     "message": "Add-on page"
@@ -354,7 +354,7 @@
     "message": "Extension page"
   },
   "privacyPolicyLabel": {
-    "message": "Privacy policy"
+    "message": "රහස්‍යතා ප්‍රතිපත්තිය"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"

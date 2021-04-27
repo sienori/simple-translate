@@ -39,7 +39,7 @@ const handleMouseUp = async e => {
 
   const ignoredDocumentLang = getSettings("ignoredDocumentLang").split(",").map(s => s.trim()).filter(s => !!s);
   if (ignoredDocumentLang.length) {
-    const ignoredLangSelector = ignoredDocumentLang.map(lang = `[lang="${lang}"]`).join(',')
+    const ignoredLangSelector = ignoredDocumentLang.map(lang => `[lang="${lang}"]`).join(',')
     if (!!e.target.closest(ignoredLangSelector)) return;
   }
 

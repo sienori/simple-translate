@@ -6,7 +6,7 @@
     "message": "Błyskawicznie przetłumacz zaznaczony tekst na stronie. W oknie wywołanym z paska narzędzi, możesz przetłumaczyć wpisany tekst."
   },
   "donateWithPaypalLabel": {
-    "message": "Wesprzyj przez PayPal"
+    "message": "Wspieraj przez PayPal"
   },
   "donateLabel": {
     "message": "Wesprzyj"
@@ -39,7 +39,7 @@
     "message": "Język docelowy"
   },
   "langList": {
-    "message": "af:Afrykanerski, sq:Albański, am:Amharyjski, ar:Arabski, hy:Armeński, az:Azerbejdżański, eu:Baskijski, bn:Bengalijski, bs:Bośniacki, bg:Bułgarski, ca:Kataloński, ceb:Cebuański, ny:Chewa, zh-CN:Chiński (PRC), zh-TW:Chiński (Tajwan), co:Korsykański, hr:Chorwacki, cs:Czeski, da:Duński, nl:Holenderski, en:Angielski, eo:Esperanto et:Estoński, fi:Fiński, fr:Francuski, fy:Frisian, gl:Galicyjski, ka:Georgiański, de:Niemiecki, el:Grecki, gu:Gudźarati, ht:Haitański, ha:Hausa, haw:Hawajski, he:Hebrajski, hi:Indyjski, hu:Węgierski, is:Islandzki, ig:Igbo, id:Indonezyjski, ga:Irlandzki, it:Włoski, ja:Japoński, jv:Javoński, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Koreański, ku:Kurdyjski, lo:Laotian, la:Łaciński, lv:Łotewski, lt:Litewski, lb:Luksemburski, mk:Macedoński, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norweski, fa:Perski, pl:Polski, pt:Portugalski, pa:Punjabi, ps:Pushto, ro:Rumuński, sm:Samoan, gd:Szkocki, sr:Serban, sn:Shona, sd:Sindhi, si:Sinhala, sk:Słowacki, sl:Słoweński, so:Somali, sx:Sotho, es:Hiszpański, su:Sundanese, sw:Swahili, sv:Szwecki tl:Tagalog, tg:Tadżyki, ta:Tamil, te:Telugu, th:Thai, tr:Turecki, uk:Ukraiński, ur:Urdu, uz:Uzbecki, vi:Wietnamski, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
+    "message": "af:Afrykanerski, sq:Albański, am:Amharyjski, ar:Arabski, hy:Armeński, az:Azerbejdżański, eu:Baskijski, be:Belarusian, bn:Bengalijski, bs:Bośniacki, bg:Bułgarski, ca:Kataloński, ceb:Cebuański, ny:Chewa, zh-CN:Chiński (PRC), zh-TW:Chiński (Tajwan), co:Korsykański, hr:Chorwacki, cs:Czeski, da:Duński, nl:Holenderski, en:Angielski, eo:Esperanto, et:Estoński, fi:Fiński, fr:Francuski, fy:Frisian, gl:Galicyjski, ka:Georgiański, de:Niemiecki, el:Grecki, gu:Gudźarati, ht:Haitański, ha:Hausa, haw:Hawajski, he:Hebrajski, hi:Indyjski, hu:Węgierski, is:Islandzki, ig:Igbo, id:Indonezyjski, ga:Irlandzki, it:Włoski, ja:Japoński, jv:Javoński, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Koreański, ku:Kurdyjski, lo:Laotian, la:Łaciński, lv:Łotewski, lt:Litewski, lb:Luksemburski, mk:Macedoński, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norweski, fa:Perski, pl:Polski, pt:Portugalski, pa:Punjabi, ps:Pushto, ro:Rumuński, ru:Russian, sm:Samoan, gd:Szkocki, sr:Serban, sn:Shona, sd:Sindhi, si:Sinhala, sk:Słowacki, sl:Słoweński, so:Somali, sx:Sotho, es:Hiszpański, su:Sundanese, sw:Swahili, sv:Szwecki, tl:Tagalog, tg:Tadżyki, ta:Tamil, te:Telugu, th:Thai, tr:Turecki, uk:Ukraiński, ur:Urdu, uz:Uzbecki, vi:Wietnamski, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
   },
   "allLangLabel": {
     "message": "Wszystkie języki"
@@ -129,7 +129,7 @@
     "message": "Alt"
   },
   "cmdLabel": {
-    "message": "Klawisz super"
+    "message": "Command"
   },
   "disableUrlListLabel": {
     "message": "Lista adresów URL, gdzie wyłączono tłumaczenie"
@@ -138,25 +138,25 @@
     "message": "Jeśli adres URL pasuje do listy, tłumaczenie na tej stronie jest wyłączone. Lista pozwala na używanie wieloznacznika \"*\"."
   },
   "toolbarLabel": {
-    "message": "Podręczne narzędzia"
+    "message": "Okienko z paska narzędziowego"
   },
   "ifChangeSecondLangLabel": {
     "message": "Automatycznie przełącz na drugi język"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "Wykrywa język wprowadzonego tekstu, a jeśli jest taki sam jak domyślny język docelowy, tłumaczy go na drugi język."
+    "message": "Wykrywa język wprowadzonego tekstu, jeżeli ten jest taki sam jak domyślny język docelowy, tłumaczy go na drugi język."
   },
   "secondTargetLangLabel": {
     "message": "Drugi język"
   },
   "secondTargetLangCaptionLabel": {
-    "message": "Wybierz domyślny język docelowy."
+    "message": "Wybierz drugi język docelowy."
   },
   "ignoredDocumentLangLabel": {
-    "message": "Wyłącz tłumaczenie przez atrybut lang"
+    "message": "Wyłącz tłumaczenie przy użyciu atrybutu lang"
   },
   "ignoredDocumentLangCaptionLabel": {
-    "message": "Wyłącz tłumaczenie, jeśli atrybut lang w elemencie html strony pasuje do listy. Wprowadź tagi językowe rozdzielone przecinkami."
+    "message": "Wyłącz tłumaczenie, jeśli atrybut lang w elemencie html strony pasuje do listy. Wprowadź tagi językowe oddzielone przecinkami."
   },
   "waitTimeLabel": {
     "message": "Czas oczekiwania na tłumaczenie"
@@ -192,7 +192,7 @@
     "message": "Ciemny"
   },
   "buttonStyleLabel": {
-    "message": "Przycisk tłumaczenia"
+    "message": "Przycisk translacji"
   },
   "buttonStyleCaptionLabel": {
     "message": "Określ styl przycisku translacji wyświetlanego na stronie internetowej."
@@ -228,10 +228,10 @@
     "message": "Prawo"
   },
   "positionOffsetLabel": {
-    "message": "Miejsce wyświetlania - przesunięcie"
+    "message": "Miejsce wyświetlania - Przesunięcie"
   },
   "panelStyleLabel": {
-    "message": "Panel tłumaczenia"
+    "message": "Panel translacji"
   },
   "panelStyleCaptionLabel": {
     "message": "Określ styl panelu translacji wyświetlanego na stronie internetowej."
@@ -339,13 +339,13 @@
     "message": "Proszę o dokonanie dotacji"
   },
   "donationCaptionLabel": {
-    "message": "Dziękujemy za korzystanie z Simple Translate.<br> Twoje wsparcie jest niesamowice dużo dla mnie warte i zachęca do dalszej pracy i w dalszym ciągu rozwijam dodatek.<br>Jeżeli lubisz Simple Translate, byłbym bardzo wdzięczny jeżeli móglbyś/aś rozważyć wykonanie dotacji."
+    "message": "Dziękuję za korzystanie z Simple Translate.<br> Twoje wsparcie będzie olbrzymią zachętą dla mnie do dalszej pracy nad tym rozszerzeniem.<br>Jeżeli lubisz Simple Translate, byłbym wdzięczny za rozważenie dokonania donacji."
   },
   "amazonTitleLabel": {
-    "message": "amazon.co.jp karty podarunkowe"
+    "message": "Karty podarunkowe amazon.co.jp"
   },
   "sponsorsLabel": {
-    "message": "Sponsors"
+    "message": "Sponsorzy"
   },
   "addonPageLabel": {
     "message": "Strona dodatków"
@@ -369,7 +369,7 @@
     "message": "Błąd: Limit użycia serwisu został osiągnięty. Poczekaj chwilę i spróbuj ponownie."
   },
   "unknownError": {
-    "message": "Nieznany błąd"
+    "message": "Error: Nieznany błąd"
   },
   "translatePageMenu": {
     "message": "Przetłumacz tę stronę"

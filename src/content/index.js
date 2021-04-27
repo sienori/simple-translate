@@ -38,7 +38,10 @@ const handleMouseUp = async e => {
   removeTranslatecontainer();
 
   const ignoredDocumentLang = getSettings("ignoredDocumentLang").split(",").map(s => s.trim()).filter(s => !!s);
-  if (!!document.documentElement.lang && ignoredDocumentLang.includes(document.documentElement.lang)) return;
+  if (ignoredDocumentLang.length) {
+    const ignoredLangSelector = ignoredDocumentLang.map(lang => `[lang="${lang}"]`).join(',')
+    if (!!e.target.closest(ignoredLangSelector)) return;
+  }
 
   const selectedText = getSelectedText();
   prevSelectedText = selectedText;

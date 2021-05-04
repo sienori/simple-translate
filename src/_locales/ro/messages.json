@@ -42,10 +42,10 @@
     "message": "af:afrikaans, sq:albaneză, am:amhară, ar:arabă, hy:armeană, az:azeră, eu:bască, be:belarusă, bn:bengaleză, bs:bosniacă, bg:bulgară, ca:catalană, ceb:cebuană, ny:Chewa, zh-CN:chineză (PRC), zh-TW:chineză (Taiwan), co:corsicană, hr:esperanto, cs:Czech, da:Danish, nl:Dutch, en:English, eo:Esperanto, et:estonă, fi:finlandeză, fr:franceză, fy:friziană, gl:galiciană, ka:georgiană, de:germană, el:greacă, gu:gujarati, ht:haitiană, ha:hausă, haw:hawaiiană, he:ebraică, hi:hindi, hu:maghiară, is:islandeză, ig:igbo, id:indoneziană, ga:khmeră, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:kirghiză, ko:coreeană, ku:kurdă, lo:laoțiană, la:latină, lv:letonă, lt:lituaniană, lb:luxemburgheză, mk:macedoneană, mg:malgaşă, ms:malaieză, ml:malayalam, mt:malteză, mi:maori, mr:marathi, mn:mongolă, hmn:Monk, my:birmană, ne:nepaleză, no:norvegiană, fa:persană, pl:poloneză, pt:portugheză, pa:punjabă, ps:Pushto, ro:română, ru:rusă, sm:samoană, gd:galica scoțiană, sr:sârbă, sn:shona, sd:Sindhi, si:singaleză, sk:slovacă, sl:slovenă, so:somaleză, sx:sotho, es:spaniolă, su:sundaneză, sw:swahili, sv:suedeză, tl:tagalog, tg: tadjică, ta:tamilă, te:telugu, th:tailandeză, tr:turcă, uk:ucraineană, ur:urdu, uz:uzbecă, vi:vietnameză, cy:galeză, xh:xosa, yi:idiș, yo:yoruba, zu:zulu"
   },
   "allLangLabel": {
-    "message": "All languages"
+    "message": "Toate limbile"
   },
   "recentLangLabel": {
-    "message": "Recent languages"
+    "message": "Limbi recente"
   },
   "settingsLabel": {
     "message": "Setări"
@@ -96,7 +96,7 @@
     "message": "Detectează limba textului selectat, iar dacă e identică cu limba țintă implicită, tradu in limba secundară."
   },
   "disableTranslationLabel": {
-    "message": "Disable translation"
+    "message": "Dezactivează traducerea"
   },
   "isDisabledInTextFieldsLabel": {
     "message": "Dezactivează traducerea în câmpurile de text"
@@ -180,16 +180,16 @@
     "message": "Stil"
   },
   "themeLabel": {
-    "message": "Theme"
+    "message": "Tema"
   },
   "themeCaptionLabel": {
-    "message": "Specify the color scheme."
+    "message": "Specificați schema de culori."
   },
   "lightLabel": {
-    "message": "Light"
+    "message": "Luminos"
   },
   "darkLabel": {
-    "message": "Dark"
+    "message": "Întunecat"
   },
   "buttonStyleLabel": {
     "message": "Butonul de traducere"
@@ -345,7 +345,7 @@
     "message": "Carduri eGift amazon.co.jp"
   },
   "sponsorsLabel": {
-    "message": "Sponsors"
+    "message": "Sponsori"
   },
   "addonPageLabel": {
     "message": "Pagină de add-on-uri"
@@ -354,7 +354,7 @@
     "message": "Pagină de extensii"
   },
   "privacyPolicyLabel": {
-    "message": "Privacy policy"
+    "message": "Politica de confidenţialitate"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=ro_US"

@@ -34,3 +34,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - Carol Li
 - James
 - Quinton Ashley
+- Petr Korolev

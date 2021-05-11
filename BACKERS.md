@@ -35,3 +35,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - James
 - Quinton Ashley
 - Petr Korolev
+- Shigeru Tanaka

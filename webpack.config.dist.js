@@ -46,7 +46,10 @@ const generalConfig = {
             loader: "style-loader"
           },
           {
-            loader: "css-loader"
+            loader: "css-loader",
+            options: {
+              esModule: false
+            }
           },
           {
             loader: "sass-loader"
@@ -59,7 +62,10 @@ const generalConfig = {
         use: [
           MiniCssExtractPlugin.loader,
           {
-            loader: "css-loader"
+            loader: "css-loader",
+            options: {
+              esModule: false
+            }
           },
           {
             loader: "sass-loader"

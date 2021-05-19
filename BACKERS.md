@@ -36,3 +36,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - Quinton Ashley
 - Petr Korolev
 - Shigeru Tanaka
+- Laura Manson

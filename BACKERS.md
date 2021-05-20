@@ -37,3 +37,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - Petr Korolev
 - Shigeru Tanaka
 - Laura Manson
+- t_w

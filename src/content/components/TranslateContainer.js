@@ -39,6 +39,7 @@ export default class TranslateContainer extends Component {
       buttonPosition: { x: 0, y: 0 },
       shouldShowPanel: false,
       panelPosition: { x: 0, y: 0 },
+      currentLang: getSettings("targetLang"),
       resultText: "",
       candidateText: "",
       statusText: "OK"
@@ -85,20 +86,20 @@ export default class TranslateContainer extends Component {
     const panelPosition = useClickedPosition ? clickedPosition : this.selectedPosition;
 
     let result = await translateText(this.selectedText);
-    if (getSettings("ifChangeSecondLangOnPage")) {
-      const targetLang = getSettings("targetLang");
-      const secondLang = getSettings("secondTargetLang");
-      const shouldSwitchSecondLang =
-        result.sourceLanguage === targetLang && result.percentage > 0 && targetLang !== secondLang;
-      if (shouldSwitchSecondLang) result = await translateText(this.selectedText, secondLang);
-    }
+    const targetLang = getSettings("targetLang");
+    const secondLang = getSettings("secondTargetLang");
+    const shouldSwitchSecondLang =
+      getSettings("ifChangeSecondLangOnPage") &&
+      result.sourceLanguage === targetLang && result.percentage > 0 && targetLang !== secondLang;
+    if (shouldSwitchSecondLang) result = await translateText(this.selectedText, secondLang);
 
     this.setState({
       shouldShowPanel: true,
       panelPosition: panelPosition,
       resultText: result.resultText,
       candidateText: getSettings("ifShowCandidate") ? result.candidateText : "",
-      statusText: result.statusText
+      statusText: result.statusText,
+      currentLang: shouldSwitchSecondLang ? secondLang : targetLang
     });
   };
 
@@ -117,6 +118,8 @@ export default class TranslateContainer extends Component {
         <TranslatePanel
           shouldShow={this.state.shouldShowPanel}
           position={this.state.panelPosition}
+          selectedText={this.selectedText}
+          currentLang={this.state.currentLang}
           resultText={this.state.resultText}
           candidateText={this.state.candidateText}
           statusText={this.state.statusText}

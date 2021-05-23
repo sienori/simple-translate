@@ -1,3 +1,4 @@
+import browser from "webextension-polyfill";
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import { getSettings } from "src/settings/settings";
@@ -162,7 +163,7 @@ export default class TranslatePanel extends Component {
   };
 
   render = () => {
-    const { shouldShow, resultText, candidateText, statusText } = this.props;
+    const { shouldShow, selectedText, currentLang, resultText, candidateText, statusText } = this.props;
     const isError = statusText !== "OK";
     const { width, height } = this.state.shouldResize
       ? { width: parseInt(getSettings("width")), height: parseInt(getSettings("height")) }
@@ -204,6 +205,13 @@ export default class TranslatePanel extends Component {
             {isError && (
               <p className="simple-translate-error" style={candidateStyles}>
                 {getErrorMessage(statusText)}
+                <br />
+                <a
+                  href={`https://translate.google.com/?sl=auto&tl=${currentLang}&text=${encodeURIComponent(selectedText)}`}
+                  target="_blank"
+                >
+                  {browser.i18n.getMessage("openInGoogleLabel")}
+                </a>
               </p>
             )}
           </div>

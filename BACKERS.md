@@ -38,3 +38,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - Shigeru Tanaka
 - Laura Manson
 - t_w
+- Ryan Reedy

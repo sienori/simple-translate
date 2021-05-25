@@ -39,3 +39,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - Laura Manson
 - t_w
 - Ryan Reedy
+- Milen Tsigomarev

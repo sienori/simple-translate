@@ -40,3 +40,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - t_w
 - Ryan Reedy
 - Milen Tsigomarev
+- 名暉 戴

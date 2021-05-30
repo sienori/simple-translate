@@ -10,6 +10,7 @@ const {
   getCopyPlugins,
   getZipPlugin,
   getFirefoxCopyPlugins,
+  getMiniCssExtractPlugin,
   getEntry
 } = require("./webpack.utils");
 const path = require("path");
@@ -40,25 +41,6 @@ const generalConfig = {
       },
       {
         test: /\.(scss|css)$/,
-        exclude: [path.resolve(__dirname, "src", "content")],
-        use: [
-          {
-            loader: "style-loader"
-          },
-          {
-            loader: "css-loader",
-            options: {
-              esModule: false
-            }
-          },
-          {
-            loader: "sass-loader"
-          }
-        ]
-      },
-      {
-        test: /\.(scss|css)$/,
-        include: [path.resolve(__dirname, "src", "content")],
         use: [
           MiniCssExtractPlugin.loader,
           {
@@ -101,9 +83,7 @@ module.exports = [
     },
     plugins: [
       new CleanWebpackPlugin(["dist", "temp"]),
-      new MiniCssExtractPlugin({
-        filename: "[name]/[name].css"
-      }),
+      ...getMiniCssExtractPlugin(),
       ...getHTMLPlugins("chrome", config.tempDirectory, config.chromePath),
       ...getCopyPlugins("chrome", config.tempDirectory, config.chromePath),
       getZipPlugin(`${config.extName}-for-chrome-${extVersion}`, config.distDirectory)
@@ -118,9 +98,7 @@ module.exports = [
     },
     plugins: [
       new CleanWebpackPlugin(["dist", "temp"]),
-      new MiniCssExtractPlugin({
-        filename: "[name]/[name].css"
-      }),
+      ...getMiniCssExtractPlugin(),
       ...getHTMLPlugins("firefox", config.tempDirectory, config.firefoxPath),
       ...getFirefoxCopyPlugins("firefox", config.tempDirectory, config.firefoxPath),
       getZipPlugin(`${config.extName}-for-firefox-${ffExtVersion}`, config.distDirectory)
@@ -136,6 +114,7 @@ module.exports = [
     entry: { other: path.resolve(__dirname, `src/background/background.js`) },
     output: getOutput("copiedSource", config.tempDirectory),
     plugins: [
+      ...getMiniCssExtractPlugin(),
       new CopyWebpackPlugin({
         patterns: [
           {

@@ -41,3 +41,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - Ryan Reedy
 - Milen Tsigomarev
 - 名暉 戴
+- László Dr. Gerő

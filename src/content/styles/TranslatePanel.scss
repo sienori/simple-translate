@@ -12,6 +12,7 @@
     transition-duration: 200ms;
     opacity: 0;
     visibility: hidden;
+    resize: both;
     &.isShow {
       opacity: 1;
       visibility: visible;

@@ -9,6 +9,7 @@ const init = async () => {
   await initSettings();
   document.addEventListener("mouseup", handleMouseUp);
   document.addEventListener("keydown", handleKeyDown);
+  window.addEventListener("unload", onUnload, { once: true });
   browser.storage.onChanged.addListener(handleSettingsChange);
   browser.runtime.onMessage.addListener(handleMessage);
   overWriteLogLevel();
@@ -130,6 +131,10 @@ const handleKeyDown = e => {
   if (e.key === "Escape") {
     removeTranslatecontainer();
   }
+};
+
+const onUnload = () => {
+  browser.storage.onChanged.removeListener(handleSettingsChange);
 };
 
 let isEnabled = true;

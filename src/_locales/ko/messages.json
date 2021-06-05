@@ -1,0 +1,386 @@
+{
+  "extName": {
+    "message": "Simple Translate"
+  },
+  "extDescription": {
+    "message": "웹 페이지에서 선택한 텍스트를 빠르게 번역하세요. 툴바 팝업을 이용해 입력한 내용을 번역할 수도 있습니다."
+  },
+  "donateWithPaypalLabel": {
+    "message": "PayPal로 기부하기"
+  },
+  "donateLabel": {
+    "message": "기부하기"
+  },
+  "enableOnThisPage": {
+    "message": "이 페이지에서 번역 사용"
+  },
+  "disableOnThisPage": {
+    "message": "이 페이지에서 번역 사용 안 함"
+  },
+  "initialTextArea": {
+    "message": "텍스트 입력"
+  },
+  "showLink": {
+    "message": "이 페이지 번역"
+  },
+  "openInGoogleLabel": {
+    "message": "Google 번역으로 열기"
+  },
+  "copyLabel": {
+    "message": "복사"
+  },
+  "copiedLabel": {
+    "message": "복사됨"
+  },
+  "listenLabel": {
+    "message": "듣기"
+  },
+  "targetLangLabel": {
+    "message": "번역 언어"
+  },
+  "langList": {
+    "message": "af:Afrikaans, sq:Albanian, am:Amharic, ar:Arabic, hy:Armenian, az:Azerbaijani, eu:Basque, be:Belarusian, bn:Bengali, bs:Bosnian, bg:Bulgarian, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Chinese (PRC), zh-TW:Chinese (Taiwan), co:Corsican, hr:Croatian, cs:Czech, da:Danish, nl:Dutch, en:English, eo:Esperanto, et:Estonian, fi:Finnish, fr:French, fy:Frisian, gl:Galician, ka:Georgian, de:German, el:Greek, gu:Gujarati, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesian, ga:Irish, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:한국어, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:Macedonian, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persian, pl:Polish, pt:Portuguese, pa:Punjabi, ps:Pushto, ro:Romanian, ru:Russian, sm:Samoan, gd:Scottish Gaelic, sr:Serbian, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovak, sl:Slovenian, so:Somali, sx:Sotho, es:Spanish, su:Sundanese, sw:Swahili, sv:Swedish, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turkish, uk:Ukrainian, ur:Urdu, uz:Uzbek, vi:Vietnamese, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
+  },
+  "allLangLabel": {
+    "message": "모든 언어"
+  },
+  "recentLangLabel": {
+    "message": "최근 사용한 언어"
+  },
+  "settingsLabel": {
+    "message": "설정"
+  },
+  "generalLabel": {
+    "message": "일반"
+  },
+  "targetLangCaptionLabel": {
+    "message": "기본 번역 언어를 선택하세요."
+  },
+  "webPageLabel": {
+    "message": "웹 페이지"
+  },
+  "ifShowCandidateLabel": {
+    "message": "다른 번역 보기"
+  },
+  "ifShowCandidateCaptionLabel": {
+    "message": "단어 번역시 단어가 가진 여러 의미를 함께 보여줍니다."
+  },
+  "whenSelectTextLabel": {
+    "message": "텍스트가 선택되었을 때 동작"
+  },
+  "ifAutoTranslateLabel": {
+    "message": "번역 결과 창 보기"
+  },
+  "ifAutoTranslateCaptionLabel": {
+    "message": "버튼 표시 없이 바로 번역 결과 창을 보여줍니다."
+  },
+  "ifShowButtonLabel": {
+    "message": "텍스트를 선택했을 때 번역 버튼 보여주기"
+  },
+  "ifShowButtonCaptionLabel": {
+    "message": "웹 페이지에서 텍스트를 선택했을 때 버튼을 보여줍니다."
+  },
+  "dontshowbuttonlabel": {
+    "message": "버튼 또는 창 보이지 않기"
+  },
+  "dontshowbuttonCaptionlabel": {
+    "message": "버튼 또는 번역 창을 표시하지 않습니다."
+  },
+  "ifCheckLangLabel": {
+    "message": "번역이 필요 없을 때 버튼을 보여주지 않기"
+  },
+  "ifCheckLangCaptionLabel": {
+    "message": "선택된 텍스트의 언어를 감지해 번역 대상 언어와 일치하면 버튼을 보여주지 않습니다."
+  },
+  "ifChangeSecondLangOnPageCaptionLabel": {
+    "message": "선택된 텍스트의 언어를 감지해 번역 대상 언어와 일치하면 보조 언어로 번역합니다."
+  },
+  "disableTranslationLabel": {
+    "message": "번역 사용 안 함"
+  },
+  "isDisabledInTextFieldsLabel": {
+    "message": "텍스트 필드에서 번역 사용 안 함"
+  },
+  "isDisabledInTextFieldsCaptionLabel": {
+    "message": "텍스트 필드에서 텍스트를 선택할 때 번역 버튼 또는 창 보이지 않기"
+  },
+  "isDisabledInCodeElementLabel": {
+    "message": "코드 태그에서 번역 사용 안 함"
+  },
+  "isDisabledInCodeElementCaptionLabel": {
+    "message": "코드 태그에서 텍스트를 선택할 때 번역 버튼 또는 창 보이지 않기"
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedLabel": {
+    "message": "보조 키가 눌린 경우에만 번역"
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
+    "message": "지정된 보조 키가 눌린 경우에만 번역을 표시합니다."
+  },
+  "modifierKeyLabel": {
+    "message": "보조 키"
+  },
+  "shiftLabel": {
+    "message": "Shift"
+  },
+  "ctrlLabel": {
+    "message": "Ctrl"
+  },
+  "altLabel": {
+    "message": "Alt"
+  },
+  "cmdLabel": {
+    "message": "Command"
+  },
+  "disableUrlListLabel": {
+    "message": "번역을 사용하지 않을 URL 목록"
+  },
+  "disableUrlListCaptionLabel": {
+    "message": "페이지 URL이 목록과 일치하면 번역을 사용하지 않습니다. \"*\" 와일드 카드를 지원합니다."
+  },
+  "toolbarLabel": {
+    "message": "툴바 팝업"
+  },
+  "ifChangeSecondLangLabel": {
+    "message": "보조 언어로 자동 전환"
+  },
+  "ifChangeSecondLangCaptionLabel": {
+    "message": "입력된 언어가 기본 번역 언어일 때 보조 언어로 번역합니다."
+  },
+  "secondTargetLangLabel": {
+    "message": "보조 언어"
+  },
+  "secondTargetLangCaptionLabel": {
+    "message": "보조 번역 언어를 선택하세요."
+  },
+  "ignoredDocumentLangLabel": {
+    "message": "lang 속성으로 번역 사용 안 함"
+  },
+  "ignoredDocumentLangCaptionLabel": {
+    "message": "페이지의 html 요소에 포함 된 lang 속성이 목록에 일치하는 경우 번역 기능을 사용하지 않습니다. 쉼표로 구분된 언어 태그를 입력하세요."
+  },
+  "waitTimeLabel": {
+    "message": "번역 대기 시간"
+  },
+  "waitTimeCaptionLabel": {
+    "message": "문자 입력 후 번역까지의 대기 시간을 지정합니다. (밀리초)"
+  },
+  "waitTime2CaptionLabel": {
+    "message": "단시간에 여러 번 번역하면 일시적으로 사용하지 못할 수 있습니다."
+  },
+  "menuLabel": {
+    "message": "컨텍스트 메뉴"
+  },
+  "ifShowMenuLabel": {
+    "message": "컨텍스트 메뉴 표시"
+  },
+  "ifShowMenuCaptionLabel": {
+    "message": "웹 페이지 또는 탭을 마우스 오른쪽 클릭했을 때 나타나는 컨텍스트 메뉴에 항목을 추가합니다."
+  },
+  "styleLabel": {
+    "message": "모양"
+  },
+  "themeLabel": {
+    "message": "테마"
+  },
+  "themeCaptionLabel": {
+    "message": "색 구성표를 지정합니다."
+  },
+  "lightLabel": {
+    "message": "밝은 테마"
+  },
+  "darkLabel": {
+    "message": "어두운 테마"
+  },
+  "buttonStyleLabel": {
+    "message": "번역 버튼"
+  },
+  "buttonStyleCaptionLabel": {
+    "message": "웹 페이지에서 보이는 버튼에 대한 모양을 설정합니다."
+  },
+  "buttonSizeLabel": {
+    "message": "크기"
+  },
+  "buttonPositionLabel": {
+    "message": "표시 위치"
+  },
+  "topRightLabel": {
+    "message": "오른쪽 위"
+  },
+  "bottomRightLabel": {
+    "message": "오른쪽 아래"
+  },
+  "topLeftLabel": {
+    "message": "왼쪽 위"
+  },
+  "bottomLeftLabel": {
+    "message": "왼쪽 아래"
+  },
+  "topLabel": {
+    "message": "위"
+  },
+  "bottomLabel": {
+    "message": "아래"
+  },
+  "leftLabel": {
+    "message": "왼쪽"
+  },
+  "rightLabel": {
+    "message": "오른쪽"
+  },
+  "positionOffsetLabel": {
+    "message": "표시 위치 - 오프셋"
+  },
+  "panelStyleLabel": {
+    "message": "번역 결과 창"
+  },
+  "panelStyleCaptionLabel": {
+    "message": "웹 페이지에서 보이는 번역 결과 창에 대한 모양을 설정합니다."
+  },
+  "widthLabel": {
+    "message": "가로 길이"
+  },
+  "heightLabel": {
+    "message": "세로 길이"
+  },
+  "fontSizeLabel": {
+    "message": "글자 크기"
+  },
+  "referencePointLabel": {
+    "message": "표시 위치 - 기준점"
+  },
+  "bottomSelectedTextLabel": {
+    "message": "선택된 텍스트 아래"
+  },
+  "topSelectedTextLabel": {
+    "message": "선택된 텍스트 위"
+  },
+  "clickedPointLabel": {
+    "message": "클릭한 위치"
+  },
+  "displayDirectionLabel": {
+    "message": "표시 위치 - 방향"
+  },
+  "resultFontColorLabel": {
+    "message": "번역 결과의 글꼴 색"
+  },
+  "candidateFontColorLabel": {
+    "message": "다른 번역의 글꼴 색"
+  },
+  "bgColorLabel": {
+    "message": "배경색"
+  },
+  "otherLabel": {
+    "message": "기타"
+  },
+  "isShowOptionsPageWhenUpdatedLabel": {
+    "message": "업데이트 후 설정 페이지 열기"
+  },
+  "isShowOptionsPageWhenUpdatedCaptionLabel": {
+    "message": "Simple Translate가 업데이트 된 경우 설정 페이지를 표시합니다. 업데이트 내용을 바로 알 수 있습니다."
+  },
+  "isDebugModeLabel": {
+    "message": "디버그 모드 활성화"
+  },
+  "isDebugModeCaptionLabel": {
+    "message": "디버그 모드가 활성화되면 디버거로 로그가 출력됩니다."
+  },
+  "resetSettingsLabel": {
+    "message": "설정 초기화"
+  },
+  "resetSettingsCaptionLabel": {
+    "message": "모든 설정을 기본값으로 복원합니다."
+  },
+  "resetSettingsButtonLabel": {
+    "message": "초기화"
+  },
+  "shortcutsLabel": {
+    "message": "단축키"
+  },
+  "keyboardShortcutsLabel": {
+    "message": "키보드 단축키"
+  },
+  "setKeyboardShortCutsMessage": {
+    "message": "키보드 단축키를 설정합니다."
+  },
+  "typeShortcutMessage": {
+    "message": "단축키를 입력하세요"
+  },
+  "typeLetterMessage": {
+    "message": "글자를 입력하세요"
+  },
+  "includeModifierKeysMessage": {
+    "message": "Ctrl 또는 Alt 키와 함께 누르세요"
+  },
+  "includeMacModifierKeysMessage": {
+    "message": "Command, Ctrl 또는 Alt 키와 함께 누르세요"
+  },
+  "invalidLetterMessage": {
+    "message": "사용할 수 없는 글자입니다"
+  },
+  "invalidShortcutMessage": {
+    "message": "사용할 수 없는 단축키입니다"
+  },
+  "clear": {
+    "message": "지우기"
+  },
+  "reset": {
+    "message": "초기화"
+  },
+  "informationLabel": {
+    "message": "정보"
+  },
+  "backersLabel": {
+    "message": "후원자들"
+  },
+  "licenseLabel": {
+    "message": "라이선스"
+  },
+  "donationLabel": {
+    "message": "기부 해주세요"
+  },
+  "donationCaptionLabel": {
+    "message": "Simple Translator를 사용해 주셔서 감사합니다.<br>보내주신 지원은 제가 이 확장 프로그램을 지속적으로 개발하는데 큰 도움이 됩니다.<br>Simple Translator가 마음에 드신다면 기부를 고려해 주시길 부탁드립니다."
+  },
+  "amazonTitleLabel": {
+    "message": "amazon.co.jp eGift 카드"
+  },
+  "sponsorsLabel": {
+    "message": "스폰서"
+  },
+  "addonPageLabel": {
+    "message": "부가 기능 페이지"
+  },
+  "extensionPageLabel": {
+    "message": "확장 프로그램 페이지"
+  },
+  "privacyPolicyLabel": {
+    "message": "개인정보처리방침"
+  },
+  "amazonUrl": {
+    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
+  },
+  "addonUrl": {
+    "message": "https://addons.mozilla.org/ko/firefox/addon/simple-translate/?src=optionpage"
+  },
+  "networkError": {
+    "message": "오류: 네트워크 연결 상태를 확인하세요."
+  },
+  "unavailableError": {
+    "message": "오류: 서비스 이용 제한에 도달했습니다. 잠시 후 다시 시도해주세요."
+  },
+  "unknownError": {
+    "message": "오류: 알 수 없는 오류"
+  },
+  "translatePageMenu": {
+    "message": "이 페이지 번역하기"
+  },
+  "translateTextMenu": {
+    "message": "선택된 텍스트 번역하기"
+  },
+  "translateLinkMenu": {
+    "message": "선택된 링크 번역하기"
+  },
+  "openPopupDescription": {
+    "message": "툴바 팝업 열기"
+  }
+}

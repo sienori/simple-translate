@@ -1,0 +1,49 @@
+#resultArea {
+  max-height: 240px;
+  min-height: 30px;
+  overflow-y: auto;
+  word-wrap: break-word;
+  background-color: var(--main-bg);
+  margin: 10px 10px 3px;
+
+  p {
+    margin: 0;
+    padding: 0px 5px;
+    background-color: var(--main-bg);
+
+    &.resultText {
+      color: var(--main-text);
+    }
+    &.candidateText,
+    &.error {
+      color: var(--sub-text);
+      margin-top: 1em;
+      &:empty {
+        margin-top: 0;
+      }
+    }
+  }
+
+  .translateLink {
+    a {
+      font-style: normal;
+      text-decoration: none;
+      color: var(--highlight);
+      cursor: pointer;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .mediaButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 1em;
+    margin-right: 5px;
+    & > * {
+      margin-left: 10px;
+    }
+  }
+}

@@ -1,0 +1,386 @@
+{
+  "extName": {
+    "message": "Simple Translate"
+  },
+  "extDescription": {
+    "message": "ترجم النص المحدد على صفحة الويب بسرعة. في شريط الأدوات ، يمكنك ترجمة النص المُدْخل."
+  },
+  "donateWithPaypalLabel": {
+    "message": "تبرع بواسطة PayPal"
+  },
+  "donateLabel": {
+    "message": "تبرع"
+  },
+  "enableOnThisPage": {
+    "message": "فعل الترجمة على هذه الصفحة"
+  },
+  "disableOnThisPage": {
+    "message": "عطل الترجمة على هذه الصفحة"
+  },
+  "initialTextArea": {
+    "message": "أدخل النص"
+  },
+  "showLink": {
+    "message": "ترجم هذه الصفحة"
+  },
+  "openInGoogleLabel": {
+    "message": "فتح في ترجمة جوجل"
+  },
+  "copyLabel": {
+    "message": "نسخ"
+  },
+  "copiedLabel": {
+    "message": "تم النسخ."
+  },
+  "listenLabel": {
+    "message": "استماع"
+  },
+  "targetLangLabel": {
+    "message": "اللغة المراد الترجمة إليها"
+  },
+  "langList": {
+    "message": "af:الأفريكانية, sq:الألبانية, am:الأمهرية, ar:عربى, hy:الأرميني, az:أذربيجان, eu:الباسكي, be:البيلاروسية, bn:بنغالي, bs:البوسنية, bg:البلغارية, ca:الكاتالونية, ceb:السيبيونو, ny:الشيوا, zh-CN:صينى (PRC), zh-TW:صينى (تايوان), co:الكورسيكية, hr:الكرواتية, cs:تشيكي, da:Danish, nl:هولندي, en:الإنجليزية, eo:Esperanto, et:Estonian, fi:Finnish, fr:French, fy:Frisian, gl:Galician, ka:الجورجية, de:ألمانية, el:الإغريقي, gu:الغوجاراتية, ht:Haitian, ha:الهوسا, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesian, ga:Irish, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Korean, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:المقدونية, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persian, pl:Polish, pt:Portuguese, pa:Punjabi, ps:Pushto, ro:Romanian, ru:Russian, sm:Samoan, gd:Scottish Gaelic, sr:Serbian, sn:Shona, sd:السندية, si:السنهالية, sk:السلوفاكية, sl:سلوفيني, so:الصومالية, sx:السوتو, es:الأسبانية, su:السودانية, sw:السواحلية, sv:السويدية, tl:التغالوغ, tg:طاجيكي, ta:التاميل, te:التيلجو, th:التايلاندية, tr:التركية, uk:الأوكراني, ur:الأردية, uz:الأوزبكي, vi:الفيتنامية, cy:الولزية, xh:Xosa, yi:اليديشية, yo:اليوروبا, zu:الزولو"
+  },
+  "allLangLabel": {
+    "message": "كل اللغات"
+  },
+  "recentLangLabel": {
+    "message": "اللغات المستخدمة مؤخرًا"
+  },
+  "settingsLabel": {
+    "message": "الإعدادات"
+  },
+  "generalLabel": {
+    "message": "عام"
+  },
+  "targetLangCaptionLabel": {
+    "message": "حدد اللغة الافتراضية."
+  },
+  "webPageLabel": {
+    "message": "صفحة الويب"
+  },
+  "ifShowCandidateLabel": {
+    "message": "عرض مرشحي للترجمة"
+  },
+  "ifShowCandidateCaptionLabel": {
+    "message": "عرض مرشحي الترجمة عند ترجمة كلمة واحدة."
+  },
+  "whenSelectTextLabel": {
+    "message": "السلوك عند اختيار النص"
+  },
+  "ifAutoTranslateLabel": {
+    "message": "عرض لوحة الترجمة"
+  },
+  "ifAutoTranslateCaptionLabel": {
+    "message": "عرض لوحة الترجمة مباشرة بدون عرض الزر."
+  },
+  "ifShowButtonLabel": {
+    "message": "عرض زر الترجمة"
+  },
+  "ifShowButtonCaptionLabel": {
+    "message": "عرض زر الترجمة لفتح اللوحة عند الضغط عليها."
+  },
+  "dontshowbuttonlabel": {
+    "message": "لا تعرض الزر او اللوحة"
+  },
+  "dontshowbuttonCaptionlabel": {
+    "message": "لا تظهر زر الترجمة أو لوحة الترجمة."
+  },
+  "ifCheckLangLabel": {
+    "message": "لا تظهر الزر اذا كانت الترجمة غير مطلوبة"
+  },
+  "ifCheckLangCaptionLabel": {
+    "message": "تحديد لغة النص المحدد, واذا كان نفس اللغة الهدف, لن يظهر زر الترجمة."
+  },
+  "ifChangeSecondLangOnPageCaptionLabel": {
+    "message": "اكتشاف لغة النص المحدد، فإن كانت نفس لغة الترجمة الإفتراضية، ترجمة النص للغة الثانية."
+  },
+  "disableTranslationLabel": {
+    "message": "تعطيل الترجمة"
+  },
+  "isDisabledInTextFieldsLabel": {
+    "message": "تعطيل الترجمة في حقول النص"
+  },
+  "isDisabledInTextFieldsCaptionLabel": {
+    "message": "لا تعرض زر أو لوحة الترجمة عند اختيار النص في حقل نص."
+  },
+  "isDisabledInCodeElementLabel": {
+    "message": "تعطيل الترجمة لعناصر الشفرة البرمجية"
+  },
+  "isDisabledInCodeElementCaptionLabel": {
+    "message": "لا تعرض زر أو لوحة الترجمة عندما يكون النص المحدد عنصر شفرة برمجية."
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedLabel": {
+    "message": "ترجم عند الضغط على مفتاح التعديل"
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
+    "message": "عرض الترجمة فقط عند الضغط على مفتاح التعديل المحدد."
+  },
+  "modifierKeyLabel": {
+    "message": "مفتاح التعديل"
+  },
+  "shiftLabel": {
+    "message": "Shift"
+  },
+  "ctrlLabel": {
+    "message": "Ctrl"
+  },
+  "altLabel": {
+    "message": "Alt"
+  },
+  "cmdLabel": {
+    "message": "Command"
+  },
+  "disableUrlListLabel": {
+    "message": "قائمة عناوين لتعطيل الترجمة"
+  },
+  "disableUrlListCaptionLabel": {
+    "message": "إذا تطابق عنوان الصفحة مع القائمة ، فإن الترجمة على صفحة الويب تعطل. تسمح القائمة بالرمز \"*\"."
+  },
+  "toolbarLabel": {
+    "message": "شريط أدوات منبثق"
+  },
+  "ifChangeSecondLangLabel": {
+    "message": "التبديل تلقائياً إلى اللغة الثانية"
+  },
+  "ifChangeSecondLangCaptionLabel": {
+    "message": "تحديد لغة النص المدخل، وإذا كان نفس اللغة المستهدفة الافتراضية، ترجمها إلى اللغة الثانية."
+  },
+  "secondTargetLangLabel": {
+    "message": "اللغة الثانية"
+  },
+  "secondTargetLangCaptionLabel": {
+    "message": "أخر لغة الهدف الثانية."
+  },
+  "ignoredDocumentLangLabel": {
+    "message": "تعطيل الترجمة بواسطة رمز اللغة"
+  },
+  "ignoredDocumentLangCaptionLabel": {
+    "message": "تعطيل الترجمة إذا كان رمز اللغة من ضمن الرموز في القائمة. أدخل رموز اللغة مفصولة بفاصلة."
+  },
+  "waitTimeLabel": {
+    "message": "انتظر قليلا لترجمة"
+  },
+  "waitTimeCaptionLabel": {
+    "message": "تحديد وقت الانتظار لادخال الاحرف حتي البدء بالترجمة"
+  },
+  "waitTime2CaptionLabel": {
+    "message": "إذا ترجمتها مرات عديدة في وقت قصير ، قد تصبح غير صالحة للاستخدام لفترة من الوقت."
+  },
+  "menuLabel": {
+    "message": "قائمة السياق"
+  },
+  "ifShowMenuLabel": {
+    "message": "إظهار أيقونة قائمة السياق"
+  },
+  "ifShowMenuCaptionLabel": {
+    "message": "إضافة العناصر إلى القائمة التي تظهر عند الضغط زر الفأرة الأيمن على صفحات الويب أو علامة التبويب."
+  },
+  "styleLabel": {
+    "message": "نمط"
+  },
+  "themeLabel": {
+    "message": "السِمة"
+  },
+  "themeCaptionLabel": {
+    "message": "حدد نظام الألوان."
+  },
+  "lightLabel": {
+    "message": "فاتح"
+  },
+  "darkLabel": {
+    "message": "داكن"
+  },
+  "buttonStyleLabel": {
+    "message": "زر الترجمة"
+  },
+  "buttonStyleCaptionLabel": {
+    "message": "إختيار تنسيق لوحة الترجمة التي تظهر على المواقع."
+  },
+  "buttonSizeLabel": {
+    "message": "الحجم"
+  },
+  "buttonPositionLabel": {
+    "message": "مكان العرض"
+  },
+  "topRightLabel": {
+    "message": "أعلى اليمين"
+  },
+  "bottomRightLabel": {
+    "message": "أسفل اليمين"
+  },
+  "topLeftLabel": {
+    "message": "فوق على اليسار"
+  },
+  "bottomLeftLabel": {
+    "message": "اسفل على اليسار"
+  },
+  "topLabel": {
+    "message": "أعلى"
+  },
+  "bottomLabel": {
+    "message": "أسفل"
+  },
+  "leftLabel": {
+    "message": "يسار"
+  },
+  "rightLabel": {
+    "message": "يمين"
+  },
+  "positionOffsetLabel": {
+    "message": "عرض الموضع - الإزاحة"
+  },
+  "panelStyleLabel": {
+    "message": "لوحة الترجمة"
+  },
+  "panelStyleCaptionLabel": {
+    "message": "إختيار تنسيق لوحة الترجمة التي تظهر على المواقع."
+  },
+  "widthLabel": {
+    "message": "عرض"
+  },
+  "heightLabel": {
+    "message": "الارتفاع"
+  },
+  "fontSizeLabel": {
+    "message": "حجم الخط"
+  },
+  "referencePointLabel": {
+    "message": "عرض الموضع - النقطة المرجعية"
+  },
+  "bottomSelectedTextLabel": {
+    "message": "أسفل النص المحدد"
+  },
+  "topSelectedTextLabel": {
+    "message": "أعلى النص المحدد"
+  },
+  "clickedPointLabel": {
+    "message": "النقطة المنقورة"
+  },
+  "displayDirectionLabel": {
+    "message": "عرض الموضع - الإتجاه"
+  },
+  "resultFontColorLabel": {
+    "message": "لون خط نتيجة الترجمة"
+  },
+  "candidateFontColorLabel": {
+    "message": "لون خط الترجمة المقترحة"
+  },
+  "bgColorLabel": {
+    "message": "لون الخلفية"
+  },
+  "otherLabel": {
+    "message": "غير ذلك"
+  },
+  "isShowOptionsPageWhenUpdatedLabel": {
+    "message": "عرض صفحة الإعدادات عند التحديث"
+  },
+  "isShowOptionsPageWhenUpdatedCaptionLabel": {
+    "message": "اعرض صفحة الخيارات عندما يتم تحديث الترجمة البسيطة. ليمكنك معرفة محتويات التحديث بسرعة."
+  },
+  "isDebugModeLabel": {
+    "message": "فعل نمط التنقيح"
+  },
+  "isDebugModeCaptionLabel": {
+    "message": "عندما يكون وضع التنقيح مفعل، يخرج السجل إلى المصحح."
+  },
+  "resetSettingsLabel": {
+    "message": "إستعادة الإعدادات"
+  },
+  "resetSettingsCaptionLabel": {
+    "message": "إستعادة جميع الإعدادات الأولية."
+  },
+  "resetSettingsButtonLabel": {
+    "message": "إعادة"
+  },
+  "shortcutsLabel": {
+    "message": "اختصارات"
+  },
+  "keyboardShortcutsLabel": {
+    "message": "اختصارات لوحة المفاتيح"
+  },
+  "setKeyboardShortCutsMessage": {
+    "message": "حدد اختصارات لوحة المفاتيح."
+  },
+  "typeShortcutMessage": {
+    "message": "اختر اختصار"
+  },
+  "typeLetterMessage": {
+    "message": "اكتب حرف"
+  },
+  "includeModifierKeysMessage": {
+    "message": "أدرج Ctrl أو Alt"
+  },
+  "includeMacModifierKeysMessage": {
+    "message": "أدرج Command, Ctrl أو Alt"
+  },
+  "invalidLetterMessage": {
+    "message": "هذا الحرف لا يمكن إستخدامه"
+  },
+  "invalidShortcutMessage": {
+    "message": "هذا الإختصار لا يمكن إستخدامه"
+  },
+  "clear": {
+    "message": "مسح"
+  },
+  "reset": {
+    "message": "إعادة"
+  },
+  "informationLabel": {
+    "message": "معلومات"
+  },
+  "backersLabel": {
+    "message": "الداعمون"
+  },
+  "licenseLabel": {
+    "message": "الرخصة"
+  },
+  "donationLabel": {
+    "message": "الرجاء تقديم تبرع"
+  },
+  "donationCaptionLabel": {
+    "message": "شكرا لك لاستخدامك Tab Session Manager.<br> دعمك سوف يكون تشجيع كبير،كما أني اواصل تطوير الخصائص الإضافية.<br>إذا أعجبك Tab Session Manager، سوف أكون مسرورا إذا قدمت تبرعات."
+  },
+  "amazonTitleLabel": {
+    "message": "كروت هدية من amazon.co.jp"
+  },
+  "sponsorsLabel": {
+    "message": "الداعمون للمشروع"
+  },
+  "addonPageLabel": {
+    "message": "صفحة الاضافة"
+  },
+  "extensionPageLabel": {
+    "message": "صفحة الإضافة"
+  },
+  "privacyPolicyLabel": {
+    "message": "سياسة الخصوصية"
+  },
+  "amazonUrl": {
+    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
+  },
+  "addonUrl": {
+    "message": "https://addons.mozilla.org/ar/firefox/addon/simple-translate/?src=optionpage"
+  },
+  "networkError": {
+    "message": "خطأ: تحقق من حالة اتصال الشبكة."
+  },
+  "unavailableError": {
+    "message": "خطأ: وصل الحد الأقصى لاستخدام الخدمة. الرجاء الانتظار بعض الوقت وحاول مرة أخرى."
+  },
+  "unknownError": {
+    "message": "خطأ: غير معروف"
+  },
+  "translatePageMenu": {
+    "message": "ترجم هذه الصفحة"
+  },
+  "translateTextMenu": {
+    "message": "ترجم النص المحدد"
+  },
+  "translateLinkMenu": {
+    "message": "ترجم الرابط المحدد"
+  },
+  "openPopupDescription": {
+    "message": "فتح شريط الأدوات المنبثق"
+  }
+}

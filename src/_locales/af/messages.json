@@ -1,0 +1,386 @@
+{
+  "extName": {
+    "message": "Simple Translate"
+  },
+  "extDescription": {
+    "message": "Vertaal geselekteerde teks vinnig op die webblad. In die opsomming van die werkbalk kan u invoerteks vertaal."
+  },
+  "donateWithPaypalLabel": {
+    "message": "Skenk met PayPal"
+  },
+  "donateLabel": {
+    "message": "Skenk"
+  },
+  "enableOnThisPage": {
+    "message": "Aktiveer vertaling op hierdie bladsy"
+  },
+  "disableOnThisPage": {
+    "message": "Deaktiveer vertaling op hierdie bladsy"
+  },
+  "initialTextArea": {
+    "message": "Voer teks in"
+  },
+  "showLink": {
+    "message": "Vertaal hierdie bladsy"
+  },
+  "openInGoogleLabel": {
+    "message": "Oop in Google Translate"
+  },
+  "copyLabel": {
+    "message": "Kopie"
+  },
+  "copiedLabel": {
+    "message": "Kopieer."
+  },
+  "listenLabel": {
+    "message": "Listen"
+  },
+  "targetLangLabel": {
+    "message": "Teiken taal"
+  },
+  "langList": {
+    "message": "af: Afrikaans, vk: Albanees, am: Amharies, ar: Arabies, hy: Armeens, az: Azerbeidjans, eu: Baskies, be: Belo-Russies, bn: Bengali, bs: Bosnies, bg: Bulgaars, ca: Katalaans, ceb: Cebuano, ny: Chewa, zh-CN: Chinees (PRC), zh-TW: Chinees (Taiwan), mede: Corsican, hr: Kroaties, cs: Tsjeggies, da: Deens, nl: Nederlands, en: Engels, eo: Esperanto, et: Esties, fi: Fins, fr: Frans, fy: Fries, gl: Galisies, ka: Georgies, de: Duits, el: Grieks, gu: Gujarati, ht: Haïtiaans, ha: Hausa, haw: Hawaiiaans, hy: Hebreeus, hi: Hindi, hu: Hongaars, is: Yslands, ig: Igbo, id: Indonesies, ga: Iers, dit: Italiaans, ja: Japannees, jv: Javaans, kn: Kannada, kk: Kazakh, km: Khmer, ky: Kirghiz, ko: Koreaans, ku: Koerdies, lo: Laoties, la: Latyn, lv: Lets, lt: Litaus, lb: Luxemburgs, mk: Masedonies, mg: Maleis, ms: Maleis, ml: Malabaars, mt: Maltees, mi: Maori, mnr: Marathi, mn: Mongools, hmn: monnik, my: Myanmar, ne: Nepalees, geen: Noors, fa: Persies, pl: Pools, pt: Portugees, pa: Punjabi, ps: Pushto, ro: Roemeens, ru: Russies, sm: Samoan, gd: Scottish Gaelic, sr: Serbian, sn: Shona, sd: Sindh i, si: Sinhala, sk: Slowaakse, sl: Sloweens, so: Somalies, sx: Sotho, es: Spaans, su: Sundanees, sw: Swahili, sv: Sweeds, tl: Tagalog, tg: Tajiki, ta: Tamil, te: Telugu, th: Thai, tr: Turks, uk: Oekraïens, ur: Urdu, uz: Oezbeeks, vi: Viëtnamees, cy: Wallies, xh: Xosa, yi: Jiddisj, yo: Yoruba, zu: Zulu"
+  },
+  "allLangLabel": {
+    "message": "All languages"
+  },
+  "recentLangLabel": {
+    "message": "Recent languages"
+  },
+  "settingsLabel": {
+    "message": "Instellings"
+  },
+  "generalLabel": {
+    "message": "Algemene"
+  },
+  "targetLangCaptionLabel": {
+    "message": "Kies die standaard doeltaal."
+  },
+  "webPageLabel": {
+    "message": "Webblad"
+  },
+  "ifShowCandidateLabel": {
+    "message": "Wys vertaalkandidate"
+  },
+  "ifShowCandidateCaptionLabel": {
+    "message": "Toon veelvuldige vertaalkandidate wanneer 'n enkele woord vertaal word."
+  },
+  "whenSelectTextLabel": {
+    "message": "Gedrag by die keuse van teks"
+  },
+  "ifAutoTranslateLabel": {
+    "message": "Display translation panel"
+  },
+  "ifAutoTranslateCaptionLabel": {
+    "message": "Directly display the translation panel without displaying the button."
+  },
+  "ifShowButtonLabel": {
+    "message": "Display translation button"
+  },
+  "ifShowButtonCaptionLabel": {
+    "message": "Display the translation button to open the panel when clicked."
+  },
+  "dontshowbuttonlabel": {
+    "message": "Don't display button or panel"
+  },
+  "dontshowbuttonCaptionlabel": {
+    "message": "Don't display the translation button or the translation panel."
+  },
+  "ifCheckLangLabel": {
+    "message": "Do not display the button if translation is not required"
+  },
+  "ifCheckLangCaptionLabel": {
+    "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+  },
+  "ifChangeSecondLangOnPageCaptionLabel": {
+    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+  },
+  "disableTranslationLabel": {
+    "message": "Disable translation"
+  },
+  "isDisabledInTextFieldsLabel": {
+    "message": "Disable translation in text fields"
+  },
+  "isDisabledInTextFieldsCaptionLabel": {
+    "message": "Don't display translation button or panel when selecting text in a text field."
+  },
+  "isDisabledInCodeElementLabel": {
+    "message": "Disable translation in code tags"
+  },
+  "isDisabledInCodeElementCaptionLabel": {
+    "message": "Don't display translation button or panel when selecting text in code tag."
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedLabel": {
+    "message": "Translate on modifier key pressed"
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
+    "message": "Only display translation on specified modifier key pressed."
+  },
+  "modifierKeyLabel": {
+    "message": "Modifier Key"
+  },
+  "shiftLabel": {
+    "message": "Shift"
+  },
+  "ctrlLabel": {
+    "message": "Ctrl"
+  },
+  "altLabel": {
+    "message": "Alt"
+  },
+  "cmdLabel": {
+    "message": "Command"
+  },
+  "disableUrlListLabel": {
+    "message": "URL list to disable translation"
+  },
+  "disableUrlListCaptionLabel": {
+    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
+  },
+  "toolbarLabel": {
+    "message": "Toolbar popup"
+  },
+  "ifChangeSecondLangLabel": {
+    "message": "Automatically switch to the second language"
+  },
+  "ifChangeSecondLangCaptionLabel": {
+    "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+  },
+  "secondTargetLangLabel": {
+    "message": "Second language"
+  },
+  "secondTargetLangCaptionLabel": {
+    "message": "Select the second target language."
+  },
+  "ignoredDocumentLangLabel": {
+    "message": "Disable translation by lang attribute"
+  },
+  "ignoredDocumentLangCaptionLabel": {
+    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
+  },
+  "waitTimeLabel": {
+    "message": "Waiting time to translate"
+  },
+  "waitTimeCaptionLabel": {
+    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+  },
+  "waitTime2CaptionLabel": {
+    "message": "If you translate it many times in a short time, it may become unusable for a while."
+  },
+  "menuLabel": {
+    "message": "Context menu"
+  },
+  "ifShowMenuLabel": {
+    "message": "Display the context menu"
+  },
+  "ifShowMenuCaptionLabel": {
+    "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+  },
+  "styleLabel": {
+    "message": "Style"
+  },
+  "themeLabel": {
+    "message": "Theme"
+  },
+  "themeCaptionLabel": {
+    "message": "Specify the color scheme."
+  },
+  "lightLabel": {
+    "message": "Light"
+  },
+  "darkLabel": {
+    "message": "Dark"
+  },
+  "buttonStyleLabel": {
+    "message": "Translation button"
+  },
+  "buttonStyleCaptionLabel": {
+    "message": "Specify the style of the translation button displayed on the web page."
+  },
+  "buttonSizeLabel": {
+    "message": "Size"
+  },
+  "buttonPositionLabel": {
+    "message": "Display position"
+  },
+  "topRightLabel": {
+    "message": "Top right"
+  },
+  "bottomRightLabel": {
+    "message": "Bottom right"
+  },
+  "topLeftLabel": {
+    "message": "Top left"
+  },
+  "bottomLeftLabel": {
+    "message": "Bottom left"
+  },
+  "topLabel": {
+    "message": "Top"
+  },
+  "bottomLabel": {
+    "message": "Bottom"
+  },
+  "leftLabel": {
+    "message": "Left"
+  },
+  "rightLabel": {
+    "message": "Right"
+  },
+  "positionOffsetLabel": {
+    "message": "Display position - Offset"
+  },
+  "panelStyleLabel": {
+    "message": "Translation panel"
+  },
+  "panelStyleCaptionLabel": {
+    "message": "Specify the style of the translation panel displayed on the web page."
+  },
+  "widthLabel": {
+    "message": "Width"
+  },
+  "heightLabel": {
+    "message": "Height"
+  },
+  "fontSizeLabel": {
+    "message": "Font size"
+  },
+  "referencePointLabel": {
+    "message": "Display position - Reference point"
+  },
+  "bottomSelectedTextLabel": {
+    "message": "Bottom of selected text"
+  },
+  "topSelectedTextLabel": {
+    "message": "Top of selected text"
+  },
+  "clickedPointLabel": {
+    "message": "Clicked point"
+  },
+  "displayDirectionLabel": {
+    "message": "Display position - Direction"
+  },
+  "resultFontColorLabel": {
+    "message": "Font color of translation result"
+  },
+  "candidateFontColorLabel": {
+    "message": "Font color of translation candidates"
+  },
+  "bgColorLabel": {
+    "message": "Background color"
+  },
+  "otherLabel": {
+    "message": "Other"
+  },
+  "isShowOptionsPageWhenUpdatedLabel": {
+    "message": "Display option page when updating"
+  },
+  "isShowOptionsPageWhenUpdatedCaptionLabel": {
+    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+  },
+  "isDebugModeLabel": {
+    "message": "Enable debug mode"
+  },
+  "isDebugModeCaptionLabel": {
+    "message": "When debug mode is enabled, the log is output to the debugger."
+  },
+  "resetSettingsLabel": {
+    "message": "Reset settings"
+  },
+  "resetSettingsCaptionLabel": {
+    "message": "Restore all settings to default."
+  },
+  "resetSettingsButtonLabel": {
+    "message": "Reset"
+  },
+  "shortcutsLabel": {
+    "message": "Shortcuts"
+  },
+  "keyboardShortcutsLabel": {
+    "message": "Keyboard shortcuts"
+  },
+  "setKeyboardShortCutsMessage": {
+    "message": "Set keyboard shortcuts."
+  },
+  "typeShortcutMessage": {
+    "message": "Type a shortcut"
+  },
+  "typeLetterMessage": {
+    "message": "Type a letter"
+  },
+  "includeModifierKeysMessage": {
+    "message": "Include either Ctrl or Alt"
+  },
+  "includeMacModifierKeysMessage": {
+    "message": "Include either Command, Ctrl or Alt"
+  },
+  "invalidLetterMessage": {
+    "message": "The letter can not be used"
+  },
+  "invalidShortcutMessage": {
+    "message": "The shortcut can not be used"
+  },
+  "clear": {
+    "message": "Clear"
+  },
+  "reset": {
+    "message": "Reset"
+  },
+  "informationLabel": {
+    "message": "Information"
+  },
+  "backersLabel": {
+    "message": "Backers"
+  },
+  "licenseLabel": {
+    "message": "License"
+  },
+  "donationLabel": {
+    "message": "Please make a donation"
+  },
+  "donationCaptionLabel": {
+    "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+  },
+  "amazonTitleLabel": {
+    "message": "amazon.co.jp eGift Cards"
+  },
+  "sponsorsLabel": {
+    "message": "Sponsors"
+  },
+  "addonPageLabel": {
+    "message": "Add-on page"
+  },
+  "extensionPageLabel": {
+    "message": "Extension page"
+  },
+  "privacyPolicyLabel": {
+    "message": "Privacy policy"
+  },
+  "amazonUrl": {
+    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
+  },
+  "addonUrl": {
+    "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
+  },
+  "networkError": {
+    "message": "Error: Check network connection status."
+  },
+  "unavailableError": {
+    "message": "Error: Service usage limit reached. Please wait a while and try again."
+  },
+  "unknownError": {
+    "message": "Error: Unknown error"
+  },
+  "translatePageMenu": {
+    "message": "Vertaal hierdie bladsy"
+  },
+  "translateTextMenu": {
+    "message": "Translate selected text"
+  },
+  "translateLinkMenu": {
+    "message": "Translate selected link"
+  },
+  "openPopupDescription": {
+    "message": "Open toolbar popup"
+  }
+}

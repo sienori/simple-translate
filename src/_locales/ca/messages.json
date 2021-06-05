@@ -1,0 +1,386 @@
+{
+  "extName": {
+    "message": "Simple Translate"
+  },
+  "extDescription": {
+    "message": "Tradueix ràpidament el text seleccionat en la pàgina web. Al menú emergent de la barra d'eines, podeu traduir l'entrada de text."
+  },
+  "donateWithPaypalLabel": {
+    "message": "Donar per PayPal"
+  },
+  "donateLabel": {
+    "message": "Donar"
+  },
+  "enableOnThisPage": {
+    "message": "Activa la traducció en esta pàgina"
+  },
+  "disableOnThisPage": {
+    "message": "Desactiva la traducció en esta pàgina"
+  },
+  "initialTextArea": {
+    "message": "Introduïu el text"
+  },
+  "showLink": {
+    "message": "Traduir aquesta pàgina"
+  },
+  "openInGoogleLabel": {
+    "message": "Obri en Google Traductor"
+  },
+  "copyLabel": {
+    "message": "Copiar"
+  },
+  "copiedLabel": {
+    "message": "Copiat."
+  },
+  "listenLabel": {
+    "message": "Escolta"
+  },
+  "targetLangLabel": {
+    "message": "Idioma a traduir"
+  },
+  "langList": {
+    "message": "af:Afrikaans, sq:Albanian, am:Amharic, ar:Arabic, hy:Armenian, az:Azerbaijani, eu:Basque, be:Belarusian, bn:Bengali, bs:Bosnian, bg:Bulgarian, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Chinese (PRC), zh-TW:Chinese (Taiwan), co:Corsican, hr:Croatian, cs:Czech, da:Danish, nl:Dutch, en:English, eo:Esperanto, et:Estonian, fi:Finnish, fr:French, fy:Frisian, gl:Galician, ka:Georgian, de:German, el:Greek, gu:Gujarati, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesian, ga:Irish, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Korean, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:Macedonian, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persian, pl:Polish, pt:Portuguese, pa:Punjabi, ps:Pushto, ro:Romanian, ru:Russian, sm:Samoan, gd:Scottish Gaelic, sr:Serbian, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovak, sl:Slovenian, so:Somali, sx:Sotho, es:Spanish, su:Sundanese, sw:Swahili, sv:Swedish, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turkish, uk:Ukrainian, ur:Urdu, uz:Uzbek, vi:Vietnamese, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
+  },
+  "allLangLabel": {
+    "message": "All languages"
+  },
+  "recentLangLabel": {
+    "message": "Recent languages"
+  },
+  "settingsLabel": {
+    "message": "Configuració"
+  },
+  "generalLabel": {
+    "message": "General"
+  },
+  "targetLangCaptionLabel": {
+    "message": "Seleccioneu l'idioma a traduïr predeterminat."
+  },
+  "webPageLabel": {
+    "message": "Pàgina web"
+  },
+  "ifShowCandidateLabel": {
+    "message": "Mostra les traduccions candidates"
+  },
+  "ifShowCandidateCaptionLabel": {
+    "message": "Mostra els candidats de traducció múltiple quan es tradueix una sola paraula."
+  },
+  "whenSelectTextLabel": {
+    "message": "Comportament quan es selecciona text"
+  },
+  "ifAutoTranslateLabel": {
+    "message": "Mostra el panell de traducció"
+  },
+  "ifAutoTranslateCaptionLabel": {
+    "message": "Mostra el panell de traducció sense mostrar el botó."
+  },
+  "ifShowButtonLabel": {
+    "message": "Mostra el botó de traducció"
+  },
+  "ifShowButtonCaptionLabel": {
+    "message": "Mostra el botó de traducció per obrir el panell quan es fa clic."
+  },
+  "dontshowbuttonlabel": {
+    "message": "No mostrar el botó ni el tauler"
+  },
+  "dontshowbuttonCaptionlabel": {
+    "message": "No mostris el botó de traducció ni el panell de traducció."
+  },
+  "ifCheckLangLabel": {
+    "message": "No mostris el botó si la traducció no és obligatòria"
+  },
+  "ifCheckLangCaptionLabel": {
+    "message": "Detecta l'idioma del text seleccionat i, si és el mateix que l'idioma de destinació, no es mostra el botó."
+  },
+  "ifChangeSecondLangOnPageCaptionLabel": {
+    "message": "Detecta l'idioma del text seleccionat, i si es el mateix com a idioma de destinació predeterminada, traduir-lo al segon idioma."
+  },
+  "disableTranslationLabel": {
+    "message": "Disable translation"
+  },
+  "isDisabledInTextFieldsLabel": {
+    "message": "Desactiva la traducció en els camps de text"
+  },
+  "isDisabledInTextFieldsCaptionLabel": {
+    "message": "No mostrar el botó de traducció o el panell quan seleccioneu el text en un camp de text."
+  },
+  "isDisabledInCodeElementLabel": {
+    "message": "Disable translation in code tags"
+  },
+  "isDisabledInCodeElementCaptionLabel": {
+    "message": "Don't display translation button or panel when selecting text in code tag."
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedLabel": {
+    "message": "Translate on modifier key pressed"
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
+    "message": "Only display translation on specified modifier key pressed."
+  },
+  "modifierKeyLabel": {
+    "message": "Modifier Key"
+  },
+  "shiftLabel": {
+    "message": "Shift"
+  },
+  "ctrlLabel": {
+    "message": "Ctrl"
+  },
+  "altLabel": {
+    "message": "Alt"
+  },
+  "cmdLabel": {
+    "message": "Command"
+  },
+  "disableUrlListLabel": {
+    "message": "Llista URL per a desactivar la traducció"
+  },
+  "disableUrlListCaptionLabel": {
+    "message": "Si l'URL de la pàgina coincideix amb la llista, la traducció a la pàgina web esta desactivada. La llista permet comodins \"*\"."
+  },
+  "toolbarLabel": {
+    "message": "Barra d'eines de la finestra emergent"
+  },
+  "ifChangeSecondLangLabel": {
+    "message": "Canvia automàticament a la segona llengua"
+  },
+  "ifChangeSecondLangCaptionLabel": {
+    "message": "Detecta l'idioma del text d'entrada, i si és el mateix que l'idioma predeterminat, traduïu-lo a la segona llengua."
+  },
+  "secondTargetLangLabel": {
+    "message": "Segona llengua"
+  },
+  "secondTargetLangCaptionLabel": {
+    "message": "Seleccioneu el segon idioma."
+  },
+  "ignoredDocumentLangLabel": {
+    "message": "Disable translation by lang attribute"
+  },
+  "ignoredDocumentLangCaptionLabel": {
+    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
+  },
+  "waitTimeLabel": {
+    "message": "Temps d'espera per a traduir"
+  },
+  "waitTimeCaptionLabel": {
+    "message": "Especifiqueu el temps d'espera des de l'entrada d'un personatge fins a l'inici de la traducció. (mil·lisegons)"
+  },
+  "waitTime2CaptionLabel": {
+    "message": "Si tradueixes moltes vegades en poc temps, pot ser que sigui inutilitzable durant un temps."
+  },
+  "menuLabel": {
+    "message": "Menú contextual"
+  },
+  "ifShowMenuLabel": {
+    "message": "Mostra el menú contextual"
+  },
+  "ifShowMenuCaptionLabel": {
+    "message": "Afegiu elements al menú contextual que es mostra quan feu clic dret a la pàgina web o a la pestanya."
+  },
+  "styleLabel": {
+    "message": "Estil"
+  },
+  "themeLabel": {
+    "message": "Theme"
+  },
+  "themeCaptionLabel": {
+    "message": "Specify the color scheme."
+  },
+  "lightLabel": {
+    "message": "Light"
+  },
+  "darkLabel": {
+    "message": "Dark"
+  },
+  "buttonStyleLabel": {
+    "message": "Botó de traducció"
+  },
+  "buttonStyleCaptionLabel": {
+    "message": "Especifiqueu l'estil del botó de traducció que es mostra a la pàgina web."
+  },
+  "buttonSizeLabel": {
+    "message": "Mida"
+  },
+  "buttonPositionLabel": {
+    "message": "Posició de la pantalla"
+  },
+  "topRightLabel": {
+    "message": "A dalt a la dreta"
+  },
+  "bottomRightLabel": {
+    "message": "Abaix a la dreta"
+  },
+  "topLeftLabel": {
+    "message": "A dalt a l'esquerra"
+  },
+  "bottomLeftLabel": {
+    "message": "Abaix a l'esquerra"
+  },
+  "topLabel": {
+    "message": "Superior"
+  },
+  "bottomLabel": {
+    "message": "Baix"
+  },
+  "leftLabel": {
+    "message": "Esquerra"
+  },
+  "rightLabel": {
+    "message": "Dreta"
+  },
+  "positionOffsetLabel": {
+    "message": "Posició de la pantalla - Desplaçar"
+  },
+  "panelStyleLabel": {
+    "message": "Tauler de traducció"
+  },
+  "panelStyleCaptionLabel": {
+    "message": "Especifiqueu l'estil del panell de traducció que es mostra a la pàgina web."
+  },
+  "widthLabel": {
+    "message": "Amplada"
+  },
+  "heightLabel": {
+    "message": "Alçada"
+  },
+  "fontSizeLabel": {
+    "message": "Mida de la lletra"
+  },
+  "referencePointLabel": {
+    "message": "Posició de la pantalla - Punt de referència"
+  },
+  "bottomSelectedTextLabel": {
+    "message": "Part inferior del text seleccionat"
+  },
+  "topSelectedTextLabel": {
+    "message": "Part superior del text seleccionat"
+  },
+  "clickedPointLabel": {
+    "message": "Punt de clic"
+  },
+  "displayDirectionLabel": {
+    "message": "Posició de la pantalla - Direcció"
+  },
+  "resultFontColorLabel": {
+    "message": "Color de la lletra del resultat de traducció"
+  },
+  "candidateFontColorLabel": {
+    "message": "Color de la lletra dels canditats a traducció"
+  },
+  "bgColorLabel": {
+    "message": "Color de fons"
+  },
+  "otherLabel": {
+    "message": "Altres"
+  },
+  "isShowOptionsPageWhenUpdatedLabel": {
+    "message": "Mostra la pàgina d'opcions quan s'actualitza"
+  },
+  "isShowOptionsPageWhenUpdatedCaptionLabel": {
+    "message": "Mostra la pàgina d'opcions quan Simple Translate s'actualitza. Podeu conèixer el contingut de l'actualització ràpidament."
+  },
+  "isDebugModeLabel": {
+    "message": "Activar el mode de depuració"
+  },
+  "isDebugModeCaptionLabel": {
+    "message": "Quan el mode depuració esta activat, el registre es produeix al depurador."
+  },
+  "resetSettingsLabel": {
+    "message": "Restableix la configuració"
+  },
+  "resetSettingsCaptionLabel": {
+    "message": "Restaurar totes les configuracións per defecte."
+  },
+  "resetSettingsButtonLabel": {
+    "message": "Restablir"
+  },
+  "shortcutsLabel": {
+    "message": "Dreceres"
+  },
+  "keyboardShortcutsLabel": {
+    "message": "Dreceres de teclat"
+  },
+  "setKeyboardShortCutsMessage": {
+    "message": "Conjunt de dreceres del teclat."
+  },
+  "typeShortcutMessage": {
+    "message": "Escriviu una drecera"
+  },
+  "typeLetterMessage": {
+    "message": "Tipus de lletra"
+  },
+  "includeModifierKeysMessage": {
+    "message": "Incluir qualsevol dels dos Ctrl o Alt"
+  },
+  "includeMacModifierKeysMessage": {
+    "message": "Incluir qualsevol de les ordres, Ctrl o Alt"
+  },
+  "invalidLetterMessage": {
+    "message": "La lletra no es pot utilitzar"
+  },
+  "invalidShortcutMessage": {
+    "message": "La drecera no es pot utilitzar"
+  },
+  "clear": {
+    "message": "Netejar"
+  },
+  "reset": {
+    "message": "Restablir"
+  },
+  "informationLabel": {
+    "message": "Informació"
+  },
+  "backersLabel": {
+    "message": "Patrocinadors"
+  },
+  "licenseLabel": {
+    "message": "Llicència"
+  },
+  "donationLabel": {
+    "message": "Si us plau faci una donació"
+  },
+  "donationCaptionLabel": {
+    "message": "Gràcies per utilitzar Simple Translate.<br>El vostre suport serà un gran impuls, ja que continuarem desenvolupant el complement.<br>Si us agrada el Simple Translate, ens agrairia que pugueu fer una donació."
+  },
+  "amazonTitleLabel": {
+    "message": "amazon.co.jp eGift Cards"
+  },
+  "sponsorsLabel": {
+    "message": "Sponsors"
+  },
+  "addonPageLabel": {
+    "message": "Pàgina complementària"
+  },
+  "extensionPageLabel": {
+    "message": "Pàgina d'extensions"
+  },
+  "privacyPolicyLabel": {
+    "message": "Privacy policy"
+  },
+  "amazonUrl": {
+    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=es_ES"
+  },
+  "addonUrl": {
+    "message": "https://addons.mozilla.org/es-ES/firefox/addon/simple-translate/?src=optionpage"
+  },
+  "networkError": {
+    "message": "Error: Comprova l'estat de la connexió de xarxa."
+  },
+  "unavailableError": {
+    "message": "Error: S'ha arribat al límit d'ús del servei. Espera una estona i intententa-ho de nou."
+  },
+  "unknownError": {
+    "message": "Error: Error desconegut"
+  },
+  "translatePageMenu": {
+    "message": "Tradueix aquesta pàgina"
+  },
+  "translateTextMenu": {
+    "message": "Tradueix el text selecionat"
+  },
+  "translateLinkMenu": {
+    "message": "Tradueix l'enlaç selecionat"
+  },
+  "openPopupDescription": {
+    "message": "Obri la finestra emergent de la barra d'eines"
+  }
+}

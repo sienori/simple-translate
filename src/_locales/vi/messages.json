@@ -1,0 +1,386 @@
+{
+  "extName": {
+    "message": "Simple Translate"
+  },
+  "extDescription": {
+    "message": "Nhanh chóng dịch văn bản đã chọn trên trang web. Trong thanh công cụ bật lên, bạn có thể dịch văn bản nguồn."
+  },
+  "donateWithPaypalLabel": {
+    "message": "Đóng góp bằng PayPal"
+  },
+  "donateLabel": {
+    "message": "Quyên góp"
+  },
+  "enableOnThisPage": {
+    "message": "Cho phép dịch trên trang này"
+  },
+  "disableOnThisPage": {
+    "message": "Vô hiệu hóa dịch trên trang này"
+  },
+  "initialTextArea": {
+    "message": "Nhập văn bản"
+  },
+  "showLink": {
+    "message": "Dịch trang này"
+  },
+  "openInGoogleLabel": {
+    "message": "Mở trong Google Dịch"
+  },
+  "copyLabel": {
+    "message": "Sao chép"
+  },
+  "copiedLabel": {
+    "message": "Đã sao chép."
+  },
+  "listenLabel": {
+    "message": "Nghe"
+  },
+  "targetLangLabel": {
+    "message": "Ngôn ngữ đích"
+  },
+  "langList": {
+    "message": "af:Afrikaans, sq:Albanian, am:Amharic, ar:Arabic, hy:Armenian, az:Azerbaijani, eu:Basque, be:Belarusian, bn:Bengali, bs:Bosnian, bg:Bulgarian, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Chinese (PRC), zh-TW:Chinese (Taiwan), co:Corsican, hr:Croatian, cs:Czech, da:Danish, nl:Dutch, en:English, eo:Esperanto, et:Estonian, fi:Finnish, fr:French, fy:Frisian, gl:Galician, ka:Georgian, de:German, el:Greek, gu:Gujarati, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesian, ga:Irish, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Korean, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:Macedonian, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persian, pl:Polish, pt:Portuguese, pa:Punjabi, ps:Pushto, ro:Romanian, ru:Russian, sm:Samoan, gd:Scottish Gaelic, sr:Serbian, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovak, sl:Slovenian, so:Somali, sx:Sotho, es:Spanish, su:Sundanese, sw:Swahili, sv:Swedish, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turkish, uk:Ukrainian, ur:Urdu, uz:Uzbek, vi:Vietnamese, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
+  },
+  "allLangLabel": {
+    "message": "All languages"
+  },
+  "recentLangLabel": {
+    "message": "Recent languages"
+  },
+  "settingsLabel": {
+    "message": "Cài đặt"
+  },
+  "generalLabel": {
+    "message": "Tổng quát"
+  },
+  "targetLangCaptionLabel": {
+    "message": "Chọn ngôn ngữ đích mặc định."
+  },
+  "webPageLabel": {
+    "message": "Trang Web"
+  },
+  "ifShowCandidateLabel": {
+    "message": "Hiển thị đề cử dịch thuật"
+  },
+  "ifShowCandidateCaptionLabel": {
+    "message": "Hiển thị nhiều đề cử dịch khi một từ duy nhất được dịch."
+  },
+  "whenSelectTextLabel": {
+    "message": "Hành động khi chọn văn bản"
+  },
+  "ifAutoTranslateLabel": {
+    "message": "Hiển thị bảng dịch"
+  },
+  "ifAutoTranslateCaptionLabel": {
+    "message": "Hiển thị trực tiếp bảng dịch mà không hiển thị nút."
+  },
+  "ifShowButtonLabel": {
+    "message": "Hiển thị nút dịch"
+  },
+  "ifShowButtonCaptionLabel": {
+    "message": "Hiển thị nút dịch để mở bảng điều khiển khi nhấp vào."
+  },
+  "dontshowbuttonlabel": {
+    "message": "Không hiển thị nút hoặc bảng điều khiển"
+  },
+  "dontshowbuttonCaptionlabel": {
+    "message": "Không hiển thị nút để dịch hoặc bảng dịch."
+  },
+  "ifCheckLangLabel": {
+    "message": "Không hiển thị nút nếu không cần dịch"
+  },
+  "ifCheckLangCaptionLabel": {
+    "message": "Phát hiện ngôn ngữ của văn bản đã chọn và nếu nó giống với ngôn ngữ đích, nút sẽ không hiển thị."
+  },
+  "ifChangeSecondLangOnPageCaptionLabel": {
+    "message": "Phát hiện ngôn ngữ của văn bản đã chọn và nếu nó giống với ngôn ngữ đích mặc định, hãy dịch nó sang ngôn ngữ thứ hai."
+  },
+  "disableTranslationLabel": {
+    "message": "Disable translation"
+  },
+  "isDisabledInTextFieldsLabel": {
+    "message": "Tắt tính năng dịch trong các trường văn bản"
+  },
+  "isDisabledInTextFieldsCaptionLabel": {
+    "message": "Không hiển thị nút hoặc bảng dịch khi chọn văn bản trong trường văn bản."
+  },
+  "isDisabledInCodeElementLabel": {
+    "message": "Disable translation in code tags"
+  },
+  "isDisabledInCodeElementCaptionLabel": {
+    "message": "Don't display translation button or panel when selecting text in code tag."
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedLabel": {
+    "message": "Dịch trên phím bổ trợ được nhấn"
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
+    "message": "Chỉ hiển thị bản dịch trên phím bổ trợ được chỉ định được nhấn."
+  },
+  "modifierKeyLabel": {
+    "message": "Phím bổ trợ"
+  },
+  "shiftLabel": {
+    "message": "Shift"
+  },
+  "ctrlLabel": {
+    "message": "Ctrl"
+  },
+  "altLabel": {
+    "message": "Alt"
+  },
+  "cmdLabel": {
+    "message": "Command"
+  },
+  "disableUrlListLabel": {
+    "message": "Danh sách URL cần tắt tính năng dịch"
+  },
+  "disableUrlListCaptionLabel": {
+    "message": "Nếu URL trang khớp với danh sách, trang web đó sẽ không dịch. Danh sách cho phép ký tự đại diện \"*\"."
+  },
+  "toolbarLabel": {
+    "message": "Thanh công cụ bật lên"
+  },
+  "ifChangeSecondLangLabel": {
+    "message": "Tự động chuyển sang ngôn ngữ thứ hai"
+  },
+  "ifChangeSecondLangCaptionLabel": {
+    "message": "Phát hiện ngôn ngữ của văn bản đầu vào và nếu nó giống với ngôn ngữ đích mặc định, hãy dịch nó sang ngôn ngữ thứ hai."
+  },
+  "secondTargetLangLabel": {
+    "message": "Ngôn ngữ thứ hai"
+  },
+  "secondTargetLangCaptionLabel": {
+    "message": "Chọn ngôn ngữ đích thứ hai."
+  },
+  "ignoredDocumentLangLabel": {
+    "message": "Disable translation by lang attribute"
+  },
+  "ignoredDocumentLangCaptionLabel": {
+    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
+  },
+  "waitTimeLabel": {
+    "message": "Thời gian chờ để dịch"
+  },
+  "waitTimeCaptionLabel": {
+    "message": "Chỉ định thời gian chờ đợi từ đầu vào của một ký tự đến để bắt đầu dịch. (mili giây)"
+  },
+  "waitTime2CaptionLabel": {
+    "message": "Nếu bạn dịch nó nhiều lần trong một thời gian ngắn, nó có thể trở nên không sử dụng được trong một thời gian."
+  },
+  "menuLabel": {
+    "message": "Menu ngữ cảnh"
+  },
+  "ifShowMenuLabel": {
+    "message": "Hiển thị menu ngữ cảnh"
+  },
+  "ifShowMenuCaptionLabel": {
+    "message": "Thêm các mục vào menu ngữ cảnh được hiển thị khi nhấp chuột phải vào trang web hoặc thẻ."
+  },
+  "styleLabel": {
+    "message": "Phong cách"
+  },
+  "themeLabel": {
+    "message": "Chủ Đề"
+  },
+  "themeCaptionLabel": {
+    "message": "Chỉ định bảng màu."
+  },
+  "lightLabel": {
+    "message": "Sáng"
+  },
+  "darkLabel": {
+    "message": "Tối"
+  },
+  "buttonStyleLabel": {
+    "message": "Nút dịch"
+  },
+  "buttonStyleCaptionLabel": {
+    "message": "Chỉ định kiểu của nút dịch được hiển thị trên trang web."
+  },
+  "buttonSizeLabel": {
+    "message": "Kích cỡ"
+  },
+  "buttonPositionLabel": {
+    "message": "Vị trí hiển thị"
+  },
+  "topRightLabel": {
+    "message": "Phía trên bên phải"
+  },
+  "bottomRightLabel": {
+    "message": "Phía dưới bên phải"
+  },
+  "topLeftLabel": {
+    "message": "Phía trên bên trái"
+  },
+  "bottomLeftLabel": {
+    "message": "Phía dưới bên trái"
+  },
+  "topLabel": {
+    "message": "Trên"
+  },
+  "bottomLabel": {
+    "message": "Dưới"
+  },
+  "leftLabel": {
+    "message": "Trái"
+  },
+  "rightLabel": {
+    "message": "Phải"
+  },
+  "positionOffsetLabel": {
+    "message": "Vị trí hiển thị - Bù đắp"
+  },
+  "panelStyleLabel": {
+    "message": "Bảng dịch"
+  },
+  "panelStyleCaptionLabel": {
+    "message": "Chỉ định kiểu của bảng dịch được hiển thị trên trang web."
+  },
+  "widthLabel": {
+    "message": "Chiều dài"
+  },
+  "heightLabel": {
+    "message": "Chiều rộng"
+  },
+  "fontSizeLabel": {
+    "message": "Cỡ chữ"
+  },
+  "referencePointLabel": {
+    "message": "Vị trí hiển thị - Điểm tham chiếu"
+  },
+  "bottomSelectedTextLabel": {
+    "message": "Phía dưới văn bản được chọn"
+  },
+  "topSelectedTextLabel": {
+    "message": "Phía trên văn bản được chọn"
+  },
+  "clickedPointLabel": {
+    "message": "Điểm nhấp"
+  },
+  "displayDirectionLabel": {
+    "message": "Vị trí hiển thị - Hướng"
+  },
+  "resultFontColorLabel": {
+    "message": "Màu chữ của kết quả dịch"
+  },
+  "candidateFontColorLabel": {
+    "message": "Màu chữ của đề cử dịch thuật"
+  },
+  "bgColorLabel": {
+    "message": "Màu nền"
+  },
+  "otherLabel": {
+    "message": "Khác"
+  },
+  "isShowOptionsPageWhenUpdatedLabel": {
+    "message": "Hiển thị trang tùy chọn khi cập nhật"
+  },
+  "isShowOptionsPageWhenUpdatedCaptionLabel": {
+    "message": "Hiển thị trang tùy chọn khi Simple Translate được cập nhật. Bạn có thể biết nội dung cập nhật một cách nhanh chóng."
+  },
+  "isDebugModeLabel": {
+    "message": "Bật chế độ gỡ lỗi"
+  },
+  "isDebugModeCaptionLabel": {
+    "message": "Khi chế độ gỡ lỗi được bật, bản ghi sẽ được xuất ra trình gỡ lỗi."
+  },
+  "resetSettingsLabel": {
+    "message": "Đặt lại cài đặt"
+  },
+  "resetSettingsCaptionLabel": {
+    "message": "Khôi phục các thiết lập về mặc định."
+  },
+  "resetSettingsButtonLabel": {
+    "message": "Đặt lại"
+  },
+  "shortcutsLabel": {
+    "message": "Phím tắt"
+  },
+  "keyboardShortcutsLabel": {
+    "message": "Phím tắt bàn phím"
+  },
+  "setKeyboardShortCutsMessage": {
+    "message": "Đặt phím tắt bàn phím."
+  },
+  "typeShortcutMessage": {
+    "message": "Nhập một phím tắt"
+  },
+  "typeLetterMessage": {
+    "message": "Nhập một kí tự"
+  },
+  "includeModifierKeysMessage": {
+    "message": "Bao gồm phím Ctrl hoặc Alt"
+  },
+  "includeMacModifierKeysMessage": {
+    "message": "Bao gồm phím Command, Ctrl hoặc Alt"
+  },
+  "invalidLetterMessage": {
+    "message": "Không thể sử dụng kí tự này"
+  },
+  "invalidShortcutMessage": {
+    "message": "Không thể sử dụng phím tắt này"
+  },
+  "clear": {
+    "message": "Xóa"
+  },
+  "reset": {
+    "message": "Đặt lại"
+  },
+  "informationLabel": {
+    "message": "Thông tin"
+  },
+  "backersLabel": {
+    "message": "Người ủng hộ"
+  },
+  "licenseLabel": {
+    "message": "Giấy phép"
+  },
+  "donationLabel": {
+    "message": "Hãy đóng góp"
+  },
+  "donationCaptionLabel": {
+    "message": "Cảm ơn bạn đã sử dụng Simple Translate.<br>Sự hỗ trợ của bạn sẽ là một sự khích lệ lớn, khi tôi tiếp tục phát triển tiện ích mở rộng.<br>Nếu bạn thích Simple Translate, tôi sẽ rất vui nếu bạn có thể xem xét quyên góp."
+  },
+  "amazonTitleLabel": {
+    "message": "Thẻ eGift của amazon.co.jp"
+  },
+  "sponsorsLabel": {
+    "message": "Sponsors"
+  },
+  "addonPageLabel": {
+    "message": "Trang tiện ích"
+  },
+  "extensionPageLabel": {
+    "message": "Trang tiện ích"
+  },
+  "privacyPolicyLabel": {
+    "message": "Chính sách bảo mật"
+  },
+  "amazonUrl": {
+    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
+  },
+  "addonUrl": {
+    "message": "https://addons.mozilla.org/firefox/addon/simple-translate/?src=optionpage"
+  },
+  "networkError": {
+    "message": "Lỗi: Kiểm tra trạng thái kết nối mạng."
+  },
+  "unavailableError": {
+    "message": "Lỗi: Đã đạt đến giới hạn sử dụng dịch vụ. Xin vui lòng chờ một lúc và thử lại."
+  },
+  "unknownError": {
+    "message": "Lỗi: Lỗi không xác định"
+  },
+  "translatePageMenu": {
+    "message": "Dịch trang này"
+  },
+  "translateTextMenu": {
+    "message": "Dịch văn bản đã chọn"
+  },
+  "translateLinkMenu": {
+    "message": "Dịch liên kết đã chọn"
+  },
+  "openPopupDescription": {
+    "message": "Mở thanh công cụ bật lên"
+  }
+}

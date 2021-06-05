@@ -1,0 +1,104 @@
+#header {
+  padding: 10px;
+  background-color: var(--line);
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+
+  .title {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--sub-text);
+    cursor: default;
+    flex-shrink: 0;
+  }
+
+  .rightButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    height: 18px;
+
+    .toggleButton {
+      height: 18px;
+      .react-toggle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 18px;
+        $offset-width: 18px;
+        .react-toggle-track {
+          height: 10px;
+          width: 50px - $offset-width;
+          background-color: var(--sub-text);
+          -webkit-box-transition: all 100ms ease;
+          -moz-box-transition: all 100ms ease;
+          transition: all 100ms ease;
+        }
+        .react-toggle-thumb {
+          height: 16px;
+          width: 16px;
+          left: 0px;
+          -webkit-box-shadow: none;
+          -moz-box-shadow: none;
+          box-shadow: none;
+          -webkit-box-transition: all 100ms ease;
+          -moz-box-transition: all 100ms ease;
+          transition: all 100ms ease;
+        }
+
+        &.react-toggle--checked {
+          .react-toggle-track {
+            background-color: var(--highlight);
+          }
+          .react-toggle-thumb {
+            left: 34px - $offset-width;
+            border-color: var(--highlight);
+          }
+        }
+        &.react-toggle--disabled {
+          cursor: unset;
+        }
+      }
+    }
+
+    button {
+      display: block;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      outline: none;
+      padding: 0;
+    }
+
+    .heartButton {
+      display: flex;
+      align-items: center;
+      margin: 0px 10px;
+      &:hover svg {
+        fill: var(--confirm);
+      }
+    }
+
+    .settingsButton {
+      display: flex;
+      align-items: center;
+      &:hover svg {
+        fill: var(--highlight);
+        transform: rotate(90deg);
+      }
+    }
+
+    svg {
+      height: 18px;
+      width: 18px;
+      fill: var(--sub-text);
+      transition: fill 100ms, transform 300ms ease;
+    }
+  }
+}

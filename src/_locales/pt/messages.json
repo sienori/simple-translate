@@ -1,0 +1,386 @@
+{
+  "extName": {
+    "message": "Tradução simples"
+  },
+  "extDescription": {
+    "message": "Tradução rápida do texto selecionado na página. É possível traduzir texto inserindo no popup da barra de ferramentas."
+  },
+  "donateWithPaypalLabel": {
+    "message": "Doar com PayPal"
+  },
+  "donateLabel": {
+    "message": "Doar"
+  },
+  "enableOnThisPage": {
+    "message": "Ativar tradução nesta página"
+  },
+  "disableOnThisPage": {
+    "message": "Desativar tradução nesta página"
+  },
+  "initialTextArea": {
+    "message": "Insire o texto"
+  },
+  "showLink": {
+    "message": "Traduzir esta página"
+  },
+  "openInGoogleLabel": {
+    "message": "Abrir no Google Tradutor"
+  },
+  "copyLabel": {
+    "message": "Copiar"
+  },
+  "copiedLabel": {
+    "message": "Copiado."
+  },
+  "listenLabel": {
+    "message": "Ouvir"
+  },
+  "targetLangLabel": {
+    "message": "Idioma alvo"
+  },
+  "langList": {
+    "message": "af:Africâner, sq:Albanês, am:Amárico, ar:Árabe, hy:Armênio, az:Azerbaijano, eu:Basco, be:Bielorrusso, bn:Bengalês, bs:Bósnio, bg:Búlgaro, ca:Catalão, ceb:Cebuano, ny:Chicheua, zh-CN:Chinês (RPC), zh-TW:Chinês (Taiwan), co:Corso, hr:Croata, cs:Tcheco, da:Dinamarquês, nl:Holandês, en:Inglês, eo:Esperanto, et:Estoniano, fi:Finlandês, fr:Francês, fy:Frísio, gl:Galego, ka:Georgiano, de:Alemão, el:Grego, gu:Guzerate, ht:Haitiano, ha:Hauçá, haw:Havaiano, he:Hebraico, hi:Hindi, hu:Húngaro, is:Islandês, ig:Igbo, id:Indonésio, ga:Irlandês, it:Italiano, ja:Japonês, jv:Javanês, kn:Canarês, kk:Cazaque, km:Khmer, ky:Quirguiz, ko:Coreano, ku:Curdo, lo:Laosiano, la:Latin, lv:Letão, lt:Lituano, lb:Luxemburguês, mk:Macedônio, mg:Malgaxe, ms:Malaio, ml:Malaiala, mt:Maltês, mi:Maori, mr:Marata, mn:Mongol, hmn:Hmong, my:Birmanês, ne:Nepalês, no:Norueguês, fa:Persa, pl:Polonês, pt:Português, pa:Punjabi, ps:Pachto, ro:Romeno, ru:Russo, sm:Samoano, gd:Gaélico Escocês, sr:Sérvio, sn:Chona, sd:Sindi, si:Singalês, sk:Eslovaco, sl:Esloveno, so:Somali, st:Sessoto, es:Espanhol, su:Sundanês, sw:Suaíle, sv:Sueco, tl:Filipino, tg:Tadjique, ta:Tâmil, te:Telugo, th:Tailandês, tr:Turco, uk:Ucraniano, ur:Urdu, uz:Uzbeque, vi:Vietnamita, cy:Galês, xh:Xhosa, yi:Iídiche, yo:Ioruba, zu:Zulu"
+  },
+  "allLangLabel": {
+    "message": "Todos os idiomas"
+  },
+  "recentLangLabel": {
+    "message": "Idiomas recentes"
+  },
+  "settingsLabel": {
+    "message": "Configurações"
+  },
+  "generalLabel": {
+    "message": "Geral"
+  },
+  "targetLangCaptionLabel": {
+    "message": "Selecione o idioma alvo padrão."
+  },
+  "webPageLabel": {
+    "message": "Página"
+  },
+  "ifShowCandidateLabel": {
+    "message": "Mostrar candidatos à tradução"
+  },
+  "ifShowCandidateCaptionLabel": {
+    "message": "Mostrar vários candidatos à tradução ao traduzir uma única palavra."
+  },
+  "whenSelectTextLabel": {
+    "message": "Comportamento ao selecionar texto"
+  },
+  "ifAutoTranslateLabel": {
+    "message": "Exibir painel de tradução"
+  },
+  "ifAutoTranslateCaptionLabel": {
+    "message": "Exibe o painel de tradução diretamente sem exibir o botão."
+  },
+  "ifShowButtonLabel": {
+    "message": "Exibir botão traduzir"
+  },
+  "ifShowButtonCaptionLabel": {
+    "message": "Exibe o botão traduzir para abrir o painel quando clicado."
+  },
+  "dontshowbuttonlabel": {
+    "message": "Não exibir botão ou painel"
+  },
+  "dontshowbuttonCaptionlabel": {
+    "message": "Não exibe o botão traduzir ou o painel de tradução."
+  },
+  "ifCheckLangLabel": {
+    "message": "Não exibir o botão se a tradução não for necessária"
+  },
+  "ifCheckLangCaptionLabel": {
+    "message": "Detecta o idioma do texto selecionado e, se igual ao idioma alvo, o botão não é exibido."
+  },
+  "ifChangeSecondLangOnPageCaptionLabel": {
+    "message": "Detecta o idioma do texto selecionado e, se igual ao idioma alvo padrão, traduz no segundo idioma."
+  },
+  "disableTranslationLabel": {
+    "message": "Desativar tradução"
+  },
+  "isDisabledInTextFieldsLabel": {
+    "message": "Desativar tradução em campos de texto"
+  },
+  "isDisabledInTextFieldsCaptionLabel": {
+    "message": "Não exibe o botão traduzir ou o painel ao selecionar texto em um campo de texto."
+  },
+  "isDisabledInCodeElementLabel": {
+    "message": "Desativar tradução em tags de código"
+  },
+  "isDisabledInCodeElementCaptionLabel": {
+    "message": "Não exibe o botão traduzir ou o painel ao selecionar texto em tags de código."
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedLabel": {
+    "message": "Traduzir ao pressionar a tecla modificadora"
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
+    "message": "Exibe a tradução apenas ao pressionar a tecla modificadora especificada."
+  },
+  "modifierKeyLabel": {
+    "message": "Tecla Modificadora"
+  },
+  "shiftLabel": {
+    "message": "Shift"
+  },
+  "ctrlLabel": {
+    "message": "Ctrl"
+  },
+  "altLabel": {
+    "message": "Alt"
+  },
+  "cmdLabel": {
+    "message": "Command"
+  },
+  "disableUrlListLabel": {
+    "message": "Lista de URLs para desativar tradução"
+  },
+  "disableUrlListCaptionLabel": {
+    "message": "Se o URL da página corresponde à lista, a tradução na página é desativada. A lista permite curingas \"*\"."
+  },
+  "toolbarLabel": {
+    "message": "Popup da barra de ferramentas"
+  },
+  "ifChangeSecondLangLabel": {
+    "message": "Trocar automaticamente para o segundo idioma"
+  },
+  "ifChangeSecondLangCaptionLabel": {
+    "message": "Detecta o idioma do texto inserido e, se igual ao idioma alvo padrão, traduz no segundo idioma."
+  },
+  "secondTargetLangLabel": {
+    "message": "Segundo idioma"
+  },
+  "secondTargetLangCaptionLabel": {
+    "message": "Selecione o segundo idioma alvo."
+  },
+  "ignoredDocumentLangLabel": {
+    "message": "Desativar tradução por atributo lang"
+  },
+  "ignoredDocumentLangCaptionLabel": {
+    "message": "Desativa a tradução se o atributo lang no elemento html da página corresponder à lista. Insira tags de idioma separadas por vírgulas."
+  },
+  "waitTimeLabel": {
+    "message": "Tempo de espera para traduzir"
+  },
+  "waitTimeCaptionLabel": {
+    "message": "Especifique o tempo de espera da inserção de um caractere até o início da tradução. (milissegundo)"
+  },
+  "waitTime2CaptionLabel": {
+    "message": "Se você traduzir muitas vezes em pouco tempo, pode ficar inutilizável por um tempo."
+  },
+  "menuLabel": {
+    "message": "Menu de contexto"
+  },
+  "ifShowMenuLabel": {
+    "message": "Exibir menu de contexto"
+  },
+  "ifShowMenuCaptionLabel": {
+    "message": "Adiciona itens ao menu de contexto exibido ao clicar o botão direito na página ou na aba."
+  },
+  "styleLabel": {
+    "message": "Estilo"
+  },
+  "themeLabel": {
+    "message": "Tema"
+  },
+  "themeCaptionLabel": {
+    "message": "Especifique o esquema de cores."
+  },
+  "lightLabel": {
+    "message": "Claro"
+  },
+  "darkLabel": {
+    "message": "Escuro"
+  },
+  "buttonStyleLabel": {
+    "message": "Botão traduzir"
+  },
+  "buttonStyleCaptionLabel": {
+    "message": "Especifique o estilo do botão traduzir exibido na página."
+  },
+  "buttonSizeLabel": {
+    "message": "Tamanho"
+  },
+  "buttonPositionLabel": {
+    "message": "Posição de exibição"
+  },
+  "topRightLabel": {
+    "message": "Superior direito"
+  },
+  "bottomRightLabel": {
+    "message": "Inferior direito"
+  },
+  "topLeftLabel": {
+    "message": "Superior esquerdo"
+  },
+  "bottomLeftLabel": {
+    "message": "Inferior esquerdo"
+  },
+  "topLabel": {
+    "message": "Superior"
+  },
+  "bottomLabel": {
+    "message": "Inferior"
+  },
+  "leftLabel": {
+    "message": "Esquerda"
+  },
+  "rightLabel": {
+    "message": "Direita"
+  },
+  "positionOffsetLabel": {
+    "message": "Posição de exibição - Distância"
+  },
+  "panelStyleLabel": {
+    "message": "Painel de tradução"
+  },
+  "panelStyleCaptionLabel": {
+    "message": "Especifique o estilo do painel de tradução exibido na página."
+  },
+  "widthLabel": {
+    "message": "Largura"
+  },
+  "heightLabel": {
+    "message": "Altura"
+  },
+  "fontSizeLabel": {
+    "message": "Tamanho da fonte"
+  },
+  "referencePointLabel": {
+    "message": "Posição de exibição - Ponto de referência"
+  },
+  "bottomSelectedTextLabel": {
+    "message": "Abaixo do texto selecionado"
+  },
+  "topSelectedTextLabel": {
+    "message": "Acima do texto selecionado"
+  },
+  "clickedPointLabel": {
+    "message": "Ponto clicado"
+  },
+  "displayDirectionLabel": {
+    "message": "Posição de exibição - Direção"
+  },
+  "resultFontColorLabel": {
+    "message": "Cor da fonte do resultado de tradução"
+  },
+  "candidateFontColorLabel": {
+    "message": "Cor da fonte dos candidatos à tradução"
+  },
+  "bgColorLabel": {
+    "message": "Cor do fundo"
+  },
+  "otherLabel": {
+    "message": "Outros"
+  },
+  "isShowOptionsPageWhenUpdatedLabel": {
+    "message": "Exibir página de opções ao atualizar"
+  },
+  "isShowOptionsPageWhenUpdatedCaptionLabel": {
+    "message": "Exibe a página de opções quando o Simple Translate é atualizado. Você pode saber o conteúdo da atualização rapidamente."
+  },
+  "isDebugModeLabel": {
+    "message": "Ativar modo de depuração"
+  },
+  "isDebugModeCaptionLabel": {
+    "message": "Quando o modo de depuração é ativado, o registro de eventos é enviado ao depurador."
+  },
+  "resetSettingsLabel": {
+    "message": "Redefinir configurações"
+  },
+  "resetSettingsCaptionLabel": {
+    "message": "Restaura todas as configurações ao padrão."
+  },
+  "resetSettingsButtonLabel": {
+    "message": "Redefinir"
+  },
+  "shortcutsLabel": {
+    "message": "Atalhos"
+  },
+  "keyboardShortcutsLabel": {
+    "message": "Atalhos do teclado"
+  },
+  "setKeyboardShortCutsMessage": {
+    "message": "Definir atalhos do teclado."
+  },
+  "typeShortcutMessage": {
+    "message": "Digite um atalho"
+  },
+  "typeLetterMessage": {
+    "message": "Digite uma letra"
+  },
+  "includeModifierKeysMessage": {
+    "message": "Incluir Ctrl ou Alt"
+  },
+  "includeMacModifierKeysMessage": {
+    "message": "Incluir Command, Ctrl ou Alt"
+  },
+  "invalidLetterMessage": {
+    "message": "A letra não pode ser usada"
+  },
+  "invalidShortcutMessage": {
+    "message": "O atalho não pode ser usado"
+  },
+  "clear": {
+    "message": "Limpar"
+  },
+  "reset": {
+    "message": "Redefinir"
+  },
+  "informationLabel": {
+    "message": "Informação"
+  },
+  "backersLabel": {
+    "message": "Apoiadores"
+  },
+  "licenseLabel": {
+    "message": "Licença"
+  },
+  "donationLabel": {
+    "message": "Por favor, faça uma doação"
+  },
+  "donationCaptionLabel": {
+    "message": "Obrigado por usar o Simple Translate.<br>Seu apoio será um grande incentivo enquanto eu continuar desenvolvendo a extensão.<br>Se você gostou do Simple Translate, eu ficaria contente se considerasse uma doação."
+  },
+  "amazonTitleLabel": {
+    "message": "Vales-presente virtuais da amazon.co.jp"
+  },
+  "sponsorsLabel": {
+    "message": "Patrocinadores"
+  },
+  "addonPageLabel": {
+    "message": "Página da extensão"
+  },
+  "extensionPageLabel": {
+    "message": "Página da extensão"
+  },
+  "privacyPolicyLabel": {
+    "message": "Política de privacidade"
+  },
+  "amazonUrl": {
+    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=pt_BR"
+  },
+  "addonUrl": {
+    "message": "https://addons.mozilla.org/pt-BR/firefox/addon/simple-translate/?src=optionpage"
+  },
+  "networkError": {
+    "message": "Falha: Verifique o status da conexão de rede."
+  },
+  "unavailableError": {
+    "message": "Falha: Limite de uso do serviço atingido. Por favor, aguarde um pouco e tente novamente."
+  },
+  "unknownError": {
+    "message": "Falha: Erro desconhecido"
+  },
+  "translatePageMenu": {
+    "message": "Traduzir esta página"
+  },
+  "translateTextMenu": {
+    "message": "Traduzir texto selecionado"
+  },
+  "translateLinkMenu": {
+    "message": "Traduzir link selecionado"
+  },
+  "openPopupDescription": {
+    "message": "Abrir popup da barra de ferramentas"
+  }
+}

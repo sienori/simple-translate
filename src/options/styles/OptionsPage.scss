@@ -1,0 +1,40 @@
+body {
+  background-color: var(--main-bg);
+
+  --main-text: #0c0c0d;
+  --sub-text: #737373;
+  --line: #ededf0;
+  --button: #d7d7db;
+  --highlight: #5595ff;
+  --main-bg: #ffffff;
+  --sub-bg: #ffffff;
+  --new: #ff4f4f;
+
+  &[data-theme="dark"] {
+    --main-text: #e6e6e6;
+    --sub-text: #aaaaaa;
+    --line: #373737;
+    --button: #929292;
+    --highlight: #5595ff;
+    --main-bg: #181818;
+    --sub-bg: #101010;
+    --new: #ed5f5f;
+  }
+}
+
+.optionsPage {
+  font-family: "Segoe UI", "San Francisco", "Ubuntu", "Fira Sans", "Roboto", "Arial", "Helvetica",
+    sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--main-text);
+  line-height: 1.5;
+  margin: 20px 40px;
+}
+
+::-moz-selection {
+  background-color: var(--line);
+}
+::selection {
+  background-color: var(--line);
+}

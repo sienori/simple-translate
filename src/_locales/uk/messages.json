@@ -18,7 +18,7 @@
     "message": "Заборонити переклад на цій сторінці"
   },
   "initialTextArea": {
-    "message": "Введіть текст"
+    "message": "Уведіть текст"
   },
   "showLink": {
     "message": "Перекласти всю сторінку"
@@ -102,13 +102,13 @@
     "message": "Не перекладати текстові поля"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Не показувати кнопку перекладу і панель, коли вибрано текст у текстовому полі."
+    "message": "Не показувати кнопку перекладу й панель, коли вибрано текст у текстовому полі."
   },
   "isDisabledInCodeElementLabel": {
-    "message": "Не перекладати текст з теґом code"
+    "message": "Не перекладати текст із теґом code"
   },
   "isDisabledInCodeElementCaptionLabel": {
-    "message": "Не показувати кнопку перекладу чи панель коли виділено текст з теґом code."
+    "message": "Не показувати кнопку перекладу чи панель коли виділено текст із теґом code."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
     "message": "Перекладати вирішною клавішею"

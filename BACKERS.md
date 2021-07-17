@@ -43,3 +43,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - 名暉 戴
 - László Dr. Gerő
 - Corko
+- Sebastian Fohler

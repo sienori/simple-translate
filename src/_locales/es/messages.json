@@ -42,10 +42,10 @@
     "message": "af:afrikáans, sq:albanés, am:amhárico, ar:árabe, hy:armenio, az:azerí, eu:euskera, be:bielorruso, bn:bengalí, bs:bosnio, bg:búlgaro, ca:catalán, ceb:cebuano, ny:chichewa, zh-CN:chino (simplificado), zh-TW:chino (tradicional), co:corso, hr:croata, cs:checo, da:danés, nl:neerlandés, en:inglés, eo:esperanto, et:estonio, fi:finlandés, fr:francés, fy:frisio, gl:gallego, ka:georgiano, de:alemán, el:griego, gu:gujarati, ht:haitiano, ha:hausa, haw:hawaiano, he:hebreo, hi:hindi, hu:húngaro, is:islandés, ig:igbo, id:indonesio, ga:irlandés, it:italiano, ja:japonés, jv:javanés, kn:canarés, kk:kazajo, km:khmer, ky:kirguís, ko:coreano, ku:kurdo, lo:lao, la:latín, lv:letón, lt:lituano, lb:luxemburgués, mk:macedonio, mg:malgache, ms:malayo, ml:malayalam, mt:maltés, mi:maorí, mr:maratí, mn:mongol, hmn:hmong, my:birmano, ne:nepalí, no:noruego, fa:persa, pl:polaco, pt:portugués, pa:panyabí, ps:pastún, ro:Rumano, ru:ruso, sm:samoano, gd:gaélico escocés, sr:serbio, sn:shona, sd:sindhi, si:cingalés, sk:eslovaco, sl:esloveno, so:somalí, st:sesoto, es:español, su:sundanés, sw:suajili, sv:sueco, tl:tagalo, tg:tayico, ta:tamil, te:telugu, th:tailandés, tr:turco, uk:ucraniano, ur:urdu, uz:uzbeko, vi:vietnamita, cy:galés, xh:xhosa, yi:yidis, yo:yoruba, zu:zulú"
   },
   "allLangLabel": {
-    "message": "All languages"
+    "message": "Todos los idiomas"
   },
   "recentLangLabel": {
-    "message": "Recent languages"
+    "message": "Idiomas recientes"
   },
   "settingsLabel": {
     "message": "Configuración"
@@ -96,7 +96,7 @@
     "message": "Detecta el idioma del texto seleccionado y, si es el mismo que el idioma de destino por defecto, traduce el texto al segundo idioma."
   },
   "disableTranslationLabel": {
-    "message": "Disable translation"
+    "message": "Desactivar traducción"
   },
   "isDisabledInTextFieldsLabel": {
     "message": "Desactivar la traducción en los campos de texto"
@@ -153,7 +153,7 @@
     "message": "Seleccione el segundo idioma de destino."
   },
   "ignoredDocumentLangLabel": {
-    "message": "Disable translation by lang attribute"
+    "message": "Desactivar traducción por atributo del lenguaje"
   },
   "ignoredDocumentLangCaptionLabel": {
     "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
@@ -345,7 +345,7 @@
     "message": "amazon.co.jp tarjetas eGift"
   },
   "sponsorsLabel": {
-    "message": "Sponsors"
+    "message": "Patrocinadores"
   },
   "addonPageLabel": {
     "message": "Página del complemento"

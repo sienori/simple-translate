@@ -99,7 +99,7 @@
     "message": "Desativar tradução"
   },
   "isDisabledInTextFieldsLabel": {
-    "message": "Desativar tradução em campos de texto"
+    "message": "Desativa tradução em campos de texto"
   },
   "isDisabledInTextFieldsCaptionLabel": {
     "message": "Não exibe o botão traduzir ou o painel ao selecionar texto em um campo de texto."
@@ -282,7 +282,7 @@
     "message": "Ativar modo de depuração"
   },
   "isDebugModeCaptionLabel": {
-    "message": "Quando o modo de depuração é ativado, o registro de eventos é enviado ao depurador."
+    "message": "Quando o modo de depuração é ativado, o registro é enviado ao depurador."
   },
   "resetSettingsLabel": {
     "message": "Redefinir configurações"

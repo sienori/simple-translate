@@ -63,7 +63,7 @@
     "message": "Mostrar candidatos à tradução"
   },
   "ifShowCandidateCaptionLabel": {
-    "message": "Mostrar vários candidatos à tradução ao traduzir uma única palavra."
+    "message": "Mostra vários candidatos à tradução ao traduzir uma só palavra."
   },
   "whenSelectTextLabel": {
     "message": "Comportamento ao selecionar texto"

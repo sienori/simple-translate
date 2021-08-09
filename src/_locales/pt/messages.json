@@ -174,7 +174,7 @@
     "message": "Exibir menu de contexto"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Adiciona itens ao menu de contexto exibido ao clicar o botão direito na página ou na aba."
+    "message": "Adiciona itens ao menu contextual exibido ao clicar o botão direito na página ou aba."
   },
   "styleLabel": {
     "message": "Estilo"
@@ -228,7 +228,7 @@
     "message": "Direita"
   },
   "positionOffsetLabel": {
-    "message": "Posição de exibição - Distância"
+    "message": "Posição de exibição - Deslocamento"
   },
   "panelStyleLabel": {
     "message": "Painel de tradução"

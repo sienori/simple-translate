@@ -87,7 +87,7 @@
     "message": "Não exibe o botão traduzir ou o painel de tradução."
   },
   "ifCheckLangLabel": {
-    "message": "Não exibir o botão se a tradução não for necessária"
+    "message": "Não exibe o botão se a tradução não é necessária"
   },
   "ifCheckLangCaptionLabel": {
     "message": "Detecta o idioma do texto selecionado e, se igual ao idioma alvo, o botão não é exibido."
@@ -165,7 +165,7 @@
     "message": "Especifique o tempo de espera da inserção de um caractere até o início da tradução. (milissegundo)"
   },
   "waitTime2CaptionLabel": {
-    "message": "Se você traduzir muitas vezes em pouco tempo, pode ficar inutilizável por um tempo."
+    "message": "Se você traduz muitas vezes em pouco tempo, pode ficar inutilizável por um tempo."
   },
   "menuLabel": {
     "message": "Menu de contexto"
@@ -339,7 +339,7 @@
     "message": "Por favor, faça uma doação"
   },
   "donationCaptionLabel": {
-    "message": "Obrigado por usar o Simple Translate.<br>Seu apoio será um grande incentivo enquanto eu continuar desenvolvendo a extensão.<br>Se você gostou do Simple Translate, eu ficaria contente se considerasse uma doação."
+    "message": "Obrigado por usar Simple Translate.<br>Seu apoio será um grande estímulo para eu continuar a desenvolver a extensão.<br>Se você gostou do Simple Translate, eu apreciaria se considerasse doar."
   },
   "amazonTitleLabel": {
     "message": "Vales-presente virtuais da amazon.co.jp"

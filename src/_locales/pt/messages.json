@@ -90,10 +90,10 @@
     "message": "Não exibe o botão se a tradução não é necessária"
   },
   "ifCheckLangCaptionLabel": {
-    "message": "Detecta o idioma do texto selecionado e, se igual ao idioma alvo, o botão não é exibido."
+    "message": "Não exibe o botão se o idioma do texto selecionado é igual ao idioma alvo."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detecta o idioma do texto selecionado e, se igual ao idioma alvo padrão, traduz no segundo idioma."
+    "message": "Traduz no segundo idioma se o idioma do texto selecionado é igual ao idioma alvo."
   },
   "disableTranslationLabel": {
     "message": "Desativar tradução"

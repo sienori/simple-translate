@@ -63,7 +63,7 @@
     "message": "Mostrar candidatos à tradução"
   },
   "ifShowCandidateCaptionLabel": {
-    "message": "Mostra vários candidatos à tradução ao traduzir uma só palavra."
+    "message": "Mostra vários candidatos à tradução ao traduzir só uma palavra."
   },
   "whenSelectTextLabel": {
     "message": "Comportamento ao selecionar texto"
@@ -72,13 +72,13 @@
     "message": "Exibir painel de tradução"
   },
   "ifAutoTranslateCaptionLabel": {
-    "message": "Exibe o painel de tradução diretamente sem exibir o botão."
+    "message": "Exibe diretamente o painel de tradução em vez do botão."
   },
   "ifShowButtonLabel": {
     "message": "Exibir botão traduzir"
   },
   "ifShowButtonCaptionLabel": {
-    "message": "Exibe o botão traduzir para abrir o painel quando clicado."
+    "message": "Exibe o botão para abrir o painel de tradução."
   },
   "dontshowbuttonlabel": {
     "message": "Não exibir botão ou painel"

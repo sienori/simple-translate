@@ -144,7 +144,7 @@
     "message": "Trocar automaticamente para o segundo idioma"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "Detecta o idioma do texto inserido e, se igual ao idioma alvo padrão, traduz no segundo idioma."
+    "message": "Traduz no segundo idioma se o idioma do texto inserido é igual ao idioma alvo padrão."
   },
   "secondTargetLangLabel": {
     "message": "Segundo idioma"
@@ -162,16 +162,16 @@
     "message": "Tempo de espera para traduzir"
   },
   "waitTimeCaptionLabel": {
-    "message": "Especifique o tempo de espera da inserção de um caractere até o início da tradução. (milissegundo)"
+    "message": "Especifique o intervalo entre a inserção de um caractere e o início da tradução. (milissegundo)"
   },
   "waitTime2CaptionLabel": {
     "message": "Se você traduz muitas vezes em pouco tempo, pode ficar inutilizável por um tempo."
   },
   "menuLabel": {
-    "message": "Menu de contexto"
+    "message": "Menu contextual"
   },
   "ifShowMenuLabel": {
-    "message": "Exibir menu de contexto"
+    "message": "Exibir menu contextual"
   },
   "ifShowMenuCaptionLabel": {
     "message": "Adiciona itens ao menu contextual exibido ao clicar o botão direito na página ou aba."

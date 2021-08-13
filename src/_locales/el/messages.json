@@ -284,6 +284,24 @@
   "isDebugModeCaptionLabel": {
     "message": "Όταν έχει ενεργοποιηθεί ο εντοπισμός σφαλμάτων, το περιεχόμενο καταγραφής κατευθύνεται στο πρόγραμμα αποσφαλμάτωσης."
   },
+  "exportSettingsLabel": {
+    "message": "Εξαγωγή ρυθμίσεων"
+  },
+  "exportSettingsCaptionLabel": {
+    "message": "Αποθηκεύστε τις ρυθμίσεις ως αρχείο json στον υπολογιστή."
+  },
+  "exportButtonLabel": {
+    "message": "Εξαγωγή"
+  },
+  "importSettingsLabel": {
+    "message": "Εισαγωγή ρυθμίσεων"
+  },
+  "importSettingsCaptionLabel": {
+    "message": "Φόρτωση του αποθηκευμένου στον υπολογιστή αρχείου ρυθμίσεων."
+  },
+  "importButtonLabel": {
+    "message": "Εισαγωγή"
+  },
   "resetSettingsLabel": {
     "message": "Επαναφορά"
   },

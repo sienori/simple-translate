@@ -285,22 +285,22 @@
     "message": "Quando o modo de depuração é ativado, o registro é enviado ao depurador."
   },
   "exportSettingsLabel": {
-    "message": "Export settings"
+    "message": "Exportar configurações"
   },
   "exportSettingsCaptionLabel": {
     "message": "Save the settings as a json file on the computer."
   },
   "exportButtonLabel": {
-    "message": "Export"
+    "message": "Exportar"
   },
   "importSettingsLabel": {
-    "message": "Import Settings"
+    "message": "Importar configurações"
   },
   "importSettingsCaptionLabel": {
     "message": "Load the settings file saved on the computer."
   },
   "importButtonLabel": {
-    "message": "Import"
+    "message": "Importar"
   },
   "resetSettingsLabel": {
     "message": "Redefinir configurações"

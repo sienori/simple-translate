@@ -288,19 +288,19 @@
     "message": "Εξαγωγή ρυθμίσεων"
   },
   "exportSettingsCaptionLabel": {
-    "message": "Save the settings as a json file on the computer."
+    "message": "Αποθηκεύστε τις ρυθμίσεις ως αρχείο json στον υπολογιστή."
   },
   "exportButtonLabel": {
-    "message": "Export"
+    "message": "Εξαγωγή"
   },
   "importSettingsLabel": {
-    "message": "Import Settings"
+    "message": "Εισαγωγή ρυθμίσεων"
   },
   "importSettingsCaptionLabel": {
-    "message": "Load the settings file saved on the computer."
+    "message": "Φόρτωση του αποθηκευμένου στον υπολογιστή αρχείου ρυθμίσεων."
   },
   "importButtonLabel": {
-    "message": "Import"
+    "message": "Εισαγωγή"
   },
   "resetSettingsLabel": {
     "message": "Επαναφορά"

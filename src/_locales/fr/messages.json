@@ -284,6 +284,24 @@
   "isDebugModeCaptionLabel": {
     "message": "Lorsque le mode débogage est activé, les données sont sorties vers le débogueur."
   },
+  "exportSettingsLabel": {
+    "message": "Export settings"
+  },
+  "exportSettingsCaptionLabel": {
+    "message": "Save the settings as a json file on the computer."
+  },
+  "exportButtonLabel": {
+    "message": "Export"
+  },
+  "importSettingsLabel": {
+    "message": "Import Settings"
+  },
+  "importSettingsCaptionLabel": {
+    "message": "Load the settings file saved on the computer."
+  },
+  "importButtonLabel": {
+    "message": "Import"
+  },
   "resetSettingsLabel": {
     "message": "Réinitialiser les paramètres"
   },

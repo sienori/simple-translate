@@ -285,7 +285,7 @@
     "message": "Όταν έχει ενεργοποιηθεί ο εντοπισμός σφαλμάτων, το περιεχόμενο καταγραφής κατευθύνεται στο πρόγραμμα αποσφαλμάτωσης."
   },
   "exportSettingsLabel": {
-    "message": "Export settings"
+    "message": "Εξαγωγή ρυθμίσεων"
   },
   "exportSettingsCaptionLabel": {
     "message": "Save the settings as a json file on the computer."

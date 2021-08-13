@@ -288,7 +288,7 @@
     "message": "Exportar configurações"
   },
   "exportSettingsCaptionLabel": {
-    "message": "Save the settings as a json file on the computer."
+    "message": "Salve as configurações como um arquivo json no computador."
   },
   "exportButtonLabel": {
     "message": "Exportar"
@@ -297,7 +297,7 @@
     "message": "Importar configurações"
   },
   "importSettingsCaptionLabel": {
-    "message": "Load the settings file saved on the computer."
+    "message": "Carregue o arquivo de configurações salvo no computador."
   },
   "importButtonLabel": {
     "message": "Importar"

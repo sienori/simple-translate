@@ -284,6 +284,24 @@
   "isDebugModeCaptionLabel": {
     "message": "啟用偵錯模式後, 記錄檔將輸出至偵錯工具。"
   },
+  "exportSettingsLabel": {
+    "message": "匯出設定"
+  },
+  "exportSettingsCaptionLabel": {
+    "message": "Save the settings as a json file on the computer."
+  },
+  "exportButtonLabel": {
+    "message": "匯出"
+  },
+  "importSettingsLabel": {
+    "message": "匯入設定"
+  },
+  "importSettingsCaptionLabel": {
+    "message": "Load the settings file saved on the computer."
+  },
+  "importButtonLabel": {
+    "message": "匯入"
+  },
   "resetSettingsLabel": {
     "message": "重設設定"
   },

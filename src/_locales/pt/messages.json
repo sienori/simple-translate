@@ -63,7 +63,7 @@
     "message": "Mostrar candidatos à tradução"
   },
   "ifShowCandidateCaptionLabel": {
-    "message": "Mostrar vários candidatos à tradução ao traduzir uma única palavra."
+    "message": "Mostra vários candidatos à tradução ao traduzir só uma palavra."
   },
   "whenSelectTextLabel": {
     "message": "Comportamento ao selecionar texto"
@@ -72,13 +72,13 @@
     "message": "Exibir painel de tradução"
   },
   "ifAutoTranslateCaptionLabel": {
-    "message": "Exibe o painel de tradução diretamente sem exibir o botão."
+    "message": "Exibe diretamente o painel de tradução em vez do botão."
   },
   "ifShowButtonLabel": {
     "message": "Exibir botão traduzir"
   },
   "ifShowButtonCaptionLabel": {
-    "message": "Exibe o botão traduzir para abrir o painel quando clicado."
+    "message": "Exibe o botão para abrir o painel de tradução."
   },
   "dontshowbuttonlabel": {
     "message": "Não exibir botão ou painel"
@@ -87,19 +87,19 @@
     "message": "Não exibe o botão traduzir ou o painel de tradução."
   },
   "ifCheckLangLabel": {
-    "message": "Não exibir o botão se a tradução não for necessária"
+    "message": "Não exibe o botão se a tradução não é necessária"
   },
   "ifCheckLangCaptionLabel": {
-    "message": "Detecta o idioma do texto selecionado e, se igual ao idioma alvo, o botão não é exibido."
+    "message": "Não exibe o botão se o idioma do texto selecionado é igual ao idioma alvo."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detecta o idioma do texto selecionado e, se igual ao idioma alvo padrão, traduz no segundo idioma."
+    "message": "Traduz no segundo idioma se o idioma do texto selecionado é igual ao idioma alvo."
   },
   "disableTranslationLabel": {
     "message": "Desativar tradução"
   },
   "isDisabledInTextFieldsLabel": {
-    "message": "Desativar tradução em campos de texto"
+    "message": "Desativa tradução em campos de texto"
   },
   "isDisabledInTextFieldsCaptionLabel": {
     "message": "Não exibe o botão traduzir ou o painel ao selecionar texto em um campo de texto."
@@ -144,7 +144,7 @@
     "message": "Trocar automaticamente para o segundo idioma"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "Detecta o idioma do texto inserido e, se igual ao idioma alvo padrão, traduz no segundo idioma."
+    "message": "Traduz no segundo idioma se o idioma do texto inserido é igual ao idioma alvo padrão."
   },
   "secondTargetLangLabel": {
     "message": "Segundo idioma"
@@ -162,19 +162,19 @@
     "message": "Tempo de espera para traduzir"
   },
   "waitTimeCaptionLabel": {
-    "message": "Especifique o tempo de espera da inserção de um caractere até o início da tradução. (milissegundo)"
+    "message": "Especifique o intervalo entre a inserção de um caractere e o início da tradução. (milissegundo)"
   },
   "waitTime2CaptionLabel": {
-    "message": "Se você traduzir muitas vezes em pouco tempo, pode ficar inutilizável por um tempo."
+    "message": "Se você traduz muitas vezes em pouco tempo, pode ficar inutilizável por um tempo."
   },
   "menuLabel": {
-    "message": "Menu de contexto"
+    "message": "Menu contextual"
   },
   "ifShowMenuLabel": {
-    "message": "Exibir menu de contexto"
+    "message": "Exibir menu contextual"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Adiciona itens ao menu de contexto exibido ao clicar o botão direito na página ou na aba."
+    "message": "Adiciona itens ao menu contextual exibido ao clicar o botão direito na página ou aba."
   },
   "styleLabel": {
     "message": "Estilo"
@@ -228,7 +228,7 @@
     "message": "Direita"
   },
   "positionOffsetLabel": {
-    "message": "Posição de exibição - Distância"
+    "message": "Posição de exibição - Deslocamento"
   },
   "panelStyleLabel": {
     "message": "Painel de tradução"
@@ -282,7 +282,25 @@
     "message": "Ativar modo de depuração"
   },
   "isDebugModeCaptionLabel": {
-    "message": "Quando o modo de depuração é ativado, o registro de eventos é enviado ao depurador."
+    "message": "Quando o modo de depuração é ativado, o registro é enviado ao depurador."
+  },
+  "exportSettingsLabel": {
+    "message": "Exportar configurações"
+  },
+  "exportSettingsCaptionLabel": {
+    "message": "Salve as configurações como um arquivo json no computador."
+  },
+  "exportButtonLabel": {
+    "message": "Exportar"
+  },
+  "importSettingsLabel": {
+    "message": "Importar configurações"
+  },
+  "importSettingsCaptionLabel": {
+    "message": "Carregue o arquivo de configurações salvo no computador."
+  },
+  "importButtonLabel": {
+    "message": "Importar"
   },
   "resetSettingsLabel": {
     "message": "Redefinir configurações"
@@ -339,7 +357,7 @@
     "message": "Por favor, faça uma doação"
   },
   "donationCaptionLabel": {
-    "message": "Obrigado por usar o Simple Translate.<br>Seu apoio será um grande incentivo enquanto eu continuar desenvolvendo a extensão.<br>Se você gostou do Simple Translate, eu ficaria contente se considerasse uma doação."
+    "message": "Obrigado por usar Simple Translate.<br>Seu apoio será um grande estímulo para eu continuar a desenvolver a extensão.<br>Se você gostou do Simple Translate, eu apreciaria se considerasse doar."
   },
   "amazonTitleLabel": {
     "message": "Vales-presente virtuais da amazon.co.jp"

@@ -284,6 +284,24 @@
   "isDebugModeCaptionLabel": {
     "message": "Quan el mode depuració esta activat, el registre es produeix al depurador."
   },
+  "exportSettingsLabel": {
+    "message": "Export settings"
+  },
+  "exportSettingsCaptionLabel": {
+    "message": "Save the settings as a json file on the computer."
+  },
+  "exportButtonLabel": {
+    "message": "Export"
+  },
+  "importSettingsLabel": {
+    "message": "Import Settings"
+  },
+  "importSettingsCaptionLabel": {
+    "message": "Load the settings file saved on the computer."
+  },
+  "importButtonLabel": {
+    "message": "Import"
+  },
   "resetSettingsLabel": {
     "message": "Restableix la configuració"
   },

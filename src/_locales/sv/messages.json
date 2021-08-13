@@ -297,10 +297,10 @@
     "message": "Importinställningar"
   },
   "importSettingsCaptionLabel": {
-    "message": "Load the settings file saved on the computer."
+    "message": "Ladda den sparade inställningsfilen från datorn."
   },
   "importButtonLabel": {
-    "message": "Import"
+    "message": "Importera"
   },
   "resetSettingsLabel": {
     "message": "Återställ inställningarna"

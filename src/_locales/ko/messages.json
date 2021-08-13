@@ -285,22 +285,22 @@
     "message": "디버그 모드가 활성화되면 디버거로 로그가 출력됩니다."
   },
   "exportSettingsLabel": {
-    "message": "Export settings"
+    "message": "설정 내보내기"
   },
   "exportSettingsCaptionLabel": {
-    "message": "Save the settings as a json file on the computer."
+    "message": "설정을 컴퓨터에 json 파일로 저장합니다."
   },
   "exportButtonLabel": {
-    "message": "Export"
+    "message": "내보내기"
   },
   "importSettingsLabel": {
-    "message": "Import Settings"
+    "message": "설정 불러오기"
   },
   "importSettingsCaptionLabel": {
-    "message": "Load the settings file saved on the computer."
+    "message": "컴퓨터에 저장된 설정을 불러옵니다."
   },
   "importButtonLabel": {
-    "message": "Import"
+    "message": "불러오기"
   },
   "resetSettingsLabel": {
     "message": "설정 초기화"

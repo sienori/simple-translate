@@ -288,7 +288,7 @@
     "message": "匯出設定"
   },
   "exportSettingsCaptionLabel": {
-    "message": "將設定以 json 檔案儲存到電腦上。"
+    "message": "將設定以 json 格式儲存到電腦上。"
   },
   "exportButtonLabel": {
     "message": "匯出"

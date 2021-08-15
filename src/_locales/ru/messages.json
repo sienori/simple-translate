@@ -288,7 +288,7 @@
     "message": "Экспортировать настройки"
   },
   "exportSettingsCaptionLabel": {
-    "message": "Сохранить настройки на компьютер в json-файл."
+    "message": "Сохраните настройки в виде json-файла на своём компьютере."
   },
   "exportButtonLabel": {
     "message": "Экспорт"
@@ -297,10 +297,10 @@
     "message": "Импортировать настройки"
   },
   "importSettingsCaptionLabel": {
-    "message": "Load the settings file saved on the computer."
+    "message": "Загрузите файл настроек, сохраненный на компьютере."
   },
   "importButtonLabel": {
-    "message": "Import"
+    "message": "Импорт"
   },
   "resetSettingsLabel": {
     "message": "Сброс настроек"

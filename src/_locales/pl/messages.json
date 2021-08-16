@@ -285,22 +285,22 @@
     "message": "Gdy tryb debugowania jest włączony, logi są przesyłane do debuggera."
   },
   "exportSettingsLabel": {
-    "message": "Export settings"
+    "message": "Eksportuj ustawienia"
   },
   "exportSettingsCaptionLabel": {
-    "message": "Save the settings as a json file on the computer."
+    "message": "Zapisz ustawienia jako plik json na komputerze."
   },
   "exportButtonLabel": {
-    "message": "Export"
+    "message": "Eksportuj"
   },
   "importSettingsLabel": {
-    "message": "Import Settings"
+    "message": "Importuj ustawienia"
   },
   "importSettingsCaptionLabel": {
-    "message": "Load the settings file saved on the computer."
+    "message": "Załaduj plik ustawień zapisany na komputerze."
   },
   "importButtonLabel": {
-    "message": "Import"
+    "message": "Importuj"
   },
   "resetSettingsLabel": {
     "message": "Zresetuj ustawienia"

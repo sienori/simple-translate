@@ -381,13 +381,13 @@
     "message": "https://addons.mozilla.org/pt-BR/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
-    "message": "Falha: Verifique o status da conexão de rede."
+    "message": "Erro: Verifique o status da conexão de rede."
   },
   "unavailableError": {
     "message": "Falha: Limite de uso do serviço atingido. Por favor, aguarde um pouco e tente novamente."
   },
   "unknownError": {
-    "message": "Falha: Erro desconhecido"
+    "message": "Erro: Erro desconhecido"
   },
   "translatePageMenu": {
     "message": "Traduzir esta página"

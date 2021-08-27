@@ -234,7 +234,7 @@
     "message": "Painel de tradução"
   },
   "panelStyleCaptionLabel": {
-    "message": "Especifique o estilo do painel de tradução exibido na página."
+    "message": "Especifica o estilo do painel de tradução exibido na página."
   },
   "widthLabel": {
     "message": "Largura"
@@ -261,7 +261,7 @@
     "message": "Posição de exibição - Direção"
   },
   "resultFontColorLabel": {
-    "message": "Cor da fonte do resultado de tradução"
+    "message": "Color do texto traduzido"
   },
   "candidateFontColorLabel": {
     "message": "Cor da fonte dos candidatos à tradução"

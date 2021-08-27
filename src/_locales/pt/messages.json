@@ -327,10 +327,10 @@
     "message": "Digite uma letra"
   },
   "includeModifierKeysMessage": {
-    "message": "Incluir Ctrl ou Alt"
+    "message": "Inclua Ctrl ou Alt"
   },
   "includeMacModifierKeysMessage": {
-    "message": "Incluir Command, Ctrl ou Alt"
+    "message": "Inclua Command, Ctrl ou Alt"
   },
   "invalidLetterMessage": {
     "message": "A letra não pode ser usada"

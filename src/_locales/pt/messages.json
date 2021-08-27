@@ -114,7 +114,7 @@
     "message": "Traduzir ao pressionar a tecla modificadora"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Exibe a tradução apenas ao pressionar a tecla modificadora especificada."
+    "message": "Só exibe a tradução ao pressionar a tecla modificadora especificada."
   },
   "modifierKeyLabel": {
     "message": "Tecla Modificadora"

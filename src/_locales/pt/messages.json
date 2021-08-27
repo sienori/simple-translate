@@ -183,7 +183,7 @@
     "message": "Tema"
   },
   "themeCaptionLabel": {
-    "message": "Especifique o esquema de cores."
+    "message": "Especifica o esquema de cores."
   },
   "lightLabel": {
     "message": "Claro"
@@ -195,7 +195,7 @@
     "message": "Botão traduzir"
   },
   "buttonStyleCaptionLabel": {
-    "message": "Especifique o estilo do botão traduzir exibido na página."
+    "message": "Especifica o estilo do botão traduzir exibido na página."
   },
   "buttonSizeLabel": {
     "message": "Tamanho"
@@ -264,7 +264,7 @@
     "message": "Color do texto traduzido"
   },
   "candidateFontColorLabel": {
-    "message": "Cor da fonte dos candidatos à tradução"
+    "message": "Cor do texto candidato à tradução"
   },
   "bgColorLabel": {
     "message": "Cor do fundo"

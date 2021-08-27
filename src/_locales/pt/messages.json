@@ -39,7 +39,7 @@
     "message": "Idioma alvo"
   },
   "langList": {
-    "message": "af:Africâner, sq:Albanês, am:Amárico, ar:Árabe, hy:Armênio, az:Azerbaijano, eu:Basco, be:Bielorrusso, bn:Bengalês, bs:Bósnio, bg:Búlgaro, ca:Catalão, ceb:Cebuano, ny:Chicheua, zh-CN:Chinês (RPC), zh-TW:Chinês (Taiwan), co:Corso, hr:Croata, cs:Tcheco, da:Dinamarquês, nl:Holandês, en:Inglês, eo:Esperanto, et:Estoniano, fi:Finlandês, fr:Francês, fy:Frísio, gl:Galego, ka:Georgiano, de:Alemão, el:Grego, gu:Guzerate, ht:Haitiano, ha:Hauçá, haw:Havaiano, he:Hebraico, hi:Hindi, hu:Húngaro, is:Islandês, ig:Igbo, id:Indonésio, ga:Irlandês, it:Italiano, ja:Japonês, jv:Javanês, kn:Canarês, kk:Cazaque, km:Khmer, ky:Quirguiz, ko:Coreano, ku:Curdo, lo:Laosiano, la:Latin, lv:Letão, lt:Lituano, lb:Luxemburguês, mk:Macedônio, mg:Malgaxe, ms:Malaio, ml:Malaiala, mt:Maltês, mi:Maori, mr:Marata, mn:Mongol, hmn:Hmong, my:Birmanês, ne:Nepalês, no:Norueguês, fa:Persa, pl:Polonês, pt:Português, pa:Punjabi, ps:Pachto, ro:Romeno, ru:Russo, sm:Samoano, gd:Gaélico Escocês, sr:Sérvio, sn:Chona, sd:Sindi, si:Singalês, sk:Eslovaco, sl:Esloveno, so:Somali, st:Sessoto, es:Espanhol, su:Sundanês, sw:Suaíle, sv:Sueco, tl:Filipino, tg:Tadjique, ta:Tâmil, te:Telugo, th:Tailandês, tr:Turco, uk:Ucraniano, ur:Urdu, uz:Uzbeque, vi:Vietnamita, cy:Galês, xh:Xhosa, yi:Iídiche, yo:Ioruba, zu:Zulu"
+    "message": "af:Africâner, sq:Albanês, am:Amárico, ar:Árabe, hy:Armênio, az:Azerbaijano, eu:Basco, be:Bielorrusso, bn:Bengali, bs:Bósnio, bg:Búlgaro, ca:Catalão, ceb:Cebuano, ny:Chicheua, zh-CN:Chinês (RPC), zh-TW:Chinês (Taiwan), co:Corso, hr:Croata, cs:Tcheco, da:Dinamarquês, nl:Holandês, en:Inglês, eo:Esperanto, et:Estoniano, fi:Finlandês, fr:Francês, fy:Frísio, gl:Galego, ka:Georgiano, de:Alemão, el:Grego, gu:Guzerate, ht:Haitiano, ha:Hauçá, haw:Havaiano, he:Hebraico, hi:Hindi, hu:Húngaro, is:Islandês, ig:Igbo, id:Indonésio, ga:Irlandês, it:Italiano, ja:Japonês, jv:Javanês, kn:Canarês, kk:Cazaque, km:Khmer, ky:Quirguiz, ko:Coreano, ku:Curdo, lo:Laosiano, la:Latim, lv:Letão, lt:Lituano, lb:Luxemburguês, mk:Macedônio, mg:Malgaxe, ms:Malaio, ml:Malaiala, mt:Maltês, mi:Maori, mr:Marata, mn:Mongol, hmn:Hmong, my:Birmanês, ne:Nepalês, no:Norueguês, fa:Persa, pl:Polonês, pt:Português, pa:Punjabi, ps:Pachto, ro:Romeno, ru:Russo, sm:Samoano, gd:Gaélico Escocês, sr:Sérvio, sn:Chona, sd:Sindi, si:Singalês, sk:Eslovaco, sl:Esloveno, so:Somali, st:Sessoto, es:Espanhol, su:Sundanês, sw:Suaíle, sv:Sueco, tl:Filipino, tg:Tadjique, ta:Tâmil, te:Telugo, th:Tailandês, tr:Turco, uk:Ucraniano, ur:Urdu, uz:Uzbeque, vi:Vietnamita, cy:Galês, xh:Xhosa, yi:Iídiche, yo:Ioruba, zu:Zulu"
   },
   "allLangLabel": {
     "message": "Todos os idiomas"
@@ -384,7 +384,7 @@
     "message": "Erro: Verifique o status da conexão de rede."
   },
   "unavailableError": {
-    "message": "Falha: Limite de uso do serviço atingido. Por favor, aguarde um pouco e tente novamente."
+    "message": "Erro: Limite de uso do serviço atingido. Aguarde um pouco e tente outra vez."
   },
   "unknownError": {
     "message": "Erro: Erro desconhecido"

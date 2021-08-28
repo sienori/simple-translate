@@ -285,22 +285,22 @@
     "message": "Saat mode debug diaktifkan, hasil log adalah keluaran untuk debugger."
   },
   "exportSettingsLabel": {
-    "message": "Export settings"
+    "message": "Ekspor pengaturan"
   },
   "exportSettingsCaptionLabel": {
-    "message": "Save the settings as a json file on the computer."
+    "message": "Simpan pengaturan sebagai file json di komputer."
   },
   "exportButtonLabel": {
-    "message": "Export"
+    "message": "Ekspor"
   },
   "importSettingsLabel": {
-    "message": "Import Settings"
+    "message": "Impor pengaturan"
   },
   "importSettingsCaptionLabel": {
-    "message": "Load the settings file saved on the computer."
+    "message": "Muat file pengaturan yang disimpan di komputer."
   },
   "importButtonLabel": {
-    "message": "Import"
+    "message": "Impor"
   },
   "resetSettingsLabel": {
     "message": "Setel ulang"
@@ -363,7 +363,7 @@
     "message": "amazon.co.jp eGift Cards"
   },
   "sponsorsLabel": {
-    "message": "Sponsors"
+    "message": "Sponsor"
   },
   "addonPageLabel": {
     "message": "Halaman pengaya"

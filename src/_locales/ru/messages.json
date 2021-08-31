@@ -285,22 +285,22 @@
     "message": "Если включен режим отладки, то журнал работы будет выводиться в отладчик."
   },
   "exportSettingsLabel": {
-    "message": "Export settings"
+    "message": "Экспортировать настройки"
   },
   "exportSettingsCaptionLabel": {
-    "message": "Save the settings as a json file on the computer."
+    "message": "Сохраните настройки в виде json-файла на своём компьютере."
   },
   "exportButtonLabel": {
-    "message": "Export"
+    "message": "Экспорт"
   },
   "importSettingsLabel": {
-    "message": "Import Settings"
+    "message": "Импортировать настройки"
   },
   "importSettingsCaptionLabel": {
-    "message": "Load the settings file saved on the computer."
+    "message": "Загрузите файл настроек, сохраненный на компьютере."
   },
   "importButtonLabel": {
-    "message": "Import"
+    "message": "Импорт"
   },
   "resetSettingsLabel": {
     "message": "Сброс настроек"

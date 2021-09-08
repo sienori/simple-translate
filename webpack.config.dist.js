@@ -119,7 +119,8 @@ module.exports = [
         patterns: [
           {
             from: `src`,
-            to: path.resolve(__dirname, `${config.tempDirectory}/copiedSource/src/`)
+            to: path.resolve(__dirname, `${config.tempDirectory}/copiedSource/src/`),
+            info: { minimized: true }
           },
           {
             from: `babel.config.js`,

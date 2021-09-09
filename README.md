@@ -29,6 +29,8 @@ You can contribute by translating Simple Translate on **[Crowdin](https://crowdi
 
 ## Developing
 
+> Required Node 14+
+
 1. Clone the repository `git clone https://github.com/sienori/simple-translate`
 2. Run `npm install`
 3. Run `npm run watch-dev`

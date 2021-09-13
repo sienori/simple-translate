@@ -12,13 +12,13 @@
     "message": "Faire un don"
   },
   "enableOnThisPage": {
-    "message": "Activer la traduction sur cette page"
+    "message": "Active la traduction sur cette page"
   },
   "disableOnThisPage": {
     "message": "Désactiver la traduction sur cette page"
   },
   "initialTextArea": {
-    "message": "Entrer un texte"
+    "message": "Entrez le texte"
   },
   "showLink": {
     "message": "Traduire cette page"
@@ -60,7 +60,7 @@
     "message": "Page Web"
   },
   "ifShowCandidateLabel": {
-    "message": "Afficher les candidats à la traduction"
+    "message": "Afficher les suggestions de traductions"
   },
   "ifShowCandidateCaptionLabel": {
     "message": "Afficher plusieurs propositions de traduction lorsqu'un seul mot est traduit."
@@ -285,22 +285,22 @@
     "message": "Lorsque le mode débogage est activé, les données sont sorties vers le débogueur."
   },
   "exportSettingsLabel": {
-    "message": "Export settings"
+    "message": "Exporter les réglages"
   },
   "exportSettingsCaptionLabel": {
-    "message": "Save the settings as a json file on the computer."
+    "message": "Enregistrez les paramètres en tant que fichier json sur l'ordinateur."
   },
   "exportButtonLabel": {
-    "message": "Export"
+    "message": "Exporter"
   },
   "importSettingsLabel": {
-    "message": "Import Settings"
+    "message": "Importer des paramètres"
   },
   "importSettingsCaptionLabel": {
-    "message": "Load the settings file saved on the computer."
+    "message": "Charger le fichier de paramètres enregistré sur l'ordinateur."
   },
   "importButtonLabel": {
-    "message": "Import"
+    "message": "Importer"
   },
   "resetSettingsLabel": {
     "message": "Réinitialiser les paramètres"

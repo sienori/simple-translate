@@ -45,3 +45,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - Corko
 - Sebastian Fohler
 - Olzhas Suleimen
+- Allen.YL

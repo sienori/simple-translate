@@ -180,16 +180,16 @@
     "message": "Biçim"
   },
   "themeLabel": {
-    "message": "Theme"
+    "message": "Tema"
   },
   "themeCaptionLabel": {
     "message": "Specify the color scheme."
   },
   "lightLabel": {
-    "message": "Light"
+    "message": "Açık"
   },
   "darkLabel": {
-    "message": "Dark"
+    "message": "Koyu"
   },
   "buttonStyleLabel": {
     "message": "Çeviri butonu"
@@ -291,16 +291,16 @@
     "message": "Save the settings as a json file on the computer."
   },
   "exportButtonLabel": {
-    "message": "Export"
+    "message": "Dışa aktar"
   },
   "importSettingsLabel": {
-    "message": "Import Settings"
+    "message": "Ayarları İçe Aktar"
   },
   "importSettingsCaptionLabel": {
     "message": "Load the settings file saved on the computer."
   },
   "importButtonLabel": {
-    "message": "Import"
+    "message": "İçe aktar"
   },
   "resetSettingsLabel": {
     "message": "Ayarları sıfırla"
@@ -363,7 +363,7 @@
     "message": "amazon.co.jp eGift Cards"
   },
   "sponsorsLabel": {
-    "message": "Sponsors"
+    "message": "Sponsorlar"
   },
   "addonPageLabel": {
     "message": "Eklenti sayfası"
@@ -372,7 +372,7 @@
     "message": "Uzantı sayfası"
   },
   "privacyPolicyLabel": {
-    "message": "Privacy policy"
+    "message": "Gizlilik politikası"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"

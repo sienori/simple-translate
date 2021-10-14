@@ -228,7 +228,7 @@
     "message": "Sağ"
   },
   "positionOffsetLabel": {
-    "message": "Görüntü konumu - Kaydırma"
+    "message": "Ekran konumu - Kenardan uzaklık"
   },
   "panelStyleLabel": {
     "message": "Çeviri paneli"
@@ -246,7 +246,7 @@
     "message": "Yazı tipi boyutu"
   },
   "referencePointLabel": {
-    "message": "Görüntü konumu - Referans noktası"
+    "message": "Ekran konumu - Referans noktası"
   },
   "bottomSelectedTextLabel": {
     "message": "Seçili metnin altı"
@@ -258,7 +258,7 @@
     "message": "Tıklanan nokta"
   },
   "displayDirectionLabel": {
-    "message": "Görüntü konumu - Yön"
+    "message": "Ekran konumu - Yön"
   },
   "resultFontColorLabel": {
     "message": "Çeviri sonucunun yazı tipi rengi"

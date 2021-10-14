@@ -45,7 +45,7 @@
     "message": "Tüm Diller"
   },
   "recentLangLabel": {
-    "message": "Recent languages"
+    "message": "Son diller"
   },
   "settingsLabel": {
     "message": "Ayarlar"
@@ -114,10 +114,10 @@
     "message": "Translate on modifier key pressed"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Only display translation on specified modifier key pressed."
+    "message": "Çeviriyi yalnızca belirtilen değiştirici tuşa basıldığında görüntüleyin."
   },
   "modifierKeyLabel": {
-    "message": "Modifier Key"
+    "message": "Değiştirici Tuş"
   },
   "shiftLabel": {
     "message": "Shift"
@@ -357,7 +357,7 @@
     "message": "Lütfen bağış yapın"
   },
   "donationCaptionLabel": {
-    "message": "Simple Translate'i kullandığınız için teşekkür ederiz.<br>Eklentileri geliştirmeye devam ettikçe, destekleriniz bizim için büyük bir teşvik olacaktır.<br> Simpe Translate'i beğendiyseniz, bağış yaparak bizi mutlu edebilirsiniz."
+    "message": "Simple Translate'i kullandığınız için teşekkür ederiz.<br>Eklentileri geliştirmeye devam ettikçe, destekleriniz bizim için büyük bir teşvik olacaktır.<br>Simpe Translate'i beğendiyseniz, bağış yaparak bizi mutlu edebilirsiniz."
   },
   "amazonTitleLabel": {
     "message": "amazon.co.jp eGift Cards"

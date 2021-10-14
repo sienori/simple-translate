@@ -105,10 +105,10 @@
     "message": "Bir metin alanında metin seçerken çeviri butonunu veya paneli görüntülemeyin."
   },
   "isDisabledInCodeElementLabel": {
-    "message": "Disable translation in code tags"
+    "message": "Kod etiketlerinde çeviriyi devre dışı bırak"
   },
   "isDisabledInCodeElementCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in code tag."
+    "message": "Kod etiketinde metin seçerken çeviri butonunu veya paneli görüntülemeyin."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
     "message": "Değiştirici tuşa basıldığında çevir"

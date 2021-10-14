@@ -96,7 +96,7 @@
     "message": "Seçili metnin dilini algılar ve varsayılan hedef dille aynıysa, ikinci dile çevirir."
   },
   "disableTranslationLabel": {
-    "message": "Disable translation"
+    "message": "Çeviriyi devre dışı bırak"
   },
   "isDisabledInTextFieldsLabel": {
     "message": "Metin alanlarındaki çeviriyi devre dışı bırakın"
@@ -183,7 +183,7 @@
     "message": "Tema"
   },
   "themeCaptionLabel": {
-    "message": "Specify the color scheme."
+    "message": "Renk düzenini seçin."
   },
   "lightLabel": {
     "message": "Açık"
@@ -285,16 +285,16 @@
     "message": "Hata ayıklama modu etkin olduğunda, sistem günlüğü hata ayıklayıcısına verilir."
   },
   "exportSettingsLabel": {
-    "message": "Export settings"
+    "message": "Ayarları dışa aktar"
   },
   "exportSettingsCaptionLabel": {
-    "message": "Save the settings as a json file on the computer."
+    "message": "Ayarları json dosyası olarak kaydedin."
   },
   "exportButtonLabel": {
     "message": "Dışa aktar"
   },
   "importSettingsLabel": {
-    "message": "Ayarları İçe Aktar"
+    "message": "Ayarları içe aktar"
   },
   "importSettingsCaptionLabel": {
     "message": "Load the settings file saved on the computer."

@@ -45,7 +45,7 @@
     "message": "Tüm Diller"
   },
   "recentLangLabel": {
-    "message": "Son diller"
+    "message": "Son kullanılan diller"
   },
   "settingsLabel": {
     "message": "Ayarlar"
@@ -111,7 +111,7 @@
     "message": "Don't display translation button or panel when selecting text in code tag."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Translate on modifier key pressed"
+    "message": "Değiştirici tuşa basıldığında çevir"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
     "message": "Çeviriyi yalnızca belirtilen değiştirici tuşa basıldığında görüntüleyin."
@@ -153,10 +153,10 @@
     "message": "İkinci hedef dilini seçin."
   },
   "ignoredDocumentLangLabel": {
-    "message": "Disable translation by lang attribute"
+    "message": "Lang özniteliğine göre çeviriyi devre dışı bırak"
   },
   "ignoredDocumentLangCaptionLabel": {
-    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
+    "message": "Sayfanın html öğesindeki lang özniteliği listeyle eşleşiyorsa çeviriyi devre dışı bırakın. Virgülle ayrılmış dil etiketlerini girin."
   },
   "waitTimeLabel": {
     "message": "Çevirmek için bekleme süresi"
@@ -297,7 +297,7 @@
     "message": "Ayarları içe aktar"
   },
   "importSettingsCaptionLabel": {
-    "message": "Load the settings file saved on the computer."
+    "message": "Bilgisayara kaydedilen ayarlar dosyasını yükleyin."
   },
   "importButtonLabel": {
     "message": "İçe aktar"

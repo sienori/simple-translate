@@ -273,7 +273,7 @@
     "message": "Diğer"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Display option page when updating"
+    "message": "Güncelleme sırasında seçenek sayfasını görüntüle"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
     "message": "Simple Translate güncellendiğinde seçenekler sayfasını görüntüleyin. Güncelleme içeriğini hızlı bir şekilde öğrenebilirsiniz."
@@ -282,7 +282,7 @@
     "message": "Hata ayıklama modunu etkinleştir"
   },
   "isDebugModeCaptionLabel": {
-    "message": "Hata ayıklama modu etkin olduğunda, sistem günlüğü hata ayıklayıcısına verilir."
+    "message": "Hata ayıklama modu etkinleştirildiğinde günlük hata ayıklayıcıya gönderilir."
   },
   "exportSettingsLabel": {
     "message": "Ayarları dışa aktar"

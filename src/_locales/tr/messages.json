@@ -273,7 +273,7 @@
     "message": "Diğer"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Güncelleme yaparken seçenekler sayfasını görüntüle"
+    "message": "Display option page when updating"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
     "message": "Simple Translate güncellendiğinde seçenekler sayfasını görüntüleyin. Güncelleme içeriğini hızlı bir şekilde öğrenebilirsiniz."

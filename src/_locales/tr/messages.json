@@ -273,10 +273,10 @@
     "message": "Diğer"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Güncelleme sırasında seçenek sayfasını görüntüle"
+    "message": "Güncelleme sırasında ayarlar sayfasını görüntüler"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Simple Translate güncellendiğinde seçenekler sayfasını görüntüleyin. Güncelleme içeriğini hızlı bir şekilde öğrenebilirsiniz."
+    "message": "Simple Translate güncellendiğinde ayarlar sayfasını görüntüler. Değişiklikleri hızlı bir şekilde öğrenebilirsiniz."
   },
   "isDebugModeLabel": {
     "message": "Hata ayıklama modunu etkinleştir"

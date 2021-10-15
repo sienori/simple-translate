@@ -171,13 +171,13 @@
     "message": "İçerik menüsü"
   },
   "ifShowMenuLabel": {
-    "message": "İçerik menüsünü görüntüle"
+    "message": "İçerik menüsünde göster"
   },
   "ifShowMenuCaptionLabel": {
     "message": "Sayfaya yada sekmeye sağ tıklandığında içerik menüsüne ekle."
   },
   "styleLabel": {
-    "message": "Biçim"
+    "message": "Görünüm"
   },
   "themeLabel": {
     "message": "Tema"
@@ -201,7 +201,7 @@
     "message": "Boyut"
   },
   "buttonPositionLabel": {
-    "message": "Görüntü konumu"
+    "message": "Ekran konumu"
   },
   "topRightLabel": {
     "message": "Sağ üst"

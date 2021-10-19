@@ -3,7 +3,6 @@
  * Released under the MIT license.
  * see https://opensource.org/licenses/MIT */
 
-const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 const {
   getHTMLPlugins,
@@ -11,6 +10,7 @@ const {
   getCopyPlugins,
   getZipPlugin,
   getFirefoxCopyPlugins,
+  getMiniCssExtractPlugin,
   getEntry
 } = require("./webpack.utils");
 const path = require("path");
@@ -35,46 +35,19 @@ const generalConfig = {
         loader: "babel-loader",
         exclude: /node_modules/,
         test: /\.(js|jsx)$/,
-        query: {
-          presets: [
-            [
-              "@babel/preset-env",
-              {
-                targets: {
-                  firefox: 57
-                }
-              }
-            ],
-            "@babel/preset-react"
-          ],
-          plugins: ["transform-class-properties"]
-        },
         resolve: {
           extensions: [".js", ".jsx"]
         }
       },
       {
         test: /\.(scss|css)$/,
-        exclude: [path.resolve(__dirname, "src", "content")],
-        use: [
-          {
-            loader: "style-loader"
-          },
-          {
-            loader: "css-loader"
-          },
-          {
-            loader: "sass-loader"
-          }
-        ]
-      },
-      {
-        test: /\.(scss|css)$/,
-        include: [path.resolve(__dirname, "src", "content")],
         use: [
           MiniCssExtractPlugin.loader,
           {
-            loader: "css-loader"
+            loader: "css-loader",
+            options: {
+              esModule: false
+            }
           },
           {
             loader: "sass-loader"
@@ -105,12 +78,12 @@ module.exports = [
     ...generalConfig,
     output: getOutput("chrome", config.tempDirectory),
     entry: getEntry(config.chromePath),
+    optimization: {
+      minimize: true
+    },
     plugins: [
       new CleanWebpackPlugin(["dist", "temp"]),
-      new UglifyJsPlugin(),
-      new MiniCssExtractPlugin({
-        filename: "[name]/[name].css"
-      }),
+      ...getMiniCssExtractPlugin(),
       ...getHTMLPlugins("chrome", config.tempDirectory, config.chromePath),
       ...getCopyPlugins("chrome", config.tempDirectory, config.chromePath),
       getZipPlugin(`${config.extName}-for-chrome-${extVersion}`, config.distDirectory)
@@ -120,12 +93,12 @@ module.exports = [
     ...generalConfig,
     entry: getEntry(config.firefoxPath),
     output: getOutput("firefox", config.tempDirectory),
+    optimization: {
+      minimize: true
+    },
     plugins: [
       new CleanWebpackPlugin(["dist", "temp"]),
-      new UglifyJsPlugin(),
-      new MiniCssExtractPlugin({
-        filename: "[name]/[name].css"
-      }),
+      ...getMiniCssExtractPlugin(),
       ...getHTMLPlugins("firefox", config.tempDirectory, config.firefoxPath),
       ...getFirefoxCopyPlugins("firefox", config.tempDirectory, config.firefoxPath),
       getZipPlugin(`${config.extName}-for-firefox-${ffExtVersion}`, config.distDirectory)
@@ -141,41 +114,23 @@ module.exports = [
     entry: { other: path.resolve(__dirname, `src/background/background.js`) },
     output: getOutput("copiedSource", config.tempDirectory),
     plugins: [
-      new CopyWebpackPlugin([
-        {
-          from: `src`,
-          to: path.resolve(__dirname, `${config.tempDirectory}/copiedSource/src/`)
-        },
-        {
-          from: `config.json`,
-          to: path.resolve(__dirname, `${config.tempDirectory}/copiedSource/config.json`)
-        },
-        {
-          from: `LICENSE`,
-          to: path.resolve(__dirname, `${config.tempDirectory}/copiedSource/LICENSE`)
-        },
-        {
-          from: `package.json`,
-          to: path.resolve(__dirname, `${config.tempDirectory}/copiedSource/package.json`)
-        },
-        {
-          from: `README.md`,
-          to: path.resolve(__dirname, `${config.tempDirectory}/copiedSource/README.md`)
-        },
-        {
-          from: `webpack.config.dev.js`,
-          to: path.resolve(__dirname, `${config.tempDirectory}/copiedSource/webpack.config.dev.js`)
-        },
-        {
-          from: `webpack.config.dist.js`,
-          to: path.resolve(__dirname, `${config.tempDirectory}/copiedSource/webpack.config.dist.js`)
-        },
-        {
-          from: `webpack.utils.js`,
-          to: path.resolve(__dirname, `${config.tempDirectory}/copiedSource/webpack.utils.js`)
-        }
-      ]),
-      getZipPlugin(`copiedSource-${config.extName}-${ffExtVersion}`, config.distDirectory)
+      new CopyWebpackPlugin({
+        patterns: [
+          {
+            from: `src`,
+            to: path.resolve(__dirname, `${config.tempDirectory}/copiedSource/src/`),
+            info: { minimized: true }
+          },
+          {
+            from: "*",
+            to: path.resolve(__dirname, `${config.tempDirectory}/copiedSource/`),
+            globOptions: {
+              ignore: ["**/BACKERS.md", "**/crowdin.yml"]
+            }
+          }
+        ]
+      }),
+      getZipPlugin(`copiedSource-${config.extName}-${ffExtVersion}`, config.distDirectory, "other/")
     ]
   }
 ];

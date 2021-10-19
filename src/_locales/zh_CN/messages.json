@@ -8,6 +8,9 @@
   "donateWithPaypalLabel": {
     "message": "使用 PayPal 捐赠"
   },
+  "donateLabel": {
+    "message": "在Google翻译中打开"
+  },
   "enableOnThisPage": {
     "message": "在此页面启用翻译"
   },
@@ -29,11 +32,20 @@
   "copiedLabel": {
     "message": "已复制。"
   },
+  "listenLabel": {
+    "message": "朗读"
+  },
   "targetLangLabel": {
     "message": "目标语言"
   },
   "langList": {
     "message": "af:南非荷兰语, sq:阿尔巴尼亚语, am:阿姆哈拉语, ar:阿拉伯语, hy:亚美尼亚语, az:阿塞拜疆语, eu:巴斯克语, be:白俄罗斯语, bn:孟加拉语, bs:波斯尼亚语, bg:保加利亚语, ca:加泰罗尼亚语, ceb:宿雾语, ny:齐切瓦语, zh-CN:中文（简体）, zh-TW:中文（繁体）, co:科西嘉语, hr:克罗地亚语, cs:捷克语, da:丹麦语, nl:荷兰语, en:英语, eo:世界语, et:爱沙尼亚语, fi:芬兰语, fr:法语, fy:弗里斯兰语, gl:加利西亚语, ka:格鲁吉亚语, de:德语, el:希腊语, gu:古吉拉特语, ht:海地语, ha:豪萨语, haw:夏威夷语, he:希伯来语, hi:印地语, hu:匈牙利语, is:冰岛语, ig:伊博语, id:印度尼西亚语, ga:爱尔兰语, it:意大利语, ja:日语, jv:爪哇语, kn:埃纳德语, kk:哈萨克语, km:高棉语, ky:吉尔吉斯语, ko:韩语, ku:库尔德语, lo:老挝语, la:拉丁语, lv:拉脱维亚语, lt:立陶宛语, lb:卢森堡语, mk:马其顿语, mg:马尔加什语, ms:马来语, ml:马拉雅拉姆, mt:马耳他语, mi:毛利语, mr:马拉地语, mn:蒙古语, hmn:苗语, my:缅甸语, ne:尼泊尔语, no:挪威语, fa:波斯语, pl:波兰语, pt:葡萄牙语, pa:旁遮普语, ps:普什图语, ro:罗马尼亚语, ru:俄语, sm:萨摩亚语, gd:苏格兰盖尔语, sr:塞尔维亚语, sn:修纳语, sd:信德语, si:僧伽罗语, sk:斯洛伐克语, sl:斯洛文尼亚语, so:索马里语, sx:索托语, es:西班牙语, su:巽他语, sw:斯瓦希里语, sv:瑞典语, tl:塔加路语, tg:塔吉克语, ta:泰米尔语, te:泰卢固语, th:泰语, tr:土耳其语, uk:乌克兰语, ur:乌尔都语, uz:乌兹别克语, vi:越南语, cy:威尔士语, xh:雪撒语, yi:第绪语, yo:约鲁巴语, zu:祖鲁语"
+  },
+  "allLangLabel": {
+    "message": "All languages"
+  },
+  "recentLangLabel": {
+    "message": "Recent languages"
   },
   "settingsLabel": {
     "message": "设置"
@@ -83,6 +95,42 @@
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "检测所选文本的语言，如果与默认目标语言相同，则将其翻译为第二语言。"
   },
+  "disableTranslationLabel": {
+    "message": "Disable translation"
+  },
+  "isDisabledInTextFieldsLabel": {
+    "message": "禁用文本字段中的翻译"
+  },
+  "isDisabledInTextFieldsCaptionLabel": {
+    "message": "在文本字段中选择文本时，不显示翻译按钮或面板。"
+  },
+  "isDisabledInCodeElementLabel": {
+    "message": "Disable translation in code tags"
+  },
+  "isDisabledInCodeElementCaptionLabel": {
+    "message": "Don't display translation button or panel when selecting text in code tag."
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedLabel": {
+    "message": "Translate on modifier key pressed"
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
+    "message": "Only display translation on specified modifier key pressed."
+  },
+  "modifierKeyLabel": {
+    "message": "Modifier Key"
+  },
+  "shiftLabel": {
+    "message": "Shift"
+  },
+  "ctrlLabel": {
+    "message": "Ctrl"
+  },
+  "altLabel": {
+    "message": "Alt"
+  },
+  "cmdLabel": {
+    "message": "Command"
+  },
   "disableUrlListLabel": {
     "message": "URL 白名单"
   },
@@ -104,6 +152,12 @@
   "secondTargetLangCaptionLabel": {
     "message": "选择第二种目标语言。"
   },
+  "ignoredDocumentLangLabel": {
+    "message": "Disable translation by lang attribute"
+  },
+  "ignoredDocumentLangCaptionLabel": {
+    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
+  },
   "waitTimeLabel": {
     "message": "翻译等待时间"
   },
@@ -124,6 +178,18 @@
   },
   "styleLabel": {
     "message": "样式"
+  },
+  "themeLabel": {
+    "message": "Theme"
+  },
+  "themeCaptionLabel": {
+    "message": "Specify the color scheme."
+  },
+  "lightLabel": {
+    "message": "Light"
+  },
+  "darkLabel": {
+    "message": "Dark"
   },
   "buttonStyleLabel": {
     "message": "翻译按钮"
@@ -218,6 +284,24 @@
   "isDebugModeCaptionLabel": {
     "message": "启用调试模式后, 日志将输出到调试器。"
   },
+  "exportSettingsLabel": {
+    "message": "Export settings"
+  },
+  "exportSettingsCaptionLabel": {
+    "message": "Save the settings as a json file on the computer."
+  },
+  "exportButtonLabel": {
+    "message": "Export"
+  },
+  "importSettingsLabel": {
+    "message": "Import Settings"
+  },
+  "importSettingsCaptionLabel": {
+    "message": "Load the settings file saved on the computer."
+  },
+  "importButtonLabel": {
+    "message": "Import"
+  },
   "resetSettingsLabel": {
     "message": "重置设置"
   },
@@ -263,6 +347,9 @@
   "informationLabel": {
     "message": "信息"
   },
+  "backersLabel": {
+    "message": "支持者"
+  },
   "licenseLabel": {
     "message": "授权条款"
   },
@@ -275,17 +362,23 @@
   "amazonTitleLabel": {
     "message": "amazon.co.jp 电子礼品卡"
   },
+  "sponsorsLabel": {
+    "message": "Sponsors"
+  },
   "addonPageLabel": {
     "message": "附加组件页面"
   },
   "extensionPageLabel": {
     "message": "拓展页面"
   },
+  "privacyPolicyLabel": {
+    "message": "Privacy policy"
+  },
   "amazonUrl": {
-    "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=zh_CN"
+    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=zh_CN"
   },
   "addonUrl": {
-    "message": "https:\/\/addons.mozilla.org\/zh-CN\/firefox\/addon\/simple-translate\/?src=optionpage"
+    "message": "https://addons.mozilla.org/zh-CN/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
     "message": "错误：请检查您的网络连接状态"

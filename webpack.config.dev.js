@@ -8,7 +8,8 @@ const {
   getOutput,
   getCopyPlugins,
   getFirefoxCopyPlugins,
-  getEntry
+  getEntry,
+  getMiniCssExtractPlugin
 } = require("./webpack.utils");
 const path = require("path");
 const config = require("./config.json");
@@ -29,46 +30,19 @@ const generalConfig = {
         loader: "babel-loader",
         exclude: /node_modules/,
         test: /\.(js|jsx)$/,
-        query: {
-          presets: [
-            [
-              "@babel/preset-env",
-              {
-                targets: {
-                  firefox: 57
-                }
-              }
-            ],
-            "@babel/preset-react"
-          ],
-          plugins: ["transform-class-properties"]
-        },
         resolve: {
           extensions: [".js", ".jsx"]
         }
       },
       {
         test: /\.(scss|css)$/,
-        exclude: [path.resolve(__dirname, "src", "content")],
-        use: [
-          {
-            loader: "style-loader"
-          },
-          {
-            loader: "css-loader"
-          },
-          {
-            loader: "sass-loader"
-          }
-        ]
-      },
-      {
-        test: /\.(scss|css)$/,
-        include: [path.resolve(__dirname, "src", "content")],
         use: [
           MiniCssExtractPlugin.loader,
           {
-            loader: "css-loader"
+            loader: "css-loader",
+            options: {
+              esModule: false
+            }
           },
           {
             loader: "sass-loader"
@@ -100,9 +74,7 @@ module.exports = [
     entry: getEntry(config.chromePath),
     output: getOutput("chrome", config.devDirectory),
     plugins: [
-      new MiniCssExtractPlugin({
-        filename: "[name]/[name].css"
-      }),
+      ...getMiniCssExtractPlugin(),
       ...getHTMLPlugins("chrome", config.devDirectory, config.chromePath),
       ...getCopyPlugins("chrome", config.devDirectory, config.chromePath)
     ]
@@ -112,9 +84,7 @@ module.exports = [
     entry: getEntry(config.firefoxPath),
     output: getOutput("firefox", config.devDirectory),
     plugins: [
-      new MiniCssExtractPlugin({
-        filename: "[name]/[name].css"
-      }),
+      ...getMiniCssExtractPlugin(),
       ...getFirefoxCopyPlugins("firefox", config.devDirectory, config.firefoxPath),
       ...getHTMLPlugins("firefox", config.devDirectory, config.firefoxPath),
       new BundleAnalyzerPlugin({

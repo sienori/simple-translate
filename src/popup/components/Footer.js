@@ -13,7 +13,7 @@ export default class Footer extends Component {
   handleLinkClick = async () => {
     const { tabUrl, targetLang } = this.props;
     const encodedUrl = encodeURIComponent(tabUrl);
-    const translateUrl = `https://translate.google.com/translate?hl=${targetLang}&sl=auto&u=${encodedUrl}`;
+    const translateUrl = `https://translate.google.com/translate?hl=${targetLang}&tl=${targetLang}&sl=auto&u=${encodedUrl}`;
     openUrl(translateUrl);
   };
 
@@ -23,7 +23,7 @@ export default class Footer extends Component {
   };
 
   render() {
-    const { tabUrl, targetLang } = this.props;
+    const { tabUrl, targetLang, langHistory } = this.props;
 
     return (
       <div id="footer">
@@ -37,11 +37,22 @@ export default class Footer extends Component {
             onChange={this.handleChange}
             title={browser.i18n.getMessage("targetLangLabel")}
           >
-            {this.langList.map(option => (
-              <option value={option.value} key={option.value}>
-                {option.name}
-              </option>
-            ))}
+
+            <optgroup label={browser.i18n.getMessage("recentLangLabel")}>
+              {this.langList.filter(option => langHistory.includes(option.value))
+                .map(option => (
+                  <option value={option.value} key={option.value}>
+                    {option.name}
+                  </option>
+                ))}
+            </optgroup>
+            <optgroup label={browser.i18n.getMessage("allLangLabel")}>
+              {this.langList.map(option => (
+                <option value={option.value} key={option.value}>
+                  {option.name}
+                </option>
+              ))}
+            </optgroup>
           </select>
         </div>
       </div>

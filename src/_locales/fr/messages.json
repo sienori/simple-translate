@@ -8,6 +8,9 @@
   "donateWithPaypalLabel": {
     "message": "Faire un don avec PayPal"
   },
+  "donateLabel": {
+    "message": "Faire un don"
+  },
   "enableOnThisPage": {
     "message": "Activer la traduction sur cette page"
   },
@@ -15,13 +18,13 @@
     "message": "Désactiver la traduction sur cette page"
   },
   "initialTextArea": {
-    "message": "Entrer un text"
+    "message": "Entrer un texte"
   },
   "showLink": {
     "message": "Traduire cette page"
   },
   "openInGoogleLabel": {
-    "message": "Utiliser Google Traduction"
+    "message": "Ouvrir dans Google Traduction"
   },
   "copyLabel": {
     "message": "Copier"
@@ -29,11 +32,20 @@
   "copiedLabel": {
     "message": "Copié."
   },
+  "listenLabel": {
+    "message": "Écouter"
+  },
   "targetLangLabel": {
     "message": "Langue cible"
   },
   "langList": {
     "message": "af:Africain, sq:Albanais, am:Amharique, ar:Arabe, hy:Armenien, az:Azerbaïdjanais, eu:Basque, be:Belorussien, bn:Bengali, bs:Bosnien, bg:Bulgare, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Chinois (PRC), zh-TW:Chinois (Taiwan), co:Corse, hr:Croate, cs:Tchèque, da:Danois, nl:Néerlandais, en:Anglais, eo:Esperanto, et:Estonien, fi:Finnois, fr:Français, fy:Frison, gl:Galicien, ka:Georgien, de:Allemand, el:Grec, gu:Gujarati, ht:Haïtien, ha:Hausa, haw:Hawaiien, he:Hébreu, hi:Hindi, hu:Hongrois, is:Islandais, ig:Igbo, id:Indonesien, ga:Irlandais, it:Italien, ja:Japonais, jv:Javanais, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Coréen, ku:Kurde, lo:Laotien, la:Latin, lv:Letton, lt:Lituanien, lb:Luxembourgeois, mk:Macédonien, mg:Malgache, ms:Malais, ml:Malayalam, mt:Maltais, mi:Maori, mr:Marathi, mn:Mongolien, hmn:Monk, my:Myanmar, ne:Nepalais, no:Norvégien, fa:Perse, pl:Polonais, pt:Portuguais, pa:Punjabi, ps:Pushto, ro:Roumain, ru:Russe, sm:Samoan, gd:Gaélique écossais, sr:Serbe, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovaque, sl:Slovenien, so:Somalien, sx:Sotho, es:Espagnol, su:Sundanais, sw:Swahili, sv:Suédois, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turque, uk:Ukrainien, ur:Urdu, uz:Ouzbek, vi:Vietnamien, cy:Gallois, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zoulou"
+  },
+  "allLangLabel": {
+    "message": "Toutes les langues"
+  },
+  "recentLangLabel": {
+    "message": "Langues récentes"
   },
   "settingsLabel": {
     "message": "Paramètres"
@@ -83,6 +95,42 @@
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "Détecte la langue du texte sélectionné, et si elle est la même que la langue cible par défaut, traduire le texte dans la seconde langue."
   },
+  "disableTranslationLabel": {
+    "message": "Désactiver la traduction"
+  },
+  "isDisabledInTextFieldsLabel": {
+    "message": "Désactiver la traduction dans les champs texte"
+  },
+  "isDisabledInTextFieldsCaptionLabel": {
+    "message": "Ne pas afficher le bouton ou panneau de traduction lors de la sélection du texte dans un champ texte."
+  },
+  "isDisabledInCodeElementLabel": {
+    "message": "Désactiver la traduction dans les tags de code"
+  },
+  "isDisabledInCodeElementCaptionLabel": {
+    "message": "Ne pas afficher le bouton ou le panneau de traduction lors de la sélection de texte dans le code."
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedLabel": {
+    "message": "Traduire lors de l'appui sur une touche de combinaison"
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
+    "message": "Afficher la traduction uniquement lorsque la touche de combinaison spécifiée est pressée."
+  },
+  "modifierKeyLabel": {
+    "message": "Touche de combinaison"
+  },
+  "shiftLabel": {
+    "message": "Shift"
+  },
+  "ctrlLabel": {
+    "message": "Ctrl"
+  },
+  "altLabel": {
+    "message": "Alt"
+  },
+  "cmdLabel": {
+    "message": "Commande"
+  },
   "disableUrlListLabel": {
     "message": "Liste URL pour désactiver la traduction"
   },
@@ -104,6 +152,12 @@
   "secondTargetLangCaptionLabel": {
     "message": "Sélectionnez la seconde langue cible."
   },
+  "ignoredDocumentLangLabel": {
+    "message": "Désactiver la traduction par attribut lang"
+  },
+  "ignoredDocumentLangCaptionLabel": {
+    "message": "Désactiver la traduction si l'attribut lang de l'élément HTML de la page correspond à la liste. Entrez des balises de langue séparées par des virgules."
+  },
   "waitTimeLabel": {
     "message": "Temps d'attente pour la traduction"
   },
@@ -124,6 +178,18 @@
   },
   "styleLabel": {
     "message": "Style"
+  },
+  "themeLabel": {
+    "message": "Thème"
+  },
+  "themeCaptionLabel": {
+    "message": "Spécifiez le schéma de couleurs."
+  },
+  "lightLabel": {
+    "message": "Lumière"
+  },
+  "darkLabel": {
+    "message": "Sombre"
   },
   "buttonStyleLabel": {
     "message": "Bouton de traduction"
@@ -218,6 +284,24 @@
   "isDebugModeCaptionLabel": {
     "message": "Lorsque le mode débogage est activé, les données sont sorties vers le débogueur."
   },
+  "exportSettingsLabel": {
+    "message": "Export settings"
+  },
+  "exportSettingsCaptionLabel": {
+    "message": "Save the settings as a json file on the computer."
+  },
+  "exportButtonLabel": {
+    "message": "Export"
+  },
+  "importSettingsLabel": {
+    "message": "Import Settings"
+  },
+  "importSettingsCaptionLabel": {
+    "message": "Load the settings file saved on the computer."
+  },
+  "importButtonLabel": {
+    "message": "Import"
+  },
   "resetSettingsLabel": {
     "message": "Réinitialiser les paramètres"
   },
@@ -263,6 +347,9 @@
   "informationLabel": {
     "message": "Informations"
   },
+  "backersLabel": {
+    "message": "Donateurs"
+  },
   "licenseLabel": {
     "message": "Licence"
   },
@@ -275,17 +362,23 @@
   "amazonTitleLabel": {
     "message": "Cartes Cadeaux (amazon.co.jp)"
   },
+  "sponsorsLabel": {
+    "message": "Message commercial"
+  },
   "addonPageLabel": {
     "message": "Page de l'extension"
   },
   "extensionPageLabel": {
     "message": "Page de l'extension"
   },
+  "privacyPolicyLabel": {
+    "message": "Politique de confidentialité"
+  },
   "amazonUrl": {
-    "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
+    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
   },
   "addonUrl": {
-    "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
+    "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
     "message": "Erreur : Vérifiez l'état de la connexion réseau."

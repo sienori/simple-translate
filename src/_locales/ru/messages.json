@@ -3,10 +3,13 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Быстрый перевод выделенного текста на веб-странице. Можно переводить текст в окошке, всплывающем на панели инструментов."
+    "message": "Быстрый перевод выделенного текста на веб-странице. Можно переводить текст во всплывающем окне на панели инструментов."
   },
   "donateWithPaypalLabel": {
     "message": "Сделать пожертвование через PayPal"
+  },
+  "donateLabel": {
+    "message": "Пожертвовать"
   },
   "enableOnThisPage": {
     "message": "Включить перевод на этой странице"
@@ -29,11 +32,20 @@
   "copiedLabel": {
     "message": "Скопировано."
   },
+  "listenLabel": {
+    "message": "Слушать"
+  },
   "targetLangLabel": {
     "message": "Язык перевода"
   },
   "langList": {
     "message": "af:Африканский, sq:Албанский, am:Амхарский, ar:Арабский, hy:Армянский, az:Азербайджанский, eu:Баскский, be:Белорусский, bn:Бенгальский, bs:Боснийский, bg:Болгарский, ca:Каталанский, ceb:Себуано, ny:Ньянджа, zh-CN:Китайский (КНР), zh-TW:Китайский (Тайвань), co:Корсиканский, hr:Хорватский, cs:Чешский, da:Датский, nl:Голландский, en:Английский, eo:Эсперанто, et:Эстонский, fi:Финский, fr:Французский, fy:Фризский, gl:Галисийский, ka:Грузинский, de:Немецкий, el:Греческий, gu:Гуджарати, ht:Гаитянский, ha:Хауса, haw:Гавайский, he:Иврит, hi:Хинди, hu:Венгерский, is:Исландский, ig:Игбо, id:Индонезийский, ga:Ирландский, it:Итальянский, ja:Японский, jv:Яванский, kn:Каннада, kk:Казахский, km:Кхмерский, ky:Киргизский, ko:Корейский, ku:Курдский, lo:Лаосский, la:Латинский, lv:Латышский, lt:Литовский, lb:Люксембургский, mk:Македонский, mg:Малагасийский, ms:Малайский, ml:Малаялам, mt:Мальтийский, mi:Маори, mr:Маратхи, mn:Монгольский, hmn:Мяо, my:Бирманский, ne:Непальский, no:Норвежский, fa:Персидский, pl:Польский, pt:Португальский, pa:Пенджабский, ps:Пушту, ro:Румынский, ru:Русский, sm:Самоанский, gd:Гэльский, sr:Сербский, sn:Шона, sd:Синдхи, si:Сингальский, sk:Словацкий, sl:Словенский, so:Сомали, sx:Сото южный, es:Испанский, su:Сунданский, sw:Суахили, sv:Шведский, tl:Тагальский, tg:Таджикский, ta:Тамильский, te:Телугу, th:Тайский, tr:Турецкий, uk:Украинский, ur:Урду, uz:Узбекский, vi:Вьетнамский, cy:Валлийский, xh:Коса, yi:Идиш, yo:Йоруба, zu:Зулу"
+  },
+  "allLangLabel": {
+    "message": "Все языки"
+  },
+  "recentLangLabel": {
+    "message": "Недавние языки"
   },
   "settingsLabel": {
     "message": "Настройки"
@@ -83,14 +95,50 @@
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "Переключаться на дополнительный язык перевода, если язык выделенного текста совпадает с языком перевода по умолчанию."
   },
+  "disableTranslationLabel": {
+    "message": "Отключить перевод"
+  },
+  "isDisabledInTextFieldsLabel": {
+    "message": "Отключить перевод в текстовых полях"
+  },
+  "isDisabledInTextFieldsCaptionLabel": {
+    "message": "Не показывать ни кнопку перевода, ни панель с переводом при выделении текста в текстовом поле."
+  },
+  "isDisabledInCodeElementLabel": {
+    "message": "Отключить перевод в коде"
+  },
+  "isDisabledInCodeElementCaptionLabel": {
+    "message": "Не показывать кнопку перевода или панель при выделении текста в коде."
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedLabel": {
+    "message": "Переводить только c модификатором"
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
+    "message": "Переводить только c модификатором"
+  },
+  "modifierKeyLabel": {
+    "message": "Клавиша модификатор"
+  },
+  "shiftLabel": {
+    "message": "Shift"
+  },
+  "ctrlLabel": {
+    "message": "Ctrl"
+  },
+  "altLabel": {
+    "message": "Alt"
+  },
+  "cmdLabel": {
+    "message": "Command"
+  },
   "disableUrlListLabel": {
-    "message": "Список сайтов, на которых перевод отключён"
+    "message": "Список URL для которых перевод будет отключен"
   },
   "disableUrlListCaptionLabel": {
-    "message": "Если адрес сайта входит в список, то перевод на его страницах отключается. В адресе допустимы подстановочные знаки \"*\"."
+    "message": "Если URL страницы соответствует списку, то перевод будет отключен. Список позволяет использовать подстановку \"*\"."
   },
   "toolbarLabel": {
-    "message": "Всплывающее окошко на панели инструментов"
+    "message": "Всплывающее окно на панели инструментов"
   },
   "ifChangeSecondLangLabel": {
     "message": "Автоматически переключаться на дополнительный язык перевода"
@@ -103,6 +151,12 @@
   },
   "secondTargetLangCaptionLabel": {
     "message": "Выберите дополнительный язык перевода."
+  },
+  "ignoredDocumentLangLabel": {
+    "message": "Отключить перевод по хтмл аттрибуту"
+  },
+  "ignoredDocumentLangCaptionLabel": {
+    "message": "Отключить перевод если язык страницы совпадает с языком в списке. Введите список языков через запятую."
   },
   "waitTimeLabel": {
     "message": "Задержка перед переводом"
@@ -124,6 +178,18 @@
   },
   "styleLabel": {
     "message": "Стиль"
+  },
+  "themeLabel": {
+    "message": "Тема оформления"
+  },
+  "themeCaptionLabel": {
+    "message": "Выберите тему оформления."
+  },
+  "lightLabel": {
+    "message": "Светлая"
+  },
+  "darkLabel": {
+    "message": "Тёмная"
   },
   "buttonStyleLabel": {
     "message": "Кнопка перевода"
@@ -218,6 +284,24 @@
   "isDebugModeCaptionLabel": {
     "message": "Если включен режим отладки, то журнал работы будет выводиться в отладчик."
   },
+  "exportSettingsLabel": {
+    "message": "Экспортировать настройки"
+  },
+  "exportSettingsCaptionLabel": {
+    "message": "Сохраните настройки в виде json-файла на своём компьютере."
+  },
+  "exportButtonLabel": {
+    "message": "Экспорт"
+  },
+  "importSettingsLabel": {
+    "message": "Импортировать настройки"
+  },
+  "importSettingsCaptionLabel": {
+    "message": "Загрузите файл настроек, сохраненный на компьютере."
+  },
+  "importButtonLabel": {
+    "message": "Импорт"
+  },
   "resetSettingsLabel": {
     "message": "Сброс настроек"
   },
@@ -263,6 +347,9 @@
   "informationLabel": {
     "message": "Информация"
   },
+  "backersLabel": {
+    "message": "При поддержке"
+  },
   "licenseLabel": {
     "message": "Лицензия"
   },
@@ -275,17 +362,23 @@
   "amazonTitleLabel": {
     "message": "Карты eGift от amazon.co.jp"
   },
+  "sponsorsLabel": {
+    "message": "Спонсоры"
+  },
   "addonPageLabel": {
     "message": "Страница расширения"
   },
   "extensionPageLabel": {
     "message": "Страница расширения"
   },
+  "privacyPolicyLabel": {
+    "message": "Политика конфиденциальности"
+  },
   "amazonUrl": {
-    "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=ru_RU"
+    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=ru_RU"
   },
   "addonUrl": {
-    "message": "https:\/\/addons.mozilla.org\/ru-RU\/firefox\/addon\/simple-translate\/?src=optionpage"
+    "message": "https://addons.mozilla.org/ru-RU/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
     "message": "Ошибка: Проверьте состояние сетевого подключения."
@@ -306,6 +399,6 @@
     "message": "Перевести страницу по ссылке"
   },
   "openPopupDescription": {
-    "message": "Показать всплывающее окошко на панели инструментов"
+    "message": "Показать всплывающее окно на панели инструментов"
   }
 }

@@ -14,6 +14,8 @@ const getDefaultLangs = () => {
 
 const langListOptions = generateLangOptions();
 const defaultLangs = getDefaultLangs();
+const getTheme = () =>
+  window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark" : "light";
 
 export default [
   {
@@ -88,6 +90,39 @@ export default [
         ]
       },
       {
+        id: "ifOnlyTranslateWhenModifierKeyPressed",
+        title: "ifOnlyTranslateWhenModifierKeyPressedLabel",
+        captions: ["ifOnlyTranslateWhenModifierKeyPressedCaptionLabel"],
+        type: "checkbox",
+        default: false,
+        childElements: [
+          {
+            id: "modifierKey",
+            title: "modifierKeyLabel",
+            captions: [],
+            type: "select",
+            default: "shift",
+            options: [
+              {
+                name: "shiftLabel",
+                value: "shift"
+              },
+              {
+                name: "ctrlLabel",
+                value: "ctrl"
+              },
+              {
+                name: "altLabel",
+                value: "alt"
+              },
+              {
+                name: "cmdLabel",
+                value: "cmd"
+              }]
+          }
+        ]
+      },
+      {
         id: "ifChangeSecondLangOnPage",
         title: "ifChangeSecondLangLabel",
         captions: ["ifChangeSecondLangOnPageCaptionLabel"],
@@ -95,13 +130,41 @@ export default [
         default: false
       },
       {
-        id: "disableUrlList",
-        title: "disableUrlListLabel",
-        captions: ["disableUrlListCaptionLabel"],
-        type: "textarea",
-        default: "",
-        placeholder: "https://example.com/*\nhttps://example.net/*",
-        new: true
+        title: "disableTranslationLabel",
+        captions: [],
+        type: "none",
+        childElements: [
+          {
+            id: "isDisabledInTextFields",
+            title: "isDisabledInTextFieldsLabel",
+            captions: ["isDisabledInTextFieldsCaptionLabel"],
+            type: "checkbox",
+            default: false
+          },
+          {
+            id: "isDisabledInCodeElement",
+            title: "isDisabledInCodeElementLabel",
+            captions: ["isDisabledInCodeElementCaptionLabel"],
+            type: "checkbox",
+            default: false
+          },
+          {
+            id: "ignoredDocumentLang",
+            title: "ignoredDocumentLangLabel",
+            captions: ["ignoredDocumentLangCaptionLabel"],
+            type: "text",
+            default: "",
+            placeholder: "en, ru, zh"
+          },
+          {
+            id: "disableUrlList",
+            title: "disableUrlListLabel",
+            captions: ["disableUrlListCaptionLabel"],
+            type: "textarea",
+            default: "",
+            placeholder: "https://example.com/*\nhttps://example.net/*"
+          }
+        ]
       }
     ]
   },
@@ -141,6 +204,23 @@ export default [
   {
     category: "styleLabel",
     elements: [
+      {
+        id: "theme",
+        title: "themeLabel",
+        captions: ["themeCaptionLabel"],
+        type: "select",
+        default: getTheme(),
+        options: [
+          {
+            name: "lightLabel",
+            value: "light"
+          },
+          {
+            name: "darkLabel",
+            value: "dark"
+          }
+        ]
+      },
       {
         title: "buttonStyleLabel",
         captions: ["buttonStyleCaptionLabel"],
@@ -313,21 +393,21 @@ export default [
             title: "resultFontColorLabel",
             captions: [],
             type: "color",
-            default: "#000000"
+            default: getTheme() === "light" ? "#000000" : "#e6e6e6"
           },
           {
             id: "candidateFontColor",
             title: "candidateFontColorLabel",
             captions: [],
             type: "color",
-            default: "#737373"
+            default: getTheme() === "light" ? "#737373" : "#aaaaaa"
           },
           {
             id: "bgColor",
             title: "bgColorLabel",
             captions: [],
             type: "color",
-            default: "#ffffff"
+            default: getTheme() === "light" ? "#ffffff" : "#181818"
           }
         ]
       }

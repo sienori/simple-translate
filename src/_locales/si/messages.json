@@ -1,0 +1,404 @@
+{
+  "extName": {
+    "message": "Simple Translate"
+  },
+  "extDescription": {
+    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
+  },
+  "donateWithPaypalLabel": {
+    "message": "පේපෑල් මගින් පරිත්‍යාග කරන්න"
+  },
+  "donateLabel": {
+    "message": "පරිත්‍යාග කරන්න"
+  },
+  "enableOnThisPage": {
+    "message": "මෙම පිටුවට පරිවර්තනය සබල කරන්න"
+  },
+  "disableOnThisPage": {
+    "message": "මෙම පිටුවට පරිවර්තනය අබල කරන්න"
+  },
+  "initialTextArea": {
+    "message": "Enter text"
+  },
+  "showLink": {
+    "message": "මෙම පිටුව පරිවර්තනය කරන්න"
+  },
+  "openInGoogleLabel": {
+    "message": "Open in Google Translate"
+  },
+  "copyLabel": {
+    "message": "පිටපත්"
+  },
+  "copiedLabel": {
+    "message": "Copied."
+  },
+  "listenLabel": {
+    "message": "Listen"
+  },
+  "targetLangLabel": {
+    "message": "Target language"
+  },
+  "langList": {
+    "message": "af:Afrikaans, sq:Albanian, am:Amharic, ar:Arabic, hy:Armenian, az:Azerbaijani, eu:Basque, be:Belarusian, bn:Bengali, bs:Bosnian, bg:Bulgarian, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Chinese (PRC), zh-TW:Chinese (Taiwan), co:Corsican, hr:Croatian, cs:Czech, da:Danish, nl:Dutch, en:English, eo:Esperanto, et:Estonian, fi:Finnish, fr:French, fy:Frisian, gl:Galician, ka:Georgian, de:German, el:Greek, gu:Gujarati, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesian, ga:Irish, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Korean, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:Macedonian, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persian, pl:Polish, pt:Portuguese, pa:Punjabi, ps:Pushto, ro:Romanian, ru:Russian, sm:Samoan, gd:Scottish Gaelic, sr:Serbian, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovak, sl:Slovenian, so:Somali, sx:Sotho, es:Spanish, su:Sundanese, sw:Swahili, sv:Swedish, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turkish, uk:Ukrainian, ur:Urdu, uz:Uzbek, vi:Vietnamese, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
+  },
+  "allLangLabel": {
+    "message": "All languages"
+  },
+  "recentLangLabel": {
+    "message": "Recent languages"
+  },
+  "settingsLabel": {
+    "message": "සැකසුම්"
+  },
+  "generalLabel": {
+    "message": "General"
+  },
+  "targetLangCaptionLabel": {
+    "message": "Select the default target language."
+  },
+  "webPageLabel": {
+    "message": "වියමන පිටුව"
+  },
+  "ifShowCandidateLabel": {
+    "message": "Show translation candidates"
+  },
+  "ifShowCandidateCaptionLabel": {
+    "message": "Show multiple translation candidates when a single word is translated."
+  },
+  "whenSelectTextLabel": {
+    "message": "Behavior when selecting text"
+  },
+  "ifAutoTranslateLabel": {
+    "message": "Display translation panel"
+  },
+  "ifAutoTranslateCaptionLabel": {
+    "message": "Directly display the translation panel without displaying the button."
+  },
+  "ifShowButtonLabel": {
+    "message": "පරිවර්තන බොත්තම පෙන්වන්න"
+  },
+  "ifShowButtonCaptionLabel": {
+    "message": "Display the translation button to open the panel when clicked."
+  },
+  "dontshowbuttonlabel": {
+    "message": "Don't display button or panel"
+  },
+  "dontshowbuttonCaptionlabel": {
+    "message": "Don't display the translation button or the translation panel."
+  },
+  "ifCheckLangLabel": {
+    "message": "Do not display the button if translation is not required"
+  },
+  "ifCheckLangCaptionLabel": {
+    "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+  },
+  "ifChangeSecondLangOnPageCaptionLabel": {
+    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+  },
+  "disableTranslationLabel": {
+    "message": "Disable translation"
+  },
+  "isDisabledInTextFieldsLabel": {
+    "message": "Disable translation in text fields"
+  },
+  "isDisabledInTextFieldsCaptionLabel": {
+    "message": "Don't display translation button or panel when selecting text in a text field."
+  },
+  "isDisabledInCodeElementLabel": {
+    "message": "Disable translation in code tags"
+  },
+  "isDisabledInCodeElementCaptionLabel": {
+    "message": "Don't display translation button or panel when selecting text in code tag."
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedLabel": {
+    "message": "Translate on modifier key pressed"
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
+    "message": "Only display translation on specified modifier key pressed."
+  },
+  "modifierKeyLabel": {
+    "message": "Modifier Key"
+  },
+  "shiftLabel": {
+    "message": "Shift"
+  },
+  "ctrlLabel": {
+    "message": "Ctrl"
+  },
+  "altLabel": {
+    "message": "Alt"
+  },
+  "cmdLabel": {
+    "message": "Command"
+  },
+  "disableUrlListLabel": {
+    "message": "URL list to disable translation"
+  },
+  "disableUrlListCaptionLabel": {
+    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
+  },
+  "toolbarLabel": {
+    "message": "Toolbar popup"
+  },
+  "ifChangeSecondLangLabel": {
+    "message": "Automatically switch to the second language"
+  },
+  "ifChangeSecondLangCaptionLabel": {
+    "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+  },
+  "secondTargetLangLabel": {
+    "message": "දෙවන භාෂාව"
+  },
+  "secondTargetLangCaptionLabel": {
+    "message": "Select the second target language."
+  },
+  "ignoredDocumentLangLabel": {
+    "message": "Disable translation by lang attribute"
+  },
+  "ignoredDocumentLangCaptionLabel": {
+    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
+  },
+  "waitTimeLabel": {
+    "message": "Waiting time to translate"
+  },
+  "waitTimeCaptionLabel": {
+    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+  },
+  "waitTime2CaptionLabel": {
+    "message": "If you translate it many times in a short time, it may become unusable for a while."
+  },
+  "menuLabel": {
+    "message": "Context menu"
+  },
+  "ifShowMenuLabel": {
+    "message": "Display the context menu"
+  },
+  "ifShowMenuCaptionLabel": {
+    "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+  },
+  "styleLabel": {
+    "message": "මෝස්තරය"
+  },
+  "themeLabel": {
+    "message": "තේමාව"
+  },
+  "themeCaptionLabel": {
+    "message": "Specify the color scheme."
+  },
+  "lightLabel": {
+    "message": "දීප්ත"
+  },
+  "darkLabel": {
+    "message": "අඳුරු"
+  },
+  "buttonStyleLabel": {
+    "message": "පරිවර්තන බොත්තම"
+  },
+  "buttonStyleCaptionLabel": {
+    "message": "Specify the style of the translation button displayed on the web page."
+  },
+  "buttonSizeLabel": {
+    "message": "ප්‍රමාණය"
+  },
+  "buttonPositionLabel": {
+    "message": "Display position"
+  },
+  "topRightLabel": {
+    "message": "Top right"
+  },
+  "bottomRightLabel": {
+    "message": "Bottom right"
+  },
+  "topLeftLabel": {
+    "message": "Top left"
+  },
+  "bottomLeftLabel": {
+    "message": "Bottom left"
+  },
+  "topLabel": {
+    "message": "ඉහළ"
+  },
+  "bottomLabel": {
+    "message": "පහළ"
+  },
+  "leftLabel": {
+    "message": "වම"
+  },
+  "rightLabel": {
+    "message": "දකුණ"
+  },
+  "positionOffsetLabel": {
+    "message": "Display position - Offset"
+  },
+  "panelStyleLabel": {
+    "message": "Translation panel"
+  },
+  "panelStyleCaptionLabel": {
+    "message": "Specify the style of the translation panel displayed on the web page."
+  },
+  "widthLabel": {
+    "message": "පළල"
+  },
+  "heightLabel": {
+    "message": "උස"
+  },
+  "fontSizeLabel": {
+    "message": "මුද්‍රණාක්ෂරයේ ප්‍රමාණය"
+  },
+  "referencePointLabel": {
+    "message": "Display position - Reference point"
+  },
+  "bottomSelectedTextLabel": {
+    "message": "Bottom of selected text"
+  },
+  "topSelectedTextLabel": {
+    "message": "Top of selected text"
+  },
+  "clickedPointLabel": {
+    "message": "Clicked point"
+  },
+  "displayDirectionLabel": {
+    "message": "Display position - Direction"
+  },
+  "resultFontColorLabel": {
+    "message": "Font color of translation result"
+  },
+  "candidateFontColorLabel": {
+    "message": "Font color of translation candidates"
+  },
+  "bgColorLabel": {
+    "message": "පසුබිම් වර්ණය"
+  },
+  "otherLabel": {
+    "message": "වෙනත්"
+  },
+  "isShowOptionsPageWhenUpdatedLabel": {
+    "message": "Display option page when updating"
+  },
+  "isShowOptionsPageWhenUpdatedCaptionLabel": {
+    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+  },
+  "isDebugModeLabel": {
+    "message": "Enable debug mode"
+  },
+  "isDebugModeCaptionLabel": {
+    "message": "When debug mode is enabled, the log is output to the debugger."
+  },
+  "exportSettingsLabel": {
+    "message": "Export settings"
+  },
+  "exportSettingsCaptionLabel": {
+    "message": "Save the settings as a json file on the computer."
+  },
+  "exportButtonLabel": {
+    "message": "Export"
+  },
+  "importSettingsLabel": {
+    "message": "Import Settings"
+  },
+  "importSettingsCaptionLabel": {
+    "message": "Load the settings file saved on the computer."
+  },
+  "importButtonLabel": {
+    "message": "Import"
+  },
+  "resetSettingsLabel": {
+    "message": "සැකසුම් යළි පිහිටුවන්න"
+  },
+  "resetSettingsCaptionLabel": {
+    "message": "Restore all settings to default."
+  },
+  "resetSettingsButtonLabel": {
+    "message": "යලි පිහිටුවන්න"
+  },
+  "shortcutsLabel": {
+    "message": "කෙටිමං"
+  },
+  "keyboardShortcutsLabel": {
+    "message": "Keyboard shortcuts"
+  },
+  "setKeyboardShortCutsMessage": {
+    "message": "Set keyboard shortcuts."
+  },
+  "typeShortcutMessage": {
+    "message": "Type a shortcut"
+  },
+  "typeLetterMessage": {
+    "message": "Type a letter"
+  },
+  "includeModifierKeysMessage": {
+    "message": "Include either Ctrl or Alt"
+  },
+  "includeMacModifierKeysMessage": {
+    "message": "Include either Command, Ctrl or Alt"
+  },
+  "invalidLetterMessage": {
+    "message": "The letter can not be used"
+  },
+  "invalidShortcutMessage": {
+    "message": "The shortcut can not be used"
+  },
+  "clear": {
+    "message": "හිස් කරන්න"
+  },
+  "reset": {
+    "message": "යලි පිහිටුවන්න"
+  },
+  "informationLabel": {
+    "message": "තොරතුරු"
+  },
+  "backersLabel": {
+    "message": "Backers"
+  },
+  "licenseLabel": {
+    "message": "බලපත්‍රය"
+  },
+  "donationLabel": {
+    "message": "Please make a donation"
+  },
+  "donationCaptionLabel": {
+    "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+  },
+  "amazonTitleLabel": {
+    "message": "amazon.co.jp eGift Cards"
+  },
+  "sponsorsLabel": {
+    "message": "අනුග්‍රාහකයින්"
+  },
+  "addonPageLabel": {
+    "message": "Add-on page"
+  },
+  "extensionPageLabel": {
+    "message": "Extension page"
+  },
+  "privacyPolicyLabel": {
+    "message": "රහස්‍යතා ප්‍රතිපත්තිය"
+  },
+  "amazonUrl": {
+    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
+  },
+  "addonUrl": {
+    "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
+  },
+  "networkError": {
+    "message": "Error: Check network connection status."
+  },
+  "unavailableError": {
+    "message": "Error: Service usage limit reached. Please wait a while and try again."
+  },
+  "unknownError": {
+    "message": "Error: Unknown error"
+  },
+  "translatePageMenu": {
+    "message": "මෙම පිටුව පරිවර්තනය කරන්න"
+  },
+  "translateTextMenu": {
+    "message": "Translate selected text"
+  },
+  "translateLinkMenu": {
+    "message": "Translate selected link"
+  },
+  "openPopupDescription": {
+    "message": "Open toolbar popup"
+  }
+}

@@ -1,14 +1,31 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import browser from "webextension-polyfill";
 import browserInfo from "browser-info";
 import queryString from "query-string";
 import OptionsContainer from "./OptionContainer";
-import { paypalLink, email, chromeExtensionUrl, firefoxAddonUrl } from "src/common/personalUrls";
+import {
+  paypalLink,
+  patreonLink,
+  email,
+  chromeExtensionUrl,
+  firefoxAddonUrl
+} from "src/common/personalUrls";
 import manifest from "src/manifest-chrome.json";
 
 export default props => {
   const query = queryString.parse(props.location.search);
   const extensionVersion = manifest.version;
+
+  const [sponsorsHeihgt, setSponsorsHeight] = useState();
+
+  useEffect(() => {
+    const setHeight = e => {
+      if (e.data[0] !== "setSponsorsHeight") return;
+      setSponsorsHeight(e.data[1]);
+    };
+    window.addEventListener("message", setHeight);
+    return () => window.removeEventListener("message", setHeight);
+  });
 
   return (
     <div>
@@ -24,6 +41,13 @@ export default props => {
             <a href="https://github.com/sienori/simple-translate/releases" target="_blank">
               Version {extensionVersion}
             </a>
+            <span>　</span>
+            <a
+              href="https://github.com/sienori/simple-translate/blob/master/BACKERS.md"
+              target="_blank"
+            >
+              {browser.i18n.getMessage("backersLabel")}
+            </a>
           </p>
         }
       />
@@ -38,12 +62,18 @@ export default props => {
       <OptionsContainer title={"donationLabel"} captions={["donationCaptionLabel"]} type={"none"} />
       <OptionsContainer
         title={""}
-        captions={[]}
+        captions={[""]}
         type={"none"}
         extraCaption={
-          <a href={paypalLink} target="_blank">
-            <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" alt="Donate" />
-          </a>
+          <div>
+            <a href={patreonLink} target="_blank">
+              <img src="/icons/patreonButton.png" alt="Patreon"
+                style={{ height: 44, marginRight: 20 }} />
+            </a>
+            <a href={paypalLink} target="_blank">
+              <img src="/icons/paypalButton.png" alt="Paypal" />
+            </a>
+          </div>
         }
       />
       <OptionsContainer
@@ -63,6 +93,16 @@ export default props => {
       />
       <hr />
       <OptionsContainer
+        title={"sponsorsLabel"}
+        captions={[""]}
+        type={"none"}
+        extraCaption={
+          <iframe src="https://simple-translate.sienori.com/sponsors.html"
+            style={{ height: sponsorsHeihgt, marginTop: 10 }} />
+        }
+      />
+      <hr />
+      <OptionsContainer
         title={""}
         captions={[]}
         type={"none"}
@@ -74,13 +114,17 @@ export default props => {
                   {browser.i18n.getMessage("extensionPageLabel")}
                 </a>
               ) : (
-                <a href={firefoxAddonUrl} target="_blank">
-                  {browser.i18n.getMessage("addonPageLabel")}
-                </a>
-              )}
+                  <a href={firefoxAddonUrl} target="_blank">
+                    {browser.i18n.getMessage("addonPageLabel")}
+                  </a>
+                )}
               <span>　</span>
               <a href="https://github.com/sienori/simple-translate" target="_blank">
                 GitHub
+              </a>
+              <span>　</span>
+              <a href="https://simple-translate.sienori.com/privacy-policy" target="_blank">
+                {browser.i18n.getMessage("privacyPolicyLabel")}
               </a>
             </p>
           </div>

@@ -8,6 +8,9 @@
   "donateWithPaypalLabel": {
     "message": "Δωρεά μέσω PayPal"
   },
+  "donateLabel": {
+    "message": "Δωρεά"
+  },
   "enableOnThisPage": {
     "message": "Ενεργοποίηση μετάφρασης σε αυτή τη σελίδα"
   },
@@ -27,13 +30,22 @@
     "message": "Αντιγραφή"
   },
   "copiedLabel": {
-    "message": "Αντιγράφηκε."
+    "message": "Αντιγράφτηκε."
+  },
+  "listenLabel": {
+    "message": "Εκφώνηση"
   },
   "targetLangLabel": {
     "message": "Γλώσσα-στόχος"
   },
   "langList": {
     "message": "af:Afrikaans, sq:Albanian, am:Amharic, ar:Arabic, hy:Armenian, az:Azerbaijani, eu:Basque, be:Belarusian, bn:Bengali, bs:Bosnian, bg:Bulgarian, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Chinese (PRC), zh-TW:Chinese (Taiwan), co:Corsican, hr:Croatian, cs:Czech, da:Danish, nl:Dutch, en:English, eo:Esperanto, et:Estonian, fi:Finnish, fr:French, fy:Frisian, gl:Galician, ka:Georgian, de:German, el:Greek, gu:Gujarati, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesian, ga:Irish, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Korean, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:Macedonian, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persian, pl:Polish, pt:Portuguese, pa:Punjabi, ps:Pushto, ro:Romanian, ru:Russian, sm:Samoan, gd:Scottish Gaelic, sr:Serbian, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovak, sl:Slovenian, so:Somali, sx:Sotho, es:Spanish, su:Sundanese, sw:Swahili, sv:Swedish, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turkish, uk:Ukrainian, ur:Urdu, uz:Uzbek, vi:Vietnamese, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
+  },
+  "allLangLabel": {
+    "message": "Όλες οι γλώσσες"
+  },
+  "recentLangLabel": {
+    "message": "Πρόσφατες γλώσσες"
   },
   "settingsLabel": {
     "message": "Ρυθμίσεις"
@@ -83,6 +95,42 @@
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "Εντοπίζει τη γλώσσα του επιλεγμένου κειμένου και αν είναι ίδια με τη γλώσσα προορισμού, μεταφράζει στη δεύτερη γλώσσα."
   },
+  "disableTranslationLabel": {
+    "message": "Απενεργοποίηση μετάφρασης"
+  },
+  "isDisabledInTextFieldsLabel": {
+    "message": "Απενεργοποίηση μετάφρασης σε πεδία κειμένου"
+  },
+  "isDisabledInTextFieldsCaptionLabel": {
+    "message": "Μη εμφάνιση κουμπιού ή πλαισίου μετάφρασης όταν επιλέγεται κείμενο σε πεδίο κειμένου."
+  },
+  "isDisabledInCodeElementLabel": {
+    "message": "Απενεργοποίηση μετάφρασης στις ετικέτες κώδικα"
+  },
+  "isDisabledInCodeElementCaptionLabel": {
+    "message": "Να μην εμφανίζεται το κουμπί ή ο πίνακας μετάφρασης κατά την επιλογή κειμένου στην ετικέτα κώδικα."
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedLabel": {
+    "message": "Μετάφραση με το πάτημα του πλήκτρου τροποποίησης"
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
+    "message": "Εμφάνιση μετάφρασης μόνο με το πάτημα του πλήκτρου τροποποίησης."
+  },
+  "modifierKeyLabel": {
+    "message": "Πλήκτρο Τροποποίησης"
+  },
+  "shiftLabel": {
+    "message": "Shift"
+  },
+  "ctrlLabel": {
+    "message": "Ctrl"
+  },
+  "altLabel": {
+    "message": "Alt"
+  },
+  "cmdLabel": {
+    "message": "Εντολή"
+  },
   "disableUrlListLabel": {
     "message": "Λίστα URL για απενεργοποίηση μετάφρασης"
   },
@@ -90,7 +138,7 @@
     "message": "Εάν το URL της σελίδας υπάρχει στη λίστα, η μετάφραση στην ιστοσελίδα είναι απενεργοποιημένη. Η λίστα επιτρέπει χαρακτήρες \"*\" μπαλαντέρ."
   },
   "toolbarLabel": {
-    "message": "Toolbar popup"
+    "message": "Εμφάνιση αναδυόμενης γραμμής εργαλείων"
   },
   "ifChangeSecondLangLabel": {
     "message": "Αυτόματη αλλαγή στη δεύτερη γλώσσα"
@@ -104,11 +152,17 @@
   "secondTargetLangCaptionLabel": {
     "message": "Επιλέξτε την δεύτερη προεπιλεγμένη γλώσσα-στόχο."
   },
+  "ignoredDocumentLangLabel": {
+    "message": "Απενεργοποίηση μετάφρασης με βάση τα χαρακτηριστικά γλώσσας"
+  },
+  "ignoredDocumentLangCaptionLabel": {
+    "message": "Απενεργοποίηση μετάφρασης εάν το χαρακτηριστικό γλώσσας στο στοιχείο html της σελίδας ταιριάζει με τη λίστα. Εισάγετε ετικέτες γλώσσας χωρισμένες με κόμμα."
+  },
   "waitTimeLabel": {
     "message": "Χρόνος αναμονής για μετάφραση"
   },
   "waitTimeCaptionLabel": {
-    "message": "Καθορίστε το χρόνο αναμονής από την εισαγωγή ενός χαρακτήρα ως την εκκίνηση της μετάφρασης. (χιλιοστοδευτερόλεπτα)"
+    "message": "Καθορίστε το χρόνο αναμονής από την εισαγωγή ενός χαρακτήρα ως την εκκίνηση της μετάφρασης. (χιλιοστά δευτερολέπτου)"
   },
   "waitTime2CaptionLabel": {
     "message": "Αν μεταφράζετε πολλές φορές σε σύντομο χρονικό διάστημα, μπορεί να τεθεί εκτός λειτουργίας για λίγο."
@@ -124,6 +178,18 @@
   },
   "styleLabel": {
     "message": "Τεχνοτροπία"
+  },
+  "themeLabel": {
+    "message": "Θέμα"
+  },
+  "themeCaptionLabel": {
+    "message": "Καθορίστε το θέμα χρωμάτων."
+  },
+  "lightLabel": {
+    "message": "Ανοιχτόχρωμο"
+  },
+  "darkLabel": {
+    "message": "Σκούρο"
   },
   "buttonStyleLabel": {
     "message": "Κουμπί μετάφρασης"
@@ -165,136 +231,163 @@
     "message": "Θέση εμφάνισης - Μετατόπιση"
   },
   "panelStyleLabel": {
-    "message": "Translation panel"
+    "message": "Πλαίσιο μεταφράσεων"
   },
   "panelStyleCaptionLabel": {
-    "message": "Specify the style of the translation panel displayed on the web page."
+    "message": "Καθορίστε το στυλ του πλαισίου μετάφρασης που εμφανίζεται στην ιστοσελίδα."
   },
   "widthLabel": {
-    "message": "Width"
+    "message": "Πλάτος"
   },
   "heightLabel": {
-    "message": "Height"
+    "message": "Ύψος"
   },
   "fontSizeLabel": {
     "message": "Μέγεθος γραμματοσειράς"
   },
   "referencePointLabel": {
-    "message": "Display position - Reference point"
+    "message": "Θέση εμφάνισης - Σημείο αναφοράς"
   },
   "bottomSelectedTextLabel": {
-    "message": "Bottom of selected text"
+    "message": "Κάτω από το επιλεγμένο κείμενο"
   },
   "topSelectedTextLabel": {
-    "message": "Top of selected text"
+    "message": "Πάνω από το επιλεγμένο κείμενο"
   },
   "clickedPointLabel": {
-    "message": "Clicked point"
+    "message": "Στο σημείο που έγινε κλικ"
   },
   "displayDirectionLabel": {
-    "message": "Display position - Direction"
+    "message": "Θέση εμφάνισης - Κατεύθυνση"
   },
   "resultFontColorLabel": {
-    "message": "Font color of translation result"
+    "message": "Χρώμα γραμματοσειράς του μεταφρασμένου κειμένου"
   },
   "candidateFontColorLabel": {
-    "message": "Font color of translation candidates"
+    "message": "Χρώμα γραμματοσειράς των υποψηφίων μεταφράσεων"
   },
   "bgColorLabel": {
-    "message": "Background color"
+    "message": "Χρώμα φόντου"
   },
   "otherLabel": {
-    "message": "Other"
+    "message": "Άλλο"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Display option page when updating"
+    "message": "Εμφάνιση της σελίδας επιλογών μετά από ενημέρωση"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+    "message": "Να εμφανίζεται η σελίδα των επιλογών μετά από ενημέρωση του Simple Translate. Αποκτάτε γρήγορα γνώση των περιεχομένων της ενημέρωσης."
   },
   "isDebugModeLabel": {
-    "message": "Enable debug mode"
+    "message": "Ενεργοποίηση εντοπισμού σφαλμάτων"
   },
   "isDebugModeCaptionLabel": {
-    "message": "When debug mode is enabled, the log is output to the debugger."
+    "message": "Όταν έχει ενεργοποιηθεί ο εντοπισμός σφαλμάτων, το περιεχόμενο καταγραφής κατευθύνεται στο πρόγραμμα αποσφαλμάτωσης."
+  },
+  "exportSettingsLabel": {
+    "message": "Εξαγωγή ρυθμίσεων"
+  },
+  "exportSettingsCaptionLabel": {
+    "message": "Αποθηκεύστε τις ρυθμίσεις ως αρχείο json στον υπολογιστή."
+  },
+  "exportButtonLabel": {
+    "message": "Εξαγωγή"
+  },
+  "importSettingsLabel": {
+    "message": "Εισαγωγή Ρυθμίσεων"
+  },
+  "importSettingsCaptionLabel": {
+    "message": "Φόρτωση του αποθηκευμένου στον υπολογιστή αρχείου ρυθμίσεων."
+  },
+  "importButtonLabel": {
+    "message": "Εισαγωγή"
   },
   "resetSettingsLabel": {
-    "message": "Reset settings"
+    "message": "Επαναφορά"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Restore all settings to default."
+    "message": "Επαναφορά αρχικών ρυθμίσεων."
   },
   "resetSettingsButtonLabel": {
-    "message": "Reset"
+    "message": "Επαναφορά"
   },
   "shortcutsLabel": {
-    "message": "Shortcuts"
+    "message": "Συντομεύσεις"
   },
   "keyboardShortcutsLabel": {
-    "message": "Keyboard shortcuts"
+    "message": "Συντομεύσεις πληκτρολογίου"
   },
   "setKeyboardShortCutsMessage": {
-    "message": "Set keyboard shortcuts."
+    "message": "Ορισμός συντομεύσεων πληκτρολογίου."
   },
   "typeShortcutMessage": {
-    "message": "Type a shortcut"
+    "message": "Πληκτρολογήστε μία συντόμευση"
   },
   "typeLetterMessage": {
-    "message": "Type a letter"
+    "message": "Πληκτρολογήστε ένα γράμμα"
   },
   "includeModifierKeysMessage": {
-    "message": "Include either Ctrl or Alt"
+    "message": "Συμπερίληψη το πλήκτρου Ctrl ή Alt"
   },
   "includeMacModifierKeysMessage": {
-    "message": "Include either Command, Ctrl or Alt"
+    "message": "Συμπερίληψη του πλήκτρου Command, Ctrl ή Alt"
   },
   "invalidLetterMessage": {
-    "message": "The letter can not be used"
+    "message": "Αυτό το γράμμα δεν μπορεί να χρησιμοποιηθεί"
   },
   "invalidShortcutMessage": {
-    "message": "The shortcut can not be used"
+    "message": "Η συντόμευση δεν μπορεί να χρησιμοποιηθεί"
   },
   "clear": {
-    "message": "Clear"
+    "message": "Καθάρισμα"
   },
   "reset": {
-    "message": "Reset"
+    "message": "Επαναφορά"
   },
   "informationLabel": {
-    "message": "Information"
+    "message": "Πληροφόρηση"
+  },
+  "backersLabel": {
+    "message": "Υποστηρικτές"
   },
   "licenseLabel": {
-    "message": "License"
+    "message": "Άδεια χρήσης"
   },
   "donationLabel": {
-    "message": "Please make a donation"
+    "message": "Κάντε μια δωρεά"
   },
   "donationCaptionLabel": {
-    "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+    "message": "Ευχαριστούμε που χρησιμοποιείτε το Simple Translate.<br>Η υποστήριξή σας με ενθαρρύνει να συνεχίσω να αναπτύσσω αυτό το πρόσθετο.<br>Αν σας αρέσει το Simple Translate, θα ήμουν ευτυχής αν σκεφτείτε να κάνετε μια δωρεά."
   },
   "amazonTitleLabel": {
     "message": "amazon.co.jp eGift Cards"
   },
+  "sponsorsLabel": {
+    "message": "Χορηγοί"
+  },
   "addonPageLabel": {
-    "message": "Add-on page"
+    "message": "Σελίδα πρόσθετου"
   },
   "extensionPageLabel": {
-    "message": "Extension page"
+    "message": "Σελίδα επέκτασης"
+  },
+  "privacyPolicyLabel": {
+    "message": "Πολιτική απορρήτου"
   },
   "amazonUrl": {
-    "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
+    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
   },
   "addonUrl": {
-    "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
+    "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
-    "message": "Error: Check network connection status."
+    "message": "Σφάλμα: Ελέγξτε την κατάσταση σύνδεσης του δικτύου."
   },
   "unavailableError": {
-    "message": "Error: Service usage limit reached. Please wait a while and try again."
+    "message": "Σφάλμα: Υπέρβαση ορίου χρήσης της υπηρεσίας. Περιμένετε λίγο και δοκιμάστε ξανά."
   },
   "unknownError": {
-    "message": "Error: Unknown error"
+    "message": "Σφάλμα: Άγνωστο λάθος"
   },
   "translatePageMenu": {
     "message": "Μετάφραση της σελίδας"
@@ -306,6 +399,6 @@
     "message": "Μετάφραση του επιλεγμένου συνδέσμου"
   },
   "openPopupDescription": {
-    "message": "Open toolbar popup"
+    "message": "Άνοιγμα του αναδυόμενου παραθύρου της γραμμής εργαλείων"
   }
 }

@@ -4,7 +4,7 @@
   overflow-y: auto;
   word-wrap: break-word;
   background-color: var(--main-bg);
-  margin: 10px;
+  margin: 10px 10px 3px;
 
   p {
     margin: 0;
@@ -33,6 +33,17 @@
       &:hover {
         text-decoration: underline;
       }
+    }
+  }
+
+  .mediaButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 1em;
+    margin-right: 5px;
+    & > * {
+      margin-left: 10px;
     }
   }
 }

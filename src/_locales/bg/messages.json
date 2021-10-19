@@ -8,6 +8,9 @@
   "donateWithPaypalLabel": {
     "message": "Дарете чрез PayPal"
   },
+  "donateLabel": {
+    "message": "Даряване"
+  },
   "enableOnThisPage": {
     "message": "Enable translation on this page"
   },
@@ -21,19 +24,28 @@
     "message": "Преведете тази страница"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "Отваряне в Google Преводач"
   },
   "copyLabel": {
-    "message": "Copy"
+    "message": "Копиране"
   },
   "copiedLabel": {
-    "message": "Copied."
+    "message": "Копирано."
+  },
+  "listenLabel": {
+    "message": "Слушане"
   },
   "targetLangLabel": {
     "message": "Целеви език"
   },
   "langList": {
     "message": "af:Африканс, sq:Албански, am:Амхарски, ar:Арабски, hy:Арменски, az:Азербайджански, eu:Баскски, be:Беларуски, bn:Бенгалски, bs:Босненски, bg:Български, ca:Каталонски, ceb:Себуански, ny:Нянджа, zh-CN:Китайски (КНР), zh-TW:Китайски (Тайван), co:Корсикански, hr:Хърватски, cs:Чешки, da:Датски, nl:Нидерландски, en:Английски, eo:Есперанто, et:Естонски, fi:Фински, fr:Френски, fy:Фризийски, gl:Галисийски, ka:Грузински, de:Немски, el:Гръцки, gu:Гуджаратски, ht:Хаитянски, ha:Хауса, haw:Хавайски, he:Иврит, hi:Хинди, hu:Унгарски, is:Исландски, ig:Игбо, id:Индонезийски, ga:Ирландски, it:Италиански, ja:Японски, jv:Явански, kn:Каннада, kk:Казахски, km:Кхмерски, ky:Киргизки, ko:Корейски, ku:Кюрдски, lo:Лаоски, la:Латински, lv:Латвийски, lt:Литовски, lb:Люксембургски, mk:Македонски, mg:Малгашки, ms:Малайски, ml:Малаялам, mt:Малтийски, mi:Маорски, mr:Маратхи, mn:Монголски, hmn:Монк, my:Бирмански, ne:Непалски, no:Норвежки, fa:Персийски, pl:Полски, pt:Португалски, pa:Панджабски, ps:Пущунски, ro:Румънски, ru:Руски, sm:Самоански, gd:Шотландски Келтски, sr:Сръбски, sn:Шона, sd:Синдхи, si:Синхалски, sk:Словашки, sl:Словенски, so:Сомалийски, sx:Сото, es:Испански, su:Сундански, sw:Суахили, sv:Шведски, tl:Тагалог, tg:Таджикски, ta:Тамилски, te:Телугу, th:Тайски, tr:Турски, uk:Украински, ur:Урду, uz:Узбекски, vi:Виетнамски, cy:Уелски, xh:Кхоса, yi:Идиш, yo:Йоруба, zu:Зулуски"
+  },
+  "allLangLabel": {
+    "message": "All languages"
+  },
+  "recentLangLabel": {
+    "message": "Recent languages"
   },
   "settingsLabel": {
     "message": "Настройки"
@@ -83,8 +95,44 @@
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
   },
+  "disableTranslationLabel": {
+    "message": "Disable translation"
+  },
+  "isDisabledInTextFieldsLabel": {
+    "message": "Disable translation in text fields"
+  },
+  "isDisabledInTextFieldsCaptionLabel": {
+    "message": "Don't display translation button or panel when selecting text in a text field."
+  },
+  "isDisabledInCodeElementLabel": {
+    "message": "Disable translation in code tags"
+  },
+  "isDisabledInCodeElementCaptionLabel": {
+    "message": "Don't display translation button or panel when selecting text in code tag."
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedLabel": {
+    "message": "Translate on modifier key pressed"
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
+    "message": "Only display translation on specified modifier key pressed."
+  },
+  "modifierKeyLabel": {
+    "message": "Modifier Key"
+  },
+  "shiftLabel": {
+    "message": "Shift"
+  },
+  "ctrlLabel": {
+    "message": "Ctrl"
+  },
+  "altLabel": {
+    "message": "Alt"
+  },
+  "cmdLabel": {
+    "message": "Command"
+  },
   "disableUrlListLabel": {
-    "message": "URL list to disable translation"
+    "message": "Списък с URL адреси, за които преводът е изключен"
   },
   "disableUrlListCaptionLabel": {
     "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
@@ -103,6 +151,12 @@
   },
   "secondTargetLangCaptionLabel": {
     "message": "Изберете втория целеви език."
+  },
+  "ignoredDocumentLangLabel": {
+    "message": "Disable translation by lang attribute"
+  },
+  "ignoredDocumentLangCaptionLabel": {
+    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
   },
   "waitTimeLabel": {
     "message": "Waiting time to translate"
@@ -124,6 +178,18 @@
   },
   "styleLabel": {
     "message": "Стил"
+  },
+  "themeLabel": {
+    "message": "Theme"
+  },
+  "themeCaptionLabel": {
+    "message": "Specify the color scheme."
+  },
+  "lightLabel": {
+    "message": "Light"
+  },
+  "darkLabel": {
+    "message": "Dark"
   },
   "buttonStyleLabel": {
     "message": "Бутон за превод"
@@ -171,13 +237,13 @@
     "message": "Определете стила на панела за преводи, показващ се в уебстраницата."
   },
   "widthLabel": {
-    "message": "Широчина"
+    "message": "Ширина"
   },
   "heightLabel": {
-    "message": "Височина"
+    "message": "Висина"
   },
   "fontSizeLabel": {
-    "message": "Размер на шрифта"
+    "message": "Големина на шрифта"
   },
   "referencePointLabel": {
     "message": "Display position - Reference point"
@@ -201,7 +267,7 @@
     "message": "Font color of translation candidates"
   },
   "bgColorLabel": {
-    "message": "Цвят на фона"
+    "message": "Фонов цвят"
   },
   "otherLabel": {
     "message": "Other"
@@ -218,14 +284,32 @@
   "isDebugModeCaptionLabel": {
     "message": "When debug mode is enabled, the log is output to the debugger."
   },
+  "exportSettingsLabel": {
+    "message": "Export settings"
+  },
+  "exportSettingsCaptionLabel": {
+    "message": "Save the settings as a json file on the computer."
+  },
+  "exportButtonLabel": {
+    "message": "Export"
+  },
+  "importSettingsLabel": {
+    "message": "Import Settings"
+  },
+  "importSettingsCaptionLabel": {
+    "message": "Load the settings file saved on the computer."
+  },
+  "importButtonLabel": {
+    "message": "Import"
+  },
   "resetSettingsLabel": {
-    "message": "Reset settings"
+    "message": "Нулиране на настройките"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Restore all settings to default."
+    "message": "Възстановяване на всички настройки до стандартните."
   },
   "resetSettingsButtonLabel": {
-    "message": "Reset"
+    "message": "Нулиране"
   },
   "shortcutsLabel": {
     "message": "Shortcuts"
@@ -255,13 +339,16 @@
     "message": "The shortcut can not be used"
   },
   "clear": {
-    "message": "Clear"
+    "message": "Изчистване"
   },
   "reset": {
-    "message": "Reset"
+    "message": "Нулиране"
   },
   "informationLabel": {
     "message": "Информация"
+  },
+  "backersLabel": {
+    "message": "Backers"
   },
   "licenseLabel": {
     "message": "Лиценз"
@@ -273,28 +360,34 @@
     "message": "Благодаря ви че използвате Семпъл Преводач.<br>Вашата подкрепа би значела много за мен, тъй като ще продължа да разработвам добавката си.<br>Ако харесвате Семпъл Преводач, бих се радвал ако обмислите да дарите."
   },
   "amazonTitleLabel": {
-    "message": "amazon.co.jp eGift Cards"
+    "message": "Карти eGift от amazon.co.jp"
+  },
+  "sponsorsLabel": {
+    "message": "Sponsors"
   },
   "addonPageLabel": {
     "message": "Страница на добавката"
   },
   "extensionPageLabel": {
-    "message": "Extension page"
+    "message": "Страница на разширението"
+  },
+  "privacyPolicyLabel": {
+    "message": "Privacy policy"
   },
   "amazonUrl": {
-    "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
+    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
   },
   "addonUrl": {
-    "message": "https:\/\/addons.mozilla.org\/bg\/firefox\/addon\/simple-translate\/?src=optionpage"
+    "message": "https://addons.mozilla.org/bg/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
-    "message": "Error: Check network connection status."
+    "message": "Грешка: Проверете състоянието на свързаност с мрежата."
   },
   "unavailableError": {
-    "message": "Error: Service usage limit reached. Please wait a while and try again."
+    "message": "Грешка: Употребата на услугата достигна ограничението. Почакайте малко и опитайте пак."
   },
   "unknownError": {
-    "message": "Error: Unknown error"
+    "message": "Грешка: Неизвестна грешка"
   },
   "translatePageMenu": {
     "message": "Преведете тази страница"

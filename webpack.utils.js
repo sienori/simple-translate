@@ -5,6 +5,7 @@
 
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const ZipPlugin = require("zip-webpack-plugin");
 const path = require("path");
 
@@ -40,40 +41,50 @@ const getEntry = (sourceDir = "src") => {
 };
 
 const getCopyPlugins = (browserDir, outputDir = "dev", sourceDir = "src") => [
-  new CopyWebpackPlugin([
-    {
-      from: `${sourceDir}/icons`,
-      to: path.resolve(__dirname, `${outputDir}/${browserDir}/icons`)
-    },
-    {
-      from: `${sourceDir}/_locales`,
-      to: path.resolve(__dirname, `${outputDir}/${browserDir}/_locales`)
-    },
-    {
-      from: `${sourceDir}/manifest-chrome.json`,
-      to: path.resolve(__dirname, `${outputDir}/${browserDir}/manifest.json`)
-    }
-  ])
+  new CopyWebpackPlugin({
+    patterns: [
+      {
+        from: `${sourceDir}/icons`,
+        to: path.resolve(__dirname, `${outputDir}/${browserDir}/icons`)
+      },
+      {
+        from: `${sourceDir}/_locales`,
+        to: path.resolve(__dirname, `${outputDir}/${browserDir}/_locales`)
+      },
+      {
+        from: `${sourceDir}/manifest-chrome.json`,
+        to: path.resolve(__dirname, `${outputDir}/${browserDir}/manifest.json`)
+      }
+    ]
+  })
 ];
 
 const getFirefoxCopyPlugins = (browserDir, outputDir = "dev", sourceDir = "src") => [
-  new CopyWebpackPlugin([
-    {
-      from: `${sourceDir}/icons`,
-      to: path.resolve(__dirname, `${outputDir}/${browserDir}/icons`)
-    },
-    {
-      from: `${sourceDir}/_locales`,
-      to: path.resolve(__dirname, `${outputDir}/${browserDir}/_locales`)
-    },
-    {
-      from: `${sourceDir}/manifest-firefox.json`,
-      to: path.resolve(__dirname, `${outputDir}/${browserDir}/manifest.json`)
-    }
-  ])
+  new CopyWebpackPlugin({
+    patterns: [
+      {
+        from: `${sourceDir}/icons`,
+        to: path.resolve(__dirname, `${outputDir}/${browserDir}/icons`)
+      },
+      {
+        from: `${sourceDir}/_locales`,
+        to: path.resolve(__dirname, `${outputDir}/${browserDir}/_locales`)
+      },
+      {
+        from: `${sourceDir}/manifest-firefox.json`,
+        to: path.resolve(__dirname, `${outputDir}/${browserDir}/manifest.json`)
+      }
+    ]
+  })
 ];
 
-const getZipPlugin = (browserDir, outputDir = "dist") =>
+const getMiniCssExtractPlugin = () => [
+  new MiniCssExtractPlugin({
+    filename: "[name]/[name].css"
+  })
+];
+
+const getZipPlugin = (browserDir, outputDir = "dist", exclude = "") =>
   new ZipPlugin({
     path: path.resolve(__dirname, `${outputDir}`),
     filename: browserDir,
@@ -86,7 +97,8 @@ const getZipPlugin = (browserDir, outputDir = "dist") =>
     },
     zipOptions: {
       forceZip64Format: false
-    }
+    },
+    exclude: exclude
   });
 
 module.exports = {
@@ -94,6 +106,7 @@ module.exports = {
   getOutput,
   getCopyPlugins,
   getFirefoxCopyPlugins,
+  getMiniCssExtractPlugin,
   getZipPlugin,
   getEntry
 };

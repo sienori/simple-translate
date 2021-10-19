@@ -1,9 +1,12 @@
 #inputArea {
+  position: relative;
   margin: 10px;
+
   textarea {
     font: inherit;
     resize: none;
     overflow: auto;
+    color: var(--main-text);
     background-color: var(--main-bg);
 
     box-sizing: border-box;
@@ -16,11 +19,19 @@
     padding: 10px;
     border: solid 1px var(--button);
     border-radius: 2px;
+    outline: none;
     transition: border-color 100ms ease-out;
   }
 
   textarea:hover,
   textarea:focus {
     border-color: var(--highlight);
+  }
+
+  .listen {
+    position: absolute;
+    height: 16px;
+    right: 5px;
+    bottom: 5px;
   }
 }

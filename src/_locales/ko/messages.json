@@ -8,6 +8,9 @@
   "donateWithPaypalLabel": {
     "message": "PayPal로 기부하기"
   },
+  "donateLabel": {
+    "message": "기부하기"
+  },
   "enableOnThisPage": {
     "message": "이 페이지에서 번역 사용"
   },
@@ -29,11 +32,20 @@
   "copiedLabel": {
     "message": "복사됨"
   },
+  "listenLabel": {
+    "message": "듣기"
+  },
   "targetLangLabel": {
     "message": "번역 언어"
   },
   "langList": {
     "message": "af:Afrikaans, sq:Albanian, am:Amharic, ar:Arabic, hy:Armenian, az:Azerbaijani, eu:Basque, be:Belarusian, bn:Bengali, bs:Bosnian, bg:Bulgarian, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Chinese (PRC), zh-TW:Chinese (Taiwan), co:Corsican, hr:Croatian, cs:Czech, da:Danish, nl:Dutch, en:English, eo:Esperanto, et:Estonian, fi:Finnish, fr:French, fy:Frisian, gl:Galician, ka:Georgian, de:German, el:Greek, gu:Gujarati, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesian, ga:Irish, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:한국어, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:Macedonian, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persian, pl:Polish, pt:Portuguese, pa:Punjabi, ps:Pushto, ro:Romanian, ru:Russian, sm:Samoan, gd:Scottish Gaelic, sr:Serbian, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovak, sl:Slovenian, so:Somali, sx:Sotho, es:Spanish, su:Sundanese, sw:Swahili, sv:Swedish, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turkish, uk:Ukrainian, ur:Urdu, uz:Uzbek, vi:Vietnamese, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
+  },
+  "allLangLabel": {
+    "message": "모든 언어"
+  },
+  "recentLangLabel": {
+    "message": "최근 사용한 언어"
   },
   "settingsLabel": {
     "message": "설정"
@@ -83,17 +95,53 @@
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "선택된 텍스트의 언어를 감지해 번역 대상 언어와 일치하면 보조 언어로 번역합니다."
   },
+  "disableTranslationLabel": {
+    "message": "번역 사용 안 함"
+  },
+  "isDisabledInTextFieldsLabel": {
+    "message": "텍스트 필드에서 번역 사용 안 함"
+  },
+  "isDisabledInTextFieldsCaptionLabel": {
+    "message": "텍스트 필드에서 텍스트를 선택할 때 번역 버튼 또는 창 보이지 않기"
+  },
+  "isDisabledInCodeElementLabel": {
+    "message": "코드 태그에서 번역 사용 안 함"
+  },
+  "isDisabledInCodeElementCaptionLabel": {
+    "message": "코드 태그에서 텍스트를 선택할 때 번역 버튼 또는 창 보이지 않기"
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedLabel": {
+    "message": "보조 키가 눌린 경우에만 번역"
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
+    "message": "지정된 보조 키가 눌린 경우에만 번역을 표시합니다."
+  },
+  "modifierKeyLabel": {
+    "message": "보조 키"
+  },
+  "shiftLabel": {
+    "message": "Shift"
+  },
+  "ctrlLabel": {
+    "message": "Ctrl"
+  },
+  "altLabel": {
+    "message": "Alt"
+  },
+  "cmdLabel": {
+    "message": "Command"
+  },
   "disableUrlListLabel": {
-    "message": "번역을 비활성화할 URL 목록"
+    "message": "번역을 사용하지 않을 URL 목록"
   },
   "disableUrlListCaptionLabel": {
-    "message": "페이지 URL이 목록과 일치하면 번역을 비활성화합니다. \"*\" 와일드 카드를 지원합니다."
+    "message": "페이지 URL이 목록과 일치하면 번역을 사용하지 않습니다. \"*\" 와일드 카드를 지원합니다."
   },
   "toolbarLabel": {
     "message": "툴바 팝업"
   },
   "ifChangeSecondLangLabel": {
-    "message": "자동으로 보조 언어로 전환"
+    "message": "보조 언어로 자동 전환"
   },
   "ifChangeSecondLangCaptionLabel": {
     "message": "입력된 언어가 기본 번역 언어일 때 보조 언어로 번역합니다."
@@ -103,6 +151,12 @@
   },
   "secondTargetLangCaptionLabel": {
     "message": "보조 번역 언어를 선택하세요."
+  },
+  "ignoredDocumentLangLabel": {
+    "message": "lang 속성으로 번역 사용 안 함"
+  },
+  "ignoredDocumentLangCaptionLabel": {
+    "message": "페이지의 html 요소에 포함 된 lang 속성이 목록에 일치하는 경우 번역 기능을 사용하지 않습니다. 쉼표로 구분된 언어 태그를 입력하세요."
   },
   "waitTimeLabel": {
     "message": "번역 대기 시간"
@@ -124,6 +178,18 @@
   },
   "styleLabel": {
     "message": "모양"
+  },
+  "themeLabel": {
+    "message": "테마"
+  },
+  "themeCaptionLabel": {
+    "message": "색 구성표를 지정합니다."
+  },
+  "lightLabel": {
+    "message": "밝은 테마"
+  },
+  "darkLabel": {
+    "message": "어두운 테마"
   },
   "buttonStyleLabel": {
     "message": "번역 버튼"
@@ -198,7 +264,7 @@
     "message": "번역 결과의 글꼴 색"
   },
   "candidateFontColorLabel": {
-    "message": "다른 번역의 글꼴 색상"
+    "message": "다른 번역의 글꼴 색"
   },
   "bgColorLabel": {
     "message": "배경색"
@@ -217,6 +283,24 @@
   },
   "isDebugModeCaptionLabel": {
     "message": "디버그 모드가 활성화되면 디버거로 로그가 출력됩니다."
+  },
+  "exportSettingsLabel": {
+    "message": "설정 내보내기"
+  },
+  "exportSettingsCaptionLabel": {
+    "message": "설정을 컴퓨터에 json 파일로 저장합니다."
+  },
+  "exportButtonLabel": {
+    "message": "내보내기"
+  },
+  "importSettingsLabel": {
+    "message": "설정 불러오기"
+  },
+  "importSettingsCaptionLabel": {
+    "message": "컴퓨터에 저장된 설정을 불러옵니다."
+  },
+  "importButtonLabel": {
+    "message": "불러오기"
   },
   "resetSettingsLabel": {
     "message": "설정 초기화"
@@ -263,6 +347,9 @@
   "informationLabel": {
     "message": "정보"
   },
+  "backersLabel": {
+    "message": "후원자들"
+  },
   "licenseLabel": {
     "message": "라이선스"
   },
@@ -275,23 +362,29 @@
   "amazonTitleLabel": {
     "message": "amazon.co.jp eGift 카드"
   },
+  "sponsorsLabel": {
+    "message": "스폰서"
+  },
   "addonPageLabel": {
     "message": "부가 기능 페이지"
   },
   "extensionPageLabel": {
     "message": "확장 프로그램 페이지"
   },
+  "privacyPolicyLabel": {
+    "message": "개인정보처리방침"
+  },
   "amazonUrl": {
-    "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
+    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
   },
   "addonUrl": {
-    "message": "https:\/\/addons.mozilla.org\/ko\/firefox\/addon\/simple-translate\/?src=optionpage"
+    "message": "https://addons.mozilla.org/ko/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
     "message": "오류: 네트워크 연결 상태를 확인하세요."
   },
   "unavailableError": {
-    "message": "오류: 서비스 이용 제한에 도달했습니다. 잠시 후에 다시 시도해주세요."
+    "message": "오류: 서비스 이용 제한에 도달했습니다. 잠시 후 다시 시도해주세요."
   },
   "unknownError": {
     "message": "오류: 알 수 없는 오류"

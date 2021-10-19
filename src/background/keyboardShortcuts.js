@@ -54,7 +54,7 @@ const translatePage = async () => {
 
   const targetLang = getSettings("targetLang");
   const encodedPageUrl = encodeURIComponent(tabUrl);
-  const translationUrl = `https://translate.google.com/translate?hl=${targetLang}&sl=auto&u=${encodedPageUrl}`;
+  const translationUrl = `https://translate.google.com/translate?hl=${targetLang}&tl=${targetLang}&sl=auto&u=${encodedPageUrl}`;
 
   browser.tabs.create({
     url: translationUrl,

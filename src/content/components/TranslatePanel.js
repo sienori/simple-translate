@@ -1,3 +1,4 @@
+import browser from "webextension-polyfill";
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import { getSettings } from "src/settings/settings";
@@ -19,8 +20,52 @@ export default class TranslatePanel extends Component {
       shouldResize: true,
       isOverflow: false
     };
-    this.isFirst = true;
+
+    this.dragOffsets = { x: 0, y: 0 };
+    this.isDragging = false;
   }
+
+  componentDidMount = () => {
+    document.addEventListener("dragstart", this.handleDragStart);
+    document.addEventListener("dragover", this.handleDragOver);
+    document.addEventListener("drop", this.handleDrop);
+  };
+
+  componentWillUnmount = () => {
+    document.removeEventListener("dragstart", this.handleDragStart);
+    document.removeEventListener("dragover", this.handleDragOver);
+    document.removeEventListener("drop", this.handleDrop);
+  };
+
+  handleDragStart = e => {
+    if (e.target.className !== "simple-translate-move") return;
+    this.isDragging = true;
+
+    const rect = document.querySelector(".simple-translate-panel").getBoundingClientRect();
+    this.dragOffsets = {
+      x: e.clientX - rect.left,
+      y: e.clientY - rect.top
+    };
+    e.dataTransfer.setData("text/plain", "");
+  };
+
+  handleDragOver = e => {
+    if (!this.isDragging) return;
+    e.preventDefault();
+    const panel = document.querySelector(".simple-translate-panel");
+    panel.style.top = `${e.clientY - this.dragOffsets.y}px`;
+    panel.style.left = `${e.clientX - this.dragOffsets.x}px`;
+  };
+
+  handleDrop = e => {
+    if (!this.isDragging) return;
+    e.preventDefault();
+    this.isDragging = false;
+
+    const panel = document.querySelector(".simple-translate-panel");
+    panel.style.top = `${e.clientY - this.dragOffsets.y}px`;
+    panel.style.left = `${e.clientX - this.dragOffsets.x}px`;
+  };
 
   calcPosition = () => {
     const maxWidth = parseInt(getSettings("width"));
@@ -118,7 +163,7 @@ export default class TranslatePanel extends Component {
   };
 
   render = () => {
-    const { shouldShow, resultText, candidateText, statusText } = this.props;
+    const { shouldShow, selectedText, currentLang, resultText, candidateText, statusText } = this.props;
     const isError = statusText !== "OK";
     const { width, height } = this.state.shouldResize
       ? { width: parseInt(getSettings("width")), height: parseInt(getSettings("height")) }
@@ -149,17 +194,27 @@ export default class TranslatePanel extends Component {
         style={panelStyles}
       >
         <div className="simple-translate-result-wrapper" ref="wrapper" style={wrapperStyles}>
-          <p className="simple-translate-result" style={resultStyles}>
-            {splitLine(resultText)}
-          </p>
-          <p className="simple-translate-candidate" style={candidateStyles}>
-            {splitLine(candidateText)}
-          </p>
-          {isError && (
-            <p className="simple-translate-error" style={candidateStyles}>
-              {getErrorMessage(statusText)}
+          <div className="simple-translate-move" draggable="true" ref="move"></div>
+          <div className="simple-translate-result-contents">
+            <p className="simple-translate-result" style={resultStyles} dir="auto">
+              {splitLine(resultText)}
             </p>
-          )}
+            <p className="simple-translate-candidate" style={candidateStyles} dir="auto">
+              {splitLine(candidateText)}
+            </p>
+            {isError && (
+              <p className="simple-translate-error" style={candidateStyles}>
+                {getErrorMessage(statusText)}
+                <br />
+                <a
+                  href={`https://translate.google.com/?sl=auto&tl=${currentLang}&text=${encodeURIComponent(selectedText)}`}
+                  target="_blank"
+                >
+                  {browser.i18n.getMessage("openInGoogleLabel")}
+                </a>
+              </p>
+            )}
+          </div>
         </div>
       </div>
     );

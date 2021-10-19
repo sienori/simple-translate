@@ -8,6 +8,9 @@
   "donateWithPaypalLabel": {
     "message": "PayPal ile bağış yapın"
   },
+  "donateLabel": {
+    "message": "Bağış"
+  },
   "enableOnThisPage": {
     "message": "Çeviriyi bu sayfada etkinleştirin"
   },
@@ -29,11 +32,20 @@
   "copiedLabel": {
     "message": "Kopyalandı."
   },
+  "listenLabel": {
+    "message": "Dinle"
+  },
   "targetLangLabel": {
     "message": "Hedef dil"
   },
   "langList": {
     "message": "af:Afrikaanca, sq:Arnavutça, am:Amharca, ar:Arapça, hy:Ermenice, az:Azerice, eu:Baskça, be:Belarusça, bn:Bengalce, bs:Boşnakça, bg:Bulgarca, ca:Katalanca, ceb:Sabuanca, ny:Çevaca, zh-CN:Çince (Çin Halk Cumhuriyeti), zh-TW:Çince (Tayvan), co:Korsikaca, hr:Hırvatça, cs:Çekçe, da:Danimarkaca, nl:Flemenkçe, en:İngilizce, eo:Esperanto, et:Estonca, fi:Fince, fr:Fransızca, fy:Frizce, gl:Galiçyaca, ka:Gürcüce, de:Almanca, el:Yunanca, gu:Guceratça, ht:Haitice, ha:Hausaca, haw:Hawai Dili, he:İbranice, hi:Hintçe, hu:Macarca, is:İzlandaca, ig:İgbo Dili, id:Endonezyaca, ga:İrlandaca, it:İtalyanca, ja:Japonca, jv:Cavaca, kn:Kannada Dili, kk:Kazakça, km:Kmerce, ky:Kırgızca, ko:Korece, ku:Kürtçe, lo:Laoca, la:Latince, lv:Letonca, lt:Litvanca, lb:Lüksemburgca, mk:Makedonca, mg:Malgaşça, ms:Malayca, ml:Malayalamca, mt:Maltaca, mi:Maorice, mr:Marathi, mn:Moğolca, hmn:Monk Dili, my:Birmanca, ne:Nepalce, no:Norveççe, fa:Farsça, pl:Polonyaca, pt:Portekizce, pa:Pencapça, ps:Peştuca, ro:Rumence, ru:Rusça, sm:Samoaca, gd:İskoçça, sr:Sırpça, sn:Shona Dili, sd:Sindhi, si:Seylanca, sk:Slovakça, sl:Slovence, so:Somalice, sx:Sotho Dili, es:İspanyolca, su:Sundaca, sw:Svahili, sv:İsveççe, tl:Tagalogca, tg:Tacikçe, ta:Tamilce, te:Teluguca, th:Tayca, tr:Türkçe, uk:Ukraynaca, ur:Urduca, uz:Özbekçe, vi:Vietnamca, cy:Galce, xh:Xosa Dili, yi:Yidiş, yo:Yoruba Dili, zu:Zuluca"
+  },
+  "allLangLabel": {
+    "message": "Tüm Diller"
+  },
+  "recentLangLabel": {
+    "message": "Recent languages"
   },
   "settingsLabel": {
     "message": "Ayarlar"
@@ -83,6 +95,42 @@
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "Seçili metnin dilini algılar ve varsayılan hedef dille aynıysa, ikinci dile çevirir."
   },
+  "disableTranslationLabel": {
+    "message": "Disable translation"
+  },
+  "isDisabledInTextFieldsLabel": {
+    "message": "Metin alanlarındaki çeviriyi devre dışı bırakın"
+  },
+  "isDisabledInTextFieldsCaptionLabel": {
+    "message": "Bir metin alanında metin seçerken çeviri butonunu veya paneli görüntülemeyin."
+  },
+  "isDisabledInCodeElementLabel": {
+    "message": "Disable translation in code tags"
+  },
+  "isDisabledInCodeElementCaptionLabel": {
+    "message": "Don't display translation button or panel when selecting text in code tag."
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedLabel": {
+    "message": "Translate on modifier key pressed"
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
+    "message": "Only display translation on specified modifier key pressed."
+  },
+  "modifierKeyLabel": {
+    "message": "Modifier Key"
+  },
+  "shiftLabel": {
+    "message": "Shift"
+  },
+  "ctrlLabel": {
+    "message": "Ctrl"
+  },
+  "altLabel": {
+    "message": "Alt"
+  },
+  "cmdLabel": {
+    "message": "Command"
+  },
   "disableUrlListLabel": {
     "message": "Çeviriyi devre dışı bırakmak için URL listesi"
   },
@@ -104,6 +152,12 @@
   "secondTargetLangCaptionLabel": {
     "message": "İkinci hedef dilini seçin."
   },
+  "ignoredDocumentLangLabel": {
+    "message": "Disable translation by lang attribute"
+  },
+  "ignoredDocumentLangCaptionLabel": {
+    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
+  },
   "waitTimeLabel": {
     "message": "Çevirmek için bekleme süresi"
   },
@@ -124,6 +178,18 @@
   },
   "styleLabel": {
     "message": "Biçim"
+  },
+  "themeLabel": {
+    "message": "Theme"
+  },
+  "themeCaptionLabel": {
+    "message": "Specify the color scheme."
+  },
+  "lightLabel": {
+    "message": "Light"
+  },
+  "darkLabel": {
+    "message": "Dark"
   },
   "buttonStyleLabel": {
     "message": "Çeviri butonu"
@@ -218,6 +284,24 @@
   "isDebugModeCaptionLabel": {
     "message": "Hata ayıklama modu etkin olduğunda, sistem günlüğü hata ayıklayıcısına verilir."
   },
+  "exportSettingsLabel": {
+    "message": "Export settings"
+  },
+  "exportSettingsCaptionLabel": {
+    "message": "Save the settings as a json file on the computer."
+  },
+  "exportButtonLabel": {
+    "message": "Export"
+  },
+  "importSettingsLabel": {
+    "message": "Import Settings"
+  },
+  "importSettingsCaptionLabel": {
+    "message": "Load the settings file saved on the computer."
+  },
+  "importButtonLabel": {
+    "message": "Import"
+  },
   "resetSettingsLabel": {
     "message": "Ayarları sıfırla"
   },
@@ -263,6 +347,9 @@
   "informationLabel": {
     "message": "Bilgi"
   },
+  "backersLabel": {
+    "message": "Destekleyenler"
+  },
   "licenseLabel": {
     "message": "Lisans"
   },
@@ -275,17 +362,23 @@
   "amazonTitleLabel": {
     "message": "amazon.co.jp eGift Cards"
   },
+  "sponsorsLabel": {
+    "message": "Sponsors"
+  },
   "addonPageLabel": {
     "message": "Eklenti sayfası"
   },
   "extensionPageLabel": {
     "message": "Uzantı sayfası"
   },
+  "privacyPolicyLabel": {
+    "message": "Privacy policy"
+  },
   "amazonUrl": {
-    "message": "https:\/\/www.amazon.co.jp\/dp\/B004N3APGO?language=en_US"
+    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
   },
   "addonUrl": {
-    "message": "https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/simple-translate\/?src=optionpage"
+    "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
     "message": "Hata: Ağ bağlantısı durumunu kontrol edin."

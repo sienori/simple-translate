@@ -81,7 +81,7 @@ function translateText(tab) {
 function translatePage(info, tab) {
   const targetLang = getSettings("targetLang");
   const encodedPageUrl = encodeURIComponent(info.pageUrl);
-  const translationUrl = `https://translate.google.com/translate?hl=${targetLang}&sl=auto&u=${encodedPageUrl}`;
+  const translationUrl = `https://translate.google.com/translate?hl=${targetLang}&tl=${targetLang}&sl=auto&u=${encodedPageUrl}`;
 
   browser.tabs.create({
     url: translationUrl,
@@ -93,7 +93,7 @@ function translatePage(info, tab) {
 function translateLink(info, tab) {
   const targetLang = getSettings("targetLang");
   const encodedLinkUrl = encodeURIComponent(info.linkUrl);
-  const translationUrl = `https://translate.google.com/translate?hl=${targetLang}&sl=auto&u=${encodedLinkUrl}`;
+  const translationUrl = `https://translate.google.com/translate?hl=${targetLang}&tl=${targetLang}&sl=auto&u=${encodedLinkUrl}`;
 
   browser.tabs.create({
     url: translationUrl,

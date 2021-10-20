@@ -7,7 +7,7 @@ body {
   font-family: "Segoe UI", "San Francisco", "Ubuntu", "Fira Sans", "Roboto", "Arial", "Helvetica",
     sans-serif;
   font-size: 13px;
-  width: 348px;
+  min-width: 348px;
   overflow: hidden;
   background-color: var(--main-bg);
 

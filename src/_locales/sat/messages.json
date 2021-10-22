@@ -108,16 +108,16 @@
     "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱠᱚᱰ ᱴᱭᱟᱜᱽ ᱠᱚ ᱨᱮ ᱰᱤᱥᱟᱵᱞ ᱢᱮ"
   },
   "isDisabledInCodeElementCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in code tag."
+    "message": "ᱠᱳᱰ ᱴᱭᱟᱜᱽ ᱨᱮ ᱪᱤᱠᱤ ᱪᱚᱭᱚᱱ ᱡᱷᱚᱜ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱚᱴᱚᱱ ᱟᱨ ᱯᱭᱟᱱᱮᱞ ᱟᱞᱚᱢ ᱫᱮᱠᱷᱟᱣᱟ ᱾"
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Translate on modifier key pressed"
+    "message": "ᱢᱚᱰᱤᱯᱷᱟᱭᱟᱨ ᱪᱟᱹᱵᱤ ᱚᱛᱟᱠᱟᱱ ᱨᱮ ᱛᱚᱨᱡᱚᱢᱟᱭ ᱢᱮ"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
     "message": "Only display translation on specified modifier key pressed."
   },
   "modifierKeyLabel": {
-    "message": "Modifier Key"
+    "message": "ᱢᱚᱰᱤᱯᱷᱟᱭᱟᱨ ᱪᱟᱹᱵᱤ"
   },
   "shiftLabel": {
     "message": "Shift"

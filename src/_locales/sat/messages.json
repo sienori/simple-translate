@@ -81,13 +81,13 @@
     "message": "Display the translation button to open the panel when clicked."
   },
   "dontshowbuttonlabel": {
-    "message": "Don't display button or panel"
+    "message": "ᱵᱚᱴᱚᱱ ᱟᱨ ᱯᱭᱟᱱᱮᱞ ᱟᱞᱚᱢ ᱫᱮᱠᱷᱟᱣᱟ"
   },
   "dontshowbuttonCaptionlabel": {
-    "message": "Don't display the translation button or the translation panel."
+    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱵᱚᱴᱚᱱ ᱟᱨ ᱛᱚᱨᱡᱚᱢᱟ ᱯᱭᱟᱱᱮᱞ ᱟᱞᱚᱢ ᱫᱮᱠᱷᱟᱣᱟ ᱾"
   },
   "ifCheckLangLabel": {
-    "message": "Do not display the button if translation is not required"
+    "message": "ᱡᱩᱫᱤ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱟᱝ ᱛᱟᱦᱮᱱ ᱠᱷᱟᱱ ᱵᱚᱴᱚᱱ ᱟᱞᱚᱢ ᱫᱮᱠᱷᱟᱣᱟ"
   },
   "ifCheckLangCaptionLabel": {
     "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
@@ -96,16 +96,16 @@
     "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
   },
   "disableTranslationLabel": {
-    "message": "Disable translation"
+    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱰᱤᱥᱟᱵᱞ"
   },
   "isDisabledInTextFieldsLabel": {
-    "message": "Disable translation in text fields"
+    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱪᱤᱠᱤ ᱴᱷᱟᱶ ᱠᱚ ᱨᱮ ᱰᱤᱥᱟᱵᱞ ᱢᱮ"
   },
   "isDisabledInTextFieldsCaptionLabel": {
     "message": "Don't display translation button or panel when selecting text in a text field."
   },
   "isDisabledInCodeElementLabel": {
-    "message": "Disable translation in code tags"
+    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱠᱚᱰ ᱴᱭᱟᱜᱽ ᱠᱚ ᱨᱮ ᱰᱤᱥᱟᱵᱞ ᱢᱮ"
   },
   "isDisabledInCodeElementCaptionLabel": {
     "message": "Don't display translation button or panel when selecting text in code tag."

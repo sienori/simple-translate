@@ -138,7 +138,7 @@
     "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
   },
   "toolbarLabel": {
-    "message": "Toolbar popup"
+    "message": "ᱴᱩᱞᱵᱟᱨ ᱯᱚᱯᱚᱯ"
   },
   "ifChangeSecondLangLabel": {
     "message": "Automatically switch to the second language"

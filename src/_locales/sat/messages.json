@@ -54,13 +54,13 @@
     "message": "ᱥᱟᱫᱷᱟᱨᱚᱱ"
   },
   "targetLangCaptionLabel": {
-    "message": "Select the default target language."
+    "message": "ᱰᱤᱯᱷᱚᱞᱴ ᱡᱚᱥ ᱯᱟᱹᱨᱥᱤ ᱪᱚᱭᱚᱱ ᱢᱮ ᱾"
   },
   "webPageLabel": {
-    "message": "Web page"
+    "message": "ᱣᱮᱵᱽ ᱥᱟᱦᱴᱟ"
   },
   "ifShowCandidateLabel": {
-    "message": "Show translation candidates"
+    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱵᱷᱟᱹᱜᱤᱫᱟᱹᱨ ᱠᱚ ᱫᱷᱮᱠᱟᱣ"
   },
   "ifShowCandidateCaptionLabel": {
     "message": "Show multiple translation candidates when a single word is translated."
@@ -69,13 +69,13 @@
     "message": "Behavior when selecting text"
   },
   "ifAutoTranslateLabel": {
-    "message": "Display translation panel"
+    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱯᱭᱟᱱᱮᱞ ᱫᱷᱮᱠᱟᱣ"
   },
   "ifAutoTranslateCaptionLabel": {
     "message": "Directly display the translation panel without displaying the button."
   },
   "ifShowButtonLabel": {
-    "message": "Display translation button"
+    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱵᱚᱴᱚᱱ ᱫᱮᱠᱷᱟᱣ"
   },
   "ifShowButtonCaptionLabel": {
     "message": "Display the translation button to open the panel when clicked."

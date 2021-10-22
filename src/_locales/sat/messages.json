@@ -141,16 +141,16 @@
     "message": "ᱴᱩᱞᱵᱟᱨ ᱯᱚᱯᱚᱯ"
   },
   "ifChangeSecondLangLabel": {
-    "message": "Automatically switch to the second language"
+    "message": "ᱟᱡᱛᱮ ᱥᱣᱤᱪᱚᱜᱼᱟ ᱫᱚᱥᱟᱨ ᱯᱟᱹᱨᱥᱤ ᱛᱮ"
   },
   "ifChangeSecondLangCaptionLabel": {
     "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
   },
   "secondTargetLangLabel": {
-    "message": "Second language"
+    "message": "ᱫᱚᱥᱟᱨ ᱯᱟᱹᱨᱥᱤ"
   },
   "secondTargetLangCaptionLabel": {
-    "message": "Select the second target language."
+    "message": "ᱫᱚᱥᱟᱨ ᱡᱚᱥ ᱯᱟᱹᱨᱥᱤ ᱪᱚᱭᱚᱱ ᱢᱮ ᱾"
   },
   "ignoredDocumentLangLabel": {
     "message": "Disable translation by lang attribute"
@@ -264,22 +264,22 @@
     "message": "Font color of translation result"
   },
   "candidateFontColorLabel": {
-    "message": "Font color of translation candidates"
+    "message": "ᱯᱷᱚᱸᱴ ᱨᱚᱝ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱷᱟᱹᱜᱤᱫᱟᱹᱨ ᱠᱚ ᱞᱟᱹᱜᱤᱫ"
   },
   "bgColorLabel": {
-    "message": "Background color"
+    "message": "ᱚᱱᱚᱰ ᱨᱚᱝ"
   },
   "otherLabel": {
-    "message": "Other"
+    "message": "ᱮᱴᱟᱜ"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Display option page when updating"
+    "message": "ᱚᱯᱰᱮᱴᱚᱜ ᱡᱷᱚᱜ ᱚᱯᱥᱚᱱ ᱥᱟᱦᱴᱟ ᱫᱮᱠᱷᱟᱣ"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
     "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
   },
   "isDebugModeLabel": {
-    "message": "Enable debug mode"
+    "message": "ᱰᱮᱵᱩᱜᱽ ᱢᱚᱰ ᱮᱱᱟᱵᱟᱹᱞ ᱢᱮ"
   },
   "isDebugModeCaptionLabel": {
     "message": "When debug mode is enabled, the log is output to the debugger."

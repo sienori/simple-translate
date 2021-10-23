@@ -168,31 +168,31 @@
     "message": "If you translate it many times in a short time, it may become unusable for a while."
   },
   "menuLabel": {
-    "message": "Context menu"
+    "message": "ᱥᱟᱛᱟᱢ ᱢᱮᱱᱩ"
   },
   "ifShowMenuLabel": {
-    "message": "Display the context menu"
+    "message": "ᱥᱟᱛᱟᱢ ᱢᱮᱱᱩ ᱫᱮᱠᱷᱟᱣ ᱢᱮ"
   },
   "ifShowMenuCaptionLabel": {
     "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
   },
   "styleLabel": {
-    "message": "Style"
+    "message": "ᱰᱷᱚᱝ"
   },
   "themeLabel": {
-    "message": "Theme"
+    "message": "ᱛᱷᱤᱢ"
   },
   "themeCaptionLabel": {
     "message": "Specify the color scheme."
   },
   "lightLabel": {
-    "message": "Light"
+    "message": "ᱦᱟᱹᱞᱠᱟᱹ"
   },
   "darkLabel": {
-    "message": "Dark"
+    "message": "ᱜᱟᱰ"
   },
   "buttonStyleLabel": {
-    "message": "Translation button"
+    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱵᱚᱴᱚᱱ"
   },
   "buttonStyleCaptionLabel": {
     "message": "Specify the style of the translation button displayed on the web page."

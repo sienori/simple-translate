@@ -195,13 +195,13 @@
     "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱵᱚᱴᱚᱱ"
   },
   "buttonStyleCaptionLabel": {
-    "message": "Specify the style of the translation button displayed on the web page."
+    "message": "ᱣᱮᱵᱽ ᱨᱮ ᱫᱮᱠᱷᱟᱣᱟᱱ ᱞᱟᱹᱜᱤᱫ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱚᱴᱚᱱ ᱰᱷᱚᱝ ᱴᱷᱟᱹᱣᱠᱟᱹᱭ ᱢᱮ ᱾"
   },
   "buttonSizeLabel": {
-    "message": "Size"
+    "message": "ᱟᱠᱟᱨ"
   },
   "buttonPositionLabel": {
-    "message": "Display position"
+    "message": "ᱯᱚᱡᱤᱥᱚᱱ ᱫᱮᱠᱷᱟᱣ"
   },
   "topRightLabel": {
     "message": "Top right"
@@ -216,25 +216,25 @@
     "message": "Bottom left"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "ᱪᱚᱴ"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "ᱞᱟᱛᱟᱨ"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "ᱞᱮᱝᱜᱟ"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "ᱡᱚᱡᱚᱢ"
   },
   "positionOffsetLabel": {
     "message": "Display position - Offset"
   },
   "panelStyleLabel": {
-    "message": "Translation panel"
+    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱯᱭᱟᱱᱮᱞ"
   },
   "panelStyleCaptionLabel": {
-    "message": "Specify the style of the translation panel displayed on the web page."
+    "message": "ᱣᱮᱵᱽ ᱨᱮ ᱫᱮᱠᱷᱟᱣᱟᱱ ᱞᱟᱹᱜᱤᱫ ᱛᱚᱨᱡᱚᱢᱟ ᱯᱭᱟᱱᱮᱞ ᱰᱷᱚᱝ ᱴᱷᱟᱹᱣᱠᱟᱹᱭ ᱢᱮ ᱾"
   },
   "widthLabel": {
     "message": "Width"
@@ -243,7 +243,7 @@
     "message": "Height"
   },
   "fontSizeLabel": {
-    "message": "Font size"
+    "message": "ᱯᱷᱚᱸᱴ ᱟᱠᱟᱨ"
   },
   "referencePointLabel": {
     "message": "Display position - Reference point"
@@ -252,16 +252,16 @@
     "message": "Bottom of selected text"
   },
   "topSelectedTextLabel": {
-    "message": "Top of selected text"
+    "message": "ᱪᱚᱴ ᱪᱚᱭᱚᱱᱟᱱ ᱚᱱᱚᱞ "
   },
   "clickedPointLabel": {
-    "message": "Clicked point"
+    "message": "ᱯᱚᱮᱸᱴ ᱚᱛᱟᱠᱟᱱᱟ"
   },
   "displayDirectionLabel": {
     "message": "Display position - Direction"
   },
   "resultFontColorLabel": {
-    "message": "Font color of translation result"
+    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱨᱮᱡᱚᱞᱴ ᱞᱟᱹᱜᱤᱫ ᱯᱷᱚᱸᱴ ᱨᱚᱝ"
   },
   "candidateFontColorLabel": {
     "message": "ᱯᱷᱚᱸᱴ ᱨᱚᱝ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱷᱟᱹᱜᱤᱫᱟᱹᱨ ᱠᱚ ᱞᱟᱹᱜᱤᱫ"
@@ -285,13 +285,13 @@
     "message": "When debug mode is enabled, the log is output to the debugger."
   },
   "exportSettingsLabel": {
-    "message": "Export settings"
+    "message": "ᱥᱮᱴᱤᱝ ᱮᱠᱥᱯᱚᱨᱴ ᱢᱮ"
   },
   "exportSettingsCaptionLabel": {
     "message": "Save the settings as a json file on the computer."
   },
   "exportButtonLabel": {
-    "message": "Export"
+    "message": "ᱨᱚᱯᱛᱟᱹᱱᱤ"
   },
   "importSettingsLabel": {
     "message": "Import Settings"

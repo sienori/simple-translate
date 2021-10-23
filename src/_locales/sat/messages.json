@@ -144,7 +144,7 @@
     "message": "ᱟᱡᱛᱮ ᱥᱣᱤᱪᱚᱜᱼᱟ ᱫᱚᱥᱟᱨ ᱯᱟᱹᱨᱥᱤ ᱛᱮ"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+    "message": "ᱟᱹᱢᱫᱟᱹᱱᱤ ᱚᱱᱚᱞ ᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱪᱤᱸᱦᱟᱹᱣᱟ, ᱟᱨ ᱡᱩᱫᱤ ᱱᱚᱣᱟ ᱰᱤᱯᱷᱚᱞᱴ ᱡᱚᱥ ᱯᱟᱹᱨᱥᱤ ᱥᱟᱶ ᱢᱤᱫ ᱜᱮ ᱠᱷᱟᱱᱫᱚ, ᱫᱚᱥᱟᱨ ᱯᱟᱹᱨᱥᱤ ᱛᱮ ᱛᱚᱨᱡᱚᱢᱟᱭ ᱢᱮ ᱾"
   },
   "secondTargetLangLabel": {
     "message": "ᱫᱚᱥᱟᱨ ᱯᱟᱹᱨᱥᱤ"
@@ -159,7 +159,7 @@
     "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
   },
   "waitTimeLabel": {
-    "message": "Waiting time to translate"
+    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱞᱟᱹᱜᱤᱫ ᱚᱠᱛᱚ ᱛᱟᱹᱝᱜᱤᱭ ᱢᱮ"
   },
   "waitTimeCaptionLabel": {
     "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"

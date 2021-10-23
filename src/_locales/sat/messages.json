@@ -18,7 +18,7 @@
     "message": "ᱱᱚᱣᱟ ᱥᱟᱦᱴᱟ ᱨᱮ ᱛᱚᱨᱡᱚᱢᱟ ᱰᱤᱥᱟᱵᱞ ᱢᱮ"
   },
   "initialTextArea": {
-    "message": "ᱪᱤᱠᱤ ᱵᱚᱞᱚᱭ ᱢᱮ"
+    "message": "ᱚᱱᱚᱞ ᱵᱚᱞᱚᱭ ᱢᱮ"
   },
   "showLink": {
     "message": "ᱱᱚᱣᱟ ᱥᱟᱦᱴᱟ ᱛᱚᱨᱡᱚᱢᱟᱭ ᱢᱮ"
@@ -291,25 +291,25 @@
     "message": "Save the settings as a json file on the computer."
   },
   "exportButtonLabel": {
-    "message": "ᱨᱚᱯᱛᱟᱹᱱᱤ"
+    "message": "ᱮᱠᱥᱯᱚᱨᱴ"
   },
   "importSettingsLabel": {
-    "message": "Import Settings"
+    "message": "ᱥᱮᱴᱤᱝ ᱤᱢᱯᱚᱨᱴ ᱢᱮ"
   },
   "importSettingsCaptionLabel": {
     "message": "Load the settings file saved on the computer."
   },
   "importButtonLabel": {
-    "message": "Import"
+    "message": "ᱤᱢᱯᱚᱨᱴ"
   },
   "resetSettingsLabel": {
-    "message": "Reset settings"
+    "message": "ᱥᱟᱡᱟᱣ ᱠᱚ ᱫᱚᱦᱲᱟ ᱥᱟᱡᱟᱣ ᱢᱮ"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Restore all settings to default."
+    "message": "ᱰᱤᱯᱷᱚᱞᱴ ᱨᱮ ᱥᱟᱱᱟᱢ ᱥᱟᱡᱟᱣ ᱠᱚ ᱨᱤᱥᱴᱚᱨ ᱢᱮ ᱾"
   },
   "resetSettingsButtonLabel": {
-    "message": "Reset"
+    "message": "ᱨᱤᱥᱮᱴ"
   },
   "shortcutsLabel": {
     "message": "Shortcuts"
@@ -342,7 +342,7 @@
     "message": "Clear"
   },
   "reset": {
-    "message": "Reset"
+    "message": "ᱨᱤᱥᱮᱴ"
   },
   "informationLabel": {
     "message": "Information"
@@ -399,6 +399,6 @@
     "message": "Translate selected link"
   },
   "openPopupDescription": {
-    "message": "Open toolbar popup"
+    "message": "ᱴᱩᱞᱵᱟᱨ ᱯᱚᱯᱚᱯ ᱡᱷᱤᱡᱽ ᱢᱮ"
   }
 }

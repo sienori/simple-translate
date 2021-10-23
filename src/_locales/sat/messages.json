@@ -45,7 +45,7 @@
     "message": "ᱥᱟᱱᱟᱢ ᱯᱟᱹᱨᱥᱤ ᱠᱚ"
   },
   "recentLangLabel": {
-    "message": "Recent languages"
+    "message": "ᱦᱟᱹᱞᱤᱦᱟᱹᱞᱤ ᱯᱟᱹᱨᱥᱤ ᱠᱚ"
   },
   "settingsLabel": {
     "message": "ᱥᱟᱡᱟᱣ ᱠᱚ"
@@ -63,7 +63,7 @@
     "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱵᱷᱟᱹᱜᱤᱫᱟᱹᱨ ᱠᱚ ᱫᱷᱮᱠᱟᱣ"
   },
   "ifShowCandidateCaptionLabel": {
-    "message": "Show multiple translation candidates when a single word is translated."
+    "message": "ᱢᱤᱫ ᱢᱤᱫᱴᱤᱡ ᱜᱟᱱ ᱟᱹᱲᱟᱹ ᱛᱚᱨᱡᱚᱢᱟᱜ ᱡᱷᱚᱜ ᱵᱟᱹᱲᱛᱤ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱷᱟᱹᱜᱤᱫᱟᱹᱨ ᱫᱮᱠᱷᱟᱣ ᱾"
   },
   "whenSelectTextLabel": {
     "message": "Behavior when selecting text"
@@ -72,7 +72,7 @@
     "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱯᱭᱟᱱᱮᱞ ᱫᱷᱮᱠᱟᱣ"
   },
   "ifAutoTranslateCaptionLabel": {
-    "message": "Directly display the translation panel without displaying the button."
+    "message": "ᱵᱤᱱ ᱫᱮᱠᱷᱟᱣ ᱛᱮ ᱵᱚᱴᱚᱱ ᱥᱚᱡᱷᱮ ᱛᱚᱨᱡᱚᱢᱟ ᱯᱭᱟᱱᱮᱞ ᱫᱮᱠᱷᱟᱣ ᱾"
   },
   "ifShowButtonLabel": {
     "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱵᱚᱴᱚᱱ ᱫᱮᱠᱷᱟᱣ"

@@ -90,10 +90,10 @@
     "message": "ᱡᱩᱫᱤ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱟᱝ ᱛᱟᱦᱮᱱ ᱠᱷᱟᱱ ᱵᱚᱴᱚᱱ ᱟᱞᱚᱢ ᱫᱮᱠᱷᱟᱣᱟ"
   },
   "ifCheckLangCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+    "message": "ᱪᱚᱭᱚᱱᱟᱱ ᱚᱱᱚᱞ ᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱪᱤᱸᱦᱟᱹᱣᱟ, ᱟᱨ ᱡᱩᱫᱤ ᱱᱚᱣᱟ ᱡᱚᱥ ᱯᱟᱹᱨᱥᱤ ᱥᱟᱶ ᱢᱤᱫ ᱜᱮ ᱠᱷᱟᱱᱫᱚ, ᱵᱚᱴᱴᱚᱱ ᱵᱟᱝ ᱧᱮᱞᱧᱟᱢᱚᱜᱼᱟ ᱾"
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+    "message": "ᱪᱚᱭᱚᱱᱟᱱ ᱚᱱᱚᱞ ᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱪᱤᱸᱦᱟᱹᱣᱟ, ᱟᱨ ᱡᱩᱫᱤ ᱱᱚᱣᱟ ᱰᱤᱯᱷᱚᱞᱴ ᱡᱚᱥ ᱯᱟᱹᱨᱥᱤ ᱥᱟᱶ ᱢᱤᱫ ᱜᱮ ᱠᱷᱟᱱᱫᱚ, ᱫᱚᱥᱟᱨ ᱯᱟᱹᱨᱥᱤ ᱛᱮ ᱛᱚᱨᱡᱚᱢᱟᱭ ᱢᱮ ᱾"
   },
   "disableTranslationLabel": {
     "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱰᱤᱥᱟᱵᱞ"
@@ -132,7 +132,7 @@
     "message": "Command"
   },
   "disableUrlListLabel": {
-    "message": "URL list to disable translation"
+    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱰᱤᱥᱟᱵᱞ ᱞᱟᱹᱜᱤᱫ URL ᱥᱩᱪᱤ"
   },
   "disableUrlListCaptionLabel": {
     "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."

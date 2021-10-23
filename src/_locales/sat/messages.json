@@ -102,7 +102,7 @@
     "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱪᱤᱠᱤ ᱴᱷᱟᱶ ᱠᱚ ᱨᱮ ᱰᱤᱥᱟᱵᱞ ᱢᱮ"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in a text field."
+    "message": "ᱪᱤᱠᱤ ᱢᱤᱫ ᱪᱤᱠᱤ ᱴᱷᱟᱶ ᱨᱮ ᱪᱚᱭᱚᱱ ᱡᱷᱚᱜ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱚᱴᱚᱱ ᱟᱨ ᱯᱭᱟᱱᱮᱞ ᱟᱞᱚᱢ ᱫᱮᱠᱷᱟᱣᱟ ᱾"
   },
   "isDisabledInCodeElementLabel": {
     "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱠᱚᱰ ᱴᱭᱟᱜᱽ ᱠᱚ ᱨᱮ ᱰᱤᱥᱟᱵᱞ ᱢᱮ"
@@ -114,7 +114,7 @@
     "message": "ᱢᱚᱰᱤᱯᱷᱟᱭᱟᱨ ᱪᱟᱹᱵᱤ ᱚᱛᱟᱠᱟᱱ ᱨᱮ ᱛᱚᱨᱡᱚᱢᱟᱭ ᱢᱮ"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Only display translation on specified modifier key pressed."
+    "message": "ᱱᱤᱨᱫᱷᱤᱥᱴ ᱢᱚᱰᱤᱯᱷᱟᱭᱟᱨ ᱠᱤ ᱯᱨᱮᱥᱰ ᱨᱮ ᱮᱠᱟᱞ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱚᱴᱚᱱ ᱫᱮᱠᱷᱟᱣ ᱾"
   },
   "modifierKeyLabel": {
     "message": "ᱢᱚᱰᱤᱯᱷᱟᱭᱟᱨ ᱪᱟᱹᱵᱤ"

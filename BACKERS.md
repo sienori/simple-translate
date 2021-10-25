@@ -46,3 +46,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - Sebastian Fohler
 - Olzhas Suleimen
 - Allen.YL
+- Vladimir Chupin

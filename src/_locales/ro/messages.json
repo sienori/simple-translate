@@ -105,19 +105,19 @@
     "message": "Nu afișa butonul sau panoul de traducere la selectarea textului într-un câmp text."
   },
   "isDisabledInCodeElementLabel": {
-    "message": "Disable translation in code tags"
+    "message": "Dezactivați traducerea în etichetele de cod"
   },
   "isDisabledInCodeElementCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in code tag."
+    "message": "Nu se afișează butonul sau panoul de traducere la selectarea textului din eticheta codului."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Translate on modifier key pressed"
+    "message": "Tradu la tasta modificator apăsată"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Only display translation on specified modifier key pressed."
+    "message": "Afișează traducerea doar pe tasta de modificator specificată."
   },
   "modifierKeyLabel": {
-    "message": "Modifier Key"
+    "message": "Tasta de modificator"
   },
   "shiftLabel": {
     "message": "Shift"
@@ -129,7 +129,7 @@
     "message": "Alt"
   },
   "cmdLabel": {
-    "message": "Command"
+    "message": "Comandă"
   },
   "disableUrlListLabel": {
     "message": "Lista URL-urilor pentru care traducerea va fi dezactivată"
@@ -153,10 +153,10 @@
     "message": "Selectează a doua limbă țintă."
   },
   "ignoredDocumentLangLabel": {
-    "message": "Disable translation by lang attribute"
+    "message": "Dezactivează traducerea după atributul limbii"
   },
   "ignoredDocumentLangCaptionLabel": {
-    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
+    "message": "Dezactivează traducerea în cazul în care atributul limbii din elementul html al paginii se potrivește cu lista. Introduceți tag-uri separate prin virgulă."
   },
   "waitTimeLabel": {
     "message": "Timpul de așteptare pentru traducere"
@@ -285,22 +285,22 @@
     "message": "Când modul de depanare este activat, jurnalizarea va fi scrisă in depanator."
   },
   "exportSettingsLabel": {
-    "message": "Export settings"
+    "message": "Exportă setările"
   },
   "exportSettingsCaptionLabel": {
-    "message": "Save the settings as a json file on the computer."
+    "message": "Salvați setările ca fișier json pe computer."
   },
   "exportButtonLabel": {
-    "message": "Export"
+    "message": "Exportare"
   },
   "importSettingsLabel": {
-    "message": "Import Settings"
+    "message": "Importă setări"
   },
   "importSettingsCaptionLabel": {
-    "message": "Load the settings file saved on the computer."
+    "message": "Încărcați fișierul de setări salvat pe calculator."
   },
   "importButtonLabel": {
-    "message": "Import"
+    "message": "Importare"
   },
   "resetSettingsLabel": {
     "message": "Resetare setări"

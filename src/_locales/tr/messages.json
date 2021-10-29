@@ -261,7 +261,7 @@
     "message": "Ekran konumu - Yön"
   },
   "resultFontColorLabel": {
-    "message": "Çeviri sonucunun yazı tipi rengi"
+    "message": "Paneldeki çevrilmiş metnin yazı tipi rengi"
   },
   "candidateFontColorLabel": {
     "message": "Çeviri adaylarının yazı tipi rengi"

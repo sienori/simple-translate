@@ -60,10 +60,10 @@
     "message": "İnternet sayfası"
   },
   "ifShowCandidateLabel": {
-    "message": "Çeviri önerilerini göster"
+    "message": "Kelimenin diğer anlamlarını da göster"
   },
   "ifShowCandidateCaptionLabel": {
-    "message": "Tek bir kelime çevrildiğinde çoklu çeviri önerilerini göster."
+    "message": "Çevirmek için tek kelime seçildiğinde o kelimenin mevcut olan birden fazla anlamını da göster."
   },
   "whenSelectTextLabel": {
     "message": "Metin seçerken davranış"
@@ -267,7 +267,7 @@
     "message": "Çeviri adaylarının yazı tipi rengi"
   },
   "bgColorLabel": {
-    "message": "Arka plan rengi"
+    "message": "Çeviri panelinin arka plan rengi"
   },
   "otherLabel": {
     "message": "Diğer"

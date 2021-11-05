@@ -135,10 +135,10 @@
     "message": "Bu URL'lerde çeviriyi devre dışı bırak"
   },
   "disableUrlListCaptionLabel": {
-    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
+    "message": "Sayfa URL'si listeyle eşleşiyorsa sayfadaki çeviri devre dışı bırakılır. Liste \"*\" joker karaktere izin verir."
   },
   "toolbarLabel": {
-    "message": "Araç çubuğu penceresi"
+    "message": "Tarayıcı araç çubuğu penceresi"
   },
   "ifChangeSecondLangLabel": {
     "message": "İkinci dile otomatik geç"

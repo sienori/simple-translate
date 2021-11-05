@@ -156,7 +156,7 @@
     "message": "Lang özniteliğine göre çeviriyi devre dışı bırak"
   },
   "ignoredDocumentLangCaptionLabel": {
-    "message": "Sayfanın html öğesindeki lang özniteliği listeyle eşleşiyorsa çeviriyi devre dışı bırakın. Virgülle ayrılmış dil etiketlerini girin."
+    "message": "Sayfanın html öğesindeki lang özniteliği listeyle eşleşiyorsa çeviriyi devre dışı bırakın. Virgülle ayrılmış dil etiketleri girin."
   },
   "waitTimeLabel": {
     "message": "Çevirmek için bekleme süresi"

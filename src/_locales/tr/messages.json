@@ -144,7 +144,7 @@
     "message": "İkinci dile otomatik geç"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "Giriş metninin dilini algılar, varsayılan hedef dili ile aynıysa ikinci dile çevirir."
+    "message": "Seçilen metnin dilini algılar ve varsayılan hedef dille aynıysa ikinci dile çevirir."
   },
   "secondTargetLangLabel": {
     "message": "İkinci dil"

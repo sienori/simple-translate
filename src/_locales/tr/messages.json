@@ -135,7 +135,7 @@
     "message": "Bu URL'lerde çeviriyi devre dışı bırak"
   },
   "disableUrlListCaptionLabel": {
-    "message": "Sayfa URL’si listeyle eşleşirse, web sayfasındaki çeviri devre dışı bırakılır. Liste özel karakterlere \"*\"  izin verir."
+    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
   },
   "toolbarLabel": {
     "message": "Araç çubuğu penceresi"

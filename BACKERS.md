@@ -47,3 +47,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - Olzhas Suleimen
 - Allen.YL
 - Vladimir Chupin
+- Adam Ralph

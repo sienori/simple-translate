@@ -48,3 +48,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - Allen.YL
 - Vladimir Chupin
 - Adam Ralph
+- Kamran Razvan

@@ -264,7 +264,7 @@
     "message": "Paneldeki çevrilmiş metnin yazı tipi rengi"
   },
   "candidateFontColorLabel": {
-    "message": "Çeviri adaylarının yazı tipi rengi"
+    "message": "Font color of translation candidates"
   },
   "bgColorLabel": {
     "message": "Çeviri panelinin arka plan rengi"

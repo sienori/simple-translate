@@ -43,13 +43,13 @@ export const onCommandListener = async command => {
 };
 
 const translateSelectedText = async () => {
-  const tab = (await browser.tabs.query({ active: true }))[0];
+  const tab = (await browser.tabs.query({ active: true, currentWindow: true }))[0];
   browser.tabs.sendMessage(tab.id, {
     message: "translateSelectedText"
   });
 };
 const translatePage = async () => {
-  const tab = (await browser.tabs.query({ active: true }))[0];
+  const tab = (await browser.tabs.query({ active: true, currentWindow: true }))[0];
   const tabUrl = await browser.tabs.sendMessage(tab.id, { message: "getTabUrl" });
 
   const targetLang = getSettings("targetLang");

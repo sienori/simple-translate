@@ -66,7 +66,7 @@
     "message": "Çevirmek için tek kelime seçildiğinde o kelimenin mevcut olan birden fazla anlamını da göster."
   },
   "whenSelectTextLabel": {
-    "message": "Metin seçerken davranış"
+    "message": "Metin seçerken beklenen davranış"
   },
   "ifAutoTranslateLabel": {
     "message": "Çeviri panelini görüntüle"
@@ -90,10 +90,10 @@
     "message": "Çeviri gerekli değilse butonu görüntülemeyin"
   },
   "ifCheckLangCaptionLabel": {
-    "message": "Seçilen metnin dilini algılar ve hedef dil ile aynıysa, buton görüntülenmez."
+    "message": "Seçilen metnin dilini algılar ve hedef dil ile aynıysa buton görüntülenmez."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Seçili metnin dilini algılar ve varsayılan hedef dille aynıysa, ikinci dile çevirir."
+    "message": "Seçili metnin dilini algılar ve varsayılan hedef dille aynıysa ikinci dile çevirir."
   },
   "disableTranslationLabel": {
     "message": "Çeviriyi devre dışı bırak"

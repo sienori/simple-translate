@@ -105,7 +105,7 @@
     "message": "Bir metin alanında metin seçerken çeviri butonunu veya paneli görüntülemeyin."
   },
   "isDisabledInCodeElementLabel": {
-    "message": "Kod etiketlerinde çeviriyi devre dışı bırak"
+    "message": "HTML kod etiketlerinde çeviriyi devre dışı bırak"
   },
   "isDisabledInCodeElementCaptionLabel": {
     "message": "Kod etiketinde metin seçerken çeviri butonunu veya paneli görüntülemeyin."
@@ -165,7 +165,7 @@
     "message": "Bir karakterin girişinden çevirinin başlangıcına kadar olan bekleme süresini belirtin. (milisaniye)"
   },
   "waitTime2CaptionLabel": {
-    "message": "Kısa sürede birçok kez çevirirseniz, bir süre kullanılamaz hale gelebilir."
+    "message": "Kısa sürede birçok kez çevirirseniz bir süreliğine sistem kullanım dışı kalabilir."
   },
   "menuLabel": {
     "message": "İçerik menüsü"
@@ -195,7 +195,7 @@
     "message": "Çeviri butonu"
   },
   "buttonStyleCaptionLabel": {
-    "message": "Web sayfasında görüntülenen çeviri düğmesinin biçimini belirleyin."
+    "message": "Web sayfasında görüntülenen çeviri butonunun stilini belirleyin."
   },
   "buttonSizeLabel": {
     "message": "Boyut"

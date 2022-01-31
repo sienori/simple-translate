@@ -276,7 +276,7 @@
     "message": "Güncelleme sırasında ayarlar sayfasını görüntüler"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+    "message": "Simple Translate güncellendiğinde ayarlar sayfasını görüntüleyerek değişiklikleri hızlı bir şekilde öğrenebilirsiniz."
   },
   "isDebugModeLabel": {
     "message": "Hata ayıklama modunu etkinleştir"
@@ -357,7 +357,7 @@
     "message": "Lütfen bağış yapın"
   },
   "donationCaptionLabel": {
-    "message": "Simple Translate'i kullandığınız için teşekkür ederiz.<br>Eklentileri geliştirmeye devam ettikçe, destekleriniz bizim için büyük bir teşvik olacaktır.<br>Simpe Translate'i beğendiyseniz, bağış yaparak bizi mutlu edebilirsiniz."
+    "message": "Simple Translate'i kullandığınız için teşekkür ederiz.<br>Desteğiniz eklentiyi geliştirmeye devam etmemiz için büyük bir teşvik olacaktır.<br>Simpe Translate'i beğendiyseniz bağış yaparak bizi mutlu edebilirsiniz."
   },
   "amazonTitleLabel": {
     "message": "amazon.co.jp eGift Cards"

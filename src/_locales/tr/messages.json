@@ -264,7 +264,7 @@
     "message": "Paneldeki çevrilmiş metnin yazı tipi rengi"
   },
   "candidateFontColorLabel": {
-    "message": "Çeviri sonucunun yazı tipi rengi"
+    "message": "Kelimeye ait diğer anlamların yazı tipi rengi"
   },
   "bgColorLabel": {
     "message": "Çeviri panelinin arka plan rengi"
@@ -276,7 +276,7 @@
     "message": "Güncelleme sırasında ayarlar sayfasını görüntüler"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Simple Translate güncellendiğinde ayarlar sayfasını görüntüler. Değişiklikleri hızlı bir şekilde öğrenebilirsiniz."
+    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
   },
   "isDebugModeLabel": {
     "message": "Hata ayıklama modunu etkinleştir"

@@ -66,7 +66,7 @@
     "message": "Çevirmek için tek kelime seçildiğinde o kelimenin mevcut olan birden fazla anlamını da göster."
   },
   "whenSelectTextLabel": {
-    "message": "Bir kelime veya ifade seçtiğimde"
+    "message": "Metin seçerken davranış"
   },
   "ifAutoTranslateLabel": {
     "message": "Çeviri panelini görüntüle"

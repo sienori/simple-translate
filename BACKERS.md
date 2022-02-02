@@ -49,3 +49,5 @@ Thank you to the awesome backers who supported Simple Translate!
 - Vladimir Chupin
 - Adam Ralph
 - Kamran Razvan
+- Mitrakov Artem
+- kikuchi.takanori

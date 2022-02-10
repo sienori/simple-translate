@@ -28,7 +28,7 @@ const handleMouseUp = async e => {
   const isInPasswordField = e.target.tagName === "INPUT" && e.target.type === "password";
   if (isInPasswordField) return;
 
-  const inCodeElement = e.target.tagName === "CODE" || !!e.target.closest("code");
+  const inCodeElement = e.target.tagName === "CODE" || (!!e.target.closest && !!e.target.closest("code"));
   if (inCodeElement && getSettings("isDisabledInCodeElement")) return;
 
   const isInThisElement =
@@ -41,7 +41,7 @@ const handleMouseUp = async e => {
   const ignoredDocumentLang = getSettings("ignoredDocumentLang").split(",").map(s => s.trim()).filter(s => !!s);
   if (ignoredDocumentLang.length) {
     const ignoredLangSelector = ignoredDocumentLang.map(lang => `[lang="${lang}"]`).join(',')
-    if (!!e.target.closest(ignoredLangSelector)) return;
+    if (!!e.target.closest && !!e.target.closest(ignoredLangSelector)) return;
   }
 
   const selectedText = getSelectedText();

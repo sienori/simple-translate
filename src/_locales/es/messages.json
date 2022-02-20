@@ -294,13 +294,13 @@
     "message": "Exportar"
   },
   "importSettingsLabel": {
-    "message": "Import Settings"
+    "message": "Importar Ajustes"
   },
   "importSettingsCaptionLabel": {
-    "message": "Load the settings file saved on the computer."
+    "message": "Cargar los ajustes desde un archivo JSON."
   },
   "importButtonLabel": {
-    "message": "Import"
+    "message": "Importar"
   },
   "resetSettingsLabel": {
     "message": "Restablecer la configuración"

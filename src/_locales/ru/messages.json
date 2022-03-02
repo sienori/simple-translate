@@ -545,6 +545,9 @@
   "lang_km": {
     "message": "Кхмерский"
   },
+  "kang_rw": {
+    "message": "Kinyarwanda"
+  },
   "lang_ky": {
     "message": "Киргизский"
   },
@@ -605,6 +608,9 @@
   "lang_no": {
     "message": "Норвежский"
   },
+  "lang_or": {
+    "message": "Odia (Oriya)"
+  },
   "lang_fa": {
     "message": "Фарси"
   },
@@ -635,6 +641,9 @@
   "lang_sr": {
     "message": "Сербский"
   },
+  "lang_st": {
+    "message": "Sesotho"
+  },
   "lang_sn": {
     "message": "Шона"
   },
@@ -652,9 +661,6 @@
   },
   "lang_so": {
     "message": "Сомалийский"
-  },
-  "lang_sx": {
-    "message": "Сото"
   },
   "lang_es": {
     "message": "Испанский"
@@ -677,6 +683,9 @@
   "lang_ta": {
     "message": "Тамильский"
   },
+  "lang_tt": {
+    "message": "Tatar"
+  },
   "lang_te": {
     "message": "Телугу"
   },
@@ -686,11 +695,17 @@
   "lang_tr": {
     "message": "Турецкий"
   },
+  "lang_tk": {
+    "message": "Turkmen"
+  },
   "lang_uk": {
     "message": "Украинский"
   },
   "lang_ur": {
     "message": "Урду"
+  },
+  "lang_ug": {
+    "message": "Uyghur"
   },
   "lang_uz": {
     "message": "Узбекский"

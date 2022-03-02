@@ -400,5 +400,317 @@
   },
   "openPopupDescription": {
     "message": "ᱴᱩᱞᱵᱟᱨ ᱯᱚᱯᱚᱯ ᱡᱷᱤᱡᱽ ᱢᱮ"
+  },
+  "lang_af": {
+    "message": "ᱟᱯᱷᱨᱤᱠᱟᱱᱤᱭᱟᱹ"
+  },
+  "lang_sq": {
+    "message": "ᱟᱞᱵᱟᱹᱱᱤᱭᱟᱹ"
+  },
+  "lang_am": {
+    "message": "ᱟᱢᱦᱟᱨᱤᱭᱟᱹ"
+  },
+  "lang_ar": {
+    "message": "ᱟᱨᱚᱵᱤᱭᱟᱹ"
+  },
+  "lang_hy": {
+    "message": "ᱟᱨᱢᱟᱹᱱᱤᱭᱟᱹ"
+  },
+  "lang_az": {
+    "message": "ᱟᱡᱮᱹᱨᱵᱟᱹᱱᱤ"
+  },
+  "lang_eu": {
+    "message": "ᱵᱟᱥᱠᱣᱩ"
+  },
+  "lang_be": {
+    "message": "ᱵᱮᱞᱟᱨᱩᱥᱤᱭᱟᱹ"
+  },
+  "lang_bn": {
+    "message": "ᱵᱮᱝᱜᱚᱞᱤ"
+  },
+  "lang_bs": {
+    "message": "ᱵᱳᱥᱱᱤᱭᱟᱱ"
+  },
+  "lang_bg": {
+    "message": "ᱵᱩᱞᱜᱟᱹᱨᱤᱭᱟᱹ"
+  },
+  "lang_ca": {
+    "message": "ᱠᱟᱴᱟᱞᱟᱱ"
+  },
+  "lang_ceb": {
+    "message": "ᱠᱮᱵᱭᱩᱟᱱᱚ"
+  },
+  "lang_ny": {
+    "message": "ᱪᱮᱣᱟ"
+  },
+  "lang_zh-CN": {
+    "message": "ᱪᱟᱤᱱᱤᱡᱽ (PRC)"
+  },
+  "lang_zh-TW": {
+    "message": " ᱪᱟᱤᱱᱤᱡᱽ (ᱛᱟᱭᱣᱟᱱ)"
+  },
+  "lang_co": {
+    "message": "ᱠᱳᱨᱤᱥᱤᱭᱟᱱ"
+  },
+  "lang_hr": {
+    "message": "ᱠᱨᱚᱴᱤᱭᱟᱱ"
+  },
+  "lang_cs": {
+    "message": "ᱠᱡᱮᱪ"
+  },
+  "lang_da": {
+    "message": "ᱫᱟᱱᱤᱥ"
+  },
+  "lang_nl": {
+    "message": "ᱰᱚᱪ"
+  },
+  "lang_en": {
+    "message": "ᱤᱝᱞᱤᱥ"
+  },
+  "lang_eo": {
+    "message": "ᱮᱥᱯᱮᱨᱟᱸᱴᱚ"
+  },
+  "lang_et": {
+    "message": "ᱮᱥᱴᱚᱭᱟ"
+  },
+  "lang_fi": {
+    "message": "ᱯᱷᱤᱱᱤᱥ"
+  },
+  "lang_fr": {
+    "message": "ᱯᱨᱮᱸᱪ"
+  },
+  "lang_fy": {
+    "message": "ᱯᱷᱨᱤᱥᱤᱭᱟᱱ"
+  },
+  "lang_gl": {
+    "message": " ᱜᱟᱞᱤᱥᱤᱭᱟᱱ"
+  },
+  "lang_ka": {
+    "message": "ᱡᱚᱨᱡᱤᱭᱟᱱ"
+  },
+  "lang_de": {
+    "message": "ᱡᱚᱨᱢᱟᱱ"
+  },
+  "lang_el": {
+    "message": "ᱜᱨᱤᱠ"
+  },
+  "lang_gu": {
+    "message": "ᱜᱩᱡᱨᱟᱹᱛᱤ"
+  },
+  "lang_ht": {
+    "message": "ᱦᱟᱤᱴᱤᱭᱟᱱ"
+  },
+  "lang_ha": {
+    "message": "ᱦᱟᱩᱥᱟ"
+  },
+  "lang_haw": {
+    "message": "ᱦᱟᱭᱟᱣᱤᱟᱱ"
+  },
+  "lang_he": {
+    "message": "ᱦᱩᱵᱽᱨᱩ"
+  },
+  "lang_hi": {
+    "message": " ᱦᱤᱸᱫᱤ"
+  },
+  "lang_hu": {
+    "message": "ᱦᱚᱝᱜᱟᱨᱤᱭᱟᱱ"
+  },
+  "lang_is": {
+    "message": "ᱤᱭᱤᱥᱞᱟᱸᱰᱤᱠ"
+  },
+  "lang_ig": {
+    "message": "ᱤᱜᱽᱵᱚ"
+  },
+  "lang_id": {
+    "message": "ᱤᱸᱰᱚᱱᱮᱥᱤᱭᱟᱱ"
+  },
+  "lang_ga": {
+    "message": "ᱤᱨᱤᱥ"
+  },
+  "lang_it": {
+    "message": "ᱤᱴᱟᱞᱤᱭᱟᱱ"
+  },
+  "lang_ja": {
+    "message": "ᱡᱟᱯᱟᱱᱤᱡᱽ"
+  },
+  "lang_jv": {
+    "message": "ᱡᱟᱵᱷᱟᱱᱤᱡᱽ"
+  },
+  "lang_kn": {
+    "message": "ᱠᱟᱱᱱᱟᱰᱟ"
+  },
+  "lang_kk": {
+    "message": "ᱠᱟᱡᱟᱠ"
+  },
+  "lang_km": {
+    "message": "ᱠᱷᱢᱮᱨ"
+  },
+  "lang_ky": {
+    "message": " ᱠᱤᱨᱜᱤᱡᱽ"
+  },
+  "lang_ko": {
+    "message": "ᱠᱚᱨᱤᱭᱟᱹᱱ"
+  },
+  "lang_ku": {
+    "message": "ᱠᱩᱨᱫᱤᱥ"
+  },
+  "lang_lo": {
+    "message": "ᱞᱟᱣᱚᱴᱤᱭᱟᱱ"
+  },
+  "lang_la": {
+    "message": "ᱞᱟᱴᱤᱱ"
+  },
+  "lang_lv": {
+    "message": "ᱞᱟᱴᱵᱷᱤᱭᱟᱱ"
+  },
+  "lang_lt": {
+    "message": "ᱞᱤᱛᱷᱩᱞᱤᱭᱟᱱ"
+  },
+  "lang_lb": {
+    "message": "ᱞᱤᱠᱥᱮᱢᱵᱚᱨᱜᱤᱥ"
+  },
+  "lang_mk": {
+    "message": "ᱢᱟᱠᱮᱰᱚᱭᱟᱹ"
+  },
+  "lang_mg": {
+    "message": "ᱢᱟᱞᱟᱜᱟᱥᱤ"
+  },
+  "lang_ms": {
+    "message": "ᱢᱟᱞᱟᱭ"
+  },
+  "lang_ml": {
+    "message": " ᱢᱟᱞᱟᱭᱟᱞᱚᱢ"
+  },
+  "lang_mt": {
+    "message": "ᱢᱟᱞᱴᱤᱡᱽ"
+  },
+  "lang_mi": {
+    "message": "ᱢᱟᱣᱨᱤ"
+  },
+  "lang_mr": {
+    "message": "ᱢᱟᱨᱟᱴᱷᱤ"
+  },
+  "lang_mn": {
+    "message": "ᱢᱚᱸᱜᱚᱞᱤᱭᱟᱱ"
+  },
+  "lang_hmn": {
+    "message": "ᱢᱳᱸᱠ"
+  },
+  "lang_my": {
+    "message": "ᱢᱟᱭᱟᱸᱢᱟᱨ"
+  },
+  "lang_ne": {
+    "message": " ᱱᱮᱯᱮᱲᱤ"
+  },
+  "lang_no": {
+    "message": "ᱱᱚᱨᱣᱮᱜᱤᱭᱟᱱ"
+  },
+  "lang_fa": {
+    "message": "ᱯᱟᱨᱥᱤᱭᱟᱱ"
+  },
+  "lang_pl": {
+    "message": " ᱯᱚᱞᱤᱥ"
+  },
+  "lang_pt": {
+    "message": " ᱯᱚᱨᱛᱩᱜᱤᱡᱽ"
+  },
+  "lang_pa": {
+    "message": "ᱯᱚᱸᱡᱟᱵᱤ"
+  },
+  "lang_ps": {
+    "message": "ᱯᱩᱥᱛᱚ"
+  },
+  "lang_ro": {
+    "message": "ᱨᱚᱢᱟᱱᱤᱭᱟᱱ"
+  },
+  "lang_ru": {
+    "message": " ᱨᱟᱹᱥᱤᱭᱟᱹᱱ"
+  },
+  "lang_sm": {
+    "message": "ᱥᱚᱢᱚᱣᱟᱱ"
+  },
+  "lang_gd": {
+    "message": "ᱥᱠᱚᱴᱤᱥ ᱜᱟᱞᱤᱠ"
+  },
+  "lang_sr": {
+    "message": "ᱥᱟᱭᱵᱮᱨᱤᱭᱟ "
+  },
+  "lang_sn": {
+    "message": "ᱥᱚᱱᱟ"
+  },
+  "lang_sd": {
+    "message": "ᱥᱤᱸᱫᱷᱤ"
+  },
+  "lang_si": {
+    "message": "ᱥᱤᱝᱦᱟᱞᱟ"
+  },
+  "lang_sk": {
+    "message": "ᱥᱞᱚᱵᱷᱟᱠ"
+  },
+  "lang_sl": {
+    "message": "ᱥᱞᱚᱵᱷᱮᱱᱤᱭᱟᱱ"
+  },
+  "lang_so": {
+    "message": "ᱥᱚᱢᱟᱞ"
+  },
+  "lang_sx": {
+    "message": "ᱥᱚᱛᱷᱚ"
+  },
+  "lang_es": {
+    "message": "ᱥᱯᱟᱱᱤᱥ"
+  },
+  "lang_su": {
+    "message": "ᱥᱚᱺᱰᱟᱱᱤᱡᱽ"
+  },
+  "lang_sw": {
+    "message": "ᱥᱣᱟᱦᱤᱞᱤ"
+  },
+  "lang_sv": {
+    "message": "ᱥᱣᱮᱫᱤᱥ"
+  },
+  "lang_tl": {
+    "message": "ᱴᱟᱜᱟᱞᱚᱜᱽ"
+  },
+  "lang_tg": {
+    "message": "ᱛᱟᱡᱤᱠᱤ"
+  },
+  "lang_ta": {
+    "message": "ᱛᱟᱢᱤᱞ"
+  },
+  "lang_te": {
+    "message": "ᱛᱮᱞᱩᱜᱩ"
+  },
+  "lang_th": {
+    "message": "ᱛᱷᱟᱭᱤ"
+  },
+  "lang_tr": {
+    "message": "ᱛᱩᱨᱠᱤᱥ"
+  },
+  "lang_uk": {
+    "message": "ᱭᱩᱠᱨᱮᱱ"
+  },
+  "lang_ur": {
+    "message": "ᱩᱨᱫᱩ"
+  },
+  "lang_uz": {
+    "message": "ᱩᱡᱽᱵᱮᱠ"
+  },
+  "lang_vi": {
+    "message": "ᱵᱷᱤᱭᱮᱛᱱᱟᱢᱤᱡᱽ"
+  },
+  "lang_cy": {
+    "message": "ᱣᱮᱞᱥ"
+  },
+  "lang_xh": {
+    "message": "ᱠᱳᱥᱟ"
+  },
+  "lang_yi": {
+    "message": "ᱣᱤᱫᱤᱥ"
+  },
+  "lang_yo": {
+    "message": "ᱭᱚᱨᱩᱵᱟ"
+  },
+  "lang_zu": {
+    "message": "ᱡᱩᱹᱞᱩ"
   }
 }

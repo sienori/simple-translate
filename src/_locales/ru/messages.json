@@ -400,5 +400,317 @@
   },
   "openPopupDescription": {
     "message": "Показать всплывающее окно на панели инструментов"
+  },
+  "lang_af": {
+    "message": "Африкаанс"
+  },
+  "lang_sq": {
+    "message": "Албанский"
+  },
+  "lang_am": {
+    "message": "Амхарский"
+  },
+  "lang_ar": {
+    "message": "Арабский"
+  },
+  "lang_hy": {
+    "message": "Армянский"
+  },
+  "lang_az": {
+    "message": "Азербайджанский"
+  },
+  "lang_eu": {
+    "message": "Баскский"
+  },
+  "lang_be": {
+    "message": "Белорусский"
+  },
+  "lang_bn": {
+    "message": "Бенгальский"
+  },
+  "lang_bs": {
+    "message": "Боснийский"
+  },
+  "lang_bg": {
+    "message": "Болгарский"
+  },
+  "lang_ca": {
+    "message": "Каталанский"
+  },
+  "lang_ceb": {
+    "message": "Себуано"
+  },
+  "lang_ny": {
+    "message": "Чева"
+  },
+  "lang_zh-CN": {
+    "message": "Китайский (упрощенный)"
+  },
+  "lang_zh-TW": {
+    "message": "Китайский (Традиционный)"
+  },
+  "lang_co": {
+    "message": "Корсиканский"
+  },
+  "lang_hr": {
+    "message": "Хорватский"
+  },
+  "lang_cs": {
+    "message": "Чешский"
+  },
+  "lang_da": {
+    "message": "Датский"
+  },
+  "lang_nl": {
+    "message": "Нидерландский"
+  },
+  "lang_en": {
+    "message": "Английский"
+  },
+  "lang_eo": {
+    "message": "Эсперанто"
+  },
+  "lang_et": {
+    "message": "Эстонский"
+  },
+  "lang_fi": {
+    "message": "Финский"
+  },
+  "lang_fr": {
+    "message": "Французский"
+  },
+  "lang_fy": {
+    "message": "Фризский"
+  },
+  "lang_gl": {
+    "message": "Галисийский"
+  },
+  "lang_ka": {
+    "message": "Грузинский"
+  },
+  "lang_de": {
+    "message": "Немецкий"
+  },
+  "lang_el": {
+    "message": "Греческий"
+  },
+  "lang_gu": {
+    "message": "Гуджарати"
+  },
+  "lang_ht": {
+    "message": "Гаитянский"
+  },
+  "lang_ha": {
+    "message": "Хауса"
+  },
+  "lang_haw": {
+    "message": "Гавайский"
+  },
+  "lang_he": {
+    "message": "Иврит"
+  },
+  "lang_hi": {
+    "message": "Хинди"
+  },
+  "lang_hu": {
+    "message": "Венгерский"
+  },
+  "lang_is": {
+    "message": "Исландский"
+  },
+  "lang_ig": {
+    "message": "Игбо"
+  },
+  "lang_id": {
+    "message": "Индонезийский"
+  },
+  "lang_ga": {
+    "message": "Ирландский"
+  },
+  "lang_it": {
+    "message": "Итальянский"
+  },
+  "lang_ja": {
+    "message": "Японский"
+  },
+  "lang_jv": {
+    "message": "Яванский"
+  },
+  "lang_kn": {
+    "message": "Каннада"
+  },
+  "lang_kk": {
+    "message": "Казахский"
+  },
+  "lang_km": {
+    "message": "Кхмерский"
+  },
+  "lang_ky": {
+    "message": "Киргизский"
+  },
+  "lang_ko": {
+    "message": "Корейский"
+  },
+  "lang_ku": {
+    "message": "Курдский"
+  },
+  "lang_lo": {
+    "message": "Лаосский"
+  },
+  "lang_la": {
+    "message": "Латынь"
+  },
+  "lang_lv": {
+    "message": "Латышский"
+  },
+  "lang_lt": {
+    "message": "Литовский"
+  },
+  "lang_lb": {
+    "message": "Люксембургский"
+  },
+  "lang_mk": {
+    "message": "Македонский"
+  },
+  "lang_mg": {
+    "message": "Малагасийский"
+  },
+  "lang_ms": {
+    "message": "Малайский"
+  },
+  "lang_ml": {
+    "message": "Малаялам"
+  },
+  "lang_mt": {
+    "message": "Мальтийский"
+  },
+  "lang_mi": {
+    "message": "Маори"
+  },
+  "lang_mr": {
+    "message": "Маратхи"
+  },
+  "lang_mn": {
+    "message": "Монгольский"
+  },
+  "lang_hmn": {
+    "message": "Хмонг"
+  },
+  "lang_my": {
+    "message": "Мьянманский"
+  },
+  "lang_ne": {
+    "message": "Непальский"
+  },
+  "lang_no": {
+    "message": "Норвежский"
+  },
+  "lang_fa": {
+    "message": "Фарси"
+  },
+  "lang_pl": {
+    "message": "Польский"
+  },
+  "lang_pt": {
+    "message": "Португальский"
+  },
+  "lang_pa": {
+    "message": "Панджаби"
+  },
+  "lang_ps": {
+    "message": "Пушту"
+  },
+  "lang_ro": {
+    "message": "Румынский"
+  },
+  "lang_ru": {
+    "message": "Русский"
+  },
+  "lang_sm": {
+    "message": "Самоанский"
+  },
+  "lang_gd": {
+    "message": "Шотландский Гэльский"
+  },
+  "lang_sr": {
+    "message": "Сербский"
+  },
+  "lang_sn": {
+    "message": "Шона"
+  },
+  "lang_sd": {
+    "message": "Синдхи"
+  },
+  "lang_si": {
+    "message": "Сингальский"
+  },
+  "lang_sk": {
+    "message": "Словацкий"
+  },
+  "lang_sl": {
+    "message": "Словенский"
+  },
+  "lang_so": {
+    "message": "Сомалийский"
+  },
+  "lang_sx": {
+    "message": "Сото"
+  },
+  "lang_es": {
+    "message": "Испанский"
+  },
+  "lang_su": {
+    "message": "Суданский"
+  },
+  "lang_sw": {
+    "message": "Суахили"
+  },
+  "lang_sv": {
+    "message": "Шведский"
+  },
+  "lang_tl": {
+    "message": "Тагальский"
+  },
+  "lang_tg": {
+    "message": "Таджикский"
+  },
+  "lang_ta": {
+    "message": "Тамильский"
+  },
+  "lang_te": {
+    "message": "Телугу"
+  },
+  "lang_th": {
+    "message": "Тайский"
+  },
+  "lang_tr": {
+    "message": "Турецкий"
+  },
+  "lang_uk": {
+    "message": "Украинский"
+  },
+  "lang_ur": {
+    "message": "Урду"
+  },
+  "lang_uz": {
+    "message": "Узбекский"
+  },
+  "lang_vi": {
+    "message": "Вьетнамский"
+  },
+  "lang_cy": {
+    "message": "Валлийский"
+  },
+  "lang_xh": {
+    "message": "Коса"
+  },
+  "lang_yi": {
+    "message": "Идиш"
+  },
+  "lang_yo": {
+    "message": "Йоруба"
+  },
+  "lang_zu": {
+    "message": "Зулу"
   }
 }

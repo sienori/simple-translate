@@ -400,5 +400,317 @@
   },
   "openPopupDescription": {
     "message": "Tarayıcı araç çubuğu penceresini aç"
+  },
+  "lang_af": {
+    "message": "Afrikaanca"
+  },
+  "lang_sq": {
+    "message": "Arnavutça"
+  },
+  "lang_am": {
+    "message": "Amharca"
+  },
+  "lang_ar": {
+    "message": "Arapça"
+  },
+  "lang_hy": {
+    "message": "Ermenice"
+  },
+  "lang_az": {
+    "message": "Azerice"
+  },
+  "lang_eu": {
+    "message": "Baskça"
+  },
+  "lang_be": {
+    "message": "Belarusça"
+  },
+  "lang_bn": {
+    "message": "Bengalce"
+  },
+  "lang_bs": {
+    "message": "Boşnakça"
+  },
+  "lang_bg": {
+    "message": "Bulgarca"
+  },
+  "lang_ca": {
+    "message": "Katalanca"
+  },
+  "lang_ceb": {
+    "message": "Sabuanca"
+  },
+  "lang_ny": {
+    "message": "Çevaca"
+  },
+  "lang_zh-CN": {
+    "message": "Çince (Çin Halk Cumhuriyeti)"
+  },
+  "lang_zh-TW": {
+    "message": "Çince (Tayvan)"
+  },
+  "lang_co": {
+    "message": "Korsikaca"
+  },
+  "lang_hr": {
+    "message": "Hırvatça"
+  },
+  "lang_cs": {
+    "message": "Çekçe"
+  },
+  "lang_da": {
+    "message": "Danimarkaca"
+  },
+  "lang_nl": {
+    "message": "Flemenkçe"
+  },
+  "lang_en": {
+    "message": "İngilizce"
+  },
+  "lang_eo": {
+    "message": "Esperanto"
+  },
+  "lang_et": {
+    "message": "Estonca"
+  },
+  "lang_fi": {
+    "message": "Fince"
+  },
+  "lang_fr": {
+    "message": "Fransızca"
+  },
+  "lang_fy": {
+    "message": "Frizce"
+  },
+  "lang_gl": {
+    "message": "Galiçyaca"
+  },
+  "lang_ka": {
+    "message": "Gürcüce"
+  },
+  "lang_de": {
+    "message": "Almanca"
+  },
+  "lang_el": {
+    "message": "Yunanca"
+  },
+  "lang_gu": {
+    "message": "Guceratça"
+  },
+  "lang_ht": {
+    "message": "Haitice"
+  },
+  "lang_ha": {
+    "message": "Hausaca"
+  },
+  "lang_haw": {
+    "message": "Hawai Dili"
+  },
+  "lang_he": {
+    "message": "İbranice"
+  },
+  "lang_hi": {
+    "message": "Hintçe"
+  },
+  "lang_hu": {
+    "message": "Macarca"
+  },
+  "lang_is": {
+    "message": "İzlandaca"
+  },
+  "lang_ig": {
+    "message": "İgbo Dili"
+  },
+  "lang_id": {
+    "message": "Endonezyaca"
+  },
+  "lang_ga": {
+    "message": "İrlandaca"
+  },
+  "lang_it": {
+    "message": "İtalyanca"
+  },
+  "lang_ja": {
+    "message": "Japonca"
+  },
+  "lang_jv": {
+    "message": "Cavaca"
+  },
+  "lang_kn": {
+    "message": "Kannada Dili"
+  },
+  "lang_kk": {
+    "message": "Kazakça"
+  },
+  "lang_km": {
+    "message": "Kmerce"
+  },
+  "lang_ky": {
+    "message": "Kırgızca"
+  },
+  "lang_ko": {
+    "message": "Korece"
+  },
+  "lang_ku": {
+    "message": "Kürtçe"
+  },
+  "lang_lo": {
+    "message": "Laoca"
+  },
+  "lang_la": {
+    "message": "Latince"
+  },
+  "lang_lv": {
+    "message": "Letonca"
+  },
+  "lang_lt": {
+    "message": "Litvanca"
+  },
+  "lang_lb": {
+    "message": "Lüksemburgca"
+  },
+  "lang_mk": {
+    "message": "Makedonca"
+  },
+  "lang_mg": {
+    "message": "Malgaşça"
+  },
+  "lang_ms": {
+    "message": "Malayca"
+  },
+  "lang_ml": {
+    "message": "Malayalamca"
+  },
+  "lang_mt": {
+    "message": "Maltaca"
+  },
+  "lang_mi": {
+    "message": "Maorice"
+  },
+  "lang_mr": {
+    "message": "Marathi"
+  },
+  "lang_mn": {
+    "message": "Moğolca"
+  },
+  "lang_hmn": {
+    "message": "Monk Dili"
+  },
+  "lang_my": {
+    "message": "Birmanca"
+  },
+  "lang_ne": {
+    "message": "Nepalce"
+  },
+  "lang_no": {
+    "message": "Norveççe"
+  },
+  "lang_fa": {
+    "message": "Farsça"
+  },
+  "lang_pl": {
+    "message": "Polonyaca"
+  },
+  "lang_pt": {
+    "message": "Portekizce"
+  },
+  "lang_pa": {
+    "message": "Pencapça"
+  },
+  "lang_ps": {
+    "message": "Peştuca"
+  },
+  "lang_ro": {
+    "message": "Rumence"
+  },
+  "lang_ru": {
+    "message": "Rusça"
+  },
+  "lang_sm": {
+    "message": "Samoaca"
+  },
+  "lang_gd": {
+    "message": "İskoçça"
+  },
+  "lang_sr": {
+    "message": "Sırpça"
+  },
+  "lang_sn": {
+    "message": "Shona Dili"
+  },
+  "lang_sd": {
+    "message": "Sindhi"
+  },
+  "lang_si": {
+    "message": "Seylanca"
+  },
+  "lang_sk": {
+    "message": "Slovakça"
+  },
+  "lang_sl": {
+    "message": "Slovence"
+  },
+  "lang_so": {
+    "message": "Somalice"
+  },
+  "lang_sx": {
+    "message": "Sotho Dili"
+  },
+  "lang_es": {
+    "message": "İspanyolca"
+  },
+  "lang_su": {
+    "message": "Sundaca"
+  },
+  "lang_sw": {
+    "message": "Svahili"
+  },
+  "lang_sv": {
+    "message": "İsveççe"
+  },
+  "lang_tl": {
+    "message": "Tagalogca"
+  },
+  "lang_tg": {
+    "message": "Tacikçe"
+  },
+  "lang_ta": {
+    "message": "Tamilce"
+  },
+  "lang_te": {
+    "message": "Teluguca"
+  },
+  "lang_th": {
+    "message": "Tayca"
+  },
+  "lang_tr": {
+    "message": "Türkçe"
+  },
+  "lang_uk": {
+    "message": "Ukraynaca"
+  },
+  "lang_ur": {
+    "message": "Urduca"
+  },
+  "lang_uz": {
+    "message": "Özbekçe"
+  },
+  "lang_vi": {
+    "message": "Vietnamca"
+  },
+  "lang_cy": {
+    "message": "Galce"
+  },
+  "lang_xh": {
+    "message": "Xosa Dili"
+  },
+  "lang_yi": {
+    "message": "Yidiş"
+  },
+  "lang_yo": {
+    "message": "Yoruba Dili"
+  },
+  "lang_zu": {
+    "message": "Zuluca"
   }
 }

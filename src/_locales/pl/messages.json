@@ -545,6 +545,9 @@
   "lang_km": {
     "message": "Khmer"
   },
+  "kang_rw": {
+    "message": "Kinyarwanda"
+  },
   "lang_ky": {
     "message": "Kirghiz"
   },
@@ -605,6 +608,9 @@
   "lang_no": {
     "message": "Norweski"
   },
+  "lang_or": {
+    "message": "Odia (Oriya)"
+  },
   "lang_fa": {
     "message": "Perski"
   },
@@ -635,6 +641,9 @@
   "lang_sr": {
     "message": "Serban"
   },
+  "lang_st": {
+    "message": "Sesotho"
+  },
   "lang_sn": {
     "message": "Shona"
   },
@@ -652,9 +661,6 @@
   },
   "lang_so": {
     "message": "Somali"
-  },
-  "lang_sx": {
-    "message": "Sotho"
   },
   "lang_es": {
     "message": "Hiszpański"
@@ -677,6 +683,9 @@
   "lang_ta": {
     "message": "Tamil"
   },
+  "lang_tt": {
+    "message": "Tatar"
+  },
   "lang_te": {
     "message": "Telugu"
   },
@@ -686,11 +695,17 @@
   "lang_tr": {
     "message": "Turecki"
   },
+  "lang_tk": {
+    "message": "Turkmen"
+  },
   "lang_uk": {
     "message": "Ukraiński"
   },
   "lang_ur": {
     "message": "Urdu"
+  },
+  "lang_ug": {
+    "message": "Uyghur"
   },
   "lang_uz": {
     "message": "Uzbecki"

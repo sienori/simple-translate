@@ -38,9 +38,6 @@
   "targetLangLabel": {
     "message": "Idioma de destino"
   },
-  "langList": {
-    "message": "af:afrikáans, sq:albanés, am:amhárico, ar:árabe, hy:armenio, az:azerí, eu:euskera, be:bielorruso, bn:bengalí, bs:bosnio, bg:búlgaro, ca:catalán, ceb:cebuano, ny:chichewa, zh-CN:chino (simplificado), zh-TW:chino (tradicional), co:corso, hr:croata, cs:checo, da:danés, nl:neerlandés, en:inglés, eo:esperanto, et:estonio, fi:finlandés, fr:francés, fy:frisio, gl:gallego, ka:georgiano, de:alemán, el:griego, gu:gujarati, ht:haitiano, ha:hausa, haw:hawaiano, he:hebreo, hi:hindi, hu:húngaro, is:islandés, ig:igbo, id:indonesio, ga:irlandés, it:italiano, ja:japonés, jv:javanés, kn:canarés, kk:kazajo, km:khmer, ky:kirguís, ko:coreano, ku:kurdo, lo:lao, la:latín, lv:letón, lt:lituano, lb:luxemburgués, mk:macedonio, mg:malgache, ms:malayo, ml:malayalam, mt:maltés, mi:maorí, mr:maratí, mn:mongol, hmn:hmong, my:birmano, ne:nepalí, no:noruego, fa:persa, pl:polaco, pt:portugués, pa:panyabí, ps:pastún, ro:Rumano, ru:ruso, sm:samoano, gd:gaélico escocés, sr:serbio, sn:shona, sd:sindhi, si:cingalés, sk:eslovaco, sl:esloveno, so:somalí, st:sesoto, es:español, su:sundanés, sw:suajili, sv:sueco, tl:tagalo, tg:tayico, ta:tamil, te:telugu, th:tailandés, tr:turco, uk:ucraniano, ur:urdu, uz:uzbeko, vi:vietnamita, cy:galés, xh:xhosa, yi:yidis, yo:yoruba, zu:zulú"
-  },
   "allLangLabel": {
     "message": "Todos los idiomas"
   },

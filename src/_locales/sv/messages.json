@@ -399,40 +399,40 @@
     "message": "Öppna verktygsfältspopup"
   },
   "lang_af": {
-    "message": "Afrikaans"
+    "message": "Afrikanska"
   },
   "lang_sq": {
-    "message": "Albanian"
+    "message": "Albanska"
   },
   "lang_am": {
-    "message": "Amharic"
+    "message": "Amhariska"
   },
   "lang_ar": {
-    "message": "Arabic"
+    "message": "Arabiska"
   },
   "lang_hy": {
-    "message": "Armenian"
+    "message": "Armeniska"
   },
   "lang_az": {
-    "message": "Azerbaijani"
+    "message": "Azerbajdzjanska"
   },
   "lang_eu": {
-    "message": "Basque"
+    "message": "Baskiska"
   },
   "lang_be": {
-    "message": "Belarusian"
+    "message": "Vitryska"
   },
   "lang_bn": {
     "message": "Bengali"
   },
   "lang_bs": {
-    "message": "Bosnian"
+    "message": "Bosniska"
   },
   "lang_bg": {
-    "message": "Bulgarian"
+    "message": "Bulgariska"
   },
   "lang_ca": {
-    "message": "Catalan"
+    "message": "Katalanska"
   },
   "lang_ceb": {
     "message": "Cebuano"
@@ -441,103 +441,103 @@
     "message": "Chewa"
   },
   "lang_zh-CN": {
-    "message": "Chinese (Simplified)"
+    "message": "Kinesiska (Förenklad)"
   },
   "lang_zh-TW": {
-    "message": "Chinese (Traditional)"
+    "message": "Kinesiska (Traditionell)"
   },
   "lang_co": {
-    "message": "Corsican"
+    "message": "Korsikanska"
   },
   "lang_hr": {
-    "message": "Croatian"
+    "message": "Kroatiska"
   },
   "lang_cs": {
-    "message": "Czech"
+    "message": "Tjeckiska"
   },
   "lang_da": {
-    "message": "Danish"
+    "message": "Danska"
   },
   "lang_nl": {
-    "message": "Dutch"
+    "message": "Nederländska"
   },
   "lang_en": {
-    "message": "English"
+    "message": "Engelska"
   },
   "lang_eo": {
     "message": "Esperanto"
   },
   "lang_et": {
-    "message": "Estonian"
+    "message": "Estniska"
   },
   "lang_fi": {
-    "message": "Finnish"
+    "message": "Finska"
   },
   "lang_fr": {
-    "message": "French"
+    "message": "Franska"
   },
   "lang_fy": {
-    "message": "Frisian"
+    "message": "Frisiska"
   },
   "lang_gl": {
-    "message": "Galician"
+    "message": "Galileiska"
   },
   "lang_ka": {
-    "message": "Georgian"
+    "message": "Georgiska"
   },
   "lang_de": {
-    "message": "German"
+    "message": "Tyska"
   },
   "lang_el": {
-    "message": "Greek"
+    "message": "Grekiska"
   },
   "lang_gu": {
     "message": "Gujarati"
   },
   "lang_ht": {
-    "message": "Haitian"
+    "message": "Haitiska"
   },
   "lang_ha": {
-    "message": "Hausa"
+    "message": "Haussa"
   },
   "lang_haw": {
-    "message": "Hawaiian"
+    "message": "Hawaiiska"
   },
   "lang_he": {
-    "message": "Hebrew"
+    "message": "Hebreiska"
   },
   "lang_hi": {
-    "message": "Hindi"
+    "message": "Hindiska"
   },
   "lang_hu": {
-    "message": "Hungarian"
+    "message": "Ungerska"
   },
   "lang_is": {
-    "message": "Icelandic"
+    "message": "Isländska"
   },
   "lang_ig": {
     "message": "Igbo"
   },
   "lang_id": {
-    "message": "Indonesian"
+    "message": "Indonesiska"
   },
   "lang_ga": {
-    "message": "Irish"
+    "message": "Irländska"
   },
   "lang_it": {
-    "message": "Italian"
+    "message": "Italienska"
   },
   "lang_ja": {
-    "message": "Japanese"
+    "message": "Japanska"
   },
   "lang_jv": {
-    "message": "Javanese"
+    "message": "Javanesiska"
   },
   "lang_kn": {
-    "message": "Kannada"
+    "message": "Kanadensiska"
   },
   "lang_kk": {
-    "message": "Kazakh"
+    "message": "Kazakiska"
   },
   "lang_km": {
     "message": "Khmer"
@@ -546,31 +546,31 @@
     "message": "Kinyarwanda"
   },
   "lang_ky": {
-    "message": "Kirghiz"
+    "message": "Kirgisiska"
   },
   "lang_ko": {
-    "message": "Korean"
+    "message": "Koreansk"
   },
   "lang_ku": {
-    "message": "Kurdish"
+    "message": "Kurdiska"
   },
   "lang_lo": {
-    "message": "Laotian"
+    "message": "Laotisk"
   },
   "lang_la": {
     "message": "Latin"
   },
   "lang_lv": {
-    "message": "Latvian"
+    "message": "Lettiska"
   },
   "lang_lt": {
-    "message": "Lithuanian"
+    "message": "Litauiska"
   },
   "lang_lb": {
-    "message": "Luxembourgish"
+    "message": "Luxemburgiska"
   },
   "lang_mk": {
-    "message": "Macedonian"
+    "message": "Makedonska"
   },
   "lang_mg": {
     "message": "Malagasy"
@@ -669,7 +669,7 @@
     "message": "Swahili"
   },
   "lang_sv": {
-    "message": "Swedish"
+    "message": "Svenska"
   },
   "lang_tl": {
     "message": "Tagalog"
@@ -702,22 +702,22 @@
     "message": "Urdu"
   },
   "lang_ug": {
-    "message": "Uyghur"
+    "message": "Uiguriska"
   },
   "lang_uz": {
-    "message": "Uzbek"
+    "message": "Uzbekiska"
   },
   "lang_vi": {
-    "message": "Vietnamese"
+    "message": "Vietnamesiska"
   },
   "lang_cy": {
-    "message": "Welsh"
+    "message": "Walesiska"
   },
   "lang_xh": {
     "message": "Xosa"
   },
   "lang_yi": {
-    "message": "Yiddish"
+    "message": "Jiddisch"
   },
   "lang_yo": {
     "message": "Yoruba"

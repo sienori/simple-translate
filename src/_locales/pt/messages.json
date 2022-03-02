@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "Tradução simples"
+    "message": "Simple Translate"
   },
   "extDescription": {
     "message": "Tradução rápida de seleção na página. Pode-se traduzir texto no pop-up da barra de ferramentas."
@@ -37,9 +37,6 @@
   },
   "targetLangLabel": {
     "message": "Idioma alvo"
-  },
-  "langList": {
-    "message": "af:Africâner, sq:Albanês, am:Amárico, ar:Árabe, hy:Armênio, az:Azerbaijano, eu:Basco, be:Bielorrusso, bn:Bengali, bs:Bósnio, bg:Búlgaro, ca:Catalão, ceb:Cebuano, ny:Chicheua, zh-CN:Chinês (RPC), zh-TW:Chinês (Taiwan), co:Corso, hr:Croata, cs:Tcheco, da:Dinamarquês, nl:Holandês, en:Inglês, eo:Esperanto, et:Estoniano, fi:Finlandês, fr:Francês, fy:Frísio, gl:Galego, ka:Georgiano, de:Alemão, el:Grego, gu:Guzerate, ht:Haitiano, ha:Hauçá, haw:Havaiano, he:Hebraico, hi:Hindi, hu:Húngaro, is:Islandês, ig:Igbo, id:Indonésio, ga:Irlandês, it:Italiano, ja:Japonês, jv:Javanês, kn:Canarês, kk:Cazaque, km:Khmer, ky:Quirguiz, ko:Coreano, ku:Curdo, lo:Laosiano, la:Latim, lv:Letão, lt:Lituano, lb:Luxemburguês, mk:Macedônio, mg:Malgaxe, ms:Malaio, ml:Malaiala, mt:Maltês, mi:Maori, mr:Marata, mn:Mongol, hmn:Hmong, my:Birmanês, ne:Nepalês, no:Norueguês, fa:Persa, pl:Polonês, pt:Português, pa:Punjabi, ps:Pachto, ro:Romeno, ru:Russo, sm:Samoano, gd:Gaélico Escocês, sr:Sérvio, sn:Chona, sd:Sindi, si:Singalês, sk:Eslovaco, sl:Esloveno, so:Somali, st:Sessoto, es:Espanhol, su:Sundanês, sw:Suaíle, sv:Sueco, tl:Filipino, tg:Tadjique, ta:Tâmil, te:Telugo, th:Tailandês, tr:Turco, uk:Ucraniano, ur:Urdu, uz:Uzbeque, vi:Vietnamita, cy:Galês, xh:Xhosa, yi:Iídiche, yo:Ioruba, zu:Zulu"
   },
   "allLangLabel": {
     "message": "Todos os idiomas"
@@ -402,145 +399,145 @@
     "message": "Abrir popup da barra de ferramentas"
   },
   "lang_af": {
-    "message": "Afrikaans"
+    "message": "Africâner"
   },
   "lang_sq": {
-    "message": "Albanian"
+    "message": "Albanês"
   },
   "lang_am": {
-    "message": "Amharic"
+    "message": "Amárico"
   },
   "lang_ar": {
-    "message": "Arabic"
+    "message": "Árabe"
   },
   "lang_hy": {
-    "message": "Armenian"
+    "message": "Armênio"
   },
   "lang_az": {
-    "message": "Azerbaijani"
+    "message": "Azerbaijano"
   },
   "lang_eu": {
-    "message": "Basque"
+    "message": "Basco"
   },
   "lang_be": {
-    "message": "Belarusian"
+    "message": "Bielorrusso"
   },
   "lang_bn": {
     "message": "Bengali"
   },
   "lang_bs": {
-    "message": "Bosnian"
+    "message": "Bósnio"
   },
   "lang_bg": {
-    "message": "Bulgarian"
+    "message": "Búlgaro"
   },
   "lang_ca": {
-    "message": "Catalan"
+    "message": "Catalão"
   },
   "lang_ceb": {
     "message": "Cebuano"
   },
   "lang_ny": {
-    "message": "Chewa"
+    "message": "Chicheua"
   },
   "lang_zh-CN": {
-    "message": "Chinese (Simplified)"
+    "message": "Chinês (RPC)"
   },
   "lang_zh-TW": {
-    "message": "Chinese (Traditional)"
+    "message": "Chinês (Taiwan)"
   },
   "lang_co": {
-    "message": "Corsican"
+    "message": "Corso"
   },
   "lang_hr": {
-    "message": "Croatian"
+    "message": "Croata"
   },
   "lang_cs": {
-    "message": "Czech"
+    "message": "Tcheco"
   },
   "lang_da": {
-    "message": "Danish"
+    "message": "Dinamarquês"
   },
   "lang_nl": {
-    "message": "Dutch"
+    "message": "Holandês"
   },
   "lang_en": {
-    "message": "English"
+    "message": "Inglês"
   },
   "lang_eo": {
     "message": "Esperanto"
   },
   "lang_et": {
-    "message": "Estonian"
+    "message": "Estoniano"
   },
   "lang_fi": {
-    "message": "Finnish"
+    "message": "Finlandês"
   },
   "lang_fr": {
-    "message": "French"
+    "message": "Francês"
   },
   "lang_fy": {
-    "message": "Frisian"
+    "message": "Frísio"
   },
   "lang_gl": {
-    "message": "Galician"
+    "message": "Galego"
   },
   "lang_ka": {
-    "message": "Georgian"
+    "message": "Georgiano"
   },
   "lang_de": {
-    "message": "German"
+    "message": "Alemão"
   },
   "lang_el": {
-    "message": "Greek"
+    "message": "Grego"
   },
   "lang_gu": {
-    "message": "Gujarati"
+    "message": "Guzerate"
   },
   "lang_ht": {
-    "message": "Haitian"
+    "message": "Haitiano"
   },
   "lang_ha": {
-    "message": "Hausa"
+    "message": "Hauçá"
   },
   "lang_haw": {
-    "message": "Hawaiian"
+    "message": "Havaiano"
   },
   "lang_he": {
-    "message": "Hebrew"
+    "message": "Hebraico"
   },
   "lang_hi": {
     "message": "Hindi"
   },
   "lang_hu": {
-    "message": "Hungarian"
+    "message": "Húngaro"
   },
   "lang_is": {
-    "message": "Icelandic"
+    "message": "Islandês"
   },
   "lang_ig": {
     "message": "Igbo"
   },
   "lang_id": {
-    "message": "Indonesian"
+    "message": "Indonésio"
   },
   "lang_ga": {
-    "message": "Irish"
+    "message": "Irlandês"
   },
   "lang_it": {
-    "message": "Italian"
+    "message": "Italiano"
   },
   "lang_ja": {
-    "message": "Japanese"
+    "message": "Japonês"
   },
   "lang_jv": {
-    "message": "Javanese"
+    "message": "Javanês"
   },
   "lang_kn": {
-    "message": "Kannada"
+    "message": "Canarês"
   },
   "lang_kk": {
-    "message": "Kazakh"
+    "message": "Cazaque"
   },
   "lang_km": {
     "message": "Khmer"
@@ -549,157 +546,157 @@
     "message": "Kinyarwanda"
   },
   "lang_ky": {
-    "message": "Kirghiz"
+    "message": "Quirguiz"
   },
   "lang_ko": {
-    "message": "Korean"
+    "message": "Coreano"
   },
   "lang_ku": {
-    "message": "Kurdish"
+    "message": "Curdo"
   },
   "lang_lo": {
-    "message": "Laotian"
+    "message": "Laosiano"
   },
   "lang_la": {
-    "message": "Latin"
+    "message": "Latim"
   },
   "lang_lv": {
-    "message": "Latvian"
+    "message": "Letão"
   },
   "lang_lt": {
-    "message": "Lithuanian"
+    "message": "Lituano"
   },
   "lang_lb": {
-    "message": "Luxembourgish"
+    "message": "Luxemburguês"
   },
   "lang_mk": {
-    "message": "Macedonian"
+    "message": "Macedônio"
   },
   "lang_mg": {
-    "message": "Malagasy"
+    "message": "Malgaxe"
   },
   "lang_ms": {
-    "message": "Malay"
+    "message": "Malaio"
   },
   "lang_ml": {
-    "message": "Malayalam"
+    "message": "Malaiala"
   },
   "lang_mt": {
-    "message": "Maltese"
+    "message": "Maltês"
   },
   "lang_mi": {
     "message": "Maori"
   },
   "lang_mr": {
-    "message": "Marathi"
+    "message": "Marata"
   },
   "lang_mn": {
-    "message": "Mongolian"
+    "message": "Mongol"
   },
   "lang_hmn": {
-    "message": "Monk"
+    "message": "Hmong"
   },
   "lang_my": {
-    "message": "Myanmar"
+    "message": "Birmanês"
   },
   "lang_ne": {
-    "message": "Nepali"
+    "message": "Nepalês"
   },
   "lang_no": {
-    "message": "Norwegian"
+    "message": "Norueguês"
   },
   "lang_or": {
     "message": "Odia (Oriya)"
   },
   "lang_fa": {
-    "message": "Persian"
+    "message": "Persa"
   },
   "lang_pl": {
-    "message": "Polish"
+    "message": "Polonês"
   },
   "lang_pt": {
-    "message": "Portuguese"
+    "message": "Português"
   },
   "lang_pa": {
     "message": "Punjabi"
   },
   "lang_ps": {
-    "message": "Pushto"
+    "message": "Pachto"
   },
   "lang_ro": {
-    "message": "Romanian"
+    "message": "Romeno"
   },
   "lang_ru": {
-    "message": "Russian"
+    "message": "Russo"
   },
   "lang_sm": {
-    "message": "Samoan"
+    "message": "Samoano"
   },
   "lang_gd": {
-    "message": "Scottish Gaelic"
+    "message": "Gaélico Escocês"
   },
   "lang_sr": {
-    "message": "Serbian"
+    "message": "Sérvio"
   },
   "lang_st": {
     "message": "Sesotho"
   },
   "lang_sn": {
-    "message": "Shona"
+    "message": "Chona"
   },
   "lang_sd": {
-    "message": "Sindhi"
+    "message": "Sindi"
   },
   "lang_si": {
-    "message": "Sinhala"
+    "message": "Singalês"
   },
   "lang_sk": {
-    "message": "Slovak"
+    "message": "Eslovaco"
   },
   "lang_sl": {
-    "message": "Slovenian"
+    "message": "Esloveno"
   },
   "lang_so": {
     "message": "Somali"
   },
   "lang_es": {
-    "message": "Spanish"
+    "message": "Espanhol"
   },
   "lang_su": {
-    "message": "Sundanese"
+    "message": "Sundanês"
   },
   "lang_sw": {
-    "message": "Swahili"
+    "message": "Suaíle"
   },
   "lang_sv": {
-    "message": "Swedish"
+    "message": "Sueco"
   },
   "lang_tl": {
-    "message": "Tagalog"
+    "message": "Filipino"
   },
   "lang_tg": {
-    "message": "Tajiki"
+    "message": "Tadjique"
   },
   "lang_ta": {
-    "message": "Tamil"
+    "message": "Tâmil"
   },
   "lang_tt": {
     "message": "Tatar"
   },
   "lang_te": {
-    "message": "Telugu"
+    "message": "Telugo"
   },
   "lang_th": {
-    "message": "Thai"
+    "message": "Tailandês"
   },
   "lang_tr": {
-    "message": "Turkish"
+    "message": "Turco"
   },
   "lang_tk": {
     "message": "Turkmen"
   },
   "lang_uk": {
-    "message": "Ukrainian"
+    "message": "Ucraniano"
   },
   "lang_ur": {
     "message": "Urdu"
@@ -708,22 +705,22 @@
     "message": "Uyghur"
   },
   "lang_uz": {
-    "message": "Uzbek"
+    "message": "Uzbeque"
   },
   "lang_vi": {
-    "message": "Vietnamese"
+    "message": "Vietnamita"
   },
   "lang_cy": {
-    "message": "Welsh"
+    "message": "Galês"
   },
   "lang_xh": {
-    "message": "Xosa"
+    "message": "Xhosa"
   },
   "lang_yi": {
-    "message": "Yiddish"
+    "message": "Iídiche"
   },
   "lang_yo": {
-    "message": "Yoruba"
+    "message": "Ioruba"
   },
   "lang_zu": {
     "message": "Zulu"

@@ -545,6 +545,9 @@
   "lang_km": {
     "message": "高棉語"
   },
+  "kang_rw": {
+    "message": "Kinyarwanda"
+  },
   "lang_ky": {
     "message": "柯爾克孜語"
   },
@@ -605,6 +608,9 @@
   "lang_no": {
     "message": "挪威語"
   },
+  "lang_or": {
+    "message": "Odia (Oriya)"
+  },
   "lang_fa": {
     "message": "波斯語"
   },
@@ -635,6 +641,9 @@
   "lang_sr": {
     "message": "塞爾維亞語"
   },
+  "lang_st": {
+    "message": "Sesotho"
+  },
   "lang_sn": {
     "message": "修納語"
   },
@@ -652,9 +661,6 @@
   },
   "lang_so": {
     "message": "索馬利亞語"
-  },
-  "lang_sx": {
-    "message": "塞索托語"
   },
   "lang_es": {
     "message": "西班牙 語"
@@ -677,6 +683,9 @@
   "lang_ta": {
     "message": "坦米爾語"
   },
+  "lang_tt": {
+    "message": "Tatar"
+  },
   "lang_te": {
     "message": "泰盧固語"
   },
@@ -686,11 +695,17 @@
   "lang_tr": {
     "message": "土耳其語"
   },
+  "lang_tk": {
+    "message": "Turkmen"
+  },
   "lang_uk": {
     "message": "烏克蘭語"
   },
   "lang_ur": {
     "message": "烏爾都語"
+  },
+  "lang_ug": {
+    "message": "Uyghur"
   },
   "lang_uz": {
     "message": "烏茲別克語"

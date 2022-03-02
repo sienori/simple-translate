@@ -285,22 +285,22 @@
     "message": "Wenn der Debug-Modus aktiviert ist, wird das Protokoll an den Debugger ausgegeben."
   },
   "exportSettingsLabel": {
-    "message": "Export settings"
+    "message": "Einstellungen Exportieren"
   },
   "exportSettingsCaptionLabel": {
-    "message": "Save the settings as a json file on the computer."
+    "message": "Einstellungen als json-Datei auf dem Computer speichern."
   },
   "exportButtonLabel": {
-    "message": "Export"
+    "message": "Exportieren"
   },
   "importSettingsLabel": {
-    "message": "Import Settings"
+    "message": "Import-Einstellungen"
   },
   "importSettingsCaptionLabel": {
-    "message": "Load the settings file saved on the computer."
+    "message": "Auf dem Computer gespeicherte Einstellungsdatei laden."
   },
   "importButtonLabel": {
-    "message": "Import"
+    "message": "Importieren"
   },
   "resetSettingsLabel": {
     "message": "Einstellungen zurücksetzen"

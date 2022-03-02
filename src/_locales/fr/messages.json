@@ -12,13 +12,13 @@
     "message": "Faire un don"
   },
   "enableOnThisPage": {
-    "message": "Activer la traduction sur cette page"
+    "message": "Active la traduction sur cette page"
   },
   "disableOnThisPage": {
     "message": "Désactiver la traduction sur cette page"
   },
   "initialTextArea": {
-    "message": "Entrer un texte"
+    "message": "Entrez le texte"
   },
   "showLink": {
     "message": "Traduire cette page"
@@ -60,7 +60,7 @@
     "message": "Page Web"
   },
   "ifShowCandidateLabel": {
-    "message": "Afficher les candidats à la traduction"
+    "message": "Afficher les suggestions de traductions"
   },
   "ifShowCandidateCaptionLabel": {
     "message": "Afficher plusieurs propositions de traduction lorsqu'un seul mot est traduit."
@@ -105,22 +105,22 @@
     "message": "Ne pas afficher le bouton ou panneau de traduction lors de la sélection du texte dans un champ texte."
   },
   "isDisabledInCodeElementLabel": {
-    "message": "Désactiver la traduction dans les tags de code"
+    "message": "Désactiver la traduction dans les balises de code"
   },
   "isDisabledInCodeElementCaptionLabel": {
-    "message": "Ne pas afficher le bouton ou le panneau de traduction lors de la sélection de texte dans le code."
+    "message": "Ne pas afficher le bouton de traduction ou le panneau lorsque vous sélectionnez du texte dans la balise code."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Traduire lors de l'appui sur une touche de combinaison"
+    "message": "Traduire si la touche de modification est pressée"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Afficher la traduction uniquement lorsque la touche de combinaison spécifiée est pressée."
+    "message": "N'afficher la traduction que si la touche de modification spécifiée est enfoncée."
   },
   "modifierKeyLabel": {
     "message": "Touche de combinaison"
   },
   "shiftLabel": {
-    "message": "Shift"
+    "message": "Maj"
   },
   "ctrlLabel": {
     "message": "Ctrl"
@@ -132,7 +132,7 @@
     "message": "Commande"
   },
   "disableUrlListLabel": {
-    "message": "Liste URL pour désactiver la traduction"
+    "message": "Liste des URL à ne pas traduction"
   },
   "disableUrlListCaptionLabel": {
     "message": "Si l'URL de la page correspond à la liste, la traduction sur la page web est désactivée. La liste permet les caractères \"*\"."
@@ -285,22 +285,22 @@
     "message": "Lorsque le mode débogage est activé, les données sont sorties vers le débogueur."
   },
   "exportSettingsLabel": {
-    "message": "Export settings"
+    "message": "Exporter les réglages"
   },
   "exportSettingsCaptionLabel": {
-    "message": "Save the settings as a json file on the computer."
+    "message": "Enregistrez les paramètres en tant que fichier json sur l'ordinateur."
   },
   "exportButtonLabel": {
-    "message": "Export"
+    "message": "Exporter"
   },
   "importSettingsLabel": {
-    "message": "Import Settings"
+    "message": "Importer des paramètres"
   },
   "importSettingsCaptionLabel": {
-    "message": "Load the settings file saved on the computer."
+    "message": "Charger le fichier de paramètres enregistré sur l'ordinateur."
   },
   "importButtonLabel": {
-    "message": "Import"
+    "message": "Importer"
   },
   "resetSettingsLabel": {
     "message": "Réinitialiser les paramètres"

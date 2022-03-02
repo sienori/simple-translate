@@ -105,10 +105,10 @@
     "message": "No muestra el botón ni el panel de traducción al seleccionar texto en un campo de texto."
   },
   "isDisabledInCodeElementLabel": {
-    "message": "Disable translation in code tags"
+    "message": "Desactivar traducción en etiquetas de código"
   },
   "isDisabledInCodeElementCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in code tag."
+    "message": "No mostrar el botón de traducción o el panel al seleccionar texto en una etiqueta de código."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
     "message": "Traducir al presionar la tecla modificadora"
@@ -285,22 +285,22 @@
     "message": "Cuando se activa el modo de depuración, el registro se envía al depurador."
   },
   "exportSettingsLabel": {
-    "message": "Export settings"
+    "message": "Exportar ajustes"
   },
   "exportSettingsCaptionLabel": {
-    "message": "Save the settings as a json file on the computer."
+    "message": "Descargar los ajustes como un archivo JSON."
   },
   "exportButtonLabel": {
-    "message": "Export"
+    "message": "Exportar"
   },
   "importSettingsLabel": {
-    "message": "Import Settings"
+    "message": "Importar Ajustes"
   },
   "importSettingsCaptionLabel": {
-    "message": "Load the settings file saved on the computer."
+    "message": "Cargar los ajustes desde un archivo JSON."
   },
   "importButtonLabel": {
-    "message": "Import"
+    "message": "Importar"
   },
   "resetSettingsLabel": {
     "message": "Restablecer la configuración"

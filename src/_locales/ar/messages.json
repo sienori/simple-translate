@@ -285,22 +285,22 @@
     "message": "عندما يكون وضع التنقيح مفعل، يخرج السجل إلى المصحح."
   },
   "exportSettingsLabel": {
-    "message": "Export settings"
+    "message": "Abstract\nPurpose: To examine the rate of discrepancy between clinical impression and histologic diagnosis of oral lesions in patients undergoing biopsy examination and to determine whether there are patient-specific variables associated with a higher rate of discrepancy.\n\nMaterials and methods: The authors designed and implemented a retrospective cohort study that consisted of patients who underwent biopsy examination of oral lesions from 2005 through 2013 by oral and maxillofacial surgeons at the Massachusetts General Hospital. Accuracy was determined by comparing the clinical impression with the final histologic diagnosis. Clinical and histologic diagnoses were categorized as premalignant or malignant (group 1) or benign (group 2). The primary outcome variable was concordance (yes vs no) between clinical impression and histopathologic diagnosis. The effect of individual predictor variables (age, gender, duration, American Society of Anesthesiology status, cancer history, radiation therapy history, medications, alcohol abuse, and tobacco history) on outcome also was evaluated through univariate and multivariate regression analyses.\n\nResults: The study sample was composed of 1,003 oral lesions (74 pathologically confirmed premalignant or malignant and 929 benign) from patients with a mean age of 44.8 years. Of the lesions evaluated, concordance between exact clinical and histologic diagnoses was found in 61% of cases. Overall, the clinical impression, reported as benign versus premalignant or malignant, was 48.6% sensitive and 98.1% specific. Clinicians accurately identified lesions as benign in 95.9% of cases. The most common of these were fibromas (positive predictive value [PPV], 99.2%), mucoceles (PPV, 98.1%), and squamous papillomas (PPV, 96.3%). Several independent risk factors were associated with discrepancy: radiation therapy history (P = .0102), male gender (P = .0381), and patient age (P = .0468).\n\nConclusion: The results of this study suggest that the clinical impression, although highly accurate for common benign conditions, is not an acceptable alternative to definitive biopsy findings in other cases, particularly in cases of premalignancy or malignancy. In addition, patients with identified independent risk factors (age, gender, and radiation therapy) should receive timely biopsy examination.\n\nCopyright © 2015 American Association of Oral and Maxillofacial Surgeons. PublishedElsevier Inc. All rights  "
   },
   "exportSettingsCaptionLabel": {
-    "message": "Save the settings as a json file on the computer."
+    "message": "حفظ الإعدادات كملف json على الكمبيوتر."
   },
   "exportButtonLabel": {
-    "message": "Export"
+    "message": "تصدير"
   },
   "importSettingsLabel": {
-    "message": "Import Settings"
+    "message": "إستيراد الإعدادات"
   },
   "importSettingsCaptionLabel": {
-    "message": "Load the settings file saved on the computer."
+    "message": "تحميل ملف الإعدادات المحفوظة على الكمبيوتَر."
   },
   "importButtonLabel": {
-    "message": "Import"
+    "message": "إستيراد"
   },
   "resetSettingsLabel": {
     "message": "إستعادة الإعدادات"

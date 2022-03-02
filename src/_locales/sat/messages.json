@@ -1,0 +1,404 @@
+{
+  "extName": {
+    "message": "Simple Translate"
+  },
+  "extDescription": {
+    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
+  },
+  "donateWithPaypalLabel": {
+    "message": "PayPal ᱥᱟᱶ ᱫᱟᱱ ᱢᱮ"
+  },
+  "donateLabel": {
+    "message": "ᱫᱟᱱ"
+  },
+  "enableOnThisPage": {
+    "message": "ᱱᱚᱣᱟ ᱥᱟᱦᱴᱟ ᱨᱮ ᱛᱚᱨᱡᱚᱢᱟ ᱮᱱᱟᱵᱞ ᱢᱮ"
+  },
+  "disableOnThisPage": {
+    "message": "ᱱᱚᱣᱟ ᱥᱟᱦᱴᱟ ᱨᱮ ᱛᱚᱨᱡᱚᱢᱟ ᱰᱤᱥᱟᱵᱞ ᱢᱮ"
+  },
+  "initialTextArea": {
+    "message": "ᱚᱱᱚᱞ ᱵᱚᱞᱚᱭ ᱢᱮ"
+  },
+  "showLink": {
+    "message": "ᱱᱚᱣᱟ ᱥᱟᱦᱴᱟ ᱛᱚᱨᱡᱚᱢᱟᱭ ᱢᱮ"
+  },
+  "openInGoogleLabel": {
+    "message": "ᱱᱚᱣᱟ ᱜᱩᱜᱟᱹᱞ ᱛᱚᱨᱡᱚᱢᱟ ᱨᱮ ᱡᱷᱤᱡᱽ ᱢᱮ"
+  },
+  "copyLabel": {
+    "message": "ᱱᱚᱠᱚᱞ ᱢᱮ"
+  },
+  "copiedLabel": {
+    "message": "ᱱᱚᱠᱚᱞ ᱟᱠᱟᱱᱟ ᱾"
+  },
+  "listenLabel": {
+    "message": "ᱟᱧᱚᱢ ᱢᱮ"
+  },
+  "targetLangLabel": {
+    "message": "ᱯᱟᱹᱨᱥᱤ ᱡᱚᱥ ᱢᱮ"
+  },
+  "langList": {
+    "message": "af:ᱟᱯᱷᱨᱤᱠᱟᱱᱤᱭᱟᱹ, sq:ᱟᱞᱵᱟᱹᱱᱤᱭᱟᱹ, am:ᱟᱢᱦᱟᱨᱤᱭᱟᱹ, ar:ᱟᱨᱚᱵᱤᱭᱟᱹ, hy:ᱟᱨᱢᱟᱹᱱᱤᱭᱟᱹ, az:ᱟᱡᱮᱹᱨᱵᱟᱹᱱᱤ, eu:ᱵᱟᱥᱠᱣᱩ, be:ᱵᱮᱞᱟᱨᱩᱥᱤᱭᱟᱹ, bn:ᱵᱮᱝᱜᱚᱞᱤ, bs:ᱵᱳᱥᱱᱤᱭᱟᱱ, bg:ᱵᱩᱞᱜᱟᱹᱨᱤᱭᱟᱹ, ca:ᱠᱟᱴᱟᱞᱟᱱ, ceb:ᱠᱮᱵᱭᱩᱟᱱᱚ, ny:ᱪᱮᱣᱟ, zh-CN:ᱪᱟᱤᱱᱤᱡᱽ (PRC), zh-TW: ᱪᱟᱤᱱᱤᱡᱽ (ᱛᱟᱭᱣᱟᱱ), co:ᱠᱳᱨᱤᱥᱤᱭᱟᱱ, hr:ᱠᱨᱚᱴᱤᱭᱟᱱ, cs:ᱠᱡᱮᱪ, da:ᱫᱟᱱᱤᱥ, nl:ᱰᱚᱪ, en:ᱤᱝᱞᱤᱥ, eo:ᱮᱥᱯᱮᱨᱟᱸᱴᱚ, et:ᱮᱥᱴᱚᱭᱟ, fi:ᱯᱷᱤᱱᱤᱥ, fr:ᱯᱨᱮᱸᱪ, fy:ᱯᱷᱨᱤᱥᱤᱭᱟᱱ, gl: ᱜᱟᱞᱤᱥᱤᱭᱟᱱ, ka:ᱡᱚᱨᱡᱤᱭᱟᱱ, de:ᱡᱚᱨᱢᱟᱱ, el:ᱜᱨᱤᱠ, gu:ᱜᱩᱡᱨᱟᱹᱛᱤ, ht:ᱦᱟᱤᱴᱤᱭᱟᱱ, ha:ᱦᱟᱩᱥᱟ, haw:ᱦᱟᱭᱟᱣᱤᱟᱱ, he:ᱦᱩᱵᱽᱨᱩ, hi: ᱦᱤᱸᱫᱤ, hu:ᱦᱚᱝᱜᱟᱨᱤᱭᱟᱱ, is:ᱤᱭᱤᱥᱞᱟᱸᱰᱤᱠ, ig:ᱤᱜᱽᱵᱚ, id:ᱤᱸᱰᱚᱱᱮᱥᱤᱭᱟᱱ, ga:ᱤᱨᱤᱥ, it:ᱤᱴᱟᱞᱤᱭᱟᱱ, ja:ᱡᱟᱯᱟᱱᱤᱡᱽ, jv:ᱡᱟᱵᱷᱟᱱᱤᱡᱽ, kn:ᱠᱟᱱᱱᱟᱰᱟ, kk:ᱠᱟᱡᱟᱠ, km:ᱠᱷᱢᱮᱨ, ky: ᱠᱤᱨᱜᱤᱡᱽ, ko:ᱠᱚᱨᱤᱭᱟᱹᱱ, ku:ᱠᱩᱨᱫᱤᱥ, lo:ᱞᱟᱣᱚᱴᱤᱭᱟᱱ, la:ᱞᱟᱴᱤᱱ, lv:ᱞᱟᱴᱵᱷᱤᱭᱟᱱ, lt:ᱞᱤᱛᱷᱩᱞᱤᱭᱟᱱ, lb:ᱞᱤᱠᱥᱮᱢᱵᱚᱨᱜᱤᱥ, mk:ᱢᱟᱠᱮᱰᱚᱭᱟᱹ, mg:ᱢᱟᱞᱟᱜᱟᱥᱤ, ms:ᱢᱟᱞᱟᱭ, ml: ᱢᱟᱞᱟᱭᱟᱞᱚᱢ, mt:ᱢᱟᱞᱴᱤᱡᱽ, mi:ᱢᱟᱣᱨᱤ, mr:ᱢᱟᱨᱟᱴᱷᱤ, mn:ᱢᱚᱸᱜᱚᱞᱤᱭᱟᱱ, hmn:ᱢᱳᱸᱠ, my:ᱢᱟᱭᱟᱸᱢᱟᱨ, ne: ᱱᱮᱯᱮᱲᱤ, no:ᱱᱚᱨᱣᱮᱜᱤᱭᱟᱱ, fa:ᱯᱟᱨᱥᱤᱭᱟᱱ, pl: ᱯᱚᱞᱤᱥ, pt: ᱯᱚᱨᱛᱩᱜᱤᱡᱽ, pa:ᱯᱚᱸᱡᱟᱵᱤ, ps:ᱯᱩᱥᱛᱚ, ro:ᱨᱚᱢᱟᱱᱤᱭᱟᱱ, ru: ᱨᱟᱹᱥᱤᱭᱟᱹᱱ, sm:ᱥᱚᱢᱚᱣᱟᱱ, gd:ᱥᱠᱚᱴᱤᱥ ᱜᱟᱞᱤᱠ, sr:ᱥᱟᱭᱵᱮᱨᱤᱭᱟ , sn:ᱥᱚᱱᱟ, sd:ᱥᱤᱸᱫᱷᱤ, si:ᱥᱤᱝᱦᱟᱞᱟ, sk:ᱥᱞᱚᱵᱷᱟᱠ, sl:ᱥᱞᱚᱵᱷᱮᱱᱤᱭᱟᱱ, so:ᱥᱚᱢᱟᱞ, sx:ᱥᱚᱛᱷᱚ, es:ᱥᱯᱟᱱᱤᱥ, su:ᱥᱚᱺᱰᱟᱱᱤᱡᱽ, sw:ᱥᱣᱟᱦᱤᱞᱤ, sv:ᱥᱣᱮᱫᱤᱥ, tl:ᱴᱟᱜᱟᱞᱚᱜᱽ, tg:ᱛᱟᱡᱤᱠᱤ, ta:ᱛᱟᱢᱤᱞ, te:ᱛᱮᱞᱩᱜᱩ, th:ᱛᱷᱟᱭᱤ, tr:ᱛᱩᱨᱠᱤᱥ, uk:ᱭᱩᱠᱨᱮᱱ, ur:ᱩᱨᱫᱩ, uz:ᱩᱡᱽᱵᱮᱠ, vi:ᱵᱷᱤᱭᱮᱛᱱᱟᱢᱤᱡᱽ, cy:ᱣᱮᱞᱥ, xh:ᱠᱳᱥᱟ, yi:ᱣᱤᱫᱤᱥ, yo:ᱭᱚᱨᱩᱵᱟ, zu:ᱡᱩᱹᱞᱩ"
+  },
+  "allLangLabel": {
+    "message": "ᱥᱟᱱᱟᱢ ᱯᱟᱹᱨᱥᱤ ᱠᱚ"
+  },
+  "recentLangLabel": {
+    "message": "ᱦᱟᱹᱞᱤᱦᱟᱹᱞᱤ ᱯᱟᱹᱨᱥᱤ ᱠᱚ"
+  },
+  "settingsLabel": {
+    "message": "ᱥᱟᱡᱟᱣ ᱠᱚ"
+  },
+  "generalLabel": {
+    "message": "ᱥᱟᱫᱷᱟᱨᱚᱱ"
+  },
+  "targetLangCaptionLabel": {
+    "message": "ᱰᱤᱯᱷᱚᱞᱴ ᱡᱚᱥ ᱯᱟᱹᱨᱥᱤ ᱪᱚᱭᱚᱱ ᱢᱮ ᱾"
+  },
+  "webPageLabel": {
+    "message": "ᱣᱮᱵᱽ ᱥᱟᱦᱴᱟ"
+  },
+  "ifShowCandidateLabel": {
+    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱵᱷᱟᱹᱜᱤᱫᱟᱹᱨ ᱠᱚ ᱫᱷᱮᱠᱟᱣ"
+  },
+  "ifShowCandidateCaptionLabel": {
+    "message": "ᱢᱤᱫ ᱢᱤᱫᱴᱤᱡ ᱜᱟᱱ ᱟᱹᱲᱟᱹ ᱛᱚᱨᱡᱚᱢᱟᱜ ᱡᱷᱚᱜ ᱵᱟᱹᱲᱛᱤ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱷᱟᱹᱜᱤᱫᱟᱹᱨ ᱫᱮᱠᱷᱟᱣ ᱾"
+  },
+  "whenSelectTextLabel": {
+    "message": "Behavior when selecting text"
+  },
+  "ifAutoTranslateLabel": {
+    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱯᱭᱟᱱᱮᱞ ᱫᱷᱮᱠᱟᱣ"
+  },
+  "ifAutoTranslateCaptionLabel": {
+    "message": "ᱵᱤᱱ ᱫᱮᱠᱷᱟᱣ ᱛᱮ ᱵᱚᱴᱚᱱ ᱥᱚᱡᱷᱮ ᱛᱚᱨᱡᱚᱢᱟ ᱯᱭᱟᱱᱮᱞ ᱫᱮᱠᱷᱟᱣ ᱾"
+  },
+  "ifShowButtonLabel": {
+    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱵᱚᱴᱚᱱ ᱫᱮᱠᱷᱟᱣ"
+  },
+  "ifShowButtonCaptionLabel": {
+    "message": "ᱯᱭᱟᱱᱮᱞ ᱟᱨ ᱠᱞᱤᱠ ᱟᱠᱟᱱ ᱡᱷᱤᱡᱽ ᱞᱟᱹᱜᱤᱫ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱚᱴᱚᱱ ᱫᱮᱠᱷᱟᱣ ᱾"
+  },
+  "dontshowbuttonlabel": {
+    "message": "ᱵᱚᱴᱚᱱ ᱟᱨ ᱯᱭᱟᱱᱮᱞ ᱟᱞᱚᱢ ᱫᱮᱠᱷᱟᱣᱟ"
+  },
+  "dontshowbuttonCaptionlabel": {
+    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱵᱚᱴᱚᱱ ᱟᱨ ᱛᱚᱨᱡᱚᱢᱟ ᱯᱭᱟᱱᱮᱞ ᱟᱞᱚᱢ ᱫᱮᱠᱷᱟᱣᱟ ᱾"
+  },
+  "ifCheckLangLabel": {
+    "message": "ᱡᱩᱫᱤ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱟᱝ ᱛᱟᱦᱮᱱ ᱠᱷᱟᱱ ᱵᱚᱴᱚᱱ ᱟᱞᱚᱢ ᱫᱮᱠᱷᱟᱣᱟ"
+  },
+  "ifCheckLangCaptionLabel": {
+    "message": "ᱪᱚᱭᱚᱱᱟᱱ ᱚᱱᱚᱞ ᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱪᱤᱸᱦᱟᱹᱣᱟ, ᱟᱨ ᱡᱩᱫᱤ ᱱᱚᱣᱟ ᱡᱚᱥ ᱯᱟᱹᱨᱥᱤ ᱥᱟᱶ ᱢᱤᱫ ᱜᱮ ᱠᱷᱟᱱᱫᱚ, ᱵᱚᱴᱴᱚᱱ ᱵᱟᱝ ᱧᱮᱞᱧᱟᱢᱚᱜᱼᱟ ᱾"
+  },
+  "ifChangeSecondLangOnPageCaptionLabel": {
+    "message": "ᱪᱚᱭᱚᱱᱟᱱ ᱚᱱᱚᱞ ᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱪᱤᱸᱦᱟᱹᱣᱟ, ᱟᱨ ᱡᱩᱫᱤ ᱱᱚᱣᱟ ᱰᱤᱯᱷᱚᱞᱴ ᱡᱚᱥ ᱯᱟᱹᱨᱥᱤ ᱥᱟᱶ ᱢᱤᱫ ᱜᱮ ᱠᱷᱟᱱᱫᱚ, ᱫᱚᱥᱟᱨ ᱯᱟᱹᱨᱥᱤ ᱛᱮ ᱛᱚᱨᱡᱚᱢᱟᱭ ᱢᱮ ᱾"
+  },
+  "disableTranslationLabel": {
+    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱰᱤᱥᱟᱵᱞ"
+  },
+  "isDisabledInTextFieldsLabel": {
+    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱪᱤᱠᱤ ᱴᱷᱟᱶ ᱠᱚ ᱨᱮ ᱰᱤᱥᱟᱵᱞ ᱢᱮ"
+  },
+  "isDisabledInTextFieldsCaptionLabel": {
+    "message": "ᱪᱤᱠᱤ ᱢᱤᱫ ᱪᱤᱠᱤ ᱴᱷᱟᱶ ᱨᱮ ᱪᱚᱭᱚᱱ ᱡᱷᱚᱜ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱚᱴᱚᱱ ᱟᱨ ᱯᱭᱟᱱᱮᱞ ᱟᱞᱚᱢ ᱫᱮᱠᱷᱟᱣᱟ ᱾"
+  },
+  "isDisabledInCodeElementLabel": {
+    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱠᱚᱰ ᱴᱭᱟᱜᱽ ᱠᱚ ᱨᱮ ᱰᱤᱥᱟᱵᱞ ᱢᱮ"
+  },
+  "isDisabledInCodeElementCaptionLabel": {
+    "message": "ᱠᱳᱰ ᱴᱭᱟᱜᱽ ᱨᱮ ᱪᱤᱠᱤ ᱪᱚᱭᱚᱱ ᱡᱷᱚᱜ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱚᱴᱚᱱ ᱟᱨ ᱯᱭᱟᱱᱮᱞ ᱟᱞᱚᱢ ᱫᱮᱠᱷᱟᱣᱟ ᱾"
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedLabel": {
+    "message": "ᱢᱚᱰᱤᱯᱷᱟᱭᱟᱨ ᱪᱟᱹᱵᱤ ᱚᱛᱟᱠᱟᱱ ᱨᱮ ᱛᱚᱨᱡᱚᱢᱟᱭ ᱢᱮ"
+  },
+  "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
+    "message": "ᱱᱤᱨᱫᱷᱤᱥᱴ ᱢᱚᱰᱤᱯᱷᱟᱭᱟᱨ ᱠᱤ ᱯᱨᱮᱥᱰ ᱨᱮ ᱮᱠᱟᱞ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱚᱴᱚᱱ ᱫᱮᱠᱷᱟᱣ ᱾"
+  },
+  "modifierKeyLabel": {
+    "message": "ᱢᱚᱰᱤᱯᱷᱟᱭᱟᱨ ᱪᱟᱹᱵᱤ"
+  },
+  "shiftLabel": {
+    "message": "Shift"
+  },
+  "ctrlLabel": {
+    "message": "Ctrl"
+  },
+  "altLabel": {
+    "message": "Alt"
+  },
+  "cmdLabel": {
+    "message": "Command"
+  },
+  "disableUrlListLabel": {
+    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱰᱤᱥᱟᱵᱞ ᱞᱟᱹᱜᱤᱫ URL ᱥᱩᱪᱤ"
+  },
+  "disableUrlListCaptionLabel": {
+    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
+  },
+  "toolbarLabel": {
+    "message": "ᱴᱩᱞᱵᱟᱨ ᱯᱚᱯᱚᱯ"
+  },
+  "ifChangeSecondLangLabel": {
+    "message": "ᱟᱡᱛᱮ ᱥᱣᱤᱪᱚᱜᱼᱟ ᱫᱚᱥᱟᱨ ᱯᱟᱹᱨᱥᱤ ᱛᱮ"
+  },
+  "ifChangeSecondLangCaptionLabel": {
+    "message": "ᱟᱹᱢᱫᱟᱹᱱᱤ ᱚᱱᱚᱞ ᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱪᱤᱸᱦᱟᱹᱣᱟ, ᱟᱨ ᱡᱩᱫᱤ ᱱᱚᱣᱟ ᱰᱤᱯᱷᱚᱞᱴ ᱡᱚᱥ ᱯᱟᱹᱨᱥᱤ ᱥᱟᱶ ᱢᱤᱫ ᱜᱮ ᱠᱷᱟᱱᱫᱚ, ᱫᱚᱥᱟᱨ ᱯᱟᱹᱨᱥᱤ ᱛᱮ ᱛᱚᱨᱡᱚᱢᱟᱭ ᱢᱮ ᱾"
+  },
+  "secondTargetLangLabel": {
+    "message": "ᱫᱚᱥᱟᱨ ᱯᱟᱹᱨᱥᱤ"
+  },
+  "secondTargetLangCaptionLabel": {
+    "message": "ᱫᱚᱥᱟᱨ ᱡᱚᱥ ᱯᱟᱹᱨᱥᱤ ᱪᱚᱭᱚᱱ ᱢᱮ ᱾"
+  },
+  "ignoredDocumentLangLabel": {
+    "message": "Disable translation by lang attribute"
+  },
+  "ignoredDocumentLangCaptionLabel": {
+    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
+  },
+  "waitTimeLabel": {
+    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱞᱟᱹᱜᱤᱫ ᱚᱠᱛᱚ ᱛᱟᱹᱝᱜᱤᱭ ᱢᱮ"
+  },
+  "waitTimeCaptionLabel": {
+    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+  },
+  "waitTime2CaptionLabel": {
+    "message": "If you translate it many times in a short time, it may become unusable for a while."
+  },
+  "menuLabel": {
+    "message": "ᱥᱟᱛᱟᱢ ᱢᱮᱱᱩ"
+  },
+  "ifShowMenuLabel": {
+    "message": "ᱥᱟᱛᱟᱢ ᱢᱮᱱᱩ ᱫᱮᱠᱷᱟᱣ ᱢᱮ"
+  },
+  "ifShowMenuCaptionLabel": {
+    "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+  },
+  "styleLabel": {
+    "message": "ᱰᱷᱚᱝ"
+  },
+  "themeLabel": {
+    "message": "ᱛᱷᱤᱢ"
+  },
+  "themeCaptionLabel": {
+    "message": "Specify the color scheme."
+  },
+  "lightLabel": {
+    "message": "ᱦᱟᱹᱞᱠᱟᱹ"
+  },
+  "darkLabel": {
+    "message": "ᱜᱟᱰ"
+  },
+  "buttonStyleLabel": {
+    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱵᱚᱴᱚᱱ"
+  },
+  "buttonStyleCaptionLabel": {
+    "message": "ᱣᱮᱵᱽ ᱨᱮ ᱫᱮᱠᱷᱟᱣᱟᱱ ᱞᱟᱹᱜᱤᱫ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱚᱴᱚᱱ ᱰᱷᱚᱝ ᱴᱷᱟᱹᱣᱠᱟᱹᱭ ᱢᱮ ᱾"
+  },
+  "buttonSizeLabel": {
+    "message": "ᱟᱠᱟᱨ"
+  },
+  "buttonPositionLabel": {
+    "message": "ᱯᱚᱡᱤᱥᱚᱱ ᱫᱮᱠᱷᱟᱣ"
+  },
+  "topRightLabel": {
+    "message": "Top right"
+  },
+  "bottomRightLabel": {
+    "message": "Bottom right"
+  },
+  "topLeftLabel": {
+    "message": "Top left"
+  },
+  "bottomLeftLabel": {
+    "message": "Bottom left"
+  },
+  "topLabel": {
+    "message": "ᱪᱚᱴ"
+  },
+  "bottomLabel": {
+    "message": "ᱞᱟᱛᱟᱨ"
+  },
+  "leftLabel": {
+    "message": "ᱞᱮᱝᱜᱟ"
+  },
+  "rightLabel": {
+    "message": "ᱡᱚᱡᱚᱢ"
+  },
+  "positionOffsetLabel": {
+    "message": "Display position - Offset"
+  },
+  "panelStyleLabel": {
+    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱯᱭᱟᱱᱮᱞ"
+  },
+  "panelStyleCaptionLabel": {
+    "message": "ᱣᱮᱵᱽ ᱨᱮ ᱫᱮᱠᱷᱟᱣᱟᱱ ᱞᱟᱹᱜᱤᱫ ᱛᱚᱨᱡᱚᱢᱟ ᱯᱭᱟᱱᱮᱞ ᱰᱷᱚᱝ ᱴᱷᱟᱹᱣᱠᱟᱹᱭ ᱢᱮ ᱾"
+  },
+  "widthLabel": {
+    "message": "Width"
+  },
+  "heightLabel": {
+    "message": "Height"
+  },
+  "fontSizeLabel": {
+    "message": "ᱯᱷᱚᱸᱴ ᱟᱠᱟᱨ"
+  },
+  "referencePointLabel": {
+    "message": "Display position - Reference point"
+  },
+  "bottomSelectedTextLabel": {
+    "message": "Bottom of selected text"
+  },
+  "topSelectedTextLabel": {
+    "message": "ᱪᱚᱴ ᱪᱚᱭᱚᱱᱟᱱ ᱚᱱᱚᱞ "
+  },
+  "clickedPointLabel": {
+    "message": "ᱯᱚᱮᱸᱴ ᱚᱛᱟᱠᱟᱱᱟ"
+  },
+  "displayDirectionLabel": {
+    "message": "Display position - Direction"
+  },
+  "resultFontColorLabel": {
+    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱨᱮᱡᱚᱞᱴ ᱞᱟᱹᱜᱤᱫ ᱯᱷᱚᱸᱴ ᱨᱚᱝ"
+  },
+  "candidateFontColorLabel": {
+    "message": "ᱯᱷᱚᱸᱴ ᱨᱚᱝ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱷᱟᱹᱜᱤᱫᱟᱹᱨ ᱠᱚ ᱞᱟᱹᱜᱤᱫ"
+  },
+  "bgColorLabel": {
+    "message": "ᱚᱱᱚᱰ ᱨᱚᱝ"
+  },
+  "otherLabel": {
+    "message": "ᱮᱴᱟᱜ"
+  },
+  "isShowOptionsPageWhenUpdatedLabel": {
+    "message": "ᱚᱯᱰᱮᱴᱚᱜ ᱡᱷᱚᱜ ᱚᱯᱥᱚᱱ ᱥᱟᱦᱴᱟ ᱫᱮᱠᱷᱟᱣ"
+  },
+  "isShowOptionsPageWhenUpdatedCaptionLabel": {
+    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+  },
+  "isDebugModeLabel": {
+    "message": "ᱰᱮᱵᱩᱜᱽ ᱢᱚᱰ ᱮᱱᱟᱵᱟᱹᱞ ᱢᱮ"
+  },
+  "isDebugModeCaptionLabel": {
+    "message": "When debug mode is enabled, the log is output to the debugger."
+  },
+  "exportSettingsLabel": {
+    "message": "ᱥᱮᱴᱤᱝ ᱮᱠᱥᱯᱚᱨᱴ ᱢᱮ"
+  },
+  "exportSettingsCaptionLabel": {
+    "message": "Save the settings as a json file on the computer."
+  },
+  "exportButtonLabel": {
+    "message": "ᱮᱠᱥᱯᱚᱨᱴ"
+  },
+  "importSettingsLabel": {
+    "message": "ᱥᱮᱴᱤᱝ ᱤᱢᱯᱚᱨᱴ ᱢᱮ"
+  },
+  "importSettingsCaptionLabel": {
+    "message": "Load the settings file saved on the computer."
+  },
+  "importButtonLabel": {
+    "message": "ᱤᱢᱯᱚᱨᱴ"
+  },
+  "resetSettingsLabel": {
+    "message": "ᱥᱟᱡᱟᱣ ᱠᱚ ᱫᱚᱦᱲᱟ ᱥᱟᱡᱟᱣ ᱢᱮ"
+  },
+  "resetSettingsCaptionLabel": {
+    "message": "ᱰᱤᱯᱷᱚᱞᱴ ᱨᱮ ᱥᱟᱱᱟᱢ ᱥᱟᱡᱟᱣ ᱠᱚ ᱨᱤᱥᱴᱚᱨ ᱢᱮ ᱾"
+  },
+  "resetSettingsButtonLabel": {
+    "message": "ᱨᱤᱥᱮᱴ"
+  },
+  "shortcutsLabel": {
+    "message": "Shortcuts"
+  },
+  "keyboardShortcutsLabel": {
+    "message": "Keyboard shortcuts"
+  },
+  "setKeyboardShortCutsMessage": {
+    "message": "Set keyboard shortcuts."
+  },
+  "typeShortcutMessage": {
+    "message": "Type a shortcut"
+  },
+  "typeLetterMessage": {
+    "message": "Type a letter"
+  },
+  "includeModifierKeysMessage": {
+    "message": "Include either Ctrl or Alt"
+  },
+  "includeMacModifierKeysMessage": {
+    "message": "Include either Command, Ctrl or Alt"
+  },
+  "invalidLetterMessage": {
+    "message": "The letter can not be used"
+  },
+  "invalidShortcutMessage": {
+    "message": "The shortcut can not be used"
+  },
+  "clear": {
+    "message": "Clear"
+  },
+  "reset": {
+    "message": "ᱨᱤᱥᱮᱴ"
+  },
+  "informationLabel": {
+    "message": "Information"
+  },
+  "backersLabel": {
+    "message": "Backers"
+  },
+  "licenseLabel": {
+    "message": "License"
+  },
+  "donationLabel": {
+    "message": "Please make a donation"
+  },
+  "donationCaptionLabel": {
+    "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+  },
+  "amazonTitleLabel": {
+    "message": "amazon.co.jp eGift Cards"
+  },
+  "sponsorsLabel": {
+    "message": "Sponsors"
+  },
+  "addonPageLabel": {
+    "message": "Add-on page"
+  },
+  "extensionPageLabel": {
+    "message": "Extension page"
+  },
+  "privacyPolicyLabel": {
+    "message": "Privacy policy"
+  },
+  "amazonUrl": {
+    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
+  },
+  "addonUrl": {
+    "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
+  },
+  "networkError": {
+    "message": "Error: Check network connection status."
+  },
+  "unavailableError": {
+    "message": "Error: Service usage limit reached. Please wait a while and try again."
+  },
+  "unknownError": {
+    "message": "Error: Unknown error"
+  },
+  "translatePageMenu": {
+    "message": "ᱱᱚᱣᱟ ᱥᱟᱦᱴᱟ ᱛᱚᱨᱡᱚᱢᱟᱭ ᱢᱮ"
+  },
+  "translateTextMenu": {
+    "message": "Translate selected text"
+  },
+  "translateLinkMenu": {
+    "message": "Translate selected link"
+  },
+  "openPopupDescription": {
+    "message": "ᱴᱩᱞᱵᱟᱨ ᱯᱚᱯᱚᱯ ᱡᱷᱤᱡᱽ ᱢᱮ"
+  }
+}

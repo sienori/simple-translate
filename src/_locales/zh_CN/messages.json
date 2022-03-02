@@ -400,5 +400,317 @@
   },
   "openPopupDescription": {
     "message": "打开工具栏弹出窗口"
+  },
+  "lang_af": {
+    "message": "南非荷兰语"
+  },
+  "lang_sq": {
+    "message": "阿尔巴尼亚语"
+  },
+  "lang_am": {
+    "message": "阿姆哈拉语"
+  },
+  "lang_ar": {
+    "message": "阿拉伯语"
+  },
+  "lang_hy": {
+    "message": "亚美尼亚语"
+  },
+  "lang_az": {
+    "message": "阿塞拜疆语"
+  },
+  "lang_eu": {
+    "message": "巴斯克语"
+  },
+  "lang_be": {
+    "message": "白俄罗斯语"
+  },
+  "lang_bn": {
+    "message": "孟加拉语"
+  },
+  "lang_bs": {
+    "message": "波斯尼亚语"
+  },
+  "lang_bg": {
+    "message": "保加利亚语"
+  },
+  "lang_ca": {
+    "message": "加泰罗尼亚语"
+  },
+  "lang_ceb": {
+    "message": "宿雾语"
+  },
+  "lang_ny": {
+    "message": "齐切瓦语"
+  },
+  "lang_zh-CN": {
+    "message": "中文（简体）"
+  },
+  "lang_zh-TW": {
+    "message": "中文（繁体）"
+  },
+  "lang_co": {
+    "message": "科西嘉语"
+  },
+  "lang_hr": {
+    "message": "克罗地亚语"
+  },
+  "lang_cs": {
+    "message": "捷克语"
+  },
+  "lang_da": {
+    "message": "丹麦语"
+  },
+  "lang_nl": {
+    "message": "荷兰语"
+  },
+  "lang_en": {
+    "message": "英语"
+  },
+  "lang_eo": {
+    "message": "世界语"
+  },
+  "lang_et": {
+    "message": "爱沙尼亚语"
+  },
+  "lang_fi": {
+    "message": "芬兰 语"
+  },
+  "lang_fr": {
+    "message": "法语"
+  },
+  "lang_fy": {
+    "message": "弗里斯兰语"
+  },
+  "lang_gl": {
+    "message": "加利西亚语"
+  },
+  "lang_ka": {
+    "message": "格鲁吉亚语"
+  },
+  "lang_de": {
+    "message": "德语"
+  },
+  "lang_el": {
+    "message": "希腊语"
+  },
+  "lang_gu": {
+    "message": "古吉拉特语"
+  },
+  "lang_ht": {
+    "message": "海地语"
+  },
+  "lang_ha": {
+    "message": "豪萨语"
+  },
+  "lang_haw": {
+    "message": "夏威夷语"
+  },
+  "lang_he": {
+    "message": "希伯来语"
+  },
+  "lang_hi": {
+    "message": "印地语"
+  },
+  "lang_hu": {
+    "message": "匈牙利 语"
+  },
+  "lang_is": {
+    "message": "冰岛语"
+  },
+  "lang_ig": {
+    "message": "伊博语"
+  },
+  "lang_id": {
+    "message": "印度尼西亚语"
+  },
+  "lang_ga": {
+    "message": "爱尔兰语"
+  },
+  "lang_it": {
+    "message": "意大利语"
+  },
+  "lang_ja": {
+    "message": "日语"
+  },
+  "lang_jv": {
+    "message": "爪哇语"
+  },
+  "lang_kn": {
+    "message": "埃纳德语"
+  },
+  "lang_kk": {
+    "message": "哈萨克语"
+  },
+  "lang_km": {
+    "message": "高棉语"
+  },
+  "lang_ky": {
+    "message": "吉尔吉斯语"
+  },
+  "lang_ko": {
+    "message": "韩语"
+  },
+  "lang_ku": {
+    "message": "库尔德语"
+  },
+  "lang_lo": {
+    "message": "老挝语"
+  },
+  "lang_la": {
+    "message": "拉丁语"
+  },
+  "lang_lv": {
+    "message": "拉脱维亚语"
+  },
+  "lang_lt": {
+    "message": "立陶宛语"
+  },
+  "lang_lb": {
+    "message": "卢森堡语"
+  },
+  "lang_mk": {
+    "message": "马其顿语"
+  },
+  "lang_mg": {
+    "message": "马尔加什语"
+  },
+  "lang_ms": {
+    "message": "马来语"
+  },
+  "lang_ml": {
+    "message": "马拉雅拉姆"
+  },
+  "lang_mt": {
+    "message": "马耳他语"
+  },
+  "lang_mi": {
+    "message": "毛利语"
+  },
+  "lang_mr": {
+    "message": "马拉地语"
+  },
+  "lang_mn": {
+    "message": "蒙古语"
+  },
+  "lang_hmn": {
+    "message": "苗语"
+  },
+  "lang_my": {
+    "message": "缅甸语"
+  },
+  "lang_ne": {
+    "message": "尼泊尔语"
+  },
+  "lang_no": {
+    "message": "挪威语"
+  },
+  "lang_fa": {
+    "message": "波斯语"
+  },
+  "lang_pl": {
+    "message": "波兰语"
+  },
+  "lang_pt": {
+    "message": "葡萄牙语"
+  },
+  "lang_pa": {
+    "message": "旁遮普语"
+  },
+  "lang_ps": {
+    "message": "普什图语"
+  },
+  "lang_ro": {
+    "message": "罗马尼亚语"
+  },
+  "lang_ru": {
+    "message": "俄语"
+  },
+  "lang_sm": {
+    "message": "萨摩亚语"
+  },
+  "lang_gd": {
+    "message": "苏格兰盖尔语"
+  },
+  "lang_sr": {
+    "message": "塞尔维亚语"
+  },
+  "lang_sn": {
+    "message": "修纳语"
+  },
+  "lang_sd": {
+    "message": "信德语"
+  },
+  "lang_si": {
+    "message": "僧伽罗语"
+  },
+  "lang_sk": {
+    "message": "斯洛伐克语"
+  },
+  "lang_sl": {
+    "message": "斯洛文尼亚语"
+  },
+  "lang_so": {
+    "message": "索马里语"
+  },
+  "lang_sx": {
+    "message": "索托语"
+  },
+  "lang_es": {
+    "message": "西班牙语"
+  },
+  "lang_su": {
+    "message": "巽他语"
+  },
+  "lang_sw": {
+    "message": "斯瓦希里语"
+  },
+  "lang_sv": {
+    "message": "瑞典语"
+  },
+  "lang_tl": {
+    "message": "塔加 路语"
+  },
+  "lang_tg": {
+    "message": "塔吉克语"
+  },
+  "lang_ta": {
+    "message": "泰米尔语"
+  },
+  "lang_te": {
+    "message": "泰卢固语"
+  },
+  "lang_th": {
+    "message": "泰语"
+  },
+  "lang_tr": {
+    "message": "土耳其语"
+  },
+  "lang_uk": {
+    "message": "乌克兰语"
+  },
+  "lang_ur": {
+    "message": "乌尔都语"
+  },
+  "lang_uz": {
+    "message": "乌兹别克语"
+  },
+  "lang_vi": {
+    "message": "越南语"
+  },
+  "lang_cy": {
+    "message": "威尔士语"
+  },
+  "lang_xh": {
+    "message": "雪撒语"
+  },
+  "lang_yi": {
+    "message": "第绪语"
+  },
+  "lang_yo": {
+    "message": "约鲁巴语"
+  },
+  "lang_zu": {
+    "message": "祖鲁语"
   }
 }

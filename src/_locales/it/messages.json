@@ -400,5 +400,317 @@
   },
   "openPopupDescription": {
     "message": "Apri il popup della barra degli strumenti"
+  },
+  "lang_af": {
+    "message": "Afrikaans"
+  },
+  "lang_sq": {
+    "message": "Albanese"
+  },
+  "lang_am": {
+    "message": "Amarico"
+  },
+  "lang_ar": {
+    "message": "Arabo"
+  },
+  "lang_hy": {
+    "message": "Armeno"
+  },
+  "lang_az": {
+    "message": "Azero"
+  },
+  "lang_eu": {
+    "message": "Basco"
+  },
+  "lang_be": {
+    "message": "Bielorusso"
+  },
+  "lang_bn": {
+    "message": "Bengalese"
+  },
+  "lang_bs": {
+    "message": "Bosniaco"
+  },
+  "lang_bg": {
+    "message": "Bulgaro"
+  },
+  "lang_ca": {
+    "message": "Catalano"
+  },
+  "lang_ceb": {
+    "message": "Cubano"
+  },
+  "lang_ny": {
+    "message": "Chewa"
+  },
+  "lang_zh-CN": {
+    "message": "Cinese (PRC)"
+  },
+  "lang_zh-TW": {
+    "message": "Cinese (Taiwan)"
+  },
+  "lang_co": {
+    "message": "Corso"
+  },
+  "lang_hr": {
+    "message": "Croato"
+  },
+  "lang_cs": {
+    "message": "Ceco"
+  },
+  "lang_da": {
+    "message": "Danese"
+  },
+  "lang_nl": {
+    "message": "Olandese"
+  },
+  "lang_en": {
+    "message": "Inglese"
+  },
+  "lang_eo": {
+    "message": "Esperanto"
+  },
+  "lang_et": {
+    "message": "Estone"
+  },
+  "lang_fi": {
+    "message": "Finlandese"
+  },
+  "lang_fr": {
+    "message": "Francese"
+  },
+  "lang_fy": {
+    "message": "Frisone"
+  },
+  "lang_gl": {
+    "message": "Galiziano"
+  },
+  "lang_ka": {
+    "message": "Georgiano"
+  },
+  "lang_de": {
+    "message": "Tedesco"
+  },
+  "lang_el": {
+    "message": "Greco"
+  },
+  "lang_gu": {
+    "message": "Gujarati"
+  },
+  "lang_ht": {
+    "message": "Haitiano"
+  },
+  "lang_ha": {
+    "message": "Hausa"
+  },
+  "lang_haw": {
+    "message": "Hawaiano"
+  },
+  "lang_he": {
+    "message": "Ebraico"
+  },
+  "lang_hi": {
+    "message": "Hindi"
+  },
+  "lang_hu": {
+    "message": "Ungherese"
+  },
+  "lang_is": {
+    "message": "Islandese"
+  },
+  "lang_ig": {
+    "message": "Igbo"
+  },
+  "lang_id": {
+    "message": "Indonesiano"
+  },
+  "lang_ga": {
+    "message": "Irlandese"
+  },
+  "lang_it": {
+    "message": "Italiano"
+  },
+  "lang_ja": {
+    "message": "Giapponese"
+  },
+  "lang_jv": {
+    "message": "Javanese"
+  },
+  "lang_kn": {
+    "message": "Kannada"
+  },
+  "lang_kk": {
+    "message": "Kazako"
+  },
+  "lang_km": {
+    "message": "Khmer"
+  },
+  "lang_ky": {
+    "message": "Kirghiz"
+  },
+  "lang_ko": {
+    "message": "Coreano"
+  },
+  "lang_ku": {
+    "message": "Curdo"
+  },
+  "lang_lo": {
+    "message": "Laotian"
+  },
+  "lang_la": {
+    "message": "Latino"
+  },
+  "lang_lv": {
+    "message": "Lettone"
+  },
+  "lang_lt": {
+    "message": "Lituano"
+  },
+  "lang_lb": {
+    "message": "Lussemburghese"
+  },
+  "lang_mk": {
+    "message": "Macedone"
+  },
+  "lang_mg": {
+    "message": "Malagasy"
+  },
+  "lang_ms": {
+    "message": "Malese"
+  },
+  "lang_ml": {
+    "message": "Malayalam"
+  },
+  "lang_mt": {
+    "message": "Maltese"
+  },
+  "lang_mi": {
+    "message": "Maori"
+  },
+  "lang_mr": {
+    "message": "Marathi"
+  },
+  "lang_mn": {
+    "message": "Mongolo"
+  },
+  "lang_hmn": {
+    "message": "Monk"
+  },
+  "lang_my": {
+    "message": "Myanmar"
+  },
+  "lang_ne": {
+    "message": "Nepalese"
+  },
+  "lang_no": {
+    "message": "Norvegese"
+  },
+  "lang_fa": {
+    "message": "Persiano"
+  },
+  "lang_pl": {
+    "message": "Polacco"
+  },
+  "lang_pt": {
+    "message": "Portoghese"
+  },
+  "lang_pa": {
+    "message": "Punjabi"
+  },
+  "lang_ps": {
+    "message": "Pushto"
+  },
+  "lang_ro": {
+    "message": "Rumeno"
+  },
+  "lang_ru": {
+    "message": "Russo"
+  },
+  "lang_sm": {
+    "message": "Samoano"
+  },
+  "lang_gd": {
+    "message": "Scozzese Gaelico"
+  },
+  "lang_sr": {
+    "message": "Serbo"
+  },
+  "lang_sn": {
+    "message": "Shona"
+  },
+  "lang_sd": {
+    "message": "Sindhi"
+  },
+  "lang_si": {
+    "message": "Sinhala"
+  },
+  "lang_sk": {
+    "message": "Slovacco"
+  },
+  "lang_sl": {
+    "message": "Sloveno"
+  },
+  "lang_so": {
+    "message": "Somalo"
+  },
+  "lang_sx": {
+    "message": "Sotho"
+  },
+  "lang_es": {
+    "message": "Spagnolo"
+  },
+  "lang_su": {
+    "message": "Sudanese"
+  },
+  "lang_sw": {
+    "message": "Swahili"
+  },
+  "lang_sv": {
+    "message": "Svedese"
+  },
+  "lang_tl": {
+    "message": "Tagalog"
+  },
+  "lang_tg": {
+    "message": "Tajiki"
+  },
+  "lang_ta": {
+    "message": "Tamil"
+  },
+  "lang_te": {
+    "message": "Telugu"
+  },
+  "lang_th": {
+    "message": "Tailandese"
+  },
+  "lang_tr": {
+    "message": "Turco"
+  },
+  "lang_uk": {
+    "message": "Ucraino"
+  },
+  "lang_ur": {
+    "message": "Urdu"
+  },
+  "lang_uz": {
+    "message": "Uzbeko"
+  },
+  "lang_vi": {
+    "message": "Vietnamita"
+  },
+  "lang_cy": {
+    "message": "Gallese"
+  },
+  "lang_xh": {
+    "message": "Xosa"
+  },
+  "lang_yi": {
+    "message": "Yiddish"
+  },
+  "lang_yo": {
+    "message": "Yoruba"
+  },
+  "lang_zu": {
+    "message": "Zulu"
   }
 }

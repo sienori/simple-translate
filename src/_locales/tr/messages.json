@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Seçilen metni web sayfasında hızlıca çevirin. Araç çubuğu penceresinde giriş metnini çevirebilirsiniz."
+    "message": "Sayfada seçtiğiniz metni hızlıca çevirin. Seçilen metni tarayıcı araç çubuğu penceresinden de çevirebilirsiniz."
   },
   "donateWithPaypalLabel": {
     "message": "PayPal ile bağış yapın"
@@ -45,7 +45,7 @@
     "message": "Tüm Diller"
   },
   "recentLangLabel": {
-    "message": "Recent languages"
+    "message": "Son kullanılan diller"
   },
   "settingsLabel": {
     "message": "Ayarlar"
@@ -60,13 +60,13 @@
     "message": "İnternet sayfası"
   },
   "ifShowCandidateLabel": {
-    "message": "Çeviri önerilerini göster"
+    "message": "Kelimenin diğer anlamlarını da göster"
   },
   "ifShowCandidateCaptionLabel": {
-    "message": "Tek bir kelime çevrildiğinde çoklu çeviri önerilerini göster."
+    "message": "Çevirmek için tek kelime seçildiğinde o kelimenin mevcut olan birden fazla anlamını da göster."
   },
   "whenSelectTextLabel": {
-    "message": "Metin seçerken davranış"
+    "message": "Metin seçerken beklenen davranış"
   },
   "ifAutoTranslateLabel": {
     "message": "Çeviri panelini görüntüle"
@@ -78,7 +78,7 @@
     "message": "Çeviri butonunu göster"
   },
   "ifShowButtonCaptionLabel": {
-    "message": "Tıklandığında paneli açmak için çeviri butonunu görüntüleyin."
+    "message": "Paneli göstermesi için tıklayabileceğim simgeyi görüntüle."
   },
   "dontshowbuttonlabel": {
     "message": "Butonu veya paneli görüntüleme"
@@ -90,13 +90,13 @@
     "message": "Çeviri gerekli değilse butonu görüntülemeyin"
   },
   "ifCheckLangCaptionLabel": {
-    "message": "Seçilen metnin dilini algılar ve hedef dil ile aynıysa, buton görüntülenmez."
+    "message": "Seçilen metnin dilini algılar ve hedef dil ile aynıysa buton görüntülenmez."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Seçili metnin dilini algılar ve varsayılan hedef dille aynıysa, ikinci dile çevirir."
+    "message": "Seçili metnin dilini algılar ve varsayılan hedef dille aynıysa ikinci dile çevirir."
   },
   "disableTranslationLabel": {
-    "message": "Disable translation"
+    "message": "Çeviriyi devre dışı bırak"
   },
   "isDisabledInTextFieldsLabel": {
     "message": "Metin alanlarındaki çeviriyi devre dışı bırakın"
@@ -105,19 +105,19 @@
     "message": "Bir metin alanında metin seçerken çeviri butonunu veya paneli görüntülemeyin."
   },
   "isDisabledInCodeElementLabel": {
-    "message": "Disable translation in code tags"
+    "message": "HTML kod etiketlerinde çeviriyi devre dışı bırak"
   },
   "isDisabledInCodeElementCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in code tag."
+    "message": "Kod etiketinde metin seçerken çeviri butonunu veya paneli görüntülemeyin."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Translate on modifier key pressed"
+    "message": "Değiştirici tuşa basıldığında çevir"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Only display translation on specified modifier key pressed."
+    "message": "Çeviriyi yalnızca belirtilen değiştirici tuşa basıldığında görüntüleyin."
   },
   "modifierKeyLabel": {
-    "message": "Modifier Key"
+    "message": "Değiştirici Tuş"
   },
   "shiftLabel": {
     "message": "Shift"
@@ -132,19 +132,19 @@
     "message": "Command"
   },
   "disableUrlListLabel": {
-    "message": "Çeviriyi devre dışı bırakmak için URL listesi"
+    "message": "Bu URL'lerde çeviriyi devre dışı bırak"
   },
   "disableUrlListCaptionLabel": {
-    "message": "Sayfa URL’si listeyle eşleşirse, web sayfasındaki çeviri devre dışı bırakılır. Liste özel karakterlere \"*\"  izin verir."
+    "message": "Sayfa URL'si listeyle eşleşiyorsa sayfadaki çeviri devre dışı bırakılır. Liste \"*\" joker karaktere izin verir."
   },
   "toolbarLabel": {
-    "message": "Araç çubuğu penceresi"
+    "message": "Tarayıcı araç çubuğu penceresi"
   },
   "ifChangeSecondLangLabel": {
     "message": "İkinci dile otomatik geç"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "Giriş metninin dilini algılar, varsayılan hedef dili ile aynıysa ikinci dile çevirir."
+    "message": "Seçilen metnin dilini algılar ve varsayılan hedef dille aynıysa ikinci dile çevirir."
   },
   "secondTargetLangLabel": {
     "message": "İkinci dil"
@@ -153,10 +153,10 @@
     "message": "İkinci hedef dilini seçin."
   },
   "ignoredDocumentLangLabel": {
-    "message": "Disable translation by lang attribute"
+    "message": "Lang özniteliğine göre çeviriyi devre dışı bırak"
   },
   "ignoredDocumentLangCaptionLabel": {
-    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
+    "message": "Sayfanın html öğesindeki lang özniteliği listeyle eşleşiyorsa çeviriyi devre dışı bırakın. Virgülle ayrılmış dil etiketleri girin."
   },
   "waitTimeLabel": {
     "message": "Çevirmek için bekleme süresi"
@@ -165,43 +165,43 @@
     "message": "Bir karakterin girişinden çevirinin başlangıcına kadar olan bekleme süresini belirtin. (milisaniye)"
   },
   "waitTime2CaptionLabel": {
-    "message": "Kısa sürede birçok kez çevirirseniz, bir süre kullanılamaz hale gelebilir."
+    "message": "Kısa sürede birçok kez çevirirseniz bir süreliğine sistem kullanım dışı kalabilir."
   },
   "menuLabel": {
     "message": "İçerik menüsü"
   },
   "ifShowMenuLabel": {
-    "message": "İçerik menüsünü görüntüle"
+    "message": "İçerik menüsünde göster"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Web sayfasına veya sekmeye sağ tıkladığınızda görüntülenen içerik menüsüne öğe ekleyin."
+    "message": "Sayfaya ya da sekmeye sağ tıklandığında içerik menüsüne ekle."
   },
   "styleLabel": {
-    "message": "Biçim"
+    "message": "Görünüm"
   },
   "themeLabel": {
-    "message": "Theme"
+    "message": "Tema"
   },
   "themeCaptionLabel": {
-    "message": "Specify the color scheme."
+    "message": "Renk düzenini seçin."
   },
   "lightLabel": {
-    "message": "Light"
+    "message": "Açık"
   },
   "darkLabel": {
-    "message": "Dark"
+    "message": "Koyu"
   },
   "buttonStyleLabel": {
     "message": "Çeviri butonu"
   },
   "buttonStyleCaptionLabel": {
-    "message": "Web sayfasında görüntülenen çeviri düğmesinin biçimini belirleyin."
+    "message": "Web sayfasında görüntülenen çeviri butonunun stilini belirleyin."
   },
   "buttonSizeLabel": {
     "message": "Boyut"
   },
   "buttonPositionLabel": {
-    "message": "Görüntü konumu"
+    "message": "Ekran konumu"
   },
   "topRightLabel": {
     "message": "Sağ üst"
@@ -228,13 +228,13 @@
     "message": "Sağ"
   },
   "positionOffsetLabel": {
-    "message": "Görüntü konumu - Kaydırma"
+    "message": "Ekran konumu - Kenardan uzaklık"
   },
   "panelStyleLabel": {
     "message": "Çeviri paneli"
   },
   "panelStyleCaptionLabel": {
-    "message": "Web sayfasında görüntülenen çeviri panelinin biçimini belirleyin."
+    "message": "Web sayfasında görüntülenen çeviri panelinin stilini belirleyin."
   },
   "widthLabel": {
     "message": "Genişlik"
@@ -246,7 +246,7 @@
     "message": "Yazı tipi boyutu"
   },
   "referencePointLabel": {
-    "message": "Görüntü konumu - Referans noktası"
+    "message": "Ekran konumu - Referans noktası"
   },
   "bottomSelectedTextLabel": {
     "message": "Seçili metnin altı"
@@ -258,49 +258,49 @@
     "message": "Tıklanan nokta"
   },
   "displayDirectionLabel": {
-    "message": "Görüntü konumu - Yön"
+    "message": "Ekran konumu - Yön"
   },
   "resultFontColorLabel": {
-    "message": "Çeviri sonucunun yazı tipi rengi"
+    "message": "Paneldeki çevrilmiş metnin yazı tipi rengi"
   },
   "candidateFontColorLabel": {
-    "message": "Çeviri adaylarının yazı tipi rengi"
+    "message": "Kelimeye ait diğer anlamların yazı tipi rengi"
   },
   "bgColorLabel": {
-    "message": "Arka plan rengi"
+    "message": "Çeviri panelinin arka plan rengi"
   },
   "otherLabel": {
     "message": "Diğer"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Güncelleme yaparken seçenekler sayfasını görüntüle"
+    "message": "Güncelleme sırasında ayarlar sayfasını görüntüler"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Simple Translate güncellendiğinde seçenekler sayfasını görüntüleyin. Güncelleme içeriğini hızlı bir şekilde öğrenebilirsiniz."
+    "message": "Simple Translate güncellendiğinde ayarlar sayfasını görüntüleyerek değişiklikleri hızlı bir şekilde öğrenebilirsiniz."
   },
   "isDebugModeLabel": {
     "message": "Hata ayıklama modunu etkinleştir"
   },
   "isDebugModeCaptionLabel": {
-    "message": "Hata ayıklama modu etkin olduğunda, sistem günlüğü hata ayıklayıcısına verilir."
+    "message": "Hata ayıklama modu etkinleştirildiğinde günlük hata ayıklayıcıya gönderilir."
   },
   "exportSettingsLabel": {
-    "message": "Export settings"
+    "message": "Ayarları dışa aktar"
   },
   "exportSettingsCaptionLabel": {
-    "message": "Save the settings as a json file on the computer."
+    "message": "Ayarları json dosyası olarak kaydedin."
   },
   "exportButtonLabel": {
-    "message": "Export"
+    "message": "Dışa aktar"
   },
   "importSettingsLabel": {
-    "message": "Import Settings"
+    "message": "Ayarları içe aktar"
   },
   "importSettingsCaptionLabel": {
-    "message": "Load the settings file saved on the computer."
+    "message": "Bilgisayara kaydedilen ayarlar dosyasını yükleyin."
   },
   "importButtonLabel": {
-    "message": "Import"
+    "message": "İçe aktar"
   },
   "resetSettingsLabel": {
     "message": "Ayarları sıfırla"
@@ -357,13 +357,13 @@
     "message": "Lütfen bağış yapın"
   },
   "donationCaptionLabel": {
-    "message": "Simple Translate'i kullandığınız için teşekkür ederiz.<br>Eklentileri geliştirmeye devam ettikçe, destekleriniz bizim için büyük bir teşvik olacaktır.<br> Simpe Translate'i beğendiyseniz, bağış yaparak bizi mutlu edebilirsiniz."
+    "message": "Simple Translate'i kullandığınız için teşekkür ederiz.<br>Desteğiniz eklentiyi geliştirmeye devam etmemiz için büyük bir teşvik olacaktır.<br>Simpe Translate'i beğendiyseniz bağış yaparak bizi mutlu edebilirsiniz."
   },
   "amazonTitleLabel": {
     "message": "amazon.co.jp eGift Cards"
   },
   "sponsorsLabel": {
-    "message": "Sponsors"
+    "message": "Sponsorlar"
   },
   "addonPageLabel": {
     "message": "Eklenti sayfası"
@@ -372,7 +372,7 @@
     "message": "Uzantı sayfası"
   },
   "privacyPolicyLabel": {
-    "message": "Privacy policy"
+    "message": "Gizlilik politikası"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
@@ -399,6 +399,6 @@
     "message": "Seçilen linki çevir"
   },
   "openPopupDescription": {
-    "message": "Araç çubuğu penceresini aç"
+    "message": "Tarayıcı araç çubuğu penceresini aç"
   }
 }

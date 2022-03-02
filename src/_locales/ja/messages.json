@@ -400,5 +400,317 @@
   },
   "openPopupDescription": {
     "message": "ツールバーポップアップを開く"
+  },
+  "lang_af": {
+    "message": "アフリカーンス語"
+  },
+  "lang_sq": {
+    "message": "アルバニア語"
+  },
+  "lang_am": {
+    "message": "アムハラ語"
+  },
+  "lang_ar": {
+    "message": "アラビア語"
+  },
+  "lang_hy": {
+    "message": "アルメニア語"
+  },
+  "lang_az": {
+    "message": "アゼルバイジャン語"
+  },
+  "lang_eu": {
+    "message": "バスク語"
+  },
+  "lang_be": {
+    "message": "ベラルーシ語"
+  },
+  "lang_bn": {
+    "message": "ベンガル語"
+  },
+  "lang_bs": {
+    "message": "ボスニア語"
+  },
+  "lang_bg": {
+    "message": "ブルガリア語"
+  },
+  "lang_ca": {
+    "message": "カタルーニャ語"
+  },
+  "lang_ceb": {
+    "message": "セブアノ語"
+  },
+  "lang_ny": {
+    "message": "チェワ語"
+  },
+  "lang_zh-CN": {
+    "message": "中国語 (簡体)"
+  },
+  "lang_zh-TW": {
+    "message": "中国語 (繁体)"
+  },
+  "lang_co": {
+    "message": "コルシカ語"
+  },
+  "lang_hr": {
+    "message": "クロアチア語"
+  },
+  "lang_cs": {
+    "message": "チェコ語"
+  },
+  "lang_da": {
+    "message": "デンマーク語"
+  },
+  "lang_nl": {
+    "message": "オランダ語"
+  },
+  "lang_en": {
+    "message": "英語"
+  },
+  "lang_eo": {
+    "message": "エスペラント語"
+  },
+  "lang_et": {
+    "message": "エストニア語"
+  },
+  "lang_fi": {
+    "message": "フィンランド語"
+  },
+  "lang_fr": {
+    "message": "フランス語"
+  },
+  "lang_fy": {
+    "message": "フリジア語"
+  },
+  "lang_gl": {
+    "message": "ガリシア語"
+  },
+  "lang_ka": {
+    "message": "ジョージア(グルジア)語"
+  },
+  "lang_de": {
+    "message": "ドイツ語"
+  },
+  "lang_el": {
+    "message": "ギリ シャ語"
+  },
+  "lang_gu": {
+    "message": "グジャラト語"
+  },
+  "lang_ht": {
+    "message": "ハイチ語"
+  },
+  "lang_ha": {
+    "message": "ハウサ語"
+  },
+  "lang_haw": {
+    "message": "ハワイ語"
+  },
+  "lang_he": {
+    "message": "ヘブライ語"
+  },
+  "lang_hi": {
+    "message": "ヒンディー語"
+  },
+  "lang_hu": {
+    "message": "ハンガリー語"
+  },
+  "lang_is": {
+    "message": "アイ スランド語"
+  },
+  "lang_ig": {
+    "message": "イボ語"
+  },
+  "lang_id": {
+    "message": "インドネシア語"
+  },
+  "lang_ga": {
+    "message": "アイルランド語"
+  },
+  "lang_it": {
+    "message": "イタリア語"
+  },
+  "lang_ja": {
+    "message": "日本語"
+  },
+  "lang_jv": {
+    "message": "ジャワ語"
+  },
+  "lang_kn": {
+    "message": "カンナダ語"
+  },
+  "lang_kk": {
+    "message": "カザフ語"
+  },
+  "lang_km": {
+    "message": "クメール語"
+  },
+  "lang_ky": {
+    "message": "キルギス語"
+  },
+  "lang_ko": {
+    "message": "韓国語"
+  },
+  "lang_ku": {
+    "message": "クルド語"
+  },
+  "lang_lo": {
+    "message": "ラオ語"
+  },
+  "lang_la": {
+    "message": "ラテン語"
+  },
+  "lang_lv": {
+    "message": "ラトビア語"
+  },
+  "lang_lt": {
+    "message": "リトアニア語"
+  },
+  "lang_lb": {
+    "message": "ルクセンブルク語"
+  },
+  "lang_mk": {
+    "message": "マケドニア語"
+  },
+  "lang_mg": {
+    "message": "マラガシ語"
+  },
+  "lang_ms": {
+    "message": "マレー語"
+  },
+  "lang_ml": {
+    "message": "マラヤーラム語"
+  },
+  "lang_mt": {
+    "message": "マルタ語"
+  },
+  "lang_mi": {
+    "message": "マオリ語"
+  },
+  "lang_mr": {
+    "message": "マラーティー語"
+  },
+  "lang_mn": {
+    "message": "モンゴル語"
+  },
+  "lang_hmn": {
+    "message": "モン語"
+  },
+  "lang_my": {
+    "message": "ミャンマー語"
+  },
+  "lang_ne": {
+    "message": "ネパール語"
+  },
+  "lang_no": {
+    "message": "ノルウェー語"
+  },
+  "lang_fa": {
+    "message": "ペルシャ語"
+  },
+  "lang_pl": {
+    "message": "ポーランド語"
+  },
+  "lang_pt": {
+    "message": "ポルトガ ル語"
+  },
+  "lang_pa": {
+    "message": "パンジャブ語"
+  },
+  "lang_ps": {
+    "message": "パシュト語"
+  },
+  "lang_ro": {
+    "message": "ルーマニア語"
+  },
+  "lang_ru": {
+    "message": "ロ シア語"
+  },
+  "lang_sm": {
+    "message": "サモア語"
+  },
+  "lang_gd": {
+    "message": "スコットランド ゲール語"
+  },
+  "lang_sr": {
+    "message": "セルビア語"
+  },
+  "lang_sn": {
+    "message": "ショナ語"
+  },
+  "lang_sd": {
+    "message": "シンド語"
+  },
+  "lang_si": {
+    "message": "シンハラ語"
+  },
+  "lang_sk": {
+    "message": "スロバキア語"
+  },
+  "lang_sl": {
+    "message": "スロベニア語"
+  },
+  "lang_so": {
+    "message": "ソマリ語"
+  },
+  "lang_sx": {
+    "message": "ソト語"
+  },
+  "lang_es": {
+    "message": "スペイン語"
+  },
+  "lang_su": {
+    "message": "スンダ語"
+  },
+  "lang_sw": {
+    "message": "スワヒリ語"
+  },
+  "lang_sv": {
+    "message": "スウェーデン語"
+  },
+  "lang_tl": {
+    "message": "タガログ語"
+  },
+  "lang_tg": {
+    "message": " タジク語"
+  },
+  "lang_ta": {
+    "message": "タミル語"
+  },
+  "lang_te": {
+    "message": "テルグ語"
+  },
+  "lang_th": {
+    "message": "タイ語"
+  },
+  "lang_tr": {
+    "message": "トルコ語"
+  },
+  "lang_uk": {
+    "message": "ウクライナ語"
+  },
+  "lang_ur": {
+    "message": "ウルドゥ語"
+  },
+  "lang_uz": {
+    "message": "ウズベク語"
+  },
+  "lang_vi": {
+    "message": "ベトナム語"
+  },
+  "lang_cy": {
+    "message": "ウェールズ語"
+  },
+  "lang_xh": {
+    "message": "コーサ語"
+  },
+  "lang_yi": {
+    "message": "イディッシュ語"
+  },
+  "lang_yo": {
+    "message": "ヨルバ語"
+  },
+  "lang_zu": {
+    "message": "ズールー語"
   }
 }

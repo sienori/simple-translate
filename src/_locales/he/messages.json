@@ -6,10 +6,10 @@
     "message": "תרגם במהירות טקסט נבחר בדף האינטרנט. בחלון מוקפץ של סרגל הכלים, ניתן לתרגם טקסט קלט."
   },
   "donateWithPaypalLabel": {
-    "message": "Donate with PayPal"
+    "message": "תרום באמצעות PayPal"
   },
   "donateLabel": {
-    "message": "Donate"
+    "message": "תרום"
   },
   "enableOnThisPage": {
     "message": "Enable translation on this page"
@@ -545,7 +545,7 @@
   "lang_km": {
     "message": "Khmer"
   },
-  "kang_rw": {
+  "lang_rw": {
     "message": "Kinyarwanda"
   },
   "lang_ky": {

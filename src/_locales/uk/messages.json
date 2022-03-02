@@ -285,22 +285,22 @@
     "message": "Коли ввімкнено режим зневадження, журнал виводиться до зневаджувача."
   },
   "exportSettingsLabel": {
-    "message": "Export settings"
+    "message": "Експортувати налаштування"
   },
   "exportSettingsCaptionLabel": {
-    "message": "Save the settings as a json file on the computer."
+    "message": "Зберегти налаштування на компʼютері у файл json."
   },
   "exportButtonLabel": {
-    "message": "Export"
+    "message": "Експорт"
   },
   "importSettingsLabel": {
-    "message": "Import Settings"
+    "message": "Імпортувати налаштування"
   },
   "importSettingsCaptionLabel": {
-    "message": "Load the settings file saved on the computer."
+    "message": "Завантажити файл налаштувань, збережений на компʼютері."
   },
   "importButtonLabel": {
-    "message": "Import"
+    "message": "Імпорт"
   },
   "resetSettingsLabel": {
     "message": "Скинути налаштування"

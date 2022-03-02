@@ -38,9 +38,6 @@
   "targetLangLabel": {
     "message": "اللغة المراد الترجمة إليها"
   },
-  "langList": {
-    "message": "af:الأفريكانية, sq:الألبانية, am:الأمهرية, ar:عربى, hy:الأرميني, az:أذربيجان, eu:الباسكي, be:البيلاروسية, bn:بنغالي, bs:البوسنية, bg:البلغارية, ca:الكاتالونية, ceb:السيبيونو, ny:الشيوا, zh-CN:صينى (PRC), zh-TW:صينى (تايوان), co:الكورسيكية, hr:الكرواتية, cs:تشيكي, da:Danish, nl:هولندي, en:الإنجليزية, eo:Esperanto, et:Estonian, fi:Finnish, fr:French, fy:Frisian, gl:Galician, ka:الجورجية, de:ألمانية, el:الإغريقي, gu:الغوجاراتية, ht:Haitian, ha:الهوسا, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesian, ga:Irish, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Korean, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:المقدونية, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persian, pl:Polish, pt:Portuguese, pa:Punjabi, ps:Pushto, ro:Romanian, ru:Russian, sm:Samoan, gd:Scottish Gaelic, sr:Serbian, sn:Shona, sd:السندية, si:السنهالية, sk:السلوفاكية, sl:سلوفيني, so:الصومالية, sx:السوتو, es:الأسبانية, su:السودانية, sw:السواحلية, sv:السويدية, tl:التغالوغ, tg:طاجيكي, ta:التاميل, te:التيلجو, th:التايلاندية, tr:التركية, uk:الأوكراني, ur:الأردية, uz:الأوزبكي, vi:الفيتنامية, cy:الولزية, xh:Xosa, yi:اليديشية, yo:اليوروبا, zu:الزولو"
-  },
   "allLangLabel": {
     "message": "كل اللغات"
   },

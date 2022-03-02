@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "Tradução simples"
+    "message": "Simple Translate"
   },
   "extDescription": {
     "message": "Tradução rápida de seleção na página. Pode-se traduzir texto no pop-up da barra de ferramentas."
@@ -400,5 +400,317 @@
   },
   "openPopupDescription": {
     "message": "Abrir popup da barra de ferramentas"
+  },
+  "lang_af": {
+    "message": "Africâner"
+  },
+  "lang_sq": {
+    "message": "Albanês"
+  },
+  "lang_am": {
+    "message": "Amárico"
+  },
+  "lang_ar": {
+    "message": "Árabe"
+  },
+  "lang_hy": {
+    "message": "Armênio"
+  },
+  "lang_az": {
+    "message": "Azerbaijano"
+  },
+  "lang_eu": {
+    "message": "Basco"
+  },
+  "lang_be": {
+    "message": "Bielorrusso"
+  },
+  "lang_bn": {
+    "message": "Bengali"
+  },
+  "lang_bs": {
+    "message": "Bósnio"
+  },
+  "lang_bg": {
+    "message": "Búlgaro"
+  },
+  "lang_ca": {
+    "message": "Catalão"
+  },
+  "lang_ceb": {
+    "message": "Cebuano"
+  },
+  "lang_ny": {
+    "message": "Chicheua"
+  },
+  "lang_zh-CN": {
+    "message": "Chinês (RPC)"
+  },
+  "lang_zh-TW": {
+    "message": "Chinês (Taiwan)"
+  },
+  "lang_co": {
+    "message": "Corso"
+  },
+  "lang_hr": {
+    "message": "Croata"
+  },
+  "lang_cs": {
+    "message": "Tcheco"
+  },
+  "lang_da": {
+    "message": "Dinamarquês"
+  },
+  "lang_nl": {
+    "message": "Holandês"
+  },
+  "lang_en": {
+    "message": "Inglês"
+  },
+  "lang_eo": {
+    "message": "Esperanto"
+  },
+  "lang_et": {
+    "message": "Estoniano"
+  },
+  "lang_fi": {
+    "message": "Finlandês"
+  },
+  "lang_fr": {
+    "message": "Francês"
+  },
+  "lang_fy": {
+    "message": "Frísio"
+  },
+  "lang_gl": {
+    "message": "Galego"
+  },
+  "lang_ka": {
+    "message": "Georgiano"
+  },
+  "lang_de": {
+    "message": "Alemão"
+  },
+  "lang_el": {
+    "message": "Grego"
+  },
+  "lang_gu": {
+    "message": "Guzerate"
+  },
+  "lang_ht": {
+    "message": "Haitiano"
+  },
+  "lang_ha": {
+    "message": "Hauçá"
+  },
+  "lang_haw": {
+    "message": "Havaiano"
+  },
+  "lang_he": {
+    "message": "Hebraico"
+  },
+  "lang_hi": {
+    "message": "Hindi"
+  },
+  "lang_hu": {
+    "message": "Húngaro"
+  },
+  "lang_is": {
+    "message": "Islandês"
+  },
+  "lang_ig": {
+    "message": "Igbo"
+  },
+  "lang_id": {
+    "message": "Indonésio"
+  },
+  "lang_ga": {
+    "message": "Irlandês"
+  },
+  "lang_it": {
+    "message": "Italiano"
+  },
+  "lang_ja": {
+    "message": "Japonês"
+  },
+  "lang_jv": {
+    "message": "Javanês"
+  },
+  "lang_kn": {
+    "message": "Canarês"
+  },
+  "lang_kk": {
+    "message": "Cazaque"
+  },
+  "lang_km": {
+    "message": "Khmer"
+  },
+  "lang_ky": {
+    "message": "Quirguiz"
+  },
+  "lang_ko": {
+    "message": "Coreano"
+  },
+  "lang_ku": {
+    "message": "Curdo"
+  },
+  "lang_lo": {
+    "message": "Laosiano"
+  },
+  "lang_la": {
+    "message": "Latim"
+  },
+  "lang_lv": {
+    "message": "Letão"
+  },
+  "lang_lt": {
+    "message": "Lituano"
+  },
+  "lang_lb": {
+    "message": "Luxemburguês"
+  },
+  "lang_mk": {
+    "message": "Macedônio"
+  },
+  "lang_mg": {
+    "message": "Malgaxe"
+  },
+  "lang_ms": {
+    "message": "Malaio"
+  },
+  "lang_ml": {
+    "message": "Malaiala"
+  },
+  "lang_mt": {
+    "message": "Maltês"
+  },
+  "lang_mi": {
+    "message": "Maori"
+  },
+  "lang_mr": {
+    "message": "Marata"
+  },
+  "lang_mn": {
+    "message": "Mongol"
+  },
+  "lang_hmn": {
+    "message": "Hmong"
+  },
+  "lang_my": {
+    "message": "Birmanês"
+  },
+  "lang_ne": {
+    "message": "Nepalês"
+  },
+  "lang_no": {
+    "message": "Norueguês"
+  },
+  "lang_fa": {
+    "message": "Persa"
+  },
+  "lang_pl": {
+    "message": "Polonês"
+  },
+  "lang_pt": {
+    "message": "Português"
+  },
+  "lang_pa": {
+    "message": "Punjabi"
+  },
+  "lang_ps": {
+    "message": "Pachto"
+  },
+  "lang_ro": {
+    "message": "Romeno"
+  },
+  "lang_ru": {
+    "message": "Russo"
+  },
+  "lang_sm": {
+    "message": "Samoano"
+  },
+  "lang_gd": {
+    "message": "Gaélico Escocês"
+  },
+  "lang_sr": {
+    "message": "Sérvio"
+  },
+  "lang_sn": {
+    "message": "Chona"
+  },
+  "lang_sd": {
+    "message": "Sindi"
+  },
+  "lang_si": {
+    "message": "Singalês"
+  },
+  "lang_sk": {
+    "message": "Eslovaco"
+  },
+  "lang_sl": {
+    "message": "Esloveno"
+  },
+  "lang_so": {
+    "message": "Somali"
+  },
+  "lang_sx": {
+    "message": "Sotho"
+  },
+  "lang_es": {
+    "message": "Espanhol"
+  },
+  "lang_su": {
+    "message": "Sundanês"
+  },
+  "lang_sw": {
+    "message": "Suaíle"
+  },
+  "lang_sv": {
+    "message": "Sueco"
+  },
+  "lang_tl": {
+    "message": "Filipino"
+  },
+  "lang_tg": {
+    "message": "Tadjique"
+  },
+  "lang_ta": {
+    "message": "Tâmil"
+  },
+  "lang_te": {
+    "message": "Telugo"
+  },
+  "lang_th": {
+    "message": "Tailandês"
+  },
+  "lang_tr": {
+    "message": "Turco"
+  },
+  "lang_uk": {
+    "message": "Ucraniano"
+  },
+  "lang_ur": {
+    "message": "Urdu"
+  },
+  "lang_uz": {
+    "message": "Uzbeque"
+  },
+  "lang_vi": {
+    "message": "Vietnamita"
+  },
+  "lang_cy": {
+    "message": "Galês"
+  },
+  "lang_xh": {
+    "message": "Xhosa"
+  },
+  "lang_yi": {
+    "message": "Iídiche"
+  },
+  "lang_yo": {
+    "message": "Ioruba"
+  },
+  "lang_zu": {
+    "message": "Zulu"
   }
 }

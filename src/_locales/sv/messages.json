@@ -573,16 +573,16 @@
     "message": "Makedonska"
   },
   "lang_mg": {
-    "message": "Malagasy"
+    "message": "Malagassiska"
   },
   "lang_ms": {
-    "message": "Malay"
+    "message": "Malajiska"
   },
   "lang_ml": {
     "message": "Malayalam"
   },
   "lang_mt": {
-    "message": "Maltese"
+    "message": "Maltesiska"
   },
   "lang_mi": {
     "message": "Maori"
@@ -591,31 +591,31 @@
     "message": "Marathi"
   },
   "lang_mn": {
-    "message": "Mongolian"
+    "message": "Mongoliska"
   },
   "lang_hmn": {
-    "message": "Monk"
+    "message": "Munk"
   },
   "lang_my": {
     "message": "Myanmar"
   },
   "lang_ne": {
-    "message": "Nepali"
+    "message": "Nepalesiska"
   },
   "lang_no": {
-    "message": "Norwegian"
+    "message": "Norska"
   },
   "lang_or": {
     "message": "Odia (Oriya)"
   },
   "lang_fa": {
-    "message": "Persian"
+    "message": "Persiska"
   },
   "lang_pl": {
-    "message": "Polish"
+    "message": "Polska"
   },
   "lang_pt": {
-    "message": "Portuguese"
+    "message": "Portugisiska"
   },
   "lang_pa": {
     "message": "Punjabi"
@@ -624,19 +624,19 @@
     "message": "Pushto"
   },
   "lang_ro": {
-    "message": "Romanian"
+    "message": "Rumänska"
   },
   "lang_ru": {
-    "message": "Russian"
+    "message": "Ryska"
   },
   "lang_sm": {
-    "message": "Samoan"
+    "message": "Samoanska"
   },
   "lang_gd": {
-    "message": "Scottish Gaelic"
+    "message": "Höglandsskotska"
   },
   "lang_sr": {
-    "message": "Serbian"
+    "message": "Serbiska"
   },
   "lang_st": {
     "message": "Sesotho"
@@ -648,22 +648,22 @@
     "message": "Sindhi"
   },
   "lang_si": {
-    "message": "Sinhala"
+    "message": "Singalesiska"
   },
   "lang_sk": {
-    "message": "Slovak"
+    "message": "Slovakiska"
   },
   "lang_sl": {
-    "message": "Slovenian"
+    "message": "Slovenska"
   },
   "lang_so": {
-    "message": "Somali"
+    "message": "Somaliska"
   },
   "lang_es": {
-    "message": "Spanish"
+    "message": "Spanska"
   },
   "lang_su": {
-    "message": "Sundanese"
+    "message": "Sundanesiska"
   },
   "lang_sw": {
     "message": "Swahili"
@@ -675,28 +675,28 @@
     "message": "Tagalog"
   },
   "lang_tg": {
-    "message": "Tajiki"
+    "message": "Tadzjiki"
   },
   "lang_ta": {
-    "message": "Tamil"
+    "message": "Tamilska"
   },
   "lang_tt": {
-    "message": "Tatar"
+    "message": "Tatariska"
   },
   "lang_te": {
-    "message": "Telugu"
+    "message": "Telugiska"
   },
   "lang_th": {
-    "message": "Thai"
+    "message": "Thailändska"
   },
   "lang_tr": {
-    "message": "Turkish"
+    "message": "Turkiska"
   },
   "lang_tk": {
-    "message": "Turkmen"
+    "message": "Turkmeniska"
   },
   "lang_uk": {
-    "message": "Ukrainian"
+    "message": "Ukrainska"
   },
   "lang_ur": {
     "message": "Urdu"

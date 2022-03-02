@@ -552,136 +552,136 @@
     "message": "Корейский"
   },
   "lang_ku": {
-    "message": "Kurdish"
+    "message": "Курдский"
   },
   "lang_lo": {
-    "message": "Laotian"
+    "message": "Лаосский"
   },
   "lang_la": {
-    "message": "Latin"
+    "message": "Латынь"
   },
   "lang_lv": {
-    "message": "Latvian"
+    "message": "Латышский"
   },
   "lang_lt": {
-    "message": "Lithuanian"
+    "message": "Литовский"
   },
   "lang_lb": {
-    "message": "Luxembourgish"
+    "message": "Люксембургский"
   },
   "lang_mk": {
-    "message": "Macedonian"
+    "message": "Македонский"
   },
   "lang_mg": {
-    "message": "Malagasy"
+    "message": "Малагасийский"
   },
   "lang_ms": {
-    "message": "Malay"
+    "message": "Малайский"
   },
   "lang_ml": {
-    "message": "Malayalam"
+    "message": "Малаялам"
   },
   "lang_mt": {
-    "message": "Maltese"
+    "message": "Мальтийский"
   },
   "lang_mi": {
-    "message": "Maori"
+    "message": "Маори"
   },
   "lang_mr": {
-    "message": "Marathi"
+    "message": "Маратхи"
   },
   "lang_mn": {
-    "message": "Mongolian"
+    "message": "Монгольский"
   },
   "lang_hmn": {
     "message": "Monk"
   },
   "lang_my": {
-    "message": "Myanmar"
+    "message": "Мьянманский"
   },
   "lang_ne": {
-    "message": "Nepali"
+    "message": "Непальский"
   },
   "lang_no": {
-    "message": "Norwegian"
+    "message": "Норвежский"
   },
   "lang_fa": {
-    "message": "Persian"
+    "message": "Фарси"
   },
   "lang_pl": {
-    "message": "Polish"
+    "message": "Польский"
   },
   "lang_pt": {
-    "message": "Portuguese"
+    "message": "Португальский"
   },
   "lang_pa": {
-    "message": "Punjabi"
+    "message": "Панджаби"
   },
   "lang_ps": {
-    "message": "Pushto"
+    "message": "Пушту"
   },
   "lang_ro": {
-    "message": "Romanian"
+    "message": "Румынский"
   },
   "lang_ru": {
-    "message": "Russian"
+    "message": "Русский"
   },
   "lang_sm": {
-    "message": "Samoan"
+    "message": "Самоанский"
   },
   "lang_gd": {
-    "message": "Scottish Gaelic"
+    "message": "Шотландский Гэльский"
   },
   "lang_sr": {
-    "message": "Serbian"
+    "message": "Сербский"
   },
   "lang_sn": {
-    "message": "Shona"
+    "message": "Шона"
   },
   "lang_sd": {
-    "message": "Sindhi"
+    "message": "Синдхи"
   },
   "lang_si": {
-    "message": "Sinhala"
+    "message": "Сингальский"
   },
   "lang_sk": {
-    "message": "Slovak"
+    "message": "Словацкий"
   },
   "lang_sl": {
-    "message": "Slovenian"
+    "message": "Словенский"
   },
   "lang_so": {
-    "message": "Somali"
+    "message": "Сомалийский"
   },
   "lang_sx": {
-    "message": "Sotho"
+    "message": "Сото"
   },
   "lang_es": {
-    "message": "Spanish"
+    "message": "Испанский"
   },
   "lang_su": {
-    "message": "Sundanese"
+    "message": "Суданский"
   },
   "lang_sw": {
-    "message": "Swahili"
+    "message": "Суахили"
   },
   "lang_sv": {
-    "message": "Swedish"
+    "message": "Шведский"
   },
   "lang_tl": {
-    "message": "Tagalog"
+    "message": "Тагальский"
   },
   "lang_tg": {
-    "message": "Tajiki"
+    "message": "Таджикский"
   },
   "lang_ta": {
-    "message": "Tamil"
+    "message": "Тамильский"
   },
   "lang_te": {
-    "message": "Telugu"
+    "message": "Телугу"
   },
   "lang_th": {
-    "message": "Thai"
+    "message": "Тайский"
   },
   "lang_tr": {
     "message": "Turkish"
@@ -702,15 +702,15 @@
     "message": "Welsh"
   },
   "lang_xh": {
-    "message": "Xosa"
+    "message": "Коса"
   },
   "lang_yi": {
-    "message": "Yiddish"
+    "message": "Идиш"
   },
   "lang_yo": {
-    "message": "Yoruba"
+    "message": "Йоруба"
   },
   "lang_zu": {
-    "message": "Zulu"
+    "message": "Зулу"
   }
 }

@@ -81,7 +81,7 @@
     "message": "Показать кнопку для открытия панели с переводом."
   },
   "dontshowbuttonlabel": {
-    "message": "Ничего не делать"
+    "message": "Не отображать кнопку или панель"
   },
   "dontshowbuttonCaptionlabel": {
     "message": "Не показывать ни кнопку перевода, ни панель с переводом."
@@ -111,7 +111,7 @@
     "message": "Не показывать кнопку перевода или панель при выделении текста в коде."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Переводить только c модификатором"
+    "message": "Переводить при нажатии клавиши модификатора"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
     "message": "Переводить только c модификатором"
@@ -545,7 +545,7 @@
   "lang_km": {
     "message": "Кхмерский"
   },
-  "kang_rw": {
+  "lang_rw": {
     "message": "Kinyarwanda"
   },
   "lang_ky": {

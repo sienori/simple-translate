@@ -50,6 +50,42 @@
   "generalLabel": {
     "message": "全般"
   },
+  "translationApiLabel": {
+    "message": "Translation engine"
+  },
+  "googleApiLabel": {
+    "message": "Google translate API"
+  },
+  "googleApiCaptionLabel": {
+    "message": "Use Google Translate API. No registration is required."
+  },
+  "deeplApiLabel": {
+    "message": "DeepL API"
+  },
+  "deeplApiCaptionLabel": {
+    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authorization key."
+  },
+  "howToUseDeeplLabel": {
+    "message": "How to register DeepL API"
+  },
+  "deeplPlanLabel": {
+    "message": "DeepL API plan"
+  },
+  "deeplPlanCaptionLabel": {
+    "message": "Select the DeepL API plan for which you registered."
+  },
+  "deeplFreeLabel": {
+    "message": "DeepL API Free"
+  },
+  "deeplProLabel": {
+    "message": "DeepL API Pro"
+  },
+  "deeplAuthKeyLabel": {
+    "message": "Authorization key"
+  },
+  "deeplAuthKeyCaptionLabel": {
+    "message": "Enter the authentication key for the DeepL API."
+  },
   "targetLangCaptionLabel": {
     "message": "デフォルトの翻訳先の言語を選択します。"
   },
@@ -382,6 +418,9 @@
   },
   "unavailableError": {
     "message": "エラー: サービスの利用制限に達しました。しばらく待ってからもう一度お試しください。"
+  },
+  "deeplAuthError": {
+    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
   },
   "unknownError": {
     "message": "エラー: 不明なエラー"
@@ -724,5 +763,20 @@
   },
   "lang_zu": {
     "message": "ズールー語"
+  },
+  "lang_en-US": {
+    "message": "English (American)"
+  },
+  "lang_en-GB": {
+    "message": "English (British)"
+  },
+  "lang_pt-PT": {
+    "message": "ポルトガル語"
+  },
+  "lang_pt-BR": {
+    "message": "Portuguese (Brazilian)"
+  },
+  "lang_zh": {
+    "message": "Chinese"
   }
 }

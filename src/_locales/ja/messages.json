@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Webページ上の選択されたテキストを瞬時に翻訳します。ツールバーポップアップではテキストを入力して翻訳できます。"
+    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
   },
   "donateWithPaypalLabel": {
     "message": "PayPalで寄付"

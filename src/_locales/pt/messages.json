@@ -3,7 +3,7 @@
     "message": "Tradução simples"
   },
   "extDescription": {
-    "message": "Tradução rápida de texto ou seleção em páginas web. Aceita Google Tradutor e DeepL API "
+    "message": "Tradução rápida de texto ou seleção em páginas. Aceita Google Tradutor e DeepL API "
   },
   "donateWithPaypalLabel": {
     "message": "Doar com PayPal"
@@ -591,154 +591,154 @@
     "message": "Quirguiz"
   },
   "lang_ko": {
-    "message": "Korean"
+    "message": "Coreano"
   },
   "lang_ku": {
-    "message": "Kurdish"
+    "message": "Curdo"
   },
   "lang_lo": {
-    "message": "Laotian"
+    "message": "Laosiano"
   },
   "lang_la": {
-    "message": "Latin"
+    "message": "Latim"
   },
   "lang_lv": {
-    "message": "Latvian"
+    "message": "Letão"
   },
   "lang_lt": {
-    "message": "Lithuanian"
+    "message": "Lituano"
   },
   "lang_lb": {
-    "message": "Luxembourgish"
+    "message": "Luxemburguês"
   },
   "lang_mk": {
-    "message": "Macedonian"
+    "message": "Macedônio"
   },
   "lang_mg": {
-    "message": "Malagasy"
+    "message": "Malgaxe"
   },
   "lang_ms": {
-    "message": "Malay"
+    "message": "Malaio"
   },
   "lang_ml": {
-    "message": "Malayalam"
+    "message": "Malaiala"
   },
   "lang_mt": {
-    "message": "Maltese"
+    "message": "Maltês"
   },
   "lang_mi": {
     "message": "Maori"
   },
   "lang_mr": {
-    "message": "Marathi"
+    "message": "Marata"
   },
   "lang_mn": {
-    "message": "Mongolian"
+    "message": "Mongol"
   },
   "lang_hmn": {
-    "message": "Monk"
+    "message": "Hmong"
   },
   "lang_my": {
-    "message": "Myanmar"
+    "message": "Birmanês"
   },
   "lang_ne": {
-    "message": "Nepali"
+    "message": "Nepalês"
   },
   "lang_no": {
-    "message": "Norwegian"
+    "message": "Norueguês"
   },
   "lang_or": {
-    "message": "Odia (Oriya)"
+    "message": "Oriá"
   },
   "lang_fa": {
-    "message": "Persian"
+    "message": "Persa"
   },
   "lang_pl": {
-    "message": "Polish"
+    "message": "Polonês"
   },
   "lang_pt": {
-    "message": "Portuguese"
+    "message": "Português"
   },
   "lang_pa": {
     "message": "Punjabi"
   },
   "lang_ps": {
-    "message": "Pushto"
+    "message": "Pachto"
   },
   "lang_ro": {
-    "message": "Romanian"
+    "message": "Romeno"
   },
   "lang_ru": {
-    "message": "Russian"
+    "message": "Russo"
   },
   "lang_sm": {
-    "message": "Samoan"
+    "message": "Samoano"
   },
   "lang_gd": {
-    "message": "Scottish Gaelic"
+    "message": "Gaélico Escocês"
   },
   "lang_sr": {
-    "message": "Serbian"
+    "message": "Sérvio"
   },
   "lang_st": {
-    "message": "Sesotho"
+    "message": "Sessoto"
   },
   "lang_sn": {
-    "message": "Shona"
+    "message": "Chona"
   },
   "lang_sd": {
-    "message": "Sindhi"
+    "message": "Sindi"
   },
   "lang_si": {
-    "message": "Sinhala"
+    "message": "Cingalês"
   },
   "lang_sk": {
-    "message": "Slovak"
+    "message": "Eslovaco"
   },
   "lang_sl": {
-    "message": "Slovenian"
+    "message": "Esloveno"
   },
   "lang_so": {
     "message": "Somali"
   },
   "lang_es": {
-    "message": "Spanish"
+    "message": "Espanhol"
   },
   "lang_su": {
-    "message": "Sundanese"
+    "message": "Sundanês"
   },
   "lang_sw": {
-    "message": "Swahili"
+    "message": "Suaíle"
   },
   "lang_sv": {
-    "message": "Swedish"
+    "message": "Sueco"
   },
   "lang_tl": {
-    "message": "Tagalog"
+    "message": "Filipino"
   },
   "lang_tg": {
-    "message": "Tajiki"
+    "message": "Tadjique"
   },
   "lang_ta": {
-    "message": "Tamil"
+    "message": "Tâmil"
   },
   "lang_tt": {
-    "message": "Tatar"
+    "message": "Tártaro"
   },
   "lang_te": {
-    "message": "Telugu"
+    "message": "Telugo"
   },
   "lang_th": {
-    "message": "Thai"
+    "message": "Tailandês"
   },
   "lang_tr": {
-    "message": "Turkish"
+    "message": "Turco"
   },
   "lang_tk": {
-    "message": "Turkmen"
+    "message": "Turcomano"
   },
   "lang_uk": {
-    "message": "Ukrainian"
+    "message": "Ucraniano"
   },
   "lang_ur": {
     "message": "Urdu"
@@ -747,39 +747,39 @@
     "message": "Uigur"
   },
   "lang_uz": {
-    "message": "Uzbek"
+    "message": "Uzbeque"
   },
   "lang_vi": {
-    "message": "Vietnamese"
+    "message": "Vietnamita"
   },
   "lang_cy": {
-    "message": "Welsh"
+    "message": "Galês"
   },
   "lang_xh": {
-    "message": "Xosa"
+    "message": "Xhosa"
   },
   "lang_yi": {
-    "message": "Yiddish"
+    "message": "Iídiche"
   },
   "lang_yo": {
-    "message": "Yoruba"
+    "message": "Ioruba"
   },
   "lang_zu": {
     "message": "Zulu"
   },
   "lang_en-US": {
-    "message": "English (American)"
+    "message": "Inglês (Americano)"
   },
   "lang_en-GB": {
-    "message": "English (British)"
+    "message": "Inglês (Britânico)"
   },
   "lang_pt-PT": {
-    "message": "Portuguese"
+    "message": "Português"
   },
   "lang_pt-BR": {
-    "message": "Portuguese (Brazilian)"
+    "message": "Português (Brasileiro)"
   },
   "lang_zh": {
-    "message": "Chinese"
+    "message": "Chinês"
   }
 }

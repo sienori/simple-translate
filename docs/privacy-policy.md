@@ -4,7 +4,7 @@ title: Privacy Poricy
 
 # Privacy Poricy of Simple Translate
 
-**Effective Date: May 9, 2020**
+**Effective Date: March 3, 2022**
 
 ## 1. Introduction
 
@@ -15,10 +15,12 @@ Simple Translate is owned and operated by [Sienori](https://github.com/sienori) 
 ## 2. Handling user data with Simple Translate
 
 To provide translation and pronunciation functions, Simple Translate retrieves the input/selected text and page URLs and sends the request to Google's API.
+In addition, if you change the translation engine to DeepL, Simple Translate will use the DeepL API for translation.
 **We do not access/collect any of these data.**
 
-Please refer to the following link for Google’s privacy policy.  
-[Google Privacy Policy](https://policies.google.com/privacy)
+Please refer to the following link the privacy policy of Google and DeepL.  
+[Google Privacy Policy](https://policies.google.com/privacy)  
+[DeepL Pryvacy Policy](https://www.deepl.com/privacy)
 
 ## 3. External service
 

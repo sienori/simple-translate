@@ -63,16 +63,16 @@
     "message": "API DeepL"
   },
   "deeplApiCaptionLabel": {
-    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authorization key."
+    "message": "Используйте API DeepL. Вы должны зарегистрироваться в DeepL API Free или DeepL API Pro, чтобы получить ключ авторизации."
   },
   "howToUseDeeplLabel": {
     "message": "Как зарегистрировать DeepL API"
   },
   "deeplPlanLabel": {
-    "message": "DeepL API plan"
+    "message": "Тарифный план API DeepL"
   },
   "deeplPlanCaptionLabel": {
-    "message": "Select the DeepL API plan for which you registered."
+    "message": "Выберите тарифный план API DeepL, на который вы зарегистрированы."
   },
   "deeplFreeLabel": {
     "message": "DeepL API Free"
@@ -420,7 +420,7 @@
     "message": "Ошибка: достигнут предел использования сервиса. Подождите некоторое время и повторите попытку."
   },
   "deeplAuthError": {
-    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
+    "message": "Ошибка: аутентификация DeepL API не удалась. Пожалуйста, установите ключ аутентификации и правильный тарифный план на странице настроек."
   },
   "unknownError": {
     "message": "Ошибка: неизвестная ошибка"

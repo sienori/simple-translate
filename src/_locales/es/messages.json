@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
+    "message": "Traduce rápidamente el texto seleccionado o escrito en las páginas web. Es compatible con las API del traductor de Google y de DeepL."
   },
   "donateWithPaypalLabel": {
     "message": "Donar con PayPal"
@@ -27,7 +27,7 @@
     "message": "Abrir en el traductor de Google"
   },
   "openInDeeplLabel": {
-    "message": "Open in DeepL Translator"
+    "message": "Abrir en el traductor DeepL"
   },
   "copyLabel": {
     "message": "Copiar"
@@ -423,7 +423,7 @@
     "message": "Error: se ha alcanzado el límite de uso del servicio. Espere un momento e inténtelo de nuevo."
   },
   "deeplAuthError": {
-    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
+    "message": "Error: ha fallado la autenticación de la API de DeepL. Defina correctamente el plan y la clave de autenticación en la página de configuración."
   },
   "unknownError": {
     "message": "Error desconocido"

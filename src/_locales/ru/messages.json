@@ -27,7 +27,7 @@
     "message": "Открыть в Переводчике Google"
   },
   "openInDeeplLabel": {
-    "message": "Open in DeepL Translator"
+    "message": "Открыть в DeepL Translator"
   },
   "copyLabel": {
     "message": "Копировать"
@@ -57,25 +57,25 @@
     "message": "Система перевода"
   },
   "googleApiLabel": {
-    "message": "API Google Переводчика"
+    "message": "Google translate API"
   },
   "googleApiCaptionLabel": {
-    "message": "Используйте API Google Переводчика. Регистрация не требуется."
+    "message": "Использовать Google Translate API. Регистрация не требуется."
   },
   "deeplApiLabel": {
-    "message": "API DeepL"
+    "message": "DeepL API"
   },
   "deeplApiCaptionLabel": {
-    "message": "Используйте API DeepL. Вы должны зарегистрироваться в DeepL API Free или DeepL API Pro, чтобы получить ключ авторизации."
+    "message": "Использовать DeepL API. Вы должны зарегистрироваться в DeepL API Free или DeepL API Pro, чтобы получить ключ авторизации."
   },
   "howToUseDeeplLabel": {
-    "message": "Как зарегистрировать DeepL API"
+    "message": "Как зарегистрироваться в DeepL API"
   },
   "deeplPlanLabel": {
-    "message": "Тарифный план API DeepL"
+    "message": "Тарифный план DeepL API"
   },
   "deeplPlanCaptionLabel": {
-    "message": "Выберите тарифный план API DeepL, на который вы зарегистрированы."
+    "message": "Выберите тарифный план DeepL API, на который вы зарегистрированы."
   },
   "deeplFreeLabel": {
     "message": "DeepL API Free"
@@ -423,7 +423,7 @@
     "message": "Ошибка: достигнут предел использования сервиса. Подождите некоторое время и повторите попытку."
   },
   "deeplAuthError": {
-    "message": "Ошибка: аутентификация DeepL API не удалась. Пожалуйста, установите ключ аутентификации и правильный тарифный план на странице настроек."
+    "message": "Ошибка: аутентификация DeepL API не удалась. Пожалуйста, установите правильный ключ аутентификации и тарифный план на странице настроек."
   },
   "unknownError": {
     "message": "Ошибка: неизвестная ошибка"

@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Швидко перекладає виділений текст на вебсторінці. Текст можна вводити у вікні на панелі інструментів."
+    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
   },
   "donateWithPaypalLabel": {
     "message": "Офірувати через PayPal"

@@ -26,6 +26,9 @@
   "openInGoogleLabel": {
     "message": "Abrir en el traductor de Google"
   },
+  "openInDeeplLabel": {
+    "message": "Open in DeepL Translator"
+  },
   "copyLabel": {
     "message": "Copiar"
   },

@@ -75,7 +75,7 @@
     "message": "Plano da DeepL API"
   },
   "deeplPlanCaptionLabel": {
-    "message": "Select the DeepL API plan for which you registered."
+    "message": "Escolha o plano da DeepL API em que se inscreveu."
   },
   "deeplFreeLabel": {
     "message": "DeepL API Free"
@@ -84,10 +84,10 @@
     "message": "DeepL API Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Authorization key"
+    "message": "Chave de autorização"
   },
   "deeplAuthKeyCaptionLabel": {
-    "message": "Enter the authentication key for the DeepL API."
+    "message": "Insira a chave de autenticação para a DeepL API."
   },
   "targetLangCaptionLabel": {
     "message": "Selecione o idioma alvo padrão."
@@ -423,7 +423,7 @@
     "message": "Erro: Limite de uso do serviço atingido. Aguarde um pouco e tente outra vez."
   },
   "deeplAuthError": {
-    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
+    "message": "Erro: autenticação da DeepL API falhou. Favor definir corretamente a chave de autenticação e plano na página de configurações."
   },
   "unknownError": {
     "message": "Erro: Erro desconhecido"
@@ -441,145 +441,145 @@
     "message": "Abrir popup da barra de ferramentas"
   },
   "lang_af": {
-    "message": "Afrikaans"
+    "message": "Africâner"
   },
   "lang_sq": {
-    "message": "Albanian"
+    "message": "Albanês"
   },
   "lang_am": {
-    "message": "Amharic"
+    "message": "Amárico"
   },
   "lang_ar": {
-    "message": "Arabic"
+    "message": "Árabe"
   },
   "lang_hy": {
-    "message": "Armenian"
+    "message": "Armênio"
   },
   "lang_az": {
-    "message": "Azerbaijani"
+    "message": "Azerbaijano"
   },
   "lang_eu": {
-    "message": "Basque"
+    "message": "Basco"
   },
   "lang_be": {
-    "message": "Belarusian"
+    "message": "Bielo-russo"
   },
   "lang_bn": {
     "message": "Bengali"
   },
   "lang_bs": {
-    "message": "Bosnian"
+    "message": "Bósnio"
   },
   "lang_bg": {
-    "message": "Bulgarian"
+    "message": "Búlgaro"
   },
   "lang_ca": {
-    "message": "Catalan"
+    "message": "Catalão"
   },
   "lang_ceb": {
     "message": "Cebuano"
   },
   "lang_ny": {
-    "message": "Chewa"
+    "message": "Chicheua"
   },
   "lang_zh-CN": {
-    "message": "Chinese (Simplified)"
+    "message": "Chinês (Simplificado)"
   },
   "lang_zh-TW": {
-    "message": "Chinese (Traditional)"
+    "message": "Chinês (Tradicional)"
   },
   "lang_co": {
-    "message": "Corsican"
+    "message": "Corso"
   },
   "lang_hr": {
-    "message": "Croatian"
+    "message": "Croata"
   },
   "lang_cs": {
-    "message": "Czech"
+    "message": "Tcheco"
   },
   "lang_da": {
-    "message": "Danish"
+    "message": "Dinamarquês"
   },
   "lang_nl": {
-    "message": "Dutch"
+    "message": "Holandês"
   },
   "lang_en": {
-    "message": "English"
+    "message": "Inglês"
   },
   "lang_eo": {
     "message": "Esperanto"
   },
   "lang_et": {
-    "message": "Estonian"
+    "message": "Estoniano"
   },
   "lang_fi": {
-    "message": "Finnish"
+    "message": "Finlandês"
   },
   "lang_fr": {
-    "message": "French"
+    "message": "Francês"
   },
   "lang_fy": {
-    "message": "Frisian"
+    "message": "Frísio"
   },
   "lang_gl": {
-    "message": "Galician"
+    "message": "Galego"
   },
   "lang_ka": {
-    "message": "Georgian"
+    "message": "Georgiano"
   },
   "lang_de": {
-    "message": "German"
+    "message": "Alemão"
   },
   "lang_el": {
-    "message": "Greek"
+    "message": "Grego"
   },
   "lang_gu": {
-    "message": "Gujarati"
+    "message": "Guzerate"
   },
   "lang_ht": {
-    "message": "Haitian"
+    "message": "Haitiano"
   },
   "lang_ha": {
-    "message": "Hausa"
+    "message": "Hauçá"
   },
   "lang_haw": {
-    "message": "Hawaiian"
+    "message": "Havaiano"
   },
   "lang_he": {
-    "message": "Hebrew"
+    "message": "Hebraico"
   },
   "lang_hi": {
     "message": "Hindi"
   },
   "lang_hu": {
-    "message": "Hungarian"
+    "message": "Húngaro"
   },
   "lang_is": {
-    "message": "Icelandic"
+    "message": "Islandês"
   },
   "lang_ig": {
     "message": "Igbo"
   },
   "lang_id": {
-    "message": "Indonesian"
+    "message": "Indonésio"
   },
   "lang_ga": {
-    "message": "Irish"
+    "message": "Irlandês"
   },
   "lang_it": {
-    "message": "Italian"
+    "message": "Italiano"
   },
   "lang_ja": {
-    "message": "Japanese"
+    "message": "Japonês"
   },
   "lang_jv": {
-    "message": "Javanese"
+    "message": "Javanês"
   },
   "lang_kn": {
-    "message": "Kannada"
+    "message": "Canarês"
   },
   "lang_kk": {
-    "message": "Kazakh"
+    "message": "Cazaque"
   },
   "lang_km": {
     "message": "Khmer"
@@ -588,7 +588,7 @@
     "message": "Kinyarwanda"
   },
   "lang_ky": {
-    "message": "Kirghiz"
+    "message": "Quirguiz"
   },
   "lang_ko": {
     "message": "Korean"
@@ -744,7 +744,7 @@
     "message": "Urdu"
   },
   "lang_ug": {
-    "message": "Uyghur"
+    "message": "Uigur"
   },
   "lang_uz": {
     "message": "Uzbek"

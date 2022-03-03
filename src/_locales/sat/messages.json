@@ -26,6 +26,9 @@
   "openInGoogleLabel": {
     "message": "ᱱᱚᱣᱟ ᱜᱩᱜᱟᱹᱞ ᱛᱚᱨᱡᱚᱢᱟ ᱨᱮ ᱡᱷᱤᱡᱽ ᱢᱮ"
   },
+  "openInDeeplLabel": {
+    "message": "Open in DeepL Translator"
+  },
   "copyLabel": {
     "message": "ᱱᱚᱠᱚᱞ ᱢᱮ"
   },

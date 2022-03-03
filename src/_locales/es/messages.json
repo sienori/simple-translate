@@ -54,13 +54,13 @@
     "message": "General"
   },
   "translationApiLabel": {
-    "message": "Translation engine"
+    "message": "Motor de traducción"
   },
   "googleApiLabel": {
-    "message": "Google translate API"
+    "message": "API del traductor de Google"
   },
   "googleApiCaptionLabel": {
-    "message": "Use Google Translate API. No registration is required."
+    "message": "Usar la API del traductor de Google. No es necesario registrarse."
   },
   "deeplApiLabel": {
     "message": "DeepL API"

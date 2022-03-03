@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Γρήγορη μετάφραση του επιλεγμένου κειμένου στην ιστοσελίδα. Στο αναδυόμενο παράθυρο της γραμμής εργαλείων, μπορείτε να μεταφράσετε το δοσμένο κείμενο."
+    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
   },
   "donateWithPaypalLabel": {
     "message": "Δωρεά μέσω PayPal"

@@ -51,13 +51,13 @@
     "message": "일반"
   },
   "translationApiLabel": {
-    "message": "Translation engine"
+    "message": "번역 엔진"
   },
   "googleApiLabel": {
-    "message": "Google translate API"
+    "message": "Google 번역 API"
   },
   "googleApiCaptionLabel": {
-    "message": "Use Google Translate API. No registration is required."
+    "message": "Google 번역 API를 사용합니다. 등록이 필요하지 않습니다."
   },
   "deeplApiLabel": {
     "message": "DeepL API"

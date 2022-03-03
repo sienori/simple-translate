@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "웹 페이지에서 선택한 텍스트를 빠르게 번역하세요. 툴바 팝업을 이용해 입력한 내용을 번역할 수도 있습니다."
+    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
   },
   "donateWithPaypalLabel": {
     "message": "PayPal로 기부하기"

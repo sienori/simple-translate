@@ -50,6 +50,42 @@
   "generalLabel": {
     "message": "일반"
   },
+  "translationApiLabel": {
+    "message": "Translation engine"
+  },
+  "googleApiLabel": {
+    "message": "Google translate API"
+  },
+  "googleApiCaptionLabel": {
+    "message": "Use Google Translate API. No registration is required."
+  },
+  "deeplApiLabel": {
+    "message": "DeepL API"
+  },
+  "deeplApiCaptionLabel": {
+    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authorization key."
+  },
+  "howToUseDeeplLabel": {
+    "message": "How to register DeepL API"
+  },
+  "deeplPlanLabel": {
+    "message": "DeepL API plan"
+  },
+  "deeplPlanCaptionLabel": {
+    "message": "Select the DeepL API plan for which you registered."
+  },
+  "deeplFreeLabel": {
+    "message": "DeepL API Free"
+  },
+  "deeplProLabel": {
+    "message": "DeepL API Pro"
+  },
+  "deeplAuthKeyLabel": {
+    "message": "Authorization key"
+  },
+  "deeplAuthKeyCaptionLabel": {
+    "message": "Enter the authentication key for the DeepL API."
+  },
   "targetLangCaptionLabel": {
     "message": "기본 번역 언어를 선택하세요."
   },
@@ -382,6 +418,9 @@
   },
   "unavailableError": {
     "message": "오류: 서비스 이용 제한에 도달했습니다. 잠시 후 다시 시도해주세요."
+  },
+  "deeplAuthError": {
+    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
   },
   "unknownError": {
     "message": "오류: 알 수 없는 오류"
@@ -724,5 +763,20 @@
   },
   "lang_zu": {
     "message": "Zulu"
+  },
+  "lang_en-US": {
+    "message": "English (American)"
+  },
+  "lang_en-GB": {
+    "message": "English (British)"
+  },
+  "lang_pt-PT": {
+    "message": "Portuguese"
+  },
+  "lang_pt-BR": {
+    "message": "Portuguese (Brazilian)"
+  },
+  "lang_zh": {
+    "message": "Chinese"
   }
 }

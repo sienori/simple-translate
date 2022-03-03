@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Gyorsan lefordítja a weblapon kijelölt szöveget. Az eszköztáron felugró ablakban pedig beírt szöveg fordítható."
+    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
   },
   "donateWithPaypalLabel": {
     "message": "Adomány PayPal használatával"

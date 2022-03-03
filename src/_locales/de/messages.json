@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Übersetzen Sie schnell ausgewählten Text auf einer Webseite. Im Popup-Fenster der Symbolleiste können Sie den eingegebenen Text übersetzen."
+    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
   },
   "donateWithPaypalLabel": {
     "message": "Spenden via PayPal"

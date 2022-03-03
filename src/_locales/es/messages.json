@@ -72,22 +72,22 @@
     "message": "Cómo registrarse en la API de DeepL"
   },
   "deeplPlanLabel": {
-    "message": "DeepL API plan"
+    "message": "Plan de la API de DeepL"
   },
   "deeplPlanCaptionLabel": {
-    "message": "Select the DeepL API plan for which you registered."
+    "message": "Seleccione el plan de la API de DeepL en el que se ha registrado."
   },
   "deeplFreeLabel": {
-    "message": "DeepL API Free"
+    "message": "API de DeepL Free"
   },
   "deeplProLabel": {
-    "message": "DeepL API Pro"
+    "message": "API de DeepL Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Authorization key"
+    "message": "Clave de autorización"
   },
   "deeplAuthKeyCaptionLabel": {
-    "message": "Enter the authentication key for the DeepL API."
+    "message": "Escriba la clave de autenticación de la API de DeepL."
   },
   "targetLangCaptionLabel": {
     "message": "Seleccione el idioma predeterminado de destino."
@@ -768,16 +768,16 @@
     "message": "zulú"
   },
   "lang_en-US": {
-    "message": "English (American)"
+    "message": "inglés (americano)"
   },
   "lang_en-GB": {
-    "message": "English (British)"
+    "message": "inglés (británico)"
   },
   "lang_pt-PT": {
     "message": "portugués"
   },
   "lang_pt-BR": {
-    "message": "Portuguese (Brazilian)"
+    "message": "portugués (brasileño)"
   },
   "lang_zh": {
     "message": "chino"

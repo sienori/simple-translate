@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Vertaal geselekteerde teks vinnig op die webblad. In die opsomming van die werkbalk kan u invoerteks vertaal."
+    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
   },
   "donateWithPaypalLabel": {
     "message": "Skenk met PayPal"

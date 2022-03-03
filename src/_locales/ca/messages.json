@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Tradueix ràpidament el text seleccionat en la pàgina web. Al menú emergent de la barra d'eines, podeu traduir l'entrada de text."
+    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
   },
   "donateWithPaypalLabel": {
     "message": "Donar per PayPal"

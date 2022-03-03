@@ -1,4 +1,5 @@
 import log from "loglevel";
+import axios from "axios";
 let translationHistory = [];
 
 const logDir = "common/translate";
@@ -23,58 +24,61 @@ const setHistory = (sourceWord, sourceLang, targetLang, formattedResult) => {
   });
 };
 
-const sendRequest = (word, sourceLang, targetLang) => {
-  log.log(logDir, "sendRequest()");
+const sendRequest = async (word, sourceLang, targetLang) => {
   const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=${sourceLang}&tl=${targetLang}&dt=t&dt=bd&dj=1&q=${encodeURIComponent(
     word
   )}`;
-  const xhr = new XMLHttpRequest();
-  xhr.responseType = "json";
-  xhr.open("GET", url);
-  xhr.send();
+  const result = await axios.get(url).catch(error => error.response);
 
-  return new Promise((resolve, reject) => {
-    xhr.onload = () => {
-      resolve(xhr);
-    };
-    xhr.onerror = () => {
-      resolve(xhr);
-    };
-  });
-};
-
-const formatResult = result => {
   const resultData = {
     resultText: "",
     candidateText: "",
     sourceLanguage: "",
     percentage: 0,
-    statusText: ""
+    isError: false,
+    errorMessage: ""
   };
 
-  if (result.status === 0) resultData.statusText = "Network Error";
-  else if (result.status === 200) resultData.statusText = "OK";
-  else if (result.status === 429) resultData.statusText = "Service Unavailable";
-  else if (result.status === 503) resultData.statusText = "Service Unavailable";
-  else resultData.statusText = result.statusText || result.status;
+  if (!result || result?.status !== 200) {
+    resultData.isError = true;
 
-  if (resultData.statusText !== "OK") {
-    log.error(logDir, "formatResult()", resultData);
+    if (!result || result.status === 0) resultData.errorMessage = browser.i18n.getMessage("networkError");
+    else if (result.status === 429 || result.status === 503) resultData.errorMessage = browser.i18n.getMessage("unavailableError");
+    else resultData.errorMessage = `${browser.i18n.getMessage("unknownError")} [${result?.status} ${result?.statusText}]`;
+
+    log.error(logDir, "sendRequest()", result);
     return resultData;
   }
 
-  resultData.sourceLanguage = result.response.src;
-  resultData.percentage = result.response.ld_result.srclangs_confidences[0];
-  resultData.resultText = result.response.sentences.map(sentence => sentence.trans).join("");
-  if (result.response.dict) {
-    resultData.candidateText = result.response.dict
+  resultData.sourceLanguage = result.data.src;
+  resultData.percentage = result.data.ld_result.srclangs_confidences[0];
+  resultData.resultText = result.data.sentences.map(sentence => sentence.trans).join("");
+  if (result.data.dict) {
+    resultData.candidateText = result.data.dict
       .map(dict => `${dict.pos}${dict.pos != "" ? ": " : ""}${dict.terms.join(", ")}\n`)
       .join("");
   }
 
-  log.log(logDir, "formatResult()", resultData);
+  log.log(logDir, "sendRequest()", resultData);
   return resultData;
 };
+
+const sendRequestToDeepL = async (word, sourceLang, targetLang) => {
+  log.log(logDir, "sendRequestToDeepL()");
+
+  let params = new URLSearchParams();
+
+  const key = "f5a2c02c-7871-af5c-0d6a-244a9e6d4a1f:fx";
+  params.append("auth_key", key);
+  params.append("text", word);
+  params.append("target_lang", "ja");
+
+  const url = "https://api-free.deepl.com/v2/translate";
+
+  const res = await axios.post(url, params).catch(e => e.response);
+  console.log("!!!!!!!!!!!!!!!", res);
+};
+
 
 export default async (sourceWord, sourceLang = "auto", targetLang) => {
   log.log(logDir, "tranlate()", sourceWord, targetLang);
@@ -92,7 +96,6 @@ export default async (sourceWord, sourceLang = "auto", targetLang) => {
   if (history) return history.result;
 
   const result = await sendRequest(sourceWord, sourceLang, targetLang);
-  const formattedResult = formatResult(result);
-  setHistory(sourceWord, sourceLang, targetLang, formattedResult);
-  return formattedResult;
+  setHistory(sourceWord, sourceLang, targetLang, result);
+  return result;
 };

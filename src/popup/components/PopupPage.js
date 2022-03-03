@@ -40,7 +40,8 @@ export default class PopupPage extends Component {
       resultText: "",
       candidateText: "",
       sourceLang: "",
-      statusText: "OK",
+      isError: false,
+      errorMessage: "",
       tabUrl: "",
       isConnected: true,
       isEnabledOnPage: true,
@@ -112,8 +113,9 @@ export default class PopupPage extends Component {
     this.setState({
       resultText: result.resultText,
       candidateText: result.candidateText,
-      statusText: result.statusText,
-      sourceLang: result.sourceLanguage
+      sourceLang: result.sourceLanguage,
+      isError: result.isError,
+      errorMessage: result.errorMessage
     });
     return result;
   };
@@ -152,7 +154,7 @@ export default class PopupPage extends Component {
       const tab = (await browser.tabs.query({ currentWindow: true, active: true }))[0];
       if (isEnabled) await browser.tabs.sendMessage(tab.id, { message: "enableExtension" });
       else await browser.tabs.sendMessage(tab.id, { message: "disableExtension" });
-    } catch (e) {}
+    } catch (e) { }
   };
 
   render() {
@@ -174,7 +176,8 @@ export default class PopupPage extends Component {
           targetLang={this.state.targetLang}
           resultText={this.state.resultText}
           candidateText={this.state.candidateText}
-          statusText={this.state.statusText}
+          isError={this.state.isError}
+          errorMessage={this.state.errorMessage}
         />
         <Footer
           tabUrl={this.state.tabUrl}

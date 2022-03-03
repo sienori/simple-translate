@@ -21,8 +21,7 @@ const matchesTargetLang = async selectedText => {
   //先頭100字を翻訳にかけて判定
   const partSelectedText = selectedText.substring(0, 100);
   const result = await translateText(partSelectedText);
-  const isError = result.statusText !== "OK";
-  if (isError) return false;
+  if (result.isError) return false;
 
   const isNotText = result.percentage === 0;
   if (isNotText) return true;
@@ -42,7 +41,8 @@ export default class TranslateContainer extends Component {
       currentLang: getSettings("targetLang"),
       resultText: "",
       candidateText: "",
-      statusText: "OK"
+      isError: false,
+      errorMessage: ""
     };
     this.selectedText = props.selectedText;
     this.selectedPosition = props.selectedPosition;
@@ -98,7 +98,8 @@ export default class TranslateContainer extends Component {
       panelPosition: panelPosition,
       resultText: result.resultText,
       candidateText: getSettings("ifShowCandidate") ? result.candidateText : "",
-      statusText: result.statusText,
+      isError: result.isError,
+      errorMessage: result.errorMessage,
       currentLang: shouldSwitchSecondLang ? secondLang : targetLang
     });
   };
@@ -122,7 +123,8 @@ export default class TranslateContainer extends Component {
           currentLang={this.state.currentLang}
           resultText={this.state.resultText}
           candidateText={this.state.candidateText}
-          statusText={this.state.statusText}
+          isError={this.state.isError}
+          errorMessage={this.state.errorMessage}
           hidePanel={this.hidePanel}
         />
       </div>

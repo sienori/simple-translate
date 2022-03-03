@@ -2,7 +2,6 @@ import browser from "webextension-polyfill";
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import { getSettings } from "src/settings/settings";
-import getErrorMessage from "src/common/getErrorMessage";
 import "../styles/TranslatePanel.scss";
 
 const splitLine = text => {
@@ -163,8 +162,7 @@ export default class TranslatePanel extends Component {
   };
 
   render = () => {
-    const { shouldShow, selectedText, currentLang, resultText, candidateText, statusText } = this.props;
-    const isError = statusText !== "OK";
+    const { shouldShow, selectedText, currentLang, resultText, candidateText, isError, errorMessage } = this.props;
     const { width, height } = this.state.shouldResize
       ? { width: parseInt(getSettings("width")), height: parseInt(getSettings("height")) }
       : { width: this.state.panelWidth, height: this.state.panelHeight };
@@ -204,7 +202,7 @@ export default class TranslatePanel extends Component {
             </p>
             {isError && (
               <p className="simple-translate-error" style={candidateStyles}>
-                {getErrorMessage(statusText)}
+                {errorMessage}
                 <br />
                 <a
                   href={`https://translate.google.com/?sl=auto&tl=${currentLang}&text=${encodeURIComponent(selectedText)}`}

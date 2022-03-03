@@ -1,6 +1,5 @@
 import React from "react";
 import browser from "webextension-polyfill";
-import getErrorMessage from "src/common/getErrorMessage";
 import { getSettings } from "src/settings/settings";
 import openUrl from "src/common/openUrl";
 import CopyButton from "./CopyButton";
@@ -13,8 +12,7 @@ const splitLine = text => {
 };
 
 export default props => {
-  const { resultText, candidateText, statusText, targetLang } = props;
-  const isError = statusText !== "OK";
+  const { resultText, candidateText, isError, errorMessage, targetLang } = props;
   const shouldShowCandidate = getSettings("ifShowCandidate");
 
   const handleLinkClick = () => {
@@ -28,7 +26,7 @@ export default props => {
     <div id="resultArea">
       <p className="resultText" dir="auto">{splitLine(resultText)}</p>
       {shouldShowCandidate && <p className="candidateText" dir="auto">{splitLine(candidateText)}</p>}
-      {isError && <p className="error">{getErrorMessage(statusText)}</p>}
+      {isError && <p className="error">{errorMessage}</p>}
       {isError && (
         <p className="translateLink">
           <a onClick={handleLinkClick}>{browser.i18n.getMessage("openInGoogleLabel")}</a>

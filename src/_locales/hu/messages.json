@@ -26,6 +26,9 @@
   "openInGoogleLabel": {
     "message": "Megnyitás a Google Fordítóban"
   },
+  "openInDeeplLabel": {
+    "message": "Open in DeepL Translator"
+  },
   "copyLabel": {
     "message": "Másolás"
   },

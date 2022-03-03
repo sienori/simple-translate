@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Nhanh chóng dịch văn bản đã chọn trên trang web. Trong thanh công cụ bật lên, bạn có thể dịch văn bản nguồn."
+    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
   },
   "donateWithPaypalLabel": {
     "message": "Đóng góp bằng PayPal"

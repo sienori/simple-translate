@@ -51,22 +51,22 @@
     "message": "Общие"
   },
   "translationApiLabel": {
-    "message": "Translation engine"
+    "message": "Система перевода"
   },
   "googleApiLabel": {
-    "message": "Google translate API"
+    "message": "API Google Переводчика"
   },
   "googleApiCaptionLabel": {
-    "message": "Use Google Translate API. No registration is required."
+    "message": "Используйте API Google Переводчика. Регистрация не требуется."
   },
   "deeplApiLabel": {
-    "message": "DeepL API"
+    "message": "API DeepL"
   },
   "deeplApiCaptionLabel": {
     "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authorization key."
   },
   "howToUseDeeplLabel": {
-    "message": "How to register DeepL API"
+    "message": "Как зарегистрировать DeepL API"
   },
   "deeplPlanLabel": {
     "message": "DeepL API plan"
@@ -81,10 +81,10 @@
     "message": "DeepL API Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Authorization key"
+    "message": "Ключ авторизации"
   },
   "deeplAuthKeyCaptionLabel": {
-    "message": "Enter the authentication key for the DeepL API."
+    "message": "Введите ключ аутентификации для DeepL API."
   },
   "targetLangCaptionLabel": {
     "message": "Выберите язык перевода по умолчанию."
@@ -765,18 +765,18 @@
     "message": "Зулу"
   },
   "lang_en-US": {
-    "message": "English (American)"
+    "message": "Английский (американский)"
   },
   "lang_en-GB": {
-    "message": "English (British)"
+    "message": "Английский (британский)"
   },
   "lang_pt-PT": {
     "message": "Португальский"
   },
   "lang_pt-BR": {
-    "message": "Portuguese (Brazilian)"
+    "message": "Португальский (бразильский)"
   },
   "lang_zh": {
-    "message": "Chinese"
+    "message": "Китайский"
   }
 }

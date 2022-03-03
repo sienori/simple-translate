@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Traduci rapidamente il testo selezionato sulla pagina web. Nel popup della barra degli strumenti, puoi tradurre il testo inserito."
+    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
   },
   "donateWithPaypalLabel": {
     "message": "Dona con PayPal"

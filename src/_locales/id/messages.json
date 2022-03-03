@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Terjemahkan teks yang dipilih dengan cepat di halaman web. Dalam popup toolbar, Anda dapat menerjemahkan teks input."
+    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
   },
   "donateWithPaypalLabel": {
     "message": "Donasi dengan PayPal"

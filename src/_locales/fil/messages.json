@@ -26,6 +26,9 @@
   "openInGoogleLabel": {
     "message": "Buksan sa Google Translate"
   },
+  "openInDeeplLabel": {
+    "message": "Open in DeepL Translator"
+  },
   "copyLabel": {
     "message": "Kopya"
   },

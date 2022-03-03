@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
+    "message": "Webページ上で選択・入力したテキストをすばやく翻訳します。Google翻訳とDeepL APIに対応しています。"
   },
   "donateWithPaypalLabel": {
     "message": "PayPalで寄付"

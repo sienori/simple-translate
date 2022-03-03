@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Tradu rapid textul selectat pe pagina web. În fereastra din bara de instrumente, puteți traduce textul introdus."
+    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
   },
   "donateWithPaypalLabel": {
     "message": "Donează prin Paypal"

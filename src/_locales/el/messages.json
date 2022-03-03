@@ -26,6 +26,9 @@
   "openInGoogleLabel": {
     "message": "Χρήση της μετάφρασης Google"
   },
+  "openInDeeplLabel": {
+    "message": "Open in DeepL Translator"
+  },
   "copyLabel": {
     "message": "Αντιγραφή"
   },

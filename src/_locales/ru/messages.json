@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Быстрый перевод выделенного или напечатанного текста на веб-страницах. Поддерживает Google Translate и DeepL API."
+    "message": "Быстро переводите выделенный или набранный текст на веб-страницах. Поддерживается Google Переводчик и DeepL API."
   },
   "donateWithPaypalLabel": {
     "message": "Сделать пожертвование через PayPal"

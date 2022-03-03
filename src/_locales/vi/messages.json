@@ -26,6 +26,9 @@
   "openInGoogleLabel": {
     "message": "Mở trong Google Dịch"
   },
+  "openInDeeplLabel": {
+    "message": "Open in DeepL Translator"
+  },
   "copyLabel": {
     "message": "Sao chép"
   },

@@ -1,13 +1,11 @@
 import React, { Component } from "react";
 import browser from "webextension-polyfill";
-import generateLangOptions from "src/common/generateLangOptions";
 import openUrl from "src/common/openUrl";
 import "../styles/Footer.scss";
 
 export default class Footer extends Component {
   constructor(props) {
     super(props);
-    this.langList = generateLangOptions();
   }
 
   handleLinkClick = async () => {
@@ -23,7 +21,7 @@ export default class Footer extends Component {
   };
 
   render() {
-    const { tabUrl, targetLang, langHistory } = this.props;
+    const { tabUrl, targetLang, langHistory, langList } = this.props;
 
     return (
       <div id="footer">
@@ -39,7 +37,7 @@ export default class Footer extends Component {
           >
 
             <optgroup label={browser.i18n.getMessage("recentLangLabel")}>
-              {this.langList.filter(option => langHistory.includes(option.value))
+              {langList.filter(option => langHistory.includes(option.value))
                 .map(option => (
                   <option value={option.value} key={option.value}>
                     {option.name}
@@ -47,7 +45,7 @@ export default class Footer extends Component {
                 ))}
             </optgroup>
             <optgroup label={browser.i18n.getMessage("allLangLabel")}>
-              {this.langList.map(option => (
+              {langList.map(option => (
                 <option value={option.value} key={option.value}>
                   {option.name}
                 </option>

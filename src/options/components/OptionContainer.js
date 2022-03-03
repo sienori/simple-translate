@@ -18,6 +18,8 @@ export default props => {
     }
 
     setSettings(id, value);
+
+    if (props.handleChange) props.handleChange();
   };
 
   const handleCheckedChange = e => {
@@ -113,8 +115,8 @@ export default props => {
       formId = id;
       optionForm = (
         <div className="selectWrap">
-          <select id={formId} onChange={handleValueChange} defaultValue={currentValue}>
-            {props.options.map((option, index) => (
+          <select id={formId} onChange={handleValueChange} value={currentValue}>
+            {(typeof props.options === 'function' ? props.options() : props.options).map((option, index) => (
               <option value={option.value} key={index}>
                 {props.useRawOptionName ? option.name : browser.i18n.getMessage(option.name)}
               </option>

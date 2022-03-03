@@ -26,7 +26,7 @@ const matchesTargetLang = async selectedText => {
   const isNotText = result.percentage === 0;
   if (isNotText) return true;
 
-  const matchsLangs = targetLang === result.sourceLanguage;
+  const matchsLangs = targetLang.split("-")[0] === result.sourceLanguage.split("-")[0]; // split("-")[0] : deepLでenとen-USを区別しないために必要
   return matchsLangs;
 };
 
@@ -90,7 +90,7 @@ export default class TranslateContainer extends Component {
     const secondLang = getSettings("secondTargetLang");
     const shouldSwitchSecondLang =
       getSettings("ifChangeSecondLangOnPage") &&
-      result.sourceLanguage === targetLang && result.percentage > 0 && targetLang !== secondLang;
+      result.sourceLanguage.split("-")[0] === targetLang.split("-")[0] && result.percentage > 0 && targetLang !== secondLang;
     if (shouldSwitchSecondLang) result = await translateText(this.selectedText, secondLang);
 
     this.setState({

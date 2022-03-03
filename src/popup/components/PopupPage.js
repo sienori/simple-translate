@@ -4,6 +4,7 @@ import log from "loglevel";
 import { initSettings, getSettings, setSettings } from "src/settings/settings";
 import { updateLogLevel, overWriteLogLevel } from "src/common/log";
 import translate from "src/common/translate";
+import generateLangOptions from "src/common/generateLangOptions";
 import Header from "./Header";
 import InputArea from "./InputArea";
 import ResultArea from "./ResultArea";
@@ -42,6 +43,7 @@ export default class PopupPage extends Component {
       sourceLang: "",
       isError: false,
       errorMessage: "",
+      langList: [],
       tabUrl: "",
       isConnected: true,
       isEnabledOnPage: true,
@@ -66,7 +68,8 @@ export default class PopupPage extends Component {
     }
     this.setState({
       targetLang: targetLang,
-      langHistory: langHistory
+      langHistory: langHistory,
+      langList: generateLangOptions(getSettings("translationApi"))
     });
 
     const tabInfo = await getTabInfo();
@@ -128,9 +131,10 @@ export default class PopupPage extends Component {
     if (defaultTargetLang === secondLang) return;
 
     const equalsSourceAndTarget =
-      result.sourceLanguage === this.state.targetLang && result.percentage > 0;
+      result.sourceLanguage.split("-")[0] === this.state.targetLang.split("-")[0] && result.percentage > 0;
     const equalsSourceAndDefault =
-      result.sourceLanguage === defaultTargetLang && result.percentage > 0;
+      result.sourceLanguage.split("-")[0] === defaultTargetLang.split("-")[0] && result.percentage > 0;
+    // split("-")[0] : deepLでenとen-USを区別しないために必要
 
     if (!this.isSwitchedSecondLang) {
       if (equalsSourceAndTarget && equalsSourceAndDefault) {
@@ -184,6 +188,7 @@ export default class PopupPage extends Component {
           targetLang={this.state.targetLang}
           langHistory={this.state.langHistory}
           handleLangChange={this.handleLangChange}
+          langList={this.state.langList}
         />
       </div>
     );

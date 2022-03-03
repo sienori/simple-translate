@@ -1,5 +1,7 @@
+import React from "react";
 import browser from "webextension-polyfill";
 import generateLangOptions from "src/common/generateLangOptions";
+import { getSettings, setSettings } from "./settings";
 
 const getDefaultLangs = () => {
   const uiLang = browser.i18n.getUILanguage();
@@ -12,7 +14,31 @@ const getDefaultLangs = () => {
   return { targetLang, secondTargetLang };
 };
 
-const langListOptions = generateLangOptions();
+const updateLangsWhenChangeTranslationApi = () => {
+  const translationApi = getSettings("translationApi");
+  const targetLang = getSettings("targetLang");
+  const secondTargetLang = getSettings("secondTargetLang");;
+  const currentLangs = generateLangOptions(translationApi).map(option => option.value);
+
+  const mappingLang = lang => {
+    switch (lang) {
+      case "en": return "en-US";
+      case "en-US":
+      case "en-GB": return "en";
+      case "zh": return "zh-CN";
+      case "zh-CN":
+      case "zh-TW": return "zh";
+      case "pt": return "pt-PT";
+      case "pt-PT":
+      case "pt-BR": return "pt";
+      default: return currentLangs[0];
+    }
+  };
+
+  if (!currentLangs.includes(targetLang)) setSettings("targetLang", mappingLang(targetLang));
+  if (!currentLangs.includes(secondTargetLang)) setSettings("secondTargetLang", mappingLang(secondTargetLang));
+};
+
 const defaultLangs = getDefaultLangs();
 const getTheme = () =>
   window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark" : "light";
@@ -22,12 +48,76 @@ export default [
     category: "generalLabel",
     elements: [
       {
+        id: "translationApi",
+        title: "translationApiLabel",
+        captions: [],
+        type: "none",
+        default: "google",
+        new: true,
+        childElements: [
+          {
+            id: "translationApi",
+            title: "googleApiLabel",
+            captions: ["googleApiCaptionLabel"],
+            type: "radio",
+            value: "google",
+            handleChange: () => updateLangsWhenChangeTranslationApi()
+          },
+          {
+            id: "translationApi",
+            title: "deeplApiLabel",
+            captions: ["deeplApiCaptionLabel"],
+            extraCaption:
+              React.createElement("p",
+                { className: "caption" },
+                React.createElement("a",
+                  {
+                    href: "https://github.com/sienori/simple-translate/wiki/How-to-register-DeepL-API",
+                    target: "_blank"
+                  },
+                  browser.i18n.getMessage("howToUseDeeplLabel"))
+              ),
+            type: "radio",
+            value: "deepl",
+            handleChange: () => updateLangsWhenChangeTranslationApi()
+          },
+          {
+            id: "deeplPlan",
+            title: "deeplPlanLabel",
+            captions: ["deeplPlanCaptionLabel"],
+            type: "select",
+            default: "deeplFree",
+            shouldShow: () => (getSettings("translationApi") === "deepl"),
+            hr: true,
+            options: [
+              {
+                name: "deeplFreeLabel",
+                value: "deeplFree"
+              },
+              {
+                name: "deeplProLabel",
+                value: "deeplPro"
+              },
+            ]
+          },
+          {
+            id: "deeplAuthKey",
+            title: "deeplAuthKeyLabel",
+            captions: ["deeplAuthKeyCaptionLabel"],
+            type: "text",
+            default: "",
+            placeholder: "00000000-0000-0000-0000-00000000000000:fx",
+            shouldShow: () => (getSettings("translationApi") === "deepl"),
+          }
+        ]
+      },
+      {
         id: "targetLang",
         title: "targetLangLabel",
         captions: ["targetLangCaptionLabel"],
         type: "select",
         default: defaultLangs.targetLang,
-        options: langListOptions,
+        options: () => generateLangOptions(getSettings("translationApi")),
         useRawOptionName: true
       },
       {
@@ -36,7 +126,7 @@ export default [
         captions: ["secondTargetLangCaptionLabel"],
         type: "select",
         default: defaultLangs.secondTargetLang,
-        options: langListOptions,
+        options: () => generateLangOptions(getSettings("translationApi")),
         useRawOptionName: true
       },
       {
@@ -44,7 +134,8 @@ export default [
         title: "ifShowCandidateLabel",
         captions: ["ifShowCandidateCaptionLabel"],
         type: "checkbox",
-        default: true
+        default: true,
+        shouldShow: () => (getSettings("translationApi") === "google")
       }
     ]
   },

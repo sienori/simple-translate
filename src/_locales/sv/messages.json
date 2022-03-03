@@ -27,7 +27,7 @@
     "message": "Öppna i Google Översätt"
   },
   "openInDeeplLabel": {
-    "message": "Open in DeepL Translator"
+    "message": "Öppna i DeepL-översättare"
   },
   "copyLabel": {
     "message": "Kopiera"
@@ -54,28 +54,28 @@
     "message": "Allmänt"
   },
   "translationApiLabel": {
-    "message": "Translation engine"
+    "message": "Översättningsmotor"
   },
   "googleApiLabel": {
-    "message": "Google translate API"
+    "message": "Google Översätt API"
   },
   "googleApiCaptionLabel": {
-    "message": "Use Google Translate API. No registration is required."
+    "message": "Använd Google översätt API. Ingen registrering krävs."
   },
   "deeplApiLabel": {
     "message": "DeepL API"
   },
   "deeplApiCaptionLabel": {
-    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authorization key."
+    "message": "Använd DeepL API. Du måste registrera dig med DeepL API Free eller DeepL API Pro för att få en auktoriseringsnyckel."
   },
   "howToUseDeeplLabel": {
-    "message": "How to register DeepL API"
+    "message": "Hur man registrerar DeepL API"
   },
   "deeplPlanLabel": {
-    "message": "DeepL API plan"
+    "message": "DeepL API-plan"
   },
   "deeplPlanCaptionLabel": {
-    "message": "Select the DeepL API plan for which you registered."
+    "message": "Välj den DeepL API-plan som du registrerade dig för."
   },
   "deeplFreeLabel": {
     "message": "DeepL API Free"
@@ -84,10 +84,10 @@
     "message": "DeepL API Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Authorization key"
+    "message": "Auktoriseringsnyckel"
   },
   "deeplAuthKeyCaptionLabel": {
-    "message": "Enter the authentication key for the DeepL API."
+    "message": "Ange autentiseringsnyckeln för DeepL API."
   },
   "targetLangCaptionLabel": {
     "message": "Välj standardmålspråk."
@@ -423,7 +423,7 @@
     "message": "Fel: Användningsgräns uppnådd. Vänta en stund och försök igen."
   },
   "deeplAuthError": {
-    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
+    "message": "Fel: Autentisering av DeepL API misslyckades. Ange autentiseringsnyckeln och planera korrekt på inställningssidan."
   },
   "unknownError": {
     "message": "Fel: Okänt fel"
@@ -768,18 +768,18 @@
     "message": "Zulu"
   },
   "lang_en-US": {
-    "message": "English (American)"
+    "message": "Engelska (Amerikanska)"
   },
   "lang_en-GB": {
-    "message": "English (British)"
+    "message": "Engelska (Brittiska)"
   },
   "lang_pt-PT": {
     "message": "Portugisiska"
   },
   "lang_pt-BR": {
-    "message": "Portuguese (Brazilian)"
+    "message": "Portugisiska (Brasiliansk)"
   },
   "lang_zh": {
-    "message": "Chinese"
+    "message": "Kinesiska"
   }
 }

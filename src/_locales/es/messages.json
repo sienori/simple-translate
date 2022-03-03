@@ -60,16 +60,16 @@
     "message": "API del traductor de Google"
   },
   "googleApiCaptionLabel": {
-    "message": "Usar la API del traductor de Google. No es necesario registrarse."
+    "message": "Usa la API del traductor de Google. No es necesario registrarse."
   },
   "deeplApiLabel": {
-    "message": "DeepL API"
+    "message": "API de DeepL"
   },
   "deeplApiCaptionLabel": {
-    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authorization key."
+    "message": "Usa la API de DeepL. Debe registrarse en la API de DeepL Free o en la API de DeepL Pro para obtener una clave de autorización."
   },
   "howToUseDeeplLabel": {
-    "message": "How to register DeepL API"
+    "message": "Cómo registrarse en la API de DeepL"
   },
   "deeplPlanLabel": {
     "message": "DeepL API plan"
@@ -780,6 +780,6 @@
     "message": "Portuguese (Brazilian)"
   },
   "lang_zh": {
-    "message": "Chinese"
+    "message": "chino"
   }
 }

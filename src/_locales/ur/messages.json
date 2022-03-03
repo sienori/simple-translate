@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "ویب سائٹ پر ٹیکسٹ کا جلدی سے ترجمہ کریں۔ ٹول بار پاپ اپ پر، آپ ٹیکسٹ داخل کر سکتے ہیں۔"
+    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
   },
   "donateWithPaypalLabel": {
     "message": "پے پال کے ساتھ ادا کریں"

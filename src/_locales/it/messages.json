@@ -27,7 +27,7 @@
     "message": "Apri su Google Translate"
   },
   "openInDeeplLabel": {
-    "message": "Open in DeepL Translator"
+    "message": "Apri su DeepL Translator"
   },
   "copyLabel": {
     "message": "Copia"
@@ -54,40 +54,40 @@
     "message": "Generale"
   },
   "translationApiLabel": {
-    "message": "Translation engine"
+    "message": "Motore di traduzione"
   },
   "googleApiLabel": {
-    "message": "Google translate API"
+    "message": "API di Google Traduttore"
   },
   "googleApiCaptionLabel": {
-    "message": "Use Google Translate API. No registration is required."
+    "message": "Usa l'API di Google Traduttore. Nessuna registrazione necessaria."
   },
   "deeplApiLabel": {
-    "message": "DeepL API"
+    "message": "API di DeepL"
   },
   "deeplApiCaptionLabel": {
-    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authorization key."
+    "message": "Usa l'API di DeepL. Devi registrarti con DeepL API Free o DeepL API Pro per ottenere una chiave d'autorizzazione."
   },
   "howToUseDeeplLabel": {
-    "message": "How to register DeepL API"
+    "message": "Come registrare l'API di DeepL"
   },
   "deeplPlanLabel": {
-    "message": "DeepL API plan"
+    "message": "Piano di DeepL API"
   },
   "deeplPlanCaptionLabel": {
-    "message": "Select the DeepL API plan for which you registered."
+    "message": "Seleziona il piano di DeepL API per cui ti sei registrato."
   },
   "deeplFreeLabel": {
-    "message": "DeepL API Free"
+    "message": "DeepL API Gratis"
   },
   "deeplProLabel": {
     "message": "DeepL API Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Authorization key"
+    "message": "Chiave d'autorizzazione"
   },
   "deeplAuthKeyCaptionLabel": {
-    "message": "Enter the authentication key for the DeepL API."
+    "message": "Inserisci la chiave d'autenticazione per l'API di DeepL."
   },
   "targetLangCaptionLabel": {
     "message": "Seleziona la lingua di arrivo predefinita."
@@ -423,7 +423,7 @@
     "message": "Errore: Limite d'uso del servizio raggiunto. Sei pregato di attendere un po' e riprovare."
   },
   "deeplAuthError": {
-    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
+    "message": "Errore: Autenticazione dell'API di DeepL fallita. Sei pregato di impostare correttamente la chiave d'autenticazione e il piano sulla pagina delle impostazioni."
   },
   "unknownError": {
     "message": "Errore: Errore sconosciuto"
@@ -573,7 +573,7 @@
     "message": "Giapponese"
   },
   "lang_jv": {
-    "message": "Javanese"
+    "message": "Giavanese"
   },
   "lang_kn": {
     "message": "Kannada"
@@ -588,7 +588,7 @@
     "message": "Kinyarwanda"
   },
   "lang_ky": {
-    "message": "Kirghiz"
+    "message": "Kirghiso"
   },
   "lang_ko": {
     "message": "Coreano"
@@ -597,7 +597,7 @@
     "message": "Curdo"
   },
   "lang_lo": {
-    "message": "Laotian"
+    "message": "Laotiano"
   },
   "lang_la": {
     "message": "Latino"
@@ -615,7 +615,7 @@
     "message": "Macedone"
   },
   "lang_mg": {
-    "message": "Malagasy"
+    "message": "Malgascio"
   },
   "lang_ms": {
     "message": "Malese"
@@ -723,7 +723,7 @@
     "message": "Tamil"
   },
   "lang_tt": {
-    "message": "Tatar"
+    "message": "Tataro"
   },
   "lang_te": {
     "message": "Telugu"
@@ -735,7 +735,7 @@
     "message": "Turco"
   },
   "lang_tk": {
-    "message": "Turkmen"
+    "message": "Turkmeno"
   },
   "lang_uk": {
     "message": "Ucraino"
@@ -744,7 +744,7 @@
     "message": "Urdu"
   },
   "lang_ug": {
-    "message": "Uyghur"
+    "message": "Uighur"
   },
   "lang_uz": {
     "message": "Uzbeko"
@@ -768,18 +768,18 @@
     "message": "Zulu"
   },
   "lang_en-US": {
-    "message": "English (American)"
+    "message": "Inglese (Americano)"
   },
   "lang_en-GB": {
-    "message": "English (British)"
+    "message": "Inglese (Britannico)"
   },
   "lang_pt-PT": {
     "message": "Portoghese"
   },
   "lang_pt-BR": {
-    "message": "Portuguese (Brazilian)"
+    "message": "Portoghese (Brasiliano)"
   },
   "lang_zh": {
-    "message": "Chinese"
+    "message": "Cinese"
   }
 }

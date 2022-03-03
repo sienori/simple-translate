@@ -26,6 +26,9 @@
   "openInGoogleLabel": {
     "message": "פתח ב- Google Translate"
   },
+  "openInDeeplLabel": {
+    "message": "Open in DeepL Translator"
+  },
   "copyLabel": {
     "message": "העתק"
   },

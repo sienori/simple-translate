@@ -420,7 +420,7 @@
     "message": "오류: 서비스 이용 제한에 도달했습니다. 잠시 후 다시 시도해주세요."
   },
   "deeplAuthError": {
-    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
+    "message": "오류: DeepL API 인증에 실패했습니다. 설정 페이지에서 올바른 인증 키와 플랜을 설정하세요."
   },
   "unknownError": {
     "message": "오류: 알 수 없는 오류"

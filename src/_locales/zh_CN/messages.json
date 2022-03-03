@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "快捷翻译网页上选中的文本。亦可在工具栏弹窗中输入文本进行翻译。"
+    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
   },
   "donateWithPaypalLabel": {
     "message": "使用 PayPal 捐赠"

@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "ترجم النص المحدد على صفحة الويب بسرعة. في شريط الأدوات ، يمكنك ترجمة النص المُدْخل."
+    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
   },
   "donateWithPaypalLabel": {
     "message": "تبرع بواسطة PayPal"

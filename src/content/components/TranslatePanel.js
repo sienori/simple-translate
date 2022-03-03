@@ -184,6 +184,7 @@ export default class TranslatePanel extends Component {
     const candidateStyles = {
       color: getSettings("candidateFontColor")
     };
+    const translationApi = getSettings("translationApi");
 
     return (
       <div
@@ -204,11 +205,14 @@ export default class TranslatePanel extends Component {
               <p className="simple-translate-error" style={candidateStyles}>
                 {errorMessage}
                 <br />
-                <a
-                  href={`https://translate.google.com/?sl=auto&tl=${currentLang}&text=${encodeURIComponent(selectedText)}`}
-                  target="_blank"
-                >
-                  {browser.i18n.getMessage("openInGoogleLabel")}
+                <a href={translationApi === "google" ?
+                  `https://translate.google.com/?sl=auto&tl=${currentLang}&text=${encodeURIComponent(selectedText)}` :
+                  `https://www.deepl.com/translator#auto/${currentLang}/${encodeURIComponent(selectedText)}`
+                }
+                  target="_blank">
+                  {translationApi === "google" ?
+                    browser.i18n.getMessage("openInGoogleLabel") :
+                    browser.i18n.getMessage("openInDeeplLabel")}
                 </a>
               </p>
             )}

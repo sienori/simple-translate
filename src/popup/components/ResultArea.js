@@ -14,11 +14,16 @@ const splitLine = text => {
 export default props => {
   const { resultText, candidateText, isError, errorMessage, targetLang } = props;
   const shouldShowCandidate = getSettings("ifShowCandidate");
+  const translationApi = getSettings("translationApi");
+  console.log(translationApi);
 
   const handleLinkClick = () => {
     const { inputText, targetLang } = props;
     const encodedText = encodeURIComponent(inputText);
-    const translateUrl = `https://translate.google.com/?sl=auto&tl=${targetLang}&text=${encodedText}`;
+    const translateUrl = translationApi === "google" ?
+      `https://translate.google.com/?sl=auto&tl=${targetLang}&text=${encodedText}` :
+      `https://www.deepl.com/translator#auto/${targetLang}/${encodedText}`
+      ;
     openUrl(translateUrl);
   };
 
@@ -29,7 +34,12 @@ export default props => {
       {isError && <p className="error">{errorMessage}</p>}
       {isError && (
         <p className="translateLink">
-          <a onClick={handleLinkClick}>{browser.i18n.getMessage("openInGoogleLabel")}</a>
+          <a onClick={handleLinkClick}>
+            {translationApi === "google" ?
+              browser.i18n.getMessage("openInGoogleLabel") :
+              browser.i18n.getMessage("openInDeeplLabel")
+            }
+          </a>
         </p>
       )}
       <div className="mediaButtons">

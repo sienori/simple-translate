@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Webページ上で選択・入力したテキストをすばやく翻訳します。Google翻訳とDeepL APIに対応しています。"
+    "message": "Webページ上で選択・入力したテキストを瞬時に翻訳します。Google翻訳とDeepL APIに対応しています。"
   },
   "donateWithPaypalLabel": {
     "message": "PayPalで寄付"

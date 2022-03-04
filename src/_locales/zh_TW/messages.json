@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
+    "message": "快速翻譯在網頁上選定或輸入的文字。支援 Google 翻譯與 DeepL API。"
   },
   "donateWithPaypalLabel": {
     "message": "透過 PayPal 贊助"
@@ -27,7 +27,7 @@
     "message": "在 Google 翻譯中開啟"
   },
   "openInDeeplLabel": {
-    "message": "Open in DeepL Translator"
+    "message": "在 DeepL 翻譯中開啟"
   },
   "copyLabel": {
     "message": "複製"
@@ -54,28 +54,28 @@
     "message": "一般設定"
   },
   "translationApiLabel": {
-    "message": "Translation engine"
+    "message": "翻譯引擎"
   },
   "googleApiLabel": {
-    "message": "Google translate API"
+    "message": "Google 翻譯 API"
   },
   "googleApiCaptionLabel": {
-    "message": "Use Google Translate API. No registration is required."
+    "message": "使用 Google 翻譯 API。不需要註冊。"
   },
   "deeplApiLabel": {
     "message": "DeepL API"
   },
   "deeplApiCaptionLabel": {
-    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authorization key."
+    "message": "使用 DeepL API。您必須註冊 DeepL API Free 或 DeepL API Pro 以擷取授權金鑰。"
   },
   "howToUseDeeplLabel": {
-    "message": "How to register DeepL API"
+    "message": "如何註冊 DeepL API"
   },
   "deeplPlanLabel": {
-    "message": "DeepL API plan"
+    "message": "DeepL API 方案"
   },
   "deeplPlanCaptionLabel": {
-    "message": "Select the DeepL API plan for which you registered."
+    "message": "選取您註冊的 DeepL API 方案。"
   },
   "deeplFreeLabel": {
     "message": "DeepL API Free"
@@ -84,10 +84,10 @@
     "message": "DeepL API Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Authorization key"
+    "message": "授權金鑰"
   },
   "deeplAuthKeyCaptionLabel": {
-    "message": "Enter the authentication key for the DeepL API."
+    "message": "輸入 DeepL API 的授權金鑰。"
   },
   "targetLangCaptionLabel": {
     "message": "選擇預設的目標語言。"
@@ -423,7 +423,7 @@
     "message": "錯誤：已達服務使用限制。請稍後再試一次。"
   },
   "deeplAuthError": {
-    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
+    "message": "錯誤：DeepL API 授權失敗。請在設定頁面上正確設定授權金鑰與方案。"
   },
   "unknownError": {
     "message": "錯誤：未知的錯誤"
@@ -768,18 +768,18 @@
     "message": "祖魯語"
   },
   "lang_en-US": {
-    "message": "English (American)"
+    "message": "英語（美國）"
   },
   "lang_en-GB": {
-    "message": "English (British)"
+    "message": "英語（英國）"
   },
   "lang_pt-PT": {
     "message": "葡萄牙語"
   },
   "lang_pt-BR": {
-    "message": "Portuguese (Brazilian)"
+    "message": "葡萄牙語（巴西）"
   },
   "lang_zh": {
-    "message": "Chinese"
+    "message": "中文"
   }
 }

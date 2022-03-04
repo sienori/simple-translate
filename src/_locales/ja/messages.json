@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Webページ上の選択されたテキストを瞬時に翻訳します。ツールバーポップアップではテキストを入力して翻訳できます。"
+    "message": "Webページ上で選択・入力したテキストを瞬時に翻訳します。Google翻訳とDeepL APIに対応しています。"
   },
   "donateWithPaypalLabel": {
     "message": "PayPalで寄付"
@@ -26,6 +26,9 @@
   "openInGoogleLabel": {
     "message": "Google Translateで開く"
   },
+  "openInDeeplLabel": {
+    "message": "DeepL翻訳で開く"
+  },
   "copyLabel": {
     "message": "コピー"
   },
@@ -38,9 +41,6 @@
   "targetLangLabel": {
     "message": "翻訳先の言語"
   },
-  "langList": {
-    "message": "af:アフリカーンス語, sq:アルバニア語, am:アムハラ語, ar:アラビア語, hy:アルメニア語, az:アゼルバイジャン語, eu:バスク語, be:ベラルーシ語, bn:ベンガル語, bs:ボスニア語, bg:ブルガリア語, ca:カタルーニャ語, ceb:セブアノ語, ny:チェワ語, zh-CN:中国語 (簡体), zh-TW:中国語 (繁体), co:コルシカ語, hr:クロアチア語, cs:チェコ語, da:デンマーク語, nl:オランダ語, en:英語, eo:エスペラント語, et:エストニア語, fi:フィンランド語, fr:フランス語, fy:フリジア語, gl:ガリシア語, ka:ジョージア(グルジア)語, de:ドイツ語, el:ギリシャ語, gu:グジャラト語, ht:ハイチ語, ha:ハウサ語, haw:ハワイ語, he:ヘブライ語, hi:ヒンディー語, hu:ハンガリー語, is:アイスランド語, ig:イボ語, id:インドネシア語, ga:アイルランド語, it:イタリア語, ja:日本語, jv:ジャワ語, kn:カンナダ語, kk:カザフ語, km:クメール語, ky:キルギス語, ko:韓国語, ku:クルド語, lo:ラオ語, la:ラテン語, lv:ラトビア語, lt:リトアニア語, lb:ルクセンブルク語, mk:マケドニア語, mg:マラガシ語, ms:マレー語, ml:マラヤーラム語, mt:マルタ語, mi:マオリ語, mr:マラーティー語, mn:モンゴル語, hmn:モン語, my:ミャンマー語, ne:ネパール語, no:ノルウェー語, fa:ペルシャ語, pl:ポーランド語, pt:ポルトガル語, pa:パンジャブ語, ps:パシュト語, ro:ルーマニア語, ru:ロシア語, sm:サモア語, gd:スコットランド ゲール語, sr:セルビア語, sn:ショナ語, sd:シンド語, si:シンハラ語, sk:スロバキア語, sl:スロベニア語, so:ソマリ語, sx:ソト語, es:スペイン語, su:スンダ語, sw:スワヒリ語, sv:スウェーデン語, tl:タガログ語, tg:タジク語, ta:タミル語, te:テルグ語, th:タイ語, tr:トルコ語, uk:ウクライナ語, ur:ウルドゥ語, uz:ウズベク語, vi:ベトナム語, cy:ウェールズ語, xh:コーサ語, yi:イディッシュ語, yo:ヨルバ語, zu:ズールー語"
-  },
   "allLangLabel": {
     "message": "すべての言語"
   },
@@ -52,6 +52,42 @@
   },
   "generalLabel": {
     "message": "全般"
+  },
+  "translationApiLabel": {
+    "message": "翻訳エンジン"
+  },
+  "googleApiLabel": {
+    "message": "Google翻訳API"
+  },
+  "googleApiCaptionLabel": {
+    "message": "Google翻訳APIを使用します。登録は必要ありません。"
+  },
+  "deeplApiLabel": {
+    "message": "DeepL API"
+  },
+  "deeplApiCaptionLabel": {
+    "message": "DeepL APIを使用します。DeepL API FreeまたはDeepL API Proに登録して認証キーを取得する必要があります。"
+  },
+  "howToUseDeeplLabel": {
+    "message": "DeepL APIの登録方法"
+  },
+  "deeplPlanLabel": {
+    "message": "DeepL APIプラン"
+  },
+  "deeplPlanCaptionLabel": {
+    "message": "登録したDeepL APIプランを選択します。"
+  },
+  "deeplFreeLabel": {
+    "message": "DeepL API Free"
+  },
+  "deeplProLabel": {
+    "message": "DeepL API Pro"
+  },
+  "deeplAuthKeyLabel": {
+    "message": "認証キー"
+  },
+  "deeplAuthKeyCaptionLabel": {
+    "message": "DeepL APIの認証キーを入力します。"
   },
   "targetLangCaptionLabel": {
     "message": "デフォルトの翻訳先の言語を選択します。"
@@ -386,6 +422,9 @@
   "unavailableError": {
     "message": "エラー: サービスの利用制限に達しました。しばらく待ってからもう一度お試しください。"
   },
+  "deeplAuthError": {
+    "message": "エラー: DeepL APIの認証に失敗しました。設定ページで認証キーとプランを正しく設定してください。"
+  },
   "unknownError": {
     "message": "エラー: 不明なエラー"
   },
@@ -545,6 +584,9 @@
   "lang_km": {
     "message": "クメール語"
   },
+  "lang_rw": {
+    "message": "キニヤルワンダ語"
+  },
   "lang_ky": {
     "message": "キルギス語"
   },
@@ -605,6 +647,9 @@
   "lang_no": {
     "message": "ノルウェー語"
   },
+  "lang_or": {
+    "message": "オリヤ語"
+  },
   "lang_fa": {
     "message": "ペルシャ語"
   },
@@ -635,6 +680,9 @@
   "lang_sr": {
     "message": "セルビア語"
   },
+  "lang_st": {
+    "message": "セソト語"
+  },
   "lang_sn": {
     "message": "ショナ語"
   },
@@ -652,9 +700,6 @@
   },
   "lang_so": {
     "message": "ソマリ語"
-  },
-  "lang_sx": {
-    "message": "ソト語"
   },
   "lang_es": {
     "message": "スペイン語"
@@ -677,6 +722,9 @@
   "lang_ta": {
     "message": "タミル語"
   },
+  "lang_tt": {
+    "message": "タタール語"
+  },
   "lang_te": {
     "message": "テルグ語"
   },
@@ -686,11 +734,17 @@
   "lang_tr": {
     "message": "トルコ語"
   },
+  "lang_tk": {
+    "message": "トルクメン語"
+  },
   "lang_uk": {
     "message": "ウクライナ語"
   },
   "lang_ur": {
     "message": "ウルドゥ語"
+  },
+  "lang_ug": {
+    "message": "ウイグル語"
   },
   "lang_uz": {
     "message": "ウズベク語"
@@ -712,5 +766,20 @@
   },
   "lang_zu": {
     "message": "ズールー語"
+  },
+  "lang_en-US": {
+    "message": "英語 (アメリカ)"
+  },
+  "lang_en-GB": {
+    "message": "英語 (イギリス)"
+  },
+  "lang_pt-PT": {
+    "message": "ポルトガル語"
+  },
+  "lang_pt-BR": {
+    "message": "ポルトガル語 (ブラジル)"
+  },
+  "lang_zh": {
+    "message": "中国語"
   }
 }

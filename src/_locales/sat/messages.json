@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
+    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
   },
   "donateWithPaypalLabel": {
     "message": "PayPal ᱥᱟᱶ ᱫᱟᱱ ᱢᱮ"
@@ -26,6 +26,9 @@
   "openInGoogleLabel": {
     "message": "ᱱᱚᱣᱟ ᱜᱩᱜᱟᱹᱞ ᱛᱚᱨᱡᱚᱢᱟ ᱨᱮ ᱡᱷᱤᱡᱽ ᱢᱮ"
   },
+  "openInDeeplLabel": {
+    "message": "Open in DeepL Translator"
+  },
   "copyLabel": {
     "message": "ᱱᱚᱠᱚᱞ ᱢᱮ"
   },
@@ -38,9 +41,6 @@
   "targetLangLabel": {
     "message": "ᱯᱟᱹᱨᱥᱤ ᱡᱚᱥ ᱢᱮ"
   },
-  "langList": {
-    "message": "af:ᱟᱯᱷᱨᱤᱠᱟᱱᱤᱭᱟᱹ, sq:ᱟᱞᱵᱟᱹᱱᱤᱭᱟᱹ, am:ᱟᱢᱦᱟᱨᱤᱭᱟᱹ, ar:ᱟᱨᱚᱵᱤᱭᱟᱹ, hy:ᱟᱨᱢᱟᱹᱱᱤᱭᱟᱹ, az:ᱟᱡᱮᱹᱨᱵᱟᱹᱱᱤ, eu:ᱵᱟᱥᱠᱣᱩ, be:ᱵᱮᱞᱟᱨᱩᱥᱤᱭᱟᱹ, bn:ᱵᱮᱝᱜᱚᱞᱤ, bs:ᱵᱳᱥᱱᱤᱭᱟᱱ, bg:ᱵᱩᱞᱜᱟᱹᱨᱤᱭᱟᱹ, ca:ᱠᱟᱴᱟᱞᱟᱱ, ceb:ᱠᱮᱵᱭᱩᱟᱱᱚ, ny:ᱪᱮᱣᱟ, zh-CN:ᱪᱟᱤᱱᱤᱡᱽ (PRC), zh-TW: ᱪᱟᱤᱱᱤᱡᱽ (ᱛᱟᱭᱣᱟᱱ), co:ᱠᱳᱨᱤᱥᱤᱭᱟᱱ, hr:ᱠᱨᱚᱴᱤᱭᱟᱱ, cs:ᱠᱡᱮᱪ, da:ᱫᱟᱱᱤᱥ, nl:ᱰᱚᱪ, en:ᱤᱝᱞᱤᱥ, eo:ᱮᱥᱯᱮᱨᱟᱸᱴᱚ, et:ᱮᱥᱴᱚᱭᱟ, fi:ᱯᱷᱤᱱᱤᱥ, fr:ᱯᱨᱮᱸᱪ, fy:ᱯᱷᱨᱤᱥᱤᱭᱟᱱ, gl: ᱜᱟᱞᱤᱥᱤᱭᱟᱱ, ka:ᱡᱚᱨᱡᱤᱭᱟᱱ, de:ᱡᱚᱨᱢᱟᱱ, el:ᱜᱨᱤᱠ, gu:ᱜᱩᱡᱨᱟᱹᱛᱤ, ht:ᱦᱟᱤᱴᱤᱭᱟᱱ, ha:ᱦᱟᱩᱥᱟ, haw:ᱦᱟᱭᱟᱣᱤᱟᱱ, he:ᱦᱩᱵᱽᱨᱩ, hi: ᱦᱤᱸᱫᱤ, hu:ᱦᱚᱝᱜᱟᱨᱤᱭᱟᱱ, is:ᱤᱭᱤᱥᱞᱟᱸᱰᱤᱠ, ig:ᱤᱜᱽᱵᱚ, id:ᱤᱸᱰᱚᱱᱮᱥᱤᱭᱟᱱ, ga:ᱤᱨᱤᱥ, it:ᱤᱴᱟᱞᱤᱭᱟᱱ, ja:ᱡᱟᱯᱟᱱᱤᱡᱽ, jv:ᱡᱟᱵᱷᱟᱱᱤᱡᱽ, kn:ᱠᱟᱱᱱᱟᱰᱟ, kk:ᱠᱟᱡᱟᱠ, km:ᱠᱷᱢᱮᱨ, ky: ᱠᱤᱨᱜᱤᱡᱽ, ko:ᱠᱚᱨᱤᱭᱟᱹᱱ, ku:ᱠᱩᱨᱫᱤᱥ, lo:ᱞᱟᱣᱚᱴᱤᱭᱟᱱ, la:ᱞᱟᱴᱤᱱ, lv:ᱞᱟᱴᱵᱷᱤᱭᱟᱱ, lt:ᱞᱤᱛᱷᱩᱞᱤᱭᱟᱱ, lb:ᱞᱤᱠᱥᱮᱢᱵᱚᱨᱜᱤᱥ, mk:ᱢᱟᱠᱮᱰᱚᱭᱟᱹ, mg:ᱢᱟᱞᱟᱜᱟᱥᱤ, ms:ᱢᱟᱞᱟᱭ, ml: ᱢᱟᱞᱟᱭᱟᱞᱚᱢ, mt:ᱢᱟᱞᱴᱤᱡᱽ, mi:ᱢᱟᱣᱨᱤ, mr:ᱢᱟᱨᱟᱴᱷᱤ, mn:ᱢᱚᱸᱜᱚᱞᱤᱭᱟᱱ, hmn:ᱢᱳᱸᱠ, my:ᱢᱟᱭᱟᱸᱢᱟᱨ, ne: ᱱᱮᱯᱮᱲᱤ, no:ᱱᱚᱨᱣᱮᱜᱤᱭᱟᱱ, fa:ᱯᱟᱨᱥᱤᱭᱟᱱ, pl: ᱯᱚᱞᱤᱥ, pt: ᱯᱚᱨᱛᱩᱜᱤᱡᱽ, pa:ᱯᱚᱸᱡᱟᱵᱤ, ps:ᱯᱩᱥᱛᱚ, ro:ᱨᱚᱢᱟᱱᱤᱭᱟᱱ, ru: ᱨᱟᱹᱥᱤᱭᱟᱹᱱ, sm:ᱥᱚᱢᱚᱣᱟᱱ, gd:ᱥᱠᱚᱴᱤᱥ ᱜᱟᱞᱤᱠ, sr:ᱥᱟᱭᱵᱮᱨᱤᱭᱟ , sn:ᱥᱚᱱᱟ, sd:ᱥᱤᱸᱫᱷᱤ, si:ᱥᱤᱝᱦᱟᱞᱟ, sk:ᱥᱞᱚᱵᱷᱟᱠ, sl:ᱥᱞᱚᱵᱷᱮᱱᱤᱭᱟᱱ, so:ᱥᱚᱢᱟᱞ, sx:ᱥᱚᱛᱷᱚ, es:ᱥᱯᱟᱱᱤᱥ, su:ᱥᱚᱺᱰᱟᱱᱤᱡᱽ, sw:ᱥᱣᱟᱦᱤᱞᱤ, sv:ᱥᱣᱮᱫᱤᱥ, tl:ᱴᱟᱜᱟᱞᱚᱜᱽ, tg:ᱛᱟᱡᱤᱠᱤ, ta:ᱛᱟᱢᱤᱞ, te:ᱛᱮᱞᱩᱜᱩ, th:ᱛᱷᱟᱭᱤ, tr:ᱛᱩᱨᱠᱤᱥ, uk:ᱭᱩᱠᱨᱮᱱ, ur:ᱩᱨᱫᱩ, uz:ᱩᱡᱽᱵᱮᱠ, vi:ᱵᱷᱤᱭᱮᱛᱱᱟᱢᱤᱡᱽ, cy:ᱣᱮᱞᱥ, xh:ᱠᱳᱥᱟ, yi:ᱣᱤᱫᱤᱥ, yo:ᱭᱚᱨᱩᱵᱟ, zu:ᱡᱩᱹᱞᱩ"
-  },
   "allLangLabel": {
     "message": "ᱥᱟᱱᱟᱢ ᱯᱟᱹᱨᱥᱤ ᱠᱚ"
   },
@@ -52,6 +52,42 @@
   },
   "generalLabel": {
     "message": "ᱥᱟᱫᱷᱟᱨᱚᱱ"
+  },
+  "translationApiLabel": {
+    "message": "Translation engine"
+  },
+  "googleApiLabel": {
+    "message": "Google translate API"
+  },
+  "googleApiCaptionLabel": {
+    "message": "Use Google Translate API. No registration is required."
+  },
+  "deeplApiLabel": {
+    "message": "DeepL API"
+  },
+  "deeplApiCaptionLabel": {
+    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authorization key."
+  },
+  "howToUseDeeplLabel": {
+    "message": "How to register DeepL API"
+  },
+  "deeplPlanLabel": {
+    "message": "DeepL API plan"
+  },
+  "deeplPlanCaptionLabel": {
+    "message": "Select the DeepL API plan for which you registered."
+  },
+  "deeplFreeLabel": {
+    "message": "DeepL API Free"
+  },
+  "deeplProLabel": {
+    "message": "DeepL API Pro"
+  },
+  "deeplAuthKeyLabel": {
+    "message": "Authorization key"
+  },
+  "deeplAuthKeyCaptionLabel": {
+    "message": "Enter the authentication key for the DeepL API."
   },
   "targetLangCaptionLabel": {
     "message": "ᱰᱤᱯᱷᱚᱞᱴ ᱡᱚᱥ ᱯᱟᱹᱨᱥᱤ ᱪᱚᱭᱚᱱ ᱢᱮ ᱾"
@@ -386,6 +422,9 @@
   "unavailableError": {
     "message": "Error: Service usage limit reached. Please wait a while and try again."
   },
+  "deeplAuthError": {
+    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
+  },
   "unknownError": {
     "message": "Error: Unknown error"
   },
@@ -545,6 +584,9 @@
   "lang_km": {
     "message": "ᱠᱷᱢᱮᱨ"
   },
+  "lang_rw": {
+    "message": "Kinyarwanda"
+  },
   "lang_ky": {
     "message": " ᱠᱤᱨᱜᱤᱡᱽ"
   },
@@ -605,6 +647,9 @@
   "lang_no": {
     "message": "ᱱᱚᱨᱣᱮᱜᱤᱭᱟᱱ"
   },
+  "lang_or": {
+    "message": "Odia (Oriya)"
+  },
   "lang_fa": {
     "message": "ᱯᱟᱨᱥᱤᱭᱟᱱ"
   },
@@ -635,6 +680,9 @@
   "lang_sr": {
     "message": "ᱥᱟᱭᱵᱮᱨᱤᱭᱟ "
   },
+  "lang_st": {
+    "message": "Sesotho"
+  },
   "lang_sn": {
     "message": "ᱥᱚᱱᱟ"
   },
@@ -652,9 +700,6 @@
   },
   "lang_so": {
     "message": "ᱥᱚᱢᱟᱞ"
-  },
-  "lang_sx": {
-    "message": "ᱥᱚᱛᱷᱚ"
   },
   "lang_es": {
     "message": "ᱥᱯᱟᱱᱤᱥ"
@@ -677,6 +722,9 @@
   "lang_ta": {
     "message": "ᱛᱟᱢᱤᱞ"
   },
+  "lang_tt": {
+    "message": "Tatar"
+  },
   "lang_te": {
     "message": "ᱛᱮᱞᱩᱜᱩ"
   },
@@ -686,11 +734,17 @@
   "lang_tr": {
     "message": "ᱛᱩᱨᱠᱤᱥ"
   },
+  "lang_tk": {
+    "message": "Turkmen"
+  },
   "lang_uk": {
     "message": "ᱭᱩᱠᱨᱮᱱ"
   },
   "lang_ur": {
     "message": "ᱩᱨᱫᱩ"
+  },
+  "lang_ug": {
+    "message": "Uyghur"
   },
   "lang_uz": {
     "message": "ᱩᱡᱽᱵᱮᱠ"
@@ -712,5 +766,20 @@
   },
   "lang_zu": {
     "message": "ᱡᱩᱹᱞᱩ"
+  },
+  "lang_en-US": {
+    "message": "English (American)"
+  },
+  "lang_en-GB": {
+    "message": "English (British)"
+  },
+  "lang_pt-PT": {
+    "message": " ᱯᱚᱨᱛᱩᱜᱤᱡᱽ"
+  },
+  "lang_pt-BR": {
+    "message": "Portuguese (Brazilian)"
+  },
+  "lang_zh": {
+    "message": "Chinese"
   }
 }

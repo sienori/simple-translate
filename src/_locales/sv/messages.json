@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Översätt markerad text på en hemsida.. I verktygsfältspopupen, kan du översätta inmatad text."
+    "message": "Översätt snabbt valda eller skriven text på webbsidor. Stöder Google översätt och DeepL API."
   },
   "donateWithPaypalLabel": {
     "message": "Donera via PayPal"
@@ -26,6 +26,9 @@
   "openInGoogleLabel": {
     "message": "Öppna i Google Översätt"
   },
+  "openInDeeplLabel": {
+    "message": "Öppna i DeepL Translator"
+  },
   "copyLabel": {
     "message": "Kopiera"
   },
@@ -38,9 +41,6 @@
   "targetLangLabel": {
     "message": "Målspråk"
   },
-  "langList": {
-    "message": "af:Afrikaans, sq:Albanian, am:Amharic, ar:Arabic, hy:Armenian, az:Azerbaijani, eu:Basque, be:Belarusian, bn:Bengali, bs:Bosnian, bg:Bulgarian, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Chinese (PRC), zh-TW:Chinese (Taiwan), co:Corsican, hr:Croatian, cs:Czech, da:Danish, nl:Dutch, en:English, eo:Esperanto, et:Estonian, fi:Finnish, fr:French, fy:Frisian, gl:Galician, ka:Georgian, de:German, el:Greek, gu:Gujarati, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesian, ga:Irish, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Korean, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:Macedonian, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persian, pl:Polish, pt:Portuguese, pa:Punjabi, ps:Pushto, ro:Romanian, ru:Russian, sm:Samoan, gd:Scottish Gaelic, sr:Serbian, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovak, sl:Slovenian, so:Somali, sx:Sotho, es:Spanish, su:Sundanese, sw:Swahili, sv:Swedish, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turkish, uk:Ukrainian, ur:Urdu, uz:Uzbek, vi:Vietnamese, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
-  },
   "allLangLabel": {
     "message": "Alla språk"
   },
@@ -52,6 +52,42 @@
   },
   "generalLabel": {
     "message": "Allmänt"
+  },
+  "translationApiLabel": {
+    "message": "Översättningsmotor"
+  },
+  "googleApiLabel": {
+    "message": "Google Översätt API"
+  },
+  "googleApiCaptionLabel": {
+    "message": "Använd Google översätt API. Ingen registrering krävs."
+  },
+  "deeplApiLabel": {
+    "message": "DeepL API"
+  },
+  "deeplApiCaptionLabel": {
+    "message": "Använd DeepL API. Du måste registrera dig med DeepL API Free eller DeepL API Pro för att få en auktoriseringsnyckel."
+  },
+  "howToUseDeeplLabel": {
+    "message": "Hur man registrerar DeepL API"
+  },
+  "deeplPlanLabel": {
+    "message": "DeepL API-plan"
+  },
+  "deeplPlanCaptionLabel": {
+    "message": "Välj den DeepL API-plan som du registrerade dig för."
+  },
+  "deeplFreeLabel": {
+    "message": "DeepL API Free"
+  },
+  "deeplProLabel": {
+    "message": "DeepL API Pro"
+  },
+  "deeplAuthKeyLabel": {
+    "message": "Auktoriseringsnyckel"
+  },
+  "deeplAuthKeyCaptionLabel": {
+    "message": "Ange autentiseringsnyckeln för DeepL API."
   },
   "targetLangCaptionLabel": {
     "message": "Välj standardmålspråk."
@@ -386,6 +422,9 @@
   "unavailableError": {
     "message": "Fel: Användningsgräns uppnådd. Vänta en stund och försök igen."
   },
+  "deeplAuthError": {
+    "message": "Fel: Autentisering av DeepL API misslyckades. Ange autentiseringsnyckeln och planera korrekt på inställningssidan."
+  },
   "unknownError": {
     "message": "Fel: Okänt fel"
   },
@@ -402,40 +441,40 @@
     "message": "Öppna verktygsfältspopup"
   },
   "lang_af": {
-    "message": "Afrikaans"
+    "message": "Afrikanska"
   },
   "lang_sq": {
-    "message": "Albanian"
+    "message": "Albanska"
   },
   "lang_am": {
-    "message": "Amharic"
+    "message": "Amhariska"
   },
   "lang_ar": {
-    "message": "Arabic"
+    "message": "Arabiska"
   },
   "lang_hy": {
-    "message": "Armenian"
+    "message": "Armeniska"
   },
   "lang_az": {
-    "message": "Azerbaijani"
+    "message": "Azerbajdzjanska"
   },
   "lang_eu": {
-    "message": "Basque"
+    "message": "Baskiska"
   },
   "lang_be": {
-    "message": "Belarusian"
+    "message": "Vitryska"
   },
   "lang_bn": {
     "message": "Bengali"
   },
   "lang_bs": {
-    "message": "Bosnian"
+    "message": "Bosniska"
   },
   "lang_bg": {
-    "message": "Bulgarian"
+    "message": "Bulgariska"
   },
   "lang_ca": {
-    "message": "Catalan"
+    "message": "Katalanska"
   },
   "lang_ceb": {
     "message": "Cebuano"
@@ -444,145 +483,148 @@
     "message": "Chewa"
   },
   "lang_zh-CN": {
-    "message": "Chinese (Simplified)"
+    "message": "Kinesiska (Förenklad)"
   },
   "lang_zh-TW": {
-    "message": "Chinese (Traditional)"
+    "message": "Kinesiska (Traditionell)"
   },
   "lang_co": {
-    "message": "Corsican"
+    "message": "Korsikanska"
   },
   "lang_hr": {
-    "message": "Croatian"
+    "message": "Kroatiska"
   },
   "lang_cs": {
-    "message": "Czech"
+    "message": "Tjeckiska"
   },
   "lang_da": {
-    "message": "Danish"
+    "message": "Danska"
   },
   "lang_nl": {
-    "message": "Dutch"
+    "message": "Nederländska"
   },
   "lang_en": {
-    "message": "English"
+    "message": "Engelska"
   },
   "lang_eo": {
     "message": "Esperanto"
   },
   "lang_et": {
-    "message": "Estonian"
+    "message": "Estniska"
   },
   "lang_fi": {
-    "message": "Finnish"
+    "message": "Finska"
   },
   "lang_fr": {
-    "message": "French"
+    "message": "Franska"
   },
   "lang_fy": {
-    "message": "Frisian"
+    "message": "Frisiska"
   },
   "lang_gl": {
-    "message": "Galician"
+    "message": "Galileiska"
   },
   "lang_ka": {
-    "message": "Georgian"
+    "message": "Georgiska"
   },
   "lang_de": {
-    "message": "German"
+    "message": "Tyska"
   },
   "lang_el": {
-    "message": "Greek"
+    "message": "Grekiska"
   },
   "lang_gu": {
     "message": "Gujarati"
   },
   "lang_ht": {
-    "message": "Haitian"
+    "message": "Haitiska"
   },
   "lang_ha": {
-    "message": "Hausa"
+    "message": "Haussa"
   },
   "lang_haw": {
-    "message": "Hawaiian"
+    "message": "Hawaiiska"
   },
   "lang_he": {
-    "message": "Hebrew"
+    "message": "Hebreiska"
   },
   "lang_hi": {
-    "message": "Hindi"
+    "message": "Hindiska"
   },
   "lang_hu": {
-    "message": "Hungarian"
+    "message": "Ungerska"
   },
   "lang_is": {
-    "message": "Icelandic"
+    "message": "Isländska"
   },
   "lang_ig": {
     "message": "Igbo"
   },
   "lang_id": {
-    "message": "Indonesian"
+    "message": "Indonesiska"
   },
   "lang_ga": {
-    "message": "Irish"
+    "message": "Irländska"
   },
   "lang_it": {
-    "message": "Italian"
+    "message": "Italienska"
   },
   "lang_ja": {
-    "message": "Japanese"
+    "message": "Japanska"
   },
   "lang_jv": {
-    "message": "Javanese"
+    "message": "Javanesiska"
   },
   "lang_kn": {
-    "message": "Kannada"
+    "message": "Kanadensiska"
   },
   "lang_kk": {
-    "message": "Kazakh"
+    "message": "Kazakiska"
   },
   "lang_km": {
     "message": "Khmer"
   },
+  "lang_rw": {
+    "message": "Kinyarwanda"
+  },
   "lang_ky": {
-    "message": "Kirghiz"
+    "message": "Kirgisiska"
   },
   "lang_ko": {
-    "message": "Korean"
+    "message": "Koreansk"
   },
   "lang_ku": {
-    "message": "Kurdish"
+    "message": "Kurdiska"
   },
   "lang_lo": {
-    "message": "Laotian"
+    "message": "Laotisk"
   },
   "lang_la": {
     "message": "Latin"
   },
   "lang_lv": {
-    "message": "Latvian"
+    "message": "Lettiska"
   },
   "lang_lt": {
-    "message": "Lithuanian"
+    "message": "Litauiska"
   },
   "lang_lb": {
-    "message": "Luxembourgish"
+    "message": "Luxemburgiska"
   },
   "lang_mk": {
-    "message": "Macedonian"
+    "message": "Makedonska"
   },
   "lang_mg": {
-    "message": "Malagasy"
+    "message": "Malagassiska"
   },
   "lang_ms": {
-    "message": "Malay"
+    "message": "Malajiska"
   },
   "lang_ml": {
     "message": "Malayalam"
   },
   "lang_mt": {
-    "message": "Maltese"
+    "message": "Maltesiska"
   },
   "lang_mi": {
     "message": "Maori"
@@ -591,28 +633,31 @@
     "message": "Marathi"
   },
   "lang_mn": {
-    "message": "Mongolian"
+    "message": "Mongoliska"
   },
   "lang_hmn": {
-    "message": "Monk"
+    "message": "Munk"
   },
   "lang_my": {
     "message": "Myanmar"
   },
   "lang_ne": {
-    "message": "Nepali"
+    "message": "Nepalesiska"
   },
   "lang_no": {
-    "message": "Norwegian"
+    "message": "Norska"
+  },
+  "lang_or": {
+    "message": "Odia (Oriya)"
   },
   "lang_fa": {
-    "message": "Persian"
+    "message": "Persiska"
   },
   "lang_pl": {
-    "message": "Polish"
+    "message": "Polska"
   },
   "lang_pt": {
-    "message": "Portuguese"
+    "message": "Portugisiska"
   },
   "lang_pa": {
     "message": "Punjabi"
@@ -621,19 +666,22 @@
     "message": "Pushto"
   },
   "lang_ro": {
-    "message": "Romanian"
+    "message": "Rumänska"
   },
   "lang_ru": {
-    "message": "Russian"
+    "message": "Ryska"
   },
   "lang_sm": {
-    "message": "Samoan"
+    "message": "Samoanska"
   },
   "lang_gd": {
-    "message": "Scottish Gaelic"
+    "message": "Höglandsskotska"
   },
   "lang_sr": {
-    "message": "Serbian"
+    "message": "Serbiska"
+  },
+  "lang_st": {
+    "message": "Sesotho"
   },
   "lang_sn": {
     "message": "Shona"
@@ -642,75 +690,96 @@
     "message": "Sindhi"
   },
   "lang_si": {
-    "message": "Sinhala"
+    "message": "Singalesiska"
   },
   "lang_sk": {
-    "message": "Slovak"
+    "message": "Slovakiska"
   },
   "lang_sl": {
-    "message": "Slovenian"
+    "message": "Slovenska"
   },
   "lang_so": {
-    "message": "Somali"
-  },
-  "lang_sx": {
-    "message": "Sotho"
+    "message": "Somaliska"
   },
   "lang_es": {
-    "message": "Spanish"
+    "message": "Spanska"
   },
   "lang_su": {
-    "message": "Sundanese"
+    "message": "Sundanesiska"
   },
   "lang_sw": {
     "message": "Swahili"
   },
   "lang_sv": {
-    "message": "Swedish"
+    "message": "Svenska"
   },
   "lang_tl": {
     "message": "Tagalog"
   },
   "lang_tg": {
-    "message": "Tajiki"
+    "message": "Tadzjiki"
   },
   "lang_ta": {
-    "message": "Tamil"
+    "message": "Tamilska"
+  },
+  "lang_tt": {
+    "message": "Tatariska"
   },
   "lang_te": {
-    "message": "Telugu"
+    "message": "Telugiska"
   },
   "lang_th": {
-    "message": "Thai"
+    "message": "Thailändska"
   },
   "lang_tr": {
-    "message": "Turkish"
+    "message": "Turkiska"
+  },
+  "lang_tk": {
+    "message": "Turkmeniska"
   },
   "lang_uk": {
-    "message": "Ukrainian"
+    "message": "Ukrainska"
   },
   "lang_ur": {
     "message": "Urdu"
   },
+  "lang_ug": {
+    "message": "Uiguriska"
+  },
   "lang_uz": {
-    "message": "Uzbek"
+    "message": "Uzbekiska"
   },
   "lang_vi": {
-    "message": "Vietnamese"
+    "message": "Vietnamesiska"
   },
   "lang_cy": {
-    "message": "Welsh"
+    "message": "Walesiska"
   },
   "lang_xh": {
     "message": "Xosa"
   },
   "lang_yi": {
-    "message": "Yiddish"
+    "message": "Jiddisch"
   },
   "lang_yo": {
     "message": "Yoruba"
   },
   "lang_zu": {
     "message": "Zulu"
+  },
+  "lang_en-US": {
+    "message": "Engelska (Amerikanska)"
+  },
+  "lang_en-GB": {
+    "message": "Engelska (Brittiska)"
+  },
+  "lang_pt-PT": {
+    "message": "Portugisiska"
+  },
+  "lang_pt-BR": {
+    "message": "Portugisiska (Brasiliansk)"
+  },
+  "lang_zh": {
+    "message": "Kinesiska"
   }
 }

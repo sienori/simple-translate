@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "ترجم النص المحدد على صفحة الويب بسرعة. في شريط الأدوات ، يمكنك ترجمة النص المُدْخل."
+    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
   },
   "donateWithPaypalLabel": {
     "message": "تبرع بواسطة PayPal"
@@ -26,6 +26,9 @@
   "openInGoogleLabel": {
     "message": "فتح في ترجمة جوجل"
   },
+  "openInDeeplLabel": {
+    "message": "Open in DeepL Translator"
+  },
   "copyLabel": {
     "message": "نسخ"
   },
@@ -38,9 +41,6 @@
   "targetLangLabel": {
     "message": "اللغة المراد الترجمة إليها"
   },
-  "langList": {
-    "message": "af:الأفريكانية, sq:الألبانية, am:الأمهرية, ar:عربى, hy:الأرميني, az:أذربيجان, eu:الباسكي, be:البيلاروسية, bn:بنغالي, bs:البوسنية, bg:البلغارية, ca:الكاتالونية, ceb:السيبيونو, ny:الشيوا, zh-CN:صينى (PRC), zh-TW:صينى (تايوان), co:الكورسيكية, hr:الكرواتية, cs:تشيكي, da:Danish, nl:هولندي, en:الإنجليزية, eo:Esperanto, et:Estonian, fi:Finnish, fr:French, fy:Frisian, gl:Galician, ka:الجورجية, de:ألمانية, el:الإغريقي, gu:الغوجاراتية, ht:Haitian, ha:الهوسا, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesian, ga:Irish, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Korean, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:المقدونية, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persian, pl:Polish, pt:Portuguese, pa:Punjabi, ps:Pushto, ro:Romanian, ru:Russian, sm:Samoan, gd:Scottish Gaelic, sr:Serbian, sn:Shona, sd:السندية, si:السنهالية, sk:السلوفاكية, sl:سلوفيني, so:الصومالية, sx:السوتو, es:الأسبانية, su:السودانية, sw:السواحلية, sv:السويدية, tl:التغالوغ, tg:طاجيكي, ta:التاميل, te:التيلجو, th:التايلاندية, tr:التركية, uk:الأوكراني, ur:الأردية, uz:الأوزبكي, vi:الفيتنامية, cy:الولزية, xh:Xosa, yi:اليديشية, yo:اليوروبا, zu:الزولو"
-  },
   "allLangLabel": {
     "message": "كل اللغات"
   },
@@ -52,6 +52,42 @@
   },
   "generalLabel": {
     "message": "عام"
+  },
+  "translationApiLabel": {
+    "message": "Translation engine"
+  },
+  "googleApiLabel": {
+    "message": "Google translate API"
+  },
+  "googleApiCaptionLabel": {
+    "message": "Use Google Translate API. No registration is required."
+  },
+  "deeplApiLabel": {
+    "message": "DeepL API"
+  },
+  "deeplApiCaptionLabel": {
+    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authorization key."
+  },
+  "howToUseDeeplLabel": {
+    "message": "How to register DeepL API"
+  },
+  "deeplPlanLabel": {
+    "message": "DeepL API plan"
+  },
+  "deeplPlanCaptionLabel": {
+    "message": "Select the DeepL API plan for which you registered."
+  },
+  "deeplFreeLabel": {
+    "message": "DeepL API Free"
+  },
+  "deeplProLabel": {
+    "message": "DeepL API Pro"
+  },
+  "deeplAuthKeyLabel": {
+    "message": "Authorization key"
+  },
+  "deeplAuthKeyCaptionLabel": {
+    "message": "Enter the authentication key for the DeepL API."
   },
   "targetLangCaptionLabel": {
     "message": "حدد اللغة الافتراضية."
@@ -386,6 +422,9 @@
   "unavailableError": {
     "message": "خطأ: وصل الحد الأقصى لاستخدام الخدمة. الرجاء الانتظار بعض الوقت وحاول مرة أخرى."
   },
+  "deeplAuthError": {
+    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
+  },
   "unknownError": {
     "message": "خطأ: غير معروف"
   },
@@ -545,6 +584,9 @@
   "lang_km": {
     "message": "Khmer"
   },
+  "lang_rw": {
+    "message": "Kinyarwanda"
+  },
   "lang_ky": {
     "message": "Kirghiz"
   },
@@ -605,6 +647,9 @@
   "lang_no": {
     "message": "Norwegian"
   },
+  "lang_or": {
+    "message": "Odia (Oriya)"
+  },
   "lang_fa": {
     "message": "Persian"
   },
@@ -635,6 +680,9 @@
   "lang_sr": {
     "message": "Serbian"
   },
+  "lang_st": {
+    "message": "Sesotho"
+  },
   "lang_sn": {
     "message": "Shona"
   },
@@ -652,9 +700,6 @@
   },
   "lang_so": {
     "message": "الصومالية"
-  },
-  "lang_sx": {
-    "message": "السوتو"
   },
   "lang_es": {
     "message": "الأسبانية"
@@ -677,6 +722,9 @@
   "lang_ta": {
     "message": "التاميل"
   },
+  "lang_tt": {
+    "message": "Tatar"
+  },
   "lang_te": {
     "message": "التيلجو"
   },
@@ -686,11 +734,17 @@
   "lang_tr": {
     "message": "التركية"
   },
+  "lang_tk": {
+    "message": "Turkmen"
+  },
   "lang_uk": {
     "message": "الأوكراني"
   },
   "lang_ur": {
     "message": "الأردية"
+  },
+  "lang_ug": {
+    "message": "Uyghur"
   },
   "lang_uz": {
     "message": "الأوزبكي"
@@ -712,5 +766,20 @@
   },
   "lang_zu": {
     "message": "الزولو"
+  },
+  "lang_en-US": {
+    "message": "English (American)"
+  },
+  "lang_en-GB": {
+    "message": "English (British)"
+  },
+  "lang_pt-PT": {
+    "message": "Portuguese"
+  },
+  "lang_pt-BR": {
+    "message": "Portuguese (Brazilian)"
+  },
+  "lang_zh": {
+    "message": "Chinese"
   }
 }

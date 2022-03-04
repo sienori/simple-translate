@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "快速翻譯網頁上選取的文字。在工具列彈出式視窗中，您可以翻譯輸入的文字。"
+    "message": "快速翻譯在網頁上選定或輸入的文字。支援 Google 翻譯與 DeepL API。"
   },
   "donateWithPaypalLabel": {
     "message": "透過 PayPal 贊助"
@@ -26,6 +26,9 @@
   "openInGoogleLabel": {
     "message": "在 Google 翻譯中開啟"
   },
+  "openInDeeplLabel": {
+    "message": "在 DeepL 翻譯中開啟"
+  },
   "copyLabel": {
     "message": "複製"
   },
@@ -38,9 +41,6 @@
   "targetLangLabel": {
     "message": "目標語言"
   },
-  "langList": {
-    "message": "af:南非語, sq:阿爾巴尼亞語, am:阿姆哈拉語, ar:阿拉伯語, hy:亞美尼亞語, az:阿塞拜疆語, eu:巴斯克語, be:白俄羅斯語, bn:孟加拉語, bs:波士尼亞語, bg:保加利亞語, ca:加泰隆尼亞語, ceb:宿霧語, ny:齊切瓦語, zh-CN:中文 (簡體), zh-TW:中文 (繁體), co:科西嘉語, hr:克羅埃西亞語, cs:捷克語, da:丹麥語, nl:荷蘭語, en:英語, eo:世界語, et:愛沙尼亞語, fi:芬蘭語, fr:法語, fy:菲士蘭語, gl:加利西亞語, ka:喬治亞語, de:德語, el:希臘語, gu:古吉拉特語, ht:海地語, ha:豪薩語, haw:夏威夷語, he:希伯來語, hi:印地語, hu:匈牙利語, is:冰島語, ig:伊博語, id:印尼語, ga:愛爾蘭語, it:義大利語, ja:日語, jv:爪哇語, kn:康納達語, kk:哈薩克語, km:高棉語, ky:柯爾克孜語, ko:韓語, ku:庫德語, lo:寮語, la:拉丁語, lv:拉脫維亞語, lt:立陶宛語, lb:盧森堡語, mk:馬其頓語, mg:馬拉加斯語, ms:馬來語, ml:馬拉雅拉姆語, mt:馬爾他語, mi:毛利語, mr:馬拉提語, mn:蒙古語, hmn:孟語, my:緬甸語, ne:尼泊爾語, no:挪威語, fa:波斯語, pl:波蘭語, pt:葡萄牙語, pa:旁遮普語, ps:普什圖語, ro:羅馬尼亞語, ru:俄語, sm:薩摩亞語, gd:蘇格蘭蓋爾語, sr:塞爾維亞語, sn:修納語, sd:信德語, si:僧伽羅語, sk:斯洛伐克語, sl:斯洛維尼亞語, so:索馬利亞語, sx:塞索托語, es:西班牙語, su:巽他語, sw:斯瓦希里語, sv:瑞典語, tl:他加祿語, tg:塔吉克語, ta:坦米爾語, te:泰盧固語, th:泰語, tr:土耳其語, uk:烏克蘭語, ur:烏爾都語, uz:烏茲別克語, vi:越南語, cy:威爾斯語, xh:科薩語, yi:意第緒語, yo:約魯巴語, zu:祖魯語"
-  },
   "allLangLabel": {
     "message": "所有語言"
   },
@@ -52,6 +52,42 @@
   },
   "generalLabel": {
     "message": "一般設定"
+  },
+  "translationApiLabel": {
+    "message": "翻譯引擎"
+  },
+  "googleApiLabel": {
+    "message": "Google 翻譯 API"
+  },
+  "googleApiCaptionLabel": {
+    "message": "使用 Google 翻譯 API。不需要註冊。"
+  },
+  "deeplApiLabel": {
+    "message": "DeepL API"
+  },
+  "deeplApiCaptionLabel": {
+    "message": "使用 DeepL API。您必須註冊 DeepL API Free 或 DeepL API Pro 以擷取授權金鑰。"
+  },
+  "howToUseDeeplLabel": {
+    "message": "如何註冊 DeepL API"
+  },
+  "deeplPlanLabel": {
+    "message": "DeepL API 方案"
+  },
+  "deeplPlanCaptionLabel": {
+    "message": "選取您註冊的 DeepL API 方案。"
+  },
+  "deeplFreeLabel": {
+    "message": "DeepL API Free"
+  },
+  "deeplProLabel": {
+    "message": "DeepL API Pro"
+  },
+  "deeplAuthKeyLabel": {
+    "message": "授權金鑰"
+  },
+  "deeplAuthKeyCaptionLabel": {
+    "message": "輸入 DeepL API 的授權金鑰。"
   },
   "targetLangCaptionLabel": {
     "message": "選擇預設的目標語言。"
@@ -386,6 +422,9 @@
   "unavailableError": {
     "message": "錯誤：已達服務使用限制。請稍後再試一次。"
   },
+  "deeplAuthError": {
+    "message": "錯誤：DeepL API 授權失敗。請在設定頁面上正確設定授權金鑰與方案。"
+  },
   "unknownError": {
     "message": "錯誤：未知的錯誤"
   },
@@ -545,6 +584,9 @@
   "lang_km": {
     "message": "高棉語"
   },
+  "lang_rw": {
+    "message": "盧安達語"
+  },
   "lang_ky": {
     "message": "柯爾克孜語"
   },
@@ -605,6 +647,9 @@
   "lang_no": {
     "message": "挪威語"
   },
+  "lang_or": {
+    "message": "奧里亞語"
+  },
   "lang_fa": {
     "message": "波斯語"
   },
@@ -635,6 +680,9 @@
   "lang_sr": {
     "message": "塞爾維亞語"
   },
+  "lang_st": {
+    "message": "塞索托語"
+  },
   "lang_sn": {
     "message": "修納語"
   },
@@ -652,9 +700,6 @@
   },
   "lang_so": {
     "message": "索馬利亞語"
-  },
-  "lang_sx": {
-    "message": "塞索托語"
   },
   "lang_es": {
     "message": "西班牙 語"
@@ -677,6 +722,9 @@
   "lang_ta": {
     "message": "坦米爾語"
   },
+  "lang_tt": {
+    "message": "韃靼語"
+  },
   "lang_te": {
     "message": "泰盧固語"
   },
@@ -686,11 +734,17 @@
   "lang_tr": {
     "message": "土耳其語"
   },
+  "lang_tk": {
+    "message": "土庫曼語"
+  },
   "lang_uk": {
     "message": "烏克蘭語"
   },
   "lang_ur": {
     "message": "烏爾都語"
+  },
+  "lang_ug": {
+    "message": "維吾爾語"
   },
   "lang_uz": {
     "message": "烏茲別克語"
@@ -712,5 +766,20 @@
   },
   "lang_zu": {
     "message": "祖魯語"
+  },
+  "lang_en-US": {
+    "message": "英語（美國）"
+  },
+  "lang_en-GB": {
+    "message": "英語（英國）"
+  },
+  "lang_pt-PT": {
+    "message": "葡萄牙語"
+  },
+  "lang_pt-BR": {
+    "message": "葡萄牙語（巴西）"
+  },
+  "lang_zh": {
+    "message": "中文"
   }
 }

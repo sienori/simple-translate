@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "웹 페이지에서 선택한 텍스트를 빠르게 번역하세요. 툴바 팝업을 이용해 입력한 내용을 번역할 수도 있습니다."
+    "message": "웹 페이지에서 선택하거나 입력한 텍스트를 빠르게 번역합니다. Google 번역 및 DeepL API를 지원합니다."
   },
   "donateWithPaypalLabel": {
     "message": "PayPal로 기부하기"
@@ -26,6 +26,9 @@
   "openInGoogleLabel": {
     "message": "Google 번역으로 열기"
   },
+  "openInDeeplLabel": {
+    "message": "DeepL 번역에서 열기"
+  },
   "copyLabel": {
     "message": "복사"
   },
@@ -38,9 +41,6 @@
   "targetLangLabel": {
     "message": "번역 언어"
   },
-  "langList": {
-    "message": "af:Afrikaans, sq:Albanian, am:Amharic, ar:Arabic, hy:Armenian, az:Azerbaijani, eu:Basque, be:Belarusian, bn:Bengali, bs:Bosnian, bg:Bulgarian, ca:Catalan, ceb:Cebuano, ny:Chewa, zh-CN:Chinese (PRC), zh-TW:Chinese (Taiwan), co:Corsican, hr:Croatian, cs:Czech, da:Danish, nl:Dutch, en:English, eo:Esperanto, et:Estonian, fi:Finnish, fr:French, fy:Frisian, gl:Galician, ka:Georgian, de:German, el:Greek, gu:Gujarati, ht:Haitian, ha:Hausa, haw:Hawaiian, he:Hebrew, hi:Hindi, hu:Hungarian, is:Icelandic, ig:Igbo, id:Indonesian, ga:Irish, it:Italian, ja:Japanese, jv:Javanese, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:한국어, ku:Kurdish, lo:Laotian, la:Latin, lv:Latvian, lt:Lithuanian, lb:Luxembourgish, mk:Macedonian, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norwegian, fa:Persian, pl:Polish, pt:Portuguese, pa:Punjabi, ps:Pushto, ro:Romanian, ru:Russian, sm:Samoan, gd:Scottish Gaelic, sr:Serbian, sn:Shona, sd:Sindhi, si:Sinhala, sk:Slovak, sl:Slovenian, so:Somali, sx:Sotho, es:Spanish, su:Sundanese, sw:Swahili, sv:Swedish, tl:Tagalog, tg:Tajiki, ta:Tamil, te:Telugu, th:Thai, tr:Turkish, uk:Ukrainian, ur:Urdu, uz:Uzbek, vi:Vietnamese, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
-  },
   "allLangLabel": {
     "message": "모든 언어"
   },
@@ -52,6 +52,42 @@
   },
   "generalLabel": {
     "message": "일반"
+  },
+  "translationApiLabel": {
+    "message": "번역 엔진"
+  },
+  "googleApiLabel": {
+    "message": "Google 번역 API"
+  },
+  "googleApiCaptionLabel": {
+    "message": "Google 번역 API를 사용합니다. 등록이 필요하지 않습니다."
+  },
+  "deeplApiLabel": {
+    "message": "DeepL API"
+  },
+  "deeplApiCaptionLabel": {
+    "message": "DeepL API를 사용합니다. 인증 키를 얻으려면 DeepL API Free 또는 DeepL API Pro에 등록해야 합니다."
+  },
+  "howToUseDeeplLabel": {
+    "message": "DeepL API 등록 방법"
+  },
+  "deeplPlanLabel": {
+    "message": "DeepL API 플랜"
+  },
+  "deeplPlanCaptionLabel": {
+    "message": "등록한 DeepL API 플랜을 선택하세요."
+  },
+  "deeplFreeLabel": {
+    "message": "DeepL API Free"
+  },
+  "deeplProLabel": {
+    "message": "DeepL API Pro"
+  },
+  "deeplAuthKeyLabel": {
+    "message": "인증 키"
+  },
+  "deeplAuthKeyCaptionLabel": {
+    "message": "DeepL API 인증 키를 입력하세요."
   },
   "targetLangCaptionLabel": {
     "message": "기본 번역 언어를 선택하세요."
@@ -386,6 +422,9 @@
   "unavailableError": {
     "message": "오류: 서비스 이용 제한에 도달했습니다. 잠시 후 다시 시도해주세요."
   },
+  "deeplAuthError": {
+    "message": "오류: DeepL API 인증에 실패했습니다. 설정 페이지에서 올바른 인증 키와 플랜을 설정하세요."
+  },
   "unknownError": {
     "message": "오류: 알 수 없는 오류"
   },
@@ -545,6 +584,9 @@
   "lang_km": {
     "message": "Khmer"
   },
+  "lang_rw": {
+    "message": "Kinyarwanda"
+  },
   "lang_ky": {
     "message": "Kirghiz"
   },
@@ -605,6 +647,9 @@
   "lang_no": {
     "message": "Norwegian"
   },
+  "lang_or": {
+    "message": "Odia (Oriya)"
+  },
   "lang_fa": {
     "message": "Persian"
   },
@@ -635,6 +680,9 @@
   "lang_sr": {
     "message": "Serbian"
   },
+  "lang_st": {
+    "message": "Sesotho"
+  },
   "lang_sn": {
     "message": "Shona"
   },
@@ -652,9 +700,6 @@
   },
   "lang_so": {
     "message": "Somali"
-  },
-  "lang_sx": {
-    "message": "Sotho"
   },
   "lang_es": {
     "message": "Spanish"
@@ -677,6 +722,9 @@
   "lang_ta": {
     "message": "Tamil"
   },
+  "lang_tt": {
+    "message": "Tatar"
+  },
   "lang_te": {
     "message": "Telugu"
   },
@@ -686,11 +734,17 @@
   "lang_tr": {
     "message": "Turkish"
   },
+  "lang_tk": {
+    "message": "Turkmen"
+  },
   "lang_uk": {
     "message": "Ukrainian"
   },
   "lang_ur": {
     "message": "Urdu"
+  },
+  "lang_ug": {
+    "message": "Uyghur"
   },
   "lang_uz": {
     "message": "Uzbek"
@@ -712,5 +766,20 @@
   },
   "lang_zu": {
     "message": "Zulu"
+  },
+  "lang_en-US": {
+    "message": "English (American)"
+  },
+  "lang_en-GB": {
+    "message": "English (British)"
+  },
+  "lang_pt-PT": {
+    "message": "Portuguese"
+  },
+  "lang_pt-BR": {
+    "message": "Portuguese (Brazilian)"
+  },
+  "lang_zh": {
+    "message": "Chinese"
   }
 }

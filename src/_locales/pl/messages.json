@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Błyskawicznie przetłumacz zaznaczony tekst na stronie. W oknie wywołanym z paska narzędzi, możesz przetłumaczyć wpisany tekst."
+    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
   },
   "donateWithPaypalLabel": {
     "message": "Wspieraj przez PayPal"
@@ -26,6 +26,9 @@
   "openInGoogleLabel": {
     "message": "Otwórz w Tłumaczu Google"
   },
+  "openInDeeplLabel": {
+    "message": "Open in DeepL Translator"
+  },
   "copyLabel": {
     "message": "Skopiuj"
   },
@@ -38,9 +41,6 @@
   "targetLangLabel": {
     "message": "Język docelowy"
   },
-  "langList": {
-    "message": "af:Afrykanerski, sq:Albański, am:Amharyjski, ar:Arabski, hy:Armeński, az:Azerbejdżański, eu:Baskijski, be:Belarusian, bn:Bengalijski, bs:Bośniacki, bg:Bułgarski, ca:Kataloński, ceb:Cebuański, ny:Chewa, zh-CN:Chiński (PRC), zh-TW:Chiński (Tajwan), co:Korsykański, hr:Chorwacki, cs:Czeski, da:Duński, nl:Holenderski, en:Angielski, eo:Esperanto, et:Estoński, fi:Fiński, fr:Francuski, fy:Frisian, gl:Galicyjski, ka:Georgiański, de:Niemiecki, el:Grecki, gu:Gudźarati, ht:Haitański, ha:Hausa, haw:Hawajski, he:Hebrajski, hi:Indyjski, hu:Węgierski, is:Islandzki, ig:Igbo, id:Indonezyjski, ga:Irlandzki, it:Włoski, ja:Japoński, jv:Javoński, kn:Kannada, kk:Kazakh, km:Khmer, ky:Kirghiz, ko:Koreański, ku:Kurdyjski, lo:Laotian, la:Łaciński, lv:Łotewski, lt:Litewski, lb:Luksemburski, mk:Macedoński, mg:Malagasy, ms:Malay, ml:Malayalam, mt:Maltese, mi:Maori, mr:Marathi, mn:Mongolian, hmn:Monk, my:Myanmar, ne:Nepali, no:Norweski, fa:Perski, pl:Polski, pt:Portugalski, pa:Punjabi, ps:Pushto, ro:Rumuński, ru:Russian, sm:Samoan, gd:Szkocki, sr:Serban, sn:Shona, sd:Sindhi, si:Sinhala, sk:Słowacki, sl:Słoweński, so:Somali, sx:Sotho, es:Hiszpański, su:Sundanese, sw:Swahili, sv:Szwecki, tl:Tagalog, tg:Tadżyki, ta:Tamil, te:Telugu, th:Thai, tr:Turecki, uk:Ukraiński, ur:Urdu, uz:Uzbecki, vi:Wietnamski, cy:Welsh, xh:Xosa, yi:Yiddish, yo:Yoruba, zu:Zulu"
-  },
   "allLangLabel": {
     "message": "Wszystkie języki"
   },
@@ -52,6 +52,42 @@
   },
   "generalLabel": {
     "message": "Główne"
+  },
+  "translationApiLabel": {
+    "message": "Translation engine"
+  },
+  "googleApiLabel": {
+    "message": "Google translate API"
+  },
+  "googleApiCaptionLabel": {
+    "message": "Use Google Translate API. No registration is required."
+  },
+  "deeplApiLabel": {
+    "message": "DeepL API"
+  },
+  "deeplApiCaptionLabel": {
+    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authorization key."
+  },
+  "howToUseDeeplLabel": {
+    "message": "How to register DeepL API"
+  },
+  "deeplPlanLabel": {
+    "message": "DeepL API plan"
+  },
+  "deeplPlanCaptionLabel": {
+    "message": "Select the DeepL API plan for which you registered."
+  },
+  "deeplFreeLabel": {
+    "message": "DeepL API Free"
+  },
+  "deeplProLabel": {
+    "message": "DeepL API Pro"
+  },
+  "deeplAuthKeyLabel": {
+    "message": "Authorization key"
+  },
+  "deeplAuthKeyCaptionLabel": {
+    "message": "Enter the authentication key for the DeepL API."
   },
   "targetLangCaptionLabel": {
     "message": "Wybierz domyślny język docelowy."
@@ -386,6 +422,9 @@
   "unavailableError": {
     "message": "Błąd: Limit użycia serwisu został osiągnięty. Poczekaj chwilę i spróbuj ponownie."
   },
+  "deeplAuthError": {
+    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
+  },
   "unknownError": {
     "message": "Error: Nieznany błąd"
   },
@@ -545,6 +584,9 @@
   "lang_km": {
     "message": "Khmer"
   },
+  "lang_rw": {
+    "message": "Kinyarwanda"
+  },
   "lang_ky": {
     "message": "Kirghiz"
   },
@@ -605,6 +647,9 @@
   "lang_no": {
     "message": "Norweski"
   },
+  "lang_or": {
+    "message": "Odia (Oriya)"
+  },
   "lang_fa": {
     "message": "Perski"
   },
@@ -635,6 +680,9 @@
   "lang_sr": {
     "message": "Serban"
   },
+  "lang_st": {
+    "message": "Sesotho"
+  },
   "lang_sn": {
     "message": "Shona"
   },
@@ -652,9 +700,6 @@
   },
   "lang_so": {
     "message": "Somali"
-  },
-  "lang_sx": {
-    "message": "Sotho"
   },
   "lang_es": {
     "message": "Hiszpański"
@@ -677,6 +722,9 @@
   "lang_ta": {
     "message": "Tamil"
   },
+  "lang_tt": {
+    "message": "Tatar"
+  },
   "lang_te": {
     "message": "Telugu"
   },
@@ -686,11 +734,17 @@
   "lang_tr": {
     "message": "Turecki"
   },
+  "lang_tk": {
+    "message": "Turkmen"
+  },
   "lang_uk": {
     "message": "Ukraiński"
   },
   "lang_ur": {
     "message": "Urdu"
+  },
+  "lang_ug": {
+    "message": "Uyghur"
   },
   "lang_uz": {
     "message": "Uzbecki"
@@ -712,5 +766,20 @@
   },
   "lang_zu": {
     "message": "Zulu"
+  },
+  "lang_en-US": {
+    "message": "English (American)"
+  },
+  "lang_en-GB": {
+    "message": "English (British)"
+  },
+  "lang_pt-PT": {
+    "message": "Portugalski"
+  },
+  "lang_pt-BR": {
+    "message": "Portuguese (Brazilian)"
+  },
+  "lang_zh": {
+    "message": "Chinese"
   }
 }

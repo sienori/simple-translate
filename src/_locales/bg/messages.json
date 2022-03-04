@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected text on web page. In toolbar popup, you can translate input text."
+    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
   },
   "donateWithPaypalLabel": {
     "message": "Дарете чрез PayPal"
@@ -26,6 +26,9 @@
   "openInGoogleLabel": {
     "message": "Отваряне в Google Преводач"
   },
+  "openInDeeplLabel": {
+    "message": "Open in DeepL Translator"
+  },
   "copyLabel": {
     "message": "Копиране"
   },
@@ -38,9 +41,6 @@
   "targetLangLabel": {
     "message": "Целеви език"
   },
-  "langList": {
-    "message": "af:Африканс, sq:Албански, am:Амхарски, ar:Арабски, hy:Арменски, az:Азербайджански, eu:Баскски, be:Беларуски, bn:Бенгалски, bs:Босненски, bg:Български, ca:Каталонски, ceb:Себуански, ny:Нянджа, zh-CN:Китайски (КНР), zh-TW:Китайски (Тайван), co:Корсикански, hr:Хърватски, cs:Чешки, da:Датски, nl:Нидерландски, en:Английски, eo:Есперанто, et:Естонски, fi:Фински, fr:Френски, fy:Фризийски, gl:Галисийски, ka:Грузински, de:Немски, el:Гръцки, gu:Гуджаратски, ht:Хаитянски, ha:Хауса, haw:Хавайски, he:Иврит, hi:Хинди, hu:Унгарски, is:Исландски, ig:Игбо, id:Индонезийски, ga:Ирландски, it:Италиански, ja:Японски, jv:Явански, kn:Каннада, kk:Казахски, km:Кхмерски, ky:Киргизки, ko:Корейски, ku:Кюрдски, lo:Лаоски, la:Латински, lv:Латвийски, lt:Литовски, lb:Люксембургски, mk:Македонски, mg:Малгашки, ms:Малайски, ml:Малаялам, mt:Малтийски, mi:Маорски, mr:Маратхи, mn:Монголски, hmn:Монк, my:Бирмански, ne:Непалски, no:Норвежки, fa:Персийски, pl:Полски, pt:Португалски, pa:Панджабски, ps:Пущунски, ro:Румънски, ru:Руски, sm:Самоански, gd:Шотландски Келтски, sr:Сръбски, sn:Шона, sd:Синдхи, si:Синхалски, sk:Словашки, sl:Словенски, so:Сомалийски, sx:Сото, es:Испански, su:Сундански, sw:Суахили, sv:Шведски, tl:Тагалог, tg:Таджикски, ta:Тамилски, te:Телугу, th:Тайски, tr:Турски, uk:Украински, ur:Урду, uz:Узбекски, vi:Виетнамски, cy:Уелски, xh:Кхоса, yi:Идиш, yo:Йоруба, zu:Зулуски"
-  },
   "allLangLabel": {
     "message": "All languages"
   },
@@ -52,6 +52,42 @@
   },
   "generalLabel": {
     "message": "Общи"
+  },
+  "translationApiLabel": {
+    "message": "Translation engine"
+  },
+  "googleApiLabel": {
+    "message": "Google translate API"
+  },
+  "googleApiCaptionLabel": {
+    "message": "Use Google Translate API. No registration is required."
+  },
+  "deeplApiLabel": {
+    "message": "DeepL API"
+  },
+  "deeplApiCaptionLabel": {
+    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authorization key."
+  },
+  "howToUseDeeplLabel": {
+    "message": "How to register DeepL API"
+  },
+  "deeplPlanLabel": {
+    "message": "DeepL API plan"
+  },
+  "deeplPlanCaptionLabel": {
+    "message": "Select the DeepL API plan for which you registered."
+  },
+  "deeplFreeLabel": {
+    "message": "DeepL API Free"
+  },
+  "deeplProLabel": {
+    "message": "DeepL API Pro"
+  },
+  "deeplAuthKeyLabel": {
+    "message": "Authorization key"
+  },
+  "deeplAuthKeyCaptionLabel": {
+    "message": "Enter the authentication key for the DeepL API."
   },
   "targetLangCaptionLabel": {
     "message": "Изберете целевия език по подразбиране."
@@ -386,6 +422,9 @@
   "unavailableError": {
     "message": "Грешка: Употребата на услугата достигна ограничението. Почакайте малко и опитайте пак."
   },
+  "deeplAuthError": {
+    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
+  },
   "unknownError": {
     "message": "Грешка: Неизвестна грешка"
   },
@@ -545,6 +584,9 @@
   "lang_km": {
     "message": "Кхмерски"
   },
+  "lang_rw": {
+    "message": "Kinyarwanda"
+  },
   "lang_ky": {
     "message": "Киргизки"
   },
@@ -605,6 +647,9 @@
   "lang_no": {
     "message": "Норвежки"
   },
+  "lang_or": {
+    "message": "Odia (Oriya)"
+  },
   "lang_fa": {
     "message": "Персийски"
   },
@@ -635,6 +680,9 @@
   "lang_sr": {
     "message": "Сръбски"
   },
+  "lang_st": {
+    "message": "Sesotho"
+  },
   "lang_sn": {
     "message": "Шона"
   },
@@ -652,9 +700,6 @@
   },
   "lang_so": {
     "message": "Сомалийски"
-  },
-  "lang_sx": {
-    "message": "Сото"
   },
   "lang_es": {
     "message": "Испански"
@@ -677,6 +722,9 @@
   "lang_ta": {
     "message": "Тамилски"
   },
+  "lang_tt": {
+    "message": "Tatar"
+  },
   "lang_te": {
     "message": "Телугу"
   },
@@ -686,11 +734,17 @@
   "lang_tr": {
     "message": "Турски"
   },
+  "lang_tk": {
+    "message": "Turkmen"
+  },
   "lang_uk": {
     "message": "Украински"
   },
   "lang_ur": {
     "message": "Урду"
+  },
+  "lang_ug": {
+    "message": "Uyghur"
   },
   "lang_uz": {
     "message": "Узбекски"
@@ -712,5 +766,20 @@
   },
   "lang_zu": {
     "message": "Зулуски"
+  },
+  "lang_en-US": {
+    "message": "English (American)"
+  },
+  "lang_en-GB": {
+    "message": "English (British)"
+  },
+  "lang_pt-PT": {
+    "message": "Португалски"
+  },
+  "lang_pt-BR": {
+    "message": "Portuguese (Brazilian)"
+  },
+  "lang_zh": {
+    "message": "Chinese"
   }
 }

@@ -1,6 +1,6 @@
 # <sub><img src="/src/icons/64.png" width=64px height=64px></sub> Simple Translate
 
-#### Quickly translate selected text on web page. In toolbar popup, you can translate input text.
+#### Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API.
 
 [<img src="other/promotion/badges/firefox.png" align="left" alt="for Firefox">](https://addons.mozilla.org/firefox/addon/simple-translate/)
 

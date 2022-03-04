@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Übersetzen Sie schnell ausgewählten Text auf einer Webseite. Im Popup-Fenster der Symbolleiste können Sie den eingegebenen Text übersetzen."
+    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
   },
   "donateWithPaypalLabel": {
     "message": "Spenden via PayPal"
@@ -26,6 +26,9 @@
   "openInGoogleLabel": {
     "message": "Öffne in Google Translate"
   },
+  "openInDeeplLabel": {
+    "message": "Open in DeepL Translator"
+  },
   "copyLabel": {
     "message": "Kopieren"
   },
@@ -38,9 +41,6 @@
   "targetLangLabel": {
     "message": "Zielsprache"
   },
-  "langList": {
-    "message": "af:Afrikanisch, sq:Albanisch, am:Amharisch, ar:Arabisch, hy:Armenisch, az:Aserbeidschanisch, eu:Baskisch, be:Weißrussisch, bn:Bengalisch, bs:Bosnisch, bg:Bulgarisch, ca:Katalanisch, ceb:Cebuano, ny:Nyanja, zh-CN:Chinesisch (VRC), zh-TW:Chinesisch (Taiwan), co:Korsisch, hr:Kroatisch, cs:Tschechisch, da:Dänisch, nl:Niederländisch, en:Englisch, eo:Esperanto, et:Estnisch, fi:Finnisch, fr:Französisch, fy:Friesisch, gl:Galicisch, ka:Georgisch, de:Deutsch, el:Griechisch, gu:Gujarati, ht:Haitien, ha:Haussa, haw:Hawaiisch, he:Hebräisch, hi:Hindi, hu:Ungarisch, is:Isländisch, ig:Ibo, id:Indonesisch, ga:Irisch, it:Italienisch, ja:Japanisch, jv:Javanisch, kn:Kanadisch, kk:Kasachisch, km:Khmer, ky:Kirgisisch, ko:Koreanisch, ku:Kurdisch, lo:Laotisch, la:Latein, lv:Lettisch, lt:Litauisch, lb:Luxemburgisch, mk:Makedonisch, mg:Malagassi, ms:Malaiisch, ml:Malayalam, mt:Maltesisch, mi:Maori, mr:Marathi, mn:Mongolisch, hmn:Miao, my:Birmanisch, ne:Nepali, no:Norwegisch, fa:Persisch, pl:Polnisch, pt:Portugiesisch, pa:Pandschabi, ps:Paschtu, ro:Rumänisch, ru:Russisch, sm:Samoanisch, gd:Gälisch-Schottisch, sr:Serbisch, sn:Schona, sd:Sindhi, si:Singhalesisch, sk:Slowakisch, sl:Slowenisch, so:Somali, sx:Sotho, es:Spanisch, su:Sundanesisch, sw:Swahili, sv:Schwedisch, tl:Tagalog, tg:Tadschikisch, ta:Tamil, te:Telugu, th:Thailändisch, tr:Türkisch, uk:Ukrainisch, ur:Urdu, uz:Usbekisch, vi:Vietnamesisch, cy:Kymrisch, xh:Xhosa, yi:Jiddisch, yo:Yoruba, zu:Zulu"
-  },
   "allLangLabel": {
     "message": "Alle Sprachen"
   },
@@ -52,6 +52,42 @@
   },
   "generalLabel": {
     "message": "Allgemein"
+  },
+  "translationApiLabel": {
+    "message": "Translation engine"
+  },
+  "googleApiLabel": {
+    "message": "Google translate API"
+  },
+  "googleApiCaptionLabel": {
+    "message": "Use Google Translate API. No registration is required."
+  },
+  "deeplApiLabel": {
+    "message": "DeepL API"
+  },
+  "deeplApiCaptionLabel": {
+    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authorization key."
+  },
+  "howToUseDeeplLabel": {
+    "message": "How to register DeepL API"
+  },
+  "deeplPlanLabel": {
+    "message": "DeepL API plan"
+  },
+  "deeplPlanCaptionLabel": {
+    "message": "Select the DeepL API plan for which you registered."
+  },
+  "deeplFreeLabel": {
+    "message": "DeepL API Free"
+  },
+  "deeplProLabel": {
+    "message": "DeepL API Pro"
+  },
+  "deeplAuthKeyLabel": {
+    "message": "Authorization key"
+  },
+  "deeplAuthKeyCaptionLabel": {
+    "message": "Enter the authentication key for the DeepL API."
   },
   "targetLangCaptionLabel": {
     "message": "Standardzielsprache wählen."
@@ -386,6 +422,9 @@
   "unavailableError": {
     "message": "Fehler: Service-Nutzungslimit erreicht. Bitte warten Sie einen Moment und versuchen Sie es erneut."
   },
+  "deeplAuthError": {
+    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
+  },
   "unknownError": {
     "message": "Fehler: Unbekannter Fehler"
   },
@@ -545,6 +584,9 @@
   "lang_km": {
     "message": "Khmer"
   },
+  "lang_rw": {
+    "message": "Kinyarwanda"
+  },
   "lang_ky": {
     "message": "Kirgisisch"
   },
@@ -605,6 +647,9 @@
   "lang_no": {
     "message": "Norwegisch"
   },
+  "lang_or": {
+    "message": "Odia (Oriya)"
+  },
   "lang_fa": {
     "message": "Persisch"
   },
@@ -635,6 +680,9 @@
   "lang_sr": {
     "message": "Serbisch"
   },
+  "lang_st": {
+    "message": "Sesotho"
+  },
   "lang_sn": {
     "message": "Schona"
   },
@@ -652,9 +700,6 @@
   },
   "lang_so": {
     "message": "Somali"
-  },
-  "lang_sx": {
-    "message": "Sotho"
   },
   "lang_es": {
     "message": "Spanisch"
@@ -677,6 +722,9 @@
   "lang_ta": {
     "message": "Tamil"
   },
+  "lang_tt": {
+    "message": "Tatar"
+  },
   "lang_te": {
     "message": "Telugu"
   },
@@ -686,11 +734,17 @@
   "lang_tr": {
     "message": "Türkisch"
   },
+  "lang_tk": {
+    "message": "Turkmen"
+  },
   "lang_uk": {
     "message": "Ukrainisch"
   },
   "lang_ur": {
     "message": "Urdu"
+  },
+  "lang_ug": {
+    "message": "Uyghur"
   },
   "lang_uz": {
     "message": "Usbekisch"
@@ -712,5 +766,20 @@
   },
   "lang_zu": {
     "message": "Zulu"
+  },
+  "lang_en-US": {
+    "message": "English (American)"
+  },
+  "lang_en-GB": {
+    "message": "English (British)"
+  },
+  "lang_pt-PT": {
+    "message": "Portugiesisch"
+  },
+  "lang_pt-BR": {
+    "message": "Portuguese (Brazilian)"
+  },
+  "lang_zh": {
+    "message": "Chinese"
   }
 }

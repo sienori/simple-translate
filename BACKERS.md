@@ -51,3 +51,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - Kamran Razvan
 - Mitrakov Artem
 - kikuchi.takanori
+- yh

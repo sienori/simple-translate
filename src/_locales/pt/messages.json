@@ -1,9 +1,9 @@
 {
   "extName": {
-    "message": "Tradução simples"
+    "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Tradução rápida de texto ou seleção em páginas. Aceita Google Tradutor e DeepL API "
+    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
   },
   "donateWithPaypalLabel": {
     "message": "Doar com PayPal"
@@ -27,7 +27,7 @@
     "message": "Abrir no Google Tradutor"
   },
   "openInDeeplLabel": {
-    "message": "Abrir no DeepL Tradutor"
+    "message": "Open in DeepL Translator"
   },
   "copyLabel": {
     "message": "Copiar"
@@ -54,28 +54,28 @@
     "message": "Geral"
   },
   "translationApiLabel": {
-    "message": "Motor de tradução"
+    "message": "Translation engine"
   },
   "googleApiLabel": {
-    "message": "API do Google Tradutor"
+    "message": "Google translate API"
   },
   "googleApiCaptionLabel": {
-    "message": "Usa a API do Google Tradutor. Registro não necessário."
+    "message": "Use Google Translate API. No registration is required."
   },
   "deeplApiLabel": {
-    "message": "API do DeepL"
+    "message": "DeepL API"
   },
   "deeplApiCaptionLabel": {
-    "message": "Usa a API do DeepL. Você deve registrar-se com DeepL API Free ou DeepL API Pro para obter uma chave de autorização."
+    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authorization key."
   },
   "howToUseDeeplLabel": {
-    "message": "Como registrar a API do DeepL"
+    "message": "How to register DeepL API"
   },
   "deeplPlanLabel": {
-    "message": "Plano da DeepL API"
+    "message": "DeepL API plan"
   },
   "deeplPlanCaptionLabel": {
-    "message": "Escolha o plano da DeepL API em que se inscreveu."
+    "message": "Select the DeepL API plan for which you registered."
   },
   "deeplFreeLabel": {
     "message": "DeepL API Free"
@@ -84,10 +84,10 @@
     "message": "DeepL API Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Chave de autorização"
+    "message": "Authorization key"
   },
   "deeplAuthKeyCaptionLabel": {
-    "message": "Insira a chave de autenticação para a DeepL API."
+    "message": "Enter the authentication key for the DeepL API."
   },
   "targetLangCaptionLabel": {
     "message": "Selecione o idioma alvo padrão."
@@ -423,7 +423,7 @@
     "message": "Erro: Limite de uso do serviço atingido. Aguarde um pouco e tente outra vez."
   },
   "deeplAuthError": {
-    "message": "Erro: autenticação da DeepL API falhou. Favor definir corretamente a chave de autenticação e plano na página de configurações."
+    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
   },
   "unknownError": {
     "message": "Erro: Erro desconhecido"
@@ -462,7 +462,7 @@
     "message": "Basco"
   },
   "lang_be": {
-    "message": "Bielo-russo"
+    "message": "Bielorrusso"
   },
   "lang_bn": {
     "message": "Bengali"
@@ -648,7 +648,7 @@
     "message": "Norueguês"
   },
   "lang_or": {
-    "message": "Oriá"
+    "message": "Odia (Oriya)"
   },
   "lang_fa": {
     "message": "Persa"
@@ -681,7 +681,7 @@
     "message": "Sérvio"
   },
   "lang_st": {
-    "message": "Sessoto"
+    "message": "Sesotho"
   },
   "lang_sn": {
     "message": "Chona"
@@ -690,7 +690,7 @@
     "message": "Sindi"
   },
   "lang_si": {
-    "message": "Cingalês"
+    "message": "Singalês"
   },
   "lang_sk": {
     "message": "Eslovaco"
@@ -723,7 +723,7 @@
     "message": "Tâmil"
   },
   "lang_tt": {
-    "message": "Tártaro"
+    "message": "Tatar"
   },
   "lang_te": {
     "message": "Telugo"
@@ -735,7 +735,7 @@
     "message": "Turco"
   },
   "lang_tk": {
-    "message": "Turcomano"
+    "message": "Turkmen"
   },
   "lang_uk": {
     "message": "Ucraniano"
@@ -744,7 +744,7 @@
     "message": "Urdu"
   },
   "lang_ug": {
-    "message": "Uigur"
+    "message": "Uyghur"
   },
   "lang_uz": {
     "message": "Uzbeque"
@@ -780,6 +780,6 @@
     "message": "Portuguese (Brazilian)"
   },
   "lang_zh": {
-    "message": "Chinês"
+    "message": "Chinese"
   }
 }

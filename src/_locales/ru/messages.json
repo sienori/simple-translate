@@ -482,11 +482,11 @@
   "lang_ny": {
     "message": "Чева"
   },
-  "lang_zh-CN": {
-    "message": "Китайский (упрощенный)"
+  "lang_zh_CN": {
+    "message": "Chinese (Simplified)"
   },
-  "lang_zh-TW": {
-    "message": "Китайский (Традиционный)"
+  "lang_zh_TW": {
+    "message": "Chinese (Traditional)"
   },
   "lang_co": {
     "message": "Корсиканский"
@@ -767,17 +767,17 @@
   "lang_zu": {
     "message": "Зулу"
   },
-  "lang_en-US": {
-    "message": "Английский (американский)"
+  "lang_en_US": {
+    "message": "English (American)"
   },
-  "lang_en-GB": {
-    "message": "Английский (британский)"
+  "lang_en_GB": {
+    "message": "English (British)"
   },
-  "lang_pt-PT": {
+  "lang_pt_PT": {
     "message": "Португальский"
   },
-  "lang_pt-BR": {
-    "message": "Португальский (бразильский)"
+  "lang_pt_BR": {
+    "message": "Portuguese (Brazilian)"
   },
   "lang_zh": {
     "message": "Китайский"

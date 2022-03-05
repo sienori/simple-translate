@@ -482,11 +482,11 @@
   "lang_ny": {
     "message": "齊切瓦語"
   },
-  "lang_zh-CN": {
-    "message": "中文 (簡體)"
+  "lang_zh_CN": {
+    "message": "Chinese (Simplified)"
   },
-  "lang_zh-TW": {
-    "message": "中文 (繁體)"
+  "lang_zh_TW": {
+    "message": "Chinese (Traditional)"
   },
   "lang_co": {
     "message": "科西嘉語"
@@ -767,17 +767,17 @@
   "lang_zu": {
     "message": "祖魯語"
   },
-  "lang_en-US": {
-    "message": "英語（美國）"
+  "lang_en_US": {
+    "message": "English (American)"
   },
-  "lang_en-GB": {
-    "message": "英語（英國）"
+  "lang_en_GB": {
+    "message": "English (British)"
   },
-  "lang_pt-PT": {
+  "lang_pt_PT": {
     "message": "葡萄牙語"
   },
-  "lang_pt-BR": {
-    "message": "葡萄牙語（巴西）"
+  "lang_pt_BR": {
+    "message": "Portuguese (Brazilian)"
   },
   "lang_zh": {
     "message": "中文"

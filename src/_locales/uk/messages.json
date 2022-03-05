@@ -27,7 +27,7 @@
     "message": "Відкрити в перекладачі Google"
   },
   "openInDeeplLabel": {
-    "message": "Open in DeepL Translator"
+    "message": "Відкрити в Перекладачі DeepL"
   },
   "copyLabel": {
     "message": "Копіювати"
@@ -54,19 +54,19 @@
     "message": "Загальне"
   },
   "translationApiLabel": {
-    "message": "Translation engine"
+    "message": "Рушій перекладу"
   },
   "googleApiLabel": {
-    "message": "Google translate API"
+    "message": "API перекладача Google"
   },
   "googleApiCaptionLabel": {
-    "message": "Use Google Translate API. No registration is required."
+    "message": "Використовувати API Google Перекладача. Не вимагає реєстрації."
   },
   "deeplApiLabel": {
-    "message": "DeepL API"
+    "message": "API DeepL"
   },
   "deeplApiCaptionLabel": {
-    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authentication key."
+    "message": "Використовувати API DeepL. Потрібно зареєструватися у DeepL API Free або DeepL API Pro для отримання ключа автентифікації."
   },
   "howToUseDeeplLabel": {
     "message": "How to register DeepL API"
@@ -84,7 +84,7 @@
     "message": "DeepL API Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Authentication key"
+    "message": "Ключ автентифікації"
   },
   "deeplAuthKeyCaptionLabel": {
     "message": "Enter the authentication key for the DeepL API."
@@ -483,10 +483,10 @@
     "message": "Чева"
   },
   "lang_zh_CN": {
-    "message": "Chinese (Simplified)"
+    "message": "Китайська (спрощена)"
   },
   "lang_zh_TW": {
-    "message": "Chinese (Traditional)"
+    "message": "Китайська (традиційна)"
   },
   "lang_co": {
     "message": "Корсиканська"
@@ -576,7 +576,7 @@
     "message": "Яванська"
   },
   "lang_kn": {
-    "message": "Kannada"
+    "message": "Каннада"
   },
   "lang_kk": {
     "message": "Казахська"
@@ -768,18 +768,18 @@
     "message": "Зулу"
   },
   "lang_en_US": {
-    "message": "English (American)"
+    "message": "Англійська (американська)"
   },
   "lang_en_GB": {
-    "message": "English (British)"
+    "message": "Англійська (британська)"
   },
   "lang_pt_PT": {
     "message": "Португальська"
   },
   "lang_pt_BR": {
-    "message": "Portuguese (Brazilian)"
+    "message": "Португальська (бразильська)"
   },
   "lang_zh": {
-    "message": "Chinese"
+    "message": "Китайська"
   }
 }

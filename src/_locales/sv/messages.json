@@ -483,10 +483,10 @@
     "message": "Chewa"
   },
   "lang_zh_CN": {
-    "message": "Chinese (Simplified)"
+    "message": "Kinesiska (Förenklad)"
   },
   "lang_zh_TW": {
-    "message": "Chinese (Traditional)"
+    "message": "Kinesiska (Traditionell)"
   },
   "lang_co": {
     "message": "Korsikanska"
@@ -768,16 +768,16 @@
     "message": "Zulu"
   },
   "lang_en_US": {
-    "message": "English (American)"
+    "message": "Engelska (Amerikanska)"
   },
   "lang_en_GB": {
-    "message": "English (British)"
+    "message": "Engelska (Brittiska)"
   },
   "lang_pt_PT": {
     "message": "Portugisiska"
   },
   "lang_pt_BR": {
-    "message": "Portuguese (Brazilian)"
+    "message": "Portugisiska (Brasiliansk)"
   },
   "lang_zh": {
     "message": "Kinesiska"

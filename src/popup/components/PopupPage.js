@@ -83,7 +83,6 @@ export default class PopupPage extends Component {
   };
 
   handleInputText = inputText => {
-    log.log(logDir, "handleInputText()", inputText);
     this.setState({ inputText: inputText });
 
     const waitTime = getSettings("waitTime");

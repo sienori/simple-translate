@@ -15,7 +15,6 @@ export default props => {
   const { resultText, candidateText, isError, errorMessage, targetLang } = props;
   const shouldShowCandidate = getSettings("ifShowCandidate");
   const translationApi = getSettings("translationApi");
-  console.log(translationApi);
 
   const handleLinkClick = () => {
     const { inputText, targetLang } = props;

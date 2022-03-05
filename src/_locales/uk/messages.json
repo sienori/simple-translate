@@ -69,7 +69,7 @@
     "message": "Використовувати API DeepL. Потрібно зареєструватися у DeepL API Free або DeepL API Pro для отримання ключа автентифікації."
   },
   "howToUseDeeplLabel": {
-    "message": "How to register DeepL API"
+    "message": "Як зареєструватися на DeepL API"
   },
   "deeplPlanLabel": {
     "message": "DeepL API plan"
@@ -585,7 +585,7 @@
     "message": "Кхмерська"
   },
   "lang_rw": {
-    "message": "Kinyarwanda"
+    "message": "Руандійська"
   },
   "lang_ky": {
     "message": "Киргизька"
@@ -735,7 +735,7 @@
     "message": "Турецька"
   },
   "lang_tk": {
-    "message": "Turkmen"
+    "message": "Туркменська"
   },
   "lang_uk": {
     "message": "Українська"
@@ -744,7 +744,7 @@
     "message": "Урду"
   },
   "lang_ug": {
-    "message": "Uyghur"
+    "message": "Уйгурська"
   },
   "lang_uz": {
     "message": "Узбецька"

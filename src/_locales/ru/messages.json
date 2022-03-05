@@ -66,7 +66,7 @@
     "message": "DeepL API"
   },
   "deeplApiCaptionLabel": {
-    "message": "Использовать DeepL API. Вы должны зарегистрироваться в DeepL API Free или DeepL API Pro, чтобы получить ключ авторизации."
+    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authentication key."
   },
   "howToUseDeeplLabel": {
     "message": "Как зарегистрироваться в DeepL API"
@@ -84,7 +84,7 @@
     "message": "DeepL API Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Ключ авторизации"
+    "message": "Authentication key"
   },
   "deeplAuthKeyCaptionLabel": {
     "message": "Введите ключ аутентификации для DeepL API."

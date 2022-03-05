@@ -483,10 +483,10 @@
     "message": "齊切瓦語"
   },
   "lang_zh_CN": {
-    "message": "Chinese (Simplified)"
+    "message": "中文 (簡體)"
   },
   "lang_zh_TW": {
-    "message": "Chinese (Traditional)"
+    "message": "中文 (繁體)"
   },
   "lang_co": {
     "message": "科西嘉語"
@@ -768,16 +768,16 @@
     "message": "祖魯語"
   },
   "lang_en_US": {
-    "message": "English (American)"
+    "message": "英語 (美國)"
   },
   "lang_en_GB": {
-    "message": "English (British)"
+    "message": "英語 (英國)"
   },
   "lang_pt_PT": {
     "message": "葡萄牙語"
   },
   "lang_pt_BR": {
-    "message": "Portuguese (Brazilian)"
+    "message": "葡萄牙語 (巴西)"
   },
   "lang_zh": {
     "message": "中文"

@@ -78,7 +78,7 @@
     "message": "Select the DeepL API plan for which you registered."
   },
   "deeplFreeLabel": {
-    "message": "DeepL API Free"
+    "message": "Darmowe API DeepL"
   },
   "deeplProLabel": {
     "message": "DeepL API Pro"
@@ -462,7 +462,7 @@
     "message": "Baskijski"
   },
   "lang_be": {
-    "message": "Belarusian"
+    "message": "białoruski"
   },
   "lang_bn": {
     "message": "Bengalijski"
@@ -480,13 +480,13 @@
     "message": "Cebuański"
   },
   "lang_ny": {
-    "message": "Chewa"
+    "message": "Język czewa"
   },
   "lang_zh_CN": {
-    "message": "Chinese (Simplified)"
+    "message": "chiński (uproszczony)"
   },
   "lang_zh_TW": {
-    "message": "Chinese (Traditional)"
+    "message": "chiński (tradycyjny)"
   },
   "lang_co": {
     "message": "Korsykański"
@@ -507,7 +507,7 @@
     "message": "Angielski"
   },
   "lang_eo": {
-    "message": "Esperanto"
+    "message": "esperanto"
   },
   "lang_et": {
     "message": "Estoński"
@@ -669,7 +669,7 @@
     "message": "Rumuński"
   },
   "lang_ru": {
-    "message": "Russian"
+    "message": "rosyjski"
   },
   "lang_sm": {
     "message": "Samoan"

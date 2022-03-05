@@ -54,7 +54,7 @@
     "message": "Główne"
   },
   "translationApiLabel": {
-    "message": "Translation engine"
+    "message": "Silnik tłumaczeń"
   },
   "googleApiLabel": {
     "message": "Interfejs API Tłumacza Google"
@@ -63,7 +63,7 @@
     "message": "Używaj interfejsu API Tłumacza Google. Rejestracja nie jest wymagana."
   },
   "deeplApiLabel": {
-    "message": "DeepL API"
+    "message": "Interfejs API DeepL"
   },
   "deeplApiCaptionLabel": {
     "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authentication key."

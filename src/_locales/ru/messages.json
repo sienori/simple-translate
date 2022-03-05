@@ -483,10 +483,10 @@
     "message": "Чева"
   },
   "lang_zh_CN": {
-    "message": "Chinese (Simplified)"
+    "message": "Китайский (упрощенный)"
   },
   "lang_zh_TW": {
-    "message": "Chinese (Traditional)"
+    "message": "Китайский (Традиционный)"
   },
   "lang_co": {
     "message": "Корсиканский"
@@ -768,16 +768,16 @@
     "message": "Зулу"
   },
   "lang_en_US": {
-    "message": "English (American)"
+    "message": "Английский (американский)"
   },
   "lang_en_GB": {
-    "message": "English (British)"
+    "message": "Английский (британский)"
   },
   "lang_pt_PT": {
     "message": "Португальский"
   },
   "lang_pt_BR": {
-    "message": "Portuguese (Brazilian)"
+    "message": "Португальский (бразильский)"
   },
   "lang_zh": {
     "message": "Китайский"

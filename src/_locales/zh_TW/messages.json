@@ -66,7 +66,7 @@
     "message": "DeepL API"
   },
   "deeplApiCaptionLabel": {
-    "message": "使用 DeepL API。您必須註冊 DeepL API Free 或 DeepL API Pro 以擷取授權金鑰。"
+    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authentication key."
   },
   "howToUseDeeplLabel": {
     "message": "如何註冊 DeepL API"
@@ -84,7 +84,7 @@
     "message": "DeepL API Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "授權金鑰"
+    "message": "Authentication key"
   },
   "deeplAuthKeyCaptionLabel": {
     "message": "輸入 DeepL API 的授權金鑰。"

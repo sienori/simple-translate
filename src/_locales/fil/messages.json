@@ -482,11 +482,11 @@
   "lang_ny": {
     "message": "Chewa"
   },
-  "lang_zh-CN": {
-    "message": "Chinese (PRC)"
+  "lang_zh_CN": {
+    "message": "Chinese (Simplified)"
   },
-  "lang_zh-TW": {
-    "message": "Chinese (Taiwan)"
+  "lang_zh_TW": {
+    "message": "Chinese (Traditional)"
   },
   "lang_co": {
     "message": "Corsican"
@@ -767,16 +767,16 @@
   "lang_zu": {
     "message": "Zulu"
   },
-  "lang_en-US": {
+  "lang_en_US": {
     "message": "English (American)"
   },
-  "lang_en-GB": {
+  "lang_en_GB": {
     "message": "English (British)"
   },
-  "lang_pt-PT": {
+  "lang_pt_PT": {
     "message": "Portuges"
   },
-  "lang_pt-BR": {
+  "lang_pt_BR": {
     "message": "Portuguese (Brazilian)"
   },
   "lang_zh": {

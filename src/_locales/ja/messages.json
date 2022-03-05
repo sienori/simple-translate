@@ -482,10 +482,10 @@
   "lang_ny": {
     "message": "チェワ語"
   },
-  "lang_zh-CN": {
+  "lang_zh_CN": {
     "message": "中国語 (簡体)"
   },
-  "lang_zh-TW": {
+  "lang_zh_TW": {
     "message": "中国語 (繁体)"
   },
   "lang_co": {
@@ -767,16 +767,16 @@
   "lang_zu": {
     "message": "ズールー語"
   },
-  "lang_en-US": {
+  "lang_en_US": {
     "message": "英語 (アメリカ)"
   },
-  "lang_en-GB": {
+  "lang_en_GB": {
     "message": "英語 (イギリス)"
   },
-  "lang_pt-PT": {
+  "lang_pt_PT": {
     "message": "ポルトガル語"
   },
-  "lang_pt-BR": {
+  "lang_pt_BR": {
     "message": "ポルトガル語 (ブラジル)"
   },
   "lang_zh": {

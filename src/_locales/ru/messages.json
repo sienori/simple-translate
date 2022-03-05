@@ -482,10 +482,10 @@
   "lang_ny": {
     "message": "Чева"
   },
-  "lang_zh-CN": {
+  "lang_zh_CN": {
     "message": "Китайский (упрощенный)"
   },
-  "lang_zh-TW": {
+  "lang_zh_TW": {
     "message": "Китайский (Традиционный)"
   },
   "lang_co": {
@@ -767,16 +767,16 @@
   "lang_zu": {
     "message": "Зулу"
   },
-  "lang_en-US": {
+  "lang_en_US": {
     "message": "Английский (американский)"
   },
-  "lang_en-GB": {
+  "lang_en_GB": {
     "message": "Английский (британский)"
   },
-  "lang_pt-PT": {
+  "lang_pt_PT": {
     "message": "Португальский"
   },
-  "lang_pt-BR": {
+  "lang_pt_BR": {
     "message": "Португальский (бразильский)"
   },
   "lang_zh": {

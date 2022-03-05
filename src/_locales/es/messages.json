@@ -482,11 +482,11 @@
   "lang_ny": {
     "message": "chichewa"
   },
-  "lang_zh-CN": {
-    "message": "chino (simplificado)"
+  "lang_zh_CN": {
+    "message": "Chinese (Simplified)"
   },
-  "lang_zh-TW": {
-    "message": "chino (tradicional)"
+  "lang_zh_TW": {
+    "message": "Chinese (Traditional)"
   },
   "lang_co": {
     "message": "corso"
@@ -767,17 +767,17 @@
   "lang_zu": {
     "message": "zulú"
   },
-  "lang_en-US": {
-    "message": "inglés (americano)"
+  "lang_en_US": {
+    "message": "English (American)"
   },
-  "lang_en-GB": {
-    "message": "inglés (británico)"
+  "lang_en_GB": {
+    "message": "English (British)"
   },
-  "lang_pt-PT": {
+  "lang_pt_PT": {
     "message": "portugués"
   },
-  "lang_pt-BR": {
-    "message": "portugués (brasileño)"
+  "lang_pt_BR": {
+    "message": "Portuguese (Brazilian)"
   },
   "lang_zh": {
     "message": "chino"

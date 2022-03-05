@@ -66,7 +66,7 @@
     "message": "DeepL API"
   },
   "deeplApiCaptionLabel": {
-    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authentication key."
+    "message": "DeepL API를 사용합니다. 인증 키를 얻으려면 DeepL API Free 또는 DeepL API Pro에 등록해야 합니다."
   },
   "howToUseDeeplLabel": {
     "message": "DeepL API 등록 방법"
@@ -84,7 +84,7 @@
     "message": "DeepL API Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Authentication key"
+    "message": "인증 키"
   },
   "deeplAuthKeyCaptionLabel": {
     "message": "DeepL API 인증 키를 입력하세요."

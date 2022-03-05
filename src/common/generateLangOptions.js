@@ -8,7 +8,7 @@ export default (translationApi) => {
   const langList = translationApi === "google" ? langListGoogle : langListDeepl;
   const langOptions = langList.map(lang => ({
     value: lang,
-    name: browser.i18n.getMessage("lang_" + lang)
+    name: browser.i18n.getMessage("lang_" + lang.replace("-", "_"))
   }));
   langOptions.sort(alphabeticallySort);
   return langOptions;

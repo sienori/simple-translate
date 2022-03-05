@@ -27,7 +27,7 @@
     "message": "Otwórz w Tłumaczu Google"
   },
   "openInDeeplLabel": {
-    "message": "Open in DeepL Translator"
+    "message": "Otwórz w tłumaczu DeepL"
   },
   "copyLabel": {
     "message": "Skopiuj"
@@ -57,10 +57,10 @@
     "message": "Translation engine"
   },
   "googleApiLabel": {
-    "message": "Google translate API"
+    "message": "Interfejs API Tłumacza Google"
   },
   "googleApiCaptionLabel": {
-    "message": "Use Google Translate API. No registration is required."
+    "message": "Używaj interfejsu API Tłumacza Google. Rejestracja nie jest wymagana."
   },
   "deeplApiLabel": {
     "message": "DeepL API"
@@ -780,6 +780,6 @@
     "message": "Portuguese (Brazilian)"
   },
   "lang_zh": {
-    "message": "Chinese"
+    "message": "chiński"
   }
 }

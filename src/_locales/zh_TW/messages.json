@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "快速翻譯在網頁上選定或輸入的文字。支援 Google 翻譯與 DeepL API。"
+    "message": "快速翻譯在網頁上選取或輸入的文字。支援 Google 翻譯與 DeepL API。"
   },
   "donateWithPaypalLabel": {
     "message": "透過 PayPal 贊助"
@@ -66,7 +66,7 @@
     "message": "DeepL API"
   },
   "deeplApiCaptionLabel": {
-    "message": "使用 DeepL API。您必須註冊 DeepL API Free 或 DeepL API Pro 以擷取授權金鑰。"
+    "message": "使用 DeepL API。您必須註冊 DeepL API Free 或 DeepL API Pro 以取得授權金鑰。"
   },
   "howToUseDeeplLabel": {
     "message": "如何註冊 DeepL API"
@@ -87,7 +87,7 @@
     "message": "授權金鑰"
   },
   "deeplAuthKeyCaptionLabel": {
-    "message": "輸入 DeepL API 的授權金鑰。"
+    "message": "輸入 DeepL API 授權金鑰。"
   },
   "targetLangCaptionLabel": {
     "message": "選擇預設的目標語言。"
@@ -741,31 +741,31 @@
     "message": "烏克蘭文"
   },
   "lang_ur": {
-    "message": "烏爾都語"
+    "message": "烏都文"
   },
   "lang_ug": {
-    "message": "維吾爾語"
+    "message": "維吾爾文"
   },
   "lang_uz": {
-    "message": "烏茲別克語"
+    "message": "烏茲別克文"
   },
   "lang_vi": {
-    "message": "越南語"
+    "message": "越南文"
   },
   "lang_cy": {
-    "message": "威爾斯語"
+    "message": "威爾斯文"
   },
   "lang_xh": {
-    "message": "科薩語"
+    "message": "科薩文"
   },
   "lang_yi": {
-    "message": "意第緒語"
+    "message": "意第緒文"
   },
   "lang_yo": {
-    "message": "約魯巴語"
+    "message": "約魯巴文"
   },
   "lang_zu": {
-    "message": "祖魯語"
+    "message": "祖魯文"
   },
   "lang_en_US": {
     "message": "英文 (美國)"

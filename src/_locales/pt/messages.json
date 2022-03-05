@@ -84,7 +84,7 @@
     "message": "DeepL API Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Chave de autorização"
+    "message": "Chave de autenticação"
   },
   "deeplAuthKeyCaptionLabel": {
     "message": "Insira a chave de autenticação para a DeepL API."

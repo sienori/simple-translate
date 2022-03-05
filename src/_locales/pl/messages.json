@@ -480,7 +480,7 @@
     "message": "Cebuański"
   },
   "lang_ny": {
-    "message": "Język czewa"
+    "message": "czewa"
   },
   "lang_zh_CN": {
     "message": "chiński (uproszczony)"
@@ -519,7 +519,7 @@
     "message": "Francuski"
   },
   "lang_fy": {
-    "message": "Frisian"
+    "message": "fryzyjski"
   },
   "lang_gl": {
     "message": "Galicyjski"
@@ -540,7 +540,7 @@
     "message": "Haitański"
   },
   "lang_ha": {
-    "message": "Hausa"
+    "message": "hausa"
   },
   "lang_haw": {
     "message": "Hawajski"
@@ -558,7 +558,7 @@
     "message": "Islandzki"
   },
   "lang_ig": {
-    "message": "Igbo"
+    "message": "igbo"
   },
   "lang_id": {
     "message": "Indonezyjski"
@@ -576,10 +576,10 @@
     "message": "Javoński"
   },
   "lang_kn": {
-    "message": "Kannada"
+    "message": "kannada"
   },
   "lang_kk": {
-    "message": "Kazakh"
+    "message": "kazachski"
   },
   "lang_km": {
     "message": "Khmer"
@@ -762,22 +762,22 @@
     "message": "Yiddish"
   },
   "lang_yo": {
-    "message": "Yoruba"
+    "message": "joruba"
   },
   "lang_zu": {
-    "message": "Zulu"
+    "message": "zulu"
   },
   "lang_en_US": {
-    "message": "English (American)"
+    "message": "angielski (amerykański)"
   },
   "lang_en_GB": {
-    "message": "English (British)"
+    "message": "angielski (brytyjski)"
   },
   "lang_pt_PT": {
     "message": "Portugalski"
   },
   "lang_pt_BR": {
-    "message": "Portuguese (Brazilian)"
+    "message": "portugalski (brazylijski)"
   },
   "lang_zh": {
     "message": "chiński"

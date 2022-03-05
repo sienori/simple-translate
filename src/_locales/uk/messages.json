@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
+    "message": "Швидко перекладайте виділений або введений текст на вебсторінках. Підтримує Google Перекладач і DeepL API."
   },
   "donateWithPaypalLabel": {
     "message": "Офірувати через PayPal"
@@ -72,10 +72,10 @@
     "message": "Як зареєструватися на DeepL API"
   },
   "deeplPlanLabel": {
-    "message": "DeepL API plan"
+    "message": "План DeepL API"
   },
   "deeplPlanCaptionLabel": {
-    "message": "Select the DeepL API plan for which you registered."
+    "message": "Виберіть план DeepL API, за яким Ви зареєструвалися."
   },
   "deeplFreeLabel": {
     "message": "DeepL API Free"
@@ -87,7 +87,7 @@
     "message": "Ключ автентифікації"
   },
   "deeplAuthKeyCaptionLabel": {
-    "message": "Enter the authentication key for the DeepL API."
+    "message": "Введіть ключ автентифікації для API DeepL."
   },
   "targetLangCaptionLabel": {
     "message": "Оберіть мову на яку перекладається."
@@ -423,7 +423,7 @@
     "message": "Помилка: Ліміт використання сервісу вичерпано. Зачекайте трохи і повторіть спробу."
   },
   "deeplAuthError": {
-    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
+    "message": "Помилка: Не вдала автентифікація DeepL API. Будь ласка, вкажіть правильно ключ автентифікації та план на сторінці налаштувань."
   },
   "unknownError": {
     "message": "Помилка: Невідома помилка"
@@ -648,7 +648,7 @@
     "message": "Норвезька"
   },
   "lang_or": {
-    "message": "Odia (Oriya)"
+    "message": "Орійська (Орія)"
   },
   "lang_fa": {
     "message": "Перська"

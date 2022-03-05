@@ -1,3 +1,4 @@
+import browser from "webextension-polyfill";
 import log from "loglevel";
 import axios from "axios";
 import { getSettings } from "src/settings/settings";

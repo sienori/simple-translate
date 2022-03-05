@@ -483,10 +483,10 @@
     "message": "チェワ語"
   },
   "lang_zh_CN": {
-    "message": "Chinese (Simplified)"
+    "message": "中国語 (簡体)"
   },
   "lang_zh_TW": {
-    "message": "Chinese (Traditional)"
+    "message": "中国語 (繁体)"
   },
   "lang_co": {
     "message": "コルシカ語"
@@ -768,16 +768,16 @@
     "message": "ズールー語"
   },
   "lang_en_US": {
-    "message": "English (American)"
+    "message": "英語 (アメリカ)"
   },
   "lang_en_GB": {
-    "message": "English (British)"
+    "message": "英語 (イギリス)"
   },
   "lang_pt_PT": {
     "message": "ポルトガル語"
   },
   "lang_pt_BR": {
-    "message": "Portuguese (Brazilian)"
+    "message": "ポルトガル語 (ブラジル)"
   },
   "lang_zh": {
     "message": "中国語"

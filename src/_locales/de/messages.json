@@ -57,10 +57,10 @@
     "message": "Translation engine"
   },
   "googleApiLabel": {
-    "message": "Google translate API"
+    "message": "Google Translate API"
   },
   "googleApiCaptionLabel": {
-    "message": "Use Google Translate API. No registration is required."
+    "message": "Google Translate API verwenden. Keine Registrierung erforderlich."
   },
   "deeplApiLabel": {
     "message": "DeepL API"
@@ -483,10 +483,10 @@
     "message": "Nyanja"
   },
   "lang_zh_CN": {
-    "message": "Chinese (Simplified)"
+    "message": "Chinesisch (vereinfacht)"
   },
   "lang_zh_TW": {
-    "message": "Chinese (Traditional)"
+    "message": "Chinesisch (traditionell)"
   },
   "lang_co": {
     "message": "Korsisch"
@@ -771,15 +771,15 @@
     "message": "English (American)"
   },
   "lang_en_GB": {
-    "message": "English (British)"
+    "message": "Englisch (Großbritannien)"
   },
   "lang_pt_PT": {
     "message": "Portugiesisch"
   },
   "lang_pt_BR": {
-    "message": "Portuguese (Brazilian)"
+    "message": "Portugiesisch (Brasilianisch)"
   },
   "lang_zh": {
-    "message": "Chinese"
+    "message": "Chinesisch"
   }
 }

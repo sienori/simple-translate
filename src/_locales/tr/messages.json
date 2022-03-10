@@ -84,7 +84,7 @@
     "message": "DeepL API Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Authentication key"
+    "message": "Doğrulama anahtarı"
   },
   "deeplAuthKeyCaptionLabel": {
     "message": "DeepL API için kimlik doğrulama anahtarını girin."
@@ -423,7 +423,7 @@
     "message": "Hata: Servis kullanım limitine ulaşıldı. Lütfen biraz bekleyin ve tekrar deneyin."
   },
   "deeplAuthError": {
-    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
+    "message": "Hata: DeepL API'nin kimlik doğrulaması başarısız oldu. Lütfen kimlik doğrulama anahtarını ayarlar altında doğru şekilde ayarlayıp planlayın."
   },
   "unknownError": {
     "message": "Hata: Bilinmeyen hata"

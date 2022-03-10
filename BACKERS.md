@@ -46,7 +46,6 @@ Thank you to the awesome backers who supported Simple Translate!
 - Sebastian Fohler
 - [Olzhas Suleimen](https://github.com/ykmnkmi)
 - Allen.YL
-- Vladimir Chupin
 - Adam Ralph
 - Kamran Razvan ([Click & Pledge](https://clickandpledge.com/))
 - Mitrakov Artem

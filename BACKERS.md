@@ -52,3 +52,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - Mitrakov Artem
 - kikuchi.takanori
 - yh
+- Vladimir Chupin

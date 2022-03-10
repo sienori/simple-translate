@@ -87,7 +87,7 @@
     "message": "Authentication key"
   },
   "deeplAuthKeyCaptionLabel": {
-    "message": "Enter the authentication key for the DeepL API."
+    "message": "DeepL API için kimlik doğrulama anahtarını girin."
   },
   "targetLangCaptionLabel": {
     "message": "Varsayılan hedef dilini seçin."
@@ -648,7 +648,7 @@
     "message": "Norveççe"
   },
   "lang_or": {
-    "message": "Odia (Oriya)"
+    "message": "Oriya Dili"
   },
   "lang_fa": {
     "message": "Farsça"
@@ -681,7 +681,7 @@
     "message": "Sırpça"
   },
   "lang_st": {
-    "message": "Sesotho"
+    "message": "Sotho Dili"
   },
   "lang_sn": {
     "message": "Shona Dili"
@@ -723,7 +723,7 @@
     "message": "Tamilce"
   },
   "lang_tt": {
-    "message": "Tatar"
+    "message": "Tatarca"
   },
   "lang_te": {
     "message": "Teluguca"
@@ -735,7 +735,7 @@
     "message": "Türkçe"
   },
   "lang_tk": {
-    "message": "Turkmen"
+    "message": "Türkmence"
   },
   "lang_uk": {
     "message": "Ukraynaca"
@@ -744,7 +744,7 @@
     "message": "Urduca"
   },
   "lang_ug": {
-    "message": "Uyghur"
+    "message": "Uygurca"
   },
   "lang_uz": {
     "message": "Özbekçe"
@@ -780,6 +780,6 @@
     "message": "Portekizce (Brezilya)"
   },
   "lang_zh": {
-    "message": "Chinese"
+    "message": "Çince"
   }
 }

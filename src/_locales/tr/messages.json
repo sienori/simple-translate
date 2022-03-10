@@ -69,16 +69,16 @@
     "message": "DeepL API'sini kullanın. Kimlik doğrulama anahtarı almak için DeepL API Free veya DeepL API Pro'ya kaydolmalısınız."
   },
   "howToUseDeeplLabel": {
-    "message": "How to register DeepL API"
+    "message": "DeepL API'ye nasıl üye olunur"
   },
   "deeplPlanLabel": {
-    "message": "DeepL API plan"
+    "message": "DeepL API hizmet planı"
   },
   "deeplPlanCaptionLabel": {
-    "message": "Select the DeepL API plan for which you registered."
+    "message": "Kaydolduğunuz DeepL API planını seçin."
   },
   "deeplFreeLabel": {
-    "message": "DeepL API Free"
+    "message": "DeepL API Ücretsiz"
   },
   "deeplProLabel": {
     "message": "DeepL API Pro"
@@ -507,7 +507,7 @@
     "message": "İngilizce"
   },
   "lang_eo": {
-    "message": "Esperanto"
+    "message": "Esperanto Dili"
   },
   "lang_et": {
     "message": "Estonca"
@@ -585,7 +585,7 @@
     "message": "Kmerce"
   },
   "lang_rw": {
-    "message": "Kinyarwanda"
+    "message": "Kinyarvanda Dili"
   },
   "lang_ky": {
     "message": "Kırgızca"
@@ -630,7 +630,7 @@
     "message": "Maorice"
   },
   "lang_mr": {
-    "message": "Marathi"
+    "message": "Marathi Dili"
   },
   "lang_mn": {
     "message": "Moğolca"

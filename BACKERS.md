@@ -52,3 +52,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - kikuchi.takanori
 - yh
 - Vladimir Chupin
+- john phillips

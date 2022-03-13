@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
+    "message": "Traduzir rapidamente texto selecionado ou digitado em páginas da web. Suporta Google Translate e DeepL API."
   },
   "donateWithPaypalLabel": {
     "message": "Doar com PayPal"
@@ -27,7 +27,7 @@
     "message": "Abrir no Google Tradutor"
   },
   "openInDeeplLabel": {
-    "message": "Open in DeepL Translator"
+    "message": "Abrir no Tradutor DeepL"
   },
   "copyLabel": {
     "message": "Copiar"
@@ -54,10 +54,10 @@
     "message": "Geral"
   },
   "translationApiLabel": {
-    "message": "Translation engine"
+    "message": "Mecanismo de tradução"
   },
   "googleApiLabel": {
-    "message": "Google translate API"
+    "message": "Tradutor Google API"
   },
   "googleApiCaptionLabel": {
     "message": "Use Google Translate API. No registration is required."
@@ -423,7 +423,7 @@
     "message": "Erro: Limite de uso do serviço atingido. Aguarde um pouco e tente outra vez."
   },
   "deeplAuthError": {
-    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
+    "message": "Erro: Autenticação de API DeepL falhou. Por favor, defina a chave de autenticação e o plano corretamente na página de configurações."
   },
   "unknownError": {
     "message": "Erro: Erro desconhecido"
@@ -771,15 +771,15 @@
     "message": "Inglês (Estados Unidos)"
   },
   "lang_en_GB": {
-    "message": "English (British)"
+    "message": "Inglês (Britânico)"
   },
   "lang_pt_PT": {
     "message": "Português"
   },
   "lang_pt_BR": {
-    "message": "Portuguese (Brazilian)"
+    "message": "Português (Brasileiro)"
   },
   "lang_zh": {
-    "message": "Chinese"
+    "message": "Chinês"
   }
 }

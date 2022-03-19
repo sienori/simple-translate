@@ -72,7 +72,7 @@
     "message": "How to register DeepL API"
   },
   "deeplPlanLabel": {
-    "message": "DeepL API plan"
+    "message": "DeepL API 订阅计划"
   },
   "deeplPlanCaptionLabel": {
     "message": "Select the DeepL API plan for which you registered."
@@ -84,10 +84,10 @@
     "message": "DeepL API Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Authentication key"
+    "message": "认证密钥"
   },
   "deeplAuthKeyCaptionLabel": {
-    "message": "Enter the authentication key for the DeepL API."
+    "message": "请输入 DeepL API 的认证密钥。"
   },
   "targetLangCaptionLabel": {
     "message": "选择默认的目标语言"
@@ -144,16 +144,16 @@
     "message": "在 <code> 标签中禁用翻译"
   },
   "isDisabledInCodeElementCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in code tag."
+    "message": "在 <code> 标签中选择文本时，不显示翻译按钮或面板。"
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Translate on modifier key pressed"
+    "message": "按下修饰键时进行翻译"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Only display translation on specified modifier key pressed."
+    "message": "仅在按住指定的修饰键时显示翻译。"
   },
   "modifierKeyLabel": {
-    "message": "Modifier Key"
+    "message": "修饰键"
   },
   "shiftLabel": {
     "message": "Shift"
@@ -189,10 +189,10 @@
     "message": "选择第二种目标语言。"
   },
   "ignoredDocumentLangLabel": {
-    "message": "Disable translation by lang attribute"
+    "message": "元素带有 lang 属性时禁用翻译"
   },
   "ignoredDocumentLangCaptionLabel": {
-    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
+    "message": "HTML 元素的 lang 属性的值与语言列表中的某个标签匹配时，禁用翻译。请输入用逗号分隔的语言标签。"
   },
   "waitTimeLabel": {
     "message": "翻译等待时间"
@@ -648,7 +648,7 @@
     "message": "挪威语"
   },
   "lang_or": {
-    "message": "奥里亚语（奥里亚文）"
+    "message": "奥迪亚语（奥里亚文）"
   },
   "lang_fa": {
     "message": "波斯语"

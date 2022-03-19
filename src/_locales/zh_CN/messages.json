@@ -423,7 +423,7 @@
     "message": "错误：已达服务使用限制。请稍后再试。"
   },
   "deeplAuthError": {
-    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
+    "message": "错误：DeepL API 认证失败。请在设置页面检查认证密钥和订阅计划是否输入和设置正确。"
   },
   "unknownError": {
     "message": "错误：未知错误"

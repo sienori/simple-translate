@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
+    "message": "Ausgewählten oder eingegebenen Text schnell auf Webseiten übersetzen. Unterstützt Google Translate und DeepL API."
   },
   "donateWithPaypalLabel": {
     "message": "Spenden via PayPal"
@@ -27,7 +27,7 @@
     "message": "Öffne in Google Translate"
   },
   "openInDeeplLabel": {
-    "message": "Open in DeepL Translator"
+    "message": "In DeepL-Übersetzer öffnen"
   },
   "copyLabel": {
     "message": "Kopieren"
@@ -54,7 +54,7 @@
     "message": "Allgemein"
   },
   "translationApiLabel": {
-    "message": "Translation engine"
+    "message": "Übersetzungs-Engine"
   },
   "googleApiLabel": {
     "message": "Google Translate API"
@@ -66,16 +66,16 @@
     "message": "DeepL API"
   },
   "deeplApiCaptionLabel": {
-    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authentication key."
+    "message": "Verwenden Sie die DeepL API. Sie müssen sich bei DeepL API Free oder DeepL API Pro registrieren, um einen Authentifizierungsschlüssel zu erhalten."
   },
   "howToUseDeeplLabel": {
-    "message": "How to register DeepL API"
+    "message": "Wie man die DeepL API registriert"
   },
   "deeplPlanLabel": {
-    "message": "DeepL API plan"
+    "message": "DeepL API Plan"
   },
   "deeplPlanCaptionLabel": {
-    "message": "Select the DeepL API plan for which you registered."
+    "message": "Wählen Sie den DeepL API Plan aus, für den Sie sich registriert haben."
   },
   "deeplFreeLabel": {
     "message": "DeepL API Free"
@@ -84,10 +84,10 @@
     "message": "DeepL API Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Authentication key"
+    "message": "Authentifizierungsschlüssel"
   },
   "deeplAuthKeyCaptionLabel": {
-    "message": "Enter the authentication key for the DeepL API."
+    "message": "Geben Sie den Authentifizierungsschlüssel für die DeepL-API ein."
   },
   "targetLangCaptionLabel": {
     "message": "Standardzielsprache wählen."
@@ -423,7 +423,7 @@
     "message": "Fehler: Service-Nutzungslimit erreicht. Bitte warten Sie einen Moment und versuchen Sie es erneut."
   },
   "deeplAuthError": {
-    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
+    "message": "Fehler: Authentifizierung der DeepL-API fehlgeschlagen. Bitte erstellen Sie den Authentifizierungsschlüssel korrekt auf der Einstellungsseite."
   },
   "unknownError": {
     "message": "Fehler: Unbekannter Fehler"
@@ -582,7 +582,7 @@
     "message": "Kasachisch"
   },
   "lang_km": {
-    "message": "Khmer"
+    "message": "Khmerisch"
   },
   "lang_rw": {
     "message": "Kinyarwanda"
@@ -699,7 +699,7 @@
     "message": "Slowenisch"
   },
   "lang_so": {
-    "message": "Somali"
+    "message": "Somalisch"
   },
   "lang_es": {
     "message": "Spanisch"
@@ -708,7 +708,7 @@
     "message": "Sundanesisch"
   },
   "lang_sw": {
-    "message": "Swahili"
+    "message": "Suaheli"
   },
   "lang_sv": {
     "message": "Schwedisch"
@@ -720,13 +720,13 @@
     "message": "Tadschikisch"
   },
   "lang_ta": {
-    "message": "Tamil"
+    "message": "Tamilisch"
   },
   "lang_tt": {
-    "message": "Tatar"
+    "message": "Tatarisch"
   },
   "lang_te": {
-    "message": "Telugu"
+    "message": "Teluguisisch"
   },
   "lang_th": {
     "message": "Thailändisch"
@@ -735,7 +735,7 @@
     "message": "Türkisch"
   },
   "lang_tk": {
-    "message": "Turkmen"
+    "message": "Turkmenisch"
   },
   "lang_uk": {
     "message": "Ukrainisch"
@@ -744,7 +744,7 @@
     "message": "Urdu"
   },
   "lang_ug": {
-    "message": "Uyghur"
+    "message": "Uigurisch"
   },
   "lang_uz": {
     "message": "Usbekisch"
@@ -768,7 +768,7 @@
     "message": "Zulu"
   },
   "lang_en_US": {
-    "message": "English (American)"
+    "message": "Englisch (USA)"
   },
   "lang_en_GB": {
     "message": "Englisch (Großbritannien)"

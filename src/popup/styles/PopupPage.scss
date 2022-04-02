@@ -11,6 +11,10 @@ body {
   overflow: hidden;
   background-color: var(--main-bg);
 
+  .popup-page-rtl-language{
+    direction: rtl;
+  }
+
   #root {
     height: 100%;
   }

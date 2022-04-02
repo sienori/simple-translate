@@ -30,6 +30,9 @@ body {
   color: var(--main-text);
   line-height: 1.5;
   margin: 20px 40px;
+  &.rtl-language{
+    direction: rtl;
+  }
 }
 
 ::-moz-selection {

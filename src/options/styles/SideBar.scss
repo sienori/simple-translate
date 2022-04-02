@@ -2,7 +2,7 @@
   position: fixed;
   font-size: 17px;
   font-weight: 400;
-  text-align: right;
+  text-align: end;
   -moz-user-select: none;
   -webkit-user-select: none;
   flex-shrink: 0;
@@ -16,10 +16,10 @@
     .logo {
       height: 64px;
       width: 64px;
-      margin-right: 5px;
+      margin-inline-end: 5px;
     }
     .logoTitle {
-      text-align: left;
+      text-align: start;
       font-size: 14px;
       font-weight: 300;
       color: var(--sub-text);

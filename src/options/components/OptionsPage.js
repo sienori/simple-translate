@@ -17,12 +17,16 @@ const setupTheme = async () => {
   });
 };
 
+const UILanguage =  browser.i18n.getUILanguage()
+const rtlLanguage = ['he', 'ar'].includes(UILanguage)
+const optionsPageClassName = 'optionsPage' + (rtlLanguage ? ' rtl-language' : '')
+
 export default () => {
   setupTheme();
   return (
     <HashRouter hashType="noslash">
       <ScrollToTop>
-        <div className="optionsPage">
+        <div className={optionsPageClassName}>
           <SideBar />
           <ContentsArea />
         </div>

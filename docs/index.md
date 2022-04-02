@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/sienori/simple-translate/master/src/icons/64.png" align="left" height="64px" style="margin-right:10px">
+<img src="https://raw.githubusercontent.com/sienori/simple-translate/master/src/icons/64.png" align="left" height="64px" style="margin-inline-end:10px">
 
 # Simple Translate
 

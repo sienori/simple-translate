@@ -18,7 +18,7 @@
     "message": "בטל תרגום בדף זה"
   },
   "initialTextArea": {
-    "message": "הכנס טקסט"
+    "message": "הזן טקסט"
   },
   "showLink": {
     "message": "תרגם דף זה"
@@ -39,7 +39,7 @@
     "message": "תקשיב"
   },
   "targetLangLabel": {
-    "message": "שפת מטרה ברירת מחדל"
+    "message": "תרגם ל"
   },
   "allLangLabel": {
     "message": "כל השפות"
@@ -51,7 +51,7 @@
     "message": "הגדרות"
   },
   "generalLabel": {
-    "message": "ראשי"
+    "message": "כללי"
   },
   "translationApiLabel": {
     "message": "מנוע תרגום"

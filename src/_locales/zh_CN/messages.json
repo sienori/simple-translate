@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
+    "message": "在网页上快速翻译选定或输入的文本。支持 Google 翻译和DeepL API。"
   },
   "donateWithPaypalLabel": {
     "message": "使用 PayPal 捐赠"
@@ -27,7 +27,7 @@
     "message": "在 Google 翻译中打开"
   },
   "openInDeeplLabel": {
-    "message": "Open in DeepL Translator"
+    "message": "在 DeepL 翻译器中打开"
   },
   "copyLabel": {
     "message": "复制"
@@ -42,10 +42,10 @@
     "message": "目标语言"
   },
   "allLangLabel": {
-    "message": "All languages"
+    "message": "所有语言"
   },
   "recentLangLabel": {
-    "message": "Recent languages"
+    "message": "最近的语言"
   },
   "settingsLabel": {
     "message": "设置"
@@ -54,13 +54,13 @@
     "message": "常规"
   },
   "translationApiLabel": {
-    "message": "Translation engine"
+    "message": "翻译引擎"
   },
   "googleApiLabel": {
-    "message": "Google translate API"
+    "message": "Google 翻译 API"
   },
   "googleApiCaptionLabel": {
-    "message": "Use Google Translate API. No registration is required."
+    "message": "使用 Google 翻译 API。无需注册。"
   },
   "deeplApiLabel": {
     "message": "DeepL API"
@@ -72,7 +72,7 @@
     "message": "How to register DeepL API"
   },
   "deeplPlanLabel": {
-    "message": "DeepL API plan"
+    "message": "DeepL API 订阅计划"
   },
   "deeplPlanCaptionLabel": {
     "message": "Select the DeepL API plan for which you registered."
@@ -84,10 +84,10 @@
     "message": "DeepL API Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Authentication key"
+    "message": "认证密钥"
   },
   "deeplAuthKeyCaptionLabel": {
-    "message": "Enter the authentication key for the DeepL API."
+    "message": "请输入 DeepL API 的认证密钥。"
   },
   "targetLangCaptionLabel": {
     "message": "选择默认的目标语言"
@@ -132,7 +132,7 @@
     "message": "检测所选文本的语言，如果与默认目标语言相同，则将其翻译为第二语言。"
   },
   "disableTranslationLabel": {
-    "message": "Disable translation"
+    "message": "禁用翻译"
   },
   "isDisabledInTextFieldsLabel": {
     "message": "禁用文本字段中的翻译"
@@ -141,19 +141,19 @@
     "message": "在文本字段中选择文本时，不显示翻译按钮或面板。"
   },
   "isDisabledInCodeElementLabel": {
-    "message": "Disable translation in code tags"
+    "message": "在 <code> 标签中禁用翻译"
   },
   "isDisabledInCodeElementCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in code tag."
+    "message": "在 <code> 标签中选择文本时，不显示翻译按钮或面板。"
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Translate on modifier key pressed"
+    "message": "按下修饰键时进行翻译"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Only display translation on specified modifier key pressed."
+    "message": "仅在按住指定的修饰键时显示翻译。"
   },
   "modifierKeyLabel": {
-    "message": "Modifier Key"
+    "message": "修饰键"
   },
   "shiftLabel": {
     "message": "Shift"
@@ -189,10 +189,10 @@
     "message": "选择第二种目标语言。"
   },
   "ignoredDocumentLangLabel": {
-    "message": "Disable translation by lang attribute"
+    "message": "元素带有 lang 属性时禁用翻译"
   },
   "ignoredDocumentLangCaptionLabel": {
-    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
+    "message": "HTML 元素的 lang 属性的值与语言列表中的某个标签匹配时，禁用翻译。请输入用逗号分隔的语言标签。"
   },
   "waitTimeLabel": {
     "message": "翻译等待时间"
@@ -216,16 +216,16 @@
     "message": "样式"
   },
   "themeLabel": {
-    "message": "Theme"
+    "message": "主题"
   },
   "themeCaptionLabel": {
-    "message": "Specify the color scheme."
+    "message": "指定配色方案。"
   },
   "lightLabel": {
-    "message": "Light"
+    "message": "浅色"
   },
   "darkLabel": {
-    "message": "Dark"
+    "message": "深色"
   },
   "buttonStyleLabel": {
     "message": "翻译按钮"
@@ -321,22 +321,22 @@
     "message": "启用调试模式后, 日志将输出到调试器。"
   },
   "exportSettingsLabel": {
-    "message": "Export settings"
+    "message": "导出配置"
   },
   "exportSettingsCaptionLabel": {
     "message": "Save the settings as a json file on the computer."
   },
   "exportButtonLabel": {
-    "message": "Export"
+    "message": "导出"
   },
   "importSettingsLabel": {
-    "message": "Import Settings"
+    "message": "导入配置"
   },
   "importSettingsCaptionLabel": {
     "message": "Load the settings file saved on the computer."
   },
   "importButtonLabel": {
-    "message": "Import"
+    "message": "导入"
   },
   "resetSettingsLabel": {
     "message": "重置设置"
@@ -399,7 +399,7 @@
     "message": "amazon.co.jp 电子礼品卡"
   },
   "sponsorsLabel": {
-    "message": "Sponsors"
+    "message": "赞助者"
   },
   "addonPageLabel": {
     "message": "附加组件页面"
@@ -408,7 +408,7 @@
     "message": "拓展页面"
   },
   "privacyPolicyLabel": {
-    "message": "Privacy policy"
+    "message": "隐私政策"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=zh_CN"
@@ -423,7 +423,7 @@
     "message": "错误：已达服务使用限制。请稍后再试。"
   },
   "deeplAuthError": {
-    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
+    "message": "错误：DeepL API 认证失败。请在设置页面检查认证密钥和订阅计划是否输入和设置正确。"
   },
   "unknownError": {
     "message": "错误：未知错误"
@@ -483,10 +483,10 @@
     "message": "齐切瓦语"
   },
   "lang_zh_CN": {
-    "message": "Chinese (Simplified)"
+    "message": "中文（简体）"
   },
   "lang_zh_TW": {
-    "message": "Chinese (Traditional)"
+    "message": "中文（繁体）"
   },
   "lang_co": {
     "message": "科西嘉语"
@@ -585,7 +585,7 @@
     "message": "高棉语"
   },
   "lang_rw": {
-    "message": "Kinyarwanda"
+    "message": "基尼亚卢旺达语"
   },
   "lang_ky": {
     "message": "吉尔吉斯语"
@@ -648,7 +648,7 @@
     "message": "挪威语"
   },
   "lang_or": {
-    "message": "Odia (Oriya)"
+    "message": "奥迪亚语（奥里亚文）"
   },
   "lang_fa": {
     "message": "波斯语"
@@ -681,7 +681,7 @@
     "message": "塞尔维亚语"
   },
   "lang_st": {
-    "message": "Sesotho"
+    "message": "塞索托语"
   },
   "lang_sn": {
     "message": "修纳语"
@@ -723,7 +723,7 @@
     "message": "泰米尔语"
   },
   "lang_tt": {
-    "message": "Tatar"
+    "message": "鞑靼语"
   },
   "lang_te": {
     "message": "泰卢固语"
@@ -735,7 +735,7 @@
     "message": "土耳其语"
   },
   "lang_tk": {
-    "message": "Turkmen"
+    "message": "土库曼语"
   },
   "lang_uk": {
     "message": "乌克兰语"
@@ -744,7 +744,7 @@
     "message": "乌尔都语"
   },
   "lang_ug": {
-    "message": "Uyghur"
+    "message": "维吾尔语"
   },
   "lang_uz": {
     "message": "乌兹别克语"
@@ -768,18 +768,18 @@
     "message": "祖鲁语"
   },
   "lang_en_US": {
-    "message": "English (American)"
+    "message": "英语（美国）"
   },
   "lang_en_GB": {
-    "message": "English (British)"
+    "message": "英语（英国）"
   },
   "lang_pt_PT": {
     "message": "葡萄牙语"
   },
   "lang_pt_BR": {
-    "message": "Portuguese (Brazilian)"
+    "message": "葡萄牙语（巴西）"
   },
   "lang_zh": {
-    "message": "Chinese"
+    "message": "中文"
   }
 }

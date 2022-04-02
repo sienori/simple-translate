@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
+    "message": "آقا ،استاد ،مالک."
   },
   "donateWithPaypalLabel": {
     "message": "پے پال کے ساتھ ادا کریں"
@@ -27,7 +27,7 @@
     "message": "گوگل ترجمے میں کھولیں"
   },
   "openInDeeplLabel": {
-    "message": "Open in DeepL Translator"
+    "message": "مالک"
   },
   "copyLabel": {
     "message": "کاپی"

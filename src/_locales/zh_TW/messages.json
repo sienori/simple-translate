@@ -123,7 +123,7 @@
     "message": "不顯示翻譯按鈕或翻譯面板。"
   },
   "ifCheckLangLabel": {
-    "message": "如果不需翻譯時, 不要顯示按鈕"
+    "message": "當網域不需翻譯時，隱藏翻譯按鈕"
   },
   "ifCheckLangCaptionLabel": {
     "message": "偵測所選文字的語言, 如果它與目標語言相同, 則不顯示按鈕。"
@@ -201,7 +201,7 @@
     "message": "指定從字元輸入至翻譯開始的等待時間 (毫秒)"
   },
   "waitTime2CaptionLabel": {
-    "message": "如果您在短時間內翻譯太多次, 可能會暫時無法使用翻譯功能。"
+    "message": "如果您在短時間內翻譯太多次，可能會暫時無法使用翻譯功能。"
   },
   "menuLabel": {
     "message": "右鍵選單"

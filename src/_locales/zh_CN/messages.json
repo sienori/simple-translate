@@ -66,16 +66,16 @@
     "message": "DeepL API"
   },
   "deeplApiCaptionLabel": {
-    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authentication key."
+    "message": "使用 DeepL API。您必须用 DeepL API Free 或 DeepL API Pro 注册才能获得验证密钥。"
   },
   "howToUseDeeplLabel": {
-    "message": "How to register DeepL API"
+    "message": "如何注册 DeepL API"
   },
   "deeplPlanLabel": {
     "message": "DeepL API 订阅计划"
   },
   "deeplPlanCaptionLabel": {
-    "message": "Select the DeepL API plan for which you registered."
+    "message": "选择您注册的 DeepL API 计划。"
   },
   "deeplFreeLabel": {
     "message": "DeepL API Free"
@@ -324,7 +324,7 @@
     "message": "导出配置"
   },
   "exportSettingsCaptionLabel": {
-    "message": "Save the settings as a json file on the computer."
+    "message": "将配置保存为 json 文件。"
   },
   "exportButtonLabel": {
     "message": "导出"
@@ -333,7 +333,7 @@
     "message": "导入配置"
   },
   "importSettingsCaptionLabel": {
-    "message": "Load the settings file saved on the computer."
+    "message": "加载计算机上保存的配置文件。"
   },
   "importButtonLabel": {
     "message": "导入"

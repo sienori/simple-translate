@@ -423,7 +423,7 @@
     "message": "Lỗi: Đã đạt đến giới hạn sử dụng dịch vụ. Xin vui lòng chờ một lúc và thử lại."
   },
   "deeplAuthError": {
-    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
+    "message": "Lỗi: Xác thực DeepL API thất bại. Vui lòng đặt khóa xác thực và lập kế hoạch chính xác trên trang cài đặt."
   },
   "unknownError": {
     "message": "Lỗi: Lỗi không xác định"
@@ -441,37 +441,37 @@
     "message": "Mở thanh công cụ bật lên"
   },
   "lang_af": {
-    "message": "Afrikaans"
+    "message": "Nam Phi"
   },
   "lang_sq": {
-    "message": "Albanian"
+    "message": "Albania"
   },
   "lang_am": {
-    "message": "Amharic"
+    "message": "Amhara"
   },
   "lang_ar": {
-    "message": "Arabic"
+    "message": "Ả Rập"
   },
   "lang_hy": {
-    "message": "Armenian"
+    "message": "Armenia"
   },
   "lang_az": {
-    "message": "Azerbaijani"
+    "message": "Azerbaijan"
   },
   "lang_eu": {
     "message": "Basque"
   },
   "lang_be": {
-    "message": "Belarusian"
+    "message": "Belarus"
   },
   "lang_bn": {
-    "message": "Bengali"
+    "message": "Bengal"
   },
   "lang_bs": {
-    "message": "Bosnian"
+    "message": "Bosnia"
   },
   "lang_bg": {
-    "message": "Bulgarian"
+    "message": "Bulgaria"
   },
   "lang_ca": {
     "message": "Catalan"

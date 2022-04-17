@@ -561,19 +561,19 @@
     "message": "Igbo"
   },
   "lang_id": {
-    "message": "Indonesian"
+    "message": "Indonesia"
   },
   "lang_ga": {
-    "message": "Irish"
+    "message": "Ireland"
   },
   "lang_it": {
-    "message": "Italian"
+    "message": "Ý"
   },
   "lang_ja": {
-    "message": "Japanese"
+    "message": "Nhật Bản"
   },
   "lang_jv": {
-    "message": "Javanese"
+    "message": "Java"
   },
   "lang_kn": {
     "message": "Kannada"
@@ -585,109 +585,109 @@
     "message": "Khmer"
   },
   "lang_rw": {
-    "message": "Kinyarwanda"
+    "message": "Rwanda"
   },
   "lang_ky": {
-    "message": "Kirghiz"
+    "message": "Kyrgyz"
   },
   "lang_ko": {
-    "message": "Korean"
+    "message": "Hàn Quốc"
   },
   "lang_ku": {
-    "message": "Kurdish"
+    "message": "Kurd"
   },
   "lang_lo": {
-    "message": "Laotian"
+    "message": "Lào"
   },
   "lang_la": {
-    "message": "Latin"
+    "message": "Latinh"
   },
   "lang_lv": {
-    "message": "Latvian"
+    "message": "Latvia"
   },
   "lang_lt": {
-    "message": "Lithuanian"
+    "message": "Litva"
   },
   "lang_lb": {
-    "message": "Luxembourgish"
+    "message": "Luxembourg"
   },
   "lang_mk": {
-    "message": "Macedonian"
+    "message": "Macedonia"
   },
   "lang_mg": {
     "message": "Malagasy"
   },
   "lang_ms": {
-    "message": "Malay"
+    "message": "Mã Lai"
   },
   "lang_ml": {
     "message": "Malayalam"
   },
   "lang_mt": {
-    "message": "Maltese"
+    "message": "Malta"
   },
   "lang_mi": {
-    "message": "Maori"
+    "message": "Māori"
   },
   "lang_mr": {
     "message": "Marathi"
   },
   "lang_mn": {
-    "message": "Mongolian"
+    "message": "Mông Cổ"
   },
   "lang_hmn": {
     "message": "Monk"
   },
   "lang_my": {
-    "message": "Myanmar"
+    "message": "Miến Điện"
   },
   "lang_ne": {
-    "message": "Nepali"
+    "message": "Nepal"
   },
   "lang_no": {
-    "message": "Norwegian"
+    "message": "Na Uy"
   },
   "lang_or": {
-    "message": "Odia (Oriya)"
+    "message": "Oriya (Odia)"
   },
   "lang_fa": {
-    "message": "Persian"
+    "message": "Ba Tư"
   },
   "lang_pl": {
-    "message": "Polish"
+    "message": "Ba Lan"
   },
   "lang_pt": {
-    "message": "Portuguese"
+    "message": "Bồ Đào Nha"
   },
   "lang_pa": {
-    "message": "Punjabi"
+    "message": "Punjab"
   },
   "lang_ps": {
-    "message": "Pushto"
+    "message": "Pashtun"
   },
   "lang_ro": {
-    "message": "Romanian"
+    "message": "România"
   },
   "lang_ru": {
-    "message": "Russian"
+    "message": "Nga"
   },
   "lang_sm": {
-    "message": "Samoan"
+    "message": "Samoa"
   },
   "lang_gd": {
-    "message": "Scottish Gaelic"
+    "message": "Gael Scotland"
   },
   "lang_sr": {
-    "message": "Serbian"
+    "message": "Serbia"
   },
   "lang_st": {
-    "message": "Sesotho"
+    "message": "Sotho"
   },
   "lang_sn": {
     "message": "Shona"
   },
   "lang_sd": {
-    "message": "Sindhi"
+    "message": "Sindh"
   },
   "lang_si": {
     "message": "Sinhala"
@@ -696,7 +696,7 @@
     "message": "Slovak"
   },
   "lang_sl": {
-    "message": "Slovenian"
+    "message": "Slovene"
   },
   "lang_so": {
     "message": "Somali"
@@ -774,7 +774,7 @@
     "message": "English (British)"
   },
   "lang_pt_PT": {
-    "message": "Portuguese"
+    "message": "Bồ Đào Nha"
   },
   "lang_pt_BR": {
     "message": "Portuguese (Brazilian)"

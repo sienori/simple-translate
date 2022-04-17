@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
+    "message": "Dịch nhanh văn bản đã chọn hoặc đã nhập trên các trang web. Hỗ trợ Google Dịch và API DeepL."
   },
   "donateWithPaypalLabel": {
     "message": "Đóng góp bằng PayPal"
@@ -27,7 +27,7 @@
     "message": "Mở trong Google Dịch"
   },
   "openInDeeplLabel": {
-    "message": "Open in DeepL Translator"
+    "message": "Mở trong Trình dịch DeepL"
   },
   "copyLabel": {
     "message": "Sao chép"
@@ -45,7 +45,7 @@
     "message": "See you again"
   },
   "recentLangLabel": {
-    "message": "Recent languages"
+    "message": "Các ngôn ngữ gần đây"
   },
   "settingsLabel": {
     "message": "Cài đặt"
@@ -54,40 +54,40 @@
     "message": "Tổng quát"
   },
   "translationApiLabel": {
-    "message": "Translation engine"
+    "message": "Công cụ dịch thuật"
   },
   "googleApiLabel": {
-    "message": "Google translate API"
+    "message": "API của Google Dịch"
   },
   "googleApiCaptionLabel": {
-    "message": "Use Google Translate API. No registration is required."
+    "message": "Sử dụng API Google Dịch. Không cần đăng ký."
   },
   "deeplApiLabel": {
     "message": "DeepL API"
   },
   "deeplApiCaptionLabel": {
-    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authentication key."
+    "message": "Sử dụng API DeepL. Bạn phải đăng ký với DeepL API Free hoặc DeepL API Pro để lấy khóa xác thực."
   },
   "howToUseDeeplLabel": {
-    "message": "How to register DeepL API"
+    "message": "Cách đăng ký DeepL API"
   },
   "deeplPlanLabel": {
-    "message": "DeepL API plan"
+    "message": "Gói API DeepL"
   },
   "deeplPlanCaptionLabel": {
-    "message": "Select the DeepL API plan for which you registered."
+    "message": "Chọn gói DeepL API mà bạn đã đăng ký."
   },
   "deeplFreeLabel": {
-    "message": "DeepL API Free"
+    "message": "API DeepL Miễn phí"
   },
   "deeplProLabel": {
     "message": "DeepL API Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Authentication key"
+    "message": "Khóa xác thực"
   },
   "deeplAuthKeyCaptionLabel": {
-    "message": "Enter the authentication key for the DeepL API."
+    "message": "Nhập khóa xác thực cho DeepL API."
   },
   "targetLangCaptionLabel": {
     "message": "Chọn ngôn ngữ đích mặc định."
@@ -132,7 +132,7 @@
     "message": "Phát hiện ngôn ngữ của văn bản đã chọn và nếu nó giống với ngôn ngữ đích mặc định, hãy dịch nó sang ngôn ngữ thứ hai."
   },
   "disableTranslationLabel": {
-    "message": "Disable translation"
+    "message": "Tắt dịch thuật"
   },
   "isDisabledInTextFieldsLabel": {
     "message": "Tắt tính năng dịch trong các trường văn bản"
@@ -141,10 +141,10 @@
     "message": "Không hiển thị nút hoặc bảng dịch khi chọn văn bản trong trường văn bản."
   },
   "isDisabledInCodeElementLabel": {
-    "message": "Disable translation in code tags"
+    "message": "Tắt dịch trong các thẻ mã hiệu"
   },
   "isDisabledInCodeElementCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in code tag."
+    "message": "Không hiển thị nút hoặc bảng dịch khi chọn văn bản trong thẻ mã."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
     "message": "Dịch trên phím bổ trợ được nhấn"
@@ -189,10 +189,10 @@
     "message": "Chọn ngôn ngữ đích thứ hai."
   },
   "ignoredDocumentLangLabel": {
-    "message": "Disable translation by lang attribute"
+    "message": "Tắt tính năng dịch theo thuộc tính lang"
   },
   "ignoredDocumentLangCaptionLabel": {
-    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
+    "message": "Tắt tính năng dịch nếu thuộc tính lang trong phần tử html của trang khớp với danh sách. Nhập các thẻ ngôn ngữ được phân tách bằng dấu phẩy."
   },
   "waitTimeLabel": {
     "message": "Thời gian chờ để dịch"
@@ -321,22 +321,22 @@
     "message": "Khi chế độ gỡ lỗi được bật, bản ghi sẽ được xuất ra trình gỡ lỗi."
   },
   "exportSettingsLabel": {
-    "message": "Export settings"
+    "message": "Xuất cài đặt"
   },
   "exportSettingsCaptionLabel": {
-    "message": "Save the settings as a json file on the computer."
+    "message": "Lưu cài đặt dưới dạng tệp json trên máy tính."
   },
   "exportButtonLabel": {
-    "message": "Export"
+    "message": "Xuất ra"
   },
   "importSettingsLabel": {
-    "message": "Import Settings"
+    "message": "Nhập cài đặt"
   },
   "importSettingsCaptionLabel": {
-    "message": "Load the settings file saved on the computer."
+    "message": "Tải tệp cài đặt được lưu trên máy tính."
   },
   "importButtonLabel": {
-    "message": "Import"
+    "message": "Nhập vào"
   },
   "resetSettingsLabel": {
     "message": "Đặt lại cài đặt"
@@ -399,7 +399,7 @@
     "message": "Thẻ eGift của amazon.co.jp"
   },
   "sponsorsLabel": {
-    "message": "Sponsors"
+    "message": "Nhà tài trợ"
   },
   "addonPageLabel": {
     "message": "Trang tiện ích"

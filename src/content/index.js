@@ -8,6 +8,7 @@ import TranslateContainer from "./components/TranslateContainer";
 const init = async () => {
   await initSettings();
   document.addEventListener("mouseup", handleMouseUp);
+  document.addEventListener("keyup", handleKeyUp);
   document.addEventListener("keydown", handleKeyDown);
   window.addEventListener("unload", onUnload, { once: true });
   browser.storage.onChanged.addListener(handleSettingsChange);
@@ -24,6 +25,62 @@ const handleMouseUp = async e => {
 
   const isLeftClick = e.button === 0;
   if (!isLeftClick) return;
+
+  const isInPasswordField = e.target.tagName === "INPUT" && e.target.type === "password";
+  if (isInPasswordField) return;
+
+  const inCodeElement = e.target.tagName === "CODE" || (!!e.target.closest && !!e.target.closest("code"));
+  if (inCodeElement && getSettings("isDisabledInCodeElement")) return;
+
+  const isInThisElement =
+    document.querySelector("#simple-translate") &&
+    document.querySelector("#simple-translate").contains(e.target);
+  if (isInThisElement) return;
+
+  removeTranslatecontainer();
+
+  const ignoredDocumentLang = getSettings("ignoredDocumentLang").split(",").map(s => s.trim()).filter(s => !!s);
+  if (ignoredDocumentLang.length) {
+    const ignoredLangSelector = ignoredDocumentLang.map(lang => `[lang="${lang}"]`).join(',')
+    if (!!e.target.closest && !!e.target.closest(ignoredLangSelector)) return;
+  }
+
+  const selectedText = getSelectedText();
+  prevSelectedText = selectedText;
+  if (selectedText.length === 0) return;
+
+  if (getSettings("isDisabledInTextFields")) {
+    if (isInContentEditable()) return;
+  }
+
+  if (getSettings("ifOnlyTranslateWhenModifierKeyPressed")) {
+    const modifierKey = getSettings("modifierKey");
+    switch (modifierKey) {
+      case "shift":
+        if (!e.shiftKey) return;
+        break;
+      case "alt":
+        if (!e.altKey) return;
+        break;
+      case "ctrl":
+        if (!e.ctrlKey) return;
+        break;
+      case "cmd":
+        if (!e.metaKey) return;
+        break;
+      default:
+        break;
+    }
+  }
+
+  const clickedPosition = { x: e.clientX, y: e.clientY };
+  const selectedPosition = getSelectedPosition();
+  showTranslateContainer(selectedText, selectedPosition, clickedPosition);
+};
+const handleKeyUp = async e => {
+  await waitTime(10);
+
+  if (!e.shiftKey) return;
 
   const isInPasswordField = e.target.tagName === "INPUT" && e.target.type === "password";
   if (isInPasswordField) return;

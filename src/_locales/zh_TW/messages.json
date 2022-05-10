@@ -123,13 +123,13 @@
     "message": "不顯示翻譯按鈕或翻譯面板。"
   },
   "ifCheckLangLabel": {
-    "message": "當網域不需翻譯時，隱藏翻譯按鈕"
+    "message": "當頁面不需翻譯時，隱藏翻譯按鈕"
   },
   "ifCheckLangCaptionLabel": {
-    "message": "偵測所選文字的語言, 如果它與目標語言相同, 則不顯示按鈕。"
+    "message": "偵測所選文字的語言，如果它與目標語言相同，則不顯示按鈕。"
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "偵測選擇文字的語言, 如果它與預設的目標語言相同, 則將其翻譯為第二語言。"
+    "message": "偵測所選文字的語言，如果它與預設的目標語言相同，則將其翻譯為第二語言。"
   },
   "disableTranslationLabel": {
     "message": "停用翻譯"
@@ -171,7 +171,7 @@
     "message": "要停用翻譯的 URL 清單"
   },
   "disableUrlListCaptionLabel": {
-    "message": "如果頁面 URL 符合此清單，網頁上的翻譯就會停用。清單允許使用 \"*\" 萬用字元。"
+    "message": "如果頁面 URL 與此清單相符，將會停用該頁面的翻譯功能。清單允許使用 「*」萬用字元。"
   },
   "toolbarLabel": {
     "message": "工具列彈出式選單"
@@ -180,7 +180,7 @@
     "message": "自動切換至第二語言"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "偵測輸入文字的語言, 如果它與預設的目標語言相同, 則將其翻譯為第二語言。"
+    "message": "偵測輸入文字的語言，如果它與預設的目標語言相同，則將其翻譯為第二語言。"
   },
   "secondTargetLangLabel": {
     "message": "第二語言"
@@ -300,7 +300,7 @@
     "message": "翻譯結果色彩"
   },
   "candidateFontColorLabel": {
-    "message": "候選翻譯色彩"
+    "message": "候選翻譯文字色彩"
   },
   "bgColorLabel": {
     "message": "背景色彩"
@@ -318,7 +318,7 @@
     "message": "啟用偵錯模式"
   },
   "isDebugModeCaptionLabel": {
-    "message": "啟用偵錯模式後, 記錄檔將輸出至偵錯工具。"
+    "message": "啟用偵錯模式後，記錄檔將輸出至偵錯工具。"
   },
   "exportSettingsLabel": {
     "message": "匯出設定"
@@ -366,7 +366,7 @@
     "message": "包括 Ctrl 鍵 或 Alt 鍵"
   },
   "includeMacModifierKeysMessage": {
-    "message": "包括 Command 鍵, Ctrl 鍵或 Alt 鍵"
+    "message": "包括 Command 鍵、 Ctrl 鍵或 Alt 鍵"
   },
   "invalidLetterMessage": {
     "message": "這個文字無法使用"
@@ -393,7 +393,7 @@
     "message": "請贊助我吧！"
   },
   "donationCaptionLabel": {
-    "message": "感謝您使用 Simple Translate。<br>您的支持是我繼續開發這個附加元件的動力。<br>如果您喜歡 Simple Translate，希望您可以贊助我。"
+    "message": "感謝您使用 Simple Translate。<br>您的支持是我繼續開發這個附加元件的動力。<br>如果您喜歡 Simple Translate，希望您能夠贊助我。"
   },
   "amazonTitleLabel": {
     "message": "贊助我 amazon 電子禮品卡"

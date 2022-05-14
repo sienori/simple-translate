@@ -222,7 +222,7 @@
     "message": "Specify the color scheme."
   },
   "lightLabel": {
-    "message": "Light"
+    "message": "Lyst"
   },
   "darkLabel": {
     "message": "Mørkt"
@@ -444,43 +444,43 @@
     "message": "Afrikaans"
   },
   "lang_sq": {
-    "message": "Albanian"
+    "message": "Albansk"
   },
   "lang_am": {
-    "message": "Amharic"
+    "message": "Amharisk"
   },
   "lang_ar": {
-    "message": "Arabic"
+    "message": "Arabisk"
   },
   "lang_hy": {
-    "message": "Armenian"
+    "message": "Armensk"
   },
   "lang_az": {
-    "message": "Azerbaijani"
+    "message": "Aserbajdsjansk"
   },
   "lang_eu": {
-    "message": "Basque"
+    "message": "Baskisk"
   },
   "lang_be": {
-    "message": "Belarusian"
+    "message": "Kviterussisk"
   },
   "lang_bn": {
-    "message": "Bengali"
+    "message": "Bengalsk"
   },
   "lang_bs": {
-    "message": "Bosnian"
+    "message": "Bosnisk"
   },
   "lang_bg": {
-    "message": "Bulgarian"
+    "message": "Bulgarsk"
   },
   "lang_ca": {
-    "message": "Catalan"
+    "message": "Katalansk"
   },
   "lang_ceb": {
     "message": "Cebuano"
   },
   "lang_ny": {
-    "message": "Chewa"
+    "message": "Chichewa"
   },
   "lang_zh_CN": {
     "message": "Chinese (Simplified)"
@@ -639,52 +639,52 @@
     "message": "Monk"
   },
   "lang_my": {
-    "message": "Myanmar"
+    "message": "Burmesisk"
   },
   "lang_ne": {
-    "message": "Nepali"
+    "message": "Nepalsk"
   },
   "lang_no": {
-    "message": "Norwegian"
+    "message": "Norsk"
   },
   "lang_or": {
-    "message": "Odia (Oriya)"
+    "message": "Odia"
   },
   "lang_fa": {
-    "message": "Persian"
+    "message": "Persisk"
   },
   "lang_pl": {
-    "message": "Polish"
+    "message": "Polsk"
   },
   "lang_pt": {
-    "message": "Portuguese"
+    "message": "Portugisisk"
   },
   "lang_pa": {
-    "message": "Punjabi"
+    "message": "Pandsjabi"
   },
   "lang_ps": {
-    "message": "Pushto"
+    "message": "Pasjto"
   },
   "lang_ro": {
-    "message": "Romanian"
+    "message": "Rumensk"
   },
   "lang_ru": {
-    "message": "Russian"
+    "message": "Russisk"
   },
   "lang_sm": {
-    "message": "Samoan"
+    "message": "Samoisk"
   },
   "lang_gd": {
-    "message": "Scottish Gaelic"
+    "message": "Skotsk-gælisk"
   },
   "lang_sr": {
-    "message": "Serbian"
+    "message": "Serbisk"
   },
   "lang_st": {
-    "message": "Sesotho"
+    "message": "Sotho"
   },
   "lang_sn": {
-    "message": "Shona"
+    "message": "Sjona"
   },
   "lang_sd": {
     "message": "Sindhi"
@@ -774,7 +774,7 @@
     "message": "English (British)"
   },
   "lang_pt_PT": {
-    "message": "Portuguese"
+    "message": "Portugisisk"
   },
   "lang_pt_BR": {
     "message": "Portuguese (Brazilian)"

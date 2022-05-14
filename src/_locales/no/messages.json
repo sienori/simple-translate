@@ -108,22 +108,22 @@
     "message": "Vis omsetjingsruta"
   },
   "ifAutoTranslateCaptionLabel": {
-    "message": "Directly display the translation panel without displaying the button."
+    "message": "Vis fram omsetjingsruta umiddelbart, utan å visa knappen fyrst."
   },
   "ifShowButtonLabel": {
-    "message": "Display translation button"
+    "message": "Vis omsetjingsknappen"
   },
   "ifShowButtonCaptionLabel": {
-    "message": "Display the translation button to open the panel when clicked."
+    "message": "Vis fram omsetjingsknappen, som vil opna ruta når du trykkjar på den."
   },
   "dontshowbuttonlabel": {
-    "message": "Don't display button or panel"
+    "message": "Ikkje vis knapp eller rute"
   },
   "dontshowbuttonCaptionlabel": {
-    "message": "Don't display the translation button or the translation panel."
+    "message": "Korkje vis fram omsetjingsknappen eller omsetjingsruta."
   },
   "ifCheckLangLabel": {
-    "message": "Do not display the button if translation is not required"
+    "message": "Ikkje vis fram knappen viss det ikkje trengs ei omsetjing"
   },
   "ifCheckLangCaptionLabel": {
     "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
@@ -168,7 +168,7 @@
     "message": "Kommando"
   },
   "disableUrlListLabel": {
-    "message": "URL list to disable translation"
+    "message": "Liste med URL-ar utan omsetjing"
   },
   "disableUrlListCaptionLabel": {
     "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."

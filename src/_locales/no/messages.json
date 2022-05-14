@@ -195,10 +195,10 @@
     "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
   },
   "waitTimeLabel": {
-    "message": "Waiting time to translate"
+    "message": "Ventetid før omsetjing"
   },
   "waitTimeCaptionLabel": {
-    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+    "message": "Angje ventetida frå du skriver inn eit teikn til omsetjinga startar. (millisekund)"
   },
   "waitTime2CaptionLabel": {
     "message": "If you translate it many times in a short time, it may become unusable for a while."

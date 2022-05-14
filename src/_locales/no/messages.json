@@ -138,13 +138,13 @@
     "message": "Slå av omsetjing i tekstfelt"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Ikkje vis omsetjingsknappen eller -panelet når du merkar tekst i eit tekstfelt."
+    "message": "Ikkje vis omsetjingsknappen eller -ruta når du merkar tekst i eit tekstfelt."
   },
   "isDisabledInCodeElementLabel": {
     "message": "Slå av omsetjing inni kodetaggar"
   },
   "isDisabledInCodeElementCaptionLabel": {
-    "message": "Ikkje vis omsetjingsknappen eller -panelet når du merkar tekst inni kodetaggar."
+    "message": "Ikkje vis omsetjingsknappen eller -ruta når du merkar tekst inni kodetaggar."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
     "message": "Omset når valgtast er trykkja"
@@ -237,7 +237,7 @@
     "message": "Storleik"
   },
   "buttonPositionLabel": {
-    "message": "Posisjon"
+    "message": "Display position"
   },
   "topRightLabel": {
     "message": "Øvst til høgre"
@@ -267,49 +267,49 @@
     "message": "Display position - Offset"
   },
   "panelStyleLabel": {
-    "message": "Translation panel"
+    "message": "Omsetjingsrute"
   },
   "panelStyleCaptionLabel": {
     "message": "Specify the style of the translation panel displayed on the web page."
   },
   "widthLabel": {
-    "message": "Width"
+    "message": "Breidd"
   },
   "heightLabel": {
-    "message": "Height"
+    "message": "Høgd"
   },
   "fontSizeLabel": {
-    "message": "Font size"
+    "message": "Skriftstorleik"
   },
   "referencePointLabel": {
     "message": "Display position - Reference point"
   },
   "bottomSelectedTextLabel": {
-    "message": "Bottom of selected text"
+    "message": "Botn av merka tekst"
   },
   "topSelectedTextLabel": {
-    "message": "Top of selected text"
+    "message": "Topp av merka tekst"
   },
   "clickedPointLabel": {
-    "message": "Clicked point"
+    "message": "Trykkja punkt"
   },
   "displayDirectionLabel": {
     "message": "Display position - Direction"
   },
   "resultFontColorLabel": {
-    "message": "Font color of translation result"
+    "message": "Skriftfarge til omsetjingsresultat"
   },
   "candidateFontColorLabel": {
-    "message": "Font color of translation candidates"
+    "message": "Skriftfarge til omsetjingskandidat"
   },
   "bgColorLabel": {
-    "message": "Background color"
+    "message": "Bakgrunnsfarge"
   },
   "otherLabel": {
     "message": "Other"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Display option page when updating"
+    "message": "Opna innstillingssida etter ei oppdatering"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
     "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."

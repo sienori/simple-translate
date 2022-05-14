@@ -84,10 +84,10 @@
     "message": "DeepL API Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Authentication key"
+    "message": "Autentiseringsnøkkel"
   },
   "deeplAuthKeyCaptionLabel": {
-    "message": "Enter the authentication key for the DeepL API."
+    "message": "Skriv inn autentiseringsnøkkelen for DeepL API-en."
   },
   "targetLangCaptionLabel": {
     "message": "Select the default target language."
@@ -102,10 +102,10 @@
     "message": "Vis fleire omsetjingskandidater når eit enkelt ord er omsat."
   },
   "whenSelectTextLabel": {
-    "message": "Behavior when selecting text"
+    "message": "Åtferd når du merkar tekst"
   },
   "ifAutoTranslateLabel": {
-    "message": "Display translation panel"
+    "message": "Vis omsetjingsruta"
   },
   "ifAutoTranslateCaptionLabel": {
     "message": "Directly display the translation panel without displaying the button."

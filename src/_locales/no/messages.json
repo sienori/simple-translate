@@ -312,34 +312,34 @@
     "message": "Opna innstillingssida etter ei oppdatering"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+    "message": "Opna innstillingssida når Simple Translate vart oppdatert, så du kan finna ut av kva som er nytt så fort som mogleg."
   },
   "isDebugModeLabel": {
-    "message": "Enable debug mode"
+    "message": "Slå på feilsøkingsmodus"
   },
   "isDebugModeCaptionLabel": {
-    "message": "When debug mode is enabled, the log is output to the debugger."
+    "message": "Når feilsøkingsmodus er slått på vil feilsøkaren skrive til loggen."
   },
   "exportSettingsLabel": {
-    "message": "Export settings"
+    "message": "Eksporter innstillingane"
   },
   "exportSettingsCaptionLabel": {
-    "message": "Save the settings as a json file on the computer."
+    "message": "Lagra innstillingane som ei JSON-fil på datamaskinen."
   },
   "exportButtonLabel": {
-    "message": "Export"
+    "message": "Eksporter"
   },
   "importSettingsLabel": {
-    "message": "Import Settings"
+    "message": "Importer innstillingar"
   },
   "importSettingsCaptionLabel": {
-    "message": "Load the settings file saved on the computer."
+    "message": "Last inn innstillingsfila frå datamaskinen."
   },
   "importButtonLabel": {
-    "message": "Import"
+    "message": "Importer"
   },
   "resetSettingsLabel": {
-    "message": "Reset settings"
+    "message": "Tilbakestill innstillingane"
   },
   "resetSettingsCaptionLabel": {
     "message": "Restore all settings to default."
@@ -351,64 +351,64 @@
     "message": "Shortcuts"
   },
   "keyboardShortcutsLabel": {
-    "message": "Keyboard shortcuts"
+    "message": "Hurtigtastar"
   },
   "setKeyboardShortCutsMessage": {
-    "message": "Set keyboard shortcuts."
+    "message": "Vel hurtigtastar."
   },
   "typeShortcutMessage": {
-    "message": "Type a shortcut"
+    "message": "Skriv inn ein hurtigtast"
   },
   "typeLetterMessage": {
-    "message": "Type a letter"
+    "message": "Skriv inn ein bokstav"
   },
   "includeModifierKeysMessage": {
-    "message": "Include either Ctrl or Alt"
+    "message": "Ta med «Ctrl» eller «Alt»"
   },
   "includeMacModifierKeysMessage": {
-    "message": "Include either Command, Ctrl or Alt"
+    "message": "Ta med «Kommando», «Ctrl» eller «Alt»"
   },
   "invalidLetterMessage": {
-    "message": "The letter can not be used"
+    "message": "Bokstaven kan ikkje brukast"
   },
   "invalidShortcutMessage": {
-    "message": "The shortcut can not be used"
+    "message": "Hurtigtasten kan ikkje brukast"
   },
   "clear": {
-    "message": "Clear"
+    "message": "Tøm"
   },
   "reset": {
     "message": "Reset"
   },
   "informationLabel": {
-    "message": "Information"
+    "message": "Om"
   },
   "backersLabel": {
-    "message": "Backers"
+    "message": "Støttespelarar"
   },
   "licenseLabel": {
-    "message": "License"
+    "message": "Lisens"
   },
   "donationLabel": {
-    "message": "Please make a donation"
+    "message": "Doner gjerne ein slant"
   },
   "donationCaptionLabel": {
-    "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+    "message": "Takk for at du bruker Simple Translate.<br>Støtta din er ei stor oppmuntring for meg, mens eg fortsett å utvikla utvidinga.<br>Viss du likar Tab Session Manager, vil eg verkeleg settja pris på ein donasjon."
   },
   "amazonTitleLabel": {
-    "message": "amazon.co.jp eGift Cards"
+    "message": "Elektronisk gåvekort frå «amazon.co.jp»"
   },
   "sponsorsLabel": {
-    "message": "Sponsors"
+    "message": "Sponsorar"
   },
   "addonPageLabel": {
-    "message": "Add-on page"
+    "message": "Tilleggsside"
   },
   "extensionPageLabel": {
-    "message": "Extension page"
+    "message": "Utvidingsside"
   },
   "privacyPolicyLabel": {
-    "message": "Privacy policy"
+    "message": "Persovernerklæring"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"

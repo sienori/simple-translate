@@ -153,7 +153,7 @@
     "message": "Kun vis ei omsetjing når den valde valgtasten er trykkja."
   },
   "modifierKeyLabel": {
-    "message": "Modifier Key"
+    "message": "Valgtast"
   },
   "shiftLabel": {
     "message": "Shift"
@@ -165,7 +165,7 @@
     "message": "Alt"
   },
   "cmdLabel": {
-    "message": "Command"
+    "message": "Kommando"
   },
   "disableUrlListLabel": {
     "message": "URL list to disable translation"
@@ -177,7 +177,7 @@
     "message": "Toolbar popup"
   },
   "ifChangeSecondLangLabel": {
-    "message": "Automatically switch to the second language"
+    "message": "Byt til det andre språket automatisk"
   },
   "ifChangeSecondLangCaptionLabel": {
     "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
@@ -219,7 +219,7 @@
     "message": "Tema"
   },
   "themeCaptionLabel": {
-    "message": "Specify the color scheme."
+    "message": "Angje fargetema."
   },
   "lightLabel": {
     "message": "Lyst"
@@ -231,7 +231,7 @@
     "message": "Omsetjingsknapp"
   },
   "buttonStyleCaptionLabel": {
-    "message": "Specify the style of the translation button displayed on the web page."
+    "message": "Angi stilen til omsetjingsknappen som visas på nettsida."
   },
   "buttonSizeLabel": {
     "message": "Storleik"
@@ -348,7 +348,7 @@
     "message": "Reset"
   },
   "shortcutsLabel": {
-    "message": "Shortcuts"
+    "message": "Hurtigtastar"
   },
   "keyboardShortcutsLabel": {
     "message": "Hurtigtastar"
@@ -414,7 +414,7 @@
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
   },
   "addonUrl": {
-    "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
+    "message": "https://addons.mozilla.org/nn-NO/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
     "message": "Error: Check network connection status."
@@ -432,10 +432,10 @@
     "message": "Omset denne sida"
   },
   "translateTextMenu": {
-    "message": "Translate selected text"
+    "message": "Omset merka tekst"
   },
   "translateLinkMenu": {
-    "message": "Translate selected link"
+    "message": "Omset merka lenke"
   },
   "openPopupDescription": {
     "message": "Open toolbar popup"
@@ -636,7 +636,7 @@
     "message": "Mongolsk"
   },
   "lang_hmn": {
-    "message": "Monk"
+    "message": "Hmong"
   },
   "lang_my": {
     "message": "Burmesisk"
@@ -690,7 +690,7 @@
     "message": "Sindhi"
   },
   "lang_si": {
-    "message": "Sinhala"
+    "message": "Singalesisk"
   },
   "lang_sk": {
     "message": "Slovakisk"

@@ -138,7 +138,7 @@
     "message": "Slå av omsetjing i tekstfelt"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in a text field."
+    "message": "Ikkje vis omsetjingsknappen eller -panelet når du merkar tekst i eit tekstfelt."
   },
   "isDisabledInCodeElementLabel": {
     "message": "Disable translation in code tags"

@@ -141,16 +141,16 @@
     "message": "Ikkje vis omsetjingsknappen eller -panelet når du merkar tekst i eit tekstfelt."
   },
   "isDisabledInCodeElementLabel": {
-    "message": "Disable translation in code tags"
+    "message": "Slå av omsetjing inni kodetaggar"
   },
   "isDisabledInCodeElementCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in code tag."
+    "message": "Ikkje vis omsetjingsknappen eller -panelet når du merkar tekst inni kodetaggar."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Translate on modifier key pressed"
+    "message": "Omset når valgtast er trykkja"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Only display translation on specified modifier key pressed."
+    "message": "Kun vis ei omsetjing når den valde valgtasten er trykkja."
   },
   "modifierKeyLabel": {
     "message": "Modifier Key"
@@ -213,10 +213,10 @@
     "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
   },
   "styleLabel": {
-    "message": "Style"
+    "message": "Stil"
   },
   "themeLabel": {
-    "message": "Theme"
+    "message": "Tema"
   },
   "themeCaptionLabel": {
     "message": "Specify the color scheme."
@@ -225,43 +225,43 @@
     "message": "Light"
   },
   "darkLabel": {
-    "message": "Dark"
+    "message": "Mørkt"
   },
   "buttonStyleLabel": {
-    "message": "Translation button"
+    "message": "Omsetjingsknapp"
   },
   "buttonStyleCaptionLabel": {
     "message": "Specify the style of the translation button displayed on the web page."
   },
   "buttonSizeLabel": {
-    "message": "Size"
+    "message": "Storleik"
   },
   "buttonPositionLabel": {
-    "message": "Display position"
+    "message": "Posisjon"
   },
   "topRightLabel": {
-    "message": "Top right"
+    "message": "Øvst til høgre"
   },
   "bottomRightLabel": {
-    "message": "Bottom right"
+    "message": "Nedst til høgre"
   },
   "topLeftLabel": {
-    "message": "Top left"
+    "message": "Øvst til venstre"
   },
   "bottomLeftLabel": {
-    "message": "Bottom left"
+    "message": "Nedst til venstre"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "Øvst"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "Nedst"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "Til venstre"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "Til høgre"
   },
   "positionOffsetLabel": {
     "message": "Display position - Offset"

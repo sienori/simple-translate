@@ -483,61 +483,61 @@
     "message": "Chichewa"
   },
   "lang_zh_CN": {
-    "message": "Chinese (Simplified)"
+    "message": "Kinesisk (forenkla)"
   },
   "lang_zh_TW": {
-    "message": "Chinese (Traditional)"
+    "message": "Kinesisk (tradisjonelt)"
   },
   "lang_co": {
-    "message": "Corsican"
+    "message": "Korsikansk"
   },
   "lang_hr": {
-    "message": "Croatian"
+    "message": "Kroatisk"
   },
   "lang_cs": {
-    "message": "Czech"
+    "message": "Tjekkisk"
   },
   "lang_da": {
-    "message": "Danish"
+    "message": "Dansk"
   },
   "lang_nl": {
-    "message": "Dutch"
+    "message": "Nederlandsk"
   },
   "lang_en": {
-    "message": "English"
+    "message": "Engelsk"
   },
   "lang_eo": {
     "message": "Esperanto"
   },
   "lang_et": {
-    "message": "Estonian"
+    "message": "Estisk"
   },
   "lang_fi": {
-    "message": "Finnish"
+    "message": "Finsk"
   },
   "lang_fr": {
-    "message": "French"
+    "message": "Fransk"
   },
   "lang_fy": {
-    "message": "Frisian"
+    "message": "Frisisk"
   },
   "lang_gl": {
-    "message": "Galician"
+    "message": "Galisisk"
   },
   "lang_ka": {
-    "message": "Georgian"
+    "message": "Georgisk"
   },
   "lang_de": {
-    "message": "German"
+    "message": "Tysk"
   },
   "lang_el": {
-    "message": "Greek"
+    "message": "Gresk"
   },
   "lang_gu": {
-    "message": "Gujarati"
+    "message": "Gudsjarati"
   },
   "lang_ht": {
-    "message": "Haitian"
+    "message": "Haitisk"
   },
   "lang_ha": {
     "message": "Hausa"
@@ -693,37 +693,37 @@
     "message": "Sinhala"
   },
   "lang_sk": {
-    "message": "Slovak"
+    "message": "Slovakisk"
   },
   "lang_sl": {
-    "message": "Slovenian"
+    "message": "Slovensk"
   },
   "lang_so": {
-    "message": "Somali"
+    "message": "Somalisk"
   },
   "lang_es": {
-    "message": "Spanish"
+    "message": "Spansk"
   },
   "lang_su": {
-    "message": "Sundanese"
+    "message": "Sundanesisk"
   },
   "lang_sw": {
     "message": "Swahili"
   },
   "lang_sv": {
-    "message": "Swedish"
+    "message": "Svensk"
   },
   "lang_tl": {
     "message": "Tagalog"
   },
   "lang_tg": {
-    "message": "Tajiki"
+    "message": "Tadsjikisk"
   },
   "lang_ta": {
     "message": "Tamil"
   },
   "lang_tt": {
-    "message": "Tatar"
+    "message": "Tatarisk"
   },
   "lang_te": {
     "message": "Telugu"
@@ -732,54 +732,54 @@
     "message": "Thai"
   },
   "lang_tr": {
-    "message": "Turkish"
+    "message": "Tyrkisk"
   },
   "lang_tk": {
-    "message": "Turkmen"
+    "message": "Turkmensk"
   },
   "lang_uk": {
-    "message": "Ukrainian"
+    "message": "Ukrainsk"
   },
   "lang_ur": {
     "message": "Urdu"
   },
   "lang_ug": {
-    "message": "Uyghur"
+    "message": "Uigurisk"
   },
   "lang_uz": {
-    "message": "Uzbek"
+    "message": "Usbekisk"
   },
   "lang_vi": {
-    "message": "Vietnamese"
+    "message": "Vietnamesisk"
   },
   "lang_cy": {
-    "message": "Welsh"
+    "message": "Walisisk"
   },
   "lang_xh": {
-    "message": "Xosa"
+    "message": "Xhosa"
   },
   "lang_yi": {
-    "message": "Yiddish"
+    "message": "Jiddisch"
   },
   "lang_yo": {
-    "message": "Yoruba"
+    "message": "Joruba"
   },
   "lang_zu": {
     "message": "Zulu"
   },
   "lang_en_US": {
-    "message": "English (American)"
+    "message": "Engelsk (amerikansk)"
   },
   "lang_en_GB": {
-    "message": "English (British)"
+    "message": "Engelsk (britisk)"
   },
   "lang_pt_PT": {
     "message": "Portugisisk"
   },
   "lang_pt_BR": {
-    "message": "Portuguese (Brazilian)"
+    "message": "Portugisisk (brasiliansk)"
   },
   "lang_zh": {
-    "message": "Chinese"
+    "message": "Kinesisk"
   }
 }

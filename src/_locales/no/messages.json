@@ -171,7 +171,7 @@
     "message": "Liste med URL-ar utan omsetjing"
   },
   "disableUrlListCaptionLabel": {
-    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
+    "message": "Viss URL-en til sida samsvarer med lista, så vil omsetjing på sida slås av. Lista tillét «*» jokerteikn."
   },
   "toolbarLabel": {
     "message": "Toolbar popup"

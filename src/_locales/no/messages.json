@@ -6,16 +6,16 @@
     "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
   },
   "donateWithPaypalLabel": {
-    "message": "Donate with PayPal"
+    "message": "Doner med PayPal"
   },
   "donateLabel": {
-    "message": "Donate"
+    "message": "Doner"
   },
   "enableOnThisPage": {
-    "message": "Enable translation on this page"
+    "message": "Slå på omsetjing på denne sida"
   },
   "disableOnThisPage": {
-    "message": "Disable translation on this page"
+    "message": "Slå av omsetjing på denne sida"
   },
   "initialTextArea": {
     "message": "Enter text"

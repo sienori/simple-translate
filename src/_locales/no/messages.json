@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
+    "message": "Omset merka eller innskrevet tekst på nettsider, kjapt og enkelt. Støttar Google Omsetjar og DeepL API."
   },
   "donateWithPaypalLabel": {
     "message": "Doner med PayPal"
@@ -42,7 +42,7 @@
     "message": "Target language"
   },
   "allLangLabel": {
-    "message": "All languages"
+    "message": "Alle språk"
   },
   "recentLangLabel": {
     "message": "Nylege språk"

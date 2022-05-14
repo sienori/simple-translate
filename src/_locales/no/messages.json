@@ -18,22 +18,22 @@
     "message": "Slå av omsetjing på denne sida"
   },
   "initialTextArea": {
-    "message": "Enter text"
+    "message": "Skriv inn tekst"
   },
   "showLink": {
-    "message": "Translate this page"
+    "message": "Omset denne sida"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "Opna i Google Omsetjar"
   },
   "openInDeeplLabel": {
-    "message": "Open in DeepL Translator"
+    "message": "Opna i DeepL Omsetjar"
   },
   "copyLabel": {
-    "message": "Copy"
+    "message": "Kopier"
   },
   "copiedLabel": {
-    "message": "Copied."
+    "message": "Kopiert."
   },
   "listenLabel": {
     "message": "Listen"
@@ -45,10 +45,10 @@
     "message": "All languages"
   },
   "recentLangLabel": {
-    "message": "Recent languages"
+    "message": "Nylege språk"
   },
   "settingsLabel": {
-    "message": "Settings"
+    "message": "Innstillingar"
   },
   "generalLabel": {
     "message": "General"
@@ -93,13 +93,13 @@
     "message": "Select the default target language."
   },
   "webPageLabel": {
-    "message": "Web page"
+    "message": "Nettside"
   },
   "ifShowCandidateLabel": {
-    "message": "Show translation candidates"
+    "message": "Vis omsetjingskandidatar"
   },
   "ifShowCandidateCaptionLabel": {
-    "message": "Show multiple translation candidates when a single word is translated."
+    "message": "Vis fleire omsetjingskandidater når eit enkelt ord er omsat."
   },
   "whenSelectTextLabel": {
     "message": "Behavior when selecting text"
@@ -132,10 +132,10 @@
     "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
   },
   "disableTranslationLabel": {
-    "message": "Disable translation"
+    "message": "Slå av omsetjing"
   },
   "isDisabledInTextFieldsLabel": {
-    "message": "Disable translation in text fields"
+    "message": "Slå av omsetjing i tekstfelt"
   },
   "isDisabledInTextFieldsCaptionLabel": {
     "message": "Don't display translation button or panel when selecting text in a text field."
@@ -429,7 +429,7 @@
     "message": "Error: Unknown error"
   },
   "translatePageMenu": {
-    "message": "Translate this page"
+    "message": "Omset denne sida"
   },
   "translateTextMenu": {
     "message": "Translate selected text"

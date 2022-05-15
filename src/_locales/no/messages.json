@@ -69,19 +69,19 @@
     "message": "Bruk DeepL. Du må registrera deg med DeepL Free eller DeepL Pro for å få ein autentiseringsnøkkel."
   },
   "howToUseDeeplLabel": {
-    "message": "How to register DeepL API"
+    "message": "Korleis registrere seg med DeepL"
   },
   "deeplPlanLabel": {
-    "message": "DeepL API plan"
+    "message": "DeepL-plan"
   },
   "deeplPlanCaptionLabel": {
-    "message": "Select the DeepL API plan for which you registered."
+    "message": "Vel DeepL-planen som du er registrert med."
   },
   "deeplFreeLabel": {
-    "message": "DeepL API Free"
+    "message": "DeepL Free"
   },
   "deeplProLabel": {
-    "message": "DeepL API Pro"
+    "message": "DeepL Pro"
   },
   "deeplAuthKeyLabel": {
     "message": "Autentiseringsnøkkel"
@@ -189,10 +189,10 @@
     "message": "Select the second target language."
   },
   "ignoredDocumentLangLabel": {
-    "message": "Disable translation by lang attribute"
+    "message": "Slå av omsetjing med «lang»-attributten"
   },
   "ignoredDocumentLangCaptionLabel": {
-    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
+    "message": "Slå av omsetjing viss «lang»-attributten i «html»-taggen til sida samsvarer med lista.\nSkriv inn ei kommadelt liste med språkkodar."
   },
   "waitTimeLabel": {
     "message": "Ventetid før omsetjing"

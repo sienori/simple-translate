@@ -51,22 +51,22 @@
     "message": "Innstillingar"
   },
   "generalLabel": {
-    "message": "General"
+    "message": "Generelt"
   },
   "translationApiLabel": {
-    "message": "Translation engine"
+    "message": "Omsetjingsmotor"
   },
   "googleApiLabel": {
-    "message": "Google translate API"
+    "message": "Google Omsetjar"
   },
   "googleApiCaptionLabel": {
-    "message": "Use Google Translate API. No registration is required."
+    "message": "Bruk Google Omsetjar. Du treng ikkje å registrera deg."
   },
   "deeplApiLabel": {
-    "message": "DeepL API"
+    "message": "DeepL"
   },
   "deeplApiCaptionLabel": {
-    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authentication key."
+    "message": "Bruk DeepL. Du må registrera deg med DeepL Free eller DeepL Pro for å få ein autentiseringsnøkkel."
   },
   "howToUseDeeplLabel": {
     "message": "How to register DeepL API"
@@ -306,7 +306,7 @@
     "message": "Bakgrunnsfarge"
   },
   "otherLabel": {
-    "message": "Other"
+    "message": "Anna"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
     "message": "Opna innstillingssida etter ei oppdatering"
@@ -342,10 +342,10 @@
     "message": "Tilbakestill innstillingane"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Restore all settings to default."
+    "message": "Tilbakestill alle innstillingane."
   },
   "resetSettingsButtonLabel": {
-    "message": "Reset"
+    "message": "Tilbakestill"
   },
   "shortcutsLabel": {
     "message": "Hurtigtastar"
@@ -378,7 +378,7 @@
     "message": "Tøm"
   },
   "reset": {
-    "message": "Reset"
+    "message": "Tilbakestill"
   },
   "informationLabel": {
     "message": "Om"

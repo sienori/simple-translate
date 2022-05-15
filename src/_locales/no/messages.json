@@ -174,7 +174,7 @@
     "message": "Viss URL-en til sida samsvarer med lista, så vil omsetjing på sida slås av. Lista tillét «*» jokerteikn."
   },
   "toolbarLabel": {
-    "message": "Toolbar popup"
+    "message": "Sprettoppvindauge"
   },
   "ifChangeSecondLangLabel": {
     "message": "Byt til det andre språket automatisk"
@@ -237,7 +237,7 @@
     "message": "Storleik"
   },
   "buttonPositionLabel": {
-    "message": "Display position"
+    "message": "Posisjon"
   },
   "topRightLabel": {
     "message": "Øvst til høgre"
@@ -264,13 +264,13 @@
     "message": "Til høgre"
   },
   "positionOffsetLabel": {
-    "message": "Display position - Offset"
+    "message": "Posisjon - Forskyvning"
   },
   "panelStyleLabel": {
     "message": "Omsetjingsrute"
   },
   "panelStyleCaptionLabel": {
-    "message": "Specify the style of the translation panel displayed on the web page."
+    "message": "Angje stilen til omsetjingsruta som visast på nettsida."
   },
   "widthLabel": {
     "message": "Breidd"
@@ -282,7 +282,7 @@
     "message": "Skriftstorleik"
   },
   "referencePointLabel": {
-    "message": "Display position - Reference point"
+    "message": "Posisjon - Referansepunkt"
   },
   "bottomSelectedTextLabel": {
     "message": "Botn av merka tekst"
@@ -294,7 +294,7 @@
     "message": "Trykkja punkt"
   },
   "displayDirectionLabel": {
-    "message": "Display position - Direction"
+    "message": "Posisjon - Retning"
   },
   "resultFontColorLabel": {
     "message": "Skriftfarge til omsetjingsresultat"
@@ -417,10 +417,10 @@
     "message": "https://addons.mozilla.org/nn-NO/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
-    "message": "Error: Check network connection status."
+    "message": "Feil: Sjekk nettverkstilkoplinga."
   },
   "unavailableError": {
-    "message": "Error: Service usage limit reached. Please wait a while and try again."
+    "message": "Feil: Du har nådd bruksgrensa. Vent en stund, og prøv igjen."
   },
   "deeplAuthError": {
     "message": "Feil: Klarte ikkje autentisera DeepL. Sjekk om autentiseringsnøkkelen og planen er riktige i instillingane."
@@ -438,7 +438,7 @@
     "message": "Omset merka lenke"
   },
   "openPopupDescription": {
-    "message": "Open toolbar popup"
+    "message": "Opna sprettoppvindauget"
   },
   "lang_af": {
     "message": "Afrikaans"

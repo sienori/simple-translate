@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
+    "message": "Szybkie tłumaczenie zaznaczonego lub wpisanego tekstu na stronach internetowych. Obsługuje API Google Translate i DeepL."
   },
   "donateWithPaypalLabel": {
     "message": "Wspieraj przez PayPal"
@@ -66,16 +66,16 @@
     "message": "Interfejs API DeepL"
   },
   "deeplApiCaptionLabel": {
-    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authentication key."
+    "message": "Użyj API DeepL. Musisz zarejestrować się za pomocą API DeepL Free lub DeepL Pro, aby uzyskać klucz uwierzytelniania."
   },
   "howToUseDeeplLabel": {
-    "message": "How to register DeepL API"
+    "message": "Jak zarejestrować API DeepL"
   },
   "deeplPlanLabel": {
-    "message": "DeepL API plan"
+    "message": "Plan API DeepL"
   },
   "deeplPlanCaptionLabel": {
-    "message": "Select the DeepL API plan for which you registered."
+    "message": "Wybierz plan API DeepL, dla którego zarejestrowałeś."
   },
   "deeplFreeLabel": {
     "message": "Darmowe API DeepL"
@@ -84,10 +84,10 @@
     "message": "DeepL API Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Authentication key"
+    "message": "Klucz uwierzytelniania"
   },
   "deeplAuthKeyCaptionLabel": {
-    "message": "Enter the authentication key for the DeepL API."
+    "message": "Wprowadź klucz uwierzytelniania dla API DeepL."
   },
   "targetLangCaptionLabel": {
     "message": "Wybierz domyślny język docelowy."
@@ -423,7 +423,7 @@
     "message": "Błąd: Limit użycia serwisu został osiągnięty. Poczekaj chwilę i spróbuj ponownie."
   },
   "deeplAuthError": {
-    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
+    "message": "Błąd: Uwierzytelnianie API DeepL nie powiodło się. Proszę ustawić klucz uwierzytelniania i zaplanować poprawnie na stronie ustawień."
   },
   "unknownError": {
     "message": "Error: Nieznany błąd"

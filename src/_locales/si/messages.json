@@ -135,7 +135,7 @@
     "message": "පරිවර්තනය අබල කරන්න"
   },
   "isDisabledInTextFieldsLabel": {
-    "message": "Disable translation in text fields"
+    "message": "පාඨ ක්‍ෂේත්‍රවල පරිවර්තනය අබල කරන්න"
   },
   "isDisabledInTextFieldsCaptionLabel": {
     "message": "Don't display translation button or panel when selecting text in a text field."
@@ -153,7 +153,7 @@
     "message": "Only display translation on specified modifier key pressed."
   },
   "modifierKeyLabel": {
-    "message": "Modifier Key"
+    "message": "සංශෝධන යතුර"
   },
   "shiftLabel": {
     "message": "Shift"
@@ -219,7 +219,7 @@
     "message": "තේමාව"
   },
   "themeCaptionLabel": {
-    "message": "Specify the color scheme."
+    "message": "වර්ණාවලිය දක්වන්න."
   },
   "lightLabel": {
     "message": "දීප්ත"

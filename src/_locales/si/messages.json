@@ -18,16 +18,16 @@
     "message": "මෙම පිටුවට පරිවර්තනය අබල කරන්න"
   },
   "initialTextArea": {
-    "message": "Enter text"
+    "message": "පාඨය යොදන්න"
   },
   "showLink": {
     "message": "මෙම පිටුව පරිවර්තනය කරන්න"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "ගූගල් ට්‍රාන්ස්ලේට් හි අරින්න"
   },
   "openInDeeplLabel": {
-    "message": "Open in DeepL Translator"
+    "message": "ඩීපල්එල් හි අරින්න"
   },
   "copyLabel": {
     "message": "පිටපත්"
@@ -57,13 +57,13 @@
     "message": "Translation engine"
   },
   "googleApiLabel": {
-    "message": "Google translate API"
+    "message": "ගූගල් ට්‍රාන්ස්ලේට් යෙ.ක්‍ර.මු."
   },
   "googleApiCaptionLabel": {
     "message": "Use Google Translate API. No registration is required."
   },
   "deeplApiLabel": {
-    "message": "DeepL API"
+    "message": "ඩීපල්එල් යෙ.ක්‍ර.මු."
   },
   "deeplApiCaptionLabel": {
     "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authentication key."
@@ -72,7 +72,7 @@
     "message": "How to register DeepL API"
   },
   "deeplPlanLabel": {
-    "message": "DeepL API plan"
+    "message": "ඩීපල්එල් යෙ.ක්‍ර.මු. සැලසුම"
   },
   "deeplPlanCaptionLabel": {
     "message": "Select the DeepL API plan for which you registered."
@@ -237,19 +237,19 @@
     "message": "ප්‍රමාණය"
   },
   "buttonPositionLabel": {
-    "message": "Display position"
+    "message": "පිහිටුම දර්ශනය"
   },
   "topRightLabel": {
-    "message": "Top right"
+    "message": "මුදුනේ දකුණ"
   },
   "bottomRightLabel": {
-    "message": "Bottom right"
+    "message": "පාදමේ දකුණ"
   },
   "topLeftLabel": {
-    "message": "Top left"
+    "message": "මුදුනේ වම"
   },
   "bottomLeftLabel": {
-    "message": "Bottom left"
+    "message": "පාදමේ වම"
   },
   "topLabel": {
     "message": "ඉහළ"
@@ -327,16 +327,16 @@
     "message": "Save the settings as a json file on the computer."
   },
   "exportButtonLabel": {
-    "message": "Export"
+    "message": "නිර්යාතය"
   },
   "importSettingsLabel": {
-    "message": "Import Settings"
+    "message": "සැකසුම් ආයාතය"
   },
   "importSettingsCaptionLabel": {
     "message": "Load the settings file saved on the computer."
   },
   "importButtonLabel": {
-    "message": "Import"
+    "message": "ආයාතය"
   },
   "resetSettingsLabel": {
     "message": "සැකසුම් යළි පිහිටුවන්න"
@@ -351,13 +351,13 @@
     "message": "කෙටිමං"
   },
   "keyboardShortcutsLabel": {
-    "message": "Keyboard shortcuts"
+    "message": "යතුරුපුවරුවේ කෙටිමං"
   },
   "setKeyboardShortCutsMessage": {
-    "message": "Set keyboard shortcuts."
+    "message": "යතුරුපුවරුවේ කෙටිමං සකසන්න."
   },
   "typeShortcutMessage": {
-    "message": "Type a shortcut"
+    "message": "කෙටිමඟක් ලියන්න"
   },
   "typeLetterMessage": {
     "message": "Type a letter"
@@ -390,13 +390,13 @@
     "message": "බලපත්‍රය"
   },
   "donationLabel": {
-    "message": "Please make a donation"
+    "message": "පරිත්‍යාගයක් කරන්න"
   },
   "donationCaptionLabel": {
     "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
   },
   "amazonTitleLabel": {
-    "message": "amazon.co.jp eGift Cards"
+    "message": "amazon.co.jp වි-ත්‍යාග පත්"
   },
   "sponsorsLabel": {
     "message": "අනුග්‍රාහකයින්"
@@ -567,16 +567,16 @@
     "message": "Irish"
   },
   "lang_it": {
-    "message": "Italian"
+    "message": "ඉතාලි"
   },
   "lang_ja": {
-    "message": "Japanese"
+    "message": "ජපන්"
   },
   "lang_jv": {
     "message": "Javanese"
   },
   "lang_kn": {
-    "message": "Kannada"
+    "message": "කන්නද"
   },
   "lang_kk": {
     "message": "Kazakh"
@@ -642,22 +642,22 @@
     "message": "Myanmar"
   },
   "lang_ne": {
-    "message": "Nepali"
+    "message": "නේපාලි"
   },
   "lang_no": {
-    "message": "Norwegian"
+    "message": "නෝර්වීජියානු"
   },
   "lang_or": {
     "message": "Odia (Oriya)"
   },
   "lang_fa": {
-    "message": "Persian"
+    "message": "පර්සියානු"
   },
   "lang_pl": {
-    "message": "Polish"
+    "message": "පෝලන්ත"
   },
   "lang_pt": {
-    "message": "Portuguese"
+    "message": "පෘතුගීසි"
   },
   "lang_pa": {
     "message": "Punjabi"
@@ -666,10 +666,10 @@
     "message": "Pushto"
   },
   "lang_ro": {
-    "message": "Romanian"
+    "message": "රොමේනියානු"
   },
   "lang_ru": {
-    "message": "Russian"
+    "message": "රුසියානු"
   },
   "lang_sm": {
     "message": "Samoan"
@@ -678,7 +678,7 @@
     "message": "Scottish Gaelic"
   },
   "lang_sr": {
-    "message": "Serbian"
+    "message": "සර්බියානු"
   },
   "lang_st": {
     "message": "Sesotho"
@@ -687,22 +687,22 @@
     "message": "Shona"
   },
   "lang_sd": {
-    "message": "Sindhi"
+    "message": "සින්ධි"
   },
   "lang_si": {
-    "message": "Sinhala"
+    "message": "සිංහල"
   },
   "lang_sk": {
-    "message": "Slovak"
+    "message": "ස්ලෝවැකියානු"
   },
   "lang_sl": {
-    "message": "Slovenian"
+    "message": "ස්ලෝවේනියානු"
   },
   "lang_so": {
-    "message": "Somali"
+    "message": "සෝමාලි"
   },
   "lang_es": {
-    "message": "Spanish"
+    "message": "ස්පාඤ්ඤ"
   },
   "lang_su": {
     "message": "Sundanese"
@@ -714,34 +714,34 @@
     "message": "Swedish"
   },
   "lang_tl": {
-    "message": "Tagalog"
+    "message": "ටැගලොග්"
   },
   "lang_tg": {
     "message": "Tajiki"
   },
   "lang_ta": {
-    "message": "Tamil"
+    "message": "දෙමළ"
   },
   "lang_tt": {
-    "message": "Tatar"
+    "message": "ටටාර්"
   },
   "lang_te": {
     "message": "Telugu"
   },
   "lang_th": {
-    "message": "Thai"
+    "message": "තායි"
   },
   "lang_tr": {
-    "message": "Turkish"
+    "message": "තුර්කි"
   },
   "lang_tk": {
     "message": "Turkmen"
   },
   "lang_uk": {
-    "message": "Ukrainian"
+    "message": "යුක්රේනියානු"
   },
   "lang_ur": {
-    "message": "Urdu"
+    "message": "උර්දු"
   },
   "lang_ug": {
     "message": "Uyghur"
@@ -750,10 +750,10 @@
     "message": "Uzbek"
   },
   "lang_vi": {
-    "message": "Vietnamese"
+    "message": "වියට්නාම"
   },
   "lang_cy": {
-    "message": "Welsh"
+    "message": "වෙල්ෂ්"
   },
   "lang_xh": {
     "message": "Xosa"
@@ -762,10 +762,10 @@
     "message": "Yiddish"
   },
   "lang_yo": {
-    "message": "Yoruba"
+    "message": "යොරුබා"
   },
   "lang_zu": {
-    "message": "Zulu"
+    "message": "සුලු"
   },
   "lang_en_US": {
     "message": "English (American)"
@@ -774,12 +774,12 @@
     "message": "English (British)"
   },
   "lang_pt_PT": {
-    "message": "Portuguese"
+    "message": "පෘතුගීසි"
   },
   "lang_pt_BR": {
     "message": "Portuguese (Brazilian)"
   },
   "lang_zh": {
-    "message": "Chinese"
+    "message": "චීන"
   }
 }

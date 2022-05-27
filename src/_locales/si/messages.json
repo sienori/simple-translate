@@ -285,10 +285,10 @@
     "message": "Display position - Reference point"
   },
   "bottomSelectedTextLabel": {
-    "message": "Bottom of selected text"
+    "message": "තෝරාගත් පාඨයෙහි පාදම"
   },
   "topSelectedTextLabel": {
-    "message": "Top of selected text"
+    "message": "තෝරාගත් පාඨයෙහි මුදුන"
   },
   "clickedPointLabel": {
     "message": "Clicked point"
@@ -321,7 +321,7 @@
     "message": "When debug mode is enabled, the log is output to the debugger."
   },
   "exportSettingsLabel": {
-    "message": "Export settings"
+    "message": "නිර්යාත සැකසුම්"
   },
   "exportSettingsCaptionLabel": {
     "message": "Save the settings as a json file on the computer."
@@ -342,7 +342,7 @@
     "message": "සැකසුම් යළි පිහිටුවන්න"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Restore all settings to default."
+    "message": "සියළු සැකසුම් පෙරනිමියට ප්‍රත්‍යර්පණය."
   },
   "resetSettingsButtonLabel": {
     "message": "යලි පිහිටුවන්න"
@@ -363,7 +363,7 @@
     "message": "Type a letter"
   },
   "includeModifierKeysMessage": {
-    "message": "Include either Ctrl or Alt"
+    "message": "Ctrl හෝ Alt අඩංගු කරන්න"
   },
   "includeMacModifierKeysMessage": {
     "message": "Include either Command, Ctrl or Alt"
@@ -372,7 +372,7 @@
     "message": "The letter can not be used"
   },
   "invalidShortcutMessage": {
-    "message": "The shortcut can not be used"
+    "message": "කෙටිමඟ භාවිතා කළ නොහැකිය"
   },
   "clear": {
     "message": "හිස් කරන්න"
@@ -417,16 +417,16 @@
     "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
-    "message": "Error: Check network connection status."
+    "message": "දෝෂය: ජාලයේ සම්බන්ධතා තත්‍වය බලන්න."
   },
   "unavailableError": {
-    "message": "Error: Service usage limit reached. Please wait a while and try again."
+    "message": "දෝෂය: සේවාව භාවිතයේ සීමාවට පැමිණුනි. පසුව උත්සාහ කරන්න."
   },
   "deeplAuthError": {
     "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
   },
   "unknownError": {
-    "message": "Error: Unknown error"
+    "message": "දෝෂය: නොදන්නා දෝෂයකි"
   },
   "translatePageMenu": {
     "message": "මෙම පිටුව පරිවර්තනය කරන්න"
@@ -447,7 +447,7 @@
     "message": "ඇල්බේනියානු"
   },
   "lang_am": {
-    "message": "Amharic"
+    "message": "ඇම්හරික්"
   },
   "lang_ar": {
     "message": "අරාබි"
@@ -483,10 +483,10 @@
     "message": "Chewa"
   },
   "lang_zh_CN": {
-    "message": "Chinese (Simplified)"
+    "message": "චීන (සරල)"
   },
   "lang_zh_TW": {
-    "message": "Chinese (Traditional)"
+    "message": "චීන (සාම්ප්‍රදායික)"
   },
   "lang_co": {
     "message": "Corsican"
@@ -498,25 +498,25 @@
     "message": "Czech"
   },
   "lang_da": {
-    "message": "Danish"
+    "message": "ඩැනිෂ්"
   },
   "lang_nl": {
-    "message": "Dutch"
+    "message": "ලන්දේසි"
   },
   "lang_en": {
-    "message": "English"
+    "message": "ඉංග්‍රීසි"
   },
   "lang_eo": {
     "message": "Esperanto"
   },
   "lang_et": {
-    "message": "Estonian"
+    "message": "එස්තෝනියානු"
   },
   "lang_fi": {
     "message": "Finnish"
   },
   "lang_fr": {
-    "message": "French"
+    "message": "ප්‍රංශ"
   },
   "lang_fy": {
     "message": "Frisian"
@@ -606,7 +606,7 @@
     "message": "Latvian"
   },
   "lang_lt": {
-    "message": "Lithuanian"
+    "message": "ලිතුවේනියානු"
   },
   "lang_lb": {
     "message": "Luxembourgish"
@@ -639,7 +639,7 @@
     "message": "Monk"
   },
   "lang_my": {
-    "message": "Myanmar"
+    "message": "බුරුම"
   },
   "lang_ne": {
     "message": "නේපාලි"

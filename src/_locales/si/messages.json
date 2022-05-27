@@ -33,19 +33,19 @@
     "message": "පිටපත්"
   },
   "copiedLabel": {
-    "message": "Copied."
+    "message": "පිටපත් විය."
   },
   "listenLabel": {
-    "message": "Listen"
+    "message": "සවන්දෙන්න"
   },
   "targetLangLabel": {
-    "message": "Target language"
+    "message": "ඉලක්කගත භාෂාව"
   },
   "allLangLabel": {
-    "message": "All languages"
+    "message": "සියළු භාෂා"
   },
   "recentLangLabel": {
-    "message": "Recent languages"
+    "message": "මෑත භාෂා"
   },
   "settingsLabel": {
     "message": "සැකසුම්"
@@ -165,7 +165,7 @@
     "message": "Alt"
   },
   "cmdLabel": {
-    "message": "Command"
+    "message": "විධානය"
   },
   "disableUrlListLabel": {
     "message": "URL list to disable translation"
@@ -432,40 +432,40 @@
     "message": "මෙම පිටුව පරිවර්තනය කරන්න"
   },
   "translateTextMenu": {
-    "message": "Translate selected text"
+    "message": "තේරූ භාෂාව පරිවර්තනය"
   },
   "translateLinkMenu": {
-    "message": "Translate selected link"
+    "message": "තේරූ සබැඳිය පරිවර්තනය"
   },
   "openPopupDescription": {
     "message": "Open toolbar popup"
   },
   "lang_af": {
-    "message": "Afrikaans"
+    "message": "අප්‍රිකානු"
   },
   "lang_sq": {
-    "message": "Albanian"
+    "message": "ඇල්බේනියානු"
   },
   "lang_am": {
     "message": "Amharic"
   },
   "lang_ar": {
-    "message": "Arabic"
+    "message": "අරාබි"
   },
   "lang_hy": {
-    "message": "Armenian"
+    "message": "ආර්මේනියානු"
   },
   "lang_az": {
-    "message": "Azerbaijani"
+    "message": "අසර්බයිජානු"
   },
   "lang_eu": {
     "message": "Basque"
   },
   "lang_be": {
-    "message": "Belarusian"
+    "message": "බෙලරුසියානු"
   },
   "lang_bn": {
-    "message": "Bengali"
+    "message": "බෙංගාලි"
   },
   "lang_bs": {
     "message": "Bosnian"
@@ -525,19 +525,19 @@
     "message": "Galician"
   },
   "lang_ka": {
-    "message": "Georgian"
+    "message": "ජෝර්ජියානු"
   },
   "lang_de": {
-    "message": "German"
+    "message": "ජර්මානු"
   },
   "lang_el": {
-    "message": "Greek"
+    "message": "ග්‍රීක"
   },
   "lang_gu": {
-    "message": "Gujarati"
+    "message": "ගුජරාටි"
   },
   "lang_ht": {
-    "message": "Haitian"
+    "message": "හයිටි"
   },
   "lang_ha": {
     "message": "Hausa"
@@ -549,10 +549,10 @@
     "message": "Hebrew"
   },
   "lang_hi": {
-    "message": "Hindi"
+    "message": "හින්දි"
   },
   "lang_hu": {
-    "message": "Hungarian"
+    "message": "හංගේරියානු"
   },
   "lang_is": {
     "message": "Icelandic"
@@ -561,7 +561,7 @@
     "message": "Igbo"
   },
   "lang_id": {
-    "message": "Indonesian"
+    "message": "ඉන්දුනීසියානු"
   },
   "lang_ga": {
     "message": "Irish"

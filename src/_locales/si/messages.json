@@ -141,7 +141,7 @@
     "message": "Don't display translation button or panel when selecting text in a text field."
   },
   "isDisabledInCodeElementLabel": {
-    "message": "Disable translation in code tags"
+    "message": "කේත අනන්‍යනවල පරිවර්තනය අබල කරන්න"
   },
   "isDisabledInCodeElementCaptionLabel": {
     "message": "Don't display translation button or panel when selecting text in code tag."
@@ -168,7 +168,7 @@
     "message": "විධානය"
   },
   "disableUrlListLabel": {
-    "message": "URL list to disable translation"
+    "message": "පරිවර්තනය අබල කිරීමට ඒ.ස.නි. ලේඛනය"
   },
   "disableUrlListCaptionLabel": {
     "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."

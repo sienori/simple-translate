@@ -51,46 +51,46 @@
     "message": "සැකසුම්"
   },
   "generalLabel": {
-    "message": "General"
+    "message": "පොදු"
   },
   "translationApiLabel": {
-    "message": "Translation engine"
+    "message": "පරිවර්තන යන්ත්‍රය"
   },
   "googleApiLabel": {
     "message": "ගූගල් ට්‍රාන්ස්ලේට් යෙ.ක්‍ර.මු."
   },
   "googleApiCaptionLabel": {
-    "message": "Use Google Translate API. No registration is required."
+    "message": "ගූගල් ට්‍රාන්ස්ලේට් යෙ.ක්‍ර.මු. භාවිතා කරන්න. ලියාපදිංචිය අනවශ්‍යයි."
   },
   "deeplApiLabel": {
     "message": "ඩීපල්එල් යෙ.ක්‍ර.මු."
   },
   "deeplApiCaptionLabel": {
-    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authentication key."
+    "message": "ඩීප්එල් යෙ.ක්‍ර.මු. භාවිතයට ඔබ ඩීප්එල් යෙ.ක්‍ර.මු. නොමිලේ හෝ ප්‍රෝ වෙත ලියාපදිංචිව සත්‍යාපන යතුරක් අත් කරගත යුතුය."
   },
   "howToUseDeeplLabel": {
-    "message": "How to register DeepL API"
+    "message": "ඩීප්එල් යෙ.ක්‍ර.මු. ලියාපදිංචි කරන්නේ කෙසේද?"
   },
   "deeplPlanLabel": {
     "message": "ඩීපල්එල් යෙ.ක්‍ර.මු. සැලසුම"
   },
   "deeplPlanCaptionLabel": {
-    "message": "Select the DeepL API plan for which you registered."
+    "message": "ඔබ ලියාපදිංචි වූ ඩීප්එල් යෙ.ක්‍ර.මු. සැලසුම තෝරන්න."
   },
   "deeplFreeLabel": {
     "message": "ඩීපල්එල් යෙ.ක්‍ර.මු. නොමිලේ"
   },
   "deeplProLabel": {
-    "message": "DeepL API Pro"
+    "message": "ඩීපල්එල් යෙ.ක්‍ර.මු. ප්‍රෝ"
   },
   "deeplAuthKeyLabel": {
-    "message": "Authentication key"
+    "message": "සත්‍යාපන යතුර"
   },
   "deeplAuthKeyCaptionLabel": {
     "message": "Enter the authentication key for the DeepL API."
   },
   "targetLangCaptionLabel": {
-    "message": "Select the default target language."
+    "message": "පෙරනිමි ඉලක්කගත භාෂාව තෝරන්න."
   },
   "webPageLabel": {
     "message": "වියමන පිටුව"

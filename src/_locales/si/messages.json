@@ -78,7 +78,7 @@
     "message": "Select the DeepL API plan for which you registered."
   },
   "deeplFreeLabel": {
-    "message": "DeepL API Free"
+    "message": "ඩීපල්එල් යෙ.ක්‍ර.මු. නොමිලේ"
   },
   "deeplProLabel": {
     "message": "DeepL API Pro"
@@ -132,7 +132,7 @@
     "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
   },
   "disableTranslationLabel": {
-    "message": "Disable translation"
+    "message": "පරිවර්තනය අබල කරන්න"
   },
   "isDisabledInTextFieldsLabel": {
     "message": "Disable translation in text fields"
@@ -591,7 +591,7 @@
     "message": "Kirghiz"
   },
   "lang_ko": {
-    "message": "Korean"
+    "message": "කොරියානු"
   },
   "lang_ku": {
     "message": "Kurdish"
@@ -600,7 +600,7 @@
     "message": "Laotian"
   },
   "lang_la": {
-    "message": "Latin"
+    "message": "ලතින්"
   },
   "lang_lv": {
     "message": "Latvian"
@@ -612,16 +612,16 @@
     "message": "Luxembourgish"
   },
   "lang_mk": {
-    "message": "Macedonian"
+    "message": "මැසදෝනියානු"
   },
   "lang_mg": {
     "message": "Malagasy"
   },
   "lang_ms": {
-    "message": "Malay"
+    "message": "මැලේ"
   },
   "lang_ml": {
-    "message": "Malayalam"
+    "message": "මලයාලම්"
   },
   "lang_mt": {
     "message": "Maltese"
@@ -630,10 +630,10 @@
     "message": "Maori"
   },
   "lang_mr": {
-    "message": "Marathi"
+    "message": "මරති"
   },
   "lang_mn": {
-    "message": "Mongolian"
+    "message": "මොන්ගෝලියානු"
   },
   "lang_hmn": {
     "message": "Monk"
@@ -660,7 +660,7 @@
     "message": "පෘතුගීසි"
   },
   "lang_pa": {
-    "message": "Punjabi"
+    "message": "පංජාබි"
   },
   "lang_ps": {
     "message": "Pushto"
@@ -726,7 +726,7 @@
     "message": "ටටාර්"
   },
   "lang_te": {
-    "message": "Telugu"
+    "message": "තෙලුඟු"
   },
   "lang_th": {
     "message": "තායි"
@@ -747,7 +747,7 @@
     "message": "Uyghur"
   },
   "lang_uz": {
-    "message": "Uzbek"
+    "message": "උස්බෙක්"
   },
   "lang_vi": {
     "message": "වියට්නාම"
@@ -768,16 +768,16 @@
     "message": "සුලු"
   },
   "lang_en_US": {
-    "message": "English (American)"
+    "message": "ඉංග්‍රීසි (ඇමෙරිකානු)"
   },
   "lang_en_GB": {
-    "message": "English (British)"
+    "message": "ඉංග්‍රීසි (බ්‍රිතාන්‍ය)"
   },
   "lang_pt_PT": {
     "message": "පෘතුගීසි"
   },
   "lang_pt_BR": {
-    "message": "Portuguese (Brazilian)"
+    "message": "පෘතුගීසි (බ්‍රසීලය)"
   },
   "lang_zh": {
     "message": "චීන"

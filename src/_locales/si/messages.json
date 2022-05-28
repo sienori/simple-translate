@@ -345,7 +345,7 @@
     "message": "සියළු සැකසුම් පෙරනිමියට ප්‍රත්‍යර්පණය."
   },
   "resetSettingsButtonLabel": {
-    "message": "යලි පිහිටුවන්න"
+    "message": "යළි පිහිටුවන්න"
   },
   "shortcutsLabel": {
     "message": "කෙටිමං"
@@ -417,10 +417,10 @@
     "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
-    "message": "දෝෂය: ජාලයේ සම්බන්ධතා තත්‍වය බලන්න."
+    "message": "දෝෂයකි: ජාලයේ සම්බන්ධතා තත්‍වය බලන්න."
   },
   "unavailableError": {
-    "message": "දෝෂය: සේවාව භාවිතයේ සීමාවට පැමිණුනි. පසුව උත්සාහ කරන්න."
+    "message": "දෝෂයකි: සේවාව භාවිතයේ සීමාවට පැමිණුනි. පසුව උත්සාහ කරන්න."
   },
   "deeplAuthError": {
     "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
@@ -609,13 +609,13 @@
     "message": "ලිතුවේනියානු"
   },
   "lang_lb": {
-    "message": "Luxembourgish"
+    "message": "ලක්‍සෙම්බර්ග්"
   },
   "lang_mk": {
     "message": "මැසදෝනියානු"
   },
   "lang_mg": {
-    "message": "Malagasy"
+    "message": "මලගාසි"
   },
   "lang_ms": {
     "message": "මැලේ"
@@ -624,7 +624,7 @@
     "message": "මලයාලම්"
   },
   "lang_mt": {
-    "message": "Maltese"
+    "message": "මොල්ටිස්"
   },
   "lang_mi": {
     "message": "Maori"
@@ -633,7 +633,7 @@
     "message": "මරති"
   },
   "lang_mn": {
-    "message": "මොන්ගෝලියානු"
+    "message": "මොංගෝලියානු"
   },
   "lang_hmn": {
     "message": "Monk"
@@ -642,7 +642,7 @@
     "message": "බුරුම"
   },
   "lang_ne": {
-    "message": "නේපාලි"
+    "message": "නේපාල"
   },
   "lang_no": {
     "message": "නෝර්වීජියානු"

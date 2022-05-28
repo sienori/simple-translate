@@ -1,8 +1,8 @@
 ---
-title: Privacy Poricy
+title: Privacy Policy
 ---
 
-# Privacy Poricy of Simple Translate
+# Privacy Policy of Simple Translate
 
 **Effective Date: March 3, 2022**
 

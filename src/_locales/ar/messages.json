@@ -66,28 +66,28 @@
     "message": "DeepL API\n"
   },
   "deeplApiCaptionLabel": {
-    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authentication key."
+    "message": "استخدم DeepL API. يجب عليك التسجيل في DeepL API Free أو DeepL API Pro للحصول على مفتاح المصادقة."
   },
   "howToUseDeeplLabel": {
-    "message": "How to register DeepL API"
+    "message": "كيفية تسجيل DeepL API"
   },
   "deeplPlanLabel": {
-    "message": "DeepL API plan"
+    "message": "خطة DeepL API"
   },
   "deeplPlanCaptionLabel": {
-    "message": "Select the DeepL API plan for which you registered."
+    "message": "حدد خطة DeepL API التي قمت بالتسجيل فيها."
   },
   "deeplFreeLabel": {
-    "message": "DeepL API Free"
+    "message": "DeepL API مجاني"
   },
   "deeplProLabel": {
     "message": "DeepL API Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Authentication key"
+    "message": "مصادقة المفاتيح"
   },
   "deeplAuthKeyCaptionLabel": {
-    "message": "Enter the authentication key for the DeepL API."
+    "message": "أدخل مفتاح المصادقة لواجهة برمجة تطبيقات DeepL."
   },
   "targetLangCaptionLabel": {
     "message": "حدد اللغة الافتراضية."
@@ -423,7 +423,7 @@
     "message": "خطأ: وصل الحد الأقصى لاستخدام الخدمة. الرجاء الانتظار بعض الوقت وحاول مرة أخرى."
   },
   "deeplAuthError": {
-    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
+    "message": "خطأ: فشلت مصادقة DeepL API. يرجى تعيين مفتاح المصادقة والتخطيط بشكل صحيح على صفحة الإعدادات."
   },
   "unknownError": {
     "message": "خطأ: غير معروف"
@@ -483,10 +483,10 @@
     "message": "الشيوا"
   },
   "lang_zh_CN": {
-    "message": "Chinese (Simplified)"
+    "message": "الصينية (المبسطة)"
   },
   "lang_zh_TW": {
-    "message": "Chinese (Traditional)"
+    "message": "الصينية التقليدية"
   },
   "lang_co": {
     "message": "الكورسيكية"
@@ -498,7 +498,7 @@
     "message": "تشيكي"
   },
   "lang_da": {
-    "message": "Danish"
+    "message": "دانماركي"
   },
   "lang_nl": {
     "message": "هولندي"
@@ -507,22 +507,22 @@
     "message": "الإنجليزية"
   },
   "lang_eo": {
-    "message": "Esperanto"
+    "message": "اسبرانتو"
   },
   "lang_et": {
-    "message": "Estonian"
+    "message": "الإستونية"
   },
   "lang_fi": {
-    "message": "Finnish"
+    "message": "الفنلندية"
   },
   "lang_fr": {
-    "message": "French"
+    "message": "الفرنسية"
   },
   "lang_fy": {
-    "message": "Frisian"
+    "message": "الفريزية"
   },
   "lang_gl": {
-    "message": "Galician"
+    "message": "الجاليكية"
   },
   "lang_ka": {
     "message": "الجورجية"
@@ -537,88 +537,88 @@
     "message": "الغوجاراتية"
   },
   "lang_ht": {
-    "message": "Haitian"
+    "message": "الهايتية"
   },
   "lang_ha": {
     "message": "الهوسا"
   },
   "lang_haw": {
-    "message": "Hawaiian"
+    "message": "هاواي"
   },
   "lang_he": {
-    "message": "Hebrew"
+    "message": "العبرية"
   },
   "lang_hi": {
-    "message": "Hindi"
+    "message": "الهندية"
   },
   "lang_hu": {
-    "message": "Hungarian"
+    "message": "الهنغارية"
   },
   "lang_is": {
-    "message": "Icelandic"
+    "message": "ايسلندي"
   },
   "lang_ig": {
-    "message": "Igbo"
+    "message": "الإيغبو"
   },
   "lang_id": {
-    "message": "Indonesian"
+    "message": "الإندونيسية"
   },
   "lang_ga": {
-    "message": "Irish"
+    "message": "الأيرلندية"
   },
   "lang_it": {
-    "message": "Italian"
+    "message": "الإيطالية"
   },
   "lang_ja": {
-    "message": "Japanese"
+    "message": "اليابانية"
   },
   "lang_jv": {
-    "message": "Javanese"
+    "message": "الجاوية"
   },
   "lang_kn": {
-    "message": "Kannada"
+    "message": "الكانادا"
   },
   "lang_kk": {
-    "message": "Kazakh"
+    "message": "الكازاخستانية"
   },
   "lang_km": {
-    "message": "Khmer"
+    "message": "الخميرية"
   },
   "lang_rw": {
-    "message": "Kinyarwanda"
+    "message": "الكينياراوندية"
   },
   "lang_ky": {
-    "message": "Kirghiz"
+    "message": "القيرغستانية"
   },
   "lang_ko": {
-    "message": "Korean"
+    "message": "الكورية"
   },
   "lang_ku": {
-    "message": "Kurdish"
+    "message": "الكردية"
   },
   "lang_lo": {
-    "message": "Laotian"
+    "message": "لاوسي"
   },
   "lang_la": {
-    "message": "Latin"
+    "message": "اللاتينية"
   },
   "lang_lv": {
-    "message": "Latvian"
+    "message": "اللاتفية"
   },
   "lang_lt": {
-    "message": "Lithuanian"
+    "message": "اللتوانية"
   },
   "lang_lb": {
-    "message": "Luxembourgish"
+    "message": "اللوكسمبرجية"
   },
   "lang_mk": {
     "message": "المقدونية"
   },
   "lang_mg": {
-    "message": "Malagasy"
+    "message": "الملغاشية"
   },
   "lang_ms": {
-    "message": "Malay"
+    "message": "الماليزية"
   },
   "lang_ml": {
     "message": "Malayalam"

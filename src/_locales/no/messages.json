@@ -36,10 +36,10 @@
     "message": "Kopiert."
   },
   "listenLabel": {
-    "message": "Listen"
+    "message": "Lytt til"
   },
   "targetLangLabel": {
-    "message": "Target language"
+    "message": "Målspråk"
   },
   "allLangLabel": {
     "message": "Alle språk"
@@ -90,7 +90,7 @@
     "message": "Skriv inn autentiseringsnøkkelen for DeepL API-en."
   },
   "targetLangCaptionLabel": {
-    "message": "Select the default target language."
+    "message": "Vel standard målspråk."
   },
   "webPageLabel": {
     "message": "Nettside"
@@ -126,10 +126,10 @@
     "message": "Ikkje vis fram knappen viss det ikkje trengs ei omsetjing"
   },
   "ifCheckLangCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+    "message": "Viser ikkje knappen viss den valde teksten er skrive på målspråket."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+    "message": "Omset den valde teksten til andrespråket viss den er skrive på målspråket."
   },
   "disableTranslationLabel": {
     "message": "Slå av omsetjing"
@@ -180,13 +180,13 @@
     "message": "Byt til det andre språket automatisk"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+    "message": "Omset teksten til andrespråket viss den er skrive på målspråket."
   },
   "secondTargetLangLabel": {
-    "message": "Second language"
+    "message": "Andrespråk"
   },
   "secondTargetLangCaptionLabel": {
-    "message": "Select the second target language."
+    "message": "Vel alternativt målspråk."
   },
   "ignoredDocumentLangLabel": {
     "message": "Slå av omsetjing med «lang»-attributten"
@@ -210,7 +210,7 @@
     "message": "Vis kontekstmenyen"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+    "message": "Legg til elementer i kontekstmenyen som visas når du høgreklikker på nettsida eller fanen."
   },
   "styleLabel": {
     "message": "Stil"

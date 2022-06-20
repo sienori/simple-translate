@@ -204,10 +204,10 @@
     "message": "Viss du omset det mange gongar innan ein kort tidsperiode, kan det varta ubrukeleg i ei stund."
   },
   "menuLabel": {
-    "message": "Context menu"
+    "message": "Kontekstmeny"
   },
   "ifShowMenuLabel": {
-    "message": "Display the context menu"
+    "message": "Vis kontekstmenyen"
   },
   "ifShowMenuCaptionLabel": {
     "message": "Add items to the context menu displayed when right clicking on the web page or the tab."

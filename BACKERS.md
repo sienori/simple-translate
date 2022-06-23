@@ -54,3 +54,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - Vladimir Chupin
 - john phillips
 - Macaroniseahorsedogkachu
+- John Franks

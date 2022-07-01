@@ -78,16 +78,16 @@
     "message": "Επιλέξτε το πλάνο DeepL API στο οποίο έχετε εγγραφεί."
   },
   "deeplFreeLabel": {
-    "message": "DeepL API Free"
+    "message": "Δωρεάν DeepL API"
   },
   "deeplProLabel": {
     "message": "DeepL API Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Kλειδί πιστοποίησης"
+    "message": "Κλειδί πιστοποίησης"
   },
   "deeplAuthKeyCaptionLabel": {
-    "message": "Enter the authentication key for the DeepL API."
+    "message": "Εισάγετε το κλειδί ελέγχου ταυτότητας για το API DeepL."
   },
   "targetLangCaptionLabel": {
     "message": "Επιλέξτε την προεπιλεγμένη γλώσσα-στόχο."

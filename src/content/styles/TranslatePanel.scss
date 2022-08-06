@@ -44,8 +44,8 @@
           all: initial;
           display: block;
           margin: 0;
-          font-family: "Segoe UI", "San Francisco", "Ubuntu", "Fira Sans", "Roboto", "Arial",
-            "Helvetica", sans-serif !important;
+          font-family: "Segoe UI", "San Francisco", "Ubuntu", "Fira Sans",
+            "Roboto", "Arial", "Helvetica", sans-serif !important;
           word-wrap: break-word;
           font-size: inherit;
           line-height: 150%;
@@ -62,11 +62,11 @@
           background: var(--simple-translate-line);
         }
 
-        &.simple-translate-result {
+        .simple-translate-result {
           color: var(--simple-translate-main-text);
         }
-        &.simple-translate-candidate,
-        &.simple-translate-error {
+        .simple-translate-candidate,
+        .simple-translate-error {
           color: var(--simple-translate-sub-text);
           margin-top: 1em;
           &:empty {

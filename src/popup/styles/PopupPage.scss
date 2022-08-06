@@ -1,11 +1,71 @@
+.light-theme {
+  --main-text: #0c0c0d;
+  --sub-text: #737373;
+  --line: #ededf0;
+  --button: #d7d7db;
+  --highlight: #5595ff;
+  --main-bg: #ffffff;
+  --confirm: #ff4f4f;
+  --error: #d70022;
+  --warn: #ff8f00;
+  --success: #058b00;
+  --info: #0a84ff;
+}
+
+.dark-theme {
+  --main-text: #e6e6e6;
+  --sub-text: #aaaaaa;
+  --line: #373737;
+  --button: #929292;
+  --highlight: #5595ff;
+  --main-bg: #181818;
+  --highlight-bg: #2e4343;
+  --confirm: #ed5f5f;
+  --error: #ca1532;
+  --warn: #ee8e12;
+  --success: #2a9c26;
+  --info: #1471d0;
+}
+
+.system-theme {
+  --main-text: #0c0c0d;
+  --sub-text: #737373;
+  --line: #ededf0;
+  --button: #d7d7db;
+  --highlight: #5595ff;
+  --main-bg: #ffffff;
+  --confirm: #ff4f4f;
+  --error: #d70022;
+  --warn: #ff8f00;
+  --success: #058b00;
+  --info: #0a84ff;
+}
+
+@media (prefers-color-scheme: dark) {
+  .system-theme {
+    --main-text: #e6e6e6;
+    --sub-text: #aaaaaa;
+    --line: #373737;
+    --button: #929292;
+    --highlight: #5595ff;
+    --main-bg: #181818;
+    --highlight-bg: #2e4343;
+    --confirm: #ed5f5f;
+    --error: #ca1532;
+    --warn: #ee8e12;
+    --success: #2a9c26;
+    --info: #1471d0;
+  }
+}
+
 html {
   scrollbar-width: none;
 }
 
 body {
   margin: 0;
-  font-family: "Segoe UI", "San Francisco", "Ubuntu", "Fira Sans", "Roboto", "Arial", "Helvetica",
-    sans-serif;
+  font-family: "Segoe UI", "San Francisco", "Ubuntu", "Fira Sans", "Roboto",
+    "Arial", "Helvetica", sans-serif;
   font-size: 13px;
   width: 100%;
   min-width: 348px;
@@ -25,32 +85,5 @@ body {
 
   ::-moz-selection {
     background: var(--line);
-  }
-
-  --main-text: #0c0c0d;
-  --sub-text: #737373;
-  --line: #ededf0;
-  --button: #d7d7db;
-  --highlight: #5595ff;
-  --main-bg: #ffffff;
-  --confirm: #ff4f4f;
-  --error: #d70022;
-  --warn: #ff8f00;
-  --success: #058b00;
-  --info: #0a84ff;
-
-  &[data-theme="dark"] {
-    --main-text: #e6e6e6;
-    --sub-text: #aaaaaa;
-    --line: #373737;
-    --button: #929292;
-    --highlight: #5595ff;
-    --main-bg: #181818;
-    --highlight-bg: #2e4343;
-    --confirm: #ed5f5f;
-    --error: #ca1532;
-    --warn: #ee8e12;
-    --success: #2a9c26;
-    --info: #1471d0;
   }
 }

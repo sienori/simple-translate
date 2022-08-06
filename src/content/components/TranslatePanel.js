@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import { getSettings } from "src/settings/settings";
 import "../styles/TranslatePanel.scss";
+import { getBackgroundColor, getCandidateFontColor, getResultFontColor } from "../../settings/defaultColors";
 
 const splitLine = text => {
   const regex = /(\n)/g;
@@ -173,17 +174,17 @@ export default class TranslatePanel extends Component {
       top: this.state.panelPosition.y,
       left: this.state.panelPosition.x,
       fontSize: parseInt(getSettings("fontSize")),
-      backgroundColor: getSettings("bgColor")
     };
+
+    const backgroundColor = getBackgroundColor()
+    if (backgroundColor) {
+      panelStyles.backgroundColor = backgroundColor.backgroundColor
+    }
+
     const wrapperStyles = {
       overflow: this.state.isOverflow ? "auto" : "hidden"
     };
-    const resultStyles = {
-      color: getSettings("resultFontColor")
-    };
-    const candidateStyles = {
-      color: getSettings("candidateFontColor")
-    };
+
     const translationApi = getSettings("translationApi");
 
     return (
@@ -195,10 +196,10 @@ export default class TranslatePanel extends Component {
         <div className="simple-translate-result-wrapper" ref="wrapper" style={wrapperStyles}>
           <div className="simple-translate-move" draggable="true" ref="move"></div>
           <div className="simple-translate-result-contents">
-            <p className="simple-translate-result" style={resultStyles} dir="auto">
+            <p className="simple-translate-result" style={getResultFontColor()} dir="auto">
               {splitLine(resultText)}
             </p>
-            <p className="simple-translate-candidate" style={candidateStyles} dir="auto">
+            <p className="simple-translate-candidate" style={getCandidateFontColor()} dir="auto">
               {splitLine(candidateText)}
             </p>
             {isError && (

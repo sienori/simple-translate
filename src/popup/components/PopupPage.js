@@ -10,6 +10,7 @@ import InputArea from "./InputArea";
 import ResultArea from "./ResultArea";
 import Footer from "./Footer";
 import "../styles/PopupPage.scss";
+import { getBackgroundColor } from "../../settings/defaultColors";
 
 const logDir = "popup/PopupPage";
 
@@ -58,7 +59,8 @@ export default class PopupPage extends Component {
     overWriteLogLevel();
     updateLogLevel();
 
-    document.body.dataset.theme = getSettings("theme");
+    this.themeClass = getSettings("theme") + "-theme";
+    document.body.classList.add(this.themeClass)
     const targetLang = getSettings("targetLang");
     let langHistory = getSettings("langHistory");
     if (!langHistory) {

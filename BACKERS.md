@@ -56,3 +56,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - Macaroniseahorsedogkachu
 - John Franks
 - David Hajek ([@hdavid4444](https://mobile.twitter.com/hdavid4444))
+- gumil

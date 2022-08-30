@@ -227,6 +227,9 @@
   "darkLabel": {
     "message": "Sombre"
   },
+  "systemLabel": {
+    "message": "System"
+  },
   "buttonStyleLabel": {
     "message": "Bouton de traduction"
   },
@@ -298,6 +301,9 @@
   },
   "resultFontColorLabel": {
     "message": "Couleur du texte traduit"
+  },
+  "isOverrideColorsLabel": {
+    "message": "Override default colors with colors below"
   },
   "candidateFontColorLabel": {
     "message": "Couleur du texte à traduire"

@@ -227,6 +227,9 @@
   "darkLabel": {
     "message": "Sötét"
   },
+  "systemLabel": {
+    "message": "System"
+  },
   "buttonStyleLabel": {
     "message": "Fordító gomb"
   },
@@ -298,6 +301,9 @@
   },
   "resultFontColorLabel": {
     "message": "Fordítás színe"
+  },
+  "isOverrideColorsLabel": {
+    "message": "Override default colors with colors below"
   },
   "candidateFontColorLabel": {
     "message": "Fordítási javaslatok színe"

@@ -308,6 +308,7 @@ export default [
         captions: ["pageTranslationOpenToCaptionLabel"],
         type: "select",
         default: "newTab",
+        new: true,
         options: [
           {
             name: "newTabLabel",

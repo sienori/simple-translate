@@ -28,7 +28,6 @@ export default async details => {
 
   const isShowOptionsPage = getSettings("isShowOptionsPageWhenUpdated");
   if (isShowOptionsPage) openOptionsPage(false);
-  setSettings("isShowUpdated", true);
 
   // Version 2.8.0以前からのアップデート
   if (details.reason == "update" && details.previousVersion.replaceAll(".", "") < 280) {

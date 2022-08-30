@@ -212,6 +212,21 @@
   "ifShowMenuCaptionLabel": {
     "message": "將翻譯功能新增至右鍵選單。"
   },
+  "pageTranslationLabel": {
+    "message": "Page translation"
+  },
+  "pageTranslationOpenToLabel": {
+    "message": "Tab to display translation results"
+  },
+  "pageTranslationOpenToCaptionLabel": {
+    "message": "Specify the tab to display the translation results when you excute \"Translate this page\"."
+  },
+  "newTabLabel": {
+    "message": "New tab"
+  },
+  "currentTabLabel": {
+    "message": "Current tab"
+  },
   "styleLabel": {
     "message": "樣式"
   },
@@ -228,7 +243,7 @@
     "message": "深色"
   },
   "systemLabel": {
-    "message": "System"
+    "message": "系統"
   },
   "buttonStyleLabel": {
     "message": "翻譯按鈕"

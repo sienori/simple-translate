@@ -82,6 +82,8 @@ export default class PopupPage extends Component {
       isEnabledOnPage: tabInfo.isEnabledOnPage
     });
     if (tabInfo.selectedText !== "") this.handleInputText(tabInfo.selectedText);
+
+    document.body.style.width = "348px";
   };
 
   handleInputText = inputText => {

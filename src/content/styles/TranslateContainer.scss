@@ -10,20 +10,20 @@
   --simple-translate-highlight: #5595ff;
 }
 
-.light-theme {
+.simple-translate-light-theme {
   --simple-translate-main-text: #0c0c0d;
   --simple-translate-sub-text: #737373;
   --simple-translate-main-bg: #ffffff;
 }
 
-.dark-theme {
+.simple-translate-dark-theme {
   --simple-translate-main-text: #e6e6e6;
   --simple-translate-sub-text: #aaaaaa;
   --simple-translate-main-bg: #181818;
 }
 
 // copy of .light-theme
-.system-theme {
+.simple-translate-system-theme {
   --simple-translate-main-text: #000000;
   --simple-translate-sub-text: #737373;
   --simple-translate-main-bg: #ffffff;
@@ -31,7 +31,7 @@
 
 @media (prefers-color-scheme: dark) {
   // copy of .dark-theme
-  .system-theme {
+  .simple-translate-system-theme {
     --simple-translate-main-text: #e6e6e6;
     --simple-translate-sub-text: #aaaaaa;
     --simple-translate-main-bg: #181818;

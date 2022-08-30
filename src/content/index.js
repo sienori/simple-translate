@@ -216,7 +216,7 @@ const showTranslateContainer = (
   if (element) return;
   if (!isEnabled) return;
 
-  const themeClass = getSettings("theme") + "-theme";
+  const themeClass = "simple-translate-" + getSettings("theme") + "-theme";
 
   document.body.insertAdjacentHTML("beforeend", `<div id="simple-translate" class="${themeClass}"></div>`);
   ReactDOM.render(

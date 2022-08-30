@@ -227,6 +227,9 @@
   "darkLabel": {
     "message": "Ciemny"
   },
+  "systemLabel": {
+    "message": "System"
+  },
   "buttonStyleLabel": {
     "message": "Przycisk translacji"
   },
@@ -298,6 +301,9 @@
   },
   "resultFontColorLabel": {
     "message": "Kolor czcionki wyniku tłumaczenia"
+  },
+  "isOverrideColorsLabel": {
+    "message": "Override default colors with colors below"
   },
   "candidateFontColorLabel": {
     "message": "Kolor czcionki kandydatów do tłumaczenia"

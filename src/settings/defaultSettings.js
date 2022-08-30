@@ -9,7 +9,7 @@ import {
   CANDIDATE_FONT_COLOR_DARK,
   BG_COLOR_LIGHT,
   BG_COLOR_DARK
-} from "./defaultColors"
+} from "./defaultColors";
 
 const getDefaultLangs = () => {
   const uiLang = browser.i18n.getUILanguage();
@@ -61,7 +61,6 @@ export default [
         captions: [],
         type: "none",
         default: "google",
-        new: true,
         childElements: [
           {
             id: "translationApi",
@@ -308,7 +307,8 @@ export default [
         title: "themeLabel",
         captions: ["themeCaptionLabel"],
         type: "select",
-        default: 'system', 
+        default: 'system',
+        new: true,
         options: [
           {
             name: "lightLabel",
@@ -496,6 +496,7 @@ export default [
             title: "isOverrideColorsLabel",
             captions: [],
             type: "checkbox",
+            new: true,
             default: false
           },
           {

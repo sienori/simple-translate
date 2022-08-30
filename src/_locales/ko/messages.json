@@ -212,6 +212,21 @@
   "ifShowMenuCaptionLabel": {
     "message": "웹 페이지 또는 탭을 마우스 오른쪽 클릭했을 때 나타나는 컨텍스트 메뉴에 항목을 추가합니다."
   },
+  "pageTranslationLabel": {
+    "message": "페이지 번역"
+  },
+  "pageTranslationOpenToLabel": {
+    "message": "번역 결과를 표시할 탭"
+  },
+  "pageTranslationOpenToCaptionLabel": {
+    "message": "\"이 페이지 번역\" 시 번역 결과를 표시 할 탭을 지정합니다."
+  },
+  "newTabLabel": {
+    "message": "새 탭"
+  },
+  "currentTabLabel": {
+    "message": "현재 탭"
+  },
   "styleLabel": {
     "message": "모양"
   },

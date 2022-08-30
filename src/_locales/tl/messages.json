@@ -168,49 +168,49 @@
     "message": "Command"
   },
   "disableUrlListLabel": {
-    "message": "URL list to disable translation"
+    "message": "Listahan ng URL upang huwag paganahin ang pagsasalin"
   },
   "disableUrlListCaptionLabel": {
-    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
+    "message": "Kung tumugma ang URL ng page sa listahan, hindi pinagana ang pagsasalin sa web page. Pinapayagan ng listahan ang mga wildcard na \"*\"."
   },
   "toolbarLabel": {
     "message": "Toolbar popup"
   },
   "ifChangeSecondLangLabel": {
-    "message": "Automatically switch to the second language"
+    "message": "Awtomatikong lumipat sa pangalawang wika"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+    "message": "Tinutukoy ang wika ng input text, at kung ito ay pareho sa default na target na wika, isalin ito sa pangalawang wika."
   },
   "secondTargetLangLabel": {
-    "message": "Second language"
+    "message": "Pangalawang wika"
   },
   "secondTargetLangCaptionLabel": {
-    "message": "Select the second target language."
+    "message": "Piliin ang pangalawang target na wika."
   },
   "ignoredDocumentLangLabel": {
-    "message": "Disable translation by lang attribute"
+    "message": "Huwag paganahin ang pagsasalin ayon sa lang katangian"
   },
   "ignoredDocumentLangCaptionLabel": {
-    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
+    "message": "Huwag paganahin ang pagsasalin kung ang katangian lang sa html elemento ng pahina ay tumutugma sa listahan. Maglagay ng mga tag ng wikang pinaghihiwalay ng kuwit."
   },
   "waitTimeLabel": {
-    "message": "Waiting time to translate"
+    "message": "Oras ng paghihintay para magsalin"
   },
   "waitTimeCaptionLabel": {
-    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+    "message": "Tukuyin ang oras ng paghihintay mula sa input ng isang character hanggang sa simula ng pagsasalin. (millisecond)"
   },
   "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
+    "message": "Kung isasalin mo ito nang maraming beses sa maikling panahon, maaari itong maging hindi magamit nang ilang sandali."
   },
   "menuLabel": {
-    "message": "Context menu"
+    "message": "Menu ng konteksto"
   },
   "ifShowMenuLabel": {
-    "message": "Display the context menu"
+    "message": "Ipakita ang menu ng konteksto"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+    "message": "Magdagdag ng mga item sa menu ng konteksto na ipinapakita kapag nag-right click sa web page o sa tab."
   },
   "pageTranslationLabel": {
     "message": "Translasyon ng pahina"
@@ -219,7 +219,7 @@
     "message": "Tab para ipakita ang resulta ng translasyon"
   },
   "pageTranslationOpenToCaptionLabel": {
-    "message": "Specify the tab to display the results of the page translation."
+    "message": "Tukuyin ang tab upang ipakita ang mga resulta ng pagsasalin ng pahina."
   },
   "newTabLabel": {
     "message": "Bagong tab"
@@ -228,73 +228,73 @@
     "message": "Kasalukuyang tab"
   },
   "styleLabel": {
-    "message": "Style"
+    "message": "Estilo"
   },
   "themeLabel": {
-    "message": "Theme"
+    "message": "Tema"
   },
   "themeCaptionLabel": {
-    "message": "Specify the color scheme."
+    "message": "Tukuyin ang skim ng kulay."
   },
   "lightLabel": {
-    "message": "Light"
+    "message": "Liwanag"
   },
   "darkLabel": {
-    "message": "Dark"
+    "message": "Madilim"
   },
   "systemLabel": {
-    "message": "System"
+    "message": "Sistema"
   },
   "buttonStyleLabel": {
-    "message": "Translation button"
+    "message": "Pindutan ng pagsasalin"
   },
   "buttonStyleCaptionLabel": {
-    "message": "Specify the style of the translation button displayed on the web page."
+    "message": "Tukuyin ang istilo ng pindutan ng pagsasalin na ipinapakita sa web page."
   },
   "buttonSizeLabel": {
-    "message": "Size"
+    "message": "Sukat"
   },
   "buttonPositionLabel": {
-    "message": "Display position"
+    "message": "Ipakita ang posisyon"
   },
   "topRightLabel": {
-    "message": "Top right"
+    "message": "Itaas sa kanan"
   },
   "bottomRightLabel": {
-    "message": "Bottom right"
+    "message": "Ibabang kanan"
   },
   "topLeftLabel": {
-    "message": "Top left"
+    "message": "Taas sa kaliwa"
   },
   "bottomLeftLabel": {
-    "message": "Bottom left"
+    "message": "Ibabang kaliwa"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "Taas"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "Baba"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "Kaliwa"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "Kanan"
   },
   "positionOffsetLabel": {
-    "message": "Display position - Offset"
+    "message": "Posisyon ng display - Offset"
   },
   "panelStyleLabel": {
-    "message": "Translation panel"
+    "message": "Panel ng pagsasalin"
   },
   "panelStyleCaptionLabel": {
-    "message": "Specify the style of the translation panel displayed on the web page."
+    "message": "Tukuyin ang istilo ng panel ng pagsasalin na ipinapakita sa web page."
   },
   "widthLabel": {
-    "message": "Width"
+    "message": "Lapad"
   },
   "heightLabel": {
-    "message": "Height"
+    "message": "Taas"
   },
   "fontSizeLabel": {
     "message": "Font size"

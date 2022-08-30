@@ -219,7 +219,7 @@
     "message": "번역 결과를 표시할 탭"
   },
   "pageTranslationOpenToCaptionLabel": {
-    "message": "Specify the tab to display the results of the page translation."
+    "message": "페이지 번역 결과를 표시할 탭을 지정합니다."
   },
   "newTabLabel": {
     "message": "새 탭"

@@ -227,6 +227,9 @@
   "darkLabel": {
     "message": "Σκούρο"
   },
+  "systemLabel": {
+    "message": "System"
+  },
   "buttonStyleLabel": {
     "message": "Κουμπί μετάφρασης"
   },
@@ -298,6 +301,9 @@
   },
   "resultFontColorLabel": {
     "message": "Χρώμα γραμματοσειράς του μεταφρασμένου κειμένου"
+  },
+  "isOverrideColorsLabel": {
+    "message": "Override default colors with colors below"
   },
   "candidateFontColorLabel": {
     "message": "Χρώμα γραμματοσειράς των υποψηφίων μεταφράσεων"

@@ -212,6 +212,21 @@
   "ifShowMenuCaptionLabel": {
     "message": "Προσθέστε στοιχεία στο μενού πλαισίου που εμφανίζεται όταν κάνετε δεξί κλικ στην ιστοσελίδα ή την καρτέλα."
   },
+  "pageTranslationLabel": {
+    "message": "Page translation"
+  },
+  "pageTranslationOpenToLabel": {
+    "message": "Tab to display translation results"
+  },
+  "pageTranslationOpenToCaptionLabel": {
+    "message": "Specify the tab to display the translation results when you excute \"Translate this page\"."
+  },
+  "newTabLabel": {
+    "message": "New tab"
+  },
+  "currentTabLabel": {
+    "message": "Current tab"
+  },
   "styleLabel": {
     "message": "Τεχνοτροπία"
   },
@@ -228,7 +243,7 @@
     "message": "Σκούρο"
   },
   "systemLabel": {
-    "message": "System"
+    "message": "Σύστημα"
   },
   "buttonStyleLabel": {
     "message": "Κουμπί μετάφρασης"
@@ -303,7 +318,7 @@
     "message": "Χρώμα γραμματοσειράς του μεταφρασμένου κειμένου"
   },
   "isOverrideColorsLabel": {
-    "message": "Override default colors with colors below"
+    "message": "Παράκαμψη των προεπιλεγμένων χρωμάτων με τα παρακάτω χρώματα"
   },
   "candidateFontColorLabel": {
     "message": "Χρώμα γραμματοσειράς των υποψηφίων μεταφράσεων"

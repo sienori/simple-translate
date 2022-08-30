@@ -222,10 +222,10 @@
     "message": "Specify the tab to display the results of the page translation."
   },
   "newTabLabel": {
-    "message": "New tab"
+    "message": "Ny fane"
   },
   "currentTabLabel": {
-    "message": "Current tab"
+    "message": "Gjeldande fane"
   },
   "styleLabel": {
     "message": "Stil"
@@ -318,7 +318,7 @@
     "message": "Skriftfarge til omsetjingsresultat"
   },
   "isOverrideColorsLabel": {
-    "message": "Override default colors with colors below"
+    "message": "Overstyr standardfargane med fargane nedanfor"
   },
   "candidateFontColorLabel": {
     "message": "Skriftfarge til omsetjingskandidat"

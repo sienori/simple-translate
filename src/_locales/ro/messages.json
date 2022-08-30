@@ -212,6 +212,21 @@
   "ifShowMenuCaptionLabel": {
     "message": "Adaugă obiecte in meniul contextual afișat atunci când se face click dreapta pe o pagină web sau pe un tab."
   },
+  "pageTranslationLabel": {
+    "message": "Page translation"
+  },
+  "pageTranslationOpenToLabel": {
+    "message": "Tab to display translation results"
+  },
+  "pageTranslationOpenToCaptionLabel": {
+    "message": "Specify the tab to display the translation results when you excute \"Translate this page\"."
+  },
+  "newTabLabel": {
+    "message": "New tab"
+  },
+  "currentTabLabel": {
+    "message": "Current tab"
+  },
   "styleLabel": {
     "message": "Stil"
   },

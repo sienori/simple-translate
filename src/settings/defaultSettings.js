@@ -300,6 +300,28 @@ export default [
     ]
   },
   {
+    category: "pageTranslationLabel",
+    elements: [
+      {
+        id: "pageTranslationOpenTo",
+        title: "pageTranslationOpenToLabel",
+        captions: ["pageTranslationOpenToCaptionLabel"],
+        type: "select",
+        default: "newTab",
+        options: [
+          {
+            name: "newTabLabel",
+            value: "newTab"
+          },
+          {
+            name: "currentTabLabel",
+            value: "currentTab"
+          },
+        ]
+      }
+    ]
+  },
+  {
     category: "styleLabel",
     elements: [
       {

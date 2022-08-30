@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import browser from "webextension-polyfill";
 import openUrl from "src/common/openUrl";
 import "../styles/Footer.scss";
+import { getSettings } from "../../settings/settings";
 
 export default class Footer extends Component {
   constructor(props) {
@@ -12,7 +13,8 @@ export default class Footer extends Component {
     const { tabUrl, targetLang } = this.props;
     const encodedUrl = encodeURIComponent(tabUrl);
     const translateUrl = `https://translate.google.com/translate?hl=${targetLang}&tl=${targetLang}&sl=auto&u=${encodedUrl}`;
-    openUrl(translateUrl);
+    const isCurrentTab = getSettings("pageTranslationOpenTo") === "currentTab";
+    openUrl(translateUrl, isCurrentTab);
   };
 
   handleChange = e => {

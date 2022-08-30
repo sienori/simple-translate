@@ -227,6 +227,9 @@
   "darkLabel": {
     "message": "Koyu"
   },
+  "systemLabel": {
+    "message": "System"
+  },
   "buttonStyleLabel": {
     "message": "Çeviri butonu"
   },
@@ -298,6 +301,9 @@
   },
   "resultFontColorLabel": {
     "message": "Paneldeki çevrilmiş metnin yazı tipi rengi"
+  },
+  "isOverrideColorsLabel": {
+    "message": "Override default colors with colors below"
   },
   "candidateFontColorLabel": {
     "message": "Kelimeye ait diğer anlamların yazı tipi rengi"

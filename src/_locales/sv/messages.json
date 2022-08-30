@@ -227,6 +227,9 @@
   "darkLabel": {
     "message": "Mörkt"
   },
+  "systemLabel": {
+    "message": "System"
+  },
   "buttonStyleLabel": {
     "message": "Översättningsknapp"
   },
@@ -298,6 +301,9 @@
   },
   "resultFontColorLabel": {
     "message": "Typsnittsfärg på översättningsresultatet"
+  },
+  "isOverrideColorsLabel": {
+    "message": "Override default colors with colors below"
   },
   "candidateFontColorLabel": {
     "message": "Typsnittsfärg på översättningskandidater"

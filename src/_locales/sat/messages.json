@@ -227,6 +227,9 @@
   "darkLabel": {
     "message": "ᱜᱟᱰ"
   },
+  "systemLabel": {
+    "message": "System"
+  },
   "buttonStyleLabel": {
     "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱵᱚᱴᱚᱱ"
   },
@@ -298,6 +301,9 @@
   },
   "resultFontColorLabel": {
     "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱨᱮᱡᱚᱞᱴ ᱞᱟᱹᱜᱤᱫ ᱯᱷᱚᱸᱴ ᱨᱚᱝ"
+  },
+  "isOverrideColorsLabel": {
+    "message": "Override default colors with colors below"
   },
   "candidateFontColorLabel": {
     "message": "ᱯᱷᱚᱸᱴ ᱨᱚᱝ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱷᱟᱹᱜᱤᱫᱟᱹᱨ ᱠᱚ ᱞᱟᱹᱜᱤᱫ"

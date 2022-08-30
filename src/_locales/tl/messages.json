@@ -219,7 +219,7 @@
     "message": "Tab para ipakita ang resulta ng translasyon"
   },
   "pageTranslationOpenToCaptionLabel": {
-    "message": "Tukuyin ang tab upang ipakita ang mga resulta ng pagsasalin kapag isinagawa mo ang \"Isalin ang pahinang ito\"."
+    "message": "Specify the tab to display the results of the page translation."
   },
   "newTabLabel": {
     "message": "Bagong tab"

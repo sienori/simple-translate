@@ -227,6 +227,9 @@
   "darkLabel": {
     "message": "අඳුරු"
   },
+  "systemLabel": {
+    "message": "System"
+  },
   "buttonStyleLabel": {
     "message": "පරිවර්තන බොත්තම"
   },
@@ -298,6 +301,9 @@
   },
   "resultFontColorLabel": {
     "message": "Font color of translation result"
+  },
+  "isOverrideColorsLabel": {
+    "message": "Override default colors with colors below"
   },
   "candidateFontColorLabel": {
     "message": "Font color of translation candidates"

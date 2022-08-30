@@ -203,7 +203,7 @@ export default class TranslatePanel extends Component {
               {splitLine(candidateText)}
             </p>
             {isError && (
-              <p className="simple-translate-error" style={candidateStyles}>
+              <p className="simple-translate-error">
                 {errorMessage}
                 <br />
                 <a href={translationApi === "google" ?

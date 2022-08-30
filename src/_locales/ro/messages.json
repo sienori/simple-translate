@@ -227,6 +227,9 @@
   "darkLabel": {
     "message": "Întunecat"
   },
+  "systemLabel": {
+    "message": "System"
+  },
   "buttonStyleLabel": {
     "message": "Butonul de traducere"
   },
@@ -298,6 +301,9 @@
   },
   "resultFontColorLabel": {
     "message": "Culoarea fontului rezultatului traducerii"
+  },
+  "isOverrideColorsLabel": {
+    "message": "Override default colors with colors below"
   },
   "candidateFontColorLabel": {
     "message": "Culoarea fontului variantelor de traducere"

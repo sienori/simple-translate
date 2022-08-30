@@ -21,7 +21,7 @@
     "message": "Ange text"
   },
   "showLink": {
-    "message": "Översätt denna sida"
+    "message": "Översätt den här sidan"
   },
   "openInGoogleLabel": {
     "message": "Öppna i Google Översätt"
@@ -213,19 +213,19 @@
     "message": "Lägg till objekt i innehållsmenyn som visas när du högerklickar på webbsidan eller fliken."
   },
   "pageTranslationLabel": {
-    "message": "Page translation"
+    "message": "Sidöversättning"
   },
   "pageTranslationOpenToLabel": {
-    "message": "Tab to display translation results"
+    "message": "Fliken för att visa översättningsresultat"
   },
   "pageTranslationOpenToCaptionLabel": {
-    "message": "Specify the tab to display the translation results when you excute \"Translate this page\"."
+    "message": "Specify the tab to display the results of the page translation."
   },
   "newTabLabel": {
-    "message": "New tab"
+    "message": "Ny flik"
   },
   "currentTabLabel": {
-    "message": "Current tab"
+    "message": "Aktuell flik"
   },
   "styleLabel": {
     "message": "Stil"
@@ -318,7 +318,7 @@
     "message": "Typsnittsfärg på översättningsresultatet"
   },
   "isOverrideColorsLabel": {
-    "message": "Override default colors with colors below"
+    "message": "Åsidosätt standardfärgerna med färgerna nedan"
   },
   "candidateFontColorLabel": {
     "message": "Typsnittsfärg på översättningskandidater"
@@ -450,7 +450,7 @@
     "message": "Fel: Okänt fel"
   },
   "translatePageMenu": {
-    "message": "Översätt denna sida"
+    "message": "Översätt den här sidan"
   },
   "translateTextMenu": {
     "message": "Översätt markerad text"

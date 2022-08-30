@@ -227,6 +227,9 @@
   "darkLabel": {
     "message": "ダーク"
   },
+  "systemLabel": {
+    "message": "System"
+  },
   "buttonStyleLabel": {
     "message": "翻訳ボタン"
   },
@@ -298,6 +301,9 @@
   },
   "resultFontColorLabel": {
     "message": "翻訳結果の文字色"
+  },
+  "isOverrideColorsLabel": {
+    "message": "Override default colors with colors below"
   },
   "candidateFontColorLabel": {
     "message": "翻訳候補の文字色"

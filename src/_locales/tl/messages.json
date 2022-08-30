@@ -212,6 +212,21 @@
   "ifShowMenuCaptionLabel": {
     "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
   },
+  "pageTranslationLabel": {
+    "message": "Translasyon ng pahina"
+  },
+  "pageTranslationOpenToLabel": {
+    "message": "Tab para ipakita ang resulta ng translasyon"
+  },
+  "pageTranslationOpenToCaptionLabel": {
+    "message": "Tukuyin ang tab upang ipakita ang mga resulta ng pagsasalin kapag isinagawa mo ang \"Isalin ang pahinang ito\"."
+  },
+  "newTabLabel": {
+    "message": "Bagong tab"
+  },
+  "currentTabLabel": {
+    "message": "Kasalukuyang tab"
+  },
   "styleLabel": {
     "message": "Style"
   },
@@ -324,97 +339,97 @@
     "message": "Paganahin ang mode debug"
   },
   "isDebugModeCaptionLabel": {
-    "message": "When debug mode is enabled, the log is output to the debugger."
+    "message": "Kapag ang debug mode ay gumagama, ang log ay napupunta sa debugger."
   },
   "exportSettingsLabel": {
-    "message": "Export settings"
+    "message": "Ilabas sa settings"
   },
   "exportSettingsCaptionLabel": {
-    "message": "Save the settings as a json file on the computer."
+    "message": "I-save ang settings nang naka-json file sa kompyuter."
   },
   "exportButtonLabel": {
-    "message": "Export"
+    "message": "Ilabas"
   },
   "importSettingsLabel": {
-    "message": "Import Settings"
+    "message": "Ipasok sa Settings"
   },
   "importSettingsCaptionLabel": {
-    "message": "Load the settings file saved on the computer."
+    "message": "I-load sa settings ng file na naka-save sa kompyuter."
   },
   "importButtonLabel": {
-    "message": "Import"
+    "message": "Ipasok"
   },
   "resetSettingsLabel": {
     "message": "Reset settings"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Restore all settings to default."
+    "message": "Ibalik lahat ang settings sa dati."
   },
   "resetSettingsButtonLabel": {
-    "message": "Reset"
+    "message": "Ibalik"
   },
   "shortcutsLabel": {
-    "message": "Shortcuts"
+    "message": "Mga shortcut"
   },
   "keyboardShortcutsLabel": {
-    "message": "Keyboard shortcuts"
+    "message": "Mga keyboard shortcut"
   },
   "setKeyboardShortCutsMessage": {
-    "message": "Set keyboard shortcuts."
+    "message": "Ayusin ang mga keyboard shortcut."
   },
   "typeShortcutMessage": {
-    "message": "Type a shortcut"
+    "message": "Maglagay ng shortcut"
   },
   "typeLetterMessage": {
-    "message": "Type a letter"
+    "message": "Maglagay ng letra"
   },
   "includeModifierKeysMessage": {
-    "message": "Include either Ctrl or Alt"
+    "message": "Kasama ang alin man sa Ctrl o Alt"
   },
   "includeMacModifierKeysMessage": {
-    "message": "Include either Command, Ctrl or Alt"
+    "message": "Kasama ang alin man sa Command, Ctrl o Alt"
   },
   "invalidLetterMessage": {
-    "message": "The letter can not be used"
+    "message": "Ang letra ay hindi magagamit"
   },
   "invalidShortcutMessage": {
-    "message": "The shortcut can not be used"
+    "message": "Ang shortcut ay hindi magagamit"
   },
   "clear": {
-    "message": "Clear"
+    "message": "Malinaw"
   },
   "reset": {
-    "message": "Reset"
+    "message": "Ibalik"
   },
   "informationLabel": {
-    "message": "Information"
+    "message": "Impormasyon"
   },
   "backersLabel": {
     "message": "Backers"
   },
   "licenseLabel": {
-    "message": "License"
+    "message": "Lisensya"
   },
   "donationLabel": {
-    "message": "Please make a donation"
+    "message": "Mangyaring mag-donate"
   },
   "donationCaptionLabel": {
-    "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+    "message": "Salamat sa paggamit ng Simple Translate.<br>Ang iyong suporta ay magiging isang malaking paghihikayat, habang patuloy kong ginagawa ang add-on.<br>Kung gusto mo ang Simple Translate, ako ay nalulugod kung maaari mong isaalang-alang ang pagbibigay ng donasyon."
   },
   "amazonTitleLabel": {
     "message": "amazon.co.jp eGift Cards"
   },
   "sponsorsLabel": {
-    "message": "Sponsors"
+    "message": "Mga sponsor"
   },
   "addonPageLabel": {
     "message": "Add-on page"
   },
   "extensionPageLabel": {
-    "message": "Extension page"
+    "message": "Karugtong na pahina"
   },
   "privacyPolicyLabel": {
-    "message": "Privacy policy"
+    "message": "Patakaran sa paglilihim"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
@@ -423,28 +438,28 @@
     "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
-    "message": "Error: Check network connection status."
+    "message": "Hindi maaari: Suriin ang status ng network connection."
   },
   "unavailableError": {
-    "message": "Error: Service usage limit reached. Please wait a while and try again."
+    "message": "Hindi maaari: Naabot na ang limitasyon sa paggamit ng serbisyo. Mangyaring maghintay ng ilang sandali at subukang muli."
   },
   "deeplAuthError": {
-    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
+    "message": "Hindi Maari: Nabigo ang pagpapatotoo ng DeepL API. Mangyaring itakda ang authentication key at magplano nang tama sa pahina ng mga setting."
   },
   "unknownError": {
-    "message": "Error: Unknown error"
+    "message": "Hindi Maari: Hindi kilalang mali"
   },
   "translatePageMenu": {
     "message": "Isalin ang pahinang ito"
   },
   "translateTextMenu": {
-    "message": "Translate selected text"
+    "message": "Isalin ang napiling salita"
   },
   "translateLinkMenu": {
-    "message": "Translate selected link"
+    "message": "Isalin ang sinilektang link"
   },
   "openPopupDescription": {
-    "message": "Open toolbar popup"
+    "message": "Buksan ang toolbar popup"
   },
   "lang_af": {
     "message": "Afrikaans"

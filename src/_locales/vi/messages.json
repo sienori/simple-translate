@@ -227,6 +227,9 @@
   "darkLabel": {
     "message": "Tối"
   },
+  "systemLabel": {
+    "message": "System"
+  },
   "buttonStyleLabel": {
     "message": "Nút dịch"
   },
@@ -298,6 +301,9 @@
   },
   "resultFontColorLabel": {
     "message": "Màu chữ của kết quả dịch"
+  },
+  "isOverrideColorsLabel": {
+    "message": "Override default colors with colors below"
   },
   "candidateFontColorLabel": {
     "message": "Màu chữ của đề cử dịch thuật"

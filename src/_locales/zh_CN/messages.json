@@ -227,6 +227,9 @@
   "darkLabel": {
     "message": "深色"
   },
+  "systemLabel": {
+    "message": "System"
+  },
   "buttonStyleLabel": {
     "message": "翻译按钮"
   },
@@ -298,6 +301,9 @@
   },
   "resultFontColorLabel": {
     "message": "翻译结果的字体颜色"
+  },
+  "isOverrideColorsLabel": {
+    "message": "Override default colors with colors below"
   },
   "candidateFontColorLabel": {
     "message": "翻译候选的字体颜色"

@@ -13,7 +13,7 @@ import {
 
 const getDefaultLangs = () => {
   const uiLang = browser.i18n.getUILanguage();
-  const langOptions = generateLangOptions();
+  const langOptions = generateLangOptions("google");
 
   const shouldUseUiLang = langOptions.some(lang => lang.value == uiLang);
   const targetLang = shouldUseUiLang ? uiLang : "en";

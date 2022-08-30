@@ -213,19 +213,19 @@
     "message": "將翻譯功能新增至右鍵選單。"
   },
   "pageTranslationLabel": {
-    "message": "Page translation"
+    "message": "網頁翻譯"
   },
   "pageTranslationOpenToLabel": {
-    "message": "Tab to display translation results"
+    "message": "分頁顯示翻譯結果"
   },
   "pageTranslationOpenToCaptionLabel": {
-    "message": "Specify the tab to display the translation results when you excute \"Translate this page\"."
+    "message": "Specify the tab to display the results of the page translation."
   },
   "newTabLabel": {
-    "message": "New tab"
+    "message": "新分頁"
   },
   "currentTabLabel": {
-    "message": "Current tab"
+    "message": "目前分頁"
   },
   "styleLabel": {
     "message": "樣式"

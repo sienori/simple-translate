@@ -3,154 +3,154 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
+    "message": "Mabilis na isalin ang napili o tinipang salita sa web pages. Suportahan ang Google Translate at DeepL API."
   },
   "donateWithPaypalLabel": {
-    "message": "Donate with PayPal"
+    "message": "Magbigay gamit ang PayPal"
   },
   "donateLabel": {
-    "message": "Donate"
+    "message": "Magbigay"
   },
   "enableOnThisPage": {
-    "message": "Enable translation on this page"
+    "message": "Paganahin ang pagsasalin sa pahinang ito"
   },
   "disableOnThisPage": {
-    "message": "Disable translation on this page"
+    "message": "Huwag paganahin ang pagsasalin sa pahinang ito"
   },
   "initialTextArea": {
-    "message": "Enter text"
+    "message": "Maglagay ng teksto"
   },
   "showLink": {
-    "message": "Translate this page"
+    "message": "Isalin ang pahinang ito"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "Buksan sa Google Translate"
   },
   "openInDeeplLabel": {
-    "message": "Open in DeepL Translator"
+    "message": "Buksan sa DeepL Translator"
   },
   "copyLabel": {
-    "message": "Copy"
+    "message": "Kopyahin"
   },
   "copiedLabel": {
-    "message": "Copied."
+    "message": "Nakopya na."
   },
   "listenLabel": {
-    "message": "Listen"
+    "message": "Makinig"
   },
   "targetLangLabel": {
-    "message": "Target language"
+    "message": "Target na lenggwahe"
   },
   "allLangLabel": {
-    "message": "All languages"
+    "message": "Lahat ng lenggwahe"
   },
   "recentLangLabel": {
-    "message": "Recent languages"
+    "message": "Kamakailang lenggwahe"
   },
   "settingsLabel": {
     "message": "Settings"
   },
   "generalLabel": {
-    "message": "General"
+    "message": "Pangkalahatan"
   },
   "translationApiLabel": {
-    "message": "Translation engine"
+    "message": "Makinista ng translasyon"
   },
   "googleApiLabel": {
-    "message": "Google translate API"
+    "message": "Ang translasyon ng API sa Google"
   },
   "googleApiCaptionLabel": {
-    "message": "Use Google Translate API. No registration is required."
+    "message": "Gamitin ang Google Translate API. Hindi na kailangang magrehistro."
   },
   "deeplApiLabel": {
     "message": "DeepL API"
   },
   "deeplApiCaptionLabel": {
-    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authentication key."
+    "message": "Gumamit ng DeepL API. Kailangan mong magrehistro sa DeepL API Free o DeepL API Pro para makakuha ng susi ng pagpapatunay."
   },
   "howToUseDeeplLabel": {
-    "message": "How to register DeepL API"
+    "message": "Paano magrehistro sa DeepL API"
   },
   "deeplPlanLabel": {
     "message": "DeepL API plan"
   },
   "deeplPlanCaptionLabel": {
-    "message": "Select the DeepL API plan for which you registered."
+    "message": "Piliin ang DeepL API plan na iyong nirehistruhan."
   },
   "deeplFreeLabel": {
     "message": "DeepL API Free"
   },
   "deeplProLabel": {
-    "message": "DeepL API Pro"
+    "message": "Deep API Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Authentication key"
+    "message": "Susi ng pagpapatunay"
   },
   "deeplAuthKeyCaptionLabel": {
-    "message": "Enter the authentication key for the DeepL API."
+    "message": "Ilagay ang susi ng pagpapatunay para sa DeepL API."
   },
   "targetLangCaptionLabel": {
-    "message": "Select the default target language."
+    "message": "Piliin ang depolt ng lenggwaheng target."
   },
   "webPageLabel": {
     "message": "Web page"
   },
   "ifShowCandidateLabel": {
-    "message": "Show translation candidates"
+    "message": "Ipakita ang pagpipiliang translasyon"
   },
   "ifShowCandidateCaptionLabel": {
-    "message": "Show multiple translation candidates when a single word is translated."
+    "message": "Ipakita ang iba't ibang pagpipilian kapag ang isang salita ay nasalin."
   },
   "whenSelectTextLabel": {
-    "message": "Behavior when selecting text"
+    "message": "Pag-uugali sa pagpili ng teksto"
   },
   "ifAutoTranslateLabel": {
-    "message": "Display translation panel"
+    "message": "Ipakita ang panel ng translasyon"
   },
   "ifAutoTranslateCaptionLabel": {
-    "message": "Directly display the translation panel without displaying the button."
+    "message": "Tuluyang ipakita ang panel translasyon nang hindi ipinapakita ang pindutan."
   },
   "ifShowButtonLabel": {
-    "message": "Display translation button"
+    "message": "Ipakita ang pindutan ng translasyon"
   },
   "ifShowButtonCaptionLabel": {
-    "message": "Display the translation button to open the panel when clicked."
+    "message": "Ipakita ang pindutan ng translasyon upang mabuksan ang panel kapag pinindot."
   },
   "dontshowbuttonlabel": {
-    "message": "Don't display button or panel"
+    "message": "Huwag ipakita ang pindutan o panel"
   },
   "dontshowbuttonCaptionlabel": {
-    "message": "Don't display the translation button or the translation panel."
+    "message": "Huwag ipakita ang pindutan ng translasyon o ang panel ng translasyon."
   },
   "ifCheckLangLabel": {
-    "message": "Do not display the button if translation is not required"
+    "message": "Huwag pinakita ang pindutan kung ang translasyon ay hindi kinakailangan"
   },
   "ifCheckLangCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+    "message": "Manmanan ang lenggwaheng ng piniling salita, at kung ito ay parehas sa target lenggwahe, ang pindutan ay hindi pinapakita."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+    "message": "Manmanan ang lenggwahe ng piniling salita, at kung parehas sa depolt target na lenggwahe, isalin ito sa pangalawang wika."
   },
   "disableTranslationLabel": {
-    "message": "Disable translation"
+    "message": "Huwag paganahin ang translasyon"
   },
   "isDisabledInTextFieldsLabel": {
-    "message": "Disable translation in text fields"
+    "message": "Huwag paganahin ang translasyon sa patlang ng mga salita"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in a text field."
+    "message": "Huwag ipakita ang pindutan ng translasyon o panel kapag pipili ng salita sa patlang."
   },
   "isDisabledInCodeElementLabel": {
-    "message": "Disable translation in code tags"
+    "message": "Huwag ipakita ang translasyon sa code tags"
   },
   "isDisabledInCodeElementCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in code tag."
+    "message": "Huwag ipakita ang pindutan ng translasyon o panel kapag pipili ng salita sa code tag."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Translate on modifier key pressed"
+    "message": "Isali sa modifier key pressed"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Only display translation on specified modifier key pressed."
+    "message": "Ipakita lang ang translasyon sa mga piling modifier key pressed."
   },
   "modifierKeyLabel": {
     "message": "Modifier Key"
@@ -303,25 +303,25 @@
     "message": "Font color of translation result"
   },
   "isOverrideColorsLabel": {
-    "message": "Override default colors with colors below"
+    "message": "I-overrayd ang depolt na kulay sa mga kulay na nasa ibaba"
   },
   "candidateFontColorLabel": {
-    "message": "Font color of translation candidates"
+    "message": "Kulay ng font ng pagpipiliang translasyon"
   },
   "bgColorLabel": {
-    "message": "Background color"
+    "message": "Kulay ng nasalikod"
   },
   "otherLabel": {
-    "message": "Other"
+    "message": "Iba"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Display option page when updating"
+    "message": "Ipakita ang pahinang opsyon kapag nag-a-apdeyt"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+    "message": "Ipakita ang pahina ng opsyon kapag ang Simple Translate ay na-update na. Maari mong i-update ang nilalaman nang mabilis."
   },
   "isDebugModeLabel": {
-    "message": "Enable debug mode"
+    "message": "Paganahin ang mode debug"
   },
   "isDebugModeCaptionLabel": {
     "message": "When debug mode is enabled, the log is output to the debugger."
@@ -435,7 +435,7 @@
     "message": "Error: Unknown error"
   },
   "translatePageMenu": {
-    "message": "Translate this page"
+    "message": "Isalin ang pahinang ito"
   },
   "translateTextMenu": {
     "message": "Translate selected text"

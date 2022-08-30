@@ -227,6 +227,9 @@
   "darkLabel": {
     "message": "Mørkt"
   },
+  "systemLabel": {
+    "message": "System"
+  },
   "buttonStyleLabel": {
     "message": "Omsetjingsknapp"
   },
@@ -298,6 +301,9 @@
   },
   "resultFontColorLabel": {
     "message": "Skriftfarge til omsetjingsresultat"
+  },
+  "isOverrideColorsLabel": {
+    "message": "Override default colors with colors below"
   },
   "candidateFontColorLabel": {
     "message": "Skriftfarge til omsetjingskandidat"

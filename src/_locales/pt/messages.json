@@ -213,19 +213,19 @@
     "message": "Adiciona itens ao menu contextual exibido ao clicar o botão direito na página ou aba."
   },
   "pageTranslationLabel": {
-    "message": "Page translation"
+    "message": "Tradução da página"
   },
   "pageTranslationOpenToLabel": {
-    "message": "Tab to display translation results"
+    "message": "Aba para mostrar os resultados da tradução"
   },
   "pageTranslationOpenToCaptionLabel": {
-    "message": "Specify the tab to display the results of the page translation."
+    "message": "Especificar a aba para exibir os resultados da tradução da página."
   },
   "newTabLabel": {
-    "message": "New tab"
+    "message": "Nova Aba"
   },
   "currentTabLabel": {
-    "message": "Current tab"
+    "message": "Aba atual"
   },
   "styleLabel": {
     "message": "Estilo"
@@ -243,7 +243,7 @@
     "message": "Escuro"
   },
   "systemLabel": {
-    "message": "System"
+    "message": "Sistema"
   },
   "buttonStyleLabel": {
     "message": "Botão traduzir"
@@ -318,7 +318,7 @@
     "message": "Color do texto traduzido"
   },
   "isOverrideColorsLabel": {
-    "message": "Override default colors with colors below"
+    "message": "Substituir as cores padrões com as cores abaixo"
   },
   "candidateFontColorLabel": {
     "message": "Cor do texto candidato à tradução"

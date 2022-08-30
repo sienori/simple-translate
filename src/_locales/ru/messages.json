@@ -227,6 +227,9 @@
   "darkLabel": {
     "message": "Тёмная"
   },
+  "systemLabel": {
+    "message": "System"
+  },
   "buttonStyleLabel": {
     "message": "Кнопка перевода"
   },
@@ -298,6 +301,9 @@
   },
   "resultFontColorLabel": {
     "message": "Цвет шрифта перевода"
+  },
+  "isOverrideColorsLabel": {
+    "message": "Override default colors with colors below"
   },
   "candidateFontColorLabel": {
     "message": "Цвет шрифта вариантов перевода"

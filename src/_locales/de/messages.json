@@ -212,6 +212,21 @@
   "ifShowMenuCaptionLabel": {
     "message": "Fügen Sie Elemente zu dem Kontextmenü hinzu, das beim Rechtsklick auf die Webseite oder dem Tab angezeigt wird."
   },
+  "pageTranslationLabel": {
+    "message": "Page translation"
+  },
+  "pageTranslationOpenToLabel": {
+    "message": "Tab to display translation results"
+  },
+  "pageTranslationOpenToCaptionLabel": {
+    "message": "Specify the tab to display the translation results when you excute \"Translate this page\"."
+  },
+  "newTabLabel": {
+    "message": "New tab"
+  },
+  "currentTabLabel": {
+    "message": "Current tab"
+  },
   "styleLabel": {
     "message": "Erscheinungsbild"
   },

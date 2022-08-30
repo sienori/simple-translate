@@ -212,6 +212,21 @@
   "ifShowMenuCaptionLabel": {
     "message": "Ajoute des éléments au menu contextuel affiché lorsque vous cliquez avec le bouton droit sur la page Web ou l'onglet."
   },
+  "pageTranslationLabel": {
+    "message": "Page translation"
+  },
+  "pageTranslationOpenToLabel": {
+    "message": "Tab to display translation results"
+  },
+  "pageTranslationOpenToCaptionLabel": {
+    "message": "Specify the tab to display the translation results when you excute \"Translate this page\"."
+  },
+  "newTabLabel": {
+    "message": "New tab"
+  },
+  "currentTabLabel": {
+    "message": "Current tab"
+  },
   "styleLabel": {
     "message": "Style"
   },
@@ -228,7 +243,7 @@
     "message": "Sombre"
   },
   "systemLabel": {
-    "message": "System"
+    "message": "Systèmes"
   },
   "buttonStyleLabel": {
     "message": "Bouton de traduction"

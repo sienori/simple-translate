@@ -2,6 +2,14 @@ import React from "react";
 import browser from "webextension-polyfill";
 import generateLangOptions from "src/common/generateLangOptions";
 import { getSettings, setSettings } from "./settings";
+import {
+  RESULT_FONT_COLOR_LIGHT,
+  RESULT_FONT_COLOR_DARK,
+  CANDIDATE_FONT_COLOR_LIGHT,
+  CANDIDATE_FONT_COLOR_DARK,
+  BG_COLOR_LIGHT,
+  BG_COLOR_DARK
+} from "./defaultColors"
 
 const getDefaultLangs = () => {
   const uiLang = browser.i18n.getUILanguage();
@@ -300,7 +308,7 @@ export default [
         title: "themeLabel",
         captions: ["themeCaptionLabel"],
         type: "select",
-        default: getTheme(),
+        default: 'system', 
         options: [
           {
             name: "lightLabel",
@@ -309,6 +317,10 @@ export default [
           {
             name: "darkLabel",
             value: "dark"
+          },
+          {
+            name: "systemLabel",
+            value: "system"
           }
         ]
       },
@@ -480,26 +492,39 @@ export default [
             placeholder: 10
           },
           {
+            id: "isOverrideColors",
+            title: "isOverrideColorsLabel",
+            captions: [],
+            type: "checkbox",
+            default: false
+          },
+          {
             id: "resultFontColor",
             title: "resultFontColorLabel",
             captions: [],
             type: "color",
-            default: getTheme() === "light" ? "#000000" : "#e6e6e6"
+            default:
+              getTheme() === "light"
+                ? RESULT_FONT_COLOR_LIGHT
+                : RESULT_FONT_COLOR_DARK,
           },
           {
             id: "candidateFontColor",
             title: "candidateFontColorLabel",
             captions: [],
             type: "color",
-            default: getTheme() === "light" ? "#737373" : "#aaaaaa"
+            default:
+              getTheme() === "light"
+                ? CANDIDATE_FONT_COLOR_LIGHT
+                : CANDIDATE_FONT_COLOR_DARK,
           },
           {
             id: "bgColor",
             title: "bgColorLabel",
             captions: [],
             type: "color",
-            default: getTheme() === "light" ? "#ffffff" : "#181818"
-          }
+            default: getTheme() === "light" ? BG_COLOR_LIGHT : BG_COLOR_DARK,
+          },
         ]
       }
     ]

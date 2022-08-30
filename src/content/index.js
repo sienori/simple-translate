@@ -216,7 +216,9 @@ const showTranslateContainer = (
   if (element) return;
   if (!isEnabled) return;
 
-  document.body.insertAdjacentHTML("beforeend", "<div id='simple-translate'></div>");
+  const themeClass = getSettings("theme") + "-theme";
+
+  document.body.insertAdjacentHTML("beforeend", `<div id="simple-translate" class="${themeClass}"></div>`);
   ReactDOM.render(
     <TranslateContainer
       removeContainer={removeTranslatecontainer}

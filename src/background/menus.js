@@ -15,10 +15,9 @@ export const showMenus = () => {
 export const onMenusShownListener = (info, tab) => {
   //テキストまたはリンクの選択時はページ翻訳を非表示にする
   if (info.contexts.includes("selection") || info.contexts.includes("link")) {
-    //passwordにすることで事実上無効にする
-    browser.contextMenus.update("translatePage", { contexts: ["password"] });
+    browser.contextMenus.update("translatePage", { visible: false });
   } else {
-    browser.contextMenus.update("translatePage", { contexts: ["all"] });
+    browser.contextMenus.update("translatePage", { visible: true });
   }
   browser.contextMenus.refresh();
 };
@@ -52,7 +51,8 @@ function createMenus() {
   browser.contextMenus.create({
     id: "translatePage",
     title: browser.i18n.getMessage("translatePageMenu"),
-    contexts: ["all"]
+    contexts: ["all"],
+    visible: true
   });
 
   browser.contextMenus.create({

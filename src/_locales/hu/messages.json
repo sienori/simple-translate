@@ -212,6 +212,21 @@
   "ifShowMenuCaptionLabel": {
     "message": "Elemek hozzáadása a helyi menübe, amikor jobb egérgombbal kattint a weboldalra vagy a lapra."
   },
+  "pageTranslationLabel": {
+    "message": "Page translation"
+  },
+  "pageTranslationOpenToLabel": {
+    "message": "Tab to display translation results"
+  },
+  "pageTranslationOpenToCaptionLabel": {
+    "message": "Specify the tab to display the translation results when you excute \"Translate this page\"."
+  },
+  "newTabLabel": {
+    "message": "New tab"
+  },
+  "currentTabLabel": {
+    "message": "Current tab"
+  },
   "styleLabel": {
     "message": "Stílus"
   },

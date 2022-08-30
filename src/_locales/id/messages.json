@@ -227,6 +227,9 @@
   "darkLabel": {
     "message": "Gelap"
   },
+  "systemLabel": {
+    "message": "System"
+  },
   "buttonStyleLabel": {
     "message": "Tombol terjemahan"
   },
@@ -298,6 +301,9 @@
   },
   "resultFontColorLabel": {
     "message": "Warna font hasil terjemahan"
+  },
+  "isOverrideColorsLabel": {
+    "message": "Override default colors with colors below"
   },
   "candidateFontColorLabel": {
     "message": "Warna font kandidat terjemahan"

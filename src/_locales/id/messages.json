@@ -212,6 +212,21 @@
   "ifShowMenuCaptionLabel": {
     "message": "Tambah item ke tampilan menu konteks saat mengklik kanan di halaman web atau tab."
   },
+  "pageTranslationLabel": {
+    "message": "Page translation"
+  },
+  "pageTranslationOpenToLabel": {
+    "message": "Tab to display translation results"
+  },
+  "pageTranslationOpenToCaptionLabel": {
+    "message": "Specify the tab to display the translation results when you excute \"Translate this page\"."
+  },
+  "newTabLabel": {
+    "message": "New tab"
+  },
+  "currentTabLabel": {
+    "message": "Current tab"
+  },
   "styleLabel": {
     "message": "Gaya"
   },

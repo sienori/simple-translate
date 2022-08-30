@@ -227,6 +227,9 @@
   "darkLabel": {
     "message": "어두운 테마"
   },
+  "systemLabel": {
+    "message": "System"
+  },
   "buttonStyleLabel": {
     "message": "번역 버튼"
   },
@@ -298,6 +301,9 @@
   },
   "resultFontColorLabel": {
     "message": "번역 결과의 글꼴 색"
+  },
+  "isOverrideColorsLabel": {
+    "message": "Override default colors with colors below"
   },
   "candidateFontColorLabel": {
     "message": "다른 번역의 글꼴 색"

@@ -6,7 +6,7 @@
     "message": "Быстро переводите выделенный или набранный текст на веб-страницах. Поддерживается Google Переводчик и DeepL API."
   },
   "donateWithPaypalLabel": {
-    "message": "Сделать пожертвование через PayPal"
+    "message": "Пожертвование через PayPal"
   },
   "donateLabel": {
     "message": "Пожертвовать"
@@ -57,7 +57,7 @@
     "message": "Система перевода"
   },
   "googleApiLabel": {
-    "message": "Google translate API"
+    "message": "Google Переводчик API"
   },
   "googleApiCaptionLabel": {
     "message": "Использовать Google Translate API. Регистрация не требуется."
@@ -189,7 +189,7 @@
     "message": "Выберите дополнительный язык перевода."
   },
   "ignoredDocumentLangLabel": {
-    "message": "Отключить перевод по хтмл аттрибуту"
+    "message": "Отключить перевод по аттрибуту lang"
   },
   "ignoredDocumentLangCaptionLabel": {
     "message": "Отключить перевод если язык страницы совпадает с языком в списке. Введите список языков через запятую."
@@ -212,6 +212,21 @@
   "ifShowMenuCaptionLabel": {
     "message": "Добавить команды перевода в контекстное меню веб-страницы и контекстное меню вкладки."
   },
+  "pageTranslationLabel": {
+    "message": "Перевод страницы"
+  },
+  "pageTranslationOpenToLabel": {
+    "message": "Вкладка для отображения результатов перевода"
+  },
+  "pageTranslationOpenToCaptionLabel": {
+    "message": "Укажите вкладку для отображения результатов перевода страницы."
+  },
+  "newTabLabel": {
+    "message": "Новая вкладка"
+  },
+  "currentTabLabel": {
+    "message": "Текущая вкладка"
+  },
   "styleLabel": {
     "message": "Стиль"
   },
@@ -226,6 +241,9 @@
   },
   "darkLabel": {
     "message": "Тёмная"
+  },
+  "systemLabel": {
+    "message": "Системные"
   },
   "buttonStyleLabel": {
     "message": "Кнопка перевода"
@@ -298,6 +316,9 @@
   },
   "resultFontColorLabel": {
     "message": "Цвет шрифта перевода"
+  },
+  "isOverrideColorsLabel": {
+    "message": "Переопределить цвета по умолчанию цветами ниже"
   },
   "candidateFontColorLabel": {
     "message": "Цвет шрифта вариантов перевода"
@@ -486,7 +507,7 @@
     "message": "Китайский (упрощенный)"
   },
   "lang_zh_TW": {
-    "message": "Китайский (Традиционный)"
+    "message": "Китайский (традиционный)"
   },
   "lang_co": {
     "message": "Корсиканский"

@@ -41,9 +41,9 @@
     flex-direction: row;
     justify-content: flex-end;
     margin-top: 1em;
-    margin-right: 5px;
+    margin-inline-end: 5px;
     & > * {
-      margin-left: 10px;
+      margin-inline-start: 10px;
     }
   }
 }

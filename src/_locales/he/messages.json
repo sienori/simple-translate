@@ -54,106 +54,106 @@
     "message": "כללי"
   },
   "translationApiLabel": {
-    "message": "Translation engine"
+    "message": "מנוע תרגום"
   },
   "googleApiLabel": {
     "message": "Google translate API"
   },
   "googleApiCaptionLabel": {
-    "message": "Use Google Translate API. No registration is required."
+    "message": "שימוש ב-Google Translate API. רישום אינו נדרש."
   },
   "deeplApiLabel": {
     "message": "DeepL API"
   },
   "deeplApiCaptionLabel": {
-    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authentication key."
+    "message": "שימוש ב-DeepL API. ההרשמה נדרשת עם DeepL API חינמי או DeepL API Pro על מנת לקבל מפתח אימות."
   },
   "howToUseDeeplLabel": {
-    "message": "How to register DeepL API"
+    "message": "כיצד להרשם ל-DeepL API"
   },
   "deeplPlanLabel": {
-    "message": "DeepL API plan"
+    "message": "תוכנית DeepL API"
   },
   "deeplPlanCaptionLabel": {
-    "message": "Select the DeepL API plan for which you registered."
+    "message": "בחר את תוכנית  DeepL API שנרשמת אליה."
   },
   "deeplFreeLabel": {
-    "message": "DeepL API Free"
+    "message": "DeepL API חינמי"
   },
   "deeplProLabel": {
     "message": "DeepL API Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Authentication key"
+    "message": "מפתח אימות"
   },
   "deeplAuthKeyCaptionLabel": {
-    "message": "Enter the authentication key for the DeepL API."
+    "message": "הכנס את מפתח האימות עבור DeepL API."
   },
   "targetLangCaptionLabel": {
-    "message": "Select the default target language."
+    "message": "בחר את שפת ברירת המחדל לתרגם אליה טקסטים."
   },
   "webPageLabel": {
-    "message": "Web page"
+    "message": "דף אינטרנט"
   },
   "ifShowCandidateLabel": {
-    "message": "Show translation candidates"
+    "message": "הצג תרגומים שונים"
   },
   "ifShowCandidateCaptionLabel": {
-    "message": "Show multiple translation candidates when a single word is translated."
+    "message": "הצג תרגומים שונים רבים, כאשר מילה בודדת מתורגמת."
   },
   "whenSelectTextLabel": {
-    "message": "Behavior when selecting text"
+    "message": "התנהגות כאשר בוחרים טקסט"
   },
   "ifAutoTranslateLabel": {
-    "message": "Display translation panel"
+    "message": "הצגת פאנל התרגום"
   },
   "ifAutoTranslateCaptionLabel": {
-    "message": "Directly display the translation panel without displaying the button."
+    "message": "הצגת פאנל התרגום ישירות ללא כפתור."
   },
   "ifShowButtonLabel": {
-    "message": "Display translation button"
+    "message": "הצגת כפתור התרגום"
   },
   "ifShowButtonCaptionLabel": {
-    "message": "Display the translation button to open the panel when clicked."
+    "message": "הצגת כפתור התרגום, שפותח שלחיצה עליו מציגה את פאנל התרגום."
   },
   "dontshowbuttonlabel": {
-    "message": "Don't display button or panel"
+    "message": "לא יוצג כפתור או פאנל"
   },
   "dontshowbuttonCaptionlabel": {
-    "message": "Don't display the translation button or the translation panel."
+    "message": "לא יוצג כפתור או פאנל התרגום."
   },
   "ifCheckLangLabel": {
-    "message": "Do not display the button if translation is not required"
+    "message": "אל תציג כפתור או פאנל אם אינם נדרשים"
   },
   "ifCheckLangCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+    "message": "במידה וסומן טקסט בשפת היעד לתרגום, לא יוצג כפתור או פאנל התרגום."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+    "message": "במידה והטקסט שנבחר בשפת ברירת המחדל, תרגם אותו לשפה השניה."
   },
   "disableTranslationLabel": {
-    "message": "Disable translation"
+    "message": "השבתת תרגום"
   },
   "isDisabledInTextFieldsLabel": {
-    "message": "Disable translation in text fields"
+    "message": "השבת תרגום בשדות טקסט"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in a text field."
+    "message": "אל תציג כפתור או פאנל כאשר הטקסט הנבחר נמצא בתוך שדה."
   },
   "isDisabledInCodeElementLabel": {
-    "message": "Disable translation in code tags"
+    "message": "השבת תרגום בתוך תגית קוד"
   },
   "isDisabledInCodeElementCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in code tag."
+    "message": "אל תציג כפתור או פאנל כאשר הטקסט הנבחר נמצא בתוך תגית קוד."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Translate on modifier key pressed"
+    "message": "תרגם בלחיצה על מקש ברירה"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Only display translation on specified modifier key pressed."
+    "message": "הצגת התרגם תתבצע רק בזמן לחיצה על מקש הברירה."
   },
   "modifierKeyLabel": {
-    "message": "Modifier Key"
+    "message": "מקש הברירה"
   },
   "shiftLabel": {
     "message": "Shift"
@@ -168,25 +168,25 @@
     "message": "Command"
   },
   "disableUrlListLabel": {
-    "message": "URL list to disable translation"
+    "message": "דומיינים להשבתת התרגום"
   },
   "disableUrlListCaptionLabel": {
-    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
+    "message": "אם הדף נמצא באחד מהדומיינים הללו, התרגום בדף יושבת, הרשימה מאפשרת שימוש ב\"*\" לתווים כלליים."
   },
   "toolbarLabel": {
-    "message": "Toolbar popup"
+    "message": "חלון קופץ"
   },
   "ifChangeSecondLangLabel": {
-    "message": "Automatically switch to the second language"
+    "message": "מעבר אוטומטי לשפה שנייה"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+    "message": "במידה ונבחר טקסט בשפת היעד, הוא יתורגם לשפה השניה."
   },
   "secondTargetLangLabel": {
-    "message": "Second language"
+    "message": "שפה שניה"
   },
   "secondTargetLangCaptionLabel": {
-    "message": "Select the second target language."
+    "message": "בחר שפת מטרה שנייה."
   },
   "ignoredDocumentLangLabel": {
     "message": "Disable translation by lang attribute"
@@ -195,7 +195,7 @@
     "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
   },
   "waitTimeLabel": {
-    "message": "Waiting time to translate"
+    "message": "השהיית תרגום"
   },
   "waitTimeCaptionLabel": {
     "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
@@ -228,208 +228,208 @@
     "message": "Current tab"
   },
   "styleLabel": {
-    "message": "Style"
+    "message": "עיצוב"
   },
   "themeLabel": {
     "message": "ערכת נושא"
   },
   "themeCaptionLabel": {
-    "message": "Specify the color scheme."
+    "message": "בחא ערכת צבעים."
   },
   "lightLabel": {
-    "message": "Light"
+    "message": "מואר"
   },
   "darkLabel": {
-    "message": "Dark"
+    "message": "חשוך"
   },
   "systemLabel": {
     "message": "System"
   },
   "buttonStyleLabel": {
-    "message": "Translation button"
+    "message": "כפתור התרגום"
   },
   "buttonStyleCaptionLabel": {
-    "message": "Specify the style of the translation button displayed on the web page."
+    "message": "בחר את העיצוב של כפתור התרגום המוצג בדפי רשת."
   },
   "buttonSizeLabel": {
-    "message": "Size"
+    "message": "גודל"
   },
   "buttonPositionLabel": {
-    "message": "Display position"
+    "message": "מיקום תצוגה"
   },
   "topRightLabel": {
-    "message": "Top right"
+    "message": "למעלה ימין"
   },
   "bottomRightLabel": {
-    "message": "Bottom right"
+    "message": "למטה ימין"
   },
   "topLeftLabel": {
-    "message": "Top left"
+    "message": "למעלה שמאל"
   },
   "bottomLeftLabel": {
-    "message": "Bottom left"
+    "message": "למטה שמאל"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "למעלה"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "למטה"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "שמאל"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "ימין"
   },
   "positionOffsetLabel": {
-    "message": "Display position - Offset"
+    "message": "מיקום תצוגה - מרחק"
   },
   "panelStyleLabel": {
-    "message": "Translation panel"
+    "message": "פאנל התרגום"
   },
   "panelStyleCaptionLabel": {
-    "message": "Specify the style of the translation panel displayed on the web page."
+    "message": "בחר את עיצוב פאנל התרגום להצגה בדפי רשת."
   },
   "widthLabel": {
-    "message": "Width"
+    "message": "רוחב"
   },
   "heightLabel": {
-    "message": "Height"
+    "message": "גובה"
   },
   "fontSizeLabel": {
-    "message": "Font size"
+    "message": "גודל גופן"
   },
   "referencePointLabel": {
-    "message": "Display position - Reference point"
+    "message": "מיקום תצוגה - נקודת ייחוס"
   },
   "bottomSelectedTextLabel": {
-    "message": "Bottom of selected text"
+    "message": "מתחת לטקסט הנבחר"
   },
   "topSelectedTextLabel": {
-    "message": "Top of selected text"
+    "message": "מעל הטקסט הנבחר"
   },
   "clickedPointLabel": {
-    "message": "Clicked point"
+    "message": "נקודת הלחיצה"
   },
   "displayDirectionLabel": {
-    "message": "Display position - Direction"
+    "message": "מיקום תצוגה - כיוון"
   },
   "resultFontColorLabel": {
-    "message": "Font color of translation result"
+    "message": "צבע הכתב עבור תוצאת התרגום"
   },
   "isOverrideColorsLabel": {
     "message": "Override default colors with colors below"
   },
   "candidateFontColorLabel": {
-    "message": "Font color of translation candidates"
+    "message": "צבע הכתב עבור תרגומים נוספים"
   },
   "bgColorLabel": {
-    "message": "Background color"
+    "message": "צבע הרקע"
   },
   "otherLabel": {
-    "message": "Other"
+    "message": "שונות"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Display option page when updating"
+    "message": "הצגת דף האפשרויות בזמן עדכון"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+    "message": "הצגת דף האפשרויות כאשר Simple Translate מתעדכן. אתה יכול לדעת על תוכן העדכון במהירות."
   },
   "isDebugModeLabel": {
-    "message": "Enable debug mode"
+    "message": "אפשר מצב דיבוג"
   },
   "isDebugModeCaptionLabel": {
-    "message": "When debug mode is enabled, the log is output to the debugger."
+    "message": "כאשר מצב דיבוג מופעל, הלוגים נשלחים לדבגר."
   },
   "exportSettingsLabel": {
-    "message": "Export settings"
+    "message": "ייצוא אפשרויות"
   },
   "exportSettingsCaptionLabel": {
-    "message": "Save the settings as a json file on the computer."
+    "message": "שמור את האפשרויות כ-JSON על המחשב שלך."
   },
   "exportButtonLabel": {
-    "message": "Export"
+    "message": "ייצא"
   },
   "importSettingsLabel": {
-    "message": "Import Settings"
+    "message": "ייבוא הגדרות"
   },
   "importSettingsCaptionLabel": {
-    "message": "Load the settings file saved on the computer."
+    "message": "טען את קובץ ההגדרות מהמחשב שלך."
   },
   "importButtonLabel": {
-    "message": "Import"
+    "message": "ייבא"
   },
   "resetSettingsLabel": {
-    "message": "Reset settings"
+    "message": "אתחול ההגדרות"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Restore all settings to default."
+    "message": "אתחול כל ההגדרות לברירת המחדל."
   },
   "resetSettingsButtonLabel": {
-    "message": "Reset"
+    "message": "אתחל"
   },
   "shortcutsLabel": {
-    "message": "Shortcuts"
+    "message": "קיצורי דרך"
   },
   "keyboardShortcutsLabel": {
-    "message": "Keyboard shortcuts"
+    "message": "קיצורי מקלדת"
   },
   "setKeyboardShortCutsMessage": {
-    "message": "Set keyboard shortcuts."
+    "message": "הגדר קיצורי מקלדת."
   },
   "typeShortcutMessage": {
-    "message": "Type a shortcut"
+    "message": "הקש קיצור"
   },
   "typeLetterMessage": {
-    "message": "Type a letter"
+    "message": "הקלד תו"
   },
   "includeModifierKeysMessage": {
-    "message": "Include either Ctrl or Alt"
+    "message": "כלול Ctrl או Alt"
   },
   "includeMacModifierKeysMessage": {
-    "message": "Include either Command, Ctrl or Alt"
+    "message": "כלול אחד מהפקודות, Ctrl או Alt"
   },
   "invalidLetterMessage": {
-    "message": "The letter can not be used"
+    "message": "התו אינו יכול להיות בשימוש"
   },
   "invalidShortcutMessage": {
-    "message": "The shortcut can not be used"
+    "message": "הקיצור לא יכול להיות בשימוש"
   },
   "clear": {
-    "message": "Clear"
+    "message": "נקה"
   },
   "reset": {
-    "message": "Reset"
+    "message": "איתחול"
   },
   "informationLabel": {
-    "message": "Information"
+    "message": "מידע"
   },
   "backersLabel": {
-    "message": "Backers"
+    "message": "תומכים"
   },
   "licenseLabel": {
-    "message": "License"
+    "message": "רשיון"
   },
   "donationLabel": {
-    "message": "Please make a donation"
+    "message": "אנא תרום"
   },
   "donationCaptionLabel": {
-    "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+    "message": "תודה לך על השימוש ב-Simple Translate.<br>תמיכתך נותנת לנו הרבה עידוד, כדי שנוכל להמשיך לפתח את התוסף.<br>אם אתה אוהב אותנו, אשמח אם תשקול לתרום לנו."
   },
   "amazonTitleLabel": {
     "message": "amazon.co.jp eGift Cards"
   },
   "sponsorsLabel": {
-    "message": "Sponsors"
+    "message": "ספונסרים"
   },
   "addonPageLabel": {
-    "message": "Add-on page"
+    "message": "דף התוסף"
   },
   "extensionPageLabel": {
     "message": "Extension page"
   },
   "privacyPolicyLabel": {
-    "message": "Privacy policy"
+    "message": "מדיניות הפרטיות"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
@@ -438,10 +438,10 @@
     "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
-    "message": "Error: Check network connection status."
+    "message": "שגיאה: בדוק את חיבור הרשת שלך."
   },
   "unavailableError": {
-    "message": "Error: Service usage limit reached. Please wait a while and try again."
+    "message": "שגיאה: הגעת למגבל השימוש בשירות. אנא חכה ונסה שוב בהמשך."
   },
   "deeplAuthError": {
     "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
@@ -453,10 +453,10 @@
     "message": "תרגם דף זה"
   },
   "translateTextMenu": {
-    "message": "Translate selected text"
+    "message": "תרגם טקסט מסומן"
   },
   "translateLinkMenu": {
-    "message": "Translate selected link"
+    "message": "תרגם קישור מסומן"
   },
   "openPopupDescription": {
     "message": "Open toolbar popup"
@@ -567,7 +567,7 @@
     "message": "Hawaiian"
   },
   "lang_he": {
-    "message": "Hebrew"
+    "message": "עברית"
   },
   "lang_hi": {
     "message": "Hindi"

@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
+    "message": "Быстро переводите выделенный или набранный текст на веб-страницах. Поддерживается Google Переводчик и DeepL API."
   },
   "donateWithPaypalLabel": {
     "message": "Donasi dengan PayPal"
@@ -212,6 +212,21 @@
   "ifShowMenuCaptionLabel": {
     "message": "Tambah item ke tampilan menu konteks saat mengklik kanan di halaman web atau tab."
   },
+  "pageTranslationLabel": {
+    "message": "Page translation"
+  },
+  "pageTranslationOpenToLabel": {
+    "message": "Tab to display translation results"
+  },
+  "pageTranslationOpenToCaptionLabel": {
+    "message": "Specify the tab to display the results of the page translation."
+  },
+  "newTabLabel": {
+    "message": "New tab"
+  },
+  "currentTabLabel": {
+    "message": "Current tab"
+  },
   "styleLabel": {
     "message": "Gaya"
   },
@@ -226,6 +241,9 @@
   },
   "darkLabel": {
     "message": "Gelap"
+  },
+  "systemLabel": {
+    "message": "System"
   },
   "buttonStyleLabel": {
     "message": "Tombol terjemahan"
@@ -298,6 +316,9 @@
   },
   "resultFontColorLabel": {
     "message": "Warna font hasil terjemahan"
+  },
+  "isOverrideColorsLabel": {
+    "message": "Override default colors with colors below"
   },
   "candidateFontColorLabel": {
     "message": "Warna font kandidat terjemahan"
@@ -618,13 +639,13 @@
     "message": "Malagasy"
   },
   "lang_ms": {
-    "message": "Malay"
+    "message": "Malaysia"
   },
   "lang_ml": {
     "message": "Malayalam"
   },
   "lang_mt": {
-    "message": "Maltese"
+    "message": "Orang Malta"
   },
   "lang_mi": {
     "message": "Maori"

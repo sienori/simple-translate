@@ -33,6 +33,11 @@ const getTabInfo = async () => {
   }
 };
 
+const UILanguage =  browser.i18n.getUILanguage()
+const rtlLanguage = ['he', 'ar'].includes(UILanguage)
+const rtlLanguageClassName = rtlLanguage ? 'popup-page-rtl-language' : ''
+
+
 export default class PopupPage extends Component {
   constructor(props) {
     super(props);
@@ -166,7 +171,7 @@ export default class PopupPage extends Component {
 
   render() {
     return (
-      <div>
+      <div className={rtlLanguageClassName}>
         <Header
           toggleEnabledOnPage={this.toggleEnabledOnPage}
           isEnabledOnPage={this.state.isEnabledOnPage}

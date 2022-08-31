@@ -20,26 +20,31 @@
 
   .selectWrap {
     position: relative;
-    margin-left: 5px;
+    margin-inline-start: 5px;
     &:before {
       pointer-events: none;
       content: "";
       z-index: 1;
       position: absolute;
       top: 35%;
-      right: 7px;
+      inset-inline-end: 7px;
       width: 5px;
       height: 5px;
 
       transform: rotate(45deg);
+
+      .popup-page-rtl-language & {
+        transform: rotate(-45deg);
+      }
+
       border-bottom: 2px solid var(--sub-text);
-      border-right: 2px solid var(--sub-text);
+      border-inline-end: 2px solid var(--sub-text);
 
       transition: border-color 100ms ease-out;
     }
     &:hover::before {
       border-bottom: 2px solid var(--highlight);
-      border-right: 2px solid var(--highlight);
+      border-inline-end: 2px solid var(--highlight);
     }
 
     select {
@@ -51,7 +56,7 @@
       border: var(--button) solid 1px;
       border-radius: 2px;
       padding: 3px 5px;
-      padding-right: 20px;
+      padding-inline-end: 20px;
       width: 100%;
       transition: border-color 100ms ease-out;
       scrollbar-color: var(--button) var(--line);

@@ -43,7 +43,7 @@
         .react-toggle-thumb {
           height: 16px;
           width: 16px;
-          left: 0px;
+          inset-inline-start: 0px;
           -webkit-box-shadow: none;
           -moz-box-shadow: none;
           box-shadow: none;
@@ -57,7 +57,7 @@
             background-color: var(--highlight);
           }
           .react-toggle-thumb {
-            left: 34px - $offset-width;
+            inset-inline-start: 34px - $offset-width;
             border-color: var(--highlight);
           }
         }

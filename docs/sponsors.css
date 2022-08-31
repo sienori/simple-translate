@@ -4,7 +4,7 @@ body {
 
 img {
   height: 110px;
-  margin-right: 20px;
+  margin-inline-end: 20px;
 }
 
 a {

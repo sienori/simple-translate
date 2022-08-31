@@ -212,6 +212,21 @@
   "ifShowMenuCaptionLabel": {
     "message": "ページやタブ上で右クリックした時に表示されるコンテキストメニューに項目を追加します。"
   },
+  "pageTranslationLabel": {
+    "message": "ページ翻訳"
+  },
+  "pageTranslationOpenToLabel": {
+    "message": "翻訳結果を表示するタブ"
+  },
+  "pageTranslationOpenToCaptionLabel": {
+    "message": "ページ翻訳の結果を表示するタブを指定します。"
+  },
+  "newTabLabel": {
+    "message": "新しいタブ"
+  },
+  "currentTabLabel": {
+    "message": "現在のタブ"
+  },
   "styleLabel": {
     "message": "スタイル"
   },
@@ -226,6 +241,9 @@
   },
   "darkLabel": {
     "message": "ダーク"
+  },
+  "systemLabel": {
+    "message": "システム"
   },
   "buttonStyleLabel": {
     "message": "翻訳ボタン"
@@ -298,6 +316,9 @@
   },
   "resultFontColorLabel": {
     "message": "翻訳結果の文字色"
+  },
+  "isOverrideColorsLabel": {
+    "message": "デフォルトのテーマを以下の色で上書きする"
   },
   "candidateFontColorLabel": {
     "message": "翻訳候補の文字色"

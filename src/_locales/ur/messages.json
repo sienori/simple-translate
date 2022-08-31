@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
+    "message": "آقا ،استاد ،مالک."
   },
   "donateWithPaypalLabel": {
     "message": "پے پال کے ساتھ ادا کریں"
@@ -27,7 +27,7 @@
     "message": "گوگل ترجمے میں کھولیں"
   },
   "openInDeeplLabel": {
-    "message": "Open in DeepL Translator"
+    "message": "مالک"
   },
   "copyLabel": {
     "message": "کاپی"
@@ -212,6 +212,21 @@
   "ifShowMenuCaptionLabel": {
     "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
   },
+  "pageTranslationLabel": {
+    "message": "Page translation"
+  },
+  "pageTranslationOpenToLabel": {
+    "message": "Tab to display translation results"
+  },
+  "pageTranslationOpenToCaptionLabel": {
+    "message": "پیج کے نتائج ملاحظہ کرنے کے لئے ٹیب منتخب کریں۔"
+  },
+  "newTabLabel": {
+    "message": "New tab"
+  },
+  "currentTabLabel": {
+    "message": "Current tab"
+  },
   "styleLabel": {
     "message": "Style"
   },
@@ -226,6 +241,9 @@
   },
   "darkLabel": {
     "message": "Dark"
+  },
+  "systemLabel": {
+    "message": "System"
   },
   "buttonStyleLabel": {
     "message": "Translation button"
@@ -298,6 +316,9 @@
   },
   "resultFontColorLabel": {
     "message": "Font color of translation result"
+  },
+  "isOverrideColorsLabel": {
+    "message": "Override default colors with colors below"
   },
   "candidateFontColorLabel": {
     "message": "Font color of translation candidates"

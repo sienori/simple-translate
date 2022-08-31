@@ -219,7 +219,7 @@
     "message": "翻訳結果を表示するタブ"
   },
   "pageTranslationOpenToCaptionLabel": {
-    "message": "Specify the tab to display the results of the page translation."
+    "message": "ページ翻訳の結果を表示するタブを指定します。"
   },
   "newTabLabel": {
     "message": "新しいタブ"

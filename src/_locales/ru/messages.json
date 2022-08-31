@@ -213,19 +213,19 @@
     "message": "Добавить команды перевода в контекстное меню веб-страницы и контекстное меню вкладки."
   },
   "pageTranslationLabel": {
-    "message": "Page translation"
+    "message": "Перевод страницы"
   },
   "pageTranslationOpenToLabel": {
-    "message": "Tab to display translation results"
+    "message": "Вкладка для отображения результатов перевода"
   },
   "pageTranslationOpenToCaptionLabel": {
-    "message": "Specify the tab to display the results of the page translation."
+    "message": "Укажите вкладку для отображения результатов перевода страницы."
   },
   "newTabLabel": {
-    "message": "New tab"
+    "message": "Новая вкладка"
   },
   "currentTabLabel": {
-    "message": "Current tab"
+    "message": "Текущая вкладка"
   },
   "styleLabel": {
     "message": "Стиль"
@@ -243,7 +243,7 @@
     "message": "Тёмная"
   },
   "systemLabel": {
-    "message": "System"
+    "message": "Системные"
   },
   "buttonStyleLabel": {
     "message": "Кнопка перевода"
@@ -318,7 +318,7 @@
     "message": "Цвет шрифта перевода"
   },
   "isOverrideColorsLabel": {
-    "message": "Override default colors with colors below"
+    "message": "Переопределить цвета по умолчанию цветами ниже"
   },
   "candidateFontColorLabel": {
     "message": "Цвет шрифта вариантов перевода"

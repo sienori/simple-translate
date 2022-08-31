@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
+    "message": "Ausgewählten oder eingegebenen Text schnell auf Webseiten übersetzen. Unterstützt Google Translate und DeepL API."
   },
   "donateWithPaypalLabel": {
     "message": "Spenden via PayPal"
@@ -27,7 +27,7 @@
     "message": "Öffne in Google Translate"
   },
   "openInDeeplLabel": {
-    "message": "Open in DeepL Translator"
+    "message": "In DeepL-Übersetzer öffnen"
   },
   "copyLabel": {
     "message": "Kopieren"
@@ -54,28 +54,28 @@
     "message": "Allgemein"
   },
   "translationApiLabel": {
-    "message": "Translation engine"
+    "message": "Übersetzungs-Engine"
   },
   "googleApiLabel": {
-    "message": "Google translate API"
+    "message": "Google Translate API"
   },
   "googleApiCaptionLabel": {
-    "message": "Use Google Translate API. No registration is required."
+    "message": "Google Translate API verwenden. Keine Registrierung erforderlich."
   },
   "deeplApiLabel": {
     "message": "DeepL API"
   },
   "deeplApiCaptionLabel": {
-    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authentication key."
+    "message": "Verwenden Sie die DeepL API. Sie müssen sich bei DeepL API Free oder DeepL API Pro registrieren, um einen Authentifizierungsschlüssel zu erhalten."
   },
   "howToUseDeeplLabel": {
-    "message": "How to register DeepL API"
+    "message": "Wie man die DeepL API registriert"
   },
   "deeplPlanLabel": {
-    "message": "DeepL API plan"
+    "message": "DeepL API Plan"
   },
   "deeplPlanCaptionLabel": {
-    "message": "Select the DeepL API plan for which you registered."
+    "message": "Wählen Sie den DeepL API Plan aus, für den Sie sich registriert haben."
   },
   "deeplFreeLabel": {
     "message": "DeepL API Free"
@@ -84,10 +84,10 @@
     "message": "DeepL API Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Authentication key"
+    "message": "Authentifizierungsschlüssel"
   },
   "deeplAuthKeyCaptionLabel": {
-    "message": "Enter the authentication key for the DeepL API."
+    "message": "Geben Sie den Authentifizierungsschlüssel für die DeepL-API ein."
   },
   "targetLangCaptionLabel": {
     "message": "Standardzielsprache wählen."
@@ -212,6 +212,21 @@
   "ifShowMenuCaptionLabel": {
     "message": "Fügen Sie Elemente zu dem Kontextmenü hinzu, das beim Rechtsklick auf die Webseite oder dem Tab angezeigt wird."
   },
+  "pageTranslationLabel": {
+    "message": "Page translation"
+  },
+  "pageTranslationOpenToLabel": {
+    "message": "Tab to display translation results"
+  },
+  "pageTranslationOpenToCaptionLabel": {
+    "message": "Specify the tab to display the results of the page translation."
+  },
+  "newTabLabel": {
+    "message": "New tab"
+  },
+  "currentTabLabel": {
+    "message": "Current tab"
+  },
   "styleLabel": {
     "message": "Erscheinungsbild"
   },
@@ -226,6 +241,9 @@
   },
   "darkLabel": {
     "message": "Dunkel"
+  },
+  "systemLabel": {
+    "message": "System"
   },
   "buttonStyleLabel": {
     "message": "Übersetzen-Knopf"
@@ -298,6 +316,9 @@
   },
   "resultFontColorLabel": {
     "message": "Schriftfarbe des Übersetzungsergebnisses"
+  },
+  "isOverrideColorsLabel": {
+    "message": "Override default colors with colors below"
   },
   "candidateFontColorLabel": {
     "message": "Schriftfarbe der Übersetzungskandidaten"
@@ -423,7 +444,7 @@
     "message": "Fehler: Service-Nutzungslimit erreicht. Bitte warten Sie einen Moment und versuchen Sie es erneut."
   },
   "deeplAuthError": {
-    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
+    "message": "Fehler: Authentifizierung der DeepL-API fehlgeschlagen. Bitte erstellen Sie den Authentifizierungsschlüssel korrekt auf der Einstellungsseite."
   },
   "unknownError": {
     "message": "Fehler: Unbekannter Fehler"
@@ -441,7 +462,7 @@
     "message": "Toolbar-Popup öffnen"
   },
   "lang_af": {
-    "message": "Afrikanisch"
+    "message": "Afrikaans"
   },
   "lang_sq": {
     "message": "Albanisch"
@@ -483,10 +504,10 @@
     "message": "Nyanja"
   },
   "lang_zh_CN": {
-    "message": "Chinese (Simplified)"
+    "message": "Chinesisch (vereinfacht)"
   },
   "lang_zh_TW": {
-    "message": "Chinese (Traditional)"
+    "message": "Chinesisch (traditionell)"
   },
   "lang_co": {
     "message": "Korsisch"
@@ -582,7 +603,7 @@
     "message": "Kasachisch"
   },
   "lang_km": {
-    "message": "Khmer"
+    "message": "Khmerisch"
   },
   "lang_rw": {
     "message": "Kinyarwanda"
@@ -642,7 +663,7 @@
     "message": "Birmanisch"
   },
   "lang_ne": {
-    "message": "Nepali"
+    "message": "Nepalesisch"
   },
   "lang_no": {
     "message": "Norwegisch"
@@ -699,7 +720,7 @@
     "message": "Slowenisch"
   },
   "lang_so": {
-    "message": "Somali"
+    "message": "Somalisch"
   },
   "lang_es": {
     "message": "Spanisch"
@@ -708,7 +729,7 @@
     "message": "Sundanesisch"
   },
   "lang_sw": {
-    "message": "Swahili"
+    "message": "Suaheli"
   },
   "lang_sv": {
     "message": "Schwedisch"
@@ -720,13 +741,13 @@
     "message": "Tadschikisch"
   },
   "lang_ta": {
-    "message": "Tamil"
+    "message": "Tamilisch"
   },
   "lang_tt": {
-    "message": "Tatar"
+    "message": "Tatarisch"
   },
   "lang_te": {
-    "message": "Telugu"
+    "message": "Teluguisisch"
   },
   "lang_th": {
     "message": "Thailändisch"
@@ -735,7 +756,7 @@
     "message": "Türkisch"
   },
   "lang_tk": {
-    "message": "Turkmen"
+    "message": "Turkmenisch"
   },
   "lang_uk": {
     "message": "Ukrainisch"
@@ -744,7 +765,7 @@
     "message": "Urdu"
   },
   "lang_ug": {
-    "message": "Uyghur"
+    "message": "Uigurisch"
   },
   "lang_uz": {
     "message": "Usbekisch"
@@ -768,18 +789,18 @@
     "message": "Zulu"
   },
   "lang_en_US": {
-    "message": "English (American)"
+    "message": "Englisch (USA)"
   },
   "lang_en_GB": {
-    "message": "English (British)"
+    "message": "Englisch (Großbritannien)"
   },
   "lang_pt_PT": {
     "message": "Portugiesisch"
   },
   "lang_pt_BR": {
-    "message": "Portuguese (Brazilian)"
+    "message": "Portugiesisch (Brasilianisch)"
   },
   "lang_zh": {
-    "message": "Chinese"
+    "message": "Chinesisch"
   }
 }

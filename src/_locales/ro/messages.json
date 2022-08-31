@@ -66,28 +66,28 @@
     "message": "API DeepL"
   },
   "deeplApiCaptionLabel": {
-    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authentication key."
+    "message": "Folosiți DeepL API. Trebuie să vă înregistrați cu DeepL API gratuit sau DeepL API Pro pentru a obține o cheie de autentificare."
   },
   "howToUseDeeplLabel": {
-    "message": "How to register DeepL API"
+    "message": "Cum să înregistrezi DeepL API"
   },
   "deeplPlanLabel": {
-    "message": "DeepL API plan"
+    "message": "Plan API DeepL"
   },
   "deeplPlanCaptionLabel": {
-    "message": "Select the DeepL API plan for which you registered."
+    "message": "Selectați planul API DeepL pentru care v-ați înregistrat."
   },
   "deeplFreeLabel": {
-    "message": "DeepL API Free"
+    "message": "API DeepL gratuit"
   },
   "deeplProLabel": {
     "message": "DeepL API Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Authentication key"
+    "message": "Cheie de autentificare"
   },
   "deeplAuthKeyCaptionLabel": {
-    "message": "Enter the authentication key for the DeepL API."
+    "message": "Introduceți cheia de autentificare pentru DeepL API."
   },
   "targetLangCaptionLabel": {
     "message": "Selectați limba țintă implicită."
@@ -212,6 +212,21 @@
   "ifShowMenuCaptionLabel": {
     "message": "Adaugă obiecte in meniul contextual afișat atunci când se face click dreapta pe o pagină web sau pe un tab."
   },
+  "pageTranslationLabel": {
+    "message": "Traducere pagină"
+  },
+  "pageTranslationOpenToLabel": {
+    "message": "Fila pentru a afișa rezultatele traducerii"
+  },
+  "pageTranslationOpenToCaptionLabel": {
+    "message": "Specificați fila pentru a afișa rezultatele traducerii paginii."
+  },
+  "newTabLabel": {
+    "message": "Filă nouă"
+  },
+  "currentTabLabel": {
+    "message": "Fila curentă"
+  },
   "styleLabel": {
     "message": "Stil"
   },
@@ -226,6 +241,9 @@
   },
   "darkLabel": {
     "message": "Întunecat"
+  },
+  "systemLabel": {
+    "message": "Sistem"
   },
   "buttonStyleLabel": {
     "message": "Butonul de traducere"
@@ -298,6 +316,9 @@
   },
   "resultFontColorLabel": {
     "message": "Culoarea fontului rezultatului traducerii"
+  },
+  "isOverrideColorsLabel": {
+    "message": "Suprascrie culorile implicite cu culori de mai jos"
   },
   "candidateFontColorLabel": {
     "message": "Culoarea fontului variantelor de traducere"
@@ -423,7 +444,7 @@
     "message": "Eroare: Limita utilizării serviciului a fost atinsă. Te rog așteaptă puțin, apoi încearcă din nou."
   },
   "deeplAuthError": {
-    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
+    "message": "Eroare: Autentificarea DeepL API a eșuat. Vă rugăm să setați corect cheia de autentificare și planul pe pagina de setări."
   },
   "unknownError": {
     "message": "Eroare: Eroare necunoscută"
@@ -483,10 +504,10 @@
     "message": "Chewa"
   },
   "lang_zh_CN": {
-    "message": "Chinese (Simplified)"
+    "message": "Chineză (simplificată)"
   },
   "lang_zh_TW": {
-    "message": "Chinese (Traditional)"
+    "message": "Chineză (Tradițională)"
   },
   "lang_co": {
     "message": "corsicană"
@@ -495,16 +516,16 @@
     "message": "esperanto"
   },
   "lang_cs": {
-    "message": "Czech"
+    "message": "Cehă"
   },
   "lang_da": {
-    "message": "Danish"
+    "message": "Daneză"
   },
   "lang_nl": {
-    "message": "Dutch"
+    "message": "Olandeză"
   },
   "lang_en": {
-    "message": "English"
+    "message": "Engleză"
   },
   "lang_eo": {
     "message": "Esperanto"
@@ -567,22 +588,22 @@
     "message": "khmeră"
   },
   "lang_it": {
-    "message": "Italian"
+    "message": "Italiană"
   },
   "lang_ja": {
-    "message": "Japanese"
+    "message": "Japoneză"
   },
   "lang_jv": {
-    "message": "Javanese"
+    "message": "Javaneză"
   },
   "lang_kn": {
     "message": "Kannada"
   },
   "lang_kk": {
-    "message": "Kazakh"
+    "message": "Kazahă"
   },
   "lang_km": {
-    "message": "Khmer"
+    "message": "Khmeră"
   },
   "lang_rw": {
     "message": "Kinyarwanda"
@@ -723,7 +744,7 @@
     "message": "tamilă"
   },
   "lang_tt": {
-    "message": "Tatar"
+    "message": "Tătară"
   },
   "lang_te": {
     "message": "telugu"
@@ -735,7 +756,7 @@
     "message": "turcă"
   },
   "lang_tk": {
-    "message": "Turkmen"
+    "message": "Turkmenă"
   },
   "lang_uk": {
     "message": "ucraineană"
@@ -744,7 +765,7 @@
     "message": "urdu"
   },
   "lang_ug": {
-    "message": "Uyghur"
+    "message": "Uiguri"
   },
   "lang_uz": {
     "message": "uzbecă"
@@ -768,18 +789,18 @@
     "message": "zulu"
   },
   "lang_en_US": {
-    "message": "English (American)"
+    "message": "Engleză (Americană)"
   },
   "lang_en_GB": {
-    "message": "English (British)"
+    "message": "Engleză (Britanică)"
   },
   "lang_pt_PT": {
     "message": "portugheză"
   },
   "lang_pt_BR": {
-    "message": "Portuguese (Brazilian)"
+    "message": "Portugheză (Braziliană)"
   },
   "lang_zh": {
-    "message": "Chinese"
+    "message": "Chineză"
   }
 }

@@ -6,10 +6,10 @@
     "message": "웹 페이지에서 선택하거나 입력한 텍스트를 빠르게 번역합니다. Google 번역 및 DeepL API를 지원합니다."
   },
   "donateWithPaypalLabel": {
-    "message": "PayPal로 기부하기"
+    "message": "PayPal로 기부"
   },
   "donateLabel": {
-    "message": "기부하기"
+    "message": "기부"
   },
   "enableOnThisPage": {
     "message": "이 페이지에서 번역 사용"
@@ -18,7 +18,7 @@
     "message": "이 페이지에서 번역 사용 안 함"
   },
   "initialTextArea": {
-    "message": "텍스트 입력"
+    "message": "텍스트를 입력하세요"
   },
   "showLink": {
     "message": "이 페이지 번역"
@@ -27,25 +27,25 @@
     "message": "Google 번역으로 열기"
   },
   "openInDeeplLabel": {
-    "message": "DeepL 번역에서 열기"
+    "message": "DeepL 번역으로 열기"
   },
   "copyLabel": {
     "message": "복사"
   },
   "copiedLabel": {
-    "message": "복사됨"
+    "message": "복사 완료"
   },
   "listenLabel": {
     "message": "듣기"
   },
   "targetLangLabel": {
-    "message": "번역 언어"
+    "message": "도착 언어"
   },
   "allLangLabel": {
     "message": "모든 언어"
   },
   "recentLangLabel": {
-    "message": "최근 사용한 언어"
+    "message": "최근 언어"
   },
   "settingsLabel": {
     "message": "설정"
@@ -60,22 +60,22 @@
     "message": "Google 번역 API"
   },
   "googleApiCaptionLabel": {
-    "message": "Google 번역 API를 사용합니다. 등록이 필요하지 않습니다."
+    "message": "Google 번역 API를 사용합니다. 가입이 필요하지 않습니다."
   },
   "deeplApiLabel": {
     "message": "DeepL API"
   },
   "deeplApiCaptionLabel": {
-    "message": "DeepL API를 사용합니다. 인증 키를 얻으려면 DeepL API Free 또는 DeepL API Pro에 등록해야 합니다."
+    "message": "DeepL API를 사용합니다. 인증 키를 획득하려면 DeepL API Free 또는 DeepL API Pro에 가입해야 합니다."
   },
   "howToUseDeeplLabel": {
-    "message": "DeepL API 등록 방법"
+    "message": "DeepL API 가입 방법"
   },
   "deeplPlanLabel": {
-    "message": "DeepL API 플랜"
+    "message": "DeepL API 요금제"
   },
   "deeplPlanCaptionLabel": {
-    "message": "등록한 DeepL API 플랜을 선택하세요."
+    "message": "가입한 DeepL API 요금제를 선택하세요."
   },
   "deeplFreeLabel": {
     "message": "DeepL API Free"
@@ -87,7 +87,7 @@
     "message": "인증 키"
   },
   "deeplAuthKeyCaptionLabel": {
-    "message": "DeepL API 인증 키를 입력하세요."
+    "message": "DeepL API 인증 키를 입력해 주세요."
   },
   "targetLangCaptionLabel": {
     "message": "기본 번역 언어를 선택하세요."
@@ -99,25 +99,25 @@
     "message": "다른 번역 보기"
   },
   "ifShowCandidateCaptionLabel": {
-    "message": "단어 번역시 단어가 가진 여러 의미를 함께 보여줍니다."
+    "message": "단어 번역 시 단어가 가진 여러 의미를 함께 보여줍니다."
   },
   "whenSelectTextLabel": {
-    "message": "텍스트가 선택되었을 때 동작"
+    "message": "텍스트가 선택되었을 때 할 동작"
   },
   "ifAutoTranslateLabel": {
-    "message": "번역 결과 창 보기"
+    "message": "번역 결과 창 표시하기"
   },
   "ifAutoTranslateCaptionLabel": {
     "message": "버튼 표시 없이 바로 번역 결과 창을 보여줍니다."
   },
   "ifShowButtonLabel": {
-    "message": "텍스트를 선택했을 때 번역 버튼 보여주기"
+    "message": "번역 버튼 표시하기"
   },
   "ifShowButtonCaptionLabel": {
     "message": "웹 페이지에서 텍스트를 선택했을 때 버튼을 보여줍니다."
   },
   "dontshowbuttonlabel": {
-    "message": "버튼 또는 창 보이지 않기"
+    "message": "버튼 또는 창 표시하지 않기"
   },
   "dontshowbuttonCaptionlabel": {
     "message": "버튼 또는 번역 창을 표시하지 않습니다."
@@ -212,6 +212,21 @@
   "ifShowMenuCaptionLabel": {
     "message": "웹 페이지 또는 탭을 마우스 오른쪽 클릭했을 때 나타나는 컨텍스트 메뉴에 항목을 추가합니다."
   },
+  "pageTranslationLabel": {
+    "message": "페이지 번역"
+  },
+  "pageTranslationOpenToLabel": {
+    "message": "번역 결과를 표시할 탭"
+  },
+  "pageTranslationOpenToCaptionLabel": {
+    "message": "페이지 번역 결과를 표시할 탭을 지정합니다."
+  },
+  "newTabLabel": {
+    "message": "새 탭"
+  },
+  "currentTabLabel": {
+    "message": "현재 탭"
+  },
   "styleLabel": {
     "message": "모양"
   },
@@ -226,6 +241,9 @@
   },
   "darkLabel": {
     "message": "어두운 테마"
+  },
+  "systemLabel": {
+    "message": "시스템"
   },
   "buttonStyleLabel": {
     "message": "번역 버튼"
@@ -285,10 +303,10 @@
     "message": "표시 위치 - 기준점"
   },
   "bottomSelectedTextLabel": {
-    "message": "선택된 텍스트 아래"
+    "message": "선택한 텍스트 하단"
   },
   "topSelectedTextLabel": {
-    "message": "선택된 텍스트 위"
+    "message": "선택한 텍스트 상단"
   },
   "clickedPointLabel": {
     "message": "클릭한 위치"
@@ -299,11 +317,14 @@
   "resultFontColorLabel": {
     "message": "번역 결과의 글꼴 색"
   },
+  "isOverrideColorsLabel": {
+    "message": "아래 색상으로 기본 색상 덮어쓰기"
+  },
   "candidateFontColorLabel": {
     "message": "다른 번역의 글꼴 색"
   },
   "bgColorLabel": {
-    "message": "배경색"
+    "message": "배경 색상"
   },
   "otherLabel": {
     "message": "기타"
@@ -330,7 +351,7 @@
     "message": "내보내기"
   },
   "importSettingsLabel": {
-    "message": "설정 불러오기"
+    "message": "설정 가져오기"
   },
   "importSettingsCaptionLabel": {
     "message": "컴퓨터에 저장된 설정을 불러옵니다."
@@ -393,7 +414,7 @@
     "message": "기부 해주세요"
   },
   "donationCaptionLabel": {
-    "message": "Simple Translator를 사용해 주셔서 감사합니다.<br>보내주신 지원은 제가 이 확장 프로그램을 지속적으로 개발하는데 큰 도움이 됩니다.<br>Simple Translator가 마음에 드신다면 기부를 고려해 주시길 부탁드립니다."
+    "message": "Simple Translator를 사용해 주셔서 감사합니다.<br>저를 지원해 주시면 이 확장 프로그램을 개발하는 데 큰 도움이 됩니다.<br>Simple Translator가 마음에 든다면 기부해 보시는 것도 추천합니다."
   },
   "amazonTitleLabel": {
     "message": "amazon.co.jp eGift 카드"
@@ -423,7 +444,7 @@
     "message": "오류: 서비스 이용 제한에 도달했습니다. 잠시 후 다시 시도해주세요."
   },
   "deeplAuthError": {
-    "message": "오류: DeepL API 인증에 실패했습니다. 설정 페이지에서 올바른 인증 키와 플랜을 설정하세요."
+    "message": "오류: DeepL API 인증에 실패했습니다. 설정 페이지에서 올바른 인증 키와 요금제를 설정하세요."
   },
   "unknownError": {
     "message": "오류: 알 수 없는 오류"
@@ -432,354 +453,354 @@
     "message": "이 페이지 번역하기"
   },
   "translateTextMenu": {
-    "message": "선택된 텍스트 번역하기"
+    "message": "선택한 문자 번역하기"
   },
   "translateLinkMenu": {
-    "message": "선택된 링크 번역하기"
+    "message": "선택한 링크 번역하기"
   },
   "openPopupDescription": {
     "message": "툴바 팝업 열기"
   },
   "lang_af": {
-    "message": "Afrikaans"
+    "message": "아프리칸스어"
   },
   "lang_sq": {
-    "message": "Albanian"
+    "message": "알바니아어"
   },
   "lang_am": {
-    "message": "Amharic"
+    "message": "암하라어"
   },
   "lang_ar": {
-    "message": "Arabic"
+    "message": "아랍어"
   },
   "lang_hy": {
-    "message": "Armenian"
+    "message": "아르메니아어"
   },
   "lang_az": {
-    "message": "Azerbaijani"
+    "message": "아제르바이잔어"
   },
   "lang_eu": {
-    "message": "Basque"
+    "message": "바스크어"
   },
   "lang_be": {
-    "message": "Belarusian"
+    "message": "벨라루스어"
   },
   "lang_bn": {
-    "message": "Bengali"
+    "message": "벵골어"
   },
   "lang_bs": {
-    "message": "Bosnian"
+    "message": "보스니아어"
   },
   "lang_bg": {
-    "message": "Bulgarian"
+    "message": "불가리아어"
   },
   "lang_ca": {
-    "message": "Catalan"
+    "message": "카탈로니아어"
   },
   "lang_ceb": {
-    "message": "Cebuano"
+    "message": "세부아노어"
   },
   "lang_ny": {
-    "message": "Chewa"
+    "message": "체와어"
   },
   "lang_zh_CN": {
-    "message": "Chinese (Simplified)"
+    "message": "중국어(간체)"
   },
   "lang_zh_TW": {
-    "message": "Chinese (Traditional)"
+    "message": "중국어(번체)"
   },
   "lang_co": {
-    "message": "Corsican"
+    "message": "코르시카어"
   },
   "lang_hr": {
-    "message": "Croatian"
+    "message": "크로아티아어"
   },
   "lang_cs": {
-    "message": "Czech"
+    "message": "체코어"
   },
   "lang_da": {
-    "message": "Danish"
+    "message": "덴마크어"
   },
   "lang_nl": {
-    "message": "Dutch"
+    "message": "네덜란드어"
   },
   "lang_en": {
-    "message": "English"
+    "message": "영어"
   },
   "lang_eo": {
-    "message": "Esperanto"
+    "message": "에스페란토어"
   },
   "lang_et": {
-    "message": "Estonian"
+    "message": "에스토니아어"
   },
   "lang_fi": {
-    "message": "Finnish"
+    "message": "핀란드어"
   },
   "lang_fr": {
-    "message": "French"
+    "message": "프랑스어"
   },
   "lang_fy": {
-    "message": "Frisian"
+    "message": "프리지아어"
   },
   "lang_gl": {
-    "message": "Galician"
+    "message": "갈리시아어"
   },
   "lang_ka": {
-    "message": "Georgian"
+    "message": "조지아어"
   },
   "lang_de": {
-    "message": "German"
+    "message": "독일어"
   },
   "lang_el": {
-    "message": "Greek"
+    "message": "그리스어"
   },
   "lang_gu": {
-    "message": "Gujarati"
+    "message": "구자라트어"
   },
   "lang_ht": {
-    "message": "Haitian"
+    "message": "아이티어"
   },
   "lang_ha": {
-    "message": "Hausa"
+    "message": "하우사어"
   },
   "lang_haw": {
-    "message": "Hawaiian"
+    "message": "하와이어"
   },
   "lang_he": {
-    "message": "Hebrew"
+    "message": "히브리어"
   },
   "lang_hi": {
-    "message": "Hindi"
+    "message": "힌디어"
   },
   "lang_hu": {
-    "message": "Hungarian"
+    "message": "헝가리어"
   },
   "lang_is": {
-    "message": "Icelandic"
+    "message": "아이슬란드어"
   },
   "lang_ig": {
-    "message": "Igbo"
+    "message": "이그보어"
   },
   "lang_id": {
-    "message": "Indonesian"
+    "message": "인도네시아어"
   },
   "lang_ga": {
-    "message": "Irish"
+    "message": "아일랜드어"
   },
   "lang_it": {
-    "message": "Italian"
+    "message": "이탈리아어"
   },
   "lang_ja": {
-    "message": "Japanese"
+    "message": "일본어"
   },
   "lang_jv": {
-    "message": "Javanese"
+    "message": "자바어"
   },
   "lang_kn": {
-    "message": "Kannada"
+    "message": "칸나다어"
   },
   "lang_kk": {
-    "message": "Kazakh"
+    "message": "카자흐스탄어"
   },
   "lang_km": {
-    "message": "Khmer"
+    "message": "크메르어"
   },
   "lang_rw": {
-    "message": "Kinyarwanda"
+    "message": "키니아르완다어"
   },
   "lang_ky": {
-    "message": "Kirghiz"
+    "message": "키르기스어"
   },
   "lang_ko": {
-    "message": "Korean"
+    "message": "한국어"
   },
   "lang_ku": {
-    "message": "Kurdish"
+    "message": "쿠르드어"
   },
   "lang_lo": {
-    "message": "Laotian"
+    "message": "라오스어"
   },
   "lang_la": {
-    "message": "Latin"
+    "message": "라틴어"
   },
   "lang_lv": {
-    "message": "Latvian"
+    "message": "라트비아어"
   },
   "lang_lt": {
-    "message": "Lithuanian"
+    "message": "리투아니아어"
   },
   "lang_lb": {
-    "message": "Luxembourgish"
+    "message": "룩셈부르크어"
   },
   "lang_mk": {
-    "message": "Macedonian"
+    "message": "마케도니아어"
   },
   "lang_mg": {
-    "message": "Malagasy"
+    "message": "말라가시어"
   },
   "lang_ms": {
-    "message": "Malay"
+    "message": "말레이어"
   },
   "lang_ml": {
-    "message": "Malayalam"
+    "message": "말라얄람어"
   },
   "lang_mt": {
-    "message": "Maltese"
+    "message": "몰타어"
   },
   "lang_mi": {
-    "message": "Maori"
+    "message": "마오리어"
   },
   "lang_mr": {
-    "message": "Marathi"
+    "message": "마라티어"
   },
   "lang_mn": {
-    "message": "Mongolian"
+    "message": "몽골어"
   },
   "lang_hmn": {
-    "message": "Monk"
+    "message": "몽크어"
   },
   "lang_my": {
-    "message": "Myanmar"
+    "message": "미얀마어"
   },
   "lang_ne": {
-    "message": "Nepali"
+    "message": "네팔어"
   },
   "lang_no": {
-    "message": "Norwegian"
+    "message": "노르웨이어"
   },
   "lang_or": {
-    "message": "Odia (Oriya)"
+    "message": "오리야어(오리야)"
   },
   "lang_fa": {
-    "message": "Persian"
+    "message": "페르시아어"
   },
   "lang_pl": {
-    "message": "Polish"
+    "message": "폴란드어"
   },
   "lang_pt": {
-    "message": "Portuguese"
+    "message": "포르투갈어"
   },
   "lang_pa": {
-    "message": "Punjabi"
+    "message": "펀자브어"
   },
   "lang_ps": {
-    "message": "Pushto"
+    "message": "파슈토어"
   },
   "lang_ro": {
-    "message": "Romanian"
+    "message": "루마니아어"
   },
   "lang_ru": {
-    "message": "Russian"
+    "message": "러시아어"
   },
   "lang_sm": {
-    "message": "Samoan"
+    "message": "사모아어"
   },
   "lang_gd": {
-    "message": "Scottish Gaelic"
+    "message": "스코틀랜드 게일어"
   },
   "lang_sr": {
-    "message": "Serbian"
+    "message": "세르비아어"
   },
   "lang_st": {
-    "message": "Sesotho"
+    "message": "북소토어"
   },
   "lang_sn": {
-    "message": "Shona"
+    "message": "쇼나어"
   },
   "lang_sd": {
-    "message": "Sindhi"
+    "message": "신드어"
   },
   "lang_si": {
-    "message": "Sinhala"
+    "message": "싱할라어"
   },
   "lang_sk": {
-    "message": "Slovak"
+    "message": "슬로바키아어"
   },
   "lang_sl": {
-    "message": "Slovenian"
+    "message": "슬로베니아어"
   },
   "lang_so": {
-    "message": "Somali"
+    "message": "소말리아어"
   },
   "lang_es": {
-    "message": "Spanish"
+    "message": "스페인어"
   },
   "lang_su": {
-    "message": "Sundanese"
+    "message": "순다어"
   },
   "lang_sw": {
-    "message": "Swahili"
+    "message": "스와힐리어"
   },
   "lang_sv": {
-    "message": "Swedish"
+    "message": "스웨덴어"
   },
   "lang_tl": {
-    "message": "Tagalog"
+    "message": "타갈로그어"
   },
   "lang_tg": {
-    "message": "Tajiki"
+    "message": "타지크어"
   },
   "lang_ta": {
-    "message": "Tamil"
+    "message": "타밀어"
   },
   "lang_tt": {
-    "message": "Tatar"
+    "message": "타타르어"
   },
   "lang_te": {
-    "message": "Telugu"
+    "message": "텔루구어"
   },
   "lang_th": {
-    "message": "Thai"
+    "message": "태국어"
   },
   "lang_tr": {
-    "message": "Turkish"
+    "message": "터키어"
   },
   "lang_tk": {
-    "message": "Turkmen"
+    "message": "투르크멘어"
   },
   "lang_uk": {
-    "message": "Ukrainian"
+    "message": "우크라이나어"
   },
   "lang_ur": {
-    "message": "Urdu"
+    "message": "우르두어"
   },
   "lang_ug": {
-    "message": "Uyghur"
+    "message": "위구르어"
   },
   "lang_uz": {
-    "message": "Uzbek"
+    "message": "우즈베크어"
   },
   "lang_vi": {
-    "message": "Vietnamese"
+    "message": "베트남어"
   },
   "lang_cy": {
-    "message": "Welsh"
+    "message": "웨일스어"
   },
   "lang_xh": {
-    "message": "Xosa"
+    "message": "코사어"
   },
   "lang_yi": {
-    "message": "Yiddish"
+    "message": "이디시어"
   },
   "lang_yo": {
-    "message": "Yoruba"
+    "message": "요루바어"
   },
   "lang_zu": {
-    "message": "Zulu"
+    "message": "줄루어"
   },
   "lang_en_US": {
-    "message": "English (American)"
+    "message": "영어(미국)"
   },
   "lang_en_GB": {
-    "message": "English (British)"
+    "message": "영어(영국)"
   },
   "lang_pt_PT": {
-    "message": "Portuguese"
+    "message": "포르투갈어"
   },
   "lang_pt_BR": {
-    "message": "Portuguese (Brazilian)"
+    "message": "포르투갈어(브라질)"
   },
   "lang_zh": {
-    "message": "Chinese"
+    "message": "중국어"
   }
 }

@@ -212,6 +212,21 @@
   "ifShowMenuCaptionLabel": {
     "message": "Afegiu elements al menú contextual que es mostra quan feu clic dret a la pàgina web o a la pestanya."
   },
+  "pageTranslationLabel": {
+    "message": "Page translation"
+  },
+  "pageTranslationOpenToLabel": {
+    "message": "Tab to display translation results"
+  },
+  "pageTranslationOpenToCaptionLabel": {
+    "message": "Specify the tab to display the results of the page translation."
+  },
+  "newTabLabel": {
+    "message": "New tab"
+  },
+  "currentTabLabel": {
+    "message": "Current tab"
+  },
   "styleLabel": {
     "message": "Estil"
   },
@@ -226,6 +241,9 @@
   },
   "darkLabel": {
     "message": "Dark"
+  },
+  "systemLabel": {
+    "message": "System"
   },
   "buttonStyleLabel": {
     "message": "Botó de traducció"
@@ -298,6 +316,9 @@
   },
   "resultFontColorLabel": {
     "message": "Color de la lletra del resultat de traducció"
+  },
+  "isOverrideColorsLabel": {
+    "message": "Override default colors with colors below"
   },
   "candidateFontColorLabel": {
     "message": "Color de la lletra dels canditats a traducció"

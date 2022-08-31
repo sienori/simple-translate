@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
+    "message": "Gyors fordító a weblapokon kijelölt vagy begépelt szövegekhez. Támogatja a Google Translate és a DeepL API szolgáltatásokat."
   },
   "donateWithPaypalLabel": {
     "message": "Adomány PayPal használatával"
@@ -27,7 +27,7 @@
     "message": "Megnyitás a Google Fordítóban"
   },
   "openInDeeplLabel": {
-    "message": "Open in DeepL Translator"
+    "message": "Megnyitás a DeepL Fordítóban"
   },
   "copyLabel": {
     "message": "Másolás"
@@ -36,16 +36,16 @@
     "message": "Másolva."
   },
   "listenLabel": {
-    "message": "Hallgat"
+    "message": "Meghallgatás"
   },
   "targetLangLabel": {
     "message": "Célnyelv"
   },
   "allLangLabel": {
-    "message": "All languages"
+    "message": "Minden nyelv"
   },
   "recentLangLabel": {
-    "message": "Recent languages"
+    "message": "Legutóbbi nyelvek"
   },
   "settingsLabel": {
     "message": "Beállítások"
@@ -54,28 +54,28 @@
     "message": "Általános"
   },
   "translationApiLabel": {
-    "message": "Translation engine"
+    "message": "Fordító felület"
   },
   "googleApiLabel": {
     "message": "Google translate API"
   },
   "googleApiCaptionLabel": {
-    "message": "Use Google Translate API. No registration is required."
+    "message": "A Google Translate API használata. Nincs szükség regisztrációra."
   },
   "deeplApiLabel": {
     "message": "DeepL API"
   },
   "deeplApiCaptionLabel": {
-    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authentication key."
+    "message": "A DeepL API használata. Regisztrációra van szükség a DeepL API Free vagy a DeepL API Pro szolgáltatásra a hitelesítő kulcs beszerzéséhez."
   },
   "howToUseDeeplLabel": {
-    "message": "How to register DeepL API"
+    "message": "Hogyan lehet regisztrálni a DeepL API szolgáltatásaira?"
   },
   "deeplPlanLabel": {
-    "message": "DeepL API plan"
+    "message": "DeepL API"
   },
   "deeplPlanCaptionLabel": {
-    "message": "Select the DeepL API plan for which you registered."
+    "message": "Válassza ki azt a DeepL API szolgáltatást melyre regisztrált."
   },
   "deeplFreeLabel": {
     "message": "DeepL API Free"
@@ -84,10 +84,10 @@
     "message": "DeepL API Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Authentication key"
+    "message": "Hitelesítő kulcs"
   },
   "deeplAuthKeyCaptionLabel": {
-    "message": "Enter the authentication key for the DeepL API."
+    "message": "Írja be a hitelesítő kulcsot a DeepL API használatához."
   },
   "targetLangCaptionLabel": {
     "message": "Válassza ki az alapértelmezett nyelvet."
@@ -132,7 +132,7 @@
     "message": "Felismeri a kijelölt szöveg nyelvét és ha az megegyezik az alapértelmezett célnyelvvel akkor a fordítás a második nyelvre történik."
   },
   "disableTranslationLabel": {
-    "message": "Disable translation"
+    "message": "Fordítás kikapcsilása"
   },
   "isDisabledInTextFieldsLabel": {
     "message": "Fordítás letiltása a szövegmezőkben"
@@ -141,10 +141,10 @@
     "message": "Ne jelenítse meg a fordítói gombot vagy panelt, amikor szöveget választ a szövegmezőben."
   },
   "isDisabledInCodeElementLabel": {
-    "message": "Disable translation in code tags"
+    "message": "Fordítás kikapcsolása a <code> cimkékben"
   },
   "isDisabledInCodeElementCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in code tag."
+    "message": "Ne jelenjen meg a fordító gomb vagy a panel amikor a kijelölt szöveg egy <code> cimkében található."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
     "message": "Fordítás a módosító billentyű lenyomásakor"
@@ -189,10 +189,10 @@
     "message": "Válassza ki a második célnyelvet."
   },
   "ignoredDocumentLangLabel": {
-    "message": "Disable translation by lang attribute"
+    "message": "Fordítás kikapcsolása adott 'lang' tulajdonság esetén"
   },
   "ignoredDocumentLangCaptionLabel": {
-    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
+    "message": "Fordítás kikapcsolása ha a weblap html elemében megadott 'lang' tulajdonság szerepel a listában. Vesszővel elválasztott listaként kell megadni a nyelvek cimkéit."
   },
   "waitTimeLabel": {
     "message": "Várakozási idő fordítás előtt"
@@ -212,6 +212,21 @@
   "ifShowMenuCaptionLabel": {
     "message": "Elemek hozzáadása a helyi menübe, amikor jobb egérgombbal kattint a weboldalra vagy a lapra."
   },
+  "pageTranslationLabel": {
+    "message": "Page translation"
+  },
+  "pageTranslationOpenToLabel": {
+    "message": "Tab to display translation results"
+  },
+  "pageTranslationOpenToCaptionLabel": {
+    "message": "Specify the tab to display the results of the page translation."
+  },
+  "newTabLabel": {
+    "message": "New tab"
+  },
+  "currentTabLabel": {
+    "message": "Current tab"
+  },
   "styleLabel": {
     "message": "Stílus"
   },
@@ -226,6 +241,9 @@
   },
   "darkLabel": {
     "message": "Sötét"
+  },
+  "systemLabel": {
+    "message": "System"
   },
   "buttonStyleLabel": {
     "message": "Fordító gomb"
@@ -299,6 +317,9 @@
   "resultFontColorLabel": {
     "message": "Fordítás színe"
   },
+  "isOverrideColorsLabel": {
+    "message": "Override default colors with colors below"
+  },
   "candidateFontColorLabel": {
     "message": "Fordítási javaslatok színe"
   },
@@ -321,22 +342,22 @@
     "message": "Ha a hibakeresési mód engedélyezve, a napló a hibakeresőbe íródik."
   },
   "exportSettingsLabel": {
-    "message": "Export settings"
+    "message": "Beállítások exportálása"
   },
   "exportSettingsCaptionLabel": {
-    "message": "Save the settings as a json file on the computer."
+    "message": "Beállítások mentése a számítógépre json formátumban."
   },
   "exportButtonLabel": {
-    "message": "Export"
+    "message": "Exportálás"
   },
   "importSettingsLabel": {
-    "message": "Import Settings"
+    "message": "Beállítások importálása"
   },
   "importSettingsCaptionLabel": {
-    "message": "Load the settings file saved on the computer."
+    "message": "Beállítások betöltése a számítógépre mentett fájlból."
   },
   "importButtonLabel": {
-    "message": "Import"
+    "message": "Importálás"
   },
   "resetSettingsLabel": {
     "message": "Alapbeállítások"
@@ -375,7 +396,7 @@
     "message": "Ez a billentyűparancs nem használható"
   },
   "clear": {
-    "message": "Tisztít"
+    "message": "Tisztítás"
   },
   "reset": {
     "message": "Visszaállítás"
@@ -387,7 +408,7 @@
     "message": "Támogatók"
   },
   "licenseLabel": {
-    "message": "Licensz"
+    "message": "Engedély"
   },
   "donationLabel": {
     "message": "Adomány"
@@ -399,7 +420,7 @@
     "message": "amazon.co.jp elektronikus ajándék kártya"
   },
   "sponsorsLabel": {
-    "message": "Sponsors"
+    "message": "Támogatók"
   },
   "addonPageLabel": {
     "message": "Bővítmény weboldala"
@@ -423,7 +444,7 @@
     "message": "Hiba: Szolgáltatás elérte a használati korlátot. Kérjük, várjon egy kicsit, majd próbálja újra."
   },
   "deeplAuthError": {
-    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
+    "message": "Hiba: A DeepL API hitelesítés sikertelen. Adja meg a megfelelő hitelesítési kulcsot és szolgáltatást a beállítási oldalon."
   },
   "unknownError": {
     "message": "Hiba: Ismeretlen hiba"
@@ -441,345 +462,345 @@
     "message": "Eszköztár felugró ablak megnyitása"
   },
   "lang_af": {
-    "message": "Afrikaans"
+    "message": "afrikaans"
   },
   "lang_sq": {
-    "message": "Albanian"
+    "message": "albán"
   },
   "lang_am": {
-    "message": "Amharic"
+    "message": "amhara"
   },
   "lang_ar": {
-    "message": "Arabic"
+    "message": "arab"
   },
   "lang_hy": {
-    "message": "Armenian"
+    "message": "örmény"
   },
   "lang_az": {
-    "message": "Azerbaijani"
+    "message": "azeri"
   },
   "lang_eu": {
-    "message": "Basque"
+    "message": "baszk"
   },
   "lang_be": {
-    "message": "Belarusian"
+    "message": "belorusz"
   },
   "lang_bn": {
-    "message": "Bengali"
+    "message": "bengáli"
   },
   "lang_bs": {
-    "message": "Bosnian"
+    "message": "bosnyák"
   },
   "lang_bg": {
-    "message": "Bulgarian"
+    "message": "bolgár"
   },
   "lang_ca": {
-    "message": "Catalan"
+    "message": "katalán"
   },
   "lang_ceb": {
-    "message": "Cebuano"
+    "message": "cebuano"
   },
   "lang_ny": {
-    "message": "Chewa"
+    "message": "cseva"
   },
   "lang_zh_CN": {
-    "message": "Chinese (Simplified)"
+    "message": "kínai (egyszerűsített)"
   },
   "lang_zh_TW": {
-    "message": "Chinese (Traditional)"
+    "message": "kínai (hagyományos)"
   },
   "lang_co": {
-    "message": "Corsican"
+    "message": "korzikai"
   },
   "lang_hr": {
-    "message": "Croatian"
+    "message": "horvát"
   },
   "lang_cs": {
-    "message": "Czech"
+    "message": "cseh"
   },
   "lang_da": {
-    "message": "Danish"
+    "message": "dán"
   },
   "lang_nl": {
-    "message": "Dutch"
+    "message": "holland"
   },
   "lang_en": {
-    "message": "English"
+    "message": "angol"
   },
   "lang_eo": {
-    "message": "Esperanto"
+    "message": "eszperantó"
   },
   "lang_et": {
-    "message": "Estonian"
+    "message": "észt"
   },
   "lang_fi": {
-    "message": "Finnish"
+    "message": "finn"
   },
   "lang_fr": {
-    "message": "French"
+    "message": "francia"
   },
   "lang_fy": {
-    "message": "Frisian"
+    "message": "fríz"
   },
   "lang_gl": {
-    "message": "Galician"
+    "message": "galíciai"
   },
   "lang_ka": {
-    "message": "Georgian"
+    "message": "grúz"
   },
   "lang_de": {
-    "message": "German"
+    "message": "német"
   },
   "lang_el": {
-    "message": "Greek"
+    "message": "görög"
   },
   "lang_gu": {
-    "message": "Gujarati"
+    "message": "gudzsaráti"
   },
   "lang_ht": {
-    "message": "Haitian"
+    "message": "haiti kreol"
   },
   "lang_ha": {
-    "message": "Hausa"
+    "message": "hausza"
   },
   "lang_haw": {
-    "message": "Hawaiian"
+    "message": "hawaii"
   },
   "lang_he": {
-    "message": "Hebrew"
+    "message": "héber"
   },
   "lang_hi": {
-    "message": "Hindi"
+    "message": "hindi"
   },
   "lang_hu": {
-    "message": "Hungarian"
+    "message": "magyar"
   },
   "lang_is": {
-    "message": "Icelandic"
+    "message": "izlandi"
   },
   "lang_ig": {
-    "message": "Igbo"
+    "message": "igbo"
   },
   "lang_id": {
-    "message": "Indonesian"
+    "message": "indonéz"
   },
   "lang_ga": {
-    "message": "Irish"
+    "message": "ír"
   },
   "lang_it": {
-    "message": "Italian"
+    "message": "olasz"
   },
   "lang_ja": {
-    "message": "Japanese"
+    "message": "japán"
   },
   "lang_jv": {
-    "message": "Javanese"
+    "message": "jávai"
   },
   "lang_kn": {
-    "message": "Kannada"
+    "message": "kannada"
   },
   "lang_kk": {
-    "message": "Kazakh"
+    "message": "kazah"
   },
   "lang_km": {
-    "message": "Khmer"
+    "message": "khmer"
   },
   "lang_rw": {
-    "message": "Kinyarwanda"
+    "message": "ruandai"
   },
   "lang_ky": {
-    "message": "Kirghiz"
+    "message": "kirgiz"
   },
   "lang_ko": {
-    "message": "Korean"
+    "message": "koreai"
   },
   "lang_ku": {
-    "message": "Kurdish"
+    "message": "kurd"
   },
   "lang_lo": {
-    "message": "Laotian"
+    "message": "lao"
   },
   "lang_la": {
-    "message": "Latin"
+    "message": "latin"
   },
   "lang_lv": {
-    "message": "Latvian"
+    "message": "lett"
   },
   "lang_lt": {
-    "message": "Lithuanian"
+    "message": "litván"
   },
   "lang_lb": {
-    "message": "Luxembourgish"
+    "message": "luxemburgi"
   },
   "lang_mk": {
-    "message": "Macedonian"
+    "message": "macedón"
   },
   "lang_mg": {
-    "message": "Malagasy"
+    "message": "malagaszi"
   },
   "lang_ms": {
-    "message": "Malay"
+    "message": "maláj"
   },
   "lang_ml": {
-    "message": "Malayalam"
+    "message": "malajálam"
   },
   "lang_mt": {
-    "message": "Maltese"
+    "message": "máltai"
   },
   "lang_mi": {
-    "message": "Maori"
+    "message": "maori"
   },
   "lang_mr": {
-    "message": "Marathi"
+    "message": "maráthi"
   },
   "lang_mn": {
-    "message": "Mongolian"
+    "message": "mongol"
   },
   "lang_hmn": {
-    "message": "Monk"
+    "message": "hmong"
   },
   "lang_my": {
-    "message": "Myanmar"
+    "message": "burmai"
   },
   "lang_ne": {
-    "message": "Nepali"
+    "message": "nepáli"
   },
   "lang_no": {
-    "message": "Norwegian"
+    "message": "norvég"
   },
   "lang_or": {
-    "message": "Odia (Oriya)"
+    "message": "odia (orija)"
   },
   "lang_fa": {
-    "message": "Persian"
+    "message": "perzsa"
   },
   "lang_pl": {
-    "message": "Polish"
+    "message": "lengyel"
   },
   "lang_pt": {
-    "message": "Portuguese"
+    "message": "portugál"
   },
   "lang_pa": {
-    "message": "Punjabi"
+    "message": "pandzsábi"
   },
   "lang_ps": {
-    "message": "Pushto"
+    "message": "pastu"
   },
   "lang_ro": {
-    "message": "Romanian"
+    "message": "román"
   },
   "lang_ru": {
-    "message": "Russian"
+    "message": "orosz"
   },
   "lang_sm": {
-    "message": "Samoan"
+    "message": "szamoai"
   },
   "lang_gd": {
-    "message": "Scottish Gaelic"
+    "message": "skót-gael"
   },
   "lang_sr": {
-    "message": "Serbian"
+    "message": "szerb"
   },
   "lang_st": {
-    "message": "Sesotho"
+    "message": "szoto"
   },
   "lang_sn": {
-    "message": "Shona"
+    "message": "sona"
   },
   "lang_sd": {
-    "message": "Sindhi"
+    "message": "szindhi"
   },
   "lang_si": {
-    "message": "Sinhala"
+    "message": "szinhala"
   },
   "lang_sk": {
-    "message": "Slovak"
+    "message": "szlovák"
   },
   "lang_sl": {
-    "message": "Slovenian"
+    "message": "szlovén"
   },
   "lang_so": {
-    "message": "Somali"
+    "message": "szomáli"
   },
   "lang_es": {
-    "message": "Spanish"
+    "message": "spanyol"
   },
   "lang_su": {
-    "message": "Sundanese"
+    "message": "szundanéz"
   },
   "lang_sw": {
-    "message": "Swahili"
+    "message": "szuahéli"
   },
   "lang_sv": {
-    "message": "Swedish"
+    "message": "svéd"
   },
   "lang_tl": {
-    "message": "Tagalog"
+    "message": "tagalog"
   },
   "lang_tg": {
-    "message": "Tajiki"
+    "message": "tadzsik"
   },
   "lang_ta": {
-    "message": "Tamil"
+    "message": "tamil"
   },
   "lang_tt": {
-    "message": "Tatar"
+    "message": "tatár"
   },
   "lang_te": {
-    "message": "Telugu"
+    "message": "telugu"
   },
   "lang_th": {
-    "message": "Thai"
+    "message": "thai"
   },
   "lang_tr": {
-    "message": "Turkish"
+    "message": "török"
   },
   "lang_tk": {
-    "message": "Turkmen"
+    "message": "türkmén"
   },
   "lang_uk": {
-    "message": "Ukrainian"
+    "message": "ukrán"
   },
   "lang_ur": {
-    "message": "Urdu"
+    "message": "urdu"
   },
   "lang_ug": {
-    "message": "Uyghur"
+    "message": "ujgur"
   },
   "lang_uz": {
-    "message": "Uzbek"
+    "message": "üzbég"
   },
   "lang_vi": {
-    "message": "Vietnamese"
+    "message": "vietnámi"
   },
   "lang_cy": {
-    "message": "Welsh"
+    "message": "walesi"
   },
   "lang_xh": {
-    "message": "Xosa"
+    "message": "xhosza"
   },
   "lang_yi": {
-    "message": "Yiddish"
+    "message": "jiddis"
   },
   "lang_yo": {
-    "message": "Yoruba"
+    "message": "joruba"
   },
   "lang_zu": {
-    "message": "Zulu"
+    "message": "zulu"
   },
   "lang_en_US": {
-    "message": "English (American)"
+    "message": "angol (amerikai)"
   },
   "lang_en_GB": {
-    "message": "English (British)"
+    "message": "angol (brit)"
   },
   "lang_pt_PT": {
-    "message": "Portuguese"
+    "message": "portugál"
   },
   "lang_pt_BR": {
-    "message": "Portuguese (Brazilian)"
+    "message": "portugál (brazil)"
   },
   "lang_zh": {
-    "message": "Chinese"
+    "message": "kínai"
   }
 }

@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
+    "message": "ترجمة النص المحدد أو المكتوب بسرعة على صفحات الويب. يدعم ترجمة جوجل و DeepL API."
   },
   "donateWithPaypalLabel": {
     "message": "تبرع بواسطة PayPal"
@@ -27,7 +27,7 @@
     "message": "فتح في ترجمة جوجل"
   },
   "openInDeeplLabel": {
-    "message": "Open in DeepL Translator"
+    "message": "فتح في مترجم DeepL"
   },
   "copyLabel": {
     "message": "نسخ"
@@ -54,40 +54,40 @@
     "message": "عام"
   },
   "translationApiLabel": {
-    "message": "Translation engine"
+    "message": "محرك الترجمة"
   },
   "googleApiLabel": {
-    "message": "Google translate API"
+    "message": "ترجمة جوجل API"
   },
   "googleApiCaptionLabel": {
-    "message": "Use Google Translate API. No registration is required."
+    "message": "استخدم Google Translate API. لا يلزم التسجيل."
   },
   "deeplApiLabel": {
-    "message": "DeepL API"
+    "message": "DeepL API\n"
   },
   "deeplApiCaptionLabel": {
-    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authentication key."
+    "message": "استخدم DeepL API. يجب عليك التسجيل في DeepL API Free أو DeepL API Pro للحصول على مفتاح المصادقة."
   },
   "howToUseDeeplLabel": {
-    "message": "How to register DeepL API"
+    "message": "كيفية تسجيل DeepL API"
   },
   "deeplPlanLabel": {
-    "message": "DeepL API plan"
+    "message": "خطة DeepL API"
   },
   "deeplPlanCaptionLabel": {
-    "message": "Select the DeepL API plan for which you registered."
+    "message": "حدد خطة DeepL API التي قمت بالتسجيل فيها."
   },
   "deeplFreeLabel": {
-    "message": "DeepL API Free"
+    "message": "DeepL API مجاني"
   },
   "deeplProLabel": {
     "message": "DeepL API Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Authentication key"
+    "message": "مصادقة المفاتيح"
   },
   "deeplAuthKeyCaptionLabel": {
-    "message": "Enter the authentication key for the DeepL API."
+    "message": "أدخل مفتاح المصادقة لواجهة برمجة تطبيقات DeepL."
   },
   "targetLangCaptionLabel": {
     "message": "حدد اللغة الافتراضية."
@@ -212,6 +212,21 @@
   "ifShowMenuCaptionLabel": {
     "message": "إضافة العناصر إلى القائمة التي تظهر عند الضغط زر الفأرة الأيمن على صفحات الويب أو علامة التبويب."
   },
+  "pageTranslationLabel": {
+    "message": "Page translation"
+  },
+  "pageTranslationOpenToLabel": {
+    "message": "Tab to display translation results"
+  },
+  "pageTranslationOpenToCaptionLabel": {
+    "message": "Specify the tab to display the results of the page translation."
+  },
+  "newTabLabel": {
+    "message": "New tab"
+  },
+  "currentTabLabel": {
+    "message": "Current tab"
+  },
   "styleLabel": {
     "message": "نمط"
   },
@@ -226,6 +241,9 @@
   },
   "darkLabel": {
     "message": "داكن"
+  },
+  "systemLabel": {
+    "message": "System"
   },
   "buttonStyleLabel": {
     "message": "زر الترجمة"
@@ -299,6 +317,9 @@
   "resultFontColorLabel": {
     "message": "لون خط نتيجة الترجمة"
   },
+  "isOverrideColorsLabel": {
+    "message": "Override default colors with colors below"
+  },
   "candidateFontColorLabel": {
     "message": "لون خط الترجمة المقترحة"
   },
@@ -321,7 +342,7 @@
     "message": "عندما يكون وضع التنقيح مفعل، يخرج السجل إلى المصحح."
   },
   "exportSettingsLabel": {
-    "message": "Abstract\nPurpose: To examine the rate of discrepancy between clinical impression and histologic diagnosis of oral lesions in patients undergoing biopsy examination and to determine whether there are patient-specific variables associated with a higher rate of discrepancy.\n\nMaterials and methods: The authors designed and implemented a retrospective cohort study that consisted of patients who underwent biopsy examination of oral lesions from 2005 through 2013 by oral and maxillofacial surgeons at the Massachusetts General Hospital. Accuracy was determined by comparing the clinical impression with the final histologic diagnosis. Clinical and histologic diagnoses were categorized as premalignant or malignant (group 1) or benign (group 2). The primary outcome variable was concordance (yes vs no) between clinical impression and histopathologic diagnosis. The effect of individual predictor variables (age, gender, duration, American Society of Anesthesiology status, cancer history, radiation therapy history, medications, alcohol abuse, and tobacco history) on outcome also was evaluated through univariate and multivariate regression analyses.\n\nResults: The study sample was composed of 1,003 oral lesions (74 pathologically confirmed premalignant or malignant and 929 benign) from patients with a mean age of 44.8 years. Of the lesions evaluated, concordance between exact clinical and histologic diagnoses was found in 61% of cases. Overall, the clinical impression, reported as benign versus premalignant or malignant, was 48.6% sensitive and 98.1% specific. Clinicians accurately identified lesions as benign in 95.9% of cases. The most common of these were fibromas (positive predictive value [PPV], 99.2%), mucoceles (PPV, 98.1%), and squamous papillomas (PPV, 96.3%). Several independent risk factors were associated with discrepancy: radiation therapy history (P = .0102), male gender (P = .0381), and patient age (P = .0468).\n\nConclusion: The results of this study suggest that the clinical impression, although highly accurate for common benign conditions, is not an acceptable alternative to definitive biopsy findings in other cases, particularly in cases of premalignancy or malignancy. In addition, patients with identified independent risk factors (age, gender, and radiation therapy) should receive timely biopsy examination.\n\nCopyright © 2015 American Association of Oral and Maxillofacial Surgeons. PublishedElsevier Inc. All rights  "
+    "message": "Export settings"
   },
   "exportSettingsCaptionLabel": {
     "message": "حفظ الإعدادات كملف json على الكمبيوتر."
@@ -423,7 +444,7 @@
     "message": "خطأ: وصل الحد الأقصى لاستخدام الخدمة. الرجاء الانتظار بعض الوقت وحاول مرة أخرى."
   },
   "deeplAuthError": {
-    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
+    "message": "خطأ: فشلت مصادقة DeepL API. يرجى تعيين مفتاح المصادقة والتخطيط بشكل صحيح على صفحة الإعدادات."
   },
   "unknownError": {
     "message": "خطأ: غير معروف"
@@ -483,10 +504,10 @@
     "message": "الشيوا"
   },
   "lang_zh_CN": {
-    "message": "Chinese (Simplified)"
+    "message": "الصينية (المبسطة)"
   },
   "lang_zh_TW": {
-    "message": "Chinese (Traditional)"
+    "message": "الصينية التقليدية"
   },
   "lang_co": {
     "message": "الكورسيكية"
@@ -498,7 +519,7 @@
     "message": "تشيكي"
   },
   "lang_da": {
-    "message": "Danish"
+    "message": "دانماركي"
   },
   "lang_nl": {
     "message": "هولندي"
@@ -507,22 +528,22 @@
     "message": "الإنجليزية"
   },
   "lang_eo": {
-    "message": "Esperanto"
+    "message": "اسبرانتو"
   },
   "lang_et": {
-    "message": "Estonian"
+    "message": "الإستونية"
   },
   "lang_fi": {
-    "message": "Finnish"
+    "message": "الفنلندية"
   },
   "lang_fr": {
-    "message": "French"
+    "message": "الفرنسية"
   },
   "lang_fy": {
-    "message": "Frisian"
+    "message": "الفريزية"
   },
   "lang_gl": {
-    "message": "Galician"
+    "message": "الجاليكية"
   },
   "lang_ka": {
     "message": "الجورجية"
@@ -537,88 +558,88 @@
     "message": "الغوجاراتية"
   },
   "lang_ht": {
-    "message": "Haitian"
+    "message": "الهايتية"
   },
   "lang_ha": {
     "message": "الهوسا"
   },
   "lang_haw": {
-    "message": "Hawaiian"
+    "message": "هاواي"
   },
   "lang_he": {
-    "message": "Hebrew"
+    "message": "العبرية"
   },
   "lang_hi": {
-    "message": "Hindi"
+    "message": "الهندية"
   },
   "lang_hu": {
-    "message": "Hungarian"
+    "message": "الهنغارية"
   },
   "lang_is": {
-    "message": "Icelandic"
+    "message": "ايسلندي"
   },
   "lang_ig": {
-    "message": "Igbo"
+    "message": "الإيغبو"
   },
   "lang_id": {
-    "message": "Indonesian"
+    "message": "الإندونيسية"
   },
   "lang_ga": {
-    "message": "Irish"
+    "message": "الأيرلندية"
   },
   "lang_it": {
-    "message": "Italian"
+    "message": "الإيطالية"
   },
   "lang_ja": {
-    "message": "Japanese"
+    "message": "اليابانية"
   },
   "lang_jv": {
-    "message": "Javanese"
+    "message": "الجاوية"
   },
   "lang_kn": {
-    "message": "Kannada"
+    "message": "الكانادا"
   },
   "lang_kk": {
-    "message": "Kazakh"
+    "message": "الكازاخستانية"
   },
   "lang_km": {
-    "message": "Khmer"
+    "message": "الخميرية"
   },
   "lang_rw": {
-    "message": "Kinyarwanda"
+    "message": "الكينياراوندية"
   },
   "lang_ky": {
-    "message": "Kirghiz"
+    "message": "القيرغستانية"
   },
   "lang_ko": {
-    "message": "Korean"
+    "message": "الكورية"
   },
   "lang_ku": {
-    "message": "Kurdish"
+    "message": "الكردية"
   },
   "lang_lo": {
-    "message": "Laotian"
+    "message": "لاوسي"
   },
   "lang_la": {
-    "message": "Latin"
+    "message": "اللاتينية"
   },
   "lang_lv": {
-    "message": "Latvian"
+    "message": "اللاتفية"
   },
   "lang_lt": {
-    "message": "Lithuanian"
+    "message": "اللتوانية"
   },
   "lang_lb": {
-    "message": "Luxembourgish"
+    "message": "اللوكسمبرجية"
   },
   "lang_mk": {
     "message": "المقدونية"
   },
   "lang_mg": {
-    "message": "Malagasy"
+    "message": "الملغاشية"
   },
   "lang_ms": {
-    "message": "Malay"
+    "message": "الماليزية"
   },
   "lang_ml": {
     "message": "Malayalam"

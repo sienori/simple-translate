@@ -3,157 +3,157 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
+    "message": "Omset merka eller innskrevet tekst på nettsider, kjapt og enkelt. Støttar Google Omsetjar og DeepL API."
   },
   "donateWithPaypalLabel": {
-    "message": "Donate with PayPal"
+    "message": "Doner med PayPal"
   },
   "donateLabel": {
-    "message": "Donate"
+    "message": "Doner"
   },
   "enableOnThisPage": {
-    "message": "Enable translation on this page"
+    "message": "Slå på omsetjing på denne sida"
   },
   "disableOnThisPage": {
-    "message": "Disable translation on this page"
+    "message": "Slå av omsetjing på denne sida"
   },
   "initialTextArea": {
-    "message": "Enter text"
+    "message": "Skriv inn tekst"
   },
   "showLink": {
-    "message": "Translate this page"
+    "message": "Omset denne sida"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "Opna i Google Omsetjar"
   },
   "openInDeeplLabel": {
-    "message": "Open in DeepL Translator"
+    "message": "Opna i DeepL Omsetjar"
   },
   "copyLabel": {
-    "message": "Copy"
+    "message": "Kopier"
   },
   "copiedLabel": {
-    "message": "Copied."
+    "message": "Kopiert."
   },
   "listenLabel": {
-    "message": "Listen"
+    "message": "Lytt til"
   },
   "targetLangLabel": {
-    "message": "Target language"
+    "message": "Målspråk"
   },
   "allLangLabel": {
-    "message": "All languages"
+    "message": "Alle språk"
   },
   "recentLangLabel": {
-    "message": "Recent languages"
+    "message": "Nylege språk"
   },
   "settingsLabel": {
-    "message": "Settings"
+    "message": "Innstillingar"
   },
   "generalLabel": {
-    "message": "General"
+    "message": "Generelt"
   },
   "translationApiLabel": {
-    "message": "Translation engine"
+    "message": "Omsetjingsmotor"
   },
   "googleApiLabel": {
-    "message": "Google translate API"
+    "message": "Google Omsetjar"
   },
   "googleApiCaptionLabel": {
-    "message": "Use Google Translate API. No registration is required."
+    "message": "Bruk Google Omsetjar. Du treng ikkje å registrera deg."
   },
   "deeplApiLabel": {
-    "message": "DeepL API"
+    "message": "DeepL"
   },
   "deeplApiCaptionLabel": {
-    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authentication key."
+    "message": "Bruk DeepL. Du må registrera deg med DeepL Free eller DeepL Pro for å få ein autentiseringsnøkkel."
   },
   "howToUseDeeplLabel": {
-    "message": "How to register DeepL API"
+    "message": "Korleis registrere seg med DeepL"
   },
   "deeplPlanLabel": {
-    "message": "DeepL API plan"
+    "message": "DeepL-plan"
   },
   "deeplPlanCaptionLabel": {
-    "message": "Select the DeepL API plan for which you registered."
+    "message": "Vel DeepL-planen som du er registrert med."
   },
   "deeplFreeLabel": {
-    "message": "DeepL API Free"
+    "message": "DeepL Free"
   },
   "deeplProLabel": {
-    "message": "DeepL API Pro"
+    "message": "DeepL Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Authentication key"
+    "message": "Autentiseringsnøkkel"
   },
   "deeplAuthKeyCaptionLabel": {
-    "message": "Enter the authentication key for the DeepL API."
+    "message": "Skriv inn autentiseringsnøkkelen for DeepL API-en."
   },
   "targetLangCaptionLabel": {
-    "message": "Select the default target language."
+    "message": "Vel standard målspråk."
   },
   "webPageLabel": {
-    "message": "Web page"
+    "message": "Nettside"
   },
   "ifShowCandidateLabel": {
-    "message": "Show translation candidates"
+    "message": "Vis omsetjingskandidatar"
   },
   "ifShowCandidateCaptionLabel": {
-    "message": "Show multiple translation candidates when a single word is translated."
+    "message": "Vis fleire omsetjingskandidater når eit enkelt ord er omsat."
   },
   "whenSelectTextLabel": {
-    "message": "Behavior when selecting text"
+    "message": "Åtferd når du merkar tekst"
   },
   "ifAutoTranslateLabel": {
-    "message": "Display translation panel"
+    "message": "Vis omsetjingsruta"
   },
   "ifAutoTranslateCaptionLabel": {
-    "message": "Directly display the translation panel without displaying the button."
+    "message": "Vis fram omsetjingsruta umiddelbart, utan å visa knappen først."
   },
   "ifShowButtonLabel": {
-    "message": "Display translation button"
+    "message": "Vis omsetjingsknappen"
   },
   "ifShowButtonCaptionLabel": {
-    "message": "Display the translation button to open the panel when clicked."
+    "message": "Vis fram omsetjingsknappen, som vil opna ruta når du trykkjar på den."
   },
   "dontshowbuttonlabel": {
-    "message": "Don't display button or panel"
+    "message": "Ikkje vis knapp eller rute"
   },
   "dontshowbuttonCaptionlabel": {
-    "message": "Don't display the translation button or the translation panel."
+    "message": "Korkje vis fram omsetjingsknappen eller omsetjingsruta."
   },
   "ifCheckLangLabel": {
-    "message": "Do not display the button if translation is not required"
+    "message": "Ikkje vis fram knappen viss det ikkje trengs ei omsetjing"
   },
   "ifCheckLangCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+    "message": "Viser ikkje knappen viss den valde teksten er skrive på målspråket."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+    "message": "Omset den valde teksten til andrespråket viss den er skrive på målspråket."
   },
   "disableTranslationLabel": {
-    "message": "Disable translation"
+    "message": "Slå av omsetjing"
   },
   "isDisabledInTextFieldsLabel": {
-    "message": "Disable translation in text fields"
+    "message": "Slå av omsetjing i tekstfelt"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in a text field."
+    "message": "Ikkje vis omsetjingsknappen eller -ruta når du merkar tekst i eit tekstfelt."
   },
   "isDisabledInCodeElementLabel": {
-    "message": "Disable translation in code tags"
+    "message": "Slå av omsetjing inni kodetaggar"
   },
   "isDisabledInCodeElementCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in code tag."
+    "message": "Ikkje vis omsetjingsknappen eller -ruta når du merkar tekst inni kodetaggar."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Translate on modifier key pressed"
+    "message": "Omset når valgtast er trykkja"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Only display translation on specified modifier key pressed."
+    "message": "Kun vis ei omsetjing når den valde valgtasten er trykkja."
   },
   "modifierKeyLabel": {
-    "message": "Modifier Key"
+    "message": "Valgtast"
   },
   "shiftLabel": {
     "message": "Shift"
@@ -165,421 +165,442 @@
     "message": "Alt"
   },
   "cmdLabel": {
-    "message": "Command"
+    "message": "Kommando"
   },
   "disableUrlListLabel": {
-    "message": "URL list to disable translation"
+    "message": "Liste med URL-ar utan omsetjing"
   },
   "disableUrlListCaptionLabel": {
-    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
+    "message": "Viss URL-en til sida samsvarer med lista, så vil omsetjing på sida slås av. Lista tillét «*» jokerteikn."
   },
   "toolbarLabel": {
-    "message": "Toolbar popup"
+    "message": "Sprettoppvindauge"
   },
   "ifChangeSecondLangLabel": {
-    "message": "Automatically switch to the second language"
+    "message": "Byt til det andre språket automatisk"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+    "message": "Omset teksten til andrespråket viss den er skrive på målspråket."
   },
   "secondTargetLangLabel": {
-    "message": "Second language"
+    "message": "Andrespråk"
   },
   "secondTargetLangCaptionLabel": {
-    "message": "Select the second target language."
+    "message": "Vel alternativt målspråk."
   },
   "ignoredDocumentLangLabel": {
-    "message": "Disable translation by lang attribute"
+    "message": "Slå av omsetjing med «lang»-attributten"
   },
   "ignoredDocumentLangCaptionLabel": {
-    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
+    "message": "Slå av omsetjing viss «lang»-attributten i «html»-taggen til sida samsvarer med lista.\nSkriv inn ei kommadelt liste med språkkodar."
   },
   "waitTimeLabel": {
-    "message": "Waiting time to translate"
+    "message": "Ventetid før omsetjing"
   },
   "waitTimeCaptionLabel": {
-    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+    "message": "Angje ventetida frå du skriver inn eit teikn til omsetjinga startar. (millisekund)"
   },
   "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
+    "message": "Viss du omset det mange gongar innan ein kort tidsperiode, kan det varta ubrukeleg i ei stund."
   },
   "menuLabel": {
-    "message": "Context menu"
+    "message": "Kontekstmeny"
   },
   "ifShowMenuLabel": {
-    "message": "Display the context menu"
+    "message": "Vis kontekstmenyen"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+    "message": "Legg til elementer i kontekstmenyen som visas når du høgreklikker på nettsida eller fana."
+  },
+  "pageTranslationLabel": {
+    "message": "Page translation"
+  },
+  "pageTranslationOpenToLabel": {
+    "message": "Tab to display translation results"
+  },
+  "pageTranslationOpenToCaptionLabel": {
+    "message": "Specify the tab to display the results of the page translation."
+  },
+  "newTabLabel": {
+    "message": "Ny fane"
+  },
+  "currentTabLabel": {
+    "message": "Gjeldande fane"
   },
   "styleLabel": {
-    "message": "Style"
+    "message": "Stil"
   },
   "themeLabel": {
-    "message": "Theme"
+    "message": "Tema"
   },
   "themeCaptionLabel": {
-    "message": "Specify the color scheme."
+    "message": "Angje fargetema."
   },
   "lightLabel": {
-    "message": "Light"
+    "message": "Lyst"
   },
   "darkLabel": {
-    "message": "Dark"
+    "message": "Mørkt"
+  },
+  "systemLabel": {
+    "message": "System"
   },
   "buttonStyleLabel": {
-    "message": "Translation button"
+    "message": "Omsetjingsknapp"
   },
   "buttonStyleCaptionLabel": {
-    "message": "Specify the style of the translation button displayed on the web page."
+    "message": "Angi stilen til omsetjingsknappen som visas på nettsida."
   },
   "buttonSizeLabel": {
-    "message": "Size"
+    "message": "Storleik"
   },
   "buttonPositionLabel": {
-    "message": "Display position"
+    "message": "Posisjon"
   },
   "topRightLabel": {
-    "message": "Top right"
+    "message": "Øvst til høgre"
   },
   "bottomRightLabel": {
-    "message": "Bottom right"
+    "message": "Nedst til høgre"
   },
   "topLeftLabel": {
-    "message": "Top left"
+    "message": "Øvst til venstre"
   },
   "bottomLeftLabel": {
-    "message": "Bottom left"
+    "message": "Nedst til venstre"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "Øvst"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "Nedst"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "Til venstre"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "Til høgre"
   },
   "positionOffsetLabel": {
-    "message": "Display position - Offset"
+    "message": "Posisjon - Forskyvning"
   },
   "panelStyleLabel": {
-    "message": "Translation panel"
+    "message": "Omsetjingsrute"
   },
   "panelStyleCaptionLabel": {
-    "message": "Specify the style of the translation panel displayed on the web page."
+    "message": "Angje stilen til omsetjingsruta som visast på nettsida."
   },
   "widthLabel": {
-    "message": "Width"
+    "message": "Breidd"
   },
   "heightLabel": {
-    "message": "Height"
+    "message": "Høgd"
   },
   "fontSizeLabel": {
-    "message": "Font size"
+    "message": "Skriftstorleik"
   },
   "referencePointLabel": {
-    "message": "Display position - Reference point"
+    "message": "Posisjon - Referansepunkt"
   },
   "bottomSelectedTextLabel": {
-    "message": "Bottom of selected text"
+    "message": "Botn av merka tekst"
   },
   "topSelectedTextLabel": {
-    "message": "Top of selected text"
+    "message": "Topp av merka tekst"
   },
   "clickedPointLabel": {
-    "message": "Clicked point"
+    "message": "Trykkja punkt"
   },
   "displayDirectionLabel": {
-    "message": "Display position - Direction"
+    "message": "Posisjon - Retning"
   },
   "resultFontColorLabel": {
-    "message": "Font color of translation result"
+    "message": "Skriftfarge til omsetjingsresultat"
+  },
+  "isOverrideColorsLabel": {
+    "message": "Overstyr standardfargane med fargane nedanfor"
   },
   "candidateFontColorLabel": {
-    "message": "Font color of translation candidates"
+    "message": "Skriftfarge til omsetjingskandidat"
   },
   "bgColorLabel": {
-    "message": "Background color"
+    "message": "Bakgrunnsfarge"
   },
   "otherLabel": {
-    "message": "Other"
+    "message": "Anna"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Display option page when updating"
+    "message": "Opna innstillingssida etter ei oppdatering"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+    "message": "Opna innstillingssida når Simple Translate vart oppdatert, så du kan finna ut av kva som er nytt så fort som mogleg."
   },
   "isDebugModeLabel": {
-    "message": "Enable debug mode"
+    "message": "Slå på feilsøkingsmodus"
   },
   "isDebugModeCaptionLabel": {
-    "message": "When debug mode is enabled, the log is output to the debugger."
+    "message": "Når feilsøkingsmodus er slått på vil feilsøkaren skrive til loggen."
   },
   "exportSettingsLabel": {
-    "message": "Export settings"
+    "message": "Eksporter innstillingane"
   },
   "exportSettingsCaptionLabel": {
-    "message": "Save the settings as a json file on the computer."
+    "message": "Lagra innstillingane som ei JSON-fil på datamaskinen."
   },
   "exportButtonLabel": {
-    "message": "Export"
+    "message": "Eksporter"
   },
   "importSettingsLabel": {
-    "message": "Import Settings"
+    "message": "Importer innstillingar"
   },
   "importSettingsCaptionLabel": {
-    "message": "Load the settings file saved on the computer."
+    "message": "Last inn innstillingsfila frå datamaskinen."
   },
   "importButtonLabel": {
-    "message": "Import"
+    "message": "Importer"
   },
   "resetSettingsLabel": {
-    "message": "Reset settings"
+    "message": "Tilbakestill innstillingane"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Restore all settings to default."
+    "message": "Tilbakestill alle innstillingane."
   },
   "resetSettingsButtonLabel": {
-    "message": "Reset"
+    "message": "Tilbakestill"
   },
   "shortcutsLabel": {
-    "message": "Shortcuts"
+    "message": "Hurtigtastar"
   },
   "keyboardShortcutsLabel": {
-    "message": "Keyboard shortcuts"
+    "message": "Hurtigtastar"
   },
   "setKeyboardShortCutsMessage": {
-    "message": "Set keyboard shortcuts."
+    "message": "Vel hurtigtastar."
   },
   "typeShortcutMessage": {
-    "message": "Type a shortcut"
+    "message": "Skriv inn ein hurtigtast"
   },
   "typeLetterMessage": {
-    "message": "Type a letter"
+    "message": "Skriv inn ein bokstav"
   },
   "includeModifierKeysMessage": {
-    "message": "Include either Ctrl or Alt"
+    "message": "Ta med «Ctrl» eller «Alt»"
   },
   "includeMacModifierKeysMessage": {
-    "message": "Include either Command, Ctrl or Alt"
+    "message": "Ta med «Kommando», «Ctrl» eller «Alt»"
   },
   "invalidLetterMessage": {
-    "message": "The letter can not be used"
+    "message": "Bokstaven kan ikkje brukast"
   },
   "invalidShortcutMessage": {
-    "message": "The shortcut can not be used"
+    "message": "Hurtigtasten kan ikkje brukast"
   },
   "clear": {
-    "message": "Clear"
+    "message": "Tøm"
   },
   "reset": {
-    "message": "Reset"
+    "message": "Tilbakestill"
   },
   "informationLabel": {
-    "message": "Information"
+    "message": "Om"
   },
   "backersLabel": {
-    "message": "Backers"
+    "message": "Støttespelarar"
   },
   "licenseLabel": {
-    "message": "License"
+    "message": "Lisens"
   },
   "donationLabel": {
-    "message": "Please make a donation"
+    "message": "Doner gjerne ein slant"
   },
   "donationCaptionLabel": {
-    "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+    "message": "Takk for at du bruker Simple Translate.<br>Støtta din er ei stor oppmuntring for meg, mens eg fortsett å utvikla utvidinga.<br>Viss du likar Tab Session Manager, vil eg verkeleg settja pris på ein donasjon."
   },
   "amazonTitleLabel": {
-    "message": "amazon.co.jp eGift Cards"
+    "message": "Elektronisk gåvekort frå «amazon.co.jp»"
   },
   "sponsorsLabel": {
-    "message": "Sponsors"
+    "message": "Sponsorar"
   },
   "addonPageLabel": {
-    "message": "Add-on page"
+    "message": "Tilleggsside"
   },
   "extensionPageLabel": {
-    "message": "Extension page"
+    "message": "Utvidingsside"
   },
   "privacyPolicyLabel": {
-    "message": "Privacy policy"
+    "message": "Persovernerklæring"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
   },
   "addonUrl": {
-    "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
+    "message": "https://addons.mozilla.org/nn-NO/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
-    "message": "Error: Check network connection status."
+    "message": "Feil: Sjekk nettverkstilkoplinga."
   },
   "unavailableError": {
-    "message": "Error: Service usage limit reached. Please wait a while and try again."
+    "message": "Feil: Du har nådd bruksgrensa. Vent en stund, og prøv igjen."
   },
   "deeplAuthError": {
-    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
+    "message": "Feil: Klarte ikkje autentisera DeepL. Sjekk om autentiseringsnøkkelen og planen er riktige i instillingane."
   },
   "unknownError": {
-    "message": "Error: Unknown error"
+    "message": "Feil: Ukjend feil"
   },
   "translatePageMenu": {
-    "message": "Translate this page"
+    "message": "Omset denne sida"
   },
   "translateTextMenu": {
-    "message": "Translate selected text"
+    "message": "Omset merka tekst"
   },
   "translateLinkMenu": {
-    "message": "Translate selected link"
+    "message": "Omset merka lenke"
   },
   "openPopupDescription": {
-    "message": "Open toolbar popup"
+    "message": "Opna sprettoppvindauget"
   },
   "lang_af": {
     "message": "Afrikaans"
   },
   "lang_sq": {
-    "message": "Albanian"
+    "message": "Albansk"
   },
   "lang_am": {
-    "message": "Amharic"
+    "message": "Amharisk"
   },
   "lang_ar": {
-    "message": "Arabic"
+    "message": "Arabisk"
   },
   "lang_hy": {
-    "message": "Armenian"
+    "message": "Armensk"
   },
   "lang_az": {
-    "message": "Azerbaijani"
+    "message": "Aserbajdsjansk"
   },
   "lang_eu": {
-    "message": "Basque"
+    "message": "Baskisk"
   },
   "lang_be": {
-    "message": "Belarusian"
+    "message": "Kviterussisk"
   },
   "lang_bn": {
-    "message": "Bengali"
+    "message": "Bengalsk"
   },
   "lang_bs": {
-    "message": "Bosnian"
+    "message": "Bosnisk"
   },
   "lang_bg": {
-    "message": "Bulgarian"
+    "message": "Bulgarsk"
   },
   "lang_ca": {
-    "message": "Catalan"
+    "message": "Katalansk"
   },
   "lang_ceb": {
     "message": "Cebuano"
   },
   "lang_ny": {
-    "message": "Chewa"
+    "message": "Chichewa"
   },
   "lang_zh_CN": {
-    "message": "Chinese (Simplified)"
+    "message": "Kinesisk (forenkla)"
   },
   "lang_zh_TW": {
-    "message": "Chinese (Traditional)"
+    "message": "Kinesisk (tradisjonelt)"
   },
   "lang_co": {
-    "message": "Corsican"
+    "message": "Korsikansk"
   },
   "lang_hr": {
-    "message": "Croatian"
+    "message": "Kroatisk"
   },
   "lang_cs": {
-    "message": "Czech"
+    "message": "Tjekkisk"
   },
   "lang_da": {
-    "message": "Danish"
+    "message": "Dansk"
   },
   "lang_nl": {
-    "message": "Dutch"
+    "message": "Nederlandsk"
   },
   "lang_en": {
-    "message": "English"
+    "message": "Engelsk"
   },
   "lang_eo": {
     "message": "Esperanto"
   },
   "lang_et": {
-    "message": "Estonian"
+    "message": "Estisk"
   },
   "lang_fi": {
-    "message": "Finnish"
+    "message": "Finsk"
   },
   "lang_fr": {
-    "message": "French"
+    "message": "Fransk"
   },
   "lang_fy": {
-    "message": "Frisian"
+    "message": "Frisisk"
   },
   "lang_gl": {
-    "message": "Galician"
+    "message": "Galisisk"
   },
   "lang_ka": {
-    "message": "Georgian"
+    "message": "Georgisk"
   },
   "lang_de": {
-    "message": "German"
+    "message": "Tysk"
   },
   "lang_el": {
-    "message": "Greek"
+    "message": "Gresk"
   },
   "lang_gu": {
-    "message": "Gujarati"
+    "message": "Gudsjarati"
   },
   "lang_ht": {
-    "message": "Haitian"
+    "message": "Haitisk"
   },
   "lang_ha": {
     "message": "Hausa"
   },
   "lang_haw": {
-    "message": "Hawaiian"
+    "message": "Hawaiisk"
   },
   "lang_he": {
-    "message": "Hebrew"
+    "message": "Hebraisk"
   },
   "lang_hi": {
     "message": "Hindi"
   },
   "lang_hu": {
-    "message": "Hungarian"
+    "message": "Ungarsk"
   },
   "lang_is": {
-    "message": "Icelandic"
+    "message": "Islandsk"
   },
   "lang_ig": {
     "message": "Igbo"
   },
   "lang_id": {
-    "message": "Indonesian"
+    "message": "Indonesisk"
   },
   "lang_ga": {
-    "message": "Irish"
+    "message": "Irsk"
   },
   "lang_it": {
-    "message": "Italian"
+    "message": "Italiensk"
   },
   "lang_ja": {
-    "message": "Japanese"
+    "message": "Japansk"
   },
   "lang_jv": {
-    "message": "Javanese"
+    "message": "Javanesisk"
   },
   "lang_kn": {
     "message": "Kannada"
   },
   "lang_kk": {
-    "message": "Kazakh"
+    "message": "Kasakhisk"
   },
   "lang_km": {
     "message": "Khmer"
@@ -588,43 +609,43 @@
     "message": "Kinyarwanda"
   },
   "lang_ky": {
-    "message": "Kirghiz"
+    "message": "Kirgisisk"
   },
   "lang_ko": {
-    "message": "Korean"
+    "message": "Koreansk"
   },
   "lang_ku": {
-    "message": "Kurdish"
+    "message": "Kurdisk"
   },
   "lang_lo": {
-    "message": "Laotian"
+    "message": "Laotisk"
   },
   "lang_la": {
-    "message": "Latin"
+    "message": "Latinsk"
   },
   "lang_lv": {
-    "message": "Latvian"
+    "message": "Latvisk"
   },
   "lang_lt": {
-    "message": "Lithuanian"
+    "message": "Litauisk"
   },
   "lang_lb": {
-    "message": "Luxembourgish"
+    "message": "Luxembourgsk"
   },
   "lang_mk": {
-    "message": "Macedonian"
+    "message": "Makedonsk"
   },
   "lang_mg": {
-    "message": "Malagasy"
+    "message": "Gassisk"
   },
   "lang_ms": {
-    "message": "Malay"
+    "message": "Malayisk"
   },
   "lang_ml": {
     "message": "Malayalam"
   },
   "lang_mt": {
-    "message": "Maltese"
+    "message": "Maltesisk"
   },
   "lang_mi": {
     "message": "Maori"
@@ -633,97 +654,97 @@
     "message": "Marathi"
   },
   "lang_mn": {
-    "message": "Mongolian"
+    "message": "Mongolsk"
   },
   "lang_hmn": {
-    "message": "Monk"
+    "message": "Hmong"
   },
   "lang_my": {
-    "message": "Myanmar"
+    "message": "Burmesisk"
   },
   "lang_ne": {
-    "message": "Nepali"
+    "message": "Nepalsk"
   },
   "lang_no": {
-    "message": "Norwegian"
+    "message": "Norsk"
   },
   "lang_or": {
-    "message": "Odia (Oriya)"
+    "message": "Odia"
   },
   "lang_fa": {
-    "message": "Persian"
+    "message": "Persisk"
   },
   "lang_pl": {
-    "message": "Polish"
+    "message": "Polsk"
   },
   "lang_pt": {
-    "message": "Portuguese"
+    "message": "Portugisisk"
   },
   "lang_pa": {
-    "message": "Punjabi"
+    "message": "Pandsjabi"
   },
   "lang_ps": {
-    "message": "Pushto"
+    "message": "Pasjto"
   },
   "lang_ro": {
-    "message": "Romanian"
+    "message": "Rumensk"
   },
   "lang_ru": {
-    "message": "Russian"
+    "message": "Russisk"
   },
   "lang_sm": {
-    "message": "Samoan"
+    "message": "Samoisk"
   },
   "lang_gd": {
-    "message": "Scottish Gaelic"
+    "message": "Skotsk-gælisk"
   },
   "lang_sr": {
-    "message": "Serbian"
+    "message": "Serbisk"
   },
   "lang_st": {
-    "message": "Sesotho"
+    "message": "Sotho"
   },
   "lang_sn": {
-    "message": "Shona"
+    "message": "Sjona"
   },
   "lang_sd": {
     "message": "Sindhi"
   },
   "lang_si": {
-    "message": "Sinhala"
+    "message": "Singalesisk"
   },
   "lang_sk": {
-    "message": "Slovak"
+    "message": "Slovakisk"
   },
   "lang_sl": {
-    "message": "Slovenian"
+    "message": "Slovensk"
   },
   "lang_so": {
-    "message": "Somali"
+    "message": "Somalisk"
   },
   "lang_es": {
-    "message": "Spanish"
+    "message": "Spansk"
   },
   "lang_su": {
-    "message": "Sundanese"
+    "message": "Sundanesisk"
   },
   "lang_sw": {
     "message": "Swahili"
   },
   "lang_sv": {
-    "message": "Swedish"
+    "message": "Svensk"
   },
   "lang_tl": {
     "message": "Tagalog"
   },
   "lang_tg": {
-    "message": "Tajiki"
+    "message": "Tadsjikisk"
   },
   "lang_ta": {
     "message": "Tamil"
   },
   "lang_tt": {
-    "message": "Tatar"
+    "message": "Tatarisk"
   },
   "lang_te": {
     "message": "Telugu"
@@ -732,54 +753,54 @@
     "message": "Thai"
   },
   "lang_tr": {
-    "message": "Turkish"
+    "message": "Tyrkisk"
   },
   "lang_tk": {
-    "message": "Turkmen"
+    "message": "Turkmensk"
   },
   "lang_uk": {
-    "message": "Ukrainian"
+    "message": "Ukrainsk"
   },
   "lang_ur": {
     "message": "Urdu"
   },
   "lang_ug": {
-    "message": "Uyghur"
+    "message": "Uigurisk"
   },
   "lang_uz": {
-    "message": "Uzbek"
+    "message": "Usbekisk"
   },
   "lang_vi": {
-    "message": "Vietnamese"
+    "message": "Vietnamesisk"
   },
   "lang_cy": {
-    "message": "Welsh"
+    "message": "Walisisk"
   },
   "lang_xh": {
-    "message": "Xosa"
+    "message": "Xhosa"
   },
   "lang_yi": {
-    "message": "Yiddish"
+    "message": "Jiddisch"
   },
   "lang_yo": {
-    "message": "Yoruba"
+    "message": "Joruba"
   },
   "lang_zu": {
     "message": "Zulu"
   },
   "lang_en_US": {
-    "message": "English (American)"
+    "message": "Engelsk (amerikansk)"
   },
   "lang_en_GB": {
-    "message": "English (British)"
+    "message": "Engelsk (britisk)"
   },
   "lang_pt_PT": {
-    "message": "Portuguese"
+    "message": "Portugisisk"
   },
   "lang_pt_BR": {
-    "message": "Portuguese (Brazilian)"
+    "message": "Portugisisk (brasiliansk)"
   },
   "lang_zh": {
-    "message": "Chinese"
+    "message": "Kinesisk"
   }
 }

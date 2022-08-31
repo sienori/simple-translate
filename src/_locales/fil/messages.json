@@ -212,6 +212,21 @@
   "ifShowMenuCaptionLabel": {
     "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
   },
+  "pageTranslationLabel": {
+    "message": "Page translation"
+  },
+  "pageTranslationOpenToLabel": {
+    "message": "Tab to display translation results"
+  },
+  "pageTranslationOpenToCaptionLabel": {
+    "message": "Specify the tab to display the results of the page translation."
+  },
+  "newTabLabel": {
+    "message": "New tab"
+  },
+  "currentTabLabel": {
+    "message": "Current tab"
+  },
   "styleLabel": {
     "message": "Istilo"
   },
@@ -226,6 +241,9 @@
   },
   "darkLabel": {
     "message": "Dark"
+  },
+  "systemLabel": {
+    "message": "System"
   },
   "buttonStyleLabel": {
     "message": "Pindutan ng pagsasalin"
@@ -298,6 +316,9 @@
   },
   "resultFontColorLabel": {
     "message": "Font color of translation result"
+  },
+  "isOverrideColorsLabel": {
+    "message": "Override default colors with colors below"
   },
   "candidateFontColorLabel": {
     "message": "Font color of translation candidates"

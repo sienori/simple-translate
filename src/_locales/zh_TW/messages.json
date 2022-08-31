@@ -219,7 +219,7 @@
     "message": "分頁顯示翻譯結果"
   },
   "pageTranslationOpenToCaptionLabel": {
-    "message": "Specify the tab to display the results of the page translation."
+    "message": "指定要用來顯示頁面翻譯的分頁。"
   },
   "newTabLabel": {
     "message": "新分頁"
@@ -318,7 +318,7 @@
     "message": "翻譯結果色彩"
   },
   "isOverrideColorsLabel": {
-    "message": "Override default colors with colors below"
+    "message": "用下面的顏色覆寫預設顏色"
   },
   "candidateFontColorLabel": {
     "message": "候選翻譯文字色彩"

@@ -84,7 +84,7 @@
     "message": "DeepL API Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Chave de autorização"
+    "message": "Chave de autenticação"
   },
   "deeplAuthKeyCaptionLabel": {
     "message": "Insira a chave de autenticação para a DeepL API."
@@ -212,6 +212,21 @@
   "ifShowMenuCaptionLabel": {
     "message": "Adiciona itens ao menu contextual exibido ao clicar o botão direito na página ou aba."
   },
+  "pageTranslationLabel": {
+    "message": "Page translation"
+  },
+  "pageTranslationOpenToLabel": {
+    "message": "Tab to display translation results"
+  },
+  "pageTranslationOpenToCaptionLabel": {
+    "message": "Specify the tab to display the results of the page translation."
+  },
+  "newTabLabel": {
+    "message": "New tab"
+  },
+  "currentTabLabel": {
+    "message": "Current tab"
+  },
   "styleLabel": {
     "message": "Estilo"
   },
@@ -226,6 +241,9 @@
   },
   "darkLabel": {
     "message": "Escuro"
+  },
+  "systemLabel": {
+    "message": "Sistema"
   },
   "buttonStyleLabel": {
     "message": "Botão traduzir"
@@ -298,6 +316,9 @@
   },
   "resultFontColorLabel": {
     "message": "Color do texto traduzido"
+  },
+  "isOverrideColorsLabel": {
+    "message": "Override default colors with colors below"
   },
   "candidateFontColorLabel": {
     "message": "Cor do texto candidato à tradução"

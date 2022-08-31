@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
+    "message": "Szybkie tłumaczenie zaznaczonego lub wpisanego tekstu na stronach internetowych. Obsługuje API Google Translate i DeepL."
   },
   "donateWithPaypalLabel": {
     "message": "Wspieraj przez PayPal"
@@ -27,7 +27,7 @@
     "message": "Otwórz w Tłumaczu Google"
   },
   "openInDeeplLabel": {
-    "message": "Open in DeepL Translator"
+    "message": "Otwórz w tłumaczu DeepL"
   },
   "copyLabel": {
     "message": "Skopiuj"
@@ -54,40 +54,40 @@
     "message": "Główne"
   },
   "translationApiLabel": {
-    "message": "Translation engine"
+    "message": "Silnik tłumaczeń"
   },
   "googleApiLabel": {
-    "message": "Google translate API"
+    "message": "Interfejs API Tłumacza Google"
   },
   "googleApiCaptionLabel": {
-    "message": "Use Google Translate API. No registration is required."
+    "message": "Używaj interfejsu API Tłumacza Google. Rejestracja nie jest wymagana."
   },
   "deeplApiLabel": {
-    "message": "DeepL API"
+    "message": "Interfejs API DeepL"
   },
   "deeplApiCaptionLabel": {
-    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authentication key."
+    "message": "Użyj API DeepL. Musisz zarejestrować się za pomocą API DeepL Free lub DeepL Pro, aby uzyskać klucz uwierzytelniania."
   },
   "howToUseDeeplLabel": {
-    "message": "How to register DeepL API"
+    "message": "Jak zarejestrować API DeepL"
   },
   "deeplPlanLabel": {
-    "message": "DeepL API plan"
+    "message": "Plan API DeepL"
   },
   "deeplPlanCaptionLabel": {
-    "message": "Select the DeepL API plan for which you registered."
+    "message": "Wybierz plan API DeepL, dla którego zarejestrowałeś."
   },
   "deeplFreeLabel": {
-    "message": "DeepL API Free"
+    "message": "Darmowe API DeepL"
   },
   "deeplProLabel": {
     "message": "DeepL API Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Authentication key"
+    "message": "Klucz uwierzytelniania"
   },
   "deeplAuthKeyCaptionLabel": {
-    "message": "Enter the authentication key for the DeepL API."
+    "message": "Wprowadź klucz uwierzytelniania dla API DeepL."
   },
   "targetLangCaptionLabel": {
     "message": "Wybierz domyślny język docelowy."
@@ -212,6 +212,21 @@
   "ifShowMenuCaptionLabel": {
     "message": "Dodaj elementy do menu kontekstowego wyświetlanego, po kliknięciu prawym przyciskiem myszy na stronie internetowej."
   },
+  "pageTranslationLabel": {
+    "message": "Page translation"
+  },
+  "pageTranslationOpenToLabel": {
+    "message": "Tab to display translation results"
+  },
+  "pageTranslationOpenToCaptionLabel": {
+    "message": "Specify the tab to display the results of the page translation."
+  },
+  "newTabLabel": {
+    "message": "New tab"
+  },
+  "currentTabLabel": {
+    "message": "Current tab"
+  },
   "styleLabel": {
     "message": "Styl"
   },
@@ -226,6 +241,9 @@
   },
   "darkLabel": {
     "message": "Ciemny"
+  },
+  "systemLabel": {
+    "message": "System"
   },
   "buttonStyleLabel": {
     "message": "Przycisk translacji"
@@ -298,6 +316,9 @@
   },
   "resultFontColorLabel": {
     "message": "Kolor czcionki wyniku tłumaczenia"
+  },
+  "isOverrideColorsLabel": {
+    "message": "Override default colors with colors below"
   },
   "candidateFontColorLabel": {
     "message": "Kolor czcionki kandydatów do tłumaczenia"
@@ -423,7 +444,7 @@
     "message": "Błąd: Limit użycia serwisu został osiągnięty. Poczekaj chwilę i spróbuj ponownie."
   },
   "deeplAuthError": {
-    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
+    "message": "Błąd: Uwierzytelnianie API DeepL nie powiodło się. Proszę ustawić klucz uwierzytelniania i zaplanować poprawnie na stronie ustawień."
   },
   "unknownError": {
     "message": "Error: Nieznany błąd"
@@ -462,7 +483,7 @@
     "message": "Baskijski"
   },
   "lang_be": {
-    "message": "Belarusian"
+    "message": "białoruski"
   },
   "lang_bn": {
     "message": "Bengalijski"
@@ -480,13 +501,13 @@
     "message": "Cebuański"
   },
   "lang_ny": {
-    "message": "Chewa"
+    "message": "czewa"
   },
   "lang_zh_CN": {
-    "message": "Chinese (Simplified)"
+    "message": "chiński (uproszczony)"
   },
   "lang_zh_TW": {
-    "message": "Chinese (Traditional)"
+    "message": "chiński (tradycyjny)"
   },
   "lang_co": {
     "message": "Korsykański"
@@ -507,7 +528,7 @@
     "message": "Angielski"
   },
   "lang_eo": {
-    "message": "Esperanto"
+    "message": "esperanto"
   },
   "lang_et": {
     "message": "Estoński"
@@ -519,7 +540,7 @@
     "message": "Francuski"
   },
   "lang_fy": {
-    "message": "Frisian"
+    "message": "fryzyjski"
   },
   "lang_gl": {
     "message": "Galicyjski"
@@ -540,7 +561,7 @@
     "message": "Haitański"
   },
   "lang_ha": {
-    "message": "Hausa"
+    "message": "hausa"
   },
   "lang_haw": {
     "message": "Hawajski"
@@ -558,7 +579,7 @@
     "message": "Islandzki"
   },
   "lang_ig": {
-    "message": "Igbo"
+    "message": "igbo"
   },
   "lang_id": {
     "message": "Indonezyjski"
@@ -576,10 +597,10 @@
     "message": "Javoński"
   },
   "lang_kn": {
-    "message": "Kannada"
+    "message": "kannada"
   },
   "lang_kk": {
-    "message": "Kazakh"
+    "message": "kazachski"
   },
   "lang_km": {
     "message": "Khmer"
@@ -669,7 +690,7 @@
     "message": "Rumuński"
   },
   "lang_ru": {
-    "message": "Russian"
+    "message": "rosyjski"
   },
   "lang_sm": {
     "message": "Samoan"
@@ -762,24 +783,24 @@
     "message": "Yiddish"
   },
   "lang_yo": {
-    "message": "Yoruba"
+    "message": "joruba"
   },
   "lang_zu": {
-    "message": "Zulu"
+    "message": "zulu"
   },
   "lang_en_US": {
-    "message": "English (American)"
+    "message": "angielski (amerykański)"
   },
   "lang_en_GB": {
-    "message": "English (British)"
+    "message": "angielski (brytyjski)"
   },
   "lang_pt_PT": {
     "message": "Portugalski"
   },
   "lang_pt_BR": {
-    "message": "Portuguese (Brazilian)"
+    "message": "portugalski (brazylijski)"
   },
   "lang_zh": {
-    "message": "Chinese"
+    "message": "chiński"
   }
 }

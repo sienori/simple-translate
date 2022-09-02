@@ -189,43 +189,43 @@
     "message": "בחר שפת מטרה שנייה."
   },
   "ignoredDocumentLangLabel": {
-    "message": "Disable translation by lang attribute"
+    "message": "השבת תרגום לפי מאפיין lang"
   },
   "ignoredDocumentLangCaptionLabel": {
-    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
+    "message": "השבת את התרגום אם תכונת lang ברכיב ה-html של הדף תואמת לרשימה. הזן תגי שפה מופרדים בפסיקים."
   },
   "waitTimeLabel": {
     "message": "השהיית תרגום"
   },
   "waitTimeCaptionLabel": {
-    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+    "message": "ציין את זמן ההמתנה מהזנת תו ועד תחילת התרגום. (באלפיות שנייה)"
   },
   "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
+    "message": "אם תתרגם את זה הרבה פעמים בזמן קצר, זה עלול להיות בלתי שמיש לזמן מה."
   },
   "menuLabel": {
-    "message": "Context menu"
+    "message": "תפריט הקשר"
   },
   "ifShowMenuLabel": {
-    "message": "Display the context menu"
+    "message": "הצג את תפריט ההקשר"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+    "message": "הוסף פריטים לתפריט ההקשר המוצג בעת לחיצה ימנית על דף האינטרנט או הכרטיסייה."
   },
   "pageTranslationLabel": {
-    "message": "Page translation"
+    "message": "תרגום דף"
   },
   "pageTranslationOpenToLabel": {
-    "message": "Tab to display translation results"
+    "message": "כרטיסייה להצגת תוצאות תרגום"
   },
   "pageTranslationOpenToCaptionLabel": {
-    "message": "Specify the tab to display the results of the page translation."
+    "message": "ציין את הכרטיסייה שעליה יוצגו תוצאות תרגום הדף."
   },
   "newTabLabel": {
-    "message": "New tab"
+    "message": "כרטיסייה חדשה"
   },
   "currentTabLabel": {
-    "message": "Current tab"
+    "message": "הכרטיסיה הנוכחית"
   },
   "styleLabel": {
     "message": "עיצוב"
@@ -318,7 +318,7 @@
     "message": "צבע הכתב עבור תוצאת התרגום"
   },
   "isOverrideColorsLabel": {
-    "message": "Override default colors with colors below"
+    "message": "עקוף את צבעי ברירת מחדל עם הצבעים למטה"
   },
   "candidateFontColorLabel": {
     "message": "צבע הכתב עבור תרגומים נוספים"
@@ -426,7 +426,7 @@
     "message": "דף התוסף"
   },
   "extensionPageLabel": {
-    "message": "Extension page"
+    "message": "עמוד התוסף"
   },
   "privacyPolicyLabel": {
     "message": "מדיניות הפרטיות"
@@ -435,7 +435,7 @@
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
   },
   "addonUrl": {
-    "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
+    "message": "https://addons.mozilla.org/he/firefox/addon/simple-translate/?src=optionpage\n"
   },
   "networkError": {
     "message": "שגיאה: בדוק את חיבור הרשת שלך."
@@ -444,10 +444,10 @@
     "message": "שגיאה: הגעת למגבל השימוש בשירות. אנא חכה ונסה שוב בהמשך."
   },
   "deeplAuthError": {
-    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
+    "message": "שגיאה: אימות של DeepL API נכשל. אנא הגדר את מפתח האימות ותכנן נכון בדף ההגדרות."
   },
   "unknownError": {
-    "message": "Error: Unknown error"
+    "message": "שגיאה: שגיאה לא ידועה"
   },
   "translatePageMenu": {
     "message": "תרגם דף זה"
@@ -459,7 +459,7 @@
     "message": "תרגם קישור מסומן"
   },
   "openPopupDescription": {
-    "message": "Open toolbar popup"
+    "message": "פתח את פופאפ סרגל הכלים"
   },
   "lang_af": {
     "message": "אפריקאנס"
@@ -477,7 +477,7 @@
     "message": "ארמנית"
   },
   "lang_az": {
-    "message": "אזרית"
+    "message": "אזרבייג'נית"
   },
   "lang_eu": {
     "message": "בסקית"
@@ -522,97 +522,97 @@
     "message": "דנית"
   },
   "lang_nl": {
-    "message": "Dutch"
+    "message": "הולנדית"
   },
   "lang_en": {
-    "message": "English"
+    "message": "אנגלית"
   },
   "lang_eo": {
-    "message": "Esperanto"
+    "message": "אספרנטו"
   },
   "lang_et": {
-    "message": "Estonian"
+    "message": "אסטונית"
   },
   "lang_fi": {
-    "message": "Finnish"
+    "message": "פינית"
   },
   "lang_fr": {
-    "message": "French"
+    "message": "צרפתית"
   },
   "lang_fy": {
-    "message": "Frisian"
+    "message": "פריזית"
   },
   "lang_gl": {
-    "message": "Galician"
+    "message": "גליציאנית"
   },
   "lang_ka": {
-    "message": "Georgian"
+    "message": "גאורגית"
   },
   "lang_de": {
-    "message": "German"
+    "message": "גרמנית"
   },
   "lang_el": {
-    "message": "Greek"
+    "message": "יוונית"
   },
   "lang_gu": {
-    "message": "Gujarati"
+    "message": "גוג'ארטי"
   },
   "lang_ht": {
-    "message": "Haitian"
+    "message": "האיטית"
   },
   "lang_ha": {
-    "message": "Hausa"
+    "message": "האוסה"
   },
   "lang_haw": {
-    "message": "Hawaiian"
+    "message": "הוואית"
   },
   "lang_he": {
     "message": "עברית"
   },
   "lang_hi": {
-    "message": "Hindi"
+    "message": "הינדי"
   },
   "lang_hu": {
-    "message": "Hungarian"
+    "message": "הונגרית"
   },
   "lang_is": {
-    "message": "Icelandic"
+    "message": "איסלנדית"
   },
   "lang_ig": {
-    "message": "Igbo"
+    "message": "איגבו"
   },
   "lang_id": {
-    "message": "Indonesian"
+    "message": "אינדונזית"
   },
   "lang_ga": {
-    "message": "Irish"
+    "message": "אירית"
   },
   "lang_it": {
-    "message": "Italian"
+    "message": "איטלקית"
   },
   "lang_ja": {
-    "message": "Japanese"
+    "message": "יפנית"
   },
   "lang_jv": {
-    "message": "Javanese"
+    "message": "יאוואית"
   },
   "lang_kn": {
-    "message": "Kannada"
+    "message": "קנאדה"
   },
   "lang_kk": {
-    "message": "Kazakh"
+    "message": "קזחית"
   },
   "lang_km": {
-    "message": "Khmer"
+    "message": "חמרית"
   },
   "lang_rw": {
-    "message": "Kinyarwanda"
+    "message": "קינירואנדה"
   },
   "lang_ky": {
-    "message": "Kirghiz"
+    "message": "קירגיזית"
   },
   "lang_ko": {
-    "message": "Korean"
+    "message": "קוריאנית"
   },
   "lang_ku": {
     "message": "כורדית"
@@ -684,123 +684,123 @@
     "message": "פנג'אבי"
   },
   "lang_ps": {
-    "message": "Pushto"
+    "message": "פאשטו"
   },
   "lang_ro": {
-    "message": "Romanian"
+    "message": "רומנית"
   },
   "lang_ru": {
-    "message": "Russian"
+    "message": "רוסית"
   },
   "lang_sm": {
-    "message": "Samoan"
+    "message": "סמואית"
   },
   "lang_gd": {
-    "message": "Scottish Gaelic"
+    "message": "גאלית סקוטית"
   },
   "lang_sr": {
-    "message": "Serbian"
+    "message": "סרבית"
   },
   "lang_st": {
-    "message": "Sesotho"
+    "message": "סותו דרומית"
   },
   "lang_sn": {
-    "message": "Shona"
+    "message": "שונה"
   },
   "lang_sd": {
-    "message": "Sindhi"
+    "message": "סינדהי"
   },
   "lang_si": {
-    "message": "Sinhala"
+    "message": "סינהלית"
   },
   "lang_sk": {
-    "message": "Slovak"
+    "message": "סלובקית"
   },
   "lang_sl": {
-    "message": "Slovenian"
+    "message": "סלובנית"
   },
   "lang_so": {
-    "message": "Somali"
+    "message": "סומלית"
   },
   "lang_es": {
-    "message": "Spanish"
+    "message": "ספרדית"
   },
   "lang_su": {
-    "message": "Sundanese"
+    "message": "סונדנזית"
   },
   "lang_sw": {
-    "message": "Swahili"
+    "message": "סווהילי"
   },
   "lang_sv": {
-    "message": "Swedish"
+    "message": "שוודית"
   },
   "lang_tl": {
-    "message": "Tagalog"
+    "message": "טאגאלוג"
   },
   "lang_tg": {
-    "message": "Tajiki"
+    "message": "טג'יקית"
   },
   "lang_ta": {
-    "message": "Tamil"
+    "message": "טמילית"
   },
   "lang_tt": {
-    "message": "Tatar"
+    "message": "טטרית"
   },
   "lang_te": {
-    "message": "Telugu"
+    "message": "טלוגו"
   },
   "lang_th": {
-    "message": "Thai"
+    "message": "תאילנדית"
   },
   "lang_tr": {
-    "message": "Turkish"
+    "message": "טורקית"
   },
   "lang_tk": {
-    "message": "Turkmen"
+    "message": "טורקמנית"
   },
   "lang_uk": {
-    "message": "Ukrainian"
+    "message": "אוקראינית"
   },
   "lang_ur": {
-    "message": "Urdu"
+    "message": "אורדו"
   },
   "lang_ug": {
-    "message": "Uyghur"
+    "message": "אויגורית"
   },
   "lang_uz": {
-    "message": "Uzbek"
+    "message": "אוזבקית"
   },
   "lang_vi": {
-    "message": "Vietnamese"
+    "message": "ווייטנאמית"
   },
   "lang_cy": {
-    "message": "Welsh"
+    "message": "ולשילת"
   },
   "lang_xh": {
-    "message": "Xosa"
+    "message": "קוסה"
   },
   "lang_yi": {
-    "message": "Yiddish"
+    "message": "יידיש"
   },
   "lang_yo": {
-    "message": "Yoruba"
+    "message": "יורובה"
   },
   "lang_zu": {
-    "message": "Zulu"
+    "message": "זולו"
   },
   "lang_en_US": {
-    "message": "English (American)"
+    "message": "אנגלית (אמריקאית)"
   },
   "lang_en_GB": {
-    "message": "English (British)"
+    "message": "אנגלית (בריטית)"
   },
   "lang_pt_PT": {
     "message": "פורטוגזית"
   },
   "lang_pt_BR": {
-    "message": "Portuguese (Brazilian)"
+    "message": "פורטוגזית (ברזילאית)"
   },
   "lang_zh": {
-    "message": "Chinese"
+    "message": "סינית"
   }
 }

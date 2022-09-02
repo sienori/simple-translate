@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
+    "message": "תרגם במהירות טקסט נבחר או מוקלד בדפי אינטרנט. תומך בגוגל תרגום ו-DeepL API."
   },
   "donateWithPaypalLabel": {
     "message": "תרום באמצעות PayPal"
@@ -27,7 +27,7 @@
     "message": "פתח ב- Google Translate"
   },
   "openInDeeplLabel": {
-    "message": "Open in DeepL Translator"
+    "message": "פתח במתרגם DeepL"
   },
   "copyLabel": {
     "message": "העתק"
@@ -57,7 +57,7 @@
     "message": "מנוע תרגום"
   },
   "googleApiLabel": {
-    "message": "Google translate API"
+    "message": "API גוגל תרגום"
   },
   "googleApiCaptionLabel": {
     "message": "שימוש ב-Google Translate API. רישום אינו נדרש."
@@ -165,7 +165,7 @@
     "message": "Alt"
   },
   "cmdLabel": {
-    "message": "Command"
+    "message": "Windows/Command"
   },
   "disableUrlListLabel": {
     "message": "דומיינים להשבתת התרגום"
@@ -243,7 +243,7 @@
     "message": "חשוך"
   },
   "systemLabel": {
-    "message": "System"
+    "message": "מערכת"
   },
   "buttonStyleLabel": {
     "message": "כפתור התרגום"
@@ -462,64 +462,64 @@
     "message": "Open toolbar popup"
   },
   "lang_af": {
-    "message": "Afrikaans"
+    "message": "אפריקאנס"
   },
   "lang_sq": {
-    "message": "Albanian"
+    "message": "אלבנית"
   },
   "lang_am": {
-    "message": "Amharic"
+    "message": "אמהרית"
   },
   "lang_ar": {
-    "message": "Arabic"
+    "message": "ערבית"
   },
   "lang_hy": {
-    "message": "Armenian"
+    "message": "ארמנית"
   },
   "lang_az": {
-    "message": "Azerbaijani"
+    "message": "אזרית"
   },
   "lang_eu": {
-    "message": "Basque"
+    "message": "בסקית"
   },
   "lang_be": {
-    "message": "Belarusian"
+    "message": "בלרוסית"
   },
   "lang_bn": {
-    "message": "Bengali"
+    "message": "בנגאלית"
   },
   "lang_bs": {
-    "message": "Bosnian"
+    "message": "בוסנית"
   },
   "lang_bg": {
-    "message": "Bulgarian"
+    "message": "בולגרית"
   },
   "lang_ca": {
-    "message": "Catalan"
+    "message": "קטלאנית"
   },
   "lang_ceb": {
-    "message": "Cebuano"
+    "message": "קובנית"
   },
   "lang_ny": {
-    "message": "Chewa"
+    "message": "צ'ווה"
   },
   "lang_zh_CN": {
-    "message": "Chinese (Simplified)"
+    "message": "סינית (פשוטה)"
   },
   "lang_zh_TW": {
-    "message": "Chinese (Traditional)"
+    "message": "סינית (מסורתית)"
   },
   "lang_co": {
-    "message": "Corsican"
+    "message": "קורסיקאית"
   },
   "lang_hr": {
-    "message": "Croatian"
+    "message": "קרואטית"
   },
   "lang_cs": {
-    "message": "Czech"
+    "message": "צ'כית"
   },
   "lang_da": {
-    "message": "Danish"
+    "message": "דנית"
   },
   "lang_nl": {
     "message": "Dutch"
@@ -615,73 +615,73 @@
     "message": "Korean"
   },
   "lang_ku": {
-    "message": "Kurdish"
+    "message": "כורדית"
   },
   "lang_lo": {
-    "message": "Laotian"
+    "message": "לאית"
   },
   "lang_la": {
-    "message": "Latin"
+    "message": "לטינית"
   },
   "lang_lv": {
-    "message": "Latvian"
+    "message": "לטבית"
   },
   "lang_lt": {
-    "message": "Lithuanian"
+    "message": "ליטאית"
   },
   "lang_lb": {
-    "message": "Luxembourgish"
+    "message": "לוקסמבורגית"
   },
   "lang_mk": {
-    "message": "Macedonian"
+    "message": "מקדונית"
   },
   "lang_mg": {
-    "message": "Malagasy"
+    "message": "מלגזית"
   },
   "lang_ms": {
-    "message": "Malay"
+    "message": "מלאית"
   },
   "lang_ml": {
-    "message": "Malayalam"
+    "message": "מליאלאם"
   },
   "lang_mt": {
-    "message": "Maltese"
+    "message": "מלטית"
   },
   "lang_mi": {
-    "message": "Maori"
+    "message": "מאורית"
   },
   "lang_mr": {
-    "message": "Marathi"
+    "message": "מראטהי"
   },
   "lang_mn": {
-    "message": "Mongolian"
+    "message": "מונגולית"
   },
   "lang_hmn": {
-    "message": "Monk"
+    "message": "שפת נזירים"
   },
   "lang_my": {
-    "message": "Myanmar"
+    "message": "בורמזית"
   },
   "lang_ne": {
-    "message": "Nepali"
+    "message": "נפאלית"
   },
   "lang_no": {
-    "message": "Norwegian"
+    "message": "נורווגית"
   },
   "lang_or": {
-    "message": "Odia (Oriya)"
+    "message": "אודיה (אורייה)"
   },
   "lang_fa": {
-    "message": "Persian"
+    "message": "פרסית"
   },
   "lang_pl": {
-    "message": "Polish"
+    "message": "פולנית"
   },
   "lang_pt": {
-    "message": "Portuguese"
+    "message": "פורטוגזית"
   },
   "lang_pa": {
-    "message": "Punjabi"
+    "message": "פנג'אבי"
   },
   "lang_ps": {
     "message": "Pushto"
@@ -795,7 +795,7 @@
     "message": "English (British)"
   },
   "lang_pt_PT": {
-    "message": "Portuguese"
+    "message": "פורטוגזית"
   },
   "lang_pt_BR": {
     "message": "Portuguese (Brazilian)"

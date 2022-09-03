@@ -99,7 +99,7 @@
     "message": "Mostrar candidatos à tradução"
   },
   "ifShowCandidateCaptionLabel": {
-    "message": "Mostra várias traduções candidatas ao traduzir só uma palavra."
+    "message": "Mostra várias traduções sugeridas ao se traduzir uma palavra."
   },
   "whenSelectTextLabel": {
     "message": "Comportamento ao selecionar texto"
@@ -168,7 +168,7 @@
     "message": "Command"
   },
   "disableUrlListLabel": {
-    "message": "Lista de URLs para desativar tradução"
+    "message": "Lista de URLs em que se desativa a tradução"
   },
   "disableUrlListCaptionLabel": {
     "message": "Se o URL da página corresponde à lista, a tradução na página é desativada. A lista permite curingas \"*\"."
@@ -198,10 +198,10 @@
     "message": "Tempo de espera para traduzir"
   },
   "waitTimeCaptionLabel": {
-    "message": "Especifique o intervalo entre a inserção de um caractere e o início da tradução. (milissegundo)"
+    "message": "Especifique o intervalo entre a inserção de uma letra e o início da tradução. (milissegundo)"
   },
   "waitTime2CaptionLabel": {
-    "message": "Se você traduz muitas vezes em pouco tempo, pode ficar inutilizável por um tempo."
+    "message": "Se traduzir muitas vezes em pouco tempo, pode ficar inutilizável por um tempo."
   },
   "menuLabel": {
     "message": "Menu contextual"
@@ -216,10 +216,10 @@
     "message": "Tradução da página"
   },
   "pageTranslationOpenToLabel": {
-    "message": "Aba para mostrar os resultados da tradução"
+    "message": "Aba em que se mostram os resultados de tradução"
   },
   "pageTranslationOpenToCaptionLabel": {
-    "message": "Especificar a aba para exibir os resultados da tradução da página."
+    "message": "Especifica a aba em que se exibem os resultados da tradução da página"
   },
   "newTabLabel": {
     "message": "Aba nova"
@@ -315,7 +315,7 @@
     "message": "Posição de exibição - Direção"
   },
   "resultFontColorLabel": {
-    "message": "Color do texto traduzido"
+    "message": "Cor do texto traduzido"
   },
   "isOverrideColorsLabel": {
     "message": "Substituir as cores padrões com as cores abaixo"
@@ -345,7 +345,7 @@
     "message": "Exportar configurações"
   },
   "exportSettingsCaptionLabel": {
-    "message": "Salve as configurações como um arquivo json no computador."
+    "message": "Guarde as configurações como um arquivo JSON no computador."
   },
   "exportButtonLabel": {
     "message": "Exportar"
@@ -354,7 +354,7 @@
     "message": "Importar configurações"
   },
   "importSettingsCaptionLabel": {
-    "message": "Carregue o arquivo de configurações salvo no computador."
+    "message": "Carregue o arquivo de configurações guardado no computador."
   },
   "importButtonLabel": {
     "message": "Importar"
@@ -414,7 +414,7 @@
     "message": "Por favor, faça uma doação"
   },
   "donationCaptionLabel": {
-    "message": "Obrigado por usar Simple Translate.<br>Seu apoio será um grande estímulo para eu continuar a desenvolver a extensão.<br>Se você gostou do Simple Translate, eu apreciaria se considerasse doar."
+    "message": "Obrigado por usar Simple Translate.<br>Seu apoio me dará um grande impulso para continuar a desenvolver a extensão.<br>Serei grato por considerar doar, se lhe agrada o Simple Translate."
   },
   "amazonTitleLabel": {
     "message": "Vales-presente virtuais da amazon.co.jp"
@@ -606,7 +606,7 @@
     "message": "Khmer"
   },
   "lang_rw": {
-    "message": "Kinyarwanda"
+    "message": "Quiniaruanda"
   },
   "lang_ky": {
     "message": "Quirguiz"
@@ -669,7 +669,7 @@
     "message": "Norueguês"
   },
   "lang_or": {
-    "message": "Odia (Oriya)"
+    "message": "Oriá"
   },
   "lang_fa": {
     "message": "Persa"
@@ -702,7 +702,7 @@
     "message": "Sérvio"
   },
   "lang_st": {
-    "message": "Sesotho"
+    "message": "Sessoto"
   },
   "lang_sn": {
     "message": "Chona"
@@ -744,7 +744,7 @@
     "message": "Tâmil"
   },
   "lang_tt": {
-    "message": "Tatar"
+    "message": "Tártaro"
   },
   "lang_te": {
     "message": "Telugo"
@@ -756,7 +756,7 @@
     "message": "Turco"
   },
   "lang_tk": {
-    "message": "Turkmen"
+    "message": "Turcomano"
   },
   "lang_uk": {
     "message": "Ucraniano"
@@ -765,7 +765,7 @@
     "message": "Urdu"
   },
   "lang_ug": {
-    "message": "Uyghur"
+    "message": "Uigur"
   },
   "lang_uz": {
     "message": "Uzbeque"

@@ -3,28 +3,28 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Быстро переводите выделенный или набранный текст на веб-страницах. Поддерживается Google Переводчик и DeepL API."
+    "message": "Langsung menerjemahkan teks yang dipilih atau diketik pada laman web. Mendukung Google Terjemahan dan API DeepL."
   },
   "donateWithPaypalLabel": {
-    "message": "Donasi dengan PayPal"
+    "message": "Sumbang dengan PayPal"
   },
   "donateLabel": {
-    "message": "Donasi"
+    "message": "Sumbang"
   },
   "enableOnThisPage": {
-    "message": "aktifkan terjemahan pada halaman ini"
+    "message": "Aktifkan penerjemahan pada laman ini"
   },
   "disableOnThisPage": {
-    "message": "matikan terjemahan pada halaman ini"
+    "message": "Nonaktifkan penerjemahan pada laman ini"
   },
   "initialTextArea": {
     "message": "Masukkan teks"
   },
   "showLink": {
-    "message": "Terjemahkan halaman ini"
+    "message": "Terjemahkan laman ini"
   },
   "openInGoogleLabel": {
-    "message": "Buka di Google Translate"
+    "message": "Buka di Google Terjemahan"
   },
   "openInDeeplLabel": {
     "message": "Buka di DeepL Translator"
@@ -39,7 +39,7 @@
     "message": "Dengar"
   },
   "targetLangLabel": {
-    "message": "Bahasa Target"
+    "message": "Bahasa Sasaran"
   },
   "allLangLabel": {
     "message": "Semua bahasa"
@@ -168,13 +168,13 @@
     "message": "Command"
   },
   "disableUrlListLabel": {
-    "message": "daftar alamat yang dinonaktifkan terjemahan"
+    "message": "Daftar URL untuk menonaktifkan terjemahan"
   },
   "disableUrlListCaptionLabel": {
-    "message": "Jika URL halaman sesuai dengan daftar, terjemahan untuk halaman tersebut dinonaktifkan. Daftar mengizinkan wildcard \"*\"."
+    "message": "Jika URL laman sesuai dengan daftar, terjemahan untuk laman tersebut dinonaktifkan. Daftar ini mengizinkan wildcard \"*\"."
   },
   "toolbarLabel": {
-    "message": "Toolbar pengaya"
+    "message": "Sembulan bilah alat"
   },
   "ifChangeSecondLangLabel": {
     "message": "Secara otomatis beralih ke bahasa kedua"
@@ -462,7 +462,7 @@
     "message": "Buka popup toolbar"
   },
   "lang_af": {
-    "message": "Bahasa Afrikan"
+    "message": "Bahasa Afrikaans"
   },
   "lang_sq": {
     "message": "Bahasa Albania"
@@ -483,70 +483,70 @@
     "message": "Bahasa Euskara"
   },
   "lang_be": {
-    "message": "Belarusian"
+    "message": "Bahasa Belarus"
   },
   "lang_bn": {
-    "message": "Bengali"
+    "message": "Bahasa Benggala"
   },
   "lang_bs": {
-    "message": "Bosnian"
+    "message": "Bahasa Bosnia"
   },
   "lang_bg": {
-    "message": "Bulgarian"
+    "message": "Bahasa Bulgaria"
   },
   "lang_ca": {
-    "message": "Catalan"
+    "message": "Bahasa Katala"
   },
   "lang_ceb": {
-    "message": "Cebuano"
+    "message": "Bahasa Sugbu"
   },
   "lang_ny": {
-    "message": "Chewa"
+    "message": "Bahasa Chewa"
   },
   "lang_zh_CN": {
-    "message": "Chinese (Simplified)"
+    "message": "Bahasa Mandarin (Sederhana)"
   },
   "lang_zh_TW": {
-    "message": "Chinese (Traditional)"
+    "message": "Bahasa Mandarin (Tradisional)"
   },
   "lang_co": {
-    "message": "Corsican"
+    "message": "Bahasa Korsika"
   },
   "lang_hr": {
-    "message": "Croatian"
+    "message": "Bahasa Kroasia"
   },
   "lang_cs": {
-    "message": "Czech"
+    "message": "Bahasa Ceko"
   },
   "lang_da": {
-    "message": "Danish"
+    "message": "Bahasa Denmark"
   },
   "lang_nl": {
-    "message": "Dutch"
+    "message": "Bahasa Belanda"
   },
   "lang_en": {
-    "message": "English"
+    "message": "Bahasa Inggris"
   },
   "lang_eo": {
-    "message": "Esperanto"
+    "message": "Bahasa Espranto"
   },
   "lang_et": {
-    "message": "Estonian"
+    "message": "Bahasa Esti"
   },
   "lang_fi": {
-    "message": "Finnish"
+    "message": "Bahasa Suomi"
   },
   "lang_fr": {
-    "message": "French"
+    "message": "Bahasa Prancis"
   },
   "lang_fy": {
-    "message": "Frisian"
+    "message": "Bahasa Frisia"
   },
   "lang_gl": {
-    "message": "Galician"
+    "message": "Bahasa Galisia"
   },
   "lang_ka": {
-    "message": "Georgian"
+    "message": "Bahasa Kartuli"
   },
   "lang_de": {
     "message": "German"
@@ -708,99 +708,99 @@
     "message": "Shona"
   },
   "lang_sd": {
-    "message": "Sindhi"
+    "message": "Bahasa Sindhi"
   },
   "lang_si": {
-    "message": "Sinhala"
+    "message": "Bahasa Sinhala"
   },
   "lang_sk": {
-    "message": "Slovak"
+    "message": "Bahasa Slowak"
   },
   "lang_sl": {
-    "message": "Slovenian"
+    "message": "Bahasa Slovenia"
   },
   "lang_so": {
-    "message": "Somali"
+    "message": "Bahasa Somalia"
   },
   "lang_es": {
-    "message": "Spanish"
+    "message": "Bahasa Spanyol"
   },
   "lang_su": {
-    "message": "Sundanese"
+    "message": "Bahasa Sunda"
   },
   "lang_sw": {
-    "message": "Swahili"
+    "message": "Bahasa Swahili"
   },
   "lang_sv": {
-    "message": "Swedish"
+    "message": "Bahasa Swedia"
   },
   "lang_tl": {
-    "message": "Tagalog"
+    "message": "Bahasa Tagalog"
   },
   "lang_tg": {
-    "message": "Tajiki"
+    "message": "Bahasa Tajik"
   },
   "lang_ta": {
-    "message": "Tamil"
+    "message": "Bahasa Tamil"
   },
   "lang_tt": {
-    "message": "Tatar"
+    "message": "Bahasa Tatar"
   },
   "lang_te": {
-    "message": "Telugu"
+    "message": "Bahasa Telugu"
   },
   "lang_th": {
-    "message": "Thai"
+    "message": "Bahasa Thailand"
   },
   "lang_tr": {
-    "message": "Turkish"
+    "message": "Bahasa Turki"
   },
   "lang_tk": {
-    "message": "Turkmen"
+    "message": "Bahasa Turkmen"
   },
   "lang_uk": {
-    "message": "Ukrainian"
+    "message": "Bahasa Ukraina"
   },
   "lang_ur": {
-    "message": "Urdu"
+    "message": "Bahasa Urdu"
   },
   "lang_ug": {
-    "message": "Uyghur"
+    "message": "Bahasa Uighur"
   },
   "lang_uz": {
-    "message": "Uzbek"
+    "message": "Bahasa Uzbek"
   },
   "lang_vi": {
-    "message": "Vietnamese"
+    "message": "Bahasa Vietnam"
   },
   "lang_cy": {
-    "message": "Welsh"
+    "message": "Bahasa Welsh"
   },
   "lang_xh": {
-    "message": "Xosa"
+    "message": "Bahasa Xhosa"
   },
   "lang_yi": {
-    "message": "Yiddish"
+    "message": "Bahasa Yiddish"
   },
   "lang_yo": {
-    "message": "Yoruba"
+    "message": "Bahasa Yoruba"
   },
   "lang_zu": {
-    "message": "Zulu"
+    "message": "Bahasa Zulu"
   },
   "lang_en_US": {
-    "message": "English (American)"
+    "message": "Bahasa Inggris (Amerika)"
   },
   "lang_en_GB": {
-    "message": "English (British)"
+    "message": "Bahasa Inggris (Britania)"
   },
   "lang_pt_PT": {
     "message": "Portuguese"
   },
   "lang_pt_BR": {
-    "message": "Portuguese (Brazilian)"
+    "message": "Bahasa Portugis (Brazil)"
   },
   "lang_zh": {
-    "message": "Chinese"
+    "message": "Bahasa Cina"
   }
 }

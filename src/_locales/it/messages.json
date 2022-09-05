@@ -213,19 +213,19 @@
     "message": "Aggiungi voci al menu di contesto mostrato cliccando con il destro sulla pagina web o la scheda."
   },
   "pageTranslationLabel": {
-    "message": "Page translation"
+    "message": "Traduzione della pagina"
   },
   "pageTranslationOpenToLabel": {
-    "message": "Tab to display translation results"
+    "message": "Scheda per visualizzare i risultati della traduzione"
   },
   "pageTranslationOpenToCaptionLabel": {
-    "message": "Specify the tab to display the results of the page translation."
+    "message": "Specifica la scheda per visualizzare i risultati della traduzione della pagina."
   },
   "newTabLabel": {
-    "message": "New tab"
+    "message": "Nuova scheda"
   },
   "currentTabLabel": {
-    "message": "Current tab"
+    "message": "Scheda attuale"
   },
   "styleLabel": {
     "message": "Stile"
@@ -243,7 +243,7 @@
     "message": "Scuro"
   },
   "systemLabel": {
-    "message": "System"
+    "message": "Sistema"
   },
   "buttonStyleLabel": {
     "message": "Pulsante di traduzione"
@@ -318,7 +318,7 @@
     "message": "Colore del font del risultato della traduzione"
   },
   "isOverrideColorsLabel": {
-    "message": "Override default colors with colors below"
+    "message": "Sostituire i colori predefiniti con i colori sottostanti"
   },
   "candidateFontColorLabel": {
     "message": "Colore del font dei candidati di traduzione"

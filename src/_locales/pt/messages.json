@@ -213,7 +213,7 @@
     "message": "Adiciona itens ao menu contextual exibido ao clicar o botão direito na página ou aba."
   },
   "pageTranslationLabel": {
-    "message": "Page translation"
+    "message": "Tradução de página"
   },
   "pageTranslationOpenToLabel": {
     "message": "Aba em que se exibe o texto traduzido"
@@ -318,7 +318,7 @@
     "message": "Cor do texto traduzido"
   },
   "isOverrideColorsLabel": {
-    "message": "Override default colors with colors below"
+    "message": "Substituir as cores padrão com as cores abaixo"
   },
   "candidateFontColorLabel": {
     "message": "Cor da tradução sugerida"

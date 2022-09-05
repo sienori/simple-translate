@@ -258,22 +258,22 @@
     "message": "표시 위치"
   },
   "topRightLabel": {
-    "message": "오른쪽 위"
+    "message": "오른쪽 상단"
   },
   "bottomRightLabel": {
-    "message": "오른쪽 아래"
+    "message": "오른쪽 하단"
   },
   "topLeftLabel": {
-    "message": "왼쪽 위"
+    "message": "왼쪽 상단"
   },
   "bottomLeftLabel": {
-    "message": "왼쪽 아래"
+    "message": "왼쪽 하단"
   },
   "topLabel": {
-    "message": "위"
+    "message": "상단"
   },
   "bottomLabel": {
-    "message": "아래"
+    "message": "하단"
   },
   "leftLabel": {
     "message": "왼쪽"

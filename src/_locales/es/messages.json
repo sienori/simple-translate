@@ -18,7 +18,7 @@
     "message": "Desactivar la traducción en esta página"
   },
   "initialTextArea": {
-    "message": "Introducir el texto"
+    "message": "Introducir texto"
   },
   "showLink": {
     "message": "Traducir esta página"
@@ -48,7 +48,7 @@
     "message": "Idiomas recientes"
   },
   "settingsLabel": {
-    "message": "Configuración"
+    "message": "Ajustes"
   },
   "generalLabel": {
     "message": "General"
@@ -78,7 +78,7 @@
     "message": "Seleccione el plan de la API de DeepL en el que se ha registrado."
   },
   "deeplFreeLabel": {
-    "message": "API de DeepL Free"
+    "message": "API de DeepL Gratis"
   },
   "deeplProLabel": {
     "message": "API de DeepL Pro"
@@ -120,7 +120,7 @@
     "message": "No mostrar el botón ni el panel"
   },
   "dontshowbuttonCaptionlabel": {
-    "message": "No muestra el botón de traducción ni el panel de traducción."
+    "message": "No mostrar el botón de traducción ni el panel de traducción."
   },
   "ifCheckLangLabel": {
     "message": "No mostrar el botón si la traducción no es necesaria"

@@ -216,16 +216,16 @@
     "message": "页面翻译"
   },
   "pageTranslationOpenToLabel": {
-    "message": "Tab to display translation results"
+    "message": "用于显示翻译结果的标签页"
   },
   "pageTranslationOpenToCaptionLabel": {
-    "message": "Specify the tab to display the results of the page translation."
+    "message": "指定用于显示翻译结果的标签页。"
   },
   "newTabLabel": {
-    "message": "New tab"
+    "message": "新标签页"
   },
   "currentTabLabel": {
-    "message": "Current tab"
+    "message": "当前标签页"
   },
   "styleLabel": {
     "message": "样式"

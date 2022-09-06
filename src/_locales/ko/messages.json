@@ -18,7 +18,7 @@
     "message": "이 페이지에서 번역 사용 안 함"
   },
   "initialTextArea": {
-    "message": "텍스트를 입력하세요"
+    "message": "텍스트 입력"
   },
   "showLink": {
     "message": "이 페이지 번역"
@@ -117,7 +117,7 @@
     "message": "웹 페이지에서 텍스트를 선택했을 때 버튼을 보여줍니다."
   },
   "dontshowbuttonlabel": {
-    "message": "버튼 또는 창 표시하지 않기"
+    "message": "버튼 또는 창 표시 안 함"
   },
   "dontshowbuttonCaptionlabel": {
     "message": "버튼 또는 번역 창을 표시하지 않습니다."
@@ -297,7 +297,7 @@
     "message": "세로 길이"
   },
   "fontSizeLabel": {
-    "message": "글자 크기"
+    "message": "글꼴 크기"
   },
   "referencePointLabel": {
     "message": "표시 위치 - 기준점"
@@ -336,10 +336,10 @@
     "message": "Simple Translate가 업데이트 된 경우 설정 페이지를 표시합니다. 업데이트 내용을 바로 알 수 있습니다."
   },
   "isDebugModeLabel": {
-    "message": "디버그 모드 활성화"
+    "message": "디버그 모드 사용 설정"
   },
   "isDebugModeCaptionLabel": {
-    "message": "디버그 모드가 활성화되면 디버거로 로그가 출력됩니다."
+    "message": "디버그 모드를 사용 설정하면 디버거로 로그가 출력됩니다."
   },
   "exportSettingsLabel": {
     "message": "설정 내보내기"
@@ -357,7 +357,7 @@
     "message": "컴퓨터에 저장된 설정을 불러옵니다."
   },
   "importButtonLabel": {
-    "message": "불러오기"
+    "message": "가져오기"
   },
   "resetSettingsLabel": {
     "message": "설정 초기화"
@@ -411,7 +411,7 @@
     "message": "라이선스"
   },
   "donationLabel": {
-    "message": "기부 해주세요"
+    "message": "기부해 주세요"
   },
   "donationCaptionLabel": {
     "message": "Simple Translator를 사용해 주셔서 감사합니다.<br>저를 지원해 주시면 이 확장 프로그램을 개발하는 데 큰 도움이 됩니다.<br>Simple Translator가 마음에 든다면 기부해 보시는 것도 추천합니다."
@@ -450,13 +450,13 @@
     "message": "오류: 알 수 없는 오류"
   },
   "translatePageMenu": {
-    "message": "이 페이지 번역하기"
+    "message": "이 페이지 번역"
   },
   "translateTextMenu": {
-    "message": "선택한 문자 번역하기"
+    "message": "선택한 문자 번역"
   },
   "translateLinkMenu": {
-    "message": "선택한 링크 번역하기"
+    "message": "선택한 링크 번역"
   },
   "openPopupDescription": {
     "message": "툴바 팝업 열기"
@@ -495,7 +495,7 @@
     "message": "불가리아어"
   },
   "lang_ca": {
-    "message": "카탈로니아어"
+    "message": "카탈루냐어"
   },
   "lang_ceb": {
     "message": "세부아노어"

@@ -78,10 +78,10 @@
     "message": "가입한 DeepL API 요금제를 선택하세요."
   },
   "deeplFreeLabel": {
-    "message": "DeepL API Free"
+    "message": "DeepL API 무료"
   },
   "deeplProLabel": {
-    "message": "DeepL API Pro"
+    "message": "DeepL API 프로"
   },
   "deeplAuthKeyLabel": {
     "message": "인증 키"
@@ -135,7 +135,7 @@
     "message": "번역 사용 안 함"
   },
   "isDisabledInTextFieldsLabel": {
-    "message": "텍스트 필드에서 번역 사용 안 함"
+    "message": "텍스트 입력란에서 번역 사용 안 함"
   },
   "isDisabledInTextFieldsCaptionLabel": {
     "message": "텍스트 필드에서 텍스트를 선택할 때 번역 버튼 또는 창 보이지 않기"

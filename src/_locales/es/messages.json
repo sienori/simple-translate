@@ -255,7 +255,7 @@
     "message": "Tamaño"
   },
   "buttonPositionLabel": {
-    "message": "Posición de la visualización"
+    "message": "Mostrar posición"
   },
   "topRightLabel": {
     "message": "Superior derecho"
@@ -471,7 +471,7 @@
     "message": "amhárico"
   },
   "lang_ar": {
-    "message": "árabe"
+    "message": "Árabe"
   },
   "lang_hy": {
     "message": "armenio"
@@ -495,7 +495,7 @@
     "message": "Búlgaro"
   },
   "lang_ca": {
-    "message": "catalán"
+    "message": "Catalán"
   },
   "lang_ceb": {
     "message": "cebuano"
@@ -549,10 +549,10 @@
     "message": "georgiano"
   },
   "lang_de": {
-    "message": "alemán"
+    "message": "Alemán"
   },
   "lang_el": {
-    "message": "griego"
+    "message": "Griego"
   },
   "lang_gu": {
     "message": "gujarati"
@@ -612,7 +612,7 @@
     "message": "kirguís"
   },
   "lang_ko": {
-    "message": "coreano"
+    "message": "Coreano"
   },
   "lang_ku": {
     "message": "kurdo"
@@ -621,7 +621,7 @@
     "message": "lao"
   },
   "lang_la": {
-    "message": "latín"
+    "message": "Latín"
   },
   "lang_lv": {
     "message": "letón"
@@ -678,7 +678,7 @@
     "message": "polaco"
   },
   "lang_pt": {
-    "message": "portugués"
+    "message": "Portugués"
   },
   "lang_pa": {
     "message": "panyabí"
@@ -750,7 +750,7 @@
     "message": "telugu"
   },
   "lang_th": {
-    "message": "tailandés"
+    "message": "Tailandés"
   },
   "lang_tr": {
     "message": "turco"
@@ -759,7 +759,7 @@
     "message": "turkmeno"
   },
   "lang_uk": {
-    "message": "ucraniano"
+    "message": "Ucraniano"
   },
   "lang_ur": {
     "message": "urdu"
@@ -771,7 +771,7 @@
     "message": "uzbeko"
   },
   "lang_vi": {
-    "message": "vietnamita"
+    "message": "Vietnamita"
   },
   "lang_cy": {
     "message": "galés"
@@ -795,7 +795,7 @@
     "message": "Inglés (Británico)"
   },
   "lang_pt_PT": {
-    "message": "portugués"
+    "message": "Portugués"
   },
   "lang_pt_BR": {
     "message": "Portugués (Brasileño)"

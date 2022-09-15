@@ -59,3 +59,5 @@ Thank you to the awesome backers who supported Simple Translate!
 - gumil
 - fur
 - Chris Bolton
+- Haviland Wright
+- empty_child

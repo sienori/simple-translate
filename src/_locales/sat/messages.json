@@ -213,7 +213,7 @@
     "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
   },
   "pageTranslationLabel": {
-    "message": "Page translation"
+    "message": "ᱥᱟᱦᱴᱟ ᱨᱮᱭᱟᱜ ᱛᱚᱨᱡᱚᱢᱟ"
   },
   "pageTranslationOpenToLabel": {
     "message": "Tab to display translation results"
@@ -222,7 +222,7 @@
     "message": "Specify the tab to display the results of the page translation."
   },
   "newTabLabel": {
-    "message": "New tab"
+    "message": "ᱱᱟᱶᱟ ᱴᱮᱵᱽ"
   },
   "currentTabLabel": {
     "message": "Current tab"

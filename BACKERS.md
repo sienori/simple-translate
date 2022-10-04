@@ -61,3 +61,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - Chris Bolton
 - Haviland Wright
 - empty_child
+- Love Lain

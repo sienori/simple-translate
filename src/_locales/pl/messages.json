@@ -213,19 +213,19 @@
     "message": "Dodaj elementy do menu kontekstowego wyświetlanego, po kliknięciu prawym przyciskiem myszy na stronie internetowej."
   },
   "pageTranslationLabel": {
-    "message": "Page translation"
+    "message": "Tłumaczenie strony"
   },
   "pageTranslationOpenToLabel": {
-    "message": "Tab to display translation results"
+    "message": "Karta do wyświetlenia rezultatów tłumaczenia"
   },
   "pageTranslationOpenToCaptionLabel": {
     "message": "Specify the tab to display the results of the page translation."
   },
   "newTabLabel": {
-    "message": "New tab"
+    "message": "Nowa karta"
   },
   "currentTabLabel": {
-    "message": "Current tab"
+    "message": "Obecna karta"
   },
   "styleLabel": {
     "message": "Styl"
@@ -318,7 +318,7 @@
     "message": "Kolor czcionki wyniku tłumaczenia"
   },
   "isOverrideColorsLabel": {
-    "message": "Override default colors with colors below"
+    "message": "Nadpisz kolory domyślne wybranymi kolorami poniżej"
   },
   "candidateFontColorLabel": {
     "message": "Kolor czcionki kandydatów do tłumaczenia"

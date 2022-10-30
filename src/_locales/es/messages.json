@@ -153,7 +153,7 @@
     "message": "Solo muestra la traducción al presionar la tecla modificadora especificada."
   },
   "modifierKeyLabel": {
-    "message": "Tecla modificadora"
+    "message": "Configuración"
   },
   "shiftLabel": {
     "message": "Shift"
@@ -165,7 +165,7 @@
     "message": "Alt"
   },
   "cmdLabel": {
-    "message": "Command"
+    "message": "Comando"
   },
   "disableUrlListLabel": {
     "message": "Lista de URL para los que se desactiva la traducción"

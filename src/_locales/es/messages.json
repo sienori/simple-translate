@@ -168,25 +168,25 @@
     "message": "Comando"
   },
   "disableUrlListLabel": {
-    "message": "Lista de URL para los que se desactiva la traducción"
+    "message": "Lista de URL para desactivar la traducción del sistema"
   },
   "disableUrlListCaptionLabel": {
-    "message": "Si el URL de la página se encuentra en la lista, se desactiva la traducción en la página web. La lista permite el uso de caracteres comodín «*»."
+    "message": "Deshabilite la traducción en una página web si la URL de la página coincide con la lista. Puede utilizar comodines \"*\" en la lista."
   },
   "toolbarLabel": {
-    "message": "Ventana emergente de la barra de herramientas"
+    "message": "Barra de herramientas emergente"
   },
   "ifChangeSecondLangLabel": {
-    "message": "Cambiar automáticamente al segundo idioma"
+    "message": "Cambio automático del idioma"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "Detecta el idioma del texto introducido y, si es el mismo que el idioma de destino por defecto, traduce el texto al segundo idioma."
+    "message": "Detecta el idioma del texto de entrada y lo traduce a un segundo idioma si es el mismo que el idioma de destino predeterminado."
   },
   "secondTargetLangLabel": {
-    "message": "Segundo idioma"
+    "message": "El segundo idioma"
   },
   "secondTargetLangCaptionLabel": {
-    "message": "Seleccione el segundo idioma de destino."
+    "message": "Elija el segundo idioma de destino."
   },
   "ignoredDocumentLangLabel": {
     "message": "Desactivar traducción por atributo del lenguaje"

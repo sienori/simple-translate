@@ -37,7 +37,7 @@ const sendRequestToGoogle = async (word, sourceLang, targetLang) => {
 
   const resultData = {
     resultText: "",
-    candidateText: "",
+    candidates: [],
     sourceLanguage: "",
     percentage: 0,
     isError: false,
@@ -59,9 +59,7 @@ const sendRequestToGoogle = async (word, sourceLang, targetLang) => {
   resultData.percentage = result.data.ld_result.srclangs_confidences[0];
   resultData.resultText = result.data.sentences.map(sentence => sentence.trans).join("");
   if (result.data.dict) {
-    resultData.candidateText = result.data.dict
-      .map(dict => `${dict.pos}${dict.pos != "" ? ": " : ""}${dict.terms.join(", ")}\n`)
-      .join("");
+    resultData.candidates = result.data.dict;
   }
 
   log.log(logDir, "sendRequest()", resultData);
@@ -81,7 +79,7 @@ const sendRequestToDeepL = async (word, sourceLang, targetLang) => {
 
   const resultData = {
     resultText: "",
-    candidateText: "",
+    candidates: [],
     sourceLanguage: "",
     percentage: 0,
     isError: false,
@@ -114,7 +112,7 @@ export default async (sourceWord, sourceLang = "auto", targetLang, translationAp
   if (sourceWord === "")
     return {
       resultText: "",
-      candidateText: "",
+      candidates: [],
       sourceLanguage: "en",
       percentage: 0,
       statusText: "OK"

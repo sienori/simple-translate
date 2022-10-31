@@ -45,7 +45,7 @@ export default class PopupPage extends Component {
       targetLang: "",
       inputText: "",
       resultText: "",
-      candidateText: "",
+      candidates: [],
       sourceLang: "",
       isError: false,
       errorMessage: "",
@@ -123,7 +123,7 @@ export default class PopupPage extends Component {
     const result = await translate(text, "auto", targetLang);
     this.setState({
       resultText: result.resultText,
-      candidateText: result.candidateText,
+      candidates: result.candidates,
       sourceLang: result.sourceLanguage,
       isError: result.isError,
       errorMessage: result.errorMessage
@@ -187,7 +187,7 @@ export default class PopupPage extends Component {
           inputText={this.state.inputText}
           targetLang={this.state.targetLang}
           resultText={this.state.resultText}
-          candidateText={this.state.candidateText}
+          candidates={this.state.candidates}
           isError={this.state.isError}
           errorMessage={this.state.errorMessage}
         />

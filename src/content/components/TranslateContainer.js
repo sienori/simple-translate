@@ -40,7 +40,7 @@ export default class TranslateContainer extends Component {
       panelPosition: { x: 0, y: 0 },
       currentLang: getSettings("targetLang"),
       resultText: "",
-      candidateText: "",
+      candidates: [],
       isError: false,
       errorMessage: ""
     };
@@ -97,7 +97,7 @@ export default class TranslateContainer extends Component {
       shouldShowPanel: true,
       panelPosition: panelPosition,
       resultText: result.resultText,
-      candidateText: getSettings("ifShowCandidate") ? result.candidateText : "",
+      candidates: getSettings("ifShowCandidate") ? result.candidates : "",
       isError: result.isError,
       errorMessage: result.errorMessage,
       currentLang: shouldSwitchSecondLang ? secondLang : targetLang
@@ -122,7 +122,7 @@ export default class TranslateContainer extends Component {
           selectedText={this.selectedText}
           currentLang={this.state.currentLang}
           resultText={this.state.resultText}
-          candidateText={this.state.candidateText}
+          candidates={this.state.candidates}
           isError={this.state.isError}
           errorMessage={this.state.errorMessage}
           hidePanel={this.hidePanel}

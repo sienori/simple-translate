@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import browser from "webextension-polyfill";
 import { getSettings } from "src/settings/settings";
 import openUrl from "src/common/openUrl";
@@ -12,7 +12,7 @@ const splitLine = text => {
 };
 
 export default props => {
-  const { resultText, candidateText, isError, errorMessage, targetLang } = props;
+  const { resultText, candidates, isError, errorMessage, targetLang } = props;
   const shouldShowCandidate = getSettings("ifShowCandidate");
   const translationApi = getSettings("translationApi");
 
@@ -29,7 +29,19 @@ export default props => {
   return (
     <div id="resultArea">
       <p className="resultText" dir="auto">{splitLine(resultText)}</p>
-      {shouldShowCandidate && <p className="candidateText" dir="auto">{splitLine(candidateText)}</p>}
+      {shouldShowCandidate && <p className="candidateText" dir="auto">
+        {
+          candidates.map((pos, i) => {
+            let entries = pos.entry
+              .slice()
+              .sort((a, b) => b.score - a.score)
+              .map(e => e.word)
+              .join(', ')
+
+            return (<Fragment key={i}>{`${pos.pos}${pos.pos != "" ? ": " : ""}${entries}`}<br /></Fragment>)
+          })
+        }
+      </p>}
       {isError && <p className="error">{errorMessage}</p>}
       {isError && (
         <p className="translateLink">

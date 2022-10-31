@@ -1,5 +1,5 @@
 import browser from "webextension-polyfill";
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 import ReactDOM from "react-dom";
 import { getSettings } from "src/settings/settings";
 import "../styles/TranslatePanel.scss";
@@ -141,7 +141,7 @@ export default class TranslatePanel extends Component {
   componentWillReceiveProps = nextProps => {
     const isChangedContents =
       this.props.resultText !== nextProps.resultText ||
-      this.props.candidateText !== nextProps.candidateText ||
+      this.props.candidates !== nextProps.candidates ||
       this.props.position !== nextProps.position;
 
     if (isChangedContents && nextProps.shouldShow) this.setState({ shouldResize: true });
@@ -163,7 +163,7 @@ export default class TranslatePanel extends Component {
   };
 
   render = () => {
-    const { shouldShow, selectedText, currentLang, resultText, candidateText, isError, errorMessage } = this.props;
+    const { shouldShow, selectedText, currentLang, resultText, candidates, isError, errorMessage } = this.props;
     const { width, height } = this.state.shouldResize
       ? { width: parseInt(getSettings("width")), height: parseInt(getSettings("height")) }
       : { width: this.state.panelWidth, height: this.state.panelHeight };
@@ -200,7 +200,18 @@ export default class TranslatePanel extends Component {
               {splitLine(resultText)}
             </p>
             <p className="simple-translate-candidate" style={getCandidateFontColor()} dir="auto">
-              {splitLine(candidateText)}
+              {
+                candidates.map((pos, i) => {
+                  let entries = pos.entry
+                    .slice()
+                    .sort((a, b) => b.score - a.score)
+                    .map(e => e.word)
+                    .slice(0, 3)
+                    .join(', ')
+
+                  return (<Fragment key={i}>{`${pos.pos}${pos.pos != "" ? ": " : ""}${entries}`}<br /></Fragment>)
+                })
+              }
             </p>
             {isError && (
               <p className="simple-translate-error">

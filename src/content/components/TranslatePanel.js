@@ -218,13 +218,22 @@ export default class TranslatePanel extends Component {
 
                   return (
                     <tr key={i}>
-                      <td class="pos">{pos.pos}{pos.pos != "" ? ": " : ""}</td>
-                      <td class="entries">{entries}</td>
+                      <td className="pos">{pos.pos}{pos.pos != "" ? ": " : ""}</td>
+                      <td className="entries">{entries}</td>
                     </tr>
                   )
                 })
               }
             </table>
+            <div className="simple-translate-more">
+                <a href={translationApi === "google" ?
+                  `https://translate.google.com/?sl=auto&tl=${currentLang}&text=${encodeURIComponent(selectedText)}` :
+                  `https://www.deepl.com/translator#auto/${currentLang}/${encodeURIComponent(selectedText)}`
+                }
+                  target="_blank">
+                  MORE »
+                </a>
+            </div>
             {isError && (
               <p className="simple-translate-error">
                 {errorMessage}

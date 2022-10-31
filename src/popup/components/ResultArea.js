@@ -40,8 +40,8 @@ export default props => {
 
             return (
               <tr key={i}>
-                <td class="pos">{pos.pos}{pos.pos != "" ? ": " : ""}</td>
-                <td class="entries">{entries}</td>
+                <td className="pos">{pos.pos}{pos.pos != "" ? ": " : ""}</td>
+                <td className="entries">{entries}</td>
               </tr>
             )
           })

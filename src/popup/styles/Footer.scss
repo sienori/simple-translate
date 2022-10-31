@@ -7,6 +7,9 @@
 
   .translateLink {
     flex-shrink: 0;
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
     a {
       font-style: normal;
       text-decoration: none;
@@ -20,7 +23,6 @@
 
   .selectWrap {
     position: relative;
-    margin-inline-start: 5px;
     &:before {
       pointer-events: none;
       content: "";

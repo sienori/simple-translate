@@ -9,7 +9,7 @@ export default class Footer extends Component {
     super(props);
   }
 
-  handleLinkClick = async () => {
+  handleTranslatePageClick = async () => {
     const { tabUrl, targetLang } = this.props;
     const encodedUrl = encodeURIComponent(tabUrl);
     const translateUrl = `https://translate.google.com/translate?hl=${targetLang}&tl=${targetLang}&sl=auto&u=${encodedUrl}`;
@@ -17,18 +17,32 @@ export default class Footer extends Component {
     openUrl(translateUrl, isCurrentTab);
   };
 
+  handleMoreClick = async () => {
+    const { inputText, targetLang } = this.props;
+    const translationApi = getSettings("translationApi");
+    const encodedText = encodeURIComponent(inputText);
+    const translateUrl = translationApi === "google" ?
+      `https://translate.google.com/?sl=auto&tl=${targetLang}&text=${encodedText}` :
+      `https://www.deepl.com/translator#auto/${targetLang}/${encodedText}`
+      ;
+    openUrl(translateUrl);
+  }
+
   handleChange = e => {
     const lang = e.target.value;
     this.props.handleLangChange(lang);
   };
 
   render() {
-    const { tabUrl, targetLang, langHistory, langList } = this.props;
+    const { tabUrl, inputText, targetLang, langHistory, langList } = this.props;
 
     return (
       <div id="footer">
         <div className="translateLink">
-          {tabUrl && <a onClick={this.handleLinkClick}>{browser.i18n.getMessage("showLink")}</a>}
+          {tabUrl && <a onClick={this.handleTranslatePageClick}>{browser.i18n.getMessage("showLink")}</a>}
+        </div>
+        <div className="translateLink">
+          {inputText && <a onClick={this.handleMoreClick}>MORE »</a>}
         </div>
         <div className="selectWrap">
           <select

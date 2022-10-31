@@ -67,13 +67,16 @@
           color: var(--simple-translate-main-text);
         }
         .simple-translate-candidate,
+        .simple-translate-more,
         .simple-translate-error {
           color: var(--simple-translate-sub-text);
           margin-top: 1em;
           &:empty {
             margin-top: 0;
           }
+        }
 
+        .simple-translate-candidate {
           td {
             vertical-align: top;
             padding: 5px 10px 0 0;
@@ -86,6 +89,11 @@
           .entries {
             color: var(--simple-translate-main-text);
           }
+        }
+
+        .simple-translate-more {
+          display: flex;
+          justify-content: flex-end;
         }
       }
     }

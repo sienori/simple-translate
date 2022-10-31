@@ -193,6 +193,7 @@ export default class PopupPage extends Component {
         />
         <Footer
           tabUrl={this.state.tabUrl}
+          inputText={this.state.inputText}
           targetLang={this.state.targetLang}
           langHistory={this.state.langHistory}
           handleLangChange={this.handleLangChange}

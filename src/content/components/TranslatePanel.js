@@ -196,10 +196,17 @@ export default class TranslatePanel extends Component {
         <div className="simple-translate-result-wrapper" ref="wrapper" style={wrapperStyles}>
           <div className="simple-translate-move" draggable="true" ref="move"></div>
           <div className="simple-translate-result-contents">
-            <p className="simple-translate-result" style={getResultFontColor()} dir="auto">
+            <p
+              className="simple-translate-result"
+              style={{
+                fontSize: panelStyles.fontSize + 6,
+                ...getResultFontColor()
+              }}
+              dir="auto"
+            >
               {splitLine(resultText)}
             </p>
-            <p className="simple-translate-candidate" style={getCandidateFontColor()} dir="auto">
+            <table className="simple-translate-candidate" style={getCandidateFontColor()} dir="auto">
               {
                 candidates.map((pos, i) => {
                   let entries = pos.entry
@@ -209,10 +216,15 @@ export default class TranslatePanel extends Component {
                     .slice(0, 3)
                     .join(', ')
 
-                  return (<Fragment key={i}>{`${pos.pos}${pos.pos != "" ? ": " : ""}${entries}`}<br /></Fragment>)
+                  return (
+                    <tr key={i}>
+                      <td class="pos">{pos.pos}{pos.pos != "" ? ": " : ""}</td>
+                      <td class="entries">{entries}</td>
+                    </tr>
+                  )
                 })
               }
-            </p>
+            </table>
             {isError && (
               <p className="simple-translate-error">
                 {errorMessage}

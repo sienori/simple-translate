@@ -1,20 +1,35 @@
 #resultArea {
-  max-height: 240px;
+  max-height: 260px;
   min-height: 30px;
   overflow-y: auto;
   word-wrap: break-word;
   background-color: var(--main-bg);
   margin: 10px 10px 3px;
 
-  p {
+  p, table {
     margin: 0;
     padding: 0px 5px;
     background-color: var(--main-bg);
 
     &.resultText {
       color: var(--main-text);
+      font-size: 19px;
     }
-    &.candidateText,
+    &.candidates {
+      td {
+        vertical-align: top;
+        padding: 5px 10px 0 0;
+      }
+
+      .pos {
+        font-style: italic;
+      }
+
+      .entries {
+        color: var(--main-text);
+      }
+    }
+    &.candidates,
     &.error {
       color: var(--sub-text);
       margin-top: 1em;

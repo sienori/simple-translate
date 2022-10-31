@@ -29,7 +29,7 @@ export default props => {
   return (
     <div id="resultArea">
       <p className="resultText" dir="auto">{splitLine(resultText)}</p>
-      {shouldShowCandidate && <p className="candidateText" dir="auto">
+      {shouldShowCandidate && <table className="candidates" dir="auto">
         {
           candidates.map((pos, i) => {
             let entries = pos.entry
@@ -38,10 +38,15 @@ export default props => {
               .map(e => e.word)
               .join(', ')
 
-            return (<Fragment key={i}>{`${pos.pos}${pos.pos != "" ? ": " : ""}${entries}`}<br /></Fragment>)
+            return (
+              <tr key={i}>
+                <td class="pos">{pos.pos}{pos.pos != "" ? ": " : ""}</td>
+                <td class="entries">{entries}</td>
+              </tr>
+            )
           })
         }
-      </p>}
+      </table>}
       {isError && <p className="error">{errorMessage}</p>}
       {isError && (
         <p className="translateLink">

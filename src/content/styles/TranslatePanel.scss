@@ -40,7 +40,8 @@
       .simple-translate-result-contents {
         padding: 0px 18px 15px;
         p,
-        a {
+        a,
+        table {
           all: initial;
           display: block;
           margin: 0;
@@ -71,6 +72,19 @@
           margin-top: 1em;
           &:empty {
             margin-top: 0;
+          }
+
+          td {
+            vertical-align: top;
+            padding: 5px 10px 0 0;
+          }
+
+          .pos {
+            font-style: italic;
+          }
+
+          .entries {
+            color: var(--simple-translate-main-text);
           }
         }
       }

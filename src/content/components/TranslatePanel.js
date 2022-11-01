@@ -206,7 +206,7 @@ export default class TranslatePanel extends Component {
             >
               {splitLine(resultText)}
             </p>
-            <table className="simple-translate-candidate" style={getCandidateFontColor()} dir="auto">
+            <table className="simple-translate-candidate" dir="auto">
               {
                 candidates.map((pos, i) => {
                   let entries = pos.entry
@@ -219,7 +219,7 @@ export default class TranslatePanel extends Component {
                   return (
                     <tr key={i}>
                       <td className="pos">{pos.pos}{pos.pos != "" ? ": " : ""}</td>
-                      <td className="entries">{entries}</td>
+                      <td className="entries" style={getCandidateFontColor()}>{entries}</td>
                     </tr>
                   )
                 })

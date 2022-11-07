@@ -396,7 +396,7 @@
     "message": "The shortcut can not be used"
   },
   "clear": {
-    "message": "Clear"
+    "message": "ᱥᱟᱯᱷᱟ"
   },
   "reset": {
     "message": "ᱨᱤᱥᱮᱴ"
@@ -405,10 +405,10 @@
     "message": "Information"
   },
   "backersLabel": {
-    "message": "Backers"
+    "message": "ᱵᱮᱠᱚᱨᱥ"
   },
   "licenseLabel": {
-    "message": "License"
+    "message": "ᱞᱚᱭᱥᱮᱱᱥ"
   },
   "donationLabel": {
     "message": "Please make a donation"

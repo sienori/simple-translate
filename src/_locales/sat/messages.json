@@ -402,7 +402,7 @@
     "message": "ᱨᱤᱥᱮᱴ"
   },
   "informationLabel": {
-    "message": "Information"
+    "message": "ᱵᱤᱵᱨᱚᱬ"
   },
   "backersLabel": {
     "message": "ᱵᱮᱠᱚᱨᱥ"
@@ -411,25 +411,25 @@
     "message": "ᱞᱚᱭᱥᱮᱱᱥ"
   },
   "donationLabel": {
-    "message": "Please make a donation"
+    "message": "ᱫᱟᱭᱟᱠᱟᱛᱮ ᱛᱤᱱᱟᱹᱜ ᱜᱟᱱ ᱴᱟᱠᱟ ᱫᱟᱱ ᱢᱮ"
   },
   "donationCaptionLabel": {
     "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
   },
   "amazonTitleLabel": {
-    "message": "amazon.co.jp eGift Cards"
+    "message": "amazon.co.jp eGift ᱠᱟᱰ ᱠᱚ"
   },
   "sponsorsLabel": {
-    "message": "Sponsors"
+    "message": "ᱥᱯᱚᱱᱥᱚᱨᱠᱚ"
   },
   "addonPageLabel": {
-    "message": "Add-on page"
+    "message": "ᱮᱰᱼᱚᱱ ᱥᱟᱦᱴᱟ"
   },
   "extensionPageLabel": {
-    "message": "Extension page"
+    "message": "ᱮᱠᱥᱴᱮᱱᱥᱚᱱ ᱥᱟᱦᱴᱟ"
   },
   "privacyPolicyLabel": {
-    "message": "Privacy policy"
+    "message": "ᱱᱤᱥᱚᱱ ᱱᱤᱛᱤ"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
@@ -438,25 +438,25 @@
     "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
-    "message": "Error: Check network connection status."
+    "message": "ᱵᱷᱩᱞ : ᱱᱮᱴᱣᱟᱨᱠ ᱡᱩᱲᱟᱹᱣ ᱧᱮᱞ ᱢᱮ ᱾"
   },
   "unavailableError": {
-    "message": "Error: Service usage limit reached. Please wait a while and try again."
+    "message": "ᱵᱷᱩᱞ: ᱥᱟᱹᱨᱵᱷᱤᱥ ᱨᱮᱭᱟᱜ ᱥᱤᱢᱟᱸ ᱥᱮᱴᱮᱨ ᱮᱱᱟ ᱾ ᱫᱟᱭᱟᱠᱟᱛᱮ ᱛᱤᱱᱟᱹᱜ ᱜᱟᱱ ᱥᱚᱢᱚᱭ ᱛᱟᱹᱝᱜᱤ ᱠᱟᱛᱮ ᱫᱩᱦᱲᱟᱹ ᱪᱮᱥᱴᱟᱭ ᱢᱮ ᱾"
   },
   "deeplAuthError": {
-    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
+    "message": "ᱵᱷᱩᱞ: DeepL API ᱟᱫᱮᱨ ᱰᱤᱜᱟᱹᱣ ᱮᱱᱟ ᱾ ᱫᱟᱭᱟᱠᱟᱛᱮ ᱟᱫᱮᱨ ᱪᱟᱹᱵᱤ ᱥᱮᱴ ᱢᱮ ᱟᱨ ᱥᱟᱡᱟᱣ ᱥᱟᱦᱴᱟ ᱨᱮ ᱵᱮᱥ ᱪᱚᱨᱚᱠ ᱥᱮᱴ ᱠᱟᱜ ᱢᱮ ᱾"
   },
   "unknownError": {
-    "message": "Error: Unknown error"
+    "message": "ᱵᱷᱩᱞ : ᱵᱟᱝ ᱵᱟᱰᱟᱭ ᱵᱷᱩᱞ"
   },
   "translatePageMenu": {
     "message": "ᱱᱚᱣᱟ ᱥᱟᱦᱴᱟ ᱛᱚᱨᱡᱚᱢᱟᱭ ᱢᱮ"
   },
   "translateTextMenu": {
-    "message": "Translate selected text"
+    "message": "ᱵᱟᱪᱷᱟᱣ ᱠᱟᱱ ᱚᱞ ᱛᱚᱨᱡᱚᱢᱟᱭ ᱢᱮ"
   },
   "translateLinkMenu": {
-    "message": "Translate selected link"
+    "message": "ᱵᱟᱪᱷᱟᱣ ᱠᱟᱱ ᱞᱤᱝᱠ ᱛᱚᱨᱡᱚᱢᱟᱭ ᱢᱮ"
   },
   "openPopupDescription": {
     "message": "ᱴᱩᱞᱵᱟᱨ ᱯᱚᱯᱚᱯ ᱡᱷᱤᱡᱽ ᱢᱮ"
@@ -504,10 +504,10 @@
     "message": "ᱪᱮᱣᱟ"
   },
   "lang_zh_CN": {
-    "message": "Chinese (Simplified)"
+    "message": "ᱪᱟᱤᱱᱤᱡᱽ (ᱥᱤᱢᱯᱞᱤᱯᱷᱟᱭᱮᱰ)"
   },
   "lang_zh_TW": {
-    "message": "Chinese (Traditional)"
+    "message": "ᱪᱟᱤᱱᱤᱡᱽ (ᱴᱨᱟᱰᱤᱥᱱᱟᱞ)"
   },
   "lang_co": {
     "message": "ᱠᱳᱨᱤᱥᱤᱭᱟᱱ"
@@ -606,7 +606,7 @@
     "message": "ᱠᱷᱢᱮᱨ"
   },
   "lang_rw": {
-    "message": "Kinyarwanda"
+    "message": "ᱠᱤᱱᱭᱟᱨᱣᱟᱱᱰᱟ"
   },
   "lang_ky": {
     "message": " ᱠᱤᱨᱜᱤᱡᱽ"
@@ -669,7 +669,7 @@
     "message": "ᱱᱚᱨᱣᱮᱜᱤᱭᱟᱱ"
   },
   "lang_or": {
-    "message": "Odia (Oriya)"
+    "message": "ᱳᱰᱤᱭᱟ (ᱳᱨᱤᱭᱟ)"
   },
   "lang_fa": {
     "message": "ᱯᱟᱨᱥᱤᱭᱟᱱ"
@@ -702,7 +702,7 @@
     "message": "ᱥᱟᱭᱵᱮᱨᱤᱭᱟ "
   },
   "lang_st": {
-    "message": "Sesotho"
+    "message": "ᱥᱮᱥᱳᱛᱷᱳ"
   },
   "lang_sn": {
     "message": "ᱥᱚᱱᱟ"
@@ -744,7 +744,7 @@
     "message": "ᱛᱟᱢᱤᱞ"
   },
   "lang_tt": {
-    "message": "Tatar"
+    "message": "ᱴᱟᱴᱟᱨ"
   },
   "lang_te": {
     "message": "ᱛᱮᱞᱩᱜᱩ"
@@ -756,7 +756,7 @@
     "message": "ᱛᱩᱨᱠᱤᱥ"
   },
   "lang_tk": {
-    "message": "Turkmen"
+    "message": "ᱛᱩᱨᱠᱢᱮᱱ"
   },
   "lang_uk": {
     "message": "ᱭᱩᱠᱨᱮᱱ"
@@ -765,7 +765,7 @@
     "message": "ᱩᱨᱫᱩ"
   },
   "lang_ug": {
-    "message": "Uyghur"
+    "message": "ᱩᱭᱜᱷᱩᱨ"
   },
   "lang_uz": {
     "message": "ᱩᱡᱽᱵᱮᱠ"
@@ -789,18 +789,18 @@
     "message": "ᱡᱩᱹᱞᱩ"
   },
   "lang_en_US": {
-    "message": "English (American)"
+    "message": "ᱤᱝᱜᱽᱨᱟᱡᱤ (ᱟᱢᱮᱨᱤᱠᱤᱭᱚ)"
   },
   "lang_en_GB": {
-    "message": "English (British)"
+    "message": "ᱤᱝᱜᱽᱨᱟᱡᱤ (ᱵᱽᱨᱤᱴᱤᱥ)"
   },
   "lang_pt_PT": {
     "message": " ᱯᱚᱨᱛᱩᱜᱤᱡᱽ"
   },
   "lang_pt_BR": {
-    "message": "Portuguese (Brazilian)"
+    "message": "ᱯᱚᱨᱛᱩᱜᱤᱡᱽ (ᱵᱽᱨᱟᱡᱤᱞᱤᱭᱟᱱ)"
   },
   "lang_zh": {
-    "message": "Chinese"
+    "message": "ᱪᱟᱭᱱᱤᱡᱽ"
   }
 }

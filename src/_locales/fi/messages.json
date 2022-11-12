@@ -6,46 +6,46 @@
     "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
   },
   "donateWithPaypalLabel": {
-    "message": "Donate with PayPal"
+    "message": "Lahjoita PayPalilla"
   },
   "donateLabel": {
-    "message": "Donate"
+    "message": "Lahjoita"
   },
   "enableOnThisPage": {
-    "message": "Enable translation on this page"
+    "message": "Käytä käännöstä tällä sivulla"
   },
   "disableOnThisPage": {
-    "message": "Disable translation on this page"
+    "message": "Älä käytä käännöstä tällä sivulla"
   },
   "initialTextArea": {
     "message": "Syötä teksti"
   },
   "showLink": {
-    "message": "Translate this page"
+    "message": "Käännä tämä sivu"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "Avaa Google Kääntäjä -palvelussa"
   },
   "openInDeeplLabel": {
-    "message": "Open in DeepL Translator"
+    "message": "Avaa DeepL Translator -palvelussa"
   },
   "copyLabel": {
-    "message": "Copy"
+    "message": "Kopioi"
   },
   "copiedLabel": {
-    "message": "Copied."
+    "message": "Kopioitu."
   },
   "listenLabel": {
-    "message": "Listen"
+    "message": "Kuuntele"
   },
   "targetLangLabel": {
-    "message": "Target language"
+    "message": "Kohdekieli"
   },
   "allLangLabel": {
-    "message": "All languages"
+    "message": "Kaikki kielet"
   },
   "recentLangLabel": {
-    "message": "Recent languages"
+    "message": "Viimeisimmät kielet"
   },
   "settingsLabel": {
     "message": "Asetukset"
@@ -54,19 +54,19 @@
     "message": "Yleiset"
   },
   "translationApiLabel": {
-    "message": "Translation engine"
+    "message": "Käännösmoottori"
   },
   "googleApiLabel": {
-    "message": "Google translate API"
+    "message": "Google Kääntäjä API"
   },
   "googleApiCaptionLabel": {
-    "message": "Use Google Translate API. No registration is required."
+    "message": "Käytä Google Kääntäjä API:a. Ei vaadi rekisteröitymistä."
   },
   "deeplApiLabel": {
     "message": "DeepL API"
   },
   "deeplApiCaptionLabel": {
-    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authentication key."
+    "message": "Käytä DeepL API:a. Todennusavaimen hankinta edellyttää DeepL API Free tai DeepL API Pro -rekisteröintiä."
   },
   "howToUseDeeplLabel": {
     "message": "How to register DeepL API"
@@ -222,31 +222,31 @@
     "message": "Specify the tab to display the results of the page translation."
   },
   "newTabLabel": {
-    "message": "New tab"
+    "message": "Uusi välilehti"
   },
   "currentTabLabel": {
-    "message": "Current tab"
+    "message": "Nykyinen välilehti"
   },
   "styleLabel": {
     "message": "Tyyli"
   },
   "themeLabel": {
-    "message": "Theme"
+    "message": "Teema"
   },
   "themeCaptionLabel": {
-    "message": "Specify the color scheme."
+    "message": "Määritä väriteema."
   },
   "lightLabel": {
-    "message": "Light"
+    "message": "Vaalea"
   },
   "darkLabel": {
-    "message": "Dark"
+    "message": "Tumma"
   },
   "systemLabel": {
-    "message": "System"
+    "message": "Järjestelmä"
   },
   "buttonStyleLabel": {
-    "message": "Translation button"
+    "message": "Käännöspainike"
   },
   "buttonStyleCaptionLabel": {
     "message": "Specify the style of the translation button displayed on the web page."
@@ -255,31 +255,31 @@
     "message": "Koko"
   },
   "buttonPositionLabel": {
-    "message": "Display position"
+    "message": "Sijainti näytöllä"
   },
   "topRightLabel": {
-    "message": "Top right"
+    "message": "Yläoikealla"
   },
   "bottomRightLabel": {
-    "message": "Bottom right"
+    "message": "Alaoikealla"
   },
   "topLeftLabel": {
-    "message": "Top left"
+    "message": "Ylävasemmalla"
   },
   "bottomLeftLabel": {
-    "message": "Bottom left"
+    "message": "Alhaalla vasemmalla"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "Ylhäällä"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "Alhaalla"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "Vasemmalla"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "Oikealla"
   },
   "positionOffsetLabel": {
     "message": "Display position - Offset"
@@ -450,7 +450,7 @@
     "message": "Error: Unknown error"
   },
   "translatePageMenu": {
-    "message": "Translate this page"
+    "message": "Käännä tämä sivu"
   },
   "translateTextMenu": {
     "message": "Translate selected text"

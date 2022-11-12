@@ -213,19 +213,19 @@
     "message": "Ajoute des éléments au menu contextuel affiché lorsque vous cliquez avec le bouton droit sur la page Web ou l'onglet."
   },
   "pageTranslationLabel": {
-    "message": "Page translation"
+    "message": "Traduction de pages"
   },
   "pageTranslationOpenToLabel": {
-    "message": "Tab to display translation results"
+    "message": "Onglet pour afficher les résultats de la traduction"
   },
   "pageTranslationOpenToCaptionLabel": {
-    "message": "Specify the tab to display the results of the page translation."
+    "message": "Spécifiez l'onglet pour afficher les résultats de la traduction de la page."
   },
   "newTabLabel": {
-    "message": "New tab"
+    "message": "Nouvel onglet"
   },
   "currentTabLabel": {
-    "message": "Current tab"
+    "message": "Onglet actuel"
   },
   "styleLabel": {
     "message": "Style"
@@ -318,7 +318,7 @@
     "message": "Couleur du texte traduit"
   },
   "isOverrideColorsLabel": {
-    "message": "Override default colors with colors below"
+    "message": "Remplacer les couleurs par défaut par les couleurs ci-dessous"
   },
   "candidateFontColorLabel": {
     "message": "Couleur du texte à traduire"

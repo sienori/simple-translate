@@ -369,13 +369,13 @@
     "message": "Palauta"
   },
   "shortcutsLabel": {
-    "message": "Pikanäppäimet"
+    "message": "Näppäinyhdistelmät"
   },
   "keyboardShortcutsLabel": {
-    "message": "Näppäinkomennot"
+    "message": "Näppäinyhdistelmät"
   },
   "setKeyboardShortCutsMessage": {
-    "message": "Määritä näppäinkomennot."
+    "message": "Määritä näppäinyhdistelmät."
   },
   "typeShortcutMessage": {
     "message": "Syötä näppäinyhdistelmä"
@@ -414,7 +414,7 @@
     "message": "Tee lahjoitus, kiitos"
   },
   "donationCaptionLabel": {
-    "message": "Kiitos Simple Translaten käytöstä.<br>Tukesi on suuri kannustus, koska kehitän lisäosaa edelleen.<br>Jos pidät Simple Translatesta, olisin kiitollinen, jos harkitsisit lahjoittamista."
+    "message": "Kiitos Simple Translaten käytöstä.<br>Tukesi merkitsee paljon, koska kehitän lisäosaa edelleen.<br>Jos pidät Simple Translatesta, olisin kiitollinen, jos harkitsisit lahjoittamista."
   },
   "amazonTitleLabel": {
     "message": "amazon.co.jp eGift-lahjakortit"
@@ -432,10 +432,10 @@
     "message": "Tietosuojakäytäntö"
   },
   "amazonUrl": {
-    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=fi_US"
+    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=fi_FI"
   },
   "addonUrl": {
-    "message": "https://addons.mozilla.org/en-FI/firefox/addon/simple-translate/?src=optionpage"
+    "message": "https://addons.mozilla.org/fi/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
     "message": "Virhe: Tarkista verkkoyhteyden tila."

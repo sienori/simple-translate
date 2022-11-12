@@ -198,7 +198,7 @@
     "message": "Käännöksen odotusaika"
   },
   "waitTimeCaptionLabel": {
-    "message": "Määritä merkin syötöstä käännöksen alkuun odotettava aika millisekunteina."
+    "message": "Määritä merkin syötöstä käännöksen alkuun odotettava aika (millisekuntia)."
   },
   "waitTime2CaptionLabel": {
     "message": "Jos käännät sen useita kertoja lyhyen ajan sisällä, voi sitä olla jonkin aikaa mahdoton käyttää."
@@ -339,7 +339,7 @@
     "message": "Käytä vianetsintätilaa"
   },
   "isDebugModeCaptionLabel": {
-    "message": "Kun vianetsintätila on käytössä, loki toimitetaan vianetsijälle."
+    "message": "Kun vianetsintätila on käytössä, toimitetaan loki vianetsijälle."
   },
   "exportSettingsLabel": {
     "message": "Vie asetukset"

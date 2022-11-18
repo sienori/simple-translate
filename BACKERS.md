@@ -62,3 +62,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - Haviland Wright
 - empty_child
 - Love Lain
+- Antonio Narvaez

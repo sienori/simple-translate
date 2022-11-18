@@ -93,7 +93,7 @@
     "message": "Pilih bahasa target normal."
   },
   "webPageLabel": {
-    "message": "Halaman web"
+    "message": "Laman web"
   },
   "ifShowCandidateLabel": {
     "message": "Tampilkan kandidat terjemahan"
@@ -618,10 +618,10 @@
     "message": "Kurdi"
   },
   "lang_lo": {
-    "message": "Laotian"
+    "message": "Bahasa Laos"
   },
   "lang_la": {
-    "message": "Latin"
+    "message": "Bahasa Latin"
   },
   "lang_lv": {
     "message": "Latvian"

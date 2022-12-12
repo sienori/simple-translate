@@ -63,3 +63,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - empty_child
 - Love Lain
 - Antonio Narvaez
+- ابو ابراهيم

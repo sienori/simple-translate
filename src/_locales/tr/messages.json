@@ -216,10 +216,10 @@
     "message": "Sayfa çevirisi"
   },
   "pageTranslationOpenToLabel": {
-    "message": "Tab to display translation results"
+    "message": "Çeviri sonuçlarını görüntülemek için sekme"
   },
   "pageTranslationOpenToCaptionLabel": {
-    "message": "Specify the tab to display the results of the page translation."
+    "message": "Sayfa çeviri sonuçlarını görüntülemek için sekmeyi belirleyin."
   },
   "newTabLabel": {
     "message": "Yeni sekme"

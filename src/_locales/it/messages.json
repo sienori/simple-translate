@@ -66,7 +66,7 @@
     "message": "API di DeepL"
   },
   "deeplApiCaptionLabel": {
-    "message": "Usa l'API di DeepL. Devi registrarti con DeepL API Free o DeepL API Pro per ottenere una chiave d'autorizzazione."
+    "message": "Usa l'API di DeepL. Devi registrarti con DeepL API Free o DeepL API Pro per ottenere una chiave d'autenticazione."
   },
   "howToUseDeeplLabel": {
     "message": "Come registrare l'API di DeepL"
@@ -78,7 +78,7 @@
     "message": "Seleziona il piano di DeepL API per cui ti sei registrato."
   },
   "deeplFreeLabel": {
-    "message": "DeepL API Gratis"
+    "message": "DeepL API Free"
   },
   "deeplProLabel": {
     "message": "DeepL API Pro"
@@ -99,7 +99,7 @@
     "message": "Mostra candidati di traduzione"
   },
   "ifShowCandidateCaptionLabel": {
-    "message": "Mostra candidati di traduzione multipli alla traduzione di una parola singola."
+    "message": "Mostra più candidati di traduzione quando traduci una singola parola."
   },
   "whenSelectTextLabel": {
     "message": "Comportamento alla selezione del testo"
@@ -444,7 +444,7 @@
     "message": "Errore: Limite d'uso del servizio raggiunto. Sei pregato di attendere un po' e riprovare."
   },
   "deeplAuthError": {
-    "message": "Errore: Autenticazione dell'API di DeepL fallita. Sei pregato di impostare correttamente la chiave d'autenticazione e il piano sulla pagina delle impostazioni."
+    "message": "Errore: Autenticazione dell'API di DeepL fallita. Sei pregato d'impostare correttamente la chiave d'autenticazione e il piano nella pagina delle impostazioni."
   },
   "unknownError": {
     "message": "Errore: Errore sconosciuto"

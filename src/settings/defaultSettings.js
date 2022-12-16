@@ -284,6 +284,13 @@ export default [
         captions: ["ifChangeSecondLangCaptionLabel"],
         type: "checkbox",
         default: true
+      },
+      {
+        id: "ifSaveLastInput",
+        title: "ifSaveLastInputLabel",
+        captions: ["ifSaveLastInputCaptionLabel"],
+        type: "checkbox",
+        default: true
       }
     ]
   },

@@ -126,7 +126,7 @@
     "message": "Не показувати кнопки, якщо переклад не обовʼязковий"
   },
   "ifCheckLangCaptionLabel": {
-    "message": "Визначити мову виділеного тексту, і якщо вона сходиться з цільовою мовою, кнопка не відображатиметься."
+    "message": "Визначити мову виділеного тексту, і якщо вона сходиться з цільовою мовою, кнопка не показуватиметься."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "Визначати мову виділеного тексту, і якщо вона сходиться зі стандартною цільовою мовою, перекласти її другою мовою."
@@ -213,19 +213,19 @@
     "message": "Додати пункт у контекстне меню, яке появляється під час натискання правої клавіші на вебсторінці або вкладці."
   },
   "pageTranslationLabel": {
-    "message": "Page translation"
+    "message": "Переклад сторінки"
   },
   "pageTranslationOpenToLabel": {
-    "message": "Tab to display translation results"
+    "message": "Вкладка для показу результатів перекладу"
   },
   "pageTranslationOpenToCaptionLabel": {
-    "message": "Specify the tab to display the results of the page translation."
+    "message": "Вкажіть вкладку для показу результатів перекладу сторінки."
   },
   "newTabLabel": {
-    "message": "New tab"
+    "message": "Нова вкладка"
   },
   "currentTabLabel": {
-    "message": "Current tab"
+    "message": "Поточна вкладка"
   },
   "styleLabel": {
     "message": "Стиль"
@@ -243,7 +243,7 @@
     "message": "Темна"
   },
   "systemLabel": {
-    "message": "System"
+    "message": "Система"
   },
   "buttonStyleLabel": {
     "message": "Кнопка перекладу"
@@ -318,7 +318,7 @@
     "message": "Колір тексту для результатів перекладу"
   },
   "isOverrideColorsLabel": {
-    "message": "Override default colors with colors below"
+    "message": "Перевизначити кольори за замовчуванням кольорами нижче"
   },
   "candidateFontColorLabel": {
     "message": "Колір тексту для варіантів перекладу"

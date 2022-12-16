@@ -290,7 +290,8 @@ export default [
         title: "ifSaveLastInputLabel",
         captions: ["ifSaveLastInputCaptionLabel"],
         type: "checkbox",
-        default: true
+        default: true,
+        new: true,
       }
     ]
   },

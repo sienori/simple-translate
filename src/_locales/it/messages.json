@@ -138,7 +138,7 @@
     "message": "Disabilita la traduzione nei campi di testo"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Non mostrare il pulsante o il pannello di traduzione alla selezione del testo nel campo del testo."
+    "message": "Non mostrare il pulsante o il pannello di traduzione alla selezione del testo nel campo di testo."
   },
   "isDisabledInCodeElementLabel": {
     "message": "Disabilita la traduzione nei tag di codice"
@@ -273,7 +273,7 @@
     "message": "In alto"
   },
   "bottomLabel": {
-    "message": "In fondo"
+    "message": "In basso"
   },
   "leftLabel": {
     "message": "Sinistra"
@@ -282,7 +282,7 @@
     "message": "Destra"
   },
   "positionOffsetLabel": {
-    "message": "Posizione display - Offset"
+    "message": "Posizione tasto - Offset"
   },
   "panelStyleLabel": {
     "message": "Pannello di traduzione"
@@ -300,7 +300,7 @@
     "message": "Dimensione del font"
   },
   "referencePointLabel": {
-    "message": "Posizione display - punto di riferimento"
+    "message": "Posizione tasto - Punto di riferimento"
   },
   "bottomSelectedTextLabel": {
     "message": "Sotto al testo selezionato"
@@ -312,10 +312,10 @@
     "message": "Punto cliccato"
   },
   "displayDirectionLabel": {
-    "message": "Posizione display - Direzione"
+    "message": "Posizione tasto - Direzione"
   },
   "resultFontColorLabel": {
-    "message": "Colore del font del risultato della traduzione"
+    "message": "Colore del font del risultato di traduzione"
   },
   "isOverrideColorsLabel": {
     "message": "Sostituire i colori predefiniti con i colori sottostanti"
@@ -339,13 +339,13 @@
     "message": "Abilità modalità di debug"
   },
   "isDebugModeCaptionLabel": {
-    "message": "Quando la modalità di debug è abilitata, il registro è mostrato al debugger."
+    "message": "Quando la modalità di debug è abilitata, il registro viene inviato al debugger."
   },
   "exportSettingsLabel": {
     "message": "Esporta impostazioni"
   },
   "exportSettingsCaptionLabel": {
-    "message": "Salva le impostazioni come un file json sul computer."
+    "message": "Salva le impostazioni come file json sul computer."
   },
   "exportButtonLabel": {
     "message": "Esporta"

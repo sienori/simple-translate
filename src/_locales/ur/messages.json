@@ -54,10 +54,10 @@
     "message": "عمومی"
   },
   "translationApiLabel": {
-    "message": "Translation engine"
+    "message": "How are you doing today"
   },
   "googleApiLabel": {
-    "message": "Google translate API"
+    "message": "گوگل مترجم"
   },
   "googleApiCaptionLabel": {
     "message": "Use Google Translate API. No registration is required."

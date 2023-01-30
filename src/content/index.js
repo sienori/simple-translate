@@ -92,13 +92,14 @@ const getSelectedText = () => {
 
 const getSelectedPosition = () => {
   const element = document.activeElement;
-  const isInTextField = element.tagName === "INPUT" || element.tagName === "TEXTAREA";
-  const selectedRect = isInTextField
+  const isInIframe = element.ownerDocument.defaultView.frameElement;
+  const isInTextField =
+    element.tagName === "INPUT" || element.tagName === "TEXTAREA";
+  const selectedRect = isInIframe
+    ? element.ownerDocument.defaultView.frameElement.getBoundingClientRect()
+    : isInTextField
     ? element.getBoundingClientRect()
-    : window
-      .getSelection()
-      .getRangeAt(0)
-      .getBoundingClientRect();
+    : window.getSelection().getRangeAt(0).getBoundingClientRect();
 
   let selectedPosition;
   const panelReferencePoint = getSettings("panelReferencePoint");
@@ -199,7 +200,7 @@ const disableExtensionByUrlList = () => {
 };
 
 const removeTranslatecontainer = async () => {
-  const element = document.getElementById("simple-translate");
+  const element = window.parent.document.getElementById("simple-translate");
   if (!element) return;
 
   ReactDOM.unmountComponentAtNode(element);
@@ -212,13 +213,13 @@ const showTranslateContainer = (
   clickedPosition = null,
   shouldTranslate = false
 ) => {
-  const element = document.getElementById("simple-translate");
+  const element = window.parent.document.getElementById("simple-translate");
   if (element) return;
   if (!isEnabled) return;
 
   const themeClass = "simple-translate-" + getSettings("theme") + "-theme";
 
-  document.body.insertAdjacentHTML("beforeend", `<div id="simple-translate" class="${themeClass}"></div>`);
+  window.parent.document.body.insertAdjacentHTML("beforeend", `<div id="simple-translate" class="${themeClass}"></div>`);
   ReactDOM.render(
     <TranslateContainer
       removeContainer={removeTranslatecontainer}
@@ -227,6 +228,6 @@ const showTranslateContainer = (
       clickedPosition={clickedPosition}
       shouldTranslate={shouldTranslate}
     />,
-    document.getElementById("simple-translate")
+    window.parent.document.getElementById("simple-translate")
   );
 };

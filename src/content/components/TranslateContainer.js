@@ -66,8 +66,8 @@ export default class TranslateContainer extends Component {
     else if (onSelectBehavior === "showPanel") this.showPanel(clickedPosition);
   };
 
-  showButton = clickedPosition => {
-    this.setState({ shouldShowButton: true, buttonPosition: clickedPosition });
+  showButton = () => {
+    this.setState({ shouldShowButton: true, buttonPosition: this.selectedPosition });
   };
 
   hideButton = () => {

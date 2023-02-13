@@ -66,7 +66,7 @@
     "message": "API DeepL"
   },
   "deeplApiCaptionLabel": {
-    "message": "Use a API do DeepL. Deve registar-se com a API Grátis do DeepL ou da API Pro do DeepL para obter uma chave de autenticação."
+    "message": "Use a API do DeepL. Deve registar-se com a API DeepL Grátis ou a API DeepL Pro para obter uma chave de autenticação."
   },
   "howToUseDeeplLabel": {
     "message": "Como registar na API DeepL"
@@ -75,19 +75,19 @@
     "message": "Plano de API DeepL"
   },
   "deeplPlanCaptionLabel": {
-    "message": "Select the DeepL API plan for which you registered."
+    "message": "Selecione o plano de API do DeepL em que se registou."
   },
   "deeplFreeLabel": {
-    "message": "DeepL API Free"
+    "message": "API DeepL Grátis"
   },
   "deeplProLabel": {
-    "message": "DeepL API Pro"
+    "message": "API DeepL Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Authentication key"
+    "message": "Chave de autenticação"
   },
   "deeplAuthKeyCaptionLabel": {
-    "message": "Enter the authentication key for the DeepL API."
+    "message": "Insira a chave de autenticação para a API do DeepL."
   },
   "targetLangCaptionLabel": {
     "message": "Selecione o idioma alvo padrão."

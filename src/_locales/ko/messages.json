@@ -18,7 +18,7 @@
     "message": "이 페이지에서 번역 사용 안 함"
   },
   "initialTextArea": {
-    "message": "텍스트를 입력하세요"
+    "message": "텍스트 입력"
   },
   "showLink": {
     "message": "이 페이지 번역"
@@ -66,7 +66,7 @@
     "message": "DeepL API"
   },
   "deeplApiCaptionLabel": {
-    "message": "DeepL API를 사용합니다. 인증 키를 획득하려면 DeepL API Free 또는 DeepL API Pro에 가입해야 합니다."
+    "message": "DeepL API를 사용합니다. 인증 키를 받으려면 DeepL API Free 또는 DeepL API Pro에 가입해야 합니다."
   },
   "howToUseDeeplLabel": {
     "message": "DeepL API 가입 방법"
@@ -87,10 +87,10 @@
     "message": "인증 키"
   },
   "deeplAuthKeyCaptionLabel": {
-    "message": "DeepL API 인증 키를 입력해 주세요."
+    "message": "DeepL API 인증 키를 입력하세요."
   },
   "targetLangCaptionLabel": {
-    "message": "기본 번역 언어를 선택하세요."
+    "message": "기본 도착 언어를 선택하세요."
   },
   "webPageLabel": {
     "message": "웹 페이지"
@@ -99,58 +99,58 @@
     "message": "다른 번역 보기"
   },
   "ifShowCandidateCaptionLabel": {
-    "message": "단어 번역 시 단어가 가진 여러 의미를 함께 보여줍니다."
+    "message": "단어 번역 시 여러 번역 결과를 함께 표시합니다."
   },
   "whenSelectTextLabel": {
-    "message": "텍스트가 선택되었을 때 할 동작"
+    "message": "텍스트 선택 시 동작"
   },
   "ifAutoTranslateLabel": {
     "message": "번역 결과 창 표시하기"
   },
   "ifAutoTranslateCaptionLabel": {
-    "message": "버튼 표시 없이 바로 번역 결과 창을 보여줍니다."
+    "message": "버튼을 표시하지 않고 바로 번역 결과 창을 표시합니다."
   },
   "ifShowButtonLabel": {
     "message": "번역 버튼 표시하기"
   },
   "ifShowButtonCaptionLabel": {
-    "message": "웹 페이지에서 텍스트를 선택했을 때 버튼을 보여줍니다."
+    "message": "클릭할 시 창을 열 수 있는 번역 버튼을 표시합니다."
   },
   "dontshowbuttonlabel": {
-    "message": "버튼 또는 창 표시하지 않기"
+    "message": "버튼 또는 창 표시 안 함"
   },
   "dontshowbuttonCaptionlabel": {
-    "message": "버튼 또는 번역 창을 표시하지 않습니다."
+    "message": "번역 버튼 또는 번역 창을 표시하지 않습니다."
   },
   "ifCheckLangLabel": {
-    "message": "번역이 필요 없을 때 버튼을 보여주지 않기"
+    "message": "번역이 필요 없을 시 버튼 표시 안 함"
   },
   "ifCheckLangCaptionLabel": {
-    "message": "선택된 텍스트의 언어를 감지해 번역 대상 언어와 일치하면 버튼을 보여주지 않습니다."
+    "message": "선택한 텍스트의 언어를 감지하여 도착 언어와 동일할 시 버튼을 표시하지 않습니다."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "선택된 텍스트의 언어를 감지해 번역 대상 언어와 일치하면 보조 언어로 번역합니다."
+    "message": "선택한 텍스트의 언어를 감지하여 기본 도착 언어와 동일할 시 두 번째 언어로 번역합니다."
   },
   "disableTranslationLabel": {
     "message": "번역 사용 안 함"
   },
   "isDisabledInTextFieldsLabel": {
-    "message": "텍스트 필드에서 번역 사용 안 함"
+    "message": "텍스트 입력란에서 번역 사용 안 함"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "텍스트 필드에서 텍스트를 선택할 때 번역 버튼 또는 창 보이지 않기"
+    "message": "텍스트 입력란에서 텍스트를 선택할 때 번역 버튼 또는 창 표시 안 함"
   },
   "isDisabledInCodeElementLabel": {
     "message": "코드 태그에서 번역 사용 안 함"
   },
   "isDisabledInCodeElementCaptionLabel": {
-    "message": "코드 태그에서 텍스트를 선택할 때 번역 버튼 또는 창 보이지 않기"
+    "message": "코드 태그에서 텍스트를 선택할 때 번역 버튼 또는 창 표시 안 함"
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "보조 키가 눌린 경우에만 번역"
+    "message": "보조 키를 눌렀을 때 번역"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "지정된 보조 키가 눌린 경우에만 번역을 표시합니다."
+    "message": "지정한 보조 키를 눌렀을 때만 번역을 표시합니다."
   },
   "modifierKeyLabel": {
     "message": "보조 키"
@@ -171,37 +171,37 @@
     "message": "번역을 사용하지 않을 URL 목록"
   },
   "disableUrlListCaptionLabel": {
-    "message": "페이지 URL이 목록과 일치하면 번역을 사용하지 않습니다. \"*\" 와일드 카드를 지원합니다."
+    "message": "페이지 URL이 목록과 일치할 시 해당 웹 페이지에서 번역을 사용하지 않습니다. \"*\" 와일드 카드를 지원합니다."
   },
   "toolbarLabel": {
     "message": "툴바 팝업"
   },
   "ifChangeSecondLangLabel": {
-    "message": "보조 언어로 자동 전환"
+    "message": "자동으로 두 번째 언어로 바꾸기"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "입력된 언어가 기본 번역 언어일 때 보조 언어로 번역합니다."
+    "message": "입력한 텍스트의 언어를 감지하여 기본 도착 언어와 동일할 시 두 번째 언어로 번역합니다."
   },
   "secondTargetLangLabel": {
-    "message": "보조 언어"
+    "message": "두 번째 언어"
   },
   "secondTargetLangCaptionLabel": {
-    "message": "보조 번역 언어를 선택하세요."
+    "message": "두 번째 도착 언어를 선택하세요."
   },
   "ignoredDocumentLangLabel": {
-    "message": "lang 속성으로 번역 사용 안 함"
+    "message": "lang 속성 기반으로 번역 사용 안 함"
   },
   "ignoredDocumentLangCaptionLabel": {
-    "message": "페이지의 html 요소에 포함 된 lang 속성이 목록에 일치하는 경우 번역 기능을 사용하지 않습니다. 쉼표로 구분된 언어 태그를 입력하세요."
+    "message": "페이지의 html 요소에 포함된 lang 속성이 목록과 일치할 시 번역을 사용하지 않습니다. 쉼표로 구분하여 언어 태그를 입력하세요."
   },
   "waitTimeLabel": {
     "message": "번역 대기 시간"
   },
   "waitTimeCaptionLabel": {
-    "message": "문자 입력 후 번역까지의 대기 시간을 지정합니다. (밀리초)"
+    "message": "문자 입력 후 번역 시작까지의 대기 시간을 설정합니다. (밀리초)"
   },
   "waitTime2CaptionLabel": {
-    "message": "단시간에 여러 번 번역하면 일시적으로 사용하지 못할 수 있습니다."
+    "message": "짧은 시간 동안 너무 여러 번 번역하면 잠시 동안 사용이 불가능할 수 있습니다."
   },
   "menuLabel": {
     "message": "컨텍스트 메뉴"
@@ -210,13 +210,13 @@
     "message": "컨텍스트 메뉴 표시"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "웹 페이지 또는 탭을 마우스 오른쪽 클릭했을 때 나타나는 컨텍스트 메뉴에 항목을 추가합니다."
+    "message": "웹 페이지 또는 탭에 마우스 오른쪽 버튼으로 클릭하면 표시되는 컨텍스트 메뉴에 항목을 추가합니다."
   },
   "pageTranslationLabel": {
     "message": "페이지 번역"
   },
   "pageTranslationOpenToLabel": {
-    "message": "번역 결과를 표시할 탭"
+    "message": "번역 결과 표시 탭"
   },
   "pageTranslationOpenToCaptionLabel": {
     "message": "페이지 번역 결과를 표시할 탭을 지정합니다."
@@ -228,13 +228,13 @@
     "message": "현재 탭"
   },
   "styleLabel": {
-    "message": "모양"
+    "message": "디자인"
   },
   "themeLabel": {
     "message": "테마"
   },
   "themeCaptionLabel": {
-    "message": "색 구성표를 지정합니다."
+    "message": "색 구성표를 설정합니다."
   },
   "lightLabel": {
     "message": "밝은 테마"
@@ -249,7 +249,7 @@
     "message": "번역 버튼"
   },
   "buttonStyleCaptionLabel": {
-    "message": "웹 페이지에서 보이는 버튼에 대한 모양을 설정합니다."
+    "message": "웹 페이지에 표시되는 번역 버튼의 디자인을 설정합니다."
   },
   "buttonSizeLabel": {
     "message": "크기"
@@ -258,22 +258,22 @@
     "message": "표시 위치"
   },
   "topRightLabel": {
-    "message": "오른쪽 위"
+    "message": "오른쪽 상단"
   },
   "bottomRightLabel": {
-    "message": "오른쪽 아래"
+    "message": "오른쪽 하단"
   },
   "topLeftLabel": {
-    "message": "왼쪽 위"
+    "message": "왼쪽 상단"
   },
   "bottomLeftLabel": {
-    "message": "왼쪽 아래"
+    "message": "왼쪽 하단"
   },
   "topLabel": {
-    "message": "위"
+    "message": "상단"
   },
   "bottomLabel": {
-    "message": "아래"
+    "message": "하단"
   },
   "leftLabel": {
     "message": "왼쪽"
@@ -288,16 +288,16 @@
     "message": "번역 결과 창"
   },
   "panelStyleCaptionLabel": {
-    "message": "웹 페이지에서 보이는 번역 결과 창에 대한 모양을 설정합니다."
+    "message": "웹 페이지에 표시되는 번역 결과 창의 디자인을 설정합니다."
   },
   "widthLabel": {
-    "message": "가로 길이"
+    "message": "너비"
   },
   "heightLabel": {
-    "message": "세로 길이"
+    "message": "높이"
   },
   "fontSizeLabel": {
-    "message": "글자 크기"
+    "message": "글꼴 크기"
   },
   "referencePointLabel": {
     "message": "표시 위치 - 기준점"
@@ -330,16 +330,16 @@
     "message": "기타"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "업데이트 후 설정 페이지 열기"
+    "message": "업데이트 시 설정 페이지 표시"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Simple Translate가 업데이트 된 경우 설정 페이지를 표시합니다. 업데이트 내용을 바로 알 수 있습니다."
+    "message": "Simple Translate가 업데이트된 경우 설정 페이지를 표시합니다. 업데이트 내용을 빠르게 접할 수 있습니다."
   },
   "isDebugModeLabel": {
-    "message": "디버그 모드 활성화"
+    "message": "디버그 모드 사용 설정"
   },
   "isDebugModeCaptionLabel": {
-    "message": "디버그 모드가 활성화되면 디버거로 로그가 출력됩니다."
+    "message": "디버그 모드를 사용 설정하면 디버거로 로그가 출력됩니다."
   },
   "exportSettingsLabel": {
     "message": "설정 내보내기"
@@ -354,10 +354,10 @@
     "message": "설정 가져오기"
   },
   "importSettingsCaptionLabel": {
-    "message": "컴퓨터에 저장된 설정을 불러옵니다."
+    "message": "컴퓨터에 저장된 설정 파일을 불러옵니다."
   },
   "importButtonLabel": {
-    "message": "불러오기"
+    "message": "가져오기"
   },
   "resetSettingsLabel": {
     "message": "설정 초기화"
@@ -387,7 +387,7 @@
     "message": "Ctrl 또는 Alt 키와 함께 누르세요"
   },
   "includeMacModifierKeysMessage": {
-    "message": "Command, Ctrl 또는 Alt 키와 함께 누르세요"
+    "message": "Command 또는 Ctrl 또는 Alt 키와 함께 누르세요"
   },
   "invalidLetterMessage": {
     "message": "사용할 수 없는 글자입니다"
@@ -405,16 +405,16 @@
     "message": "정보"
   },
   "backersLabel": {
-    "message": "후원자들"
+    "message": "도움을 주신 분"
   },
   "licenseLabel": {
     "message": "라이선스"
   },
   "donationLabel": {
-    "message": "기부 해주세요"
+    "message": "기부해 주세요"
   },
   "donationCaptionLabel": {
-    "message": "Simple Translator를 사용해 주셔서 감사합니다.<br>저를 지원해 주시면 이 확장 프로그램을 개발하는 데 큰 도움이 됩니다.<br>Simple Translator가 마음에 든다면 기부해 보시는 것도 추천합니다."
+    "message": "Simple Translator를 사용해 주셔서 감사합니다.<br>지원해 주시면 이 확장 프로그램을 개발하는 데 큰 도움이 됩니다.<br>Simple Translator가 마음에 든다면 기부해 보시는 것은 어떨까요?"
   },
   "amazonTitleLabel": {
     "message": "amazon.co.jp eGift 카드"
@@ -441,7 +441,7 @@
     "message": "오류: 네트워크 연결 상태를 확인하세요."
   },
   "unavailableError": {
-    "message": "오류: 서비스 이용 제한에 도달했습니다. 잠시 후 다시 시도해주세요."
+    "message": "오류: 서비스 이용 제한에 도달했습니다. 잠시 후에 다시 시도해 주세요."
   },
   "deeplAuthError": {
     "message": "오류: DeepL API 인증에 실패했습니다. 설정 페이지에서 올바른 인증 키와 요금제를 설정하세요."
@@ -450,13 +450,13 @@
     "message": "오류: 알 수 없는 오류"
   },
   "translatePageMenu": {
-    "message": "이 페이지 번역하기"
+    "message": "이 페이지 번역"
   },
   "translateTextMenu": {
-    "message": "선택한 문자 번역하기"
+    "message": "선택한 문자 번역"
   },
   "translateLinkMenu": {
-    "message": "선택한 링크 번역하기"
+    "message": "선택한 링크 번역"
   },
   "openPopupDescription": {
     "message": "툴바 팝업 열기"
@@ -495,7 +495,7 @@
     "message": "불가리아어"
   },
   "lang_ca": {
-    "message": "카탈로니아어"
+    "message": "카탈루냐어"
   },
   "lang_ceb": {
     "message": "세부아노어"
@@ -579,7 +579,7 @@
     "message": "아이슬란드어"
   },
   "lang_ig": {
-    "message": "이그보어"
+    "message": "이보어"
   },
   "lang_id": {
     "message": "인도네시아어"
@@ -600,13 +600,13 @@
     "message": "칸나다어"
   },
   "lang_kk": {
-    "message": "카자흐스탄어"
+    "message": "카자흐어"
   },
   "lang_km": {
     "message": "크메르어"
   },
   "lang_rw": {
-    "message": "키니아르완다어"
+    "message": "키냐르완다어"
   },
   "lang_ky": {
     "message": "키르기스어"

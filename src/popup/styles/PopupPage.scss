@@ -68,6 +68,8 @@ body {
     "Arial", "Helvetica", sans-serif;
   font-size: 13px;
   overflow: hidden;
+  width: 100%;
+  min-width: 348px;
   background-color: var(--main-bg);
 
   #root {

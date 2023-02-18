@@ -60,34 +60,34 @@
     "message": "Tradutor Google API"
   },
   "googleApiCaptionLabel": {
-    "message": "Use Google Translate API. No registration is required."
+    "message": "Use a API do Google Tradutor. Registo não é necessário."
   },
   "deeplApiLabel": {
-    "message": "DeepL API"
+    "message": "API DeepL"
   },
   "deeplApiCaptionLabel": {
-    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authentication key."
+    "message": "Use a API do DeepL. Deve registar-se com a API DeepL Grátis ou a API DeepL Pro para obter uma chave de autenticação."
   },
   "howToUseDeeplLabel": {
-    "message": "How to register DeepL API"
+    "message": "Como registar na API DeepL"
   },
   "deeplPlanLabel": {
-    "message": "DeepL API plan"
+    "message": "Plano de API DeepL"
   },
   "deeplPlanCaptionLabel": {
-    "message": "Select the DeepL API plan for which you registered."
+    "message": "Selecione o plano de API do DeepL em que se registou."
   },
   "deeplFreeLabel": {
-    "message": "DeepL API Free"
+    "message": "API DeepL Grátis"
   },
   "deeplProLabel": {
-    "message": "DeepL API Pro"
+    "message": "API DeepL Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Authentication key"
+    "message": "Chave de autenticação"
   },
   "deeplAuthKeyCaptionLabel": {
-    "message": "Enter the authentication key for the DeepL API."
+    "message": "Insira a chave de autenticação para a API do DeepL."
   },
   "targetLangCaptionLabel": {
     "message": "Selecione o idioma alvo padrão."
@@ -168,7 +168,7 @@
     "message": "Command"
   },
   "disableUrlListLabel": {
-    "message": "Lista de URLs para desativar tradução"
+    "message": "Lista de URLs em que se desativa a tradução"
   },
   "disableUrlListCaptionLabel": {
     "message": "Se o URL da página corresponde à lista, a tradução na página é desativada. A lista permite curingas \"*\"."
@@ -198,7 +198,7 @@
     "message": "Tempo de espera para traduzir"
   },
   "waitTimeCaptionLabel": {
-    "message": "Especifique o intervalo entre a inserção de um caractere e o início da tradução. (milissegundo)"
+    "message": "Especifique o intervalo entre a inserção de uma letra e o início da tradução. (milissegundo)"
   },
   "waitTime2CaptionLabel": {
     "message": "Se você traduz muitas vezes em pouco tempo, pode ficar inutilizável por um tempo."
@@ -219,7 +219,7 @@
     "message": "Aba para mostrar os resultados da tradução"
   },
   "pageTranslationOpenToCaptionLabel": {
-    "message": "Especificar a aba para exibir os resultados da tradução da página."
+    "message": "Especifica a aba em que se exibem os resultados da tradução da página"
   },
   "newTabLabel": {
     "message": "Nova Aba"
@@ -315,7 +315,7 @@
     "message": "Posição de exibição - Direção"
   },
   "resultFontColorLabel": {
-    "message": "Color do texto traduzido"
+    "message": "Cor do texto traduzido"
   },
   "isOverrideColorsLabel": {
     "message": "Substituir as cores padrões com as cores abaixo"
@@ -570,7 +570,7 @@
     "message": "Hebraico"
   },
   "lang_hi": {
-    "message": "Hindi"
+    "message": "Hindu"
   },
   "lang_hu": {
     "message": "Húngaro"
@@ -579,7 +579,7 @@
     "message": "Islandês"
   },
   "lang_ig": {
-    "message": "Igbo"
+    "message": "Ibo"
   },
   "lang_id": {
     "message": "Indonésio"
@@ -669,7 +669,7 @@
     "message": "Norueguês"
   },
   "lang_or": {
-    "message": "Odia (Oriya)"
+    "message": "Oriá (oriya)"
   },
   "lang_fa": {
     "message": "Persa"
@@ -744,7 +744,7 @@
     "message": "Tâmil"
   },
   "lang_tt": {
-    "message": "Tatar"
+    "message": "Tártaro"
   },
   "lang_te": {
     "message": "Telugo"
@@ -756,7 +756,7 @@
     "message": "Turco"
   },
   "lang_tk": {
-    "message": "Turkmen"
+    "message": "Turcomano"
   },
   "lang_uk": {
     "message": "Ucraniano"
@@ -765,7 +765,7 @@
     "message": "Urdu"
   },
   "lang_ug": {
-    "message": "Uyghur"
+    "message": "Uigur"
   },
   "lang_uz": {
     "message": "Uzbeque"

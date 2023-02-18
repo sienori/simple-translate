@@ -213,19 +213,19 @@
     "message": "إضافة العناصر إلى القائمة التي تظهر عند الضغط زر الفأرة الأيمن على صفحات الويب أو علامة التبويب."
   },
   "pageTranslationLabel": {
-    "message": "Page translation"
+    "message": "ترجمة الصفحة"
   },
   "pageTranslationOpenToLabel": {
-    "message": "Tab to display translation results"
+    "message": "اضغط لعرض نتائج الترجمة"
   },
   "pageTranslationOpenToCaptionLabel": {
-    "message": "Specify the tab to display the results of the page translation."
+    "message": "حدد علامة التبويب لعرض نتائج ترجمة الصفحة."
   },
   "newTabLabel": {
-    "message": "New tab"
+    "message": "علامة تبويب جديدة"
   },
   "currentTabLabel": {
-    "message": "Current tab"
+    "message": "التبويب الحالي"
   },
   "styleLabel": {
     "message": "نمط"
@@ -243,7 +243,7 @@
     "message": "داكن"
   },
   "systemLabel": {
-    "message": "System"
+    "message": "النظام"
   },
   "buttonStyleLabel": {
     "message": "زر الترجمة"
@@ -318,7 +318,7 @@
     "message": "لون خط نتيجة الترجمة"
   },
   "isOverrideColorsLabel": {
-    "message": "Override default colors with colors below"
+    "message": "تجاوز الألوان الافتراضية مع الألوان أدناه"
   },
   "candidateFontColorLabel": {
     "message": "لون خط الترجمة المقترحة"
@@ -342,7 +342,7 @@
     "message": "عندما يكون وضع التنقيح مفعل، يخرج السجل إلى المصحح."
   },
   "exportSettingsLabel": {
-    "message": "Export settings"
+    "message": "تصدير الإعدادات"
   },
   "exportSettingsCaptionLabel": {
     "message": "حفظ الإعدادات كملف json على الكمبيوتر."
@@ -642,70 +642,70 @@
     "message": "الماليزية"
   },
   "lang_ml": {
-    "message": "Malayalam"
+    "message": "المالايلامية"
   },
   "lang_mt": {
-    "message": "Maltese"
+    "message": "المالطية"
   },
   "lang_mi": {
-    "message": "Maori"
+    "message": "الماورية"
   },
   "lang_mr": {
-    "message": "Marathi"
+    "message": "الماراثية"
   },
   "lang_mn": {
-    "message": "Mongolian"
+    "message": "المنغولية"
   },
   "lang_hmn": {
-    "message": "Monk"
+    "message": "ﺫﻮﻌﺸﻣ"
   },
   "lang_my": {
-    "message": "Myanmar"
+    "message": "ميانمار"
   },
   "lang_ne": {
-    "message": "Nepali"
+    "message": "النبالية"
   },
   "lang_no": {
-    "message": "Norwegian"
+    "message": "النرويجية"
   },
   "lang_or": {
     "message": "Odia (Oriya)"
   },
   "lang_fa": {
-    "message": "Persian"
+    "message": "الفارسية"
   },
   "lang_pl": {
-    "message": "Polish"
+    "message": "البولندية"
   },
   "lang_pt": {
-    "message": "Portuguese"
+    "message": "البرتغالية"
   },
   "lang_pa": {
-    "message": "Punjabi"
+    "message": "البنجابية"
   },
   "lang_ps": {
-    "message": "Pushto"
+    "message": "البشتونية"
   },
   "lang_ro": {
-    "message": "Romanian"
+    "message": "الرومانية"
   },
   "lang_ru": {
-    "message": "Russian"
+    "message": "الروسية"
   },
   "lang_sm": {
-    "message": "Samoan"
+    "message": "الساموائية"
   },
   "lang_gd": {
-    "message": "Scottish Gaelic"
+    "message": "الغيلية الأسكتلندية"
   },
   "lang_sr": {
-    "message": "Serbian"
+    "message": "الصربية"
   },
   "lang_st": {
-    "message": "Sesotho"
+    "message": "السوثوية"
   },
   "lang_sn": {
-    "message": "Shona"
+    "message": "الشونا"
   },
   "lang_sd": {
     "message": "السندية"
@@ -744,7 +744,7 @@
     "message": "التاميل"
   },
   "lang_tt": {
-    "message": "Tatar"
+    "message": "التتارية"
   },
   "lang_te": {
     "message": "التيلجو"
@@ -756,7 +756,7 @@
     "message": "التركية"
   },
   "lang_tk": {
-    "message": "Turkmen"
+    "message": "التركمانية"
   },
   "lang_uk": {
     "message": "الأوكراني"
@@ -765,7 +765,7 @@
     "message": "الأردية"
   },
   "lang_ug": {
-    "message": "Uyghur"
+    "message": "الأويغورية"
   },
   "lang_uz": {
     "message": "الأوزبكي"
@@ -777,7 +777,7 @@
     "message": "الولزية"
   },
   "lang_xh": {
-    "message": "Xosa"
+    "message": "كوسا"
   },
   "lang_yi": {
     "message": "اليديشية"
@@ -789,18 +789,18 @@
     "message": "الزولو"
   },
   "lang_en_US": {
-    "message": "English (American)"
+    "message": "الإنكليزية (أمريكية)"
   },
   "lang_en_GB": {
-    "message": "English (British)"
+    "message": "الإنجليزية (البريطانية)"
   },
   "lang_pt_PT": {
-    "message": "Portuguese"
+    "message": "البرتغالية"
   },
   "lang_pt_BR": {
-    "message": "Portuguese (Brazilian)"
+    "message": "البرتغالية (البرازيلة)"
   },
   "lang_zh": {
-    "message": "Chinese"
+    "message": "الصينية"
   }
 }

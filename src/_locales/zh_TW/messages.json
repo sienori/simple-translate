@@ -216,7 +216,7 @@
     "message": "網頁翻譯"
   },
   "pageTranslationOpenToLabel": {
-    "message": "分頁顯示翻譯結果"
+    "message": "用於顯示翻譯結果的分頁"
   },
   "pageTranslationOpenToCaptionLabel": {
     "message": "指定要用來顯示頁面翻譯的分頁。"
@@ -318,7 +318,7 @@
     "message": "翻譯結果色彩"
   },
   "isOverrideColorsLabel": {
-    "message": "用下面的顏色覆寫預設顏色"
+    "message": "用以下色彩覆寫預設色彩"
   },
   "candidateFontColorLabel": {
     "message": "候選翻譯文字色彩"

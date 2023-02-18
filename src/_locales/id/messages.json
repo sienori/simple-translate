@@ -3,31 +3,31 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Быстро переводите выделенный или набранный текст на веб-страницах. Поддерживается Google Переводчик и DeepL API."
+    "message": "Langsung menerjemahkan teks yang dipilih atau diketik pada laman web. Mendukung Google Terjemahan dan API DeepL."
   },
   "donateWithPaypalLabel": {
-    "message": "Donasi dengan PayPal"
+    "message": "Sumbang dengan PayPal"
   },
   "donateLabel": {
-    "message": "Donasi"
+    "message": "Sumbang"
   },
   "enableOnThisPage": {
-    "message": "aktifkan terjemahan pada halaman ini"
+    "message": "Aktifkan penerjemahan pada laman ini"
   },
   "disableOnThisPage": {
-    "message": "matikan terjemahan pada halaman ini"
+    "message": "Nonaktifkan penerjemahan pada laman ini"
   },
   "initialTextArea": {
     "message": "Masukkan teks"
   },
   "showLink": {
-    "message": "Terjemahkan halaman ini"
+    "message": "Terjemahkan laman ini"
   },
   "openInGoogleLabel": {
-    "message": "Buka di Google Translate"
+    "message": "Buka di Google Terjemahan"
   },
   "openInDeeplLabel": {
-    "message": "Open in DeepL Translator"
+    "message": "Buka di DeepL Translator"
   },
   "copyLabel": {
     "message": "Salin"
@@ -39,7 +39,7 @@
     "message": "Dengar"
   },
   "targetLangLabel": {
-    "message": "Bahasa Target"
+    "message": "Bahasa Sasaran"
   },
   "allLangLabel": {
     "message": "Semua bahasa"
@@ -54,28 +54,28 @@
     "message": "Umum"
   },
   "translationApiLabel": {
-    "message": "Translation engine"
+    "message": "Mesin terjemahan"
   },
   "googleApiLabel": {
-    "message": "Google translate API"
+    "message": "API Google Terjemahan"
   },
   "googleApiCaptionLabel": {
-    "message": "Use Google Translate API. No registration is required."
+    "message": "Gunakan API Google Terjemahan. Tidak perlu mendaftar."
   },
   "deeplApiLabel": {
-    "message": "DeepL API"
+    "message": "API DeepL"
   },
   "deeplApiCaptionLabel": {
-    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authentication key."
+    "message": "Gunakan API DeepL. Anda harus mendaftar dengan DeepL API Free atau DeepL API Pro untuk mendapat kunci autentikasi."
   },
   "howToUseDeeplLabel": {
-    "message": "How to register DeepL API"
+    "message": "Cara mendaftar API DeepL"
   },
   "deeplPlanLabel": {
-    "message": "DeepL API plan"
+    "message": "Paket API DeepL"
   },
   "deeplPlanCaptionLabel": {
-    "message": "Select the DeepL API plan for which you registered."
+    "message": "Pilih paket API DeepL untuk tempat Anda mendaftar."
   },
   "deeplFreeLabel": {
     "message": "DeepL API Free"
@@ -84,16 +84,16 @@
     "message": "DeepL API Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Authentication key"
+    "message": "Kunci autentikasi"
   },
   "deeplAuthKeyCaptionLabel": {
-    "message": "Enter the authentication key for the DeepL API."
+    "message": "Masukkan kunci autentikasi untuk API DeepL."
   },
   "targetLangCaptionLabel": {
-    "message": "Pilih bahasa target normal."
+    "message": "Pilih bahasa sasaran bawaan."
   },
   "webPageLabel": {
-    "message": "Halaman web"
+    "message": "Laman web"
   },
   "ifShowCandidateLabel": {
     "message": "Tampilkan kandidat terjemahan"
@@ -126,10 +126,10 @@
     "message": "Jangan menampilkan tombol jika terjemahan tidak diperlukan"
   },
   "ifCheckLangCaptionLabel": {
-    "message": "Deteksi bahasa teks yang dipilih, dan jika itu adalah sama dengan bahasa target, tombol tidak ditampilkan."
+    "message": "Mendeteksi bahasa dari teks yang dipilih. Jika sama dengan bahasa sasaran, tombol tidak akan ditampilkan."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Deteksi bahasa dari seleksi teks, dan jika itu adalah sama dengan bahasa target bawaan, terjemahkan ke dalam bahasa kedua."
+    "message": "Mendeteksi bahasa dari teks yang dipilih. Jika sama dengan bahasa sasaran bawaan, akan diterjemahkan ke bahasa kedua."
   },
   "disableTranslationLabel": {
     "message": "Nonaktifkan terjemahan"
@@ -168,37 +168,37 @@
     "message": "Command"
   },
   "disableUrlListLabel": {
-    "message": "daftar alamat yang dinonaktifkan terjemahan"
+    "message": "Daftar URL untuk menonaktifkan terjemahan"
   },
   "disableUrlListCaptionLabel": {
-    "message": "Jika URL halaman sesuai dengan daftar, terjemahan untuk halaman tersebut dinonaktifkan. Daftar mengizinkan wildcard \"*\"."
+    "message": "Jika URL laman sesuai dengan daftar, terjemahan untuk laman tersebut dinonaktifkan. Daftar ini mengizinkan wildcard \"*\"."
   },
   "toolbarLabel": {
-    "message": "Toolbar pengaya"
+    "message": "Sembulan bilah alat"
   },
   "ifChangeSecondLangLabel": {
     "message": "Secara otomatis beralih ke bahasa kedua"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "Mendeteksi bahasa input teks, dan jika itu adalah sama dengan bahasa target default, menerjemahkannya ke dalam bahasa kedua."
+    "message": "Mendeteksi bahasa dari teks masukan. Jika sama dengan bahasa sasaran bawaan, akan diterjemahkan ke bahasa kedua."
   },
   "secondTargetLangLabel": {
     "message": "Bahasa kedua"
   },
   "secondTargetLangCaptionLabel": {
-    "message": "Pilih bahasa target yang kedua."
+    "message": "Pilih bahasa sasaran yang kedua."
   },
   "ignoredDocumentLangLabel": {
     "message": "Nonaktifkan terjemahan menurut atribut bahasa"
   },
   "ignoredDocumentLangCaptionLabel": {
-    "message": "Nonaktifkan terjemahan jika atribut bahasa di elemen hmtl halaman sesuai dengan daftar. Masukkan tag bahasa yang dipisahkan koma."
+    "message": "Nonaktifkan terjemahan jika atribut bahasa di elemen html laman sesuai dengan daftar. Masukkan tag bahasa yang dipisahkan koma."
   },
   "waitTimeLabel": {
     "message": "Waktu tunggu terjemahan"
   },
   "waitTimeCaptionLabel": {
-    "message": "Tentukan waktu tunggu dari memasukan karakter sampai terjemahan dimulai. (milidetik)"
+    "message": "Tentukan waktu tunggu dari masukan huruf ke awal penerjemahan. (milidetik)"
   },
   "waitTime2CaptionLabel": {
     "message": "Jika Anda menerjemahkannya berkali-kali dalam waktu singkat, ini mungkin tidak dapat digunakan untuk sementara waktu."
@@ -210,22 +210,22 @@
     "message": "Menampilkan menu konteks"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Tambah item ke tampilan menu konteks saat mengklik kanan di halaman web atau tab."
+    "message": "Menambah butir ke tampilan menu konteks saat mengklik kanan di laman web atau tab."
   },
   "pageTranslationLabel": {
-    "message": "Page translation"
+    "message": "Penerjemahan laman"
   },
   "pageTranslationOpenToLabel": {
-    "message": "Tab to display translation results"
+    "message": "Tab untuk menampilkan hasil terjemah"
   },
   "pageTranslationOpenToCaptionLabel": {
-    "message": "Specify the tab to display the results of the page translation."
+    "message": "Tentukan tab mana untuk menampilkan hasil terjemahan laman."
   },
   "newTabLabel": {
-    "message": "New tab"
+    "message": "Tab baru"
   },
   "currentTabLabel": {
-    "message": "Current tab"
+    "message": "Tab saat ini"
   },
   "styleLabel": {
     "message": "Gaya"
@@ -243,13 +243,13 @@
     "message": "Gelap"
   },
   "systemLabel": {
-    "message": "System"
+    "message": "Sistem"
   },
   "buttonStyleLabel": {
     "message": "Tombol terjemahan"
   },
   "buttonStyleCaptionLabel": {
-    "message": "Menentukan gaya tombol terjemahan yang ditampilkan pada halaman web."
+    "message": "Menentukan gaya tombol terjemahan yang ditampilkan pada laman web."
   },
   "buttonSizeLabel": {
     "message": "Ukuran"
@@ -288,7 +288,7 @@
     "message": "Panel terjemahan"
   },
   "panelStyleCaptionLabel": {
-    "message": "Menentukan gaya panel terjemahan yang ditampilkan pada halaman web."
+    "message": "Menentukan gaya panel terjemahan yang ditampilkan pada laman web."
   },
   "widthLabel": {
     "message": "Lebar"
@@ -318,7 +318,7 @@
     "message": "Warna font hasil terjemahan"
   },
   "isOverrideColorsLabel": {
-    "message": "Override default colors with colors below"
+    "message": "Timpa warna bawaan dengan warna berikut"
   },
   "candidateFontColorLabel": {
     "message": "Warna font kandidat terjemahan"
@@ -330,16 +330,16 @@
     "message": "Lainnya"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Tampilkan halaman pengaturan saat pembaharuan"
+    "message": "Tampilkan laman pengaturan saat memperbarui"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Tampilkan halaman pengaturan saat Simple Translate diperbaharui. Anda bisa mengetahui konten pembaharuan dengan cepat."
+    "message": "Tampilkan laman pengaturan saat Simple Translate diperbaharui. Anda bisa mengetahui konten pembaharuan dengan cepat."
   },
   "isDebugModeLabel": {
     "message": "Aktifkan mode debug"
   },
   "isDebugModeCaptionLabel": {
-    "message": "Saat mode debug diaktifkan, hasil log adalah keluaran untuk debugger."
+    "message": "Saat mode debug diaktifkan, keluaran log digunakan untuk debugger."
   },
   "exportSettingsLabel": {
     "message": "Ekspor pengaturan"
@@ -360,10 +360,10 @@
     "message": "Impor"
   },
   "resetSettingsLabel": {
-    "message": "Setel ulang"
+    "message": "Atur ulang"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Kembalikan setelan ulang ke bawaan."
+    "message": "Kembalikan semua pengaturan ke semula."
   },
   "resetSettingsButtonLabel": {
     "message": "Reset"
@@ -423,10 +423,10 @@
     "message": "Sponsor"
   },
   "addonPageLabel": {
-    "message": "Halaman pengaya"
+    "message": "Laman pengaya"
   },
   "extensionPageLabel": {
-    "message": "halaman ekstensi"
+    "message": "Laman ekstensi"
   },
   "privacyPolicyLabel": {
     "message": "Kebijakan privasi"
@@ -444,7 +444,7 @@
     "message": "Error: Penggunaan jasa berlebihan. Tunggu beberapa saat dan coba lagi."
   },
   "deeplAuthError": {
-    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
+    "message": "Galat: Gagal mengautentikasi API DeepL. Mohon atur kunci autentikasi dan paket dengan benar pada laman pengaturan."
   },
   "unknownError": {
     "message": "Error: Tidak diketahui"
@@ -462,345 +462,345 @@
     "message": "Buka popup toolbar"
   },
   "lang_af": {
-    "message": "Afrikaans"
+    "message": "Bahasa Afrikaans"
   },
   "lang_sq": {
-    "message": "Albanian"
+    "message": "Bahasa Albania"
   },
   "lang_am": {
-    "message": "Amharic"
+    "message": "Bahasa Amhar"
   },
   "lang_ar": {
-    "message": "Arabic"
+    "message": "Bahasa Arab"
   },
   "lang_hy": {
-    "message": "Armenian"
+    "message": "Bahasa Armenia"
   },
   "lang_az": {
-    "message": "Azerbaijani"
+    "message": "Bahasa Azeri"
   },
   "lang_eu": {
-    "message": "Basque"
+    "message": "Bahasa Euskara"
   },
   "lang_be": {
-    "message": "Belarusian"
+    "message": "Bahasa Belarus"
   },
   "lang_bn": {
-    "message": "Bengali"
+    "message": "Bahasa Benggala"
   },
   "lang_bs": {
-    "message": "Bosnian"
+    "message": "Bahasa Bosnia"
   },
   "lang_bg": {
-    "message": "Bulgarian"
+    "message": "Bahasa Bulgaria"
   },
   "lang_ca": {
-    "message": "Catalan"
+    "message": "Bahasa Katala"
   },
   "lang_ceb": {
-    "message": "Cebuano"
+    "message": "Bahasa Sugbu"
   },
   "lang_ny": {
-    "message": "Chewa"
+    "message": "Bahasa Chewa"
   },
   "lang_zh_CN": {
-    "message": "Chinese (Simplified)"
+    "message": "Bahasa Mandarin (Sederhana)"
   },
   "lang_zh_TW": {
-    "message": "Chinese (Traditional)"
+    "message": "Bahasa Mandarin (Tradisional)"
   },
   "lang_co": {
-    "message": "Corsican"
+    "message": "Bahasa Korsika"
   },
   "lang_hr": {
-    "message": "Croatian"
+    "message": "Bahasa Kroasia"
   },
   "lang_cs": {
-    "message": "Czech"
+    "message": "Bahasa Ceko"
   },
   "lang_da": {
-    "message": "Danish"
+    "message": "Bahasa Denmark"
   },
   "lang_nl": {
-    "message": "Dutch"
+    "message": "Bahasa Belanda"
   },
   "lang_en": {
-    "message": "English"
+    "message": "Bahasa Inggris"
   },
   "lang_eo": {
-    "message": "Esperanto"
+    "message": "Bahasa Espranto"
   },
   "lang_et": {
-    "message": "Estonian"
+    "message": "Bahasa Esti"
   },
   "lang_fi": {
-    "message": "Finnish"
+    "message": "Bahasa Suomi"
   },
   "lang_fr": {
-    "message": "French"
+    "message": "Bahasa Prancis"
   },
   "lang_fy": {
-    "message": "Frisian"
+    "message": "Bahasa Frisia"
   },
   "lang_gl": {
-    "message": "Galician"
+    "message": "Bahasa Galisia"
   },
   "lang_ka": {
-    "message": "Georgian"
+    "message": "Bahasa Kartuli"
   },
   "lang_de": {
-    "message": "German"
+    "message": "Bahasa Jerman"
   },
   "lang_el": {
-    "message": "Greek"
+    "message": "Bahasa Yunani"
   },
   "lang_gu": {
-    "message": "Gujarati"
+    "message": "Bahasa Gujarat"
   },
   "lang_ht": {
-    "message": "Haitian"
+    "message": "Bahasa Haiti"
   },
   "lang_ha": {
-    "message": "Hausa"
+    "message": "Bahasa Hausa"
   },
   "lang_haw": {
-    "message": "Hawaiian"
+    "message": "Bahasa Hawai'i"
   },
   "lang_he": {
-    "message": "Hebrew"
+    "message": "Bahasa Ibrani"
   },
   "lang_hi": {
-    "message": "Hindi"
+    "message": "Bahasa Hindi"
   },
   "lang_hu": {
-    "message": "Hungarian"
+    "message": "Bahasa Magyar"
   },
   "lang_is": {
-    "message": "Icelandic"
+    "message": "Bahasa Islan"
   },
   "lang_ig": {
-    "message": "Igbo"
+    "message": "Bahasa Igbo"
   },
   "lang_id": {
-    "message": "Indonesian"
+    "message": "Bahasa Indonesia"
   },
   "lang_ga": {
-    "message": "Irish"
+    "message": "Bahasa Irlandia"
   },
   "lang_it": {
-    "message": "Italian"
+    "message": "Bahasa Italia"
   },
   "lang_ja": {
-    "message": "Japanese"
+    "message": "Bahasa Jepang"
   },
   "lang_jv": {
-    "message": "Javanese"
+    "message": "Bahasa Jawa"
   },
   "lang_kn": {
-    "message": "Kannada"
+    "message": "Bahasa Kannada"
   },
   "lang_kk": {
-    "message": "Kazakh"
+    "message": "Bahasa Kazak"
   },
   "lang_km": {
-    "message": "Khmer"
+    "message": "Bahasa Khmer"
   },
   "lang_rw": {
-    "message": "Kinyarwanda"
+    "message": "Bahasa Kinyarwanda"
   },
   "lang_ky": {
-    "message": "Kirghiz"
+    "message": "Bahasa Kirgiz"
   },
   "lang_ko": {
-    "message": "Korean"
+    "message": "Bahasa Korea"
   },
   "lang_ku": {
-    "message": "Kurdish"
+    "message": "Bahasa Kurdi"
   },
   "lang_lo": {
-    "message": "Laotian"
+    "message": "Bahasa Laos"
   },
   "lang_la": {
-    "message": "Latin"
+    "message": "Bahasa Latin"
   },
   "lang_lv": {
-    "message": "Latvian"
+    "message": "Bahasa Latvia"
   },
   "lang_lt": {
-    "message": "Lithuanian"
+    "message": "Bahasa Lituavi"
   },
   "lang_lb": {
-    "message": "Luxembourgish"
+    "message": "Bahasa Luksemburg"
   },
   "lang_mk": {
-    "message": "Macedonian"
+    "message": "Bahasa Makedonia"
   },
   "lang_mg": {
-    "message": "Malagasy"
+    "message": "Bahasa Malagasi"
   },
   "lang_ms": {
-    "message": "Malaysia"
+    "message": "Bahasa Melayu Malaysia"
   },
   "lang_ml": {
-    "message": "Malayalam"
+    "message": "Bahasa Malayalam"
   },
   "lang_mt": {
-    "message": "Orang Malta"
+    "message": "Bahasa Malta"
   },
   "lang_mi": {
-    "message": "Maori"
+    "message": "Bahasa Maori"
   },
   "lang_mr": {
-    "message": "Marathi"
+    "message": "Bahasa Marathi"
   },
   "lang_mn": {
-    "message": "Mongolian"
+    "message": "Bahasa Mongol"
   },
   "lang_hmn": {
-    "message": "Monk"
+    "message": "Bahasa Mong"
   },
   "lang_my": {
-    "message": "Myanmar"
+    "message": "Bahasa Burma"
   },
   "lang_ne": {
-    "message": "Nepali"
+    "message": "Bahasa Nepali"
   },
   "lang_no": {
-    "message": "Norwegian"
+    "message": "Bahasa Norwegia"
   },
   "lang_or": {
-    "message": "Odia (Oriya)"
+    "message": "Bahasa Odia"
   },
   "lang_fa": {
-    "message": "Persian"
+    "message": "Bahasa Farsi"
   },
   "lang_pl": {
-    "message": "Polish"
+    "message": "Bahasa Polski"
   },
   "lang_pt": {
-    "message": "Portuguese"
+    "message": "Bahasa Portugis"
   },
   "lang_pa": {
-    "message": "Punjabi"
+    "message": "Bahasa Punjab"
   },
   "lang_ps": {
-    "message": "Pushto"
+    "message": "Bahasa Pashtun"
   },
   "lang_ro": {
-    "message": "Romanian"
+    "message": "Bahasa Rumania"
   },
   "lang_ru": {
-    "message": "Russian"
+    "message": "Bahasa Rusia"
   },
   "lang_sm": {
-    "message": "Samoan"
+    "message": "Bahasa Samoa"
   },
   "lang_gd": {
-    "message": "Scottish Gaelic"
+    "message": "Bahasa Gaelik Skots"
   },
   "lang_sr": {
-    "message": "Serbian"
+    "message": "Bahasa Serbia"
   },
   "lang_st": {
-    "message": "Sesotho"
+    "message": "Bahasa Sotho"
   },
   "lang_sn": {
-    "message": "Shona"
+    "message": "Bahasa Shona"
   },
   "lang_sd": {
-    "message": "Sindhi"
+    "message": "Bahasa Sindhi"
   },
   "lang_si": {
-    "message": "Sinhala"
+    "message": "Bahasa Sinhala"
   },
   "lang_sk": {
-    "message": "Slovak"
+    "message": "Bahasa Slowak"
   },
   "lang_sl": {
-    "message": "Slovenian"
+    "message": "Bahasa Slovenia"
   },
   "lang_so": {
-    "message": "Somali"
+    "message": "Bahasa Somali"
   },
   "lang_es": {
-    "message": "Spanish"
+    "message": "Bahasa Spanyol"
   },
   "lang_su": {
-    "message": "Sundanese"
+    "message": "Bahasa Sunda"
   },
   "lang_sw": {
-    "message": "Swahili"
+    "message": "Bahasa Swahili"
   },
   "lang_sv": {
-    "message": "Swedish"
+    "message": "Bahasa Swedia"
   },
   "lang_tl": {
-    "message": "Tagalog"
+    "message": "Bahasa Tagalog"
   },
   "lang_tg": {
-    "message": "Tajiki"
+    "message": "Bahasa Tajik"
   },
   "lang_ta": {
-    "message": "Tamil"
+    "message": "Bahasa Tamil"
   },
   "lang_tt": {
-    "message": "Tatar"
+    "message": "Bahasa Tatar"
   },
   "lang_te": {
-    "message": "Telugu"
+    "message": "Bahasa Telugu"
   },
   "lang_th": {
-    "message": "Thai"
+    "message": "Bahasa Thailand"
   },
   "lang_tr": {
-    "message": "Turkish"
+    "message": "Bahasa Turki"
   },
   "lang_tk": {
-    "message": "Turkmen"
+    "message": "Bahasa Turkmen"
   },
   "lang_uk": {
-    "message": "Ukrainian"
+    "message": "Bahasa Ukraina"
   },
   "lang_ur": {
-    "message": "Urdu"
+    "message": "Bahasa Urdu"
   },
   "lang_ug": {
-    "message": "Uyghur"
+    "message": "Bahasa Uighur"
   },
   "lang_uz": {
-    "message": "Uzbek"
+    "message": "Bahasa Uzbek"
   },
   "lang_vi": {
-    "message": "Vietnamese"
+    "message": "Bahasa Vietnam"
   },
   "lang_cy": {
-    "message": "Welsh"
+    "message": "Bahasa Wales"
   },
   "lang_xh": {
-    "message": "Xosa"
+    "message": "Bahasa Xhosa"
   },
   "lang_yi": {
-    "message": "Yiddish"
+    "message": "Bahasa Yiddish"
   },
   "lang_yo": {
-    "message": "Yoruba"
+    "message": "Bahasa Yoruba"
   },
   "lang_zu": {
-    "message": "Zulu"
+    "message": "Bahasa Zulu"
   },
   "lang_en_US": {
-    "message": "English (American)"
+    "message": "Bahasa Inggris (Amerika)"
   },
   "lang_en_GB": {
-    "message": "English (British)"
+    "message": "Bahasa Inggris (Britania)"
   },
   "lang_pt_PT": {
-    "message": "Portuguese"
+    "message": "Bahasa Portugis"
   },
   "lang_pt_BR": {
-    "message": "Portuguese (Brazilian)"
+    "message": "Bahasa Portugis (Brazil)"
   },
   "lang_zh": {
-    "message": "Chinese"
+    "message": "Bahasa Cina"
   }
 }

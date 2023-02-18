@@ -213,19 +213,19 @@
     "message": "Sayfaya ya da sekmeye sağ tıklandığında içerik menüsüne ekle."
   },
   "pageTranslationLabel": {
-    "message": "Page translation"
+    "message": "Sayfa çevirisi"
   },
   "pageTranslationOpenToLabel": {
-    "message": "Tab to display translation results"
+    "message": "Çeviri sonuçlarını görüntülemek için sekme"
   },
   "pageTranslationOpenToCaptionLabel": {
-    "message": "Specify the tab to display the results of the page translation."
+    "message": "Sayfa çeviri sonuçlarını görüntülemek için sekmeyi belirleyin."
   },
   "newTabLabel": {
-    "message": "New tab"
+    "message": "Yeni sekme"
   },
   "currentTabLabel": {
-    "message": "Current tab"
+    "message": "Mevcut sekme"
   },
   "styleLabel": {
     "message": "Görünüm"
@@ -243,7 +243,7 @@
     "message": "Koyu"
   },
   "systemLabel": {
-    "message": "System"
+    "message": "Sistem"
   },
   "buttonStyleLabel": {
     "message": "Çeviri butonu"
@@ -318,7 +318,7 @@
     "message": "Paneldeki çevrilmiş metnin yazı tipi rengi"
   },
   "isOverrideColorsLabel": {
-    "message": "Override default colors with colors below"
+    "message": "Varsayılan renkleri alttaki renklerle geçersiz kıl"
   },
   "candidateFontColorLabel": {
     "message": "Kelimeye ait diğer anlamların yazı tipi rengi"

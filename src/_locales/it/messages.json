@@ -39,7 +39,7 @@
     "message": "Ascolta"
   },
   "targetLangLabel": {
-    "message": "Lingua di Arrivo"
+    "message": "Lingua di destinazione"
   },
   "allLangLabel": {
     "message": "Tutte le lingue"
@@ -66,7 +66,7 @@
     "message": "API di DeepL"
   },
   "deeplApiCaptionLabel": {
-    "message": "Usa l'API di DeepL. Devi registrarti con DeepL API Free o DeepL API Pro per ottenere una chiave d'autorizzazione."
+    "message": "Usa l'API di DeepL. Devi registrarti con DeepL API Free o DeepL API Pro per ottenere una chiave d'autenticazione."
   },
   "howToUseDeeplLabel": {
     "message": "Come registrare l'API di DeepL"
@@ -78,19 +78,19 @@
     "message": "Seleziona il piano di DeepL API per cui ti sei registrato."
   },
   "deeplFreeLabel": {
-    "message": "DeepL API Gratis"
+    "message": "DeepL API Free"
   },
   "deeplProLabel": {
     "message": "DeepL API Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Chiave d'autorizzazione"
+    "message": "Chiave di autenticazione"
   },
   "deeplAuthKeyCaptionLabel": {
     "message": "Inserisci la chiave d'autenticazione per l'API di DeepL."
   },
   "targetLangCaptionLabel": {
-    "message": "Seleziona la lingua di arrivo predefinita."
+    "message": "Seleziona la lingua di destinazione predefinita."
   },
   "webPageLabel": {
     "message": "Pagina web"
@@ -99,7 +99,7 @@
     "message": "Mostra candidati di traduzione"
   },
   "ifShowCandidateCaptionLabel": {
-    "message": "Mostra candidati di traduzione multipli alla traduzione di una parola singola."
+    "message": "Mostra più candidati di traduzione quando traduci una singola parola."
   },
   "whenSelectTextLabel": {
     "message": "Comportamento alla selezione del testo"
@@ -126,10 +126,10 @@
     "message": "Non mostrare il pulsante se la traduzione non è richiesta"
   },
   "ifCheckLangCaptionLabel": {
-    "message": "Rileva la lingua del testo selezionato e se corrisponde alla lingua di arrivo, il pulsante non viene mostrato."
+    "message": "Rileva la lingua del testo selezionato e, se corrisponde alla lingua di destinazione, il pulsante non viene mostrato."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Rileva la lingua del testo selezionato e se corrisponde alla lingua di arrivo predefinita, lo traduce nella seconda."
+    "message": "Rileva la lingua del testo selezionato e, se è uguale alla lingua predefinita, traducilo nella seconda lingua."
   },
   "disableTranslationLabel": {
     "message": "Disattiva traduzione"
@@ -138,7 +138,7 @@
     "message": "Disabilita la traduzione nei campi di testo"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Non mostrare il pulsante o il pannello di traduzione alla selezione del testo nel campo del testo."
+    "message": "Non mostrare il pulsante o il pannello di traduzione alla selezione del testo nel campo di testo."
   },
   "isDisabledInCodeElementLabel": {
     "message": "Disabilita la traduzione nei tag di codice"
@@ -150,7 +150,7 @@
     "message": "Traduci alla pressione del tasto modificatore"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Mostra la traduzione solo alla pressione del tasto modificatore specifico."
+    "message": "Mostra traduzione solo alla pressione del tasto modificatore specificato."
   },
   "modifierKeyLabel": {
     "message": "Tasto Modificatore"
@@ -180,13 +180,13 @@
     "message": "Passa automaticamente alla seconda lingua"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "Rileva la lingua del testo inserito e se corrisponde alla lingua di arrivo predefinita, lo traduce nella seconda."
+    "message": "Rileva la lingua di input e, se corrisponde alla lingua di destinazione predefinita, traducila nella seconda lingua."
   },
   "secondTargetLangLabel": {
     "message": "Seconda lingua"
   },
   "secondTargetLangCaptionLabel": {
-    "message": "Seleziona la seconda lingua di arrivo."
+    "message": "Seleziona la seconda lingua di destinazione."
   },
   "ignoredDocumentLangLabel": {
     "message": "Disabilita la traduzione per attributo linguistico"
@@ -213,19 +213,19 @@
     "message": "Aggiungi voci al menu di contesto mostrato cliccando con il destro sulla pagina web o la scheda."
   },
   "pageTranslationLabel": {
-    "message": "Page translation"
+    "message": "Traduzione della pagina"
   },
   "pageTranslationOpenToLabel": {
-    "message": "Tab to display translation results"
+    "message": "Scheda per visualizzare i risultati della traduzione"
   },
   "pageTranslationOpenToCaptionLabel": {
-    "message": "Specify the tab to display the results of the page translation."
+    "message": "Specifica la scheda per visualizzare i risultati della traduzione della pagina."
   },
   "newTabLabel": {
-    "message": "New tab"
+    "message": "Nuova scheda"
   },
   "currentTabLabel": {
-    "message": "Current tab"
+    "message": "Scheda attuale"
   },
   "styleLabel": {
     "message": "Stile"
@@ -243,7 +243,7 @@
     "message": "Scuro"
   },
   "systemLabel": {
-    "message": "System"
+    "message": "Sistema"
   },
   "buttonStyleLabel": {
     "message": "Pulsante di traduzione"
@@ -273,7 +273,7 @@
     "message": "In alto"
   },
   "bottomLabel": {
-    "message": "In fondo"
+    "message": "In basso"
   },
   "leftLabel": {
     "message": "Sinistra"
@@ -282,7 +282,7 @@
     "message": "Destra"
   },
   "positionOffsetLabel": {
-    "message": "Posizione display - Offset"
+    "message": "Posizione tasto - Offset"
   },
   "panelStyleLabel": {
     "message": "Pannello di traduzione"
@@ -300,7 +300,7 @@
     "message": "Dimensione del font"
   },
   "referencePointLabel": {
-    "message": "Posizione display - punto di riferimento"
+    "message": "Posizione tasto - Punto di riferimento"
   },
   "bottomSelectedTextLabel": {
     "message": "Sotto al testo selezionato"
@@ -312,13 +312,13 @@
     "message": "Punto cliccato"
   },
   "displayDirectionLabel": {
-    "message": "Posizione display - Direzione"
+    "message": "Posizione tasto - Direzione"
   },
   "resultFontColorLabel": {
-    "message": "Colore del font del risultato della traduzione"
+    "message": "Colore del font del risultato di traduzione"
   },
   "isOverrideColorsLabel": {
-    "message": "Override default colors with colors below"
+    "message": "Sostituire i colori predefiniti con i colori sottostanti"
   },
   "candidateFontColorLabel": {
     "message": "Colore del font dei candidati di traduzione"
@@ -339,13 +339,13 @@
     "message": "Abilità modalità di debug"
   },
   "isDebugModeCaptionLabel": {
-    "message": "Quando la modalità di debug è abilitata, il registro è mostrato al debugger."
+    "message": "Quando la modalità di debug è abilitata, il registro viene inviato al debugger."
   },
   "exportSettingsLabel": {
     "message": "Esporta impostazioni"
   },
   "exportSettingsCaptionLabel": {
-    "message": "Salva le impostazioni come un file json sul computer."
+    "message": "Salva le impostazioni come file json sul computer."
   },
   "exportButtonLabel": {
     "message": "Esporta"
@@ -444,7 +444,7 @@
     "message": "Errore: Limite d'uso del servizio raggiunto. Sei pregato di attendere un po' e riprovare."
   },
   "deeplAuthError": {
-    "message": "Errore: Autenticazione dell'API di DeepL fallita. Sei pregato di impostare correttamente la chiave d'autenticazione e il piano sulla pagina delle impostazioni."
+    "message": "Errore: Autenticazione dell'API di DeepL fallita. Sei pregato d'impostare correttamente la chiave d'autenticazione e il piano nella pagina delle impostazioni."
   },
   "unknownError": {
     "message": "Errore: Errore sconosciuto"

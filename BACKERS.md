@@ -64,3 +64,6 @@ Thank you to the awesome backers who supported Simple Translate!
 - Love Lain
 - Antonio Narvaez
 - ابو ابراهيم
+- Frank Bruder
+- Vidimir Rayne
+- Myrt

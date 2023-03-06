@@ -67,3 +67,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - Frank Bruder
 - Vidimir Rayne
 - Myrt
+- Dima Samodurov ??

@@ -38,6 +38,9 @@
   "listenLabel": {
     "message": "Слухати"
   },
+  "sourceLangLabel": {
+    "message": "Source language"
+  },
   "targetLangLabel": {
     "message": "Цільова мова"
   },
@@ -91,6 +94,9 @@
   },
   "targetLangCaptionLabel": {
     "message": "Оберіть мову на яку перекладається."
+  },
+  "sourceLangCaptionLabel": {
+    "message": "Select the language to translate from."
   },
   "webPageLabel": {
     "message": "Вебсторінка"

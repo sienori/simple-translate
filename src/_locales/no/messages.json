@@ -38,6 +38,9 @@
   "listenLabel": {
     "message": "Lytt til"
   },
+  "sourceLangLabel": {
+    "message": "Source language"
+  },
   "targetLangLabel": {
     "message": "Målspråk"
   },
@@ -91,6 +94,9 @@
   },
   "targetLangCaptionLabel": {
     "message": "Vel standard målspråk."
+  },
+  "sourceLangCaptionLabel": {
+    "message": "Select the language to translate from."
   },
   "webPageLabel": {
     "message": "Nettside"

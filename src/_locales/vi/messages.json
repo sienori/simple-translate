@@ -38,6 +38,9 @@
   "listenLabel": {
     "message": "Nghe"
   },
+  "sourceLangLabel": {
+    "message": "Source language"
+  },
   "targetLangLabel": {
     "message": "Ngôn ngữ đích"
   },
@@ -91,6 +94,9 @@
   },
   "targetLangCaptionLabel": {
     "message": "Chọn ngôn ngữ đích mặc định."
+  },
+  "sourceLangCaptionLabel": {
+    "message": "Select the language to translate from."
   },
   "webPageLabel": {
     "message": "Trang Web"

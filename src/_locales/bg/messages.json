@@ -38,6 +38,9 @@
   "listenLabel": {
     "message": "Слушане"
   },
+  "sourceLangLabel": {
+    "message": "Source language"
+  },
   "targetLangLabel": {
     "message": "Целеви език"
   },
@@ -91,6 +94,9 @@
   },
   "targetLangCaptionLabel": {
     "message": "Изберете целевия език по подразбиране."
+  },
+  "sourceLangCaptionLabel": {
+    "message": "Select the language to translate from."
   },
   "webPageLabel": {
     "message": "Уебстраница"

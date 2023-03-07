@@ -38,6 +38,9 @@
   "listenLabel": {
     "message": "Listen"
   },
+  "sourceLangLabel": {
+    "message": "Source language"
+  },
   "targetLangLabel": {
     "message": "Teiken taal"
   },
@@ -91,6 +94,9 @@
   },
   "targetLangCaptionLabel": {
     "message": "Kies die standaard doeltaal."
+  },
+  "sourceLangCaptionLabel": {
+    "message": "Select the language to translate from."
   },
   "webPageLabel": {
     "message": "Webblad"

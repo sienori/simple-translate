@@ -38,6 +38,9 @@
   "listenLabel": {
     "message": "Escolta"
   },
+  "sourceLangLabel": {
+    "message": "Source language"
+  },
   "targetLangLabel": {
     "message": "Idioma a traduir"
   },
@@ -91,6 +94,9 @@
   },
   "targetLangCaptionLabel": {
     "message": "Seleccioneu l'idioma a traduïr predeterminat."
+  },
+  "sourceLangCaptionLabel": {
+    "message": "Select the language to translate from."
   },
   "webPageLabel": {
     "message": "Pàgina web"

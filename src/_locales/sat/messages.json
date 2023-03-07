@@ -38,6 +38,9 @@
   "listenLabel": {
     "message": "ᱟᱧᱚᱢ ᱢᱮ"
   },
+  "sourceLangLabel": {
+    "message": "Source language"
+  },
   "targetLangLabel": {
     "message": "ᱯᱟᱹᱨᱥᱤ ᱡᱚᱥ ᱢᱮ"
   },
@@ -91,6 +94,9 @@
   },
   "targetLangCaptionLabel": {
     "message": "ᱰᱤᱯᱷᱚᱞᱴ ᱡᱚᱥ ᱯᱟᱹᱨᱥᱤ ᱪᱚᱭᱚᱱ ᱢᱮ ᱾"
+  },
+  "sourceLangCaptionLabel": {
+    "message": "Select the language to translate from."
   },
   "webPageLabel": {
     "message": "ᱣᱮᱵᱽ ᱥᱟᱦᱴᱟ"

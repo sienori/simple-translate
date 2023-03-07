@@ -38,6 +38,9 @@
   "listenLabel": {
     "message": "音声を聴く"
   },
+  "sourceLangLabel": {
+    "message": "Source language"
+  },
   "targetLangLabel": {
     "message": "翻訳先の言語"
   },
@@ -91,6 +94,9 @@
   },
   "targetLangCaptionLabel": {
     "message": "デフォルトの翻訳先の言語を選択します。"
+  },
+  "sourceLangCaptionLabel": {
+    "message": "Select the language to translate from."
   },
   "webPageLabel": {
     "message": "webページ"

@@ -38,6 +38,9 @@
   "listenLabel": {
     "message": "استماع"
   },
+  "sourceLangLabel": {
+    "message": "Source language"
+  },
   "targetLangLabel": {
     "message": "اللغة المراد الترجمة إليها"
   },
@@ -91,6 +94,9 @@
   },
   "targetLangCaptionLabel": {
     "message": "حدد اللغة الافتراضية."
+  },
+  "sourceLangCaptionLabel": {
+    "message": "Select the language to translate from."
   },
   "webPageLabel": {
     "message": "صفحة الويب"

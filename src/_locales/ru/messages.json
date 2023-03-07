@@ -38,6 +38,9 @@
   "listenLabel": {
     "message": "Слушать"
   },
+  "sourceLangLabel": {
+    "message": "Язык источника"
+  },
   "targetLangLabel": {
     "message": "Язык перевода"
   },
@@ -91,6 +94,9 @@
   },
   "targetLangCaptionLabel": {
     "message": "Выберите язык перевода по умолчанию."
+  },
+  "sourceLangCaptionLabel": {
+    "message": "Выберите язык переводимого текста."
   },
   "webPageLabel": {
     "message": "Веб-страница"

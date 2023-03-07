@@ -68,3 +68,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - Vidimir Rayne
 - Myrt
 - Dima Samodurov ??
+- Concy

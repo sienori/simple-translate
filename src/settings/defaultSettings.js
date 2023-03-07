@@ -19,7 +19,9 @@ const getDefaultLangs = () => {
   const targetLang = shouldUseUiLang ? uiLang : "en";
   const secondTargetLang = targetLang === "en" ? "ja" : "en";
 
-  return { targetLang, secondTargetLang };
+  const sourceLang = "auto"
+
+  return { targetLang, secondTargetLang, sourceLang };
 };
 
 const updateLangsWhenChangeTranslationApi = () => {
@@ -117,6 +119,15 @@ export default [
             shouldShow: () => (getSettings("translationApi") === "deepl"),
           }
         ]
+      },
+      {
+        id: "sourceLang",
+        title: "sourceLangLabel",
+        captions: ["sourceLangCaptionLabel"],
+        type: "select",
+        default: defaultLangs.sourceLang,
+        options: () => generateLangOptions(getSettings("translationApi"), true),
+        useRawOptionName: true
       },
       {
         id: "targetLang",

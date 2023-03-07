@@ -6,8 +6,8 @@ import TranslateButton from "./TranslateButton";
 import TranslatePanel from "./TranslatePanel";
 import "../styles/TranslateContainer.scss";
 
-const translateText = async (text, targetLang = getSettings("targetLang")) => {
-  const result = await translate(text, "auto", targetLang);
+const translateText = async (text, targetLang = getSettings("targetLang"), sourceLang = getSettings("sourceLang")) => {
+  const result = await translate(text, sourceLang, targetLang);
   return result;
 };
 

@@ -56,7 +56,8 @@ const sendRequestToGoogle = async (word, sourceLang, targetLang) => {
   }
 
   resultData.sourceLanguage = result.data.src;
-  resultData.percentage = result.data.ld_result.srclangs_confidences[0];
+  // if source language selected google doesn't return confidence data
+  resultData.percentage = sourceLang !== "auto" ? 1 : result.data.ld_result.srclangs_confidences[0];
   resultData.resultText = result.data.sentences.map(sentence => sentence.trans).join("");
   if (result.data.dict) {
     resultData.candidateText = result.data.dict

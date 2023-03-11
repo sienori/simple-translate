@@ -6,13 +6,13 @@
     "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API.ChatGPT is at capacity right now\nGet notified when we're back\nWrite a limerick about the status of ChatGPT.\nChatGPT is surely the best\nBut its servers are put to the test\nWith so many users chatting\nIt's no wonder they're lagging\nBut they'll fix it soon, no need to fret!"
   },
   "donateWithPaypalLabel": {
-    "message": "Donate with PayPal"
+    "message": "Podpořit přes PayPal"
   },
   "donateLabel": {
-    "message": "Donate"
+    "message": "Darovat"
   },
   "enableOnThisPage": {
-    "message": "Enable translation on this page"
+    "message": "Povolit překlad na této stránce"
   },
   "disableOnThisPage": {
     "message": "Disable translation on this page"

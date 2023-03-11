@@ -15,7 +15,7 @@
     "message": "Povolit překlad na této stránce"
   },
   "disableOnThisPage": {
-    "message": "Disable translation on this page"
+    "message": "Vypnout překlad na této stránce"
   },
   "initialTextArea": {
     "message": "Zadejte text"
@@ -24,37 +24,37 @@
     "message": "Přeložit tuto stránku"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "Otevřít v Překladači Google"
   },
   "openInDeeplLabel": {
-    "message": "Open in DeepL Translator"
+    "message": "Otevřít v DeepL Překladači"
   },
   "copyLabel": {
-    "message": "Copy"
+    "message": "Kopírovat"
   },
   "copiedLabel": {
-    "message": "Copied."
+    "message": "Zkopírováno."
   },
   "listenLabel": {
-    "message": "Listen"
+    "message": "Poslouchat"
   },
   "targetLangLabel": {
     "message": "Cílový jazyk"
   },
   "allLangLabel": {
-    "message": "All languages"
+    "message": "Všechny jazyky"
   },
   "recentLangLabel": {
-    "message": "Recent languages"
+    "message": "Nedávné jazyky"
   },
   "settingsLabel": {
     "message": "Nastavení"
   },
   "generalLabel": {
-    "message": "General"
+    "message": "Obecné"
   },
   "translationApiLabel": {
-    "message": "Translation engine"
+    "message": "Překladatelský nástroj"
   },
   "googleApiLabel": {
     "message": "Google translate API"

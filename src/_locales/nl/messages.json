@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
+    "message": "Vertaal snel geselecteerde of getypte tekst op webpagina's. Ondersteunt Google Translate en DeepL API."
   },
   "donateWithPaypalLabel": {
     "message": "Doneer met PayPal"
@@ -30,10 +30,10 @@
     "message": "Open in DeepL Translator"
   },
   "copyLabel": {
-    "message": "Copy"
+    "message": "Kopie"
   },
   "copiedLabel": {
-    "message": "Copied."
+    "message": "Gekopieerd."
   },
   "listenLabel": {
     "message": "Listen"

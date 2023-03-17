@@ -36,25 +36,25 @@
     "message": "Gekopieerd."
   },
   "listenLabel": {
-    "message": "Listen"
+    "message": "Luister"
   },
   "targetLangLabel": {
     "message": "Doeltaal"
   },
   "allLangLabel": {
-    "message": "All languages"
+    "message": "Alle talen"
   },
   "recentLangLabel": {
-    "message": "Recent languages"
+    "message": "Tweede taal"
   },
   "settingsLabel": {
-    "message": "Settings"
+    "message": "Instellingen"
   },
   "generalLabel": {
-    "message": "General"
+    "message": "Algemeen"
   },
   "translationApiLabel": {
-    "message": "Translation engine"
+    "message": "Vertaalmachine"
   },
   "googleApiLabel": {
     "message": "Google translate API"

@@ -29,6 +29,9 @@
   "openInDeeplLabel": {
     "message": "Open in DeepL Translator"
   },
+  "openInLingvaLabel": {
+    "message": "Open in Lingva Translate"
+  },
   "copyLabel": {
     "message": "Copy"
   },
@@ -88,6 +91,18 @@
   },
   "deeplAuthKeyCaptionLabel": {
     "message": "Enter the authentication key for the DeepL API."
+  },
+  "lingvaApiLabel": {
+    "message": "Lingva Translate API"
+  },
+  "lingvaApiCaptionLabel": {
+    "message": "Use Lingva Translate API. You can also use your self-hosted Lingva Translate."
+  },
+  "lingvaRootUrlLabel": {
+    "message": "Lingva Translate Instance URL"
+  },
+  "lingvaRootUrlCaptionLabel": {
+    "message": "Intance URL of the Lingva Translate API. If you are using the self-hosted Lingva Translate, enter the URL of the server."
   },
   "targetLangCaptionLabel": {
     "message": "Select the default target language."

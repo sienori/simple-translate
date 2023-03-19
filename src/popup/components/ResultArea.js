@@ -15,13 +15,15 @@ export default props => {
   const { resultText, candidateText, isError, errorMessage, targetLang } = props;
   const shouldShowCandidate = getSettings("ifShowCandidate");
   const translationApi = getSettings("translationApi");
+  const lingvaRootUrl = translationApi === "lingva" ? getSettings("lingvaRootUrl") : "";
 
   const handleLinkClick = () => {
     const { inputText, targetLang } = props;
     const encodedText = encodeURIComponent(inputText);
     const translateUrl = translationApi === "google" ?
       `https://translate.google.com/?sl=auto&tl=${targetLang}&text=${encodedText}` :
-      `https://www.deepl.com/translator#auto/${targetLang}/${encodedText}`
+      ( translationApi === "deepl" ? `https://www.deepl.com/translator#auto/${targetLang}/${encodedText}`
+      : `${lingvaRootUrl}/auto/${targetLang}/${encodedText}` )
       ;
     openUrl(translateUrl);
   };
@@ -36,7 +38,7 @@ export default props => {
           <a onClick={handleLinkClick}>
             {translationApi === "google" ?
               browser.i18n.getMessage("openInGoogleLabel") :
-              browser.i18n.getMessage("openInDeeplLabel")
+( translationApi === "deepl" ? browser.i18n.getMessage("openInDeeplLabel") : browser.i18n.getMessage("openInLingvaLabel"))
             }
           </a>
         </p>

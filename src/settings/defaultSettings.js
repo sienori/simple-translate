@@ -115,7 +115,23 @@ export default [
             default: "",
             placeholder: "00000000-0000-0000-0000-00000000000000:fx",
             shouldShow: () => (getSettings("translationApi") === "deepl"),
-          }
+          },
+          {
+            id: "translationApi",
+            title: "lingvaApiLabel",
+            captions: ["LingvaApiCaptionLabel"],
+            type: "radio",
+            value: "lingva",
+            handleChange: () => updateLangsWhenChangeTranslationApi()
+          },
+          {
+            id: "lingvaRootUrl",
+            title: "lingvaRootUrlLabel",
+            captions: ["lingvaRootUrlCaptionLabel"],
+            type: "text",
+            default: "https://lingva.ml",
+            shouldShow: () => (getSettings("translationApi") === "lingva"),
+          },
         ]
       },
       {

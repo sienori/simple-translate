@@ -5,7 +5,7 @@ const langListGoogle = ["af", "sq", "am", "ar", "hy", "az", "eu", "be", "bn", "b
 const langListDeepl = ["bg", "cs", "da", "de", "el", "en-GB", "en-US", "es", "et", "fi", "fr", "hu", "id", "it", "ja", "lt", "lv", "nl", "pl", "pt-PT", "pt-BR", "ro", "ru", "sk", "sl", "sv", "tr", "uk", "zh"];
 
 export default (translationApi) => {
-  const langList = translationApi === "google" ? langListGoogle : langListDeepl;
+  const langList = (translationApi === "google" || translationApi === "lingva") ? langListGoogle : langListDeepl;
   const langOptions = langList.map(lang => ({
     value: lang,
     name: browser.i18n.getMessage("lang_" + lang.replace("-", "_"))

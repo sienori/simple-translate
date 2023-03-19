@@ -107,6 +107,42 @@ const sendRequestToDeepL = async (word, sourceLang, targetLang) => {
   return resultData;
 };
 
+const sendRequestToLingva = async (word, sourceLang, targetLang) => {
+  let params = new URLSearchParams();
+  const lingvaUrl = getSettings("lingvaRootUrl");
+  const escapedText = encodeURIComponent(word);
+
+  if (targetLang === "zh-CN") targetLang = "zh_HANS";
+  if (targetLang === "zh-TW") targetLang = "zh_HANT";
+
+  const url = `${lingvaUrl}/api/v1/${sourceLang}/${targetLang}/${escapedText}`;
+  const result = await axios.get(url, params).catch(e => e.response);
+
+  const resultData = {
+    resultText: "",
+    candidateText: "",
+    sourceLanguage: "",
+    percentage: 0,
+    isError: false,
+    errorMessage: ""
+  };
+
+  if (!result || result?.status !== 200) {
+    resultData.isError = true;
+    if (!result || result.status === 0) resultData.errorMessage = browser.i18n.getMessage("networkError");
+    else resultData.errorMessage = `${browser.i18n.getMessage("unknownError")} [${result?.status} ${result?.statusText}] ${result?.data.error}`;
+
+    log.error(logDir, "sendRequestToLingva()", result);
+    return resultData;
+  }
+  resultData.resultText = result.data.translation
+  resultData.sourceLanguage = result.data.info.detectedSource.toLowerCase();
+  resultData.percentage = 1;
+
+  log.log(logDir, "sendRequestToLingva()", resultData);
+  return resultData;
+}
+
 
 export default async (sourceWord, sourceLang = "auto", targetLang, translationApi) => {
   log.log(logDir, "tranlate()", sourceWord, targetLang, translationApi);
@@ -125,7 +161,7 @@ export default async (sourceWord, sourceLang = "auto", targetLang, translationAp
 
   const result = getSettings("translationApi") === "google" ?
     await sendRequestToGoogle(sourceWord, sourceLang, targetLang) :
-    await sendRequestToDeepL(sourceWord, sourceLang, targetLang);
+    (getSettings("translationApi") === "lingva" ? await sendRequestToLingva(sourceWord, sourceLang, targetLang) : await sendRequestToDeepL(sourceWord, sourceLang, targetLang));
   setHistory(sourceWord, sourceLang, targetLang, translationApi, result);
   return result;
 };

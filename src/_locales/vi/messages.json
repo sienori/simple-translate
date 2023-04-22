@@ -213,19 +213,19 @@
     "message": "Thêm các mục vào menu ngữ cảnh được hiển thị khi nhấp chuột phải vào trang web hoặc thẻ."
   },
   "pageTranslationLabel": {
-    "message": "Page translation"
+    "message": "Tắt dịch thuật"
   },
   "pageTranslationOpenToLabel": {
-    "message": "Tab to display translation results"
+    "message": "Tab để hiển thị kết quả dịch"
   },
   "pageTranslationOpenToCaptionLabel": {
-    "message": "Specify the tab to display the results of the page translation."
+    "message": "Chỉ định tab để hiển thị kết quả dịch trang."
   },
   "newTabLabel": {
-    "message": "New tab"
+    "message": "Tab mới"
   },
   "currentTabLabel": {
-    "message": "Current tab"
+    "message": "Tab hiện tại"
   },
   "styleLabel": {
     "message": "Phong cách"
@@ -243,7 +243,7 @@
     "message": "Tối"
   },
   "systemLabel": {
-    "message": "System"
+    "message": "Hệ thống"
   },
   "buttonStyleLabel": {
     "message": "Nút dịch"
@@ -318,7 +318,7 @@
     "message": "Màu chữ của kết quả dịch"
   },
   "isOverrideColorsLabel": {
-    "message": "Override default colors with colors below"
+    "message": "Ghi đè màu mặc định bằng các màu bên dưới"
   },
   "candidateFontColorLabel": {
     "message": "Màu chữ của đề cử dịch thuật"

@@ -213,19 +213,19 @@
     "message": "Fügen Sie Elemente zu dem Kontextmenü hinzu, das beim Rechtsklick auf die Webseite oder dem Tab angezeigt wird."
   },
   "pageTranslationLabel": {
-    "message": "Page translation"
+    "message": "Seitenübersetzung"
   },
   "pageTranslationOpenToLabel": {
-    "message": "Tab to display translation results"
+    "message": "Drücke die Tab-Taste, um die Übersetzungsergebnisse anzuzeigen"
   },
   "pageTranslationOpenToCaptionLabel": {
-    "message": "Specify the tab to display the results of the page translation."
+    "message": "Bitte gib an, welcher Tab die Ergebnisse der Seitenübersetzung anzeigen soll."
   },
   "newTabLabel": {
-    "message": "New tab"
+    "message": "Neuer Tab"
   },
   "currentTabLabel": {
-    "message": "Current tab"
+    "message": "Aktueller Tab"
   },
   "styleLabel": {
     "message": "Erscheinungsbild"
@@ -318,7 +318,7 @@
     "message": "Schriftfarbe des Übersetzungsergebnisses"
   },
   "isOverrideColorsLabel": {
-    "message": "Override default colors with colors below"
+    "message": "Überschreibe Standardfarben mit den untenstehenden Farben"
   },
   "candidateFontColorLabel": {
     "message": "Schriftfarbe der Übersetzungskandidaten"

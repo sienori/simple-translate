@@ -84,7 +84,7 @@
     "message": "DeepL API Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Authentication key"
+    "message": "Autorizační klíč"
   },
   "deeplAuthKeyCaptionLabel": {
     "message": "Enter the authentication key for the DeepL API."
@@ -132,7 +132,7 @@
     "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
   },
   "disableTranslationLabel": {
-    "message": "Disable translation"
+    "message": "Zakázat překlad"
   },
   "isDisabledInTextFieldsLabel": {
     "message": "Disable translation in text fields"
@@ -165,7 +165,7 @@
     "message": "Alt"
   },
   "cmdLabel": {
-    "message": "Command"
+    "message": "Příkaz"
   },
   "disableUrlListLabel": {
     "message": "URL list to disable translation"
@@ -222,10 +222,10 @@
     "message": "Specify the tab to display the results of the page translation."
   },
   "newTabLabel": {
-    "message": "New tab"
+    "message": "Nová karta"
   },
   "currentTabLabel": {
-    "message": "Current tab"
+    "message": "Aktuální karta"
   },
   "styleLabel": {
     "message": "Styl"
@@ -258,28 +258,28 @@
     "message": "Display position"
   },
   "topRightLabel": {
-    "message": "Top right"
+    "message": "Vpravo nahoře"
   },
   "bottomRightLabel": {
-    "message": "Bottom right"
+    "message": "Vpravo dole"
   },
   "topLeftLabel": {
-    "message": "Top left"
+    "message": "Vlevo nahoře"
   },
   "bottomLeftLabel": {
-    "message": "Bottom left"
+    "message": "Vlevo dole"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "Nahoře"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "Dole"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "Vlevo"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "Vpravo"
   },
   "positionOffsetLabel": {
     "message": "Display position - Offset"
@@ -360,31 +360,31 @@
     "message": "Import"
   },
   "resetSettingsLabel": {
-    "message": "Reset settings"
+    "message": "Obnovit nastavení"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Restore all settings to default."
+    "message": "Obnovit všechna nastavení na výchozí."
   },
   "resetSettingsButtonLabel": {
-    "message": "Reset"
+    "message": "Obnovit"
   },
   "shortcutsLabel": {
-    "message": "Shortcuts"
+    "message": "Zkratky"
   },
   "keyboardShortcutsLabel": {
-    "message": "Keyboard shortcuts"
+    "message": "Klávesové zkratky"
   },
   "setKeyboardShortCutsMessage": {
-    "message": "Set keyboard shortcuts."
+    "message": "Nastavte klávesové zkratky."
   },
   "typeShortcutMessage": {
-    "message": "Type a shortcut"
+    "message": "Vybrat zkratku"
   },
   "typeLetterMessage": {
-    "message": "Type a letter"
+    "message": "Napište písmeno"
   },
   "includeModifierKeysMessage": {
-    "message": "Include either Ctrl or Alt"
+    "message": "Zahrnout Ctrl nebo Alt"
   },
   "includeMacModifierKeysMessage": {
     "message": "Include either Command, Ctrl or Alt"
@@ -399,7 +399,7 @@
     "message": "Clear"
   },
   "reset": {
-    "message": "Reset"
+    "message": "Obnovit"
   },
   "informationLabel": {
     "message": "Informace"

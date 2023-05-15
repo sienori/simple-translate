@@ -11,6 +11,17 @@ const translateText = async (text, targetLang = getSettings("targetLang")) => {
   return result;
 };
 
+export const autoTranslateText = async (text) => {
+  let result = await translateText(text);
+  const targetLang = getSettings("targetLang");
+  const secondLang = getSettings("secondTargetLang");
+  const shouldSwitchSecondLang =
+    getSettings("ifChangeSecondLangOnPage") &&
+    result.sourceLanguage.split("-")[0] === targetLang.split("-")[0] && result.percentage > 0 && targetLang !== secondLang;
+  if (shouldSwitchSecondLang) result = await translateText(text, secondLang);
+  return result
+}
+
 const matchesTargetLang = async selectedText => {
   const targetLang = getSettings("targetLang");
   //detectLanguageで判定
@@ -84,14 +95,7 @@ export default class TranslateContainer extends Component {
     const panelReferencePoint = getSettings("panelReferencePoint");
     const useClickedPosition = panelReferencePoint === "clickedPoint" && clickedPosition !== null;
     const panelPosition = useClickedPosition ? clickedPosition : this.selectedPosition;
-
-    let result = await translateText(this.selectedText);
-    const targetLang = getSettings("targetLang");
-    const secondLang = getSettings("secondTargetLang");
-    const shouldSwitchSecondLang =
-      getSettings("ifChangeSecondLangOnPage") &&
-      result.sourceLanguage.split("-")[0] === targetLang.split("-")[0] && result.percentage > 0 && targetLang !== secondLang;
-    if (shouldSwitchSecondLang) result = await translateText(this.selectedText, secondLang);
+    const result = autoTranslateText(this.selectedText);
 
     this.setState({
       shouldShowPanel: true,

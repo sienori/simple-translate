@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import browser from "webextension-polyfill";
 import { initSettings, getSettings, handleSettingsChange } from "src/settings/settings";
 import { updateLogLevel, overWriteLogLevel } from "src/common/log";
-import TranslateContainer from "./components/TranslateContainer";
+import TranslateContainer, { autoTranslateText } from "./components/TranslateContainer";
 
 const init = async () => {
   await initSettings();
@@ -84,10 +84,18 @@ const waitTime = time => {
 const getSelectedText = () => {
   const element = document.activeElement;
   const isInTextField = element.tagName === "INPUT" || element.tagName === "TEXTAREA";
-  const selectedText = isInTextField
-    ? element.value.substring(element.selectionStart, element.selectionEnd)
-    : window.getSelection()?.toString() ?? "";
-  return selectedText;
+  if (isInTextField) {
+    if (element.selectionStart !== element.selectionEnd) {
+      return element.value.substring(element.selectionStart, element.selectionEnd);
+    }
+    else {
+      // No selection: translate whole input field
+      return element.value;
+    }
+  }
+  else {
+    return window.getSelection()?.toString() ?? ""
+  }
 };
 
 const getSelectedPosition = () => {
@@ -119,6 +127,32 @@ const getSelectedPosition = () => {
   }
   return selectedPosition;
 };
+
+const isTranslateableField = () => {
+  const element = document.activeElement;
+  // TODO check disabled/readonly attribute
+  if (element.tagName === "INPUT" || element.tagName === "TEXTAREA") return true;
+  return false;
+}
+
+const translateInputField = async (selectedText) => {
+  const element = document.activeElement;
+  const result = await autoTranslateText(selectedText);
+
+  // TODO error handling
+  if (result.isError || !result.resultText) return;
+
+  // If the user already changed field content, don't overwrite it with old translation
+  if (getSelectedText() !== selectedText) return;
+
+  // OK, write translation
+  // Assigning to element.value erases undo history, `execCommand()` is better
+  if (element.selectionStart === element.selectionEnd) {
+    // Select all text to replace everything
+    document.execCommand("selectAll");
+  }
+  document.execCommand("insertText", false, result.resultText);
+}
 
 const isInContentEditable = () => {
   const element = document.activeElement;
@@ -158,9 +192,15 @@ const handleMessage = async request => {
       if (!isEnabled) return empty;
       const selectedText = getSelectedText();
       if (selectedText.length === 0) return;
-      const selectedPosition = getSelectedPosition();
       removeTranslatecontainer();
-      showTranslateContainer(selectedText, selectedPosition, null, true);
+      if (isTranslateableField()) {
+        // TODO add setting
+        await translateInputField(selectedText);
+      }
+      else {
+        const selectedPosition = getSelectedPosition();
+        showTranslateContainer(selectedText, selectedPosition, null, true);
+      }
       break;
     }
     case "getEnabled":

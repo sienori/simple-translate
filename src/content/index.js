@@ -85,6 +85,7 @@ const getSelectedText = () => {
   const element = document.activeElement;
   const isInTextField = element.tagName === "INPUT" || element.tagName === "TEXTAREA";
   if (isInTextField) {
+    console.log("Found", element.tagName);
     if (element.selectionStart !== element.selectionEnd) {
       return element.value.substring(element.selectionStart, element.selectionEnd);
     }
@@ -93,9 +94,19 @@ const getSelectedText = () => {
       return element.value;
     }
   }
-  else {
-    return window.getSelection()?.toString() ?? ""
+  const selection = window.getSelection()?.toString();
+  if (selection) {
+    console.log("Found selection");
+    return selection;
   }
+  else if (element.contentEditable === "true" || element.contentEditable === "") {
+    // TODO: Handle deeper editable elements too!
+    // No selection: translate whole input field
+    console.log("Found contentEditable");
+    return element.textContent;
+  }
+  console.log("Found no selection or input field");
+  return "";
 };
 
 const getSelectedPosition = () => {
@@ -131,7 +142,16 @@ const getSelectedPosition = () => {
 const isTranslateableField = () => {
   const element = document.activeElement;
   // TODO check disabled/readonly attribute
-  if (element.tagName === "INPUT" || element.tagName === "TEXTAREA") return true;
+  if (element.tagName === "INPUT" || element.tagName === "TEXTAREA") {
+    console.log("Detected", element.tagName)
+    return true;
+  }
+  // "true" or an empty string indicates that the element is editable.
+  if (element.contentEditable === "true" || element.contentEditable === "") {
+    // TODO: Handle deeper editable elements too!
+    console.log("Detected contentEditable")
+    return true;
+  }
   return false;
 }
 
@@ -147,7 +167,10 @@ const translateInputField = async (selectedText) => {
 
   // OK, write translation
   // Assigning to element.value erases undo history, `execCommand()` is better
-  if (element.selectionStart === element.selectionEnd) {
+  if (element.contentEditable === "true" || element.contentEditable === "" && document.getSelection().toString() === "") {
+    document.execCommand("selectAll");
+  }
+  else if (element.selectionStart !== undefined && element.selectionStart === element.selectionEnd) {
     // Select all text to replace everything
     document.execCommand("selectAll");
   }

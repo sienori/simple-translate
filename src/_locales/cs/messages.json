@@ -60,7 +60,7 @@
     "message": "API překladače Google"
   },
   "googleApiCaptionLabel": {
-    "message": "Use Google Translate API. No registration is required."
+    "message": "Použít API Překladače Google. Registrace není vyžadována."
   },
   "deeplApiLabel": {
     "message": "DeepL API"

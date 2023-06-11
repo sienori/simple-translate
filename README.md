@@ -43,6 +43,11 @@ You can contribute by translating Simple Translate on **[Crowdin](https://crowdi
 2. Select "Developer Mode" and then click "Load unpacked extension..."
 3. From the file browser, choose to `simple-translate/dev/chrome`
 
+### Load the extension in Edge
+1. Open Edge browser and navigate to `edge://extensions`
+2. Select "Developer Mode" and then click "Load unpacked"
+3. From the file browser, choose to `simple-translate/dev/chrome`
+
 ### Load the extension in Firefox
 
 1. Open Firefox browser and navigate to `about:debugging`

@@ -14,7 +14,7 @@ Thank you to the awesome backers who supported Simple Translate!
 - BIlY4kgVBE
 - Christian Mårtensson
 - shintaks
-- Ha Do Manh
+- Ha Do Manhhamed ali ali
 - 아영 김
 - ovgolovin
 - 忠郎 蔡
@@ -69,3 +69,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - Myrt
 - Dima Samodurov ??
 - Concy
+- hamed ali ali

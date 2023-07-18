@@ -19,8 +19,6 @@ Thank you to the awesome **[backers](https://github.com/sienori/simple-translate
 
 Support Simple Translate by [becoming a sponsor](https://www.patreon.com/join/sienori). Thank you to our wonderful sponsors!
 
-[<img src="docs/img/usechatgpt_1000_440.png" alt="UseChatGPT.AI" height=110px align="left">](https://www.usechatgpt.ai/install?ref=simpletranslate)
-
 [<img src="docs/img/toucan.png" alt="Toucan" height=110px>](https://jointoucan.com/partners/tab-session-manager)
 
 [<img src="docs/img/becomeSponsor.png" alt="Become a Sponsor" height=110px>](https://www.patreon.com/join/sienori)

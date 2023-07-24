@@ -12,7 +12,8 @@
   "permissions": [
     "<all_urls>",
     "storage",
-    "contextMenus"
+    "contextMenus",
+    "downloads"
   ],
   "options_ui": {
     "page": "options/index.html",

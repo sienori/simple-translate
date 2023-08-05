@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Langsung menerjemahkan teks yang dipilih atau diketik pada laman web. Mendukung Google Terjemahan dan API DeepL."
+    "message": "Cepat menerjemahkan teks yang dipilih atau diketik pada laman web. Mendukung Google Terjemahan dan API DeepL."
   },
   "donateWithPaypalLabel": {
     "message": "Sumbang dengan PayPal"
@@ -117,13 +117,13 @@
     "message": "Tampilkan tombol terjemahan untuk membuka panel saat diklik."
   },
   "dontshowbuttonlabel": {
-    "message": "Jangan menampilkan tombol atau panel"
+    "message": "Jangan tampilkan tombol atau panel"
   },
   "dontshowbuttonCaptionlabel": {
     "message": "Jangan tampilkan tombol terjemahan atau panel terjemahan."
   },
   "ifCheckLangLabel": {
-    "message": "Jangan menampilkan tombol jika terjemahan tidak diperlukan"
+    "message": "Jangan tampilkan tombol jika terjemahan tidak diperlukan"
   },
   "ifCheckLangCaptionLabel": {
     "message": "Mendeteksi bahasa dari teks yang dipilih. Jika sama dengan bahasa sasaran, tombol tidak akan ditampilkan."
@@ -135,16 +135,16 @@
     "message": "Nonaktifkan terjemahan"
   },
   "isDisabledInTextFieldsLabel": {
-    "message": "Nonaktifkan terjemahan pada kolom isian teks"
+    "message": "Nonaktifkan terjemahan pada kolom teks"
   },
   "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Jangan tampilkan tombol terjemahan atau panel saat menyeleksi teks di kolom isian teks."
+    "message": "Jangan tampilkan tombol atau panel terjemahan saat menyeleksi teks di kolom teks."
   },
   "isDisabledInCodeElementLabel": {
     "message": "Nonaktifkan terjemahan pada tag kode"
   },
   "isDisabledInCodeElementCaptionLabel": {
-    "message": "Jangan tampilkan tombol terjemahan atau panel saat menyeleksi teks di tag kode."
+    "message": "Jangan tampilkan tombol atau panel terjemahan saat menyeleksi teks di tag kode."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
     "message": "Terjemahkan saat tombol pengubah ditekan"
@@ -168,10 +168,10 @@
     "message": "Command"
   },
   "disableUrlListLabel": {
-    "message": "Daftar URL untuk menonaktifkan terjemahan"
+    "message": "Daftar URL yang tidak usah diterjemah"
   },
   "disableUrlListCaptionLabel": {
-    "message": "Jika URL laman sesuai dengan daftar, terjemahan untuk laman tersebut dinonaktifkan. Daftar ini mengizinkan wildcard \"*\"."
+    "message": "Jika URL laman sesuai dengan daftar, laman tersebut tidak akan diterjemah. Daftar ini mengizinkan wildcard \"*\"."
   },
   "toolbarLabel": {
     "message": "Sembulan bilah alat"
@@ -192,22 +192,22 @@
     "message": "Nonaktifkan terjemahan menurut atribut bahasa"
   },
   "ignoredDocumentLangCaptionLabel": {
-    "message": "Nonaktifkan terjemahan jika atribut bahasa di elemen html laman sesuai dengan daftar. Masukkan tag bahasa yang dipisahkan koma."
+    "message": "Nonaktifkan terjemahan jika atribut bahasa di unsur html laman sesuai dengan daftar. Masukkan tag bahasa yang dipisah koma."
   },
   "waitTimeLabel": {
     "message": "Waktu tunggu terjemahan"
   },
   "waitTimeCaptionLabel": {
-    "message": "Tentukan waktu tunggu dari masukan huruf ke awal penerjemahan. (milidetik)"
+    "message": "Tentukan waktu tunggu dari masukan huruf sampai mulai penerjemahan. (milidetik)"
   },
   "waitTime2CaptionLabel": {
-    "message": "Jika Anda menerjemahkannya berkali-kali dalam waktu singkat, ini mungkin tidak dapat digunakan untuk sementara waktu."
+    "message": "Jika diterjemahkan berkali-kali dalam waktu singkat, mungkin untuk sementara akan tidak dapat digunakan."
   },
   "menuLabel": {
     "message": "Menu konteks"
   },
   "ifShowMenuLabel": {
-    "message": "Menampilkan menu konteks"
+    "message": "Tampilkan menu konteks"
   },
   "ifShowMenuCaptionLabel": {
     "message": "Menambah butir ke tampilan menu konteks saat mengklik kanan di laman web atau tab."

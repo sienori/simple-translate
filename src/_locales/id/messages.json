@@ -114,7 +114,7 @@
     "message": "Tampilkan tombol terjemahan"
   },
   "ifShowButtonCaptionLabel": {
-    "message": "Tampilkan tombol terjemahan untuk membuka panel saat diklik."
+    "message": "Tampilkan tombol terjemahan untuk membuka panel saat dipencet."
   },
   "dontshowbuttonlabel": {
     "message": "Jangan tampilkan tombol atau panel"
@@ -210,7 +210,7 @@
     "message": "Tampilkan menu konteks"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Menambah butir ke tampilan menu konteks saat mengklik kanan di laman web atau tab."
+    "message": "Menambah butir ke tampilan menu konteks saat memencet kanan di laman web atau tab."
   },
   "pageTranslationLabel": {
     "message": "Penerjemahan laman"
@@ -300,7 +300,7 @@
     "message": "Ukuran huruf"
   },
   "referencePointLabel": {
-    "message": "Posisi tampilan - Titik referensi"
+    "message": "Posisi tampilan - Titik rujukan"
   },
   "bottomSelectedTextLabel": {
     "message": "Bagian bawah seleksi teks"
@@ -345,7 +345,7 @@
     "message": "Ekspor pengaturan"
   },
   "exportSettingsCaptionLabel": {
-    "message": "Simpan pengaturan sebagai file json di komputer."
+    "message": "Simpan pengaturan sebagai berkas json di komputer."
   },
   "exportButtonLabel": {
     "message": "Ekspor"
@@ -354,7 +354,7 @@
     "message": "Impor pengaturan"
   },
   "importSettingsCaptionLabel": {
-    "message": "Muat file pengaturan yang disimpan di komputer."
+    "message": "Muat berkas pengaturan yang disimpan di komputer."
   },
   "importButtonLabel": {
     "message": "Impor"
@@ -363,31 +363,31 @@
     "message": "Atur ulang"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Kembalikan semua pengaturan ke semula."
+    "message": "Pulihkan semua pengaturan ke semula."
   },
   "resetSettingsButtonLabel": {
-    "message": "Reset"
+    "message": "Atur ulang"
   },
   "shortcutsLabel": {
     "message": "Pintasan"
   },
   "keyboardShortcutsLabel": {
-    "message": "Pintasan keyboard"
+    "message": "Pintasan papan ketik"
   },
   "setKeyboardShortCutsMessage": {
-    "message": "Atur pintasan keyboard."
+    "message": "Atur pintasan papan ketik."
   },
   "typeShortcutMessage": {
     "message": "Ketik pintasan"
   },
   "typeLetterMessage": {
-    "message": "Ketik sebuah huruf"
+    "message": "Ketik huruf"
   },
   "includeModifierKeysMessage": {
-    "message": "Masukkan antara Ctrl atau Alt"
+    "message": "Sertakan Ctrl atau Alt"
   },
   "includeMacModifierKeysMessage": {
-    "message": "Masukkan antara Command, Ctrl atau Alt"
+    "message": "Sertakan antara Command, Ctrl atau Alt"
   },
   "invalidLetterMessage": {
     "message": "Huruf ini tidak dapat digunakan"
@@ -396,28 +396,28 @@
     "message": "Pintasan ini tidak dapat digunakan"
   },
   "clear": {
-    "message": "bersih"
+    "message": "Kosongkan"
   },
   "reset": {
-    "message": "Reset"
+    "message": "Atur ulang"
   },
   "informationLabel": {
     "message": "Informasi"
   },
   "backersLabel": {
-    "message": "Pendukung"
+    "message": "Penyokong"
   },
   "licenseLabel": {
     "message": "Lisensi"
   },
   "donationLabel": {
-    "message": "Silakan memberi donasi"
+    "message": "Silakan memberi sumbangan"
   },
   "donationCaptionLabel": {
-    "message": "Terima kasih telah menggunakan menerjemahkan sederhana. <br>Dukungan Anda akan menjadi dorongan besar, karena saya terus mengembangkan add-on. <br>Jika Anda suka menerjemahkan sederhana, saya akan senang jika Anda bisa mempertimbangkan sumbangan."
+    "message": "Terima kasih telah menggunakan Simple Translate.<br>Dukungan Anda akan menjadi dorongan besar selama saya mengembangkan pengaya ini. <br>Jika Anda suka Simple Translate, memberi sumbangan akan sangat membantu."
   },
   "amazonTitleLabel": {
-    "message": "amazon.co.jp eGift Cards"
+    "message": "Kartu eGift amazon.co.jp"
   },
   "sponsorsLabel": {
     "message": "Sponsor"
@@ -438,28 +438,28 @@
     "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
-    "message": "Error: Periksa status koneksi jaringan."
+    "message": "Galat: Periksa status sambungan jejaring."
   },
   "unavailableError": {
-    "message": "Error: Penggunaan jasa berlebihan. Tunggu beberapa saat dan coba lagi."
+    "message": "Galat: Penggunaan jasa melebihi batas. Tunggu beberapa saat dan coba lagi."
   },
   "deeplAuthError": {
     "message": "Galat: Gagal mengautentikasi API DeepL. Mohon atur kunci autentikasi dan paket dengan benar pada laman pengaturan."
   },
   "unknownError": {
-    "message": "Error: Tidak diketahui"
+    "message": "Galat: Tidak diketahui"
   },
   "translatePageMenu": {
     "message": "Terjemahkan halaman ini"
   },
   "translateTextMenu": {
-    "message": "Terjemahkan Teks yang Dipilih"
+    "message": "Terjemahkan teks terpilih"
   },
   "translateLinkMenu": {
-    "message": "Terjemahkan tautan yang dipilih"
+    "message": "Terjemahkan tautan terpilih"
   },
   "openPopupDescription": {
-    "message": "Buka popup toolbar"
+    "message": "Buka sembulan bilah alat"
   },
   "lang_af": {
     "message": "Bahasa Afrikaans"
@@ -504,10 +504,10 @@
     "message": "Bahasa Chewa"
   },
   "lang_zh_CN": {
-    "message": "Bahasa Mandarin (Sederhana)"
+    "message": "Bahasa Cina (Sederhana)"
   },
   "lang_zh_TW": {
-    "message": "Bahasa Mandarin (Tradisional)"
+    "message": "Bahasa Cina (Tradisional)"
   },
   "lang_co": {
     "message": "Bahasa Korsika"
@@ -639,7 +639,7 @@
     "message": "Bahasa Malagasi"
   },
   "lang_ms": {
-    "message": "Bahasa Melayu Malaysia"
+    "message": "Bahasa Melayu"
   },
   "lang_ml": {
     "message": "Bahasa Malayalam"

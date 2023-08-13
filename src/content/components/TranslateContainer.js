@@ -102,25 +102,15 @@ export default class TranslateContainer extends Component {
 		if (shouldSwitchSecondLang)
 			result = await translateText(this.selectedText, secondLang);
 
-		// TODO: improving
-		// console.warn(
-		// 	"selectedText: ",
-		// 	this.selectedText,
-		// 	"translateText: ",
-		// 	result.resultText,
-		// 	"candidate: ",
-		// 	result.candidateText
-		// );
-
+		// TODO: send message to background for saving
 		const message = {
 			type: "translate",
 			selectedText: this.selectedText,
 			translatedText: result.resultText,
 			candidateText: result.candidateText,
 		};
-		// End TODO
-
 		browser.runtime.sendMessage(message);
+		// end todo
 
 		this.setState({
 			shouldShowPanel: true,

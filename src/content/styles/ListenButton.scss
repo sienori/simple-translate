@@ -7,9 +7,9 @@
     svg {
       height: 16px;
       width: 16px;
-      fill: var(--sub-text);
+      fill: white;
       &:hover {
-        fill: var(--highlight);
+        fill: orange;
       }
     }
   }

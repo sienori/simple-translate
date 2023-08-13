@@ -36,9 +36,18 @@ const init = async () => {
 };
 init();
 
+const playAudio = async (text, lang) => {
+	const url = `https://translate.google.com/translate_tts?client=tw-ob&q=${encodeURIComponent(
+		text
+	)}&tl=${lang}`;
+	const audio = new Audio(url);
+	audio.crossOrigin = "anonymous";
+	audio.load();
+	await audio.play().catch((e) => log.error(logDir, "playAudio()", e, url));
+};
+
 browser.runtime.onInstalled.addListener(onInstalledListener);
 browser.commands.onCommand.addListener(onCommandListener);
-
 browser.runtime.onMessage.addListener((message) => {
 	if (message.type === "export_history") {
 		fetchMessagesAndDownload();
@@ -46,9 +55,12 @@ browser.runtime.onMessage.addListener((message) => {
 	}
 
 	if (message.type === "translate") {
-		console.log("on tranlate message");
 		storeMessage(message);
 		return;
+	}
+
+	if (message.type === "play_audio") {
+		playAudio(message.text, message.lang);
 	}
 });
 

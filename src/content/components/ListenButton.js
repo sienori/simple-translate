@@ -1,33 +1,22 @@
 import React from "react";
+import browser from "webextension-polyfill";
 import SpeakerIcon from "../icons/speaker.svg";
+import "../styles/ListenButton.scss";
 
-const synth = window.speechSynthesis;
-
-const voices = window.speechSynthesis.getVoices();
-let voice = undefined;
-for (let i = 0; i < voices.length; i++) {
-	if (voices[i].name === "English (Received Pronunciation)+Mr_Serious") {
-		voice = voices[i];
-		break;
-	}
-}
-
-const playAudio = (text, lang) => {
-	const utterThis = new SpeechSynthesisUtterance(text);
-	utterThis.voice = voice;
-	utterThis.pitch = 1;
-	utterThis.rate = 1;
-	synth.speak(utterThis);
+const playAudio = async (text, lang) => {
+	const message = { type: "play_audio", text, lang };
+	browser.runtime.sendMessage(message);
 };
 
-export default (props) => {
-	const { text, lang } = props;
+export default ({ text, lang }) => {
+	const canListen = text && text.length < 200;
+	if (!canListen) return null;
 
 	return (
 		<button
-			style={{ color: "white" }}
 			className='listenButton'
-			onClick={() => playAudio(text, lang)}
+			onClick={() => playAudio(text, "en")}
+			title={browser.i18n.getMessage("listenLabel")}
 		>
 			<SpeakerIcon />
 		</button>

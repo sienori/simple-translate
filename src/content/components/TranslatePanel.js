@@ -215,14 +215,14 @@ export default class TranslatePanel extends Component {
 				ref='panel'
 				style={panelStyles}
 			>
-				<div className='listen' style={wrapperStyles}>
-					{currentLang && <ListenButton text={selectedText} lang={currentLang} />}
-				</div>
 				<div
 					className='simple-translate-result-wrapper'
 					ref='wrapper'
 					style={wrapperStyles}
 				>
+					<div className='simple-translate-result-contents'>
+						<ListenButton text={selectedText} lang={"en"} />
+					</div>
 					<div className='simple-translate-move' draggable='true' ref='move'></div>
 					<div className='simple-translate-result-contents'>
 						<p

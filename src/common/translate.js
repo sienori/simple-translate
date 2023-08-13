@@ -158,6 +158,5 @@ export default async (
 			: await sendRequestToDeepL(sourceWord, sourceLang, targetLang);
 	setHistory(sourceWord, sourceLang, targetLang, translationApi, result);
 
-	console.log(JSON.stringify(translationHistory));
 	return result;
 };

@@ -7,7 +7,7 @@ import SettingsIcon from "../icons/settings.svg";
 import Toggle from "react-toggle";
 import "react-toggle/style.css";
 import "../styles/Header.scss";
-import { ExportButton } from "./ExportButton";
+import DownloadIcon from "../icons/download.svg";
 
 const openPatreon = () => {
 	openUrl(patreonLink);
@@ -21,6 +21,11 @@ const getToggleButtonTitle = (isEnabled) => {
 	return isEnabled
 		? browser.i18n.getMessage("disableOnThisPage")
 		: browser.i18n.getMessage("enableOnThisPage");
+};
+
+const handleExport = () => {
+	const message = { type: "export_history" };
+	browser.runtime.sendMessage(message);
 };
 
 export default (props) => (
@@ -52,7 +57,9 @@ export default (props) => (
 			>
 				<SettingsIcon />
 			</button>
-			<ExportButton />
+			<button className='heartButton' onClick={handleExport}>
+				<DownloadIcon />
+			</button>
 		</div>
 	</div>
 );

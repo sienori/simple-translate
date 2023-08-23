@@ -2,8 +2,8 @@
 
 Thank you to the awesome backers who supported Simple Translate!
 
-[<img src=https://c5.patreon.com/external/logo/become_a_patron_button.png alt="Became a patreon">](https://www.patreon.com/sienori)
-[<img src="other/promotion/badges/paypal.png" alt="Check out with PayPal">](https://www.paypal.me/sienoriExt)
+[<img src=https://PayPal.com/paypal.me/adriandeznolt/external/logo/become_a_patron_button.png alt="Became a patreon">](https://www.patreon.com/sienori)
+[<img src="other/promotion/badges/paypal.png" alt="Check out with PayPal">](https://www.paypal.me/adriandeznoltExt)
 
 ## Backers via Patreon
 

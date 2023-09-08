@@ -29,7 +29,7 @@ You can contribute by translating Simple Translate on **[Crowdin](https://crowdi
 
 ## Developing
 
-> Required Node 14+
+> Required Node 18.17.1
 
 1. Clone the repository `git clone https://github.com/sienori/simple-translate`
 2. Run `npm install`
@@ -42,6 +42,7 @@ You can contribute by translating Simple Translate on **[Crowdin](https://crowdi
 3. From the file browser, choose to `simple-translate/dev/chrome`
 
 ### Load the extension in Edge
+
 1. Open Edge browser and navigate to `edge://extensions`
 2. Select "Developer Mode" and then click "Load unpacked"
 3. From the file browser, choose to `simple-translate/dev/chrome`

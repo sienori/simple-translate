@@ -3,19 +3,19 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API.ChatGPT is at capacity right now\nGet notified when we're back\nWrite a limerick about the status of ChatGPT.\nChatGPT is surely the best\nBut its servers are put to the test\nWith so many users chatting\nIt's no wonder they're lagging\nBut they'll fix it soon, no need to fret!"
+    "message": "Rychle překládejte vybraný nebo zadaný text na webových stránkách. Podporuje Google Translate a DeepL API."
   },
   "donateWithPaypalLabel": {
-    "message": "Donate with PayPal"
+    "message": "Podpořit přes PayPal"
   },
   "donateLabel": {
-    "message": "Donate"
+    "message": "Darovat"
   },
   "enableOnThisPage": {
-    "message": "Enable translation on this page"
+    "message": "Povolit překlad na této stránce"
   },
   "disableOnThisPage": {
-    "message": "Disable translation on this page"
+    "message": "Vypnout překlad na této stránce"
   },
   "initialTextArea": {
     "message": "Zadejte text"
@@ -24,43 +24,43 @@
     "message": "Přeložit tuto stránku"
   },
   "openInGoogleLabel": {
-    "message": "Open in Google Translate"
+    "message": "Otevřít v Překladači Google"
   },
   "openInDeeplLabel": {
-    "message": "Open in DeepL Translator"
+    "message": "Otevřít v DeepL Překladači"
   },
   "copyLabel": {
-    "message": "Copy"
+    "message": "Kopírovat"
   },
   "copiedLabel": {
-    "message": "Copied."
+    "message": "Zkopírováno."
   },
   "listenLabel": {
-    "message": "Listen"
+    "message": "Poslouchat"
   },
   "targetLangLabel": {
     "message": "Cílový jazyk"
   },
   "allLangLabel": {
-    "message": "All languages"
+    "message": "Všechny jazyky"
   },
   "recentLangLabel": {
-    "message": "Recent languages"
+    "message": "Nedávné jazyky"
   },
   "settingsLabel": {
     "message": "Nastavení"
   },
   "generalLabel": {
-    "message": "General"
+    "message": "Obecné"
   },
   "translationApiLabel": {
-    "message": "Translation engine"
+    "message": "Překladatelský nástroj"
   },
   "googleApiLabel": {
-    "message": "Google translate API"
+    "message": "API překladače Google"
   },
   "googleApiCaptionLabel": {
-    "message": "Use Google Translate API. No registration is required."
+    "message": "Použít API Překladače Google. Registrace není vyžadována."
   },
   "deeplApiLabel": {
     "message": "DeepL API"
@@ -84,7 +84,7 @@
     "message": "DeepL API Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Authentication key"
+    "message": "Autorizační klíč"
   },
   "deeplAuthKeyCaptionLabel": {
     "message": "Enter the authentication key for the DeepL API."
@@ -132,7 +132,7 @@
     "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
   },
   "disableTranslationLabel": {
-    "message": "Disable translation"
+    "message": "Zakázat překlad"
   },
   "isDisabledInTextFieldsLabel": {
     "message": "Disable translation in text fields"
@@ -165,7 +165,7 @@
     "message": "Alt"
   },
   "cmdLabel": {
-    "message": "Command"
+    "message": "Příkaz"
   },
   "disableUrlListLabel": {
     "message": "URL list to disable translation"
@@ -222,10 +222,10 @@
     "message": "Specify the tab to display the results of the page translation."
   },
   "newTabLabel": {
-    "message": "New tab"
+    "message": "Nová karta"
   },
   "currentTabLabel": {
-    "message": "Current tab"
+    "message": "Aktuální karta"
   },
   "styleLabel": {
     "message": "Styl"
@@ -258,28 +258,28 @@
     "message": "Display position"
   },
   "topRightLabel": {
-    "message": "Top right"
+    "message": "Vpravo nahoře"
   },
   "bottomRightLabel": {
-    "message": "Bottom right"
+    "message": "Vpravo dole"
   },
   "topLeftLabel": {
-    "message": "Top left"
+    "message": "Vlevo nahoře"
   },
   "bottomLeftLabel": {
-    "message": "Bottom left"
+    "message": "Vlevo dole"
   },
   "topLabel": {
-    "message": "Top"
+    "message": "Nahoře"
   },
   "bottomLabel": {
-    "message": "Bottom"
+    "message": "Dole"
   },
   "leftLabel": {
-    "message": "Left"
+    "message": "Vlevo"
   },
   "rightLabel": {
-    "message": "Right"
+    "message": "Vpravo"
   },
   "positionOffsetLabel": {
     "message": "Display position - Offset"
@@ -360,31 +360,31 @@
     "message": "Import"
   },
   "resetSettingsLabel": {
-    "message": "Reset settings"
+    "message": "Obnovit nastavení"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Restore all settings to default."
+    "message": "Obnovit všechna nastavení na výchozí."
   },
   "resetSettingsButtonLabel": {
-    "message": "Reset"
+    "message": "Obnovit"
   },
   "shortcutsLabel": {
-    "message": "Shortcuts"
+    "message": "Zkratky"
   },
   "keyboardShortcutsLabel": {
-    "message": "Keyboard shortcuts"
+    "message": "Klávesové zkratky"
   },
   "setKeyboardShortCutsMessage": {
-    "message": "Set keyboard shortcuts."
+    "message": "Nastavte klávesové zkratky."
   },
   "typeShortcutMessage": {
-    "message": "Type a shortcut"
+    "message": "Vybrat zkratku"
   },
   "typeLetterMessage": {
-    "message": "Type a letter"
+    "message": "Napište písmeno"
   },
   "includeModifierKeysMessage": {
-    "message": "Include either Ctrl or Alt"
+    "message": "Zahrnout Ctrl nebo Alt"
   },
   "includeMacModifierKeysMessage": {
     "message": "Include either Command, Ctrl or Alt"
@@ -399,7 +399,7 @@
     "message": "Clear"
   },
   "reset": {
-    "message": "Reset"
+    "message": "Obnovit"
   },
   "informationLabel": {
     "message": "Informace"
@@ -667,6 +667,9 @@
   },
   "lang_no": {
     "message": "Norwegian"
+  },
+  "lang_nb": {
+    "message": "Norwegian (bokmål)"
   },
   "lang_or": {
     "message": "Odia (Oriya)"

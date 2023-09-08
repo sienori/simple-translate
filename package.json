@@ -31,7 +31,6 @@
     "mini-css-extract-plugin": "^2.2.2",
     "node-sass": "^9.0.0",
     "opener": "^1.5.1",
-    "react-svg-loader": "^3.0.3",
     "sass-loader": "^12.1.0",
     "webextension-polyfill": "^0.3.1",
     "webpack": "^5.88.2",

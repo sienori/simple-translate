@@ -308,7 +308,6 @@ export default [
         captions: ["pageTranslationOpenToCaptionLabel"],
         type: "select",
         default: "newTab",
-        new: true,
         options: [
           {
             name: "newTabLabel",
@@ -331,7 +330,6 @@ export default [
         captions: ["themeCaptionLabel"],
         type: "select",
         default: 'system',
-        new: true,
         options: [
           {
             name: "lightLabel",
@@ -519,7 +517,6 @@ export default [
             title: "isOverrideColorsLabel",
             captions: [],
             type: "checkbox",
-            new: true,
             default: false
           },
           {

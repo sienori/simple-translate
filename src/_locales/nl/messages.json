@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
+    "message": "Vertaal snel geselecteerde of getypte tekst op webpagina's. Ondersteunt Google Translate en DeepL API."
   },
   "donateWithPaypalLabel": {
     "message": "Doneer met PayPal"
@@ -30,31 +30,31 @@
     "message": "Open in DeepL Translator"
   },
   "copyLabel": {
-    "message": "Copy"
+    "message": "Kopie"
   },
   "copiedLabel": {
-    "message": "Copied."
+    "message": "Gekopieerd."
   },
   "listenLabel": {
-    "message": "Listen"
+    "message": "Luister"
   },
   "targetLangLabel": {
     "message": "Doeltaal"
   },
   "allLangLabel": {
-    "message": "All languages"
+    "message": "Alle talen"
   },
   "recentLangLabel": {
-    "message": "Recent languages"
+    "message": "Tweede taal"
   },
   "settingsLabel": {
-    "message": "Settings"
+    "message": "Instellingen"
   },
   "generalLabel": {
-    "message": "General"
+    "message": "Algemeen"
   },
   "translationApiLabel": {
-    "message": "Translation engine"
+    "message": "Vertaalmachine"
   },
   "googleApiLabel": {
     "message": "Google translate API"
@@ -667,6 +667,9 @@
   },
   "lang_no": {
     "message": "Norwegian"
+  },
+  "lang_nb": {
+    "message": "Norwegian (bokmål)"
   },
   "lang_or": {
     "message": "Odia (Oriya)"

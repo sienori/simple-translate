@@ -29,7 +29,7 @@
     "css-loader": "^5.2.4",
     "html-webpack-plugin": "^5.5.3",
     "mini-css-extract-plugin": "^2.2.2",
-    "node-sass": "^7.0.1",
+    "node-sass": "^9.0.0",
     "opener": "^1.5.1",
     "react-svg-loader": "^3.0.3",
     "sass-loader": "^12.1.0",

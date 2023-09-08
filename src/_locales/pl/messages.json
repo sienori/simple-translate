@@ -603,13 +603,13 @@
     "message": "kazachski"
   },
   "lang_km": {
-    "message": "Khmer"
+    "message": "Khmerski"
   },
   "lang_rw": {
-    "message": "Kinyarwanda"
+    "message": "Ruanda-rundi"
   },
   "lang_ky": {
-    "message": "Kirghiz"
+    "message": "Kirgiski"
   },
   "lang_ko": {
     "message": "Koreański"
@@ -618,7 +618,7 @@
     "message": "Kurdyjski"
   },
   "lang_lo": {
-    "message": "Laotian"
+    "message": "Laotański"
   },
   "lang_la": {
     "message": "Łaciński"
@@ -636,40 +636,43 @@
     "message": "Macedoński"
   },
   "lang_mg": {
-    "message": "Malagasy"
+    "message": "Malgaski"
   },
   "lang_ms": {
-    "message": "Malay"
+    "message": "Malajski"
   },
   "lang_ml": {
-    "message": "Malayalam"
+    "message": "Malajalam"
   },
   "lang_mt": {
-    "message": "Maltese"
+    "message": "Maltański"
   },
   "lang_mi": {
-    "message": "Maori"
+    "message": "Maoryski"
   },
   "lang_mr": {
     "message": "Marathi"
   },
   "lang_mn": {
-    "message": "Mongolian"
+    "message": "Mongolski"
   },
   "lang_hmn": {
-    "message": "Monk"
+    "message": "Klasztorny"
   },
   "lang_my": {
-    "message": "Myanmar"
+    "message": "Birmański"
   },
   "lang_ne": {
-    "message": "Nepali"
+    "message": "Nepalski"
   },
   "lang_no": {
     "message": "Norweski"
   },
+  "lang_nb": {
+    "message": "Norwegian (bokmål)"
+  },
   "lang_or": {
-    "message": "Odia (Oriya)"
+    "message": "Odia (Orija)"
   },
   "lang_fa": {
     "message": "Perski"
@@ -681,10 +684,10 @@
     "message": "Portugalski"
   },
   "lang_pa": {
-    "message": "Punjabi"
+    "message": "Pendżabski"
   },
   "lang_ps": {
-    "message": "Pushto"
+    "message": "Paszto"
   },
   "lang_ro": {
     "message": "Rumuński"
@@ -693,7 +696,7 @@
     "message": "rosyjski"
   },
   "lang_sm": {
-    "message": "Samoan"
+    "message": "Samoański"
   },
   "lang_gd": {
     "message": "Szkocki"
@@ -702,7 +705,7 @@
     "message": "Serban"
   },
   "lang_st": {
-    "message": "Sesotho"
+    "message": "Sotho"
   },
   "lang_sn": {
     "message": "Shona"
@@ -711,7 +714,7 @@
     "message": "Sindhi"
   },
   "lang_si": {
-    "message": "Sinhala"
+    "message": "Syngaleski"
   },
   "lang_sk": {
     "message": "Słowacki"
@@ -720,16 +723,16 @@
     "message": "Słoweński"
   },
   "lang_so": {
-    "message": "Somali"
+    "message": "Somalijski"
   },
   "lang_es": {
     "message": "Hiszpański"
   },
   "lang_su": {
-    "message": "Sundanese"
+    "message": "Sundajski"
   },
   "lang_sw": {
-    "message": "Swahili"
+    "message": "Suahili"
   },
   "lang_sv": {
     "message": "Szwecki"
@@ -741,22 +744,22 @@
     "message": "Tadżyki"
   },
   "lang_ta": {
-    "message": "Tamil"
+    "message": "Tamilski"
   },
   "lang_tt": {
-    "message": "Tatar"
+    "message": "Tatarski"
   },
   "lang_te": {
     "message": "Telugu"
   },
   "lang_th": {
-    "message": "Thai"
+    "message": "Tajski"
   },
   "lang_tr": {
     "message": "Turecki"
   },
   "lang_tk": {
-    "message": "Turkmen"
+    "message": "Turkmeński"
   },
   "lang_uk": {
     "message": "Ukraiński"
@@ -765,7 +768,7 @@
     "message": "Urdu"
   },
   "lang_ug": {
-    "message": "Uyghur"
+    "message": "Ujgurski"
   },
   "lang_uz": {
     "message": "Uzbecki"
@@ -774,13 +777,13 @@
     "message": "Wietnamski"
   },
   "lang_cy": {
-    "message": "Welsh"
+    "message": "Walijski"
   },
   "lang_xh": {
-    "message": "Xosa"
+    "message": "Khosa"
   },
   "lang_yi": {
-    "message": "Yiddish"
+    "message": "Jidysz"
   },
   "lang_yo": {
     "message": "joruba"

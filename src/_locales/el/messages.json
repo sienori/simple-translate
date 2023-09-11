@@ -213,19 +213,19 @@
     "message": "Προσθέστε στοιχεία στο μενού πλαισίου που εμφανίζεται όταν κάνετε δεξί κλικ στην ιστοσελίδα ή την καρτέλα."
   },
   "pageTranslationLabel": {
-    "message": "Page translation"
+    "message": "Μετάφραση σελίδας"
   },
   "pageTranslationOpenToLabel": {
-    "message": "Tab to display translation results"
+    "message": "Καρτέλα εμφάνισης αποτελεσμάτων μετάφρασης"
   },
   "pageTranslationOpenToCaptionLabel": {
-    "message": "Specify the tab to display the results of the page translation."
+    "message": "Καθορίστε την καρτέλα εμφάνισης των αποτελεσμάτων μετάφρασης της σελίδας."
   },
   "newTabLabel": {
-    "message": "New tab"
+    "message": "Νέα καρτέλα"
   },
   "currentTabLabel": {
-    "message": "Current tab"
+    "message": "Τρέχουσα καρτέλα"
   },
   "styleLabel": {
     "message": "Τεχνοτροπία"
@@ -444,7 +444,7 @@
     "message": "Σφάλμα: Υπέρβαση ορίου χρήσης της υπηρεσίας. Περιμένετε λίγο και δοκιμάστε ξανά."
   },
   "deeplAuthError": {
-    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
+    "message": "Σφάλμα: Ο έλεγχος ταυτότητας του DeepL API απέτυχε. Παρακαλώ ορίστε το κλειδί ελέγχου ταυτότητας και πλάνο στη σελίδα ρυθμίσεων."
   },
   "unknownError": {
     "message": "Σφάλμα: Άγνωστο λάθος"
@@ -462,25 +462,25 @@
     "message": "Άνοιγμα του αναδυόμενου παραθύρου της γραμμής εργαλείων"
   },
   "lang_af": {
-    "message": "Afrikaans"
+    "message": "Αφρικάανς"
   },
   "lang_sq": {
-    "message": "Albanian"
+    "message": "Αλβανικά"
   },
   "lang_am": {
-    "message": "Amharic"
+    "message": "Αμχαρικά"
   },
   "lang_ar": {
-    "message": "Arabic"
+    "message": "Αραβικά"
   },
   "lang_hy": {
-    "message": "Armenian"
+    "message": "Αρμενικά"
   },
   "lang_az": {
-    "message": "Azerbaijani"
+    "message": "Αζερικά"
   },
   "lang_eu": {
-    "message": "Basque"
+    "message": "Βασκικά"
   },
   "lang_be": {
     "message": "Belarusian"
@@ -669,7 +669,7 @@
     "message": "Norwegian"
   },
   "lang_nb": {
-    "message": "Norwegian (bokmål)"
+    "message": "Νορβηγικά (bokmål)"
   },
   "lang_or": {
     "message": "Odia (Oriya)"

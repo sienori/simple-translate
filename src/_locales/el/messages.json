@@ -483,115 +483,115 @@
     "message": "Βασκικά"
   },
   "lang_be": {
-    "message": "Belarusian"
+    "message": "Λευκορωσικά"
   },
   "lang_bn": {
-    "message": "Bengali"
+    "message": "Μπενγκάλι"
   },
   "lang_bs": {
-    "message": "Bosnian"
+    "message": "Βοσνιακά"
   },
   "lang_bg": {
-    "message": "Bulgarian"
+    "message": "Βουλγαρικά"
   },
   "lang_ca": {
-    "message": "Catalan"
+    "message": "Καταλανικά"
   },
   "lang_ceb": {
-    "message": "Cebuano"
+    "message": "Σεμπουάνο"
   },
   "lang_ny": {
-    "message": "Chewa"
+    "message": "Τσιούα"
   },
   "lang_zh_CN": {
-    "message": "Chinese (Simplified)"
+    "message": "Κινεζικά (απλοποιημένα)"
   },
   "lang_zh_TW": {
-    "message": "Chinese (Traditional)"
+    "message": "Κινεζικά (Παραδοσιακά)"
   },
   "lang_co": {
-    "message": "Corsican"
+    "message": "Κορσικανικά"
   },
   "lang_hr": {
-    "message": "Croatian"
+    "message": "Κροατικά"
   },
   "lang_cs": {
-    "message": "Czech"
+    "message": "Τσεχικά"
   },
   "lang_da": {
-    "message": "Danish"
+    "message": "Δανικά"
   },
   "lang_nl": {
-    "message": "Dutch"
+    "message": "Ολλανδικά"
   },
   "lang_en": {
-    "message": "English"
+    "message": "Αγγλικά"
   },
   "lang_eo": {
-    "message": "Esperanto"
+    "message": "Εσπεράντο"
   },
   "lang_et": {
-    "message": "Estonian"
+    "message": "Εσθονικά"
   },
   "lang_fi": {
-    "message": "Finnish"
+    "message": "Φινλανδικά"
   },
   "lang_fr": {
-    "message": "French"
+    "message": "Γαλλικά"
   },
   "lang_fy": {
-    "message": "Frisian"
+    "message": "Φριζικά"
   },
   "lang_gl": {
-    "message": "Galician"
+    "message": "Γαλικικά"
   },
   "lang_ka": {
-    "message": "Georgian"
+    "message": "Γεωργιανά"
   },
   "lang_de": {
-    "message": "German"
+    "message": "Γερμανικά"
   },
   "lang_el": {
-    "message": "Greek"
+    "message": "Ελληνικά"
   },
   "lang_gu": {
-    "message": "Gujarati"
+    "message": "Γκουγιαράτι"
   },
   "lang_ht": {
-    "message": "Haitian"
+    "message": "Αϊτιανά"
   },
   "lang_ha": {
-    "message": "Hausa"
+    "message": "Χάουσα"
   },
   "lang_haw": {
-    "message": "Hawaiian"
+    "message": "Χαβανεζικά"
   },
   "lang_he": {
-    "message": "Hebrew"
+    "message": "Εβραϊκά"
   },
   "lang_hi": {
-    "message": "Hindi"
+    "message": "Χίντι"
   },
   "lang_hu": {
-    "message": "Hungarian"
+    "message": "Ουγγρικά"
   },
   "lang_is": {
-    "message": "Icelandic"
+    "message": "Ισλανδικά"
   },
   "lang_ig": {
-    "message": "Igbo"
+    "message": "Ίγκμπο"
   },
   "lang_id": {
-    "message": "Indonesian"
+    "message": "Ινδονησιακά"
   },
   "lang_ga": {
-    "message": "Irish"
+    "message": "Ιρλανδικά"
   },
   "lang_it": {
-    "message": "Italian"
+    "message": "Ιταλικά"
   },
   "lang_ja": {
-    "message": "Japanese"
+    "message": "Ιαπωνικά"
   },
   "lang_jv": {
     "message": "Javanese"
@@ -747,63 +747,63 @@
     "message": "Tamil"
   },
   "lang_tt": {
-    "message": "Tatar"
+    "message": "Ταταρικά"
   },
   "lang_te": {
-    "message": "Telugu"
+    "message": "Τελούγκου"
   },
   "lang_th": {
-    "message": "Thai"
+    "message": "Ταϊλανδικά"
   },
   "lang_tr": {
-    "message": "Turkish"
+    "message": "Τουρκικά"
   },
   "lang_tk": {
-    "message": "Turkmen"
+    "message": "Τουρκμενικά"
   },
   "lang_uk": {
-    "message": "Ukrainian"
+    "message": "Ουκρανικά"
   },
   "lang_ur": {
-    "message": "Urdu"
+    "message": "Ούρντου"
   },
   "lang_ug": {
-    "message": "Uyghur"
+    "message": "Ουιγκούρ"
   },
   "lang_uz": {
-    "message": "Uzbek"
+    "message": "Ουζμπεκικά"
   },
   "lang_vi": {
-    "message": "Vietnamese"
+    "message": "Βιετναμεζικά"
   },
   "lang_cy": {
-    "message": "Welsh"
+    "message": "Ουαλικά"
   },
   "lang_xh": {
-    "message": "Xosa"
+    "message": "Κχόσα"
   },
   "lang_yi": {
-    "message": "Yiddish"
+    "message": "Γίντις"
   },
   "lang_yo": {
-    "message": "Yoruba"
+    "message": "Γιορούμπα"
   },
   "lang_zu": {
-    "message": "Zulu"
+    "message": "Ζουλού"
   },
   "lang_en_US": {
-    "message": "English (American)"
+    "message": "Αγγλικά (Αμερικανικά)"
   },
   "lang_en_GB": {
-    "message": "English (British)"
+    "message": "Αγγλικά (Βρετανικά)"
   },
   "lang_pt_PT": {
     "message": "Portuguese"
   },
   "lang_pt_BR": {
-    "message": "Portuguese (Brazilian)"
+    "message": "Πορτογαλικά, (Βραζιλιάνικα)"
   },
   "lang_zh": {
-    "message": "Chinese"
+    "message": "Κινεζικά"
   }
 }

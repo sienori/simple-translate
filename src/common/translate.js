@@ -74,9 +74,12 @@ const sendRequestToDeepL = async (word, sourceLang, targetLang) => {
   params.append("auth_key", authKey);
   params.append("text", word);
   params.append("target_lang", targetLang);
-  const url = getSettings("deeplPlan") === "deeplFree" ?
-    "https://api-free.deepl.com/v2/translate" :
-    "https://api.deepl.com/v2/translate";
+  const url =
+    getSettings("deeplPlan") === "deeplFree"
+      ? "https://api-free.deepl.com/v2/translate"
+      : authKey.endsWith(":dp")
+      ? "https://api.deepl-pro.com/v2/translate"
+      : "https://api.deepl.com/v2/translate";
   const result = await axios.post(url, params).catch(e => e.response);
 
   const resultData = {

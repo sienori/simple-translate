@@ -60,7 +60,7 @@ const sendRequestToGoogle = async (word, sourceLang, targetLang) => {
   resultData.resultText = result.data.sentences.map(sentence => sentence.trans).join("");
   if (result.data.dict) {
     resultData.candidateText = result.data.dict
-      .map(dict => `${dict.pos}${dict.pos != "" ? ": " : ""}${dict.terms.join(", ")}\n`)
+      .map(dict => `${dict.pos}${dict.pos != "" ? ": " : ""}${dict.terms !== undefined?dict.terms.join(", "):""}\n`)
       .join("");
   }
 

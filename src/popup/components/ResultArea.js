@@ -5,6 +5,7 @@ import openUrl from "src/common/openUrl";
 import CopyButton from "./CopyButton";
 import ListenButton from "./ListenButton";
 import "../styles/ResultArea.scss";
+import {GetLangDir} from "../../common/generateLangOptions";
 
 const splitLine = text => {
   const regex = /(\n)/g;
@@ -28,8 +29,8 @@ export default props => {
 
   return (
     <div id="resultArea">
-      <p className="resultText" dir="auto">{splitLine(resultText)}</p>
-      {shouldShowCandidate && <p className="candidateText" dir="auto">{splitLine(candidateText)}</p>}
+      <p className="resultText" dir={GetLangDir(targetLang)}>{splitLine(resultText)}</p>
+      {shouldShowCandidate && <p className="candidateText" dir={GetLangDir(targetLang)}>{splitLine(candidateText)}</p>}
       {isError && <p className="error">{errorMessage}</p>}
       {isError && (
         <p className="translateLink">

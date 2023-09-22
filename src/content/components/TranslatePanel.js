@@ -4,6 +4,7 @@ import ReactDOM from "react-dom";
 import { getSettings } from "src/settings/settings";
 import "../styles/TranslatePanel.scss";
 import { getBackgroundColor, getCandidateFontColor, getResultFontColor } from "../../settings/defaultColors";
+import {GetLangDir} from "../../common/generateLangOptions";
 
 const splitLine = text => {
   const regex = /(\n)/g;
@@ -196,10 +197,10 @@ export default class TranslatePanel extends Component {
         <div className="simple-translate-result-wrapper" ref="wrapper" style={wrapperStyles}>
           <div className="simple-translate-move" draggable="true" ref="move"></div>
           <div className="simple-translate-result-contents">
-            <p className="simple-translate-result" style={getResultFontColor()} dir="auto">
+            <p className="simple-translate-result" style={getResultFontColor()} dir={GetLangDir(currentLang)}>
               {splitLine(resultText)}
             </p>
-            <p className="simple-translate-candidate" style={getCandidateFontColor()} dir="auto">
+            <p className="simple-translate-candidate" style={getCandidateFontColor()} dir={GetLangDir(currentLang)}>
               {splitLine(candidateText)}
             </p>
             {isError && (

@@ -71,3 +71,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - Concy
 - hamed ali ali
 - Robert Sieg
+- Jack Leonard

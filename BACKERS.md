@@ -72,3 +72,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - hamed ali ali
 - Robert Sieg
 - Jack Leonard
+- Eyüp deniz Taşdelen

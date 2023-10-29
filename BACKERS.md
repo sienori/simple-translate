@@ -74,3 +74,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - Jack Leonard
 - Eyüp deniz Taşdelen
 - Ocean
+- Archer36

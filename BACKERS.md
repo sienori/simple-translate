@@ -73,3 +73,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - Robert Sieg
 - Jack Leonard
 - Eyüp deniz Taşdelen
+- Ocean

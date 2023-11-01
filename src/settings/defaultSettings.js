@@ -25,7 +25,7 @@ const getDefaultLangs = () => {
 const updateLangsWhenChangeTranslationApi = () => {
   const translationApi = getSettings("translationApi");
   const targetLang = getSettings("targetLang");
-  const secondTargetLang = getSettings("secondTargetLang");;
+  const secondTargetLang = getSettings("secondTargetLang");
   const currentLangs = generateLangOptions(translationApi).map(option => option.value);
 
   const mappingLang = lang => {

@@ -182,6 +182,12 @@
   "ifChangeSecondLangCaptionLabel": {
     "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
   },
+  "ifSaveLastInputLabel": {
+    "message": "Save the last entered text"
+  },
+  "ifSaveLastInputCaptionLabel": {
+    "message": "The last text entered will be saved even if you close the window."
+  },
   "secondTargetLangLabel": {
     "message": "Second language"
   },

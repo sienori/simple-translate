@@ -131,6 +131,12 @@
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "Визначати мову виділеного тексту, і якщо вона сходиться зі стандартною цільовою мовою, перекласти її другою мовою."
   },
+  "ifSaveLastInputLabel": {
+    "message": "Зберігати останній введений текст"
+  },
+  "ifSaveLastInputCaptionLabel": {
+    "message": "Останній введений текст буде збережено, навіть якщо ви закриєте вікно."
+  },
   "disableTranslationLabel": {
     "message": "Заборонити переклад"
   },

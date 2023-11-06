@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
+    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate, DeepL, and LibreTranslate API."
   },
   "donateWithPaypalLabel": {
     "message": "Donate with PayPal"
@@ -28,6 +28,9 @@
   },
   "openInDeeplLabel": {
     "message": "Open in DeepL Translator"
+  },
+  "openInLibreLabel": {
+    "message": "Open in LibreTranslate"
   },
   "copyLabel": {
     "message": "Copy"
@@ -88,6 +91,24 @@
   },
   "deeplAuthKeyCaptionLabel": {
     "message": "Enter the authentication key for the DeepL API."
+  },
+  "libreApiLabel": {
+    "message": "LibreTranslate API"
+  },
+  "libreApiCaptionLabel": {
+    "message": "Please provide the url of LibreTranslate server, and the API key if necessary."
+  },
+  "libreUrlLabel": {
+    "message": "LibreTranslate url"
+  },
+  "libreUrlCaptionLabel": {
+    "message": "Enter the url of the LibreTranslate server."
+  },
+  "libreAuthKeyLabel": {
+    "message": "Authentication key"
+  },
+  "libreAuthKeyCaptionLabel": {
+    "message": "Enter the authentication key for the LibreTranslate API."
   },
   "targetLangCaptionLabel": {
     "message": "Select the default target language."
@@ -445,6 +466,9 @@
   },
   "deeplAuthError": {
     "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
+  },
+  "libreUrlError": {
+    "message": "Error: Cannot connect to the LibreTranslate server. Please provide a valid LibreTranslate url on the settings page, or check your network connection status."
   },
   "unknownError": {
     "message": "Error: Unknown error"
@@ -805,5 +829,8 @@
   },
   "lang_zh": {
     "message": "Chinese"
+  },
+  "lang_zt": {
+    "message": "Chinese (Traditional)"
   }
 }

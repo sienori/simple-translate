@@ -107,6 +107,46 @@ const sendRequestToDeepL = async (word, sourceLang, targetLang) => {
   return resultData;
 };
 
+const sendRequestToLibre = async (word, sourceLang, targetLang) => {
+  const baseUrl = getSettings("libreUrl").replace(/\/$/, '');
+  const url = `${baseUrl}/translate`;
+  const body = {
+    q: word,
+    source: sourceLang,
+    target: targetLang,
+    format: "text",
+    api_key: getSettings("libreAuthKey")
+  };
+  const result = await axios.post(url, body).catch(e => e.response);
+
+  const resultData = {
+    resultText: "",
+    candidateText: "",
+    sourceLanguage: "",
+    percentage: 0,
+    isError: false,
+    errorMessage: ""
+  };
+
+  if (!result || result?.status !== 200) {
+    resultData.isError = true;
+    console.log(result);
+
+    if (!result || result.status === 0) resultData.errorMessage = browser.i18n.getMessage("libreUrlError");
+    else resultData.errorMessage = `${browser.i18n.getMessage("unknownError")} [${result?.status} ${result?.statusText}] ${result?.data.error}`;
+
+    log.error(logDir, "sendRequestToLibreTranslate()", result);
+    return resultData;
+  }
+
+  resultData.resultText = result.data.translatedText;
+  resultData.sourceLanguage = result.data.detectedLanguage?.language ?? "";
+  resultData.percentage = result.data.detectedLanguage?.confidence ?? "";
+
+  log.log(logDir, "sendRequestToLibreTranslate()", resultData);
+  return resultData;
+};
+
 
 export default async (sourceWord, sourceLang = "auto", targetLang, translationApi) => {
   log.log(logDir, "tranlate()", sourceWord, targetLang, translationApi);
@@ -123,9 +163,13 @@ export default async (sourceWord, sourceLang = "auto", targetLang, translationAp
   const history = getHistory(sourceWord, sourceLang, targetLang);
   if (history) return history.result;
 
-  const result = getSettings("translationApi") === "google" ?
-    await sendRequestToGoogle(sourceWord, sourceLang, targetLang) :
-    await sendRequestToDeepL(sourceWord, sourceLang, targetLang);
+  const api = getSettings("translationApi");
+  const apiFunction = {
+    "google": sendRequestToGoogle,
+    "deepl": sendRequestToDeepL,
+    "libre": sendRequestToLibre,
+  }[api];
+  const result = await apiFunction(sourceWord, sourceLang, targetLang);
   setHistory(sourceWord, sourceLang, targetLang, translationApi, result);
   return result;
 };

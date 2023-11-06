@@ -186,6 +186,18 @@ export default class TranslatePanel extends Component {
     };
 
     const translationApi = getSettings("translationApi");
+    const encodedText = encodeURIComponent(selectedText);
+    const translateUrl = {
+      "google": `https://translate.google.com/?sl=auto&tl=${currentLang}&text=${encodedText}`,
+      "deepl": `https://www.deepl.com/translator#auto/${currentLang}/${encodedText}`,
+      "libre": `${getSettings("libreUrl").replace(/\/$/, '')}/?source=auto&target=${currentLang}&q=${encodedText}`
+    }[translationApi];
+
+    const openLabel = {
+      "google": "openInGoogleLabel",
+      "deepl": "openInDeeplLabel",
+      "libre": "openInLibreLabel",
+    }[translationApi];
 
     return (
       <div
@@ -206,14 +218,8 @@ export default class TranslatePanel extends Component {
               <p className="simple-translate-error">
                 {errorMessage}
                 <br />
-                <a href={translationApi === "google" ?
-                  `https://translate.google.com/?sl=auto&tl=${currentLang}&text=${encodeURIComponent(selectedText)}` :
-                  `https://www.deepl.com/translator#auto/${currentLang}/${encodeURIComponent(selectedText)}`
-                }
-                  target="_blank">
-                  {translationApi === "google" ?
-                    browser.i18n.getMessage("openInGoogleLabel") :
-                    browser.i18n.getMessage("openInDeeplLabel")}
+                <a href={translateUrl} target="_blank">
+                  {browser.i18n.getMessage(openLabel)}
                 </a>
               </p>
             )}

@@ -10,6 +10,7 @@ const init = async () => {
   document.addEventListener("mouseup", handleMouseUp);
   document.addEventListener("keydown", handleKeyDown);
   document.addEventListener("visibilitychange", handleVisibilityChange);
+  document.addEventListener("keyup", handleKeyUp);
   browser.storage.onChanged.addListener(handleSettingsChange);
   browser.runtime.onMessage.addListener(handleMessage);
   overWriteLogLevel();
@@ -76,6 +77,45 @@ const handleMouseUp = async e => {
   const selectedPosition = getSelectedPosition();
   showTranslateContainer(selectedText, selectedPosition, clickedPosition);
 };
+
+const handleKeyUp = async e => {
+  // This could be improved to avoid sending too much request after every keyup event. Instead of waiting 250ms, we could wait for the user to stop typing for X ms.
+  await waitTime(250);
+
+  //37-40 -> Arrow left,up,right,down
+  if (e.repeat || !e.shiftKey || !((e.keyCode >= 37 && e.keyCode <= 40) || (e.key === "Home" || e.key === "End")))
+    return;
+
+  const isInPasswordField = e.target.tagName === "INPUT" && e.target.type === "password";
+  if (isInPasswordField) return;
+
+  const inCodeElement = e.target.tagName === "CODE" || (!!e.target.closest && !!e.target.closest("code"));
+  if (inCodeElement && getSettings("isDisabledInCodeElement")) return;
+
+  const isInThisElement =
+    document.querySelector("#simple-translate") &&
+    document.querySelector("#simple-translate").contains(window.getSelection().anchorNode);
+  if (isInThisElement) return;
+
+  removeTranslatecontainer();
+
+  const ignoredDocumentLang = getSettings("ignoredDocumentLang").split(",").map(s => s.trim()).filter(s => !!s);
+  if (ignoredDocumentLang.length) {
+    const ignoredLangSelector = ignoredDocumentLang.map(lang => `[lang="${lang}"]`).join(',')
+    if (!!e.target.closest && !!e.target.closest(ignoredLangSelector)) return;
+  }
+
+  const selectedText = getSelectedText();
+  prevSelectedText = selectedText;
+  if (selectedText.length === 0) return;
+
+  if (getSettings("isDisabledInTextFields")) {
+    if (isInContentEditable()) return;
+  }
+
+  const selectedPosition = getSelectedPosition();
+  showTranslateContainer(selectedText, selectedPosition, selectedPosition);
+}
 
 const waitTime = time => {
   return new Promise(resolve => setTimeout(() => resolve(), time));

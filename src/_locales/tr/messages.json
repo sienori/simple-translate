@@ -3,19 +3,19 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Web sayfalarında seçtğiniz metni hızlıca çevirin. Google Translate ve DeepL API'yi destekler."
+    "message": "Web'de yazdığınız ya da seçtiğiniz kelimeleri anında çevirin. Bu eklenti Google Translate ve DeepL API alt yapısını kullanır."
   },
   "donateWithPaypalLabel": {
     "message": "PayPal ile bağış yapın"
   },
   "donateLabel": {
-    "message": "Bağış"
+    "message": "Bağış Yap"
   },
   "enableOnThisPage": {
-    "message": "Çeviriyi bu sayfada etkinleştirin"
+    "message": "Çeviriyi bu sayfada etkinleştir"
   },
   "disableOnThisPage": {
-    "message": "Çeviriyi bu sayfada devre dışı bırakın"
+    "message": "Çeviriyi bu sayfada devre dışı bırak"
   },
   "initialTextArea": {
     "message": "Metin girin"
@@ -60,19 +60,19 @@
     "message": "Google Translate API'si"
   },
   "googleApiCaptionLabel": {
-    "message": "Google Translate API'sini kullanın. Üyelik gerekli değildir."
+    "message": "Google Translate API'sini kullan. Üyelik gerekmez."
   },
   "deeplApiLabel": {
     "message": "DeepL API"
   },
   "deeplApiCaptionLabel": {
-    "message": "DeepL API'sini kullanın. Kimlik doğrulama anahtarı almak için DeepL API Free veya DeepL API Pro'ya kaydolmalısınız."
+    "message": "DeepL API anahtarı kullan. API anahtarını elde etmek ve kullanmak için DeepL üzerinden ücretsiz veya Pro hesabı açmalısınız."
   },
   "howToUseDeeplLabel": {
     "message": "DeepL API'ye nasıl üye olunur"
   },
   "deeplPlanLabel": {
-    "message": "DeepL API hizmet planı"
+    "message": "DeepL API üyelik planı"
   },
   "deeplPlanCaptionLabel": {
     "message": "Kaydolduğunuz DeepL API planını seçin."
@@ -84,16 +84,16 @@
     "message": "DeepL API Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Doğrulama anahtarı"
+    "message": "Api anahtarı"
   },
   "deeplAuthKeyCaptionLabel": {
-    "message": "DeepL API için kimlik doğrulama anahtarını girin."
+    "message": "DeepL API için Api anahtarını girin."
   },
   "targetLangCaptionLabel": {
-    "message": "Varsayılan hedef dilini seçin."
+    "message": "Çevirisi yapılacak birincil dili seçin."
   },
   "webPageLabel": {
-    "message": "İnternet sayfası"
+    "message": "Web sayfası"
   },
   "ifShowCandidateLabel": {
     "message": "Kelimenin diğer anlamlarını da göster"
@@ -114,7 +114,7 @@
     "message": "Çeviri butonunu göster"
   },
   "ifShowButtonCaptionLabel": {
-    "message": "Paneli göstermesi için tıklayabileceğim simgeyi görüntüle."
+    "message": "Paneli açmak için tıklanabilir çeviri butonunu göster."
   },
   "dontshowbuttonlabel": {
     "message": "Butonu veya paneli görüntüleme"

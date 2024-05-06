@@ -1,11 +1,10 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "version": "2.8.2",
   "name": "__MSG_extName__",
   "description": "__MSG_extDescription__",
   "default_locale": "en",
   "permissions": [
-    "<all_urls>",
     "storage",
     "contextMenus"
   ],
@@ -21,11 +20,10 @@
     "32": "icons/32.png"
   },
   "background": {
-    "scripts": [
-      "background/background.js"
-    ]
+    "service_worker": "background/background.js",
+    "type": "module"
   },
-  "browser_action": {
+  "action": {
     "default_icon": {
       "512": "icons/512.png",
       "128": "icons/128.png",
@@ -56,10 +54,17 @@
     }
   ],
   "web_accessible_resources": [
-    "icons/512.png"
+    {
+      "resources": [
+        "icons/512.png"
+      ],
+      "matches": [
+        "*://*/*"
+      ]
+    }
   ],
   "commands": {
-    "_execute_browser_action": {
+    "_execute_action": {
       "description": "__MSG_openPopupDescription__",
       "suggested_key": {
         "default": "Ctrl+Shift+Space"

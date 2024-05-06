@@ -31,7 +31,7 @@ export default props => {
   const { position, shouldShow } = props;
   const buttonSize = parseInt(getSettings("buttonSize"));
   const { top, left } = calcPosition();
-  const iconUrl = browser.extension.getURL("icons/512.png");
+  const iconUrl = browser.runtime.getURL("icons/512.png");
   const buttonStyle = {
     backgroundImage: `url(${iconUrl})`,
     height: buttonSize,

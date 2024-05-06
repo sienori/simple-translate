@@ -48,8 +48,8 @@ const updateLangsWhenChangeTranslationApi = () => {
 };
 
 const defaultLangs = getDefaultLangs();
-const getTheme = () =>
-  window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark" : "light";
+// MV2ではwindow.matchMediaでシステムテーマを取得していたが、MV3では簡単に実装できないためオミットする
+const getTheme = () => "light";
 
 export default [
   {

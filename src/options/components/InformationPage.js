@@ -27,6 +27,8 @@ export default props => {
     return () => window.removeEventListener("message", setHeight);
   });
 
+  const [hasPermission, requestPermission] = useAdditionalPermission();
+
   return (
     <div>
       <p className="contentTitle">{browser.i18n.getMessage("informationLabel")}</p>
@@ -58,6 +60,20 @@ export default props => {
         useRawCaptions={true}
         type={"none"}
       />
+
+      {!hasPermission &&
+        <>
+          <hr />
+          <OptionsContainer
+            title={"additionalPermissionLabel"}
+            captions={["additionalPermissionCaptionLabel"]}
+            type={"button"}
+            value={"enableLabel"}
+            onClick={requestPermission}
+          />
+        </>
+      }
+
       <hr />
       <OptionsContainer title={"donationLabel"} captions={["donationCaptionLabel"]} type={"none"} />
       <OptionsContainer
@@ -133,3 +149,31 @@ export default props => {
     </div>
   );
 };
+
+const useAdditionalPermission = () => {
+  const [hasPermission, setHasPermission] = useState(true);
+
+  const permissions = {
+    origins: [
+      "http://*/*",
+      "https://*/*",
+      "<all_urls>"
+    ]
+  };
+
+  const checkPermission = async () => {
+    const hasPermission = await browser.permissions.contains(permissions);
+    setHasPermission(hasPermission);
+  }
+
+  const requestPermission = async () => {
+    await browser.permissions.request(permissions);
+    checkPermission();
+  }
+
+  useEffect(() => {
+    checkPermission();
+  }, []);
+
+  return [hasPermission, requestPermission];
+}

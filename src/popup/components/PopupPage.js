@@ -3,7 +3,6 @@ import browser from "webextension-polyfill";
 import log from "loglevel";
 import { initSettings, getSettings, setSettings } from "src/settings/settings";
 import { updateLogLevel, overWriteLogLevel } from "src/common/log";
-import translate from "src/common/translate";
 import generateLangOptions from "src/common/generateLangOptions";
 import Header from "./Header";
 import InputArea from "./InputArea";
@@ -120,7 +119,12 @@ export default class PopupPage extends Component {
 
   translateText = async (text, targetLang) => {
     log.info(logDir, "translateText()", text, targetLang);
-    const result = await translate(text, "auto", targetLang);
+    const result = await browser.runtime.sendMessage({
+      message: 'translate',
+      text: text,
+      sourceLang: 'auto',
+      targetLang: targetLang,
+    });
     this.setState({
       resultText: result.resultText,
       candidateText: result.candidateText,

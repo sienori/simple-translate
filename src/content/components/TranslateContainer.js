@@ -1,13 +1,17 @@
 import React, { Component } from "react";
 import browser from "webextension-polyfill";
-import translate from "src/common/translate";
 import { getSettings } from "src/settings/settings";
 import TranslateButton from "./TranslateButton";
 import TranslatePanel from "./TranslatePanel";
 import "../styles/TranslateContainer.scss";
 
 const translateText = async (text, targetLang = getSettings("targetLang")) => {
-  const result = await translate(text, "auto", targetLang);
+  const result = await browser.runtime.sendMessage({
+    message: 'translate',
+    text: text,
+    sourceLang: 'auto',
+    targetLang: targetLang,
+  });
   return result;
 };
 

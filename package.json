@@ -32,7 +32,7 @@
     "mini-css-extract-plugin": "^2.2.2",
     "node-sass": "^9.0.0",
     "opener": "^1.5.1",
-    "sass-loader": "^12.1.0",
+    "sass-loader": "^14.2.1",
     "webextension-polyfill": "^0.3.1",
     "webpack": "^5.88.2",
     "webpack-bundle-analyzer": "^4.9.1",

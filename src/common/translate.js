@@ -1,6 +1,5 @@
 import browser from "webextension-polyfill";
 import log from "loglevel";
-import axios from "axios";
 import { getSettings } from "src/settings/settings";
 
 let translationHistory = [];
@@ -33,7 +32,7 @@ const sendRequestToGoogle = async (word, sourceLang, targetLang) => {
   const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=${sourceLang}&tl=${targetLang}&dt=t&dt=bd&dj=1&q=${encodeURIComponent(
     word
   )}`;
-  const result = await axios.get(url).catch(error => error.response);
+  const response = await fetch(url).catch(e => ({ status: 0, statusText: '' }));
 
   const resultData = {
     resultText: "",
@@ -44,22 +43,24 @@ const sendRequestToGoogle = async (word, sourceLang, targetLang) => {
     errorMessage: ""
   };
 
-  if (!result || result?.status !== 200) {
+  if (response.status !== 200) {
     resultData.isError = true;
 
-    if (!result || result.status === 0) resultData.errorMessage = browser.i18n.getMessage("networkError");
-    else if (result.status === 429 || result.status === 503) resultData.errorMessage = browser.i18n.getMessage("unavailableError");
-    else resultData.errorMessage = `${browser.i18n.getMessage("unknownError")} [${result?.status} ${result?.statusText}]`;
+    if (response.status === 0) resultData.errorMessage = browser.i18n.getMessage("networkError");
+    else if (response.status === 429 || response.status === 503) resultData.errorMessage = browser.i18n.getMessage("unavailableError");
+    else resultData.errorMessage = `${browser.i18n.getMessage("unknownError")} [${response.status} ${response.statusText}]`;
 
-    log.error(logDir, "sendRequest()", result);
+    log.error(logDir, "sendRequest()", response);
     return resultData;
   }
 
-  resultData.sourceLanguage = result.data.src;
-  resultData.percentage = result.data.ld_result.srclangs_confidences[0];
-  resultData.resultText = result.data.sentences.map(sentence => sentence.trans).join("");
-  if (result.data.dict) {
-    resultData.candidateText = result.data.dict
+  const result = await response.json();
+
+  resultData.sourceLanguage = result.src;
+  resultData.percentage = result.ld_result.srclangs_confidences[0];
+  resultData.resultText = result.sentences.map(sentence => sentence.trans).join("");
+  if (result.dict) {
+    resultData.candidateText = result.dict
       .map(dict => `${dict.pos}${dict.pos != "" ? ": " : ""}${dict.terms !== undefined?dict.terms.join(", "):""}\n`)
       .join("");
   }
@@ -77,7 +78,11 @@ const sendRequestToDeepL = async (word, sourceLang, targetLang) => {
   const url = getSettings("deeplPlan") === "deeplFree" ?
     "https://api-free.deepl.com/v2/translate" :
     "https://api.deepl.com/v2/translate";
-  const result = await axios.post(url, params).catch(e => e.response);
+
+  const response = await fetch(url, {
+    method: "POST",
+    body: params
+  }).catch(e => ({ status: 0, statusText: '' }));
 
   const resultData = {
     resultText: "",
@@ -88,19 +93,21 @@ const sendRequestToDeepL = async (word, sourceLang, targetLang) => {
     errorMessage: ""
   };
 
-  if (!result || result?.status !== 200) {
+  if (response.status !== 200) {
     resultData.isError = true;
 
-    if (!result || result.status === 0) resultData.errorMessage = browser.i18n.getMessage("networkError");
-    else if (result.status === 403) resultData.errorMessage = browser.i18n.getMessage("deeplAuthError");
-    else resultData.errorMessage = `${browser.i18n.getMessage("unknownError")} [${result?.status} ${result?.statusText}] ${result?.data.message}`;
+    if (response.status === 0) resultData.errorMessage = browser.i18n.getMessage("networkError");
+    else if (response.status === 403) resultData.errorMessage = browser.i18n.getMessage("deeplAuthError");
+    else resultData.errorMessage = `${browser.i18n.getMessage("unknownError")} [${response.status} ${response.statusText}]`;
 
-    log.error(logDir, "sendRequestToDeepL()", result);
+    log.error(logDir, "sendRequestToDeepL()", response);
     return resultData;
   }
 
-  resultData.resultText = result.data.translations[0].text;
-  resultData.sourceLanguage = result.data.translations[0].detected_source_language.toLowerCase();
+  const result = await response.json();
+
+  resultData.resultText = result.translations[0].text;
+  resultData.sourceLanguage = result.translations[0].detected_source_language.toLowerCase();
   resultData.percentage = 1;
 
   log.log(logDir, "sendRequestToDeepL()", resultData);

@@ -2,30 +2,16 @@ import browser from "webextension-polyfill";
 import log from "loglevel";
 import { getSettings } from "src/settings/settings";
 
-let translationHistory = [];
-
 const logDir = "common/translate";
 
-const getHistory = (sourceWord, sourceLang, targetLang, translationApi) => {
-  const history = translationHistory.find(
-    history =>
-      history.sourceWord == sourceWord &&
-      history.sourceLang == sourceLang &&
-      history.targetLang == targetLang &&
-      history.translationApi == translationApi &&
-      !history.result.isError
-  );
-  return history;
+const getHistory = async (sourceWord, sourceLang, targetLang, translationApi) => {
+  const result = await browser.storage.session.get(`${sourceLang}-${targetLang}-${translationApi}-${sourceWord}`);
+  return result[`${sourceLang}-${targetLang}-${translationApi}-${sourceWord}`] ?? false;
 };
 
-const setHistory = (sourceWord, sourceLang, targetLang, translationApi, result) => {
-  translationHistory.push({
-    sourceWord: sourceWord,
-    sourceLang: sourceLang,
-    targetLang: targetLang,
-    translationApi: translationApi,
-    result: result
-  });
+const setHistory = async (sourceWord, sourceLang, targetLang, translationApi, result) => {
+  if (result.isError) return;
+  await browser.storage.session.set({ [`${sourceLang}-${targetLang}-${translationApi}-${sourceWord}`]: result });
 };
 
 const sendRequestToGoogle = async (word, sourceLang, targetLang) => {
@@ -129,8 +115,8 @@ export default async (sourceWord, sourceLang = "auto", targetLang) => {
 
   const translationApi = getSettings("translationApi");
 
-  const history = getHistory(sourceWord, sourceLang, targetLang, translationApi);
-  if (history) return history.result;
+  const cachedResult = await getHistory(sourceWord, sourceLang, targetLang, translationApi);
+  if (cachedResult) return cachedResult;
 
   const result = translationApi === "google" ?
     await sendRequestToGoogle(sourceWord, sourceLang, targetLang) :

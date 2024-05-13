@@ -115,8 +115,8 @@ const sendRequestToDeepL = async (word, sourceLang, targetLang) => {
 };
 
 
-export default async (sourceWord, sourceLang = "auto", targetLang, translationApi) => {
-  log.log(logDir, "tranlate()", sourceWord, targetLang, translationApi);
+export default async (sourceWord, sourceLang = "auto", targetLang) => {
+  log.log(logDir, "tranlate()", sourceWord, targetLang);
   sourceWord = sourceWord.trim();
   if (sourceWord === "")
     return {
@@ -127,10 +127,12 @@ export default async (sourceWord, sourceLang = "auto", targetLang, translationAp
       statusText: "OK"
     };
 
-  const history = getHistory(sourceWord, sourceLang, targetLang);
+  const translationApi = getSettings("translationApi");
+
+  const history = getHistory(sourceWord, sourceLang, targetLang, translationApi);
   if (history) return history.result;
 
-  const result = getSettings("translationApi") === "google" ?
+  const result = translationApi === "google" ?
     await sendRequestToGoogle(sourceWord, sourceLang, targetLang) :
     await sendRequestToDeepL(sourceWord, sourceLang, targetLang);
   setHistory(sourceWord, sourceLang, targetLang, translationApi, result);

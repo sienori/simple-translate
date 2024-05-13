@@ -5,6 +5,7 @@ import { getSettings, setSettings } from "src/settings/settings";
 import getShortcut from "src/common/getShortcut";
 import manifest from "src/manifest-chrome.json";
 import openUrl from "../common/openUrl";
+import { initSettings } from "../settings/settings";
 
 const logDir = "background/keyboardShortcuts";
 
@@ -31,6 +32,7 @@ export const initShortcuts = async () => {
 
 export const onCommandListener = async command => {
   log.log(logDir, "onCommandListener()", command);
+  await initSettings();
   switch (command) {
     case "translateSelectedText": {
       translateSelectedText();

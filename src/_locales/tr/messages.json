@@ -3,19 +3,19 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Web sayfalarında seçtğiniz metni hızlıca çevirin. Google Translate ve DeepL API'yi destekler."
+    "message": "Web'de yazdığınız ya da seçtiğiniz kelimeleri anında çevirin. Bu eklenti Google Translate ve DeepL API alt yapısını kullanır."
   },
   "donateWithPaypalLabel": {
     "message": "PayPal ile bağış yapın"
   },
   "donateLabel": {
-    "message": "Bağış"
+    "message": "Bağış Yap"
   },
   "enableOnThisPage": {
-    "message": "Çeviriyi bu sayfada etkinleştirin"
+    "message": "Çeviriyi bu sayfada etkinleştir"
   },
   "disableOnThisPage": {
-    "message": "Çeviriyi bu sayfada devre dışı bırakın"
+    "message": "Çeviriyi bu sayfada devre dışı bırak"
   },
   "initialTextArea": {
     "message": "Metin girin"
@@ -60,19 +60,19 @@
     "message": "Google Translate API'si"
   },
   "googleApiCaptionLabel": {
-    "message": "Google Translate API'sini kullanın. Üyelik gerekli değildir."
+    "message": "Google Translate API'sini kullan. Üyelik gerekmez."
   },
   "deeplApiLabel": {
     "message": "DeepL API"
   },
   "deeplApiCaptionLabel": {
-    "message": "DeepL API'sini kullanın. Kimlik doğrulama anahtarı almak için DeepL API Free veya DeepL API Pro'ya kaydolmalısınız."
+    "message": "DeepL API anahtarı kullan. API anahtarını elde etmek ve kullanmak için DeepL üzerinden ücretsiz veya Pro hesabı açmalısınız."
   },
   "howToUseDeeplLabel": {
     "message": "DeepL API'ye nasıl üye olunur"
   },
   "deeplPlanLabel": {
-    "message": "DeepL API hizmet planı"
+    "message": "DeepL API üyelik planı"
   },
   "deeplPlanCaptionLabel": {
     "message": "Kaydolduğunuz DeepL API planını seçin."
@@ -84,16 +84,16 @@
     "message": "DeepL API Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Doğrulama anahtarı"
+    "message": "Api anahtarı"
   },
   "deeplAuthKeyCaptionLabel": {
-    "message": "DeepL API için kimlik doğrulama anahtarını girin."
+    "message": "DeepL API için Api anahtarını girin."
   },
   "targetLangCaptionLabel": {
-    "message": "Varsayılan hedef dilini seçin."
+    "message": "Çevirisi yapılacak birincil dili seçin."
   },
   "webPageLabel": {
-    "message": "İnternet sayfası"
+    "message": "Web sayfası"
   },
   "ifShowCandidateLabel": {
     "message": "Kelimenin diğer anlamlarını da göster"
@@ -114,7 +114,7 @@
     "message": "Çeviri butonunu göster"
   },
   "ifShowButtonCaptionLabel": {
-    "message": "Paneli göstermesi için tıklayabileceğim simgeyi görüntüle."
+    "message": "Paneli açmak için tıklanabilir çeviri butonunu göster."
   },
   "dontshowbuttonlabel": {
     "message": "Butonu veya paneli görüntüleme"
@@ -126,10 +126,10 @@
     "message": "Çeviri gerekli değilse butonu görüntülemeyin"
   },
   "ifCheckLangCaptionLabel": {
-    "message": "Seçilen metnin dilini algılar ve hedef dil ile aynıysa buton görüntülenmez."
+    "message": "Seçilen metnin dili hedef dil ile aynı ise çeviri butonu gösterilmez."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Seçili metnin dilini algılar ve varsayılan hedef dille aynıysa ikinci dile çevirir."
+    "message": "Seçili metnin dili birincil hedef dil ile aynı ise metni ikincil hedef diline çevir."
   },
   "disableTranslationLabel": {
     "message": "Çeviriyi devre dışı bırak"
@@ -168,46 +168,46 @@
     "message": "Command"
   },
   "disableUrlListLabel": {
-    "message": "Bu URL'lerde çeviriyi devre dışı bırak"
+    "message": "Çevirinin devre dışı bırakılacağı sayfa adresleri (URL'ler)"
   },
   "disableUrlListCaptionLabel": {
-    "message": "Sayfa URL'si listeyle eşleşiyorsa sayfadaki çeviri devre dışı bırakılır. Liste \"*\" joker karaktere izin verir."
+    "message": "Sayfa adresi listedeki adreslerle eşleşiyorsa çeviri devre dışı bırakılır. Listede \"*\" joker karakteri kullanabilirsiniz."
   },
   "toolbarLabel": {
-    "message": "Tarayıcı araç çubuğu penceresi"
+    "message": "Araç çubuğu açılır penceresi"
   },
   "ifChangeSecondLangLabel": {
-    "message": "İkinci dile otomatik geç"
+    "message": "İkincil hedef dile otomatik geç"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "Seçilen metnin dilini algılar ve varsayılan hedef dille aynıysa ikinci dile çevirir."
+    "message": "Girilen metnin dilini algılar ve birincil hedef dille aynıysa ikincil dile çevirir."
   },
   "secondTargetLangLabel": {
-    "message": "İkinci dil"
+    "message": "İkincil hedef dil"
   },
   "secondTargetLangCaptionLabel": {
-    "message": "İkinci hedef dilini seçin."
+    "message": "İkincil hedef dilini seçin."
   },
   "ignoredDocumentLangLabel": {
-    "message": "Lang özniteliğine göre çeviriyi devre dışı bırak"
+    "message": "Lang özelliğine göre çeviriyi devre dışı bırak"
   },
   "ignoredDocumentLangCaptionLabel": {
-    "message": "Sayfanın html öğesindeki lang özniteliği listeyle eşleşiyorsa çeviriyi devre dışı bırakın. Virgülle ayrılmış dil etiketleri girin."
+    "message": "Sayfanın html öğesindeki lang özelliği (data-lang) listedekilerlle eşleşiyorsa çeviriyi devre dışı bırakın. Virgülle ayrılmış dil etiketleri girin."
   },
   "waitTimeLabel": {
-    "message": "Çevirmek için bekleme süresi"
+    "message": "Çeviri işlemi süresi"
   },
   "waitTimeCaptionLabel": {
     "message": "Bir karakterin girişinden çevirinin başlangıcına kadar olan bekleme süresini belirtin. (milisaniye)"
   },
   "waitTime2CaptionLabel": {
-    "message": "Kısa sürede birçok kez çevirirseniz bir süreliğine sistem kullanım dışı kalabilir."
+    "message": "Kısa sürede çok fazla çeviri isteğinde bulunursanız eklenti çalışmayı durdurabilir."
   },
   "menuLabel": {
     "message": "İçerik menüsü"
   },
   "ifShowMenuLabel": {
-    "message": "İçerik menüsünde göster"
+    "message": "İçerik menüsünü göster"
   },
   "ifShowMenuCaptionLabel": {
     "message": "Sayfaya ya da sekmeye sağ tıklandığında içerik menüsüne ekle."
@@ -216,7 +216,7 @@
     "message": "Sayfa çevirisi"
   },
   "pageTranslationOpenToLabel": {
-    "message": "Çeviri sonuçlarını görüntülemek için sekme"
+    "message": "Çeviriyi görüntülemek için sekme aç"
   },
   "pageTranslationOpenToCaptionLabel": {
     "message": "Sayfa çeviri sonuçlarını görüntülemek için sekmeyi belirleyin."
@@ -249,7 +249,7 @@
     "message": "Çeviri butonu"
   },
   "buttonStyleCaptionLabel": {
-    "message": "Web sayfasında görüntülenen çeviri butonunun stilini belirleyin."
+    "message": "Web sayfasında görüntülenen çeviri butonunun görünümünü belirleyin."
   },
   "buttonSizeLabel": {
     "message": "Boyut"
@@ -288,7 +288,7 @@
     "message": "Çeviri paneli"
   },
   "panelStyleCaptionLabel": {
-    "message": "Web sayfasında görüntülenen çeviri panelinin stilini belirleyin."
+    "message": "Web sayfasında görüntülenen çeviri panelinin görünümünü belirleyin."
   },
   "widthLabel": {
     "message": "Genişlik"
@@ -318,13 +318,13 @@
     "message": "Paneldeki çevrilmiş metnin yazı tipi rengi"
   },
   "isOverrideColorsLabel": {
-    "message": "Varsayılan renkleri alttaki renklerle geçersiz kıl"
+    "message": "Varsayılan renkleri alttaki renklerle değiştir"
   },
   "candidateFontColorLabel": {
-    "message": "Kelimeye ait diğer anlamların yazı tipi rengi"
+    "message": "Çevirilen metin için ortaya çıkan eş anlamlı metinlerin rengi"
   },
   "bgColorLabel": {
-    "message": "Çeviri panelinin arka plan rengi"
+    "message": "Çevirilen metnin arka plan rengi"
   },
   "otherLabel": {
     "message": "Diğer"
@@ -333,37 +333,37 @@
     "message": "Güncelleme sırasında ayarlar sayfasını görüntüler"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Simple Translate güncellendiğinde ayarlar sayfasını görüntüleyerek değişiklikleri hızlı bir şekilde öğrenebilirsiniz."
+    "message": "Eklenti güncellendiğinde ayarlar sayfasını görüntüle. Böylece yapılan değişikliklerin detaylarını hızlıca öğrenebilirsin."
   },
   "isDebugModeLabel": {
     "message": "Hata ayıklama modunu etkinleştir"
   },
   "isDebugModeCaptionLabel": {
-    "message": "Hata ayıklama modu etkinleştirildiğinde günlük hata ayıklayıcıya gönderilir."
+    "message": "Hata ayıklama modu etkinleştirildiğinde hata kayıtları tarayıcı konsoluna gönderilir."
   },
   "exportSettingsLabel": {
-    "message": "Ayarları dışa aktar"
+    "message": "Ayarları dışa çıkar"
   },
   "exportSettingsCaptionLabel": {
     "message": "Ayarları json dosyası olarak kaydedin."
   },
   "exportButtonLabel": {
-    "message": "Dışa aktar"
+    "message": "Dışa çıkar"
   },
   "importSettingsLabel": {
-    "message": "Ayarları içe aktar"
+    "message": "Ayarları içe ekle"
   },
   "importSettingsCaptionLabel": {
-    "message": "Bilgisayara indirilen ayarlar dosyasını yükleyin."
+    "message": "Bilgisayara kayıtlı ayarlar dosyasını yükle."
   },
   "importButtonLabel": {
-    "message": "İçe aktar"
+    "message": "İçe ekle"
   },
   "resetSettingsLabel": {
-    "message": "Ayarları sıfırla"
+    "message": "Ayarları varsayılan ayarlara döndür"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Tüm ayarları varsayılana sıfırla."
+    "message": "Tüm ayarları varsayılan ayarlara döndür."
   },
   "resetSettingsButtonLabel": {
     "message": "Sıfırla"
@@ -384,16 +384,16 @@
     "message": "Bir harf yazın"
   },
   "includeModifierKeysMessage": {
-    "message": "Ctrl veya Alt’ı dahil et"
+    "message": "Ctrl veya Alt klavye tuşlarını dahil et"
   },
   "includeMacModifierKeysMessage": {
-    "message": "Command tuşunu, Ctrl veya Alt'ı dahil edin"
+    "message": "Command, Ctrl veya Alt klavye tuşlarından birini dahil edin"
   },
   "invalidLetterMessage": {
-    "message": "Harf kullanılamaz"
+    "message": "Bu harf kullanılamaz"
   },
   "invalidShortcutMessage": {
-    "message": "Kısayol kullanılamaz"
+    "message": "Bu kısayol kullanılamaz"
   },
   "clear": {
     "message": "Temizle"
@@ -403,6 +403,15 @@
   },
   "informationLabel": {
     "message": "Bilgi"
+  },
+  "additionalPermissionLabel": {
+    "message": "Enable translation on web pages"
+  },
+  "additionalPermissionCaptionLabel": {
+    "message": "Additional permissions are required to use Simple Translate on web pages."
+  },
+  "enableLabel": {
+    "message": "Enable"
   },
   "backersLabel": {
     "message": "Destekleyenler"
@@ -414,10 +423,10 @@
     "message": "Lütfen bağış yapın"
   },
   "donationCaptionLabel": {
-    "message": "Simple Translate'i kullandığınız için teşekkür ederiz.<br>Desteğiniz eklentiyi geliştirmeye devam etmemiz için büyük bir teşvik olacaktır.<br>Simpe Translate'i beğendiyseniz bağış yaparak bizi mutlu edebilirsiniz."
+    "message": "Simple Translate'i kullandığınız için teşekkür ederiz.<br>Desteğiniz eklentiyi geliştirmeye devam etmem için büyük bir teşvik olacaktır.<br>Simpe Translate'i beğendiyseniz, bağışta bulunmanız beni çok sevindirecektir."
   },
   "amazonTitleLabel": {
-    "message": "amazon.co.jp eGift Cards"
+    "message": "amazon.co.jp eGift Hediye Kartı"
   },
   "sponsorsLabel": {
     "message": "Sponsorlar"
@@ -438,13 +447,13 @@
     "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
-    "message": "Hata: Ağ bağlantısı durumunu kontrol edin."
+    "message": "Hata: İnternet bağlantınızı kontrol edin."
   },
   "unavailableError": {
-    "message": "Hata: Servis kullanım limitine ulaşıldı. Lütfen biraz bekleyin ve tekrar deneyin."
+    "message": "Hata: Servisin kullanım limitine ulaştınız. Lütfen biraz bekleyin sonra tekrar deneyin."
   },
   "deeplAuthError": {
-    "message": "Hata: DeepL API'nin kimlik doğrulaması başarısız oldu. Lütfen kimlik doğrulama anahtarını ayarlar altında doğru şekilde ayarlayıp planlayın."
+    "message": "Hata: DeepL API'nin kimlik doğrulaması başarısız oldu. Ayarlar sayfasından API'nin üyelik planı ve doğrulama anahtarının doğru girildiğinden emin olun."
   },
   "unknownError": {
     "message": "Hata: Bilinmeyen hata"
@@ -462,7 +471,7 @@
     "message": "Tarayıcı araç çubuğu penceresini aç"
   },
   "lang_af": {
-    "message": "Afrikaanca"
+    "message": "Afrika Dili"
   },
   "lang_sq": {
     "message": "Arnavutça"
@@ -669,7 +678,7 @@
     "message": "Norveççe"
   },
   "lang_nb": {
-    "message": "Norwegian (bokmål)"
+    "message": "Norveçce"
   },
   "lang_or": {
     "message": "Oriya Dili"

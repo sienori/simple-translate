@@ -404,6 +404,15 @@
   "informationLabel": {
     "message": "Informacje"
   },
+  "additionalPermissionLabel": {
+    "message": "Włącz tłumaczenie na stronach internetowych"
+  },
+  "additionalPermissionCaptionLabel": {
+    "message": "Dodatkowe uprawnienia są wymagane do używania prostego tłumaczenia na stronach internetowych."
+  },
+  "enableLabel": {
+    "message": "Włącz"
+  },
   "backersLabel": {
     "message": "Wspierający"
   },
@@ -669,7 +678,7 @@
     "message": "Norweski"
   },
   "lang_nb": {
-    "message": "Norwegian (bokmål)"
+    "message": "Norweski (Bokmål)"
   },
   "lang_or": {
     "message": "Odia (Orija)"

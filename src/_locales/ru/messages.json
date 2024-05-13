@@ -404,6 +404,15 @@
   "informationLabel": {
     "message": "Информация"
   },
+  "additionalPermissionLabel": {
+    "message": "Включить перевод на веб-страницах"
+  },
+  "additionalPermissionCaptionLabel": {
+    "message": "Для использования Simple Translate на веб-страницах требуются дополнительные разрешения."
+  },
+  "enableLabel": {
+    "message": "Включить"
+  },
   "backersLabel": {
     "message": "При поддержке"
   },

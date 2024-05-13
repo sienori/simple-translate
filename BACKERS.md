@@ -75,3 +75,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - Eyüp deniz Taşdelen
 - Ocean
 - Archer36
+- Brad Tippett

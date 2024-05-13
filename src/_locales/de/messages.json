@@ -404,6 +404,15 @@
   "informationLabel": {
     "message": "Information"
   },
+  "additionalPermissionLabel": {
+    "message": "Übersetzung auf Webseiten aktivieren"
+  },
+  "additionalPermissionCaptionLabel": {
+    "message": "Zusätzliche Berechtigungen werden benötigt, um Simple Translate auf Webseiten zu verwenden."
+  },
+  "enableLabel": {
+    "message": "Aktivieren"
+  },
   "backersLabel": {
     "message": "Unterstützer"
   },
@@ -669,7 +678,7 @@
     "message": "Norwegisch"
   },
   "lang_nb": {
-    "message": "Norwegian (bokmål)"
+    "message": "Norwegisch (bokmål)"
   },
   "lang_or": {
     "message": "Odia (Oriya)"

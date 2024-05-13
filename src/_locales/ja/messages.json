@@ -404,6 +404,15 @@
   "informationLabel": {
     "message": "情報"
   },
+  "additionalPermissionLabel": {
+    "message": "Webページ上での翻訳を有効化"
+  },
+  "additionalPermissionCaptionLabel": {
+    "message": "Webページ上でSimple Translateを利用するには、追加の許可が必要です。"
+  },
+  "enableLabel": {
+    "message": "有効化"
+  },
   "backersLabel": {
     "message": "支援者"
   },

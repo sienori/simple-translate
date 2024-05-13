@@ -404,6 +404,15 @@
   "informationLabel": {
     "message": "附加元件資訊"
   },
+  "additionalPermissionLabel": {
+    "message": "啟用在網頁上翻譯"
+  },
+  "additionalPermissionCaptionLabel": {
+    "message": "在網頁上使用 Simple Translate 需要額外權限。"
+  },
+  "enableLabel": {
+    "message": "啟用"
+  },
   "backersLabel": {
     "message": "贊助者清單"
   },
@@ -669,7 +678,7 @@
     "message": "挪威文"
   },
   "lang_nb": {
-    "message": "Norwegian (bokmål)"
+    "message": "書面挪威語"
   },
   "lang_or": {
     "message": "奧里亞文"

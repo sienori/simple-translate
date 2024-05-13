@@ -404,6 +404,15 @@
   "informationLabel": {
     "message": "معلومات"
   },
+  "additionalPermissionLabel": {
+    "message": "تمكين الترجمة على صفحات الويب"
+  },
+  "additionalPermissionCaptionLabel": {
+    "message": "مطلوب أذونات إضافية لاستخدام ترجمة البسيطة على صفحات الويب."
+  },
+  "enableLabel": {
+    "message": "تفعيل"
+  },
   "backersLabel": {
     "message": "الداعمون"
   },
@@ -669,7 +678,7 @@
     "message": "النرويجية"
   },
   "lang_nb": {
-    "message": "Norwegian (bokmål)"
+    "message": "النرويجية (bokmål)"
   },
   "lang_or": {
     "message": "Odia (Oriya)"

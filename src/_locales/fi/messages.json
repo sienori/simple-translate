@@ -404,6 +404,15 @@
   "informationLabel": {
     "message": "Tiedot"
   },
+  "additionalPermissionLabel": {
+    "message": "Enable translation on web pages"
+  },
+  "additionalPermissionCaptionLabel": {
+    "message": "Additional permissions are required to use Simple Translate on web pages."
+  },
+  "enableLabel": {
+    "message": "Enable"
+  },
   "backersLabel": {
     "message": "Tukijat"
   },

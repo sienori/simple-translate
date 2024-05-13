@@ -404,6 +404,15 @@
   "informationLabel": {
     "message": "Informasi"
   },
+  "additionalPermissionLabel": {
+    "message": "Aktifkan penerjemahan pada laman web"
+  },
+  "additionalPermissionCaptionLabel": {
+    "message": "Izin tambahan diperlukan untuk menggunakan Simple Translate pada laman web."
+  },
+  "enableLabel": {
+    "message": "Aktifkan"
+  },
   "backersLabel": {
     "message": "Penyokong"
   },

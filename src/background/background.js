@@ -12,8 +12,8 @@ const logDir = "background/background";
 browser.runtime.onInstalled.addListener(onInstalledListener);
 browser.commands.onCommand.addListener(onCommandListener);
 browser.runtime.onMessage.addListener(onMessageListener);
-browser.storage.onChanged.addListener((changes, areaName) => {
-  handleSettingsChange(changes, areaName);
+browser.storage.local.onChanged.addListener((changes) => {
+  handleSettingsChange(changes);
   updateLogLevel();
   showMenus();
 });

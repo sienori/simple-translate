@@ -11,7 +11,7 @@ const setupTheme = async () => {
   await initSettings();
   document.body.classList.add(getSettings("theme") + "-theme");
 
-  browser.storage.onChanged.addListener((changes) => {
+  browser.storage.local.onChanged.addListener((changes) => {
     if (changes.Settings.newValue.theme === changes.Settings.oldValue.theme)
       return;
 

@@ -10,7 +10,7 @@ const init = async () => {
   document.addEventListener("mouseup", handleMouseUp);
   document.addEventListener("keydown", handleKeyDown);
   document.addEventListener("visibilitychange", handleVisibilityChange);
-  browser.storage.onChanged.addListener(handleSettingsChange);
+  browser.storage.local.onChanged.addListener(handleSettingsChange);
   browser.runtime.onMessage.addListener(handleMessage);
   overWriteLogLevel();
   updateLogLevel();
@@ -135,9 +135,9 @@ const handleKeyDown = e => {
 
 const handleVisibilityChange = () => {
   if (document.visibilityState === "hidden") {
-    browser.storage.onChanged.removeListener(handleSettingsChange);
+    browser.storage.local.onChanged.removeListener(handleSettingsChange);
   } else {
-    browser.storage.onChanged.addListener(handleSettingsChange);
+    browser.storage.local.onChanged.addListener(handleSettingsChange);
   }
 };
 

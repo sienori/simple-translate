@@ -28,14 +28,27 @@ const updateLangsWhenChangeTranslationApi = () => {
   const secondTargetLang = getSettings("secondTargetLang");;
   const currentLangs = generateLangOptions(translationApi).map(option => option.value);
 
+  const zhCN = {
+    "google": "zh-CN",
+    "deepl": "zh",
+    "libre": "zh"
+  }
+
+  const zhTW = {
+    "google": "zh-TW",
+    "deepl": "zh",
+    "libre": "zt"
+  }
+
   const mappingLang = lang => {
     switch (lang) {
       case "en": return "en-US";
       case "en-US":
       case "en-GB": return "en";
-      case "zh": return "zh-CN";
-      case "zh-CN":
-      case "zh-TW": return "zh";
+      case "zh":
+      case "zh-CN": return zhCN[translationApi];
+      case "zt":
+      case "zh-TW": return zhTW[translationApi];
       case "pt": return "pt-PT";
       case "pt-PT":
       case "pt-BR": return "pt";
@@ -89,6 +102,14 @@ export default [
             handleChange: () => updateLangsWhenChangeTranslationApi()
           },
           {
+            id: "translationApi",
+            title: "libreApiLabel",
+            captions: ["libreApiCaptionLabel"],
+            type: "radio",
+            value: "libre",
+            handleChange: () => updateLangsWhenChangeTranslationApi()
+          },
+          {
             id: "deeplPlan",
             title: "deeplPlanLabel",
             captions: ["deeplPlanCaptionLabel"],
@@ -115,6 +136,25 @@ export default [
             default: "",
             placeholder: "00000000-0000-0000-0000-00000000000000:fx",
             shouldShow: () => (getSettings("translationApi") === "deepl"),
+          },
+          {
+            id: "libreUrl",
+            title: "libreUrlLabel",
+            captions: ["libreUrlCaptionLabel"],
+            type: "text",
+            default: "",
+            placeholder: "https://libretranslate.com",
+            shouldShow: () => (getSettings("translationApi") === "libre"),
+            hr: true,
+          },
+          {
+            id: "libreAuthKey",
+            title: "libreAuthKeyLabel",
+            captions: ["libreAuthKeyCaptionLabel"],
+            type: "text",
+            default: "",
+            placeholder: "00000000-0000-0000-0000-00000000000000:fx",
+            shouldShow: () => (getSettings("translationApi") === "libre"),
           }
         ]
       },

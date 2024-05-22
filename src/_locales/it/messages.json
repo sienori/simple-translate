@@ -204,13 +204,13 @@
     "message": "Se lo traduci molte volte in poco tempo, potrebbe divenire inutilizzabile per un po'."
   },
   "menuLabel": {
-    "message": "Menu del contesto"
+    "message": "Menù contestuale"
   },
   "ifShowMenuLabel": {
-    "message": "Mostra il menu del contesto"
+    "message": "Mostra il menù contestuale"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Aggiungi voci al menu di contesto mostrato cliccando con il destro sulla pagina web o la scheda."
+    "message": "Aggiungi voci al menù contestuale mostrato col click destro sulla pagina web o la scheda."
   },
   "pageTranslationLabel": {
     "message": "Traduzione della pagina"
@@ -405,13 +405,13 @@
     "message": "Informazioni"
   },
   "additionalPermissionLabel": {
-    "message": "Enable translation on web pages"
+    "message": "Abilita traduzione sulle pagine web"
   },
   "additionalPermissionCaptionLabel": {
-    "message": "Additional permissions are required to use Simple Translate on web pages."
+    "message": "Sono necessari ulteriori permessi per utilizzare Simple Translate sulle pagine web."
   },
   "enableLabel": {
-    "message": "Enable"
+    "message": "Abilita"
   },
   "backersLabel": {
     "message": "Sostenitori"

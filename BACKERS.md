@@ -76,3 +76,7 @@ Thank you to the awesome backers who supported Simple Translate!
 - Ocean
 - Archer36
 - Brad Tippett
+- jd hawkins
+- Sándor Bolega
+- ekohh
+- Mal Den

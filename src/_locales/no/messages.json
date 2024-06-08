@@ -21,13 +21,13 @@
     "message": "Skriv inn tekst"
   },
   "showLink": {
-    "message": "Omset denne sida"
+    "message": "Oversett denne siden"
   },
   "openInGoogleLabel": {
-    "message": "Opna i Google Omsetjar"
+    "message": "Åpne i Google Translate"
   },
   "openInDeeplLabel": {
-    "message": "Opna i DeepL Omsetjar"
+    "message": "Åpne i DeepL oversetter"
   },
   "copyLabel": {
     "message": "Kopier"
@@ -45,10 +45,10 @@
     "message": "Alle språk"
   },
   "recentLangLabel": {
-    "message": "Nylege språk"
+    "message": "Nylige språk"
   },
   "settingsLabel": {
-    "message": "Innstillingar"
+    "message": "Innstillinger"
   },
   "generalLabel": {
     "message": "Generelt"
@@ -405,13 +405,13 @@
     "message": "Om"
   },
   "additionalPermissionLabel": {
-    "message": "Enable translation on web pages"
+    "message": "Aktiver oversettelse på nettsider"
   },
   "additionalPermissionCaptionLabel": {
-    "message": "Additional permissions are required to use Simple Translate on web pages."
+    "message": "Ytterligere tillatelser kreves for å bruke Simple Translate på nettsider."
   },
   "enableLabel": {
-    "message": "Enable"
+    "message": "Aktiver"
   },
   "backersLabel": {
     "message": "Støttespelarar"
@@ -459,7 +459,7 @@
     "message": "Feil: Ukjend feil"
   },
   "translatePageMenu": {
-    "message": "Omset denne sida"
+    "message": "Oversett denne siden"
   },
   "translateTextMenu": {
     "message": "Omset merka tekst"

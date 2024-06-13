@@ -32,8 +32,8 @@ const handleMouseUp = async e => {
   if (inCodeElement && getSettings("isDisabledInCodeElement")) return;
 
   const isInThisElement =
-    document.querySelector("#simple-translate") &&
-    document.querySelector("#simple-translate").contains(e.target);
+    document.querySelector("#simple-translate-container") &&
+    document.querySelector("#simple-translate-container").contains(e.target);
   if (isInThisElement) return;
 
   removeTranslatecontainer();
@@ -203,7 +203,7 @@ const disableExtensionByUrlList = () => {
 };
 
 const removeTranslatecontainer = async () => {
-  const element = document.getElementById("simple-translate");
+  const element = document.getElementById("simple-translate-container");
   if (!element) return;
 
   ReactDOM.unmountComponentAtNode(element);
@@ -216,13 +216,13 @@ const showTranslateContainer = (
   clickedPosition = null,
   shouldTranslate = false
 ) => {
-  const element = document.getElementById("simple-translate");
+  const element = document.getElementById("simple-translate-container");
   if (element) return;
   if (!isEnabled) return;
 
   const themeClass = "simple-translate-" + getSettings("theme") + "-theme";
 
-  document.body.insertAdjacentHTML("beforeend", `<div id="simple-translate" class="${themeClass}"></div>`);
+  document.body.insertAdjacentHTML("beforeend", `<div id="simple-translate-container" class="${themeClass}"></div>`);
   ReactDOM.render(
     <TranslateContainer
       removeContainer={removeTranslatecontainer}
@@ -231,6 +231,6 @@ const showTranslateContainer = (
       clickedPosition={clickedPosition}
       shouldTranslate={shouldTranslate}
     />,
-    document.getElementById("simple-translate")
+    document.getElementById("simple-translate-container")
   );
 };

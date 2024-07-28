@@ -156,7 +156,7 @@
     "message": "Modifikator-Taste"
   },
   "shiftLabel": {
-    "message": "Umschalttaste"
+    "message": "Umschalt"
   },
   "ctrlLabel": {
     "message": "Strg"
@@ -216,10 +216,10 @@
     "message": "Seitenübersetzung"
   },
   "pageTranslationOpenToLabel": {
-    "message": "Drücke die Tab-Taste, um die Übersetzungsergebnisse anzuzeigen"
+    "message": "Drücken Sie die Tab-Taste, um die Übersetzungsergebnisse anzuzeigen"
   },
   "pageTranslationOpenToCaptionLabel": {
-    "message": "Bitte gib an, welcher Tab die Ergebnisse der Seitenübersetzung anzeigen soll."
+    "message": "Bitte geben Sie an, welcher Tab die Ergebnisse der Seitenübersetzung anzeigen soll."
   },
   "newTabLabel": {
     "message": "Neuer Tab"
@@ -318,7 +318,7 @@
     "message": "Schriftfarbe des Übersetzungsergebnisses"
   },
   "isOverrideColorsLabel": {
-    "message": "Überschreibe Standardfarben mit den untenstehenden Farben"
+    "message": "Standardfarben mit den untenstehenden Farben überschreiben"
   },
   "candidateFontColorLabel": {
     "message": "Schriftfarbe der Übersetzungskandidaten"

@@ -23,6 +23,12 @@
     transition: border-color 100ms ease-out;
   }
 
+  .src_transliteration {
+    color: var(--sub-text);
+    padding: 0px 5px;
+    // margin-top: 1em;
+  }
+
   textarea:hover,
   textarea:focus {
     border-color: var(--highlight);

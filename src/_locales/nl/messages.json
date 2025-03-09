@@ -174,22 +174,22 @@
     "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
   },
   "toolbarLabel": {
-    "message": "Toolbar popup"
+    "message": "Werkbalk popup"
   },
   "ifChangeSecondLangLabel": {
-    "message": "Automatically switch to the second language"
+    "message": "Automatisch overschakelen naar de tweede taal"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+    "message": "De taal van de tekst vaststellen, en als dit hetzelfde is als de standaard-doeltaal, vertaal het in de tweede taal."
   },
   "secondTargetLangLabel": {
     "message": "Tweede taal"
   },
   "secondTargetLangCaptionLabel": {
-    "message": "Select the second target language."
+    "message": "Selecteer de tweede doeltaal."
   },
   "ignoredDocumentLangLabel": {
-    "message": "Disable translation by lang attribute"
+    "message": "Vertaling door lang attribuut uitschakelen"
   },
   "ignoredDocumentLangCaptionLabel": {
     "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."

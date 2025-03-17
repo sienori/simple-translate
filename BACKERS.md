@@ -80,3 +80,8 @@ Thank you to the awesome backers who supported Simple Translate!
 - Sándor Bolega
 - ekohh
 - Mal Den
+- Tony Pujals
+- Nicola
+- Mark K. Meshach
+- empty_child
+- Valerie Zee

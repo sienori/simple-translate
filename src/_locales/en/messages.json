@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
+    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate, DeepL API, and OpenAI ChatGPT."
   },
   "donateWithPaypalLabel": {
     "message": "Donate with PayPal"
@@ -814,5 +814,44 @@
   },
   "lang_zh": {
     "message": "Chinese"
+  },
+  "openaiApiLabel": {
+    "message": "OpenAI ChatGPT API"
+  },
+  "openaiApiCaptionLabel": {
+    "message": "Use OpenAI ChatGPT API for translation. You must register with OpenAI to obtain an API key."
+  },
+  "howToUseOpenaiLabel": {
+    "message": "How to get OpenAI API key"
+  },
+  "openaiApiKeyLabel": {
+    "message": "API key"
+  },
+  "openaiApiKeyCaptionLabel": {
+    "message": "Enter your OpenAI API key."
+  },
+  "openaiModelLabel": {
+    "message": "OpenAI Model"
+  },
+  "openaiModelCaptionLabel": {
+    "message": "Select the OpenAI model to use for translation."
+  },
+  "gpt35TurboLabel": {
+    "message": "GPT-3.5 Turbo (Faster, cheaper)"
+  },
+  "gpt4Label": {
+    "message": "GPT-4 (More accurate, more expensive)"
+  },
+  "gpt4TurboLabel": {
+    "message": "GPT-4 Turbo (Faster than GPT-4)"
+  },
+  "gpt4oLabel": {
+    "message": "GPT-4o (Latest multimodal model)"
+  },
+  "gpt4oMiniLabel": {
+    "message": "GPT-4o-mini (Faster and cheaper than GPT-4o)"
+  },
+  "openaiAuthError": {
+    "message": "Error: Authentication of OpenAI API failed. Please check your API key on the settings page."
   }
 }

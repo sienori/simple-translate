@@ -1,6 +1,6 @@
 {
   "name": "simple-translate",
-  "version": "0.0.0",
+  "version": "3.0.1",
   "dependencies": {
     "browser-info": "^1.2.0",
     "loglevel": "^1.6.1",
@@ -29,8 +29,8 @@
     "css-loader": "^5.2.4",
     "html-webpack-plugin": "^5.5.3",
     "mini-css-extract-plugin": "^2.2.2",
-    "node-sass": "^9.0.0",
     "opener": "^1.5.1",
+    "sass": "^1.85.1",
     "sass-loader": "^14.2.1",
     "webextension-polyfill": "^0.3.1",
     "webpack": "^5.88.2",
@@ -42,6 +42,8 @@
   "scripts": {
     "watch-dev": "webpack --config webpack.config.dev.js --watch",
     "build": "webpack --config webpack.config.dist.js",
+    "build-chrome": "webpack --config webpack.config.dist.js --env browser=chrome",
+    "build-firefox": "webpack --config webpack.config.dist.js --env browser=firefox",
     "open-analyzer": "opener http://127.0.0.1:8888/"
   },
   "repository": {

@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import browser from "webextension-polyfill";
 import ListenButton from "./ListenButton";
 import "../styles/InputArea.scss";
+import splitLine from "../../common/splitLine";
 
 export default class InputArea extends Component {
   resizeTextArea = () => {
@@ -19,6 +20,7 @@ export default class InputArea extends Component {
   shouldComponentUpdate(nextProps) {
     const shouldUpdate =
       this.props.inputText !== nextProps.inputText ||
+      this.props.src_transliteration !== nextProps.src_transliteration ||
       this.props.sourceLang !== nextProps.sourceLang;
     return shouldUpdate;
   }
@@ -28,7 +30,7 @@ export default class InputArea extends Component {
   };
 
   render() {
-    const { inputText, sourceLang } = this.props;
+    const { inputText, src_transliteration, sourceLang } = this.props;
     return (
       <div id="inputArea">
         <textarea
@@ -40,7 +42,8 @@ export default class InputArea extends Component {
           spellCheck={false}
           dir="auto"
         />
-        <div className="listen">
+      <p className="src_transliteration" dir="auto">{splitLine(src_transliteration)}</p>
+      <div className="listen">
           {sourceLang && <ListenButton text={inputText} lang={sourceLang} />}
         </div>
       </div>

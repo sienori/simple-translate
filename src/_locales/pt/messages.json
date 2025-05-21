@@ -207,25 +207,25 @@
     "message": "Menu contextual"
   },
   "ifShowMenuLabel": {
-    "message": "Exibir menu contextual"
+    "message": "Exibir menu contexto"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Adiciona itens ao menu contextual exibido ao clicar o botão direito na página ou aba."
+    "message": "Adiciona itens ao menu contexto exibido ao clicar o botão direito na página ou separador."
   },
   "pageTranslationLabel": {
     "message": "Tradução da página"
   },
   "pageTranslationOpenToLabel": {
-    "message": "Aba para mostrar os resultados da tradução"
+    "message": "Separador para mostrar os resultados da tradução"
   },
   "pageTranslationOpenToCaptionLabel": {
-    "message": "Especifica a aba em que se exibem os resultados da tradução da página"
+    "message": "Especifica o separador em que se exibem os resultados da tradução da página."
   },
   "newTabLabel": {
-    "message": "Nova Aba"
+    "message": "Novo Separador"
   },
   "currentTabLabel": {
-    "message": "Aba atual"
+    "message": "Separador atual"
   },
   "styleLabel": {
     "message": "Estilo"
@@ -354,7 +354,7 @@
     "message": "Importar configurações"
   },
   "importSettingsCaptionLabel": {
-    "message": "Carregue o arquivo de configurações salvo no computador."
+    "message": "Carregue o ficheiro de configurações guardado no computador."
   },
   "importButtonLabel": {
     "message": "Importar"
@@ -363,7 +363,7 @@
     "message": "Redefinir configurações"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Restaura todas as configurações ao padrão."
+    "message": "Restaura todas as configurações para o padrão."
   },
   "resetSettingsButtonLabel": {
     "message": "Redefinir"

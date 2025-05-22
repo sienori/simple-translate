@@ -210,7 +210,7 @@
     "message": "Exibir menu de contexto"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Adiciona itens ao menu de contexto exibido ao clicar o botão direito na página ou separador."
+    "message": "Adiciona itens ao menu de contexto exibido ao clicar com o botão direito na página ou separador."
   },
   "pageTranslationLabel": {
     "message": "Tradução da página"
@@ -222,7 +222,7 @@
     "message": "Especifica o separador em que se exibem os resultados da tradução da página."
   },
   "newTabLabel": {
-    "message": "Novo Separador"
+    "message": "Separador novo"
   },
   "currentTabLabel": {
     "message": "Separador atual"
@@ -318,7 +318,7 @@
     "message": "Cor do texto traduzido"
   },
   "isOverrideColorsLabel": {
-    "message": "Substituir as cores padrões com as cores abaixo"
+    "message": "Substituir as cores padrões pelas cores abaixo"
   },
   "candidateFontColorLabel": {
     "message": "Cor do texto candidato à tradução"

@@ -27,6 +27,10 @@ export default class InputArea extends Component {
     this.resizeTextArea();
   };
 
+  componentDidMount = () => {
+    document.body.onfocus = () => this.refs.textarea.focus();
+  };
+
   render() {
     const { inputText, sourceLang } = this.props;
     return (

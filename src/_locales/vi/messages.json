@@ -467,6 +467,9 @@
   "translateLinkMenu": {
     "message": "Dịch liên kết đã chọn"
   },
+  "translateImageMenu": {
+    "message": "Translate selected image"
+  },
   "openPopupDescription": {
     "message": "Mở thanh công cụ bật lên"
   },

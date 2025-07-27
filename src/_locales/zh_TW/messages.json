@@ -467,6 +467,9 @@
   "translateLinkMenu": {
     "message": "翻譯選取鏈結"
   },
+  "translateImageMenu": {
+    "message": "Translate selected image"
+  },
   "openPopupDescription": {
     "message": "開啟工具列彈出式視窗"
   },

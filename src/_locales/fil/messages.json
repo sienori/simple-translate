@@ -467,6 +467,9 @@
   "translateLinkMenu": {
     "message": "Isalin ang piniling link"
   },
+  "translateImageMenu": {
+    "message": "Translate selected image"
+  },
   "openPopupDescription": {
     "message": "Open toolbar popup"
   },

@@ -467,6 +467,9 @@
   "translateLinkMenu": {
     "message": "Översätt markerad länk"
   },
+  "translateImageMenu": {
+    "message": "Translate selected image"
+  },
   "openPopupDescription": {
     "message": "Öppna verktygsfältspopup"
   },

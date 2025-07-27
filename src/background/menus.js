@@ -14,7 +14,11 @@ export const showMenus = () => {
 
 export const onMenusShownListener = (info, tab) => {
   //テキストまたはリンクの選択時はページ翻訳を非表示にする
-  if (info.contexts.includes("selection") || info.contexts.includes("link")) {
+  if (
+    info.contexts.includes("selection") ||
+    info.contexts.includes("link") ||
+    info.contexts.includes("image")
+  ) {
     browser.contextMenus.update("translatePage", { visible: false });
   } else {
     browser.contextMenus.update("translatePage", { visible: true });
@@ -34,6 +38,9 @@ export const onMenusClickedListener = (info, tab) => {
       break;
     case "translateLink":
       translateLink(info, tab);
+      break;
+    case "translateImage":
+      translateImage(info, tab);
       break;
   }
 };
@@ -65,6 +72,12 @@ function createMenus() {
     id: "translateLink",
     title: browser.i18n.getMessage("translateLinkMenu"),
     contexts: ["link"]
+  });
+
+  browser.contextMenus.create({
+    id: "translateImage",
+    title: browser.i18n.getMessage("translateImageMenu"),
+    contexts: ["image"]
   });
 }
 
@@ -107,4 +120,34 @@ function translateLink(info, tab) {
     active: true,
     index: tab.index + 1
   });
+}
+
+function translateImage(info, tab) {
+  const targetLang = getSettings("targetLang");
+  const translationUrl = `https://translate.google.com/?hl=${targetLang}&tl=${targetLang}&sl=auto&op=images`;
+
+  const canvas = document.createElement("canvas");
+  const img = new Image();
+
+  img.crossOrigin = "anonymous";
+
+  img.onload = () => {
+    canvas.width = img.naturalWidth;
+    canvas.height = img.naturalHeight;
+    canvas.getContext("2d").drawImage(img, 0, 0);
+
+    canvas.toBlob(async (blob) => {
+        await navigator.clipboard.write([
+          new ClipboardItem({ "image/png": blob })
+        ]);
+
+      browser.tabs.create({
+        url: translationUrl,
+        active: true,
+        index: tab.index + 1
+      });
+    }, "image/png");
+  };
+
+  img.src = info.srcUrl;
 }

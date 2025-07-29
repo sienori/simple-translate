@@ -89,6 +89,24 @@ export default [
             handleChange: () => updateLangsWhenChangeTranslationApi()
           },
           {
+            id: "translationApi",
+            title: "openaiApiLabel",
+            captions: ["openaiApiCaptionLabel"],
+            extraCaption:
+              React.createElement("p",
+                { className: "caption" },
+                React.createElement("a",
+                  {
+                    href: "https://platform.openai.com/api-keys",
+                    target: "_blank"
+                  },
+                  browser.i18n.getMessage("howToUseOpenaiLabel"))
+              ),
+            type: "radio",
+            value: "openai",
+            handleChange: () => updateLangsWhenChangeTranslationApi()
+          },
+          {
             id: "deeplPlan",
             title: "deeplPlanLabel",
             captions: ["deeplPlanCaptionLabel"],
@@ -115,6 +133,46 @@ export default [
             default: "",
             placeholder: "00000000-0000-0000-0000-00000000000000:fx",
             shouldShow: () => (getSettings("translationApi") === "deepl"),
+          },
+          {
+            id: "openaiApiKey",
+            title: "openaiApiKeyLabel",
+            captions: ["openaiApiKeyCaptionLabel"],
+            type: "text",
+            default: "",
+            placeholder: "sk-...",
+            shouldShow: () => (getSettings("translationApi") === "openai"),
+            hr: true,
+          },
+          {
+            id: "openaiModel",
+            title: "openaiModelLabel",
+            captions: ["openaiModelCaptionLabel"],
+            type: "select",
+            default: "gpt-3.5-turbo",
+            shouldShow: () => (getSettings("translationApi") === "openai"),
+            options: [
+              {
+                name: "gpt35TurboLabel",
+                value: "gpt-3.5-turbo"
+              },
+              {
+                name: "gpt4Label",
+                value: "gpt-4"
+              },
+              {
+                name: "gpt4TurboLabel",
+                value: "gpt-4-turbo"
+              },
+              {
+                name: "gpt4oLabel",
+                value: "gpt-4o"
+              },
+              {
+                name: "gpt4oMiniLabel",
+                value: "gpt-4o-mini"
+              }
+            ]
           }
         ]
       },

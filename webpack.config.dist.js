@@ -50,7 +50,10 @@ const generalConfig = {
             }
           },
           {
-            loader: "sass-loader"
+            loader: "sass-loader",
+            options: {
+              implementation: require('sass')
+            }
           }
         ]
       },
@@ -62,64 +65,78 @@ const generalConfig = {
   }
 };
 
-module.exports = [
-  {
-    ...generalConfig,
-    output: getOutput("chrome", config.tempDirectory),
-    entry: getEntry(config.chromePath),
-    optimization: {
-      minimize: true
-    },
-    plugins: [
-      new CleanWebpackPlugin(["dist", "temp"]),
-      ...getMiniCssExtractPlugin(),
-      ...getHTMLPlugins("chrome", config.tempDirectory, config.chromePath),
-      ...getCopyPlugins("chrome", config.tempDirectory, config.chromePath),
-      getZipPlugin(`${config.extName}-for-chrome-${extVersion}`, config.distDirectory)
-    ]
-  },
-  {
-    ...generalConfig,
-    entry: getEntry(config.firefoxPath),
-    output: getOutput("firefox", config.tempDirectory),
-    optimization: {
-      minimize: true
-    },
-    plugins: [
-      new CleanWebpackPlugin(["dist", "temp"]),
-      ...getMiniCssExtractPlugin(),
-      ...getHTMLPlugins("firefox", config.tempDirectory, config.firefoxPath),
-      ...getFirefoxCopyPlugins("firefox", config.tempDirectory, config.firefoxPath),
-      getZipPlugin(`${config.extName}-for-firefox-${ffExtVersion}`, config.distDirectory)
-    ]
-  },
-  {
-    mode: "production",
-    resolve: {
-      alias: {
-        src: path.resolve(__dirname, "src/")
-      }
-    },
-    entry: { other: path.resolve(__dirname, `src/background/background.js`) },
-    output: getOutput("copiedSource", config.tempDirectory),
-    plugins: [
-      new CopyWebpackPlugin({
-        patterns: [
-          {
-            from: `src`,
-            to: path.resolve(__dirname, `${config.tempDirectory}/copiedSource/src/`),
-            info: { minimized: true }
-          },
-          {
-            from: "*",
-            to: path.resolve(__dirname, `${config.tempDirectory}/copiedSource/`),
-            globOptions: {
-              ignore: ["**/BACKERS.md", "**/crowdin.yml"]
-            }
-          }
-        ]
-      }),
-      getZipPlugin(`copiedSource-${config.extName}-${ffExtVersion}`, config.distDirectory, "other/")
-    ]
+module.exports = (env = {}) => {
+  const browser = env.browser || 'all';
+  
+  const configs = [];
+  
+  if (browser === 'all' || browser === 'chrome') {
+    configs.push({
+      ...generalConfig,
+      output: getOutput("chrome", config.tempDirectory),
+      entry: getEntry(config.chromePath),
+      optimization: {
+        minimize: true
+      },
+      plugins: [
+        new CleanWebpackPlugin(["dist", "temp"]),
+        ...getMiniCssExtractPlugin(),
+        ...getHTMLPlugins("chrome", config.tempDirectory, config.chromePath),
+        ...getCopyPlugins("chrome", config.tempDirectory, config.chromePath),
+        getZipPlugin(`${config.extName}-for-chrome-${extVersion}`, config.distDirectory)
+      ]
+    });
   }
-];
+  
+  if (browser === 'all' || browser === 'firefox') {
+    configs.push({
+      ...generalConfig,
+      entry: getEntry(config.firefoxPath),
+      output: getOutput("firefox", config.tempDirectory),
+      optimization: {
+        minimize: true
+      },
+      plugins: [
+        new CleanWebpackPlugin(["dist", "temp"]),
+        ...getMiniCssExtractPlugin(),
+        ...getHTMLPlugins("firefox", config.tempDirectory, config.firefoxPath),
+        ...getFirefoxCopyPlugins("firefox", config.tempDirectory, config.firefoxPath),
+        getZipPlugin(`${config.extName}-for-firefox-${ffExtVersion}`, config.distDirectory)
+      ]
+    });
+  }
+  
+  if (browser === 'all') {
+    configs.push({
+      mode: "production",
+      resolve: {
+        alias: {
+          src: path.resolve(__dirname, "src/")
+        }
+      },
+      entry: { other: path.resolve(__dirname, `src/background/background.js`) },
+      output: getOutput("copiedSource", config.tempDirectory),
+      plugins: [
+        new CopyWebpackPlugin({
+          patterns: [
+            {
+              from: `src`,
+              to: path.resolve(__dirname, `${config.tempDirectory}/copiedSource/src/`),
+              info: { minimized: true }
+            },
+            {
+              from: "*",
+              to: path.resolve(__dirname, `${config.tempDirectory}/copiedSource/`),
+              globOptions: {
+                ignore: ["**/BACKERS.md", "**/crowdin.yml"]
+              }
+            }
+          ]
+        }),
+        getZipPlugin(`copiedSource-${config.extName}-${ffExtVersion}`, config.distDirectory, "other/")
+      ]
+    });
+  }
+  
+  return configs;
+};

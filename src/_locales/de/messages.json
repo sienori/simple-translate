@@ -467,6 +467,9 @@
   "translateLinkMenu": {
     "message": "Ausgewählten Link übersetzen"
   },
+  "translateImageMenu": {
+    "message": "Translate selected image"
+  },
   "openPopupDescription": {
     "message": "Toolbar-Popup öffnen"
   },

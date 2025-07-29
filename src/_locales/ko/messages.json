@@ -467,6 +467,9 @@
   "translateLinkMenu": {
     "message": "선택한 링크 번역"
   },
+  "translateImageMenu": {
+    "message": "Translate selected image"
+  },
   "openPopupDescription": {
     "message": "툴바 팝업 열기"
   },

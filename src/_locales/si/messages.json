@@ -467,6 +467,9 @@
   "translateLinkMenu": {
     "message": "තේරූ සබැඳිය පරිවර්තනය"
   },
+  "translateImageMenu": {
+    "message": "Translate selected image"
+  },
   "openPopupDescription": {
     "message": "Open toolbar popup"
   },

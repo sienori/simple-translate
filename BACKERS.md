@@ -85,3 +85,9 @@ Thank you to the awesome backers who supported Simple Translate!
 - Mark K. Meshach
 - empty_child
 - Valerie Zee
+- Sebastien Loparis
+- Sky Smyth
+- Joachim Fuglsang-Frederiksen
+- Cheyana Hargrove Coleman
+- mumeiyamibito
+- U D

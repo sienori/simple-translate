@@ -345,7 +345,7 @@
     "message": "Einstellungen exportieren"
   },
   "exportSettingsCaptionLabel": {
-    "message": "Einstellungen als json-Datei auf dem Computer speichern."
+    "message": "Einstellungen als JSON-Datei auf dem Computer speichern."
   },
   "exportButtonLabel": {
     "message": "Exportieren"

@@ -91,3 +91,5 @@ Thank you to the awesome backers who supported Simple Translate!
 - Cheyana Hargrove Coleman
 - mumeiyamibito
 - U D
+- Antonio Torregrosa
+- Tomas Zajicek

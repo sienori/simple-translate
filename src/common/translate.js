@@ -100,6 +100,74 @@ const sendRequestToDeepL = async (word, sourceLang, targetLang) => {
   return resultData;
 };
 
+const sendRequestToOpenAI = async (word, sourceLang, targetLang) => {
+  const apiKey = getSettings("openaiApiKey");
+  const model = getSettings("openaiModel");
+  const url = "https://api.openai.com/v1/chat/completions";
+  
+  const targetLangName = browser.i18n.getMessage("lang_" + targetLang.replace("-", "_"));
+  
+  const prompt = `Translate the following text to ${targetLangName}:\n\n${word}`;
+  
+  const requestBody = {
+    model: model,
+    messages: [
+      {
+        role: "system",
+        content: "You are a translator. Translate the text exactly as provided without adding any explanations or additional content."
+      },
+      {
+        role: "user",
+        content: prompt
+      }
+    ],
+    temperature: 0.3,
+    max_tokens: 1000
+  };
+
+  const response = await fetch(url, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "Authorization": `Bearer ${apiKey}`
+    },
+    body: JSON.stringify(requestBody)
+  }).catch(e => ({ status: 0, statusText: '' }));
+
+  const resultData = {
+    resultText: "",
+    candidateText: "",
+    sourceLanguage: sourceLang === "auto" ? "auto" : sourceLang,
+    percentage: 1,
+    isError: false,
+    errorMessage: ""
+  };
+
+  if (response.status !== 200) {
+    resultData.isError = true;
+
+    if (response.status === 0) resultData.errorMessage = browser.i18n.getMessage("networkError");
+    else if (response.status === 401) resultData.errorMessage = browser.i18n.getMessage("openaiAuthError");
+    else if (response.status === 429) resultData.errorMessage = browser.i18n.getMessage("unavailableError");
+    else resultData.errorMessage = `${browser.i18n.getMessage("unknownError")} [${response.status} ${response.statusText}]`;
+
+    log.error(logDir, "sendRequestToOpenAI()", response);
+    return resultData;
+  }
+
+  const result = await response.json();
+  
+  if (result.choices && result.choices.length > 0) {
+    resultData.resultText = result.choices[0].message.content.trim();
+  } else {
+    resultData.isError = true;
+    resultData.errorMessage = browser.i18n.getMessage("unknownError");
+    log.error(logDir, "sendRequestToOpenAI() - No translation result", result);
+  }
+
+  log.log(logDir, "sendRequestToOpenAI()", resultData);
+  return resultData;
+};
 
 export default async (sourceWord, sourceLang = "auto", targetLang) => {
   log.log(logDir, "tranlate()", sourceWord, targetLang);
@@ -118,9 +186,15 @@ export default async (sourceWord, sourceLang = "auto", targetLang) => {
   const cachedResult = await getHistory(sourceWord, sourceLang, targetLang, translationApi);
   if (cachedResult) return cachedResult;
 
-  const result = translationApi === "google" ?
-    await sendRequestToGoogle(sourceWord, sourceLang, targetLang) :
-    await sendRequestToDeepL(sourceWord, sourceLang, targetLang);
+  let result;
+  if (translationApi === "google") {
+    result = await sendRequestToGoogle(sourceWord, sourceLang, targetLang);
+  } else if (translationApi === "deepl") {
+    result = await sendRequestToDeepL(sourceWord, sourceLang, targetLang);
+  } else if (translationApi === "openai") {
+    result = await sendRequestToOpenAI(sourceWord, sourceLang, targetLang);
+  }
+  
   setHistory(sourceWord, sourceLang, targetLang, translationApi, result);
   return result;
 };

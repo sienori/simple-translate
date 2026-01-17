@@ -37,7 +37,7 @@ const generalConfig = {
       {
         test: /\.(scss|css)$/,
         use: [
-          MiniCssExtractPlugin.loader,
+          "style-loader",
           {
             loader: "css-loader",
             options: {
@@ -45,7 +45,10 @@ const generalConfig = {
             }
           },
           {
-            loader: "sass-loader"
+            loader: "sass-loader",
+            options: {
+              implementation: require('sass')
+            }
           }
         ]
       },

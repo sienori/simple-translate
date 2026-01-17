@@ -4,11 +4,7 @@ import ReactDOM from "react-dom";
 import { getSettings } from "src/settings/settings";
 import "../styles/TranslatePanel.scss";
 import { getBackgroundColor, getCandidateFontColor, getResultFontColor } from "../../settings/defaultColors";
-
-const splitLine = text => {
-  const regex = /(\n)/g;
-  return text.split(regex).map((line, i) => (line.match(regex) ? <br key={i} /> : line));
-};
+import splitLine from "../../common/splitLine";
 
 export default class TranslatePanel extends Component {
   constructor(props) {
@@ -141,6 +137,8 @@ export default class TranslatePanel extends Component {
   componentWillReceiveProps = nextProps => {
     const isChangedContents =
       this.props.resultText !== nextProps.resultText ||
+      this.props.src_transliteration !== nextProps.src_transliteration ||
+      this.props.target_transliteration !== nextProps.target_transliteration ||
       this.props.candidateText !== nextProps.candidateText ||
       this.props.position !== nextProps.position;
 

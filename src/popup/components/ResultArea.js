@@ -5,14 +5,10 @@ import openUrl from "src/common/openUrl";
 import CopyButton from "./CopyButton";
 import ListenButton from "./ListenButton";
 import "../styles/ResultArea.scss";
-
-const splitLine = text => {
-  const regex = /(\n)/g;
-  return text.split(regex).map((line, i) => (line.match(regex) ? <br key={i} /> : line));
-};
+import splitLine from "../../common/splitLine";
 
 export default props => {
-  const { resultText, candidateText, isError, errorMessage, targetLang } = props;
+  const { resultText, target_transliteration, candidateText, isError, errorMessage, targetLang } = props;
   const shouldShowCandidate = getSettings("ifShowCandidate");
   const translationApi = getSettings("translationApi");
 
@@ -29,6 +25,7 @@ export default props => {
   return (
     <div id="resultArea">
       <p className="resultText" dir="auto">{splitLine(resultText)}</p>
+      <p className="target_transliteration" dir="auto">{splitLine(target_transliteration)}</p>
       {shouldShowCandidate && <p className="candidateText" dir="auto">{splitLine(candidateText)}</p>}
       {isError && <p className="error">{errorMessage}</p>}
       {isError && (

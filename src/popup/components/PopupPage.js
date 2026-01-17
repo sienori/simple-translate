@@ -44,6 +44,8 @@ export default class PopupPage extends Component {
       targetLang: "",
       inputText: "",
       resultText: "",
+      src_transliteration: "",
+      target_transliteration: "",
       candidateText: "",
       sourceLang: "",
       isError: false,
@@ -127,6 +129,8 @@ export default class PopupPage extends Component {
     });
     this.setState({
       resultText: result.resultText,
+      src_transliteration: result.src_transliteration,
+      target_transliteration: result.target_transliteration,
       candidateText: result.candidateText,
       sourceLang: result.sourceLanguage,
       isError: result.isError,
@@ -183,6 +187,7 @@ export default class PopupPage extends Component {
         />
         <InputArea
           inputText={this.state.inputText}
+          src_transliteration={this.state.src_transliteration}
           handleInputText={this.handleInputText}
           sourceLang={this.state.sourceLang}
         />
@@ -191,6 +196,7 @@ export default class PopupPage extends Component {
           inputText={this.state.inputText}
           targetLang={this.state.targetLang}
           resultText={this.state.resultText}
+          target_transliteration={this.state.target_transliteration}
           candidateText={this.state.candidateText}
           isError={this.state.isError}
           errorMessage={this.state.errorMessage}

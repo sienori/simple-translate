@@ -36,6 +36,7 @@
     "node-sass": "^9.0.0",
     "opener": "^1.5.1",
     "sass-loader": "^14.2.1",
+    "prettier": "^3.0.0",
     "webextension-polyfill": "^0.3.1",
     "webpack": "^5.88.2",
     "webpack-bundle-analyzer": "^4.9.1",
@@ -46,6 +47,8 @@
   "scripts": {
     "watch-dev": "webpack --config webpack.config.dev.js --watch",
     "build": "webpack --config webpack.config.dist.js",
+    "format": "prettier --write \"src/**/*.{js,jsx,json,scss,html,md}\" \"*.{js,json,md}\"",
+    "format:check": "prettier --check \"src/**/*.{js,jsx,json,scss,html,md}\" \"*.{js,json,md}\"",
     "open-analyzer": "opener http://127.0.0.1:8888/"
   },
   "repository": {

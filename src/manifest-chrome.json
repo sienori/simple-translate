@@ -4,10 +4,7 @@
   "name": "__MSG_extName__",
   "description": "__MSG_extDescription__",
   "default_locale": "en",
-  "permissions": [
-    "storage",
-    "contextMenus"
-  ],
+  "permissions": ["storage", "contextMenus"],
   "options_ui": {
     "page": "options/index.html",
     "open_in_tab": true
@@ -40,27 +37,15 @@
     {
       "all_frames": true,
       "match_about_blank": true,
-      "matches": [
-        "http://*/*",
-        "https://*/*",
-        "<all_urls>"
-      ],
-      "js": [
-        "content/content.js"
-      ],
-      "css": [
-        "content/content.css"
-      ]
+      "matches": ["http://*/*", "https://*/*", "<all_urls>"],
+      "js": ["content/content.js"],
+      "css": ["content/content.css"]
     }
   ],
   "web_accessible_resources": [
     {
-      "resources": [
-        "icons/512.png"
-      ],
-      "matches": [
-        "*://*/*"
-      ]
+      "resources": ["icons/512.png"],
+      "matches": ["*://*/*"]
     }
   ],
   "commands": {

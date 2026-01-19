@@ -7,10 +7,10 @@ import "../styles/TranslateContainer.scss";
 
 const translateText = async (text, targetLang = getSettings("targetLang")) => {
   const result = await browser.runtime.sendMessage({
-    message: 'translate',
+    message: "translate",
     text: text,
-    sourceLang: 'auto',
-    targetLang: targetLang,
+    sourceLang: "auto",
+    targetLang: targetLang
   });
   return result;
 };
@@ -94,7 +94,9 @@ export default class TranslateContainer extends Component {
     const secondLang = getSettings("secondTargetLang");
     const shouldSwitchSecondLang =
       getSettings("ifChangeSecondLangOnPage") &&
-      result.sourceLanguage.split("-")[0] === targetLang.split("-")[0] && result.percentage > 0 && targetLang !== secondLang;
+      result.sourceLanguage.split("-")[0] === targetLang.split("-")[0] &&
+      result.percentage > 0 &&
+      targetLang !== secondLang;
     if (shouldSwitchSecondLang) result = await translateText(this.selectedText, secondLang);
 
     this.setState({

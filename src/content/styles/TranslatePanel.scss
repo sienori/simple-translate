@@ -4,7 +4,9 @@
     position: fixed;
     overflow: hidden;
     background-color: var(--simple-translate-main-bg);
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    box-shadow:
+      0 2px 2px 0 rgba(0, 0, 0, 0.16),
+      0 0 0 1px rgba(0, 0, 0, 0.08);
     border-radius: 3px;
     z-index: 2147483646;
 
@@ -44,8 +46,9 @@
           all: initial;
           display: block;
           margin: 0;
-          font-family: "Segoe UI", "San Francisco", "Ubuntu", "Fira Sans",
-            "Roboto", "Arial", "Helvetica", sans-serif !important;
+          font-family:
+            "Segoe UI", "San Francisco", "Ubuntu", "Fira Sans", "Roboto", "Arial", "Helvetica",
+            sans-serif !important;
           word-wrap: break-word;
           font-size: inherit;
           line-height: 150%;

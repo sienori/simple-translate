@@ -3,7 +3,11 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import { getSettings } from "src/settings/settings";
 import "../styles/TranslatePanel.scss";
-import { getBackgroundColor, getCandidateFontColor, getResultFontColor } from "../../settings/defaultColors";
+import {
+  getBackgroundColor,
+  getCandidateFontColor,
+  getResultFontColor
+} from "../../settings/defaultColors";
 
 const splitLine = text => {
   const regex = /(\n)/g;
@@ -163,7 +167,15 @@ export default class TranslatePanel extends Component {
   };
 
   render = () => {
-    const { shouldShow, selectedText, currentLang, resultText, candidateText, isError, errorMessage } = this.props;
+    const {
+      shouldShow,
+      selectedText,
+      currentLang,
+      resultText,
+      candidateText,
+      isError,
+      errorMessage
+    } = this.props;
     const { width, height } = this.state.shouldResize
       ? { width: parseInt(getSettings("width")), height: parseInt(getSettings("height")) }
       : { width: this.state.panelWidth, height: this.state.panelHeight };
@@ -173,12 +185,12 @@ export default class TranslatePanel extends Component {
       height: height,
       top: this.state.panelPosition.y,
       left: this.state.panelPosition.x,
-      fontSize: parseInt(getSettings("fontSize")),
+      fontSize: parseInt(getSettings("fontSize"))
     };
 
-    const backgroundColor = getBackgroundColor()
+    const backgroundColor = getBackgroundColor();
     if (backgroundColor) {
-      panelStyles.backgroundColor = backgroundColor.backgroundColor
+      panelStyles.backgroundColor = backgroundColor.backgroundColor;
     }
 
     const wrapperStyles = {
@@ -206,14 +218,17 @@ export default class TranslatePanel extends Component {
               <p className="simple-translate-error">
                 {errorMessage}
                 <br />
-                <a href={translationApi === "google" ?
-                  `https://translate.google.com/?sl=auto&tl=${currentLang}&text=${encodeURIComponent(selectedText)}` :
-                  `https://www.deepl.com/translator#auto/${currentLang}/${encodeURIComponent(selectedText)}`
-                }
-                  target="_blank">
-                  {translationApi === "google" ?
-                    browser.i18n.getMessage("openInGoogleLabel") :
-                    browser.i18n.getMessage("openInDeeplLabel")}
+                <a
+                  href={
+                    translationApi === "google"
+                      ? `https://translate.google.com/?sl=auto&tl=${currentLang}&text=${encodeURIComponent(selectedText)}`
+                      : `https://www.deepl.com/translator#auto/${currentLang}/${encodeURIComponent(selectedText)}`
+                  }
+                  target="_blank"
+                >
+                  {translationApi === "google"
+                    ? browser.i18n.getMessage("openInGoogleLabel")
+                    : browser.i18n.getMessage("openInDeeplLabel")}
                 </a>
               </p>
             )}

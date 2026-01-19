@@ -98,7 +98,9 @@
       height: 18px;
       width: 18px;
       fill: var(--sub-text);
-      transition: fill 100ms, transform 300ms ease;
+      transition:
+        fill 100ms,
+        transform 300ms ease;
     }
   }
 }

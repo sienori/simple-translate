@@ -56,7 +56,7 @@ export const resetAllSettings = async () => {
   await initSettings();
 };
 
-export const handleSettingsChange = (changes) => {
+export const handleSettingsChange = changes => {
   if (Object.keys(changes).includes("Settings")) {
     currentSettings = changes.Settings.newValue;
     return currentSettings;
@@ -109,10 +109,12 @@ const getSettingsIds = () => {
   let settingsIds = [];
   defaultSettings.forEach(category => {
     category.elements.forEach(optionElement => {
-      if (optionElement.id && optionElement.default !== undefined) settingsIds.push(optionElement.id);
+      if (optionElement.id && optionElement.default !== undefined)
+        settingsIds.push(optionElement.id);
       if (optionElement.childElements) {
         optionElement.childElements.forEach(childElement => {
-          if (childElement.id && childElement.default !== undefined) settingsIds.push(childElement.id);
+          if (childElement.id && childElement.default !== undefined)
+            settingsIds.push(childElement.id);
         });
       }
     });

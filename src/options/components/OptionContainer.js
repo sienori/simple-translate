@@ -116,11 +116,13 @@ export default props => {
       optionForm = (
         <div className="selectWrap">
           <select id={formId} onChange={handleValueChange} value={currentValue}>
-            {(typeof props.options === 'function' ? props.options() : props.options).map((option, index) => (
-              <option value={option.value} key={index}>
-                {props.useRawOptionName ? option.name : browser.i18n.getMessage(option.name)}
-              </option>
-            ))}
+            {(typeof props.options === "function" ? props.options() : props.options).map(
+              (option, index) => (
+                <option value={option.value} key={index}>
+                  {props.useRawOptionName ? option.name : browser.i18n.getMessage(option.name)}
+                </option>
+              )
+            )}
           </select>
         </div>
       );
@@ -158,8 +160,9 @@ export default props => {
       break;
   }
 
-  const shouldShow = props.shouldShow == undefined
-    || (typeof props.shouldShow === 'function' ? props.shouldShow() : props.shouldShow);
+  const shouldShow =
+    props.shouldShow == undefined ||
+    (typeof props.shouldShow === "function" ? props.shouldShow() : props.shouldShow);
 
   return (
     shouldShow && (

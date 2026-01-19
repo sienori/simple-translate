@@ -32,10 +32,9 @@ const getTabInfo = async () => {
   }
 };
 
-const UILanguage =  browser.i18n.getUILanguage()
-const rtlLanguage = ['he', 'ar'].includes(UILanguage)
-const rtlLanguageClassName = rtlLanguage ? 'popup-page-rtl-language' : ''
-
+const UILanguage = browser.i18n.getUILanguage();
+const rtlLanguage = ["he", "ar"].includes(UILanguage);
+const rtlLanguageClassName = rtlLanguage ? "popup-page-rtl-language" : "";
 
 export default class PopupPage extends Component {
   constructor(props) {
@@ -64,7 +63,7 @@ export default class PopupPage extends Component {
     updateLogLevel();
 
     this.themeClass = getSettings("theme") + "-theme";
-    document.body.classList.add(this.themeClass)
+    document.body.classList.add(this.themeClass);
     const targetLang = getSettings("targetLang");
     let langHistory = getSettings("langHistory");
     if (!langHistory) {
@@ -120,10 +119,10 @@ export default class PopupPage extends Component {
   translateText = async (text, targetLang) => {
     log.info(logDir, "translateText()", text, targetLang);
     const result = await browser.runtime.sendMessage({
-      message: 'translate',
+      message: "translate",
       text: text,
-      sourceLang: 'auto',
-      targetLang: targetLang,
+      sourceLang: "auto",
+      targetLang: targetLang
     });
     this.setState({
       resultText: result.resultText,
@@ -143,9 +142,11 @@ export default class PopupPage extends Component {
     if (defaultTargetLang === secondLang) return;
 
     const equalsSourceAndTarget =
-      result.sourceLanguage.split("-")[0] === this.state.targetLang.split("-")[0] && result.percentage > 0;
+      result.sourceLanguage.split("-")[0] === this.state.targetLang.split("-")[0] &&
+      result.percentage > 0;
     const equalsSourceAndDefault =
-      result.sourceLanguage.split("-")[0] === defaultTargetLang.split("-")[0] && result.percentage > 0;
+      result.sourceLanguage.split("-")[0] === defaultTargetLang.split("-")[0] &&
+      result.percentage > 0;
     // split("-")[0] : deepLでenとen-USを区別しないために必要
 
     if (!this.isSwitchedSecondLang) {
@@ -170,7 +171,7 @@ export default class PopupPage extends Component {
       const tab = (await browser.tabs.query({ currentWindow: true, active: true }))[0];
       if (isEnabled) await browser.tabs.sendMessage(tab.id, { message: "enableExtension" });
       else await browser.tabs.sendMessage(tab.id, { message: "disableExtension" });
-    } catch (e) { }
+    } catch (e) {}
   };
 
   render() {

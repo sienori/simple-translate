@@ -20,7 +20,11 @@ export default props => {
                 {option.hasOwnProperty("childElements") && (
                   <ul className="childElements">
                     {option.childElements.map((option, index) => (
-                      <OptionContainer {...option} currentValue={currentValues[option.id]} key={index} />
+                      <OptionContainer
+                        {...option}
+                        currentValue={currentValues[option.id]}
+                        key={index}
+                      />
                     ))}
                   </ul>
                 )}

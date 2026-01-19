@@ -5,20 +5,24 @@ import { getSettings } from "src/settings/settings";
 const logDir = "common/translate";
 
 const getHistory = async (sourceWord, sourceLang, targetLang, translationApi) => {
-  const result = await browser.storage.session.get(`${sourceLang}-${targetLang}-${translationApi}-${sourceWord}`);
+  const result = await browser.storage.session.get(
+    `${sourceLang}-${targetLang}-${translationApi}-${sourceWord}`
+  );
   return result[`${sourceLang}-${targetLang}-${translationApi}-${sourceWord}`] ?? false;
 };
 
 const setHistory = async (sourceWord, sourceLang, targetLang, translationApi, result) => {
   if (result.isError) return;
-  await browser.storage.session.set({ [`${sourceLang}-${targetLang}-${translationApi}-${sourceWord}`]: result });
+  await browser.storage.session.set({
+    [`${sourceLang}-${targetLang}-${translationApi}-${sourceWord}`]: result
+  });
 };
 
 const sendRequestToGoogle = async (word, sourceLang, targetLang) => {
   const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=${sourceLang}&tl=${targetLang}&dt=t&dt=bd&dj=1&q=${encodeURIComponent(
     word
   )}`;
-  const response = await fetch(url).catch(e => ({ status: 0, statusText: '' }));
+  const response = await fetch(url).catch(e => ({ status: 0, statusText: "" }));
 
   const resultData = {
     resultText: "",
@@ -33,8 +37,10 @@ const sendRequestToGoogle = async (word, sourceLang, targetLang) => {
     resultData.isError = true;
 
     if (response.status === 0) resultData.errorMessage = browser.i18n.getMessage("networkError");
-    else if (response.status === 429 || response.status === 503) resultData.errorMessage = browser.i18n.getMessage("unavailableError");
-    else resultData.errorMessage = `${browser.i18n.getMessage("unknownError")} [${response.status} ${response.statusText}]`;
+    else if (response.status === 429 || response.status === 503)
+      resultData.errorMessage = browser.i18n.getMessage("unavailableError");
+    else
+      resultData.errorMessage = `${browser.i18n.getMessage("unknownError")} [${response.status} ${response.statusText}]`;
 
     log.error(logDir, "sendRequest()", response);
     return resultData;
@@ -47,7 +53,10 @@ const sendRequestToGoogle = async (word, sourceLang, targetLang) => {
   resultData.resultText = result.sentences.map(sentence => sentence.trans).join("");
   if (result.dict) {
     resultData.candidateText = result.dict
-      .map(dict => `${dict.pos}${dict.pos != "" ? ": " : ""}${dict.terms !== undefined?dict.terms.join(", "):""}\n`)
+      .map(
+        dict =>
+          `${dict.pos}${dict.pos != "" ? ": " : ""}${dict.terms !== undefined ? dict.terms.join(", ") : ""}\n`
+      )
       .join("");
   }
 
@@ -61,14 +70,15 @@ const sendRequestToDeepL = async (word, sourceLang, targetLang) => {
   params.append("auth_key", authKey);
   params.append("text", word);
   params.append("target_lang", targetLang);
-  const url = getSettings("deeplPlan") === "deeplFree" ?
-    "https://api-free.deepl.com/v2/translate" :
-    "https://api.deepl.com/v2/translate";
+  const url =
+    getSettings("deeplPlan") === "deeplFree"
+      ? "https://api-free.deepl.com/v2/translate"
+      : "https://api.deepl.com/v2/translate";
 
   const response = await fetch(url, {
     method: "POST",
     body: params
-  }).catch(e => ({ status: 0, statusText: '' }));
+  }).catch(e => ({ status: 0, statusText: "" }));
 
   const resultData = {
     resultText: "",
@@ -83,8 +93,10 @@ const sendRequestToDeepL = async (word, sourceLang, targetLang) => {
     resultData.isError = true;
 
     if (response.status === 0) resultData.errorMessage = browser.i18n.getMessage("networkError");
-    else if (response.status === 403) resultData.errorMessage = browser.i18n.getMessage("deeplAuthError");
-    else resultData.errorMessage = `${browser.i18n.getMessage("unknownError")} [${response.status} ${response.statusText}]`;
+    else if (response.status === 403)
+      resultData.errorMessage = browser.i18n.getMessage("deeplAuthError");
+    else
+      resultData.errorMessage = `${browser.i18n.getMessage("unknownError")} [${response.status} ${response.statusText}]`;
 
     log.error(logDir, "sendRequestToDeepL()", response);
     return resultData;
@@ -99,7 +111,6 @@ const sendRequestToDeepL = async (word, sourceLang, targetLang) => {
   log.log(logDir, "sendRequestToDeepL()", resultData);
   return resultData;
 };
-
 
 export default async (sourceWord, sourceLang = "auto", targetLang) => {
   log.log(logDir, "tranlate()", sourceWord, targetLang);
@@ -118,9 +129,10 @@ export default async (sourceWord, sourceLang = "auto", targetLang) => {
   const cachedResult = await getHistory(sourceWord, sourceLang, targetLang, translationApi);
   if (cachedResult) return cachedResult;
 
-  const result = translationApi === "google" ?
-    await sendRequestToGoogle(sourceWord, sourceLang, targetLang) :
-    await sendRequestToDeepL(sourceWord, sourceLang, targetLang);
+  const result =
+    translationApi === "google"
+      ? await sendRequestToGoogle(sourceWord, sourceLang, targetLang)
+      : await sendRequestToDeepL(sourceWord, sourceLang, targetLang);
   setHistory(sourceWord, sourceLang, targetLang, translationApi, result);
   return result;
 };

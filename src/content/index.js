@@ -28,7 +28,8 @@ const handleMouseUp = async e => {
   const isInPasswordField = e.target.tagName === "INPUT" && e.target.type === "password";
   if (isInPasswordField) return;
 
-  const inCodeElement = e.target.tagName === "CODE" || (!!e.target.closest && !!e.target.closest("code"));
+  const inCodeElement =
+    e.target.tagName === "CODE" || (!!e.target.closest && !!e.target.closest("code"));
   if (inCodeElement && getSettings("isDisabledInCodeElement")) return;
 
   const isInThisElement =
@@ -38,9 +39,12 @@ const handleMouseUp = async e => {
 
   removeTranslatecontainer();
 
-  const ignoredDocumentLang = getSettings("ignoredDocumentLang").split(",").map(s => s.trim()).filter(s => !!s);
+  const ignoredDocumentLang = getSettings("ignoredDocumentLang")
+    .split(",")
+    .map(s => s.trim())
+    .filter(s => !!s);
   if (ignoredDocumentLang.length) {
-    const ignoredLangSelector = ignoredDocumentLang.map(lang => `[lang="${lang}"]`).join(',')
+    const ignoredLangSelector = ignoredDocumentLang.map(lang => `[lang="${lang}"]`).join(",");
     if (!!e.target.closest && !!e.target.closest(ignoredLangSelector)) return;
   }
 
@@ -86,7 +90,7 @@ const getSelectedText = () => {
   const isInTextField = element.tagName === "INPUT" || element.tagName === "TEXTAREA";
   const selectedText = isInTextField
     ? element.value.substring(element.selectionStart, element.selectionEnd)
-    : window.getSelection()?.toString() ?? "";
+    : (window.getSelection()?.toString() ?? "");
   return selectedText;
 };
 
@@ -95,10 +99,7 @@ const getSelectedPosition = () => {
   const isInTextField = element.tagName === "INPUT" || element.tagName === "TEXTAREA";
   const selectedRect = isInTextField
     ? element.getBoundingClientRect()
-    : window
-      .getSelection()
-      .getRangeAt(0)
-      .getBoundingClientRect();
+    : window.getSelection().getRangeAt(0).getBoundingClientRect();
 
   let selectedPosition;
   const panelReferencePoint = getSettings("panelReferencePoint");
@@ -222,7 +223,10 @@ const showTranslateContainer = (
 
   const themeClass = "simple-translate-" + getSettings("theme") + "-theme";
 
-  document.body.insertAdjacentHTML("beforeend", `<div id="simple-translate" class="${themeClass}"></div>`);
+  document.body.insertAdjacentHTML(
+    "beforeend",
+    `<div id="simple-translate" class="${themeClass}"></div>`
+  );
   ReactDOM.render(
     <TranslateContainer
       removeContainer={removeTranslatecontainer}

@@ -9,9 +9,19 @@ import InputArea from "./InputArea";
 import ResultArea from "./ResultArea";
 import Footer from "./Footer";
 import "../styles/PopupPage.scss";
-import { getBackgroundColor } from "../../settings/defaultColors";
 
 const logDir = "popup/PopupPage";
+
+/**
+ * Translation request stored into localStorage
+ * @typedef {{text: string, targetLang: string, result: {
+ *       resultText: string,
+ *       candidateText: string,
+ *       sourceLang: string,
+ *       isError: boolean,
+ *       errorMessage: string
+ *     }}} StoredRequest
+ */
 
 const getTabInfo = async () => {
   try {
@@ -77,6 +87,8 @@ export default class PopupPage extends Component {
       langList: generateLangOptions(getSettings("translationApi"))
     });
 
+
+
     const tabInfo = await getTabInfo();
     this.setState({
       isConnected: tabInfo.isConnected,
@@ -84,7 +96,12 @@ export default class PopupPage extends Component {
       tabUrl: tabInfo.url,
       isEnabledOnPage: tabInfo.isEnabledOnPage
     });
-    if (tabInfo.selectedText !== "") this.handleInputText(tabInfo.selectedText);
+    if (tabInfo.selectedText !== "") {
+      this.handleInputText(tabInfo.selectedText);
+    }
+    else if (getSettings('ifSaveLastInput')) {
+      this.restoreStoredTranslationRequestIfExists()
+    }
 
     document.body.style.width = "348px";
   };
@@ -131,8 +148,40 @@ export default class PopupPage extends Component {
       isError: result.isError,
       errorMessage: result.errorMessage
     });
+    this.storeTranslationRequest({
+      targetLang,
+      text,
+      result
+    })
     return result;
   };
+
+  /**
+   * Store user input, target lang and translation result to localStorage
+   * @param {StoredRequest} request
+   */
+  storeTranslationRequest = (request) => {
+    localStorage.setItem('last-translation-request', JSON.stringify(request))
+  }
+
+  /**
+   * Pick-up last stored translation request and set state if it exists
+   */
+  restoreStoredTranslationRequestIfExists = () => {
+    /** @type {StoredRequest} */
+    const request = JSON.parse(localStorage.getItem('last-translation-request') || 'null')
+    if (request && request.result) {
+      this.setState({
+        targetLang: request.targetLang,
+        inputText: request.text,
+        resultText: request.result.resultText,
+        candidateText: request.result.candidateText,
+        sourceLang: request.result.sourceLanguage,
+        isError: request.result.isError,
+        errorMessage: request.result.errorMessage
+      });
+    }
+  }
 
   switchSecondLang = result => {
     if (!getSettings("ifChangeSecondLang")) return;

@@ -23,6 +23,15 @@ export default class InputArea extends Component {
     return shouldUpdate;
   }
 
+  componentDidMount = () => {
+    const textarea = ReactDOM.findDOMNode(this.refs.textarea);
+    if (textarea) {
+      setTimeout(() => {
+        textarea.focus();
+      }, 100);
+    }
+  };
+
   componentDidUpdate = () => {
     this.resizeTextArea();
   };

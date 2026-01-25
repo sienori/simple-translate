@@ -66,7 +66,7 @@
     "message": "DeepL API"
   },
   "deeplApiCaptionLabel": {
-    "message": "Verwenden Sie die DeepL API. Sie müssen sich bei DeepL API Free oder DeepL API Pro registrieren, um einen Authentifizierungsschlüssel zu erhalten."
+    "message": "DeepL API verwenden. Sie müssen sich bei DeepL API Free oder DeepL API Pro registrieren, um einen Authentifizierungsschlüssel zu erhalten."
   },
   "howToUseDeeplLabel": {
     "message": "Wie man die DeepL API registriert"
@@ -156,7 +156,7 @@
     "message": "Modifikator-Taste"
   },
   "shiftLabel": {
-    "message": "Umschalttaste"
+    "message": "Umschalt"
   },
   "ctrlLabel": {
     "message": "Strg"
@@ -216,10 +216,10 @@
     "message": "Seitenübersetzung"
   },
   "pageTranslationOpenToLabel": {
-    "message": "Drücke die Tab-Taste, um die Übersetzungsergebnisse anzuzeigen"
+    "message": "Drücken Sie die Tab-Taste, um die Übersetzungsergebnisse anzuzeigen"
   },
   "pageTranslationOpenToCaptionLabel": {
-    "message": "Bitte gib an, welcher Tab die Ergebnisse der Seitenübersetzung anzeigen soll."
+    "message": "Bitte geben Sie an, welcher Tab die Ergebnisse der Seitenübersetzung anzeigen soll."
   },
   "newTabLabel": {
     "message": "Neuer Tab"
@@ -318,7 +318,7 @@
     "message": "Schriftfarbe des Übersetzungsergebnisses"
   },
   "isOverrideColorsLabel": {
-    "message": "Überschreibe Standardfarben mit den untenstehenden Farben"
+    "message": "Standardfarben mit den untenstehenden Farben überschreiben"
   },
   "candidateFontColorLabel": {
     "message": "Schriftfarbe der Übersetzungskandidaten"
@@ -342,16 +342,16 @@
     "message": "Wenn der Debug-Modus aktiviert ist, wird das Protokoll an den Debugger ausgegeben."
   },
   "exportSettingsLabel": {
-    "message": "Einstellungen Exportieren"
+    "message": "Einstellungen exportieren"
   },
   "exportSettingsCaptionLabel": {
-    "message": "Einstellungen als json-Datei auf dem Computer speichern."
+    "message": "Einstellungen als JSON-Datei auf dem Computer speichern."
   },
   "exportButtonLabel": {
     "message": "Exportieren"
   },
   "importSettingsLabel": {
-    "message": "Import-Einstellungen"
+    "message": "Einstellungen importieren"
   },
   "importSettingsCaptionLabel": {
     "message": "Auf dem Computer gespeicherte Einstellungsdatei laden."
@@ -486,13 +486,13 @@
     "message": "Armenisch"
   },
   "lang_az": {
-    "message": "Aserbeidschanisch"
+    "message": "Aserbaidschanisch"
   },
   "lang_eu": {
     "message": "Baskisch"
   },
   "lang_be": {
-    "message": "Weißrussisch"
+    "message": "Belarussisch"
   },
   "lang_bn": {
     "message": "Bengalisch"

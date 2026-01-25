@@ -21,13 +21,13 @@
     "message": "Skriv inn tekst"
   },
   "showLink": {
-    "message": "Omset denne sida"
+    "message": "Oversett denne siden"
   },
   "openInGoogleLabel": {
-    "message": "Opna i Google Omsetjar"
+    "message": "Åpne i Google Translate"
   },
   "openInDeeplLabel": {
-    "message": "Opna i DeepL Omsetjar"
+    "message": "Åpne i DeepL oversetter"
   },
   "copyLabel": {
     "message": "Kopier"
@@ -45,43 +45,43 @@
     "message": "Alle språk"
   },
   "recentLangLabel": {
-    "message": "Nylege språk"
+    "message": "Nylige språk"
   },
   "settingsLabel": {
-    "message": "Innstillingar"
+    "message": "Innstillinger"
   },
   "generalLabel": {
     "message": "Generelt"
   },
   "translationApiLabel": {
-    "message": "Omsetjingsmotor"
+    "message": "Oversettelsesmotor"
   },
   "googleApiLabel": {
-    "message": "Google Omsetjar"
+    "message": "Google oversetter API"
   },
   "googleApiCaptionLabel": {
-    "message": "Bruk Google Omsetjar. Du treng ikkje å registrera deg."
+    "message": "Bruk Google oversetter. Ingen registrering kreves."
   },
   "deeplApiLabel": {
-    "message": "DeepL"
+    "message": "DeepL API"
   },
   "deeplApiCaptionLabel": {
-    "message": "Bruk DeepL. Du må registrera deg med DeepL Free eller DeepL Pro for å få ein autentiseringsnøkkel."
+    "message": "Bruk DeepL. Du må registrere deg med DeepL API Free eller DeepL API Pro for å få en autentiseringsnøkkel."
   },
   "howToUseDeeplLabel": {
-    "message": "Korleis registrere seg med DeepL"
+    "message": "Hvordan registrere seg med DeepL API"
   },
   "deeplPlanLabel": {
-    "message": "DeepL-plan"
+    "message": "DeepL API plan"
   },
   "deeplPlanCaptionLabel": {
-    "message": "Vel DeepL-planen som du er registrert med."
+    "message": "Velg DeepL API planen som du er registrert med."
   },
   "deeplFreeLabel": {
     "message": "DeepL Free"
   },
   "deeplProLabel": {
-    "message": "DeepL Pro"
+    "message": "DeepL API Pro"
   },
   "deeplAuthKeyLabel": {
     "message": "Autentiseringsnøkkel"
@@ -96,46 +96,46 @@
     "message": "Nettside"
   },
   "ifShowCandidateLabel": {
-    "message": "Vis omsetjingskandidatar"
+    "message": "Vis oversettelseskandidater"
   },
   "ifShowCandidateCaptionLabel": {
-    "message": "Vis fleire omsetjingskandidater når eit enkelt ord er omsat."
+    "message": "Vis flere oversettningskandidater når et enkelt ord er oversatt."
   },
   "whenSelectTextLabel": {
-    "message": "Åtferd når du merkar tekst"
+    "message": "Oppførsel når du merker tekst"
   },
   "ifAutoTranslateLabel": {
-    "message": "Vis omsetjingsruta"
+    "message": "Vis oversettelsespanel"
   },
   "ifAutoTranslateCaptionLabel": {
-    "message": "Vis fram omsetjingsruta umiddelbart, utan å visa knappen først."
+    "message": "Vis frem oversettelsespanel direkte, uten å vise knappen."
   },
   "ifShowButtonLabel": {
-    "message": "Vis omsetjingsknappen"
+    "message": "Vis oversettningsknappen"
   },
   "ifShowButtonCaptionLabel": {
-    "message": "Vis fram omsetjingsknappen, som vil opna ruta når du trykkjar på den."
+    "message": "Vis oversettelsesknappen for å åpne panelet når du klikker."
   },
   "dontshowbuttonlabel": {
-    "message": "Ikkje vis knapp eller rute"
+    "message": "Ikke vis knapp eller panel"
   },
   "dontshowbuttonCaptionlabel": {
-    "message": "Korkje vis fram omsetjingsknappen eller omsetjingsruta."
+    "message": "Ikke vis oversettelsesknappen eller oversettelsespanelet."
   },
   "ifCheckLangLabel": {
-    "message": "Ikkje vis fram knappen viss det ikkje trengs ei omsetjing"
+    "message": "Ikke vis knappen hvis oversettelse ikke er nødvendig"
   },
   "ifCheckLangCaptionLabel": {
-    "message": "Viser ikkje knappen viss den valde teksten er skrive på målspråket."
+    "message": "Oppdager språket for den valgte teksten, og hvis det er det samme som målspråket, blir knappen ikke vist."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Omset den valde teksten til andrespråket viss den er skrive på målspråket."
+    "message": "Oppdager språket for den valgte teksten, og hvis det er det samme som målspråket, oversetter den til det andre språket."
   },
   "disableTranslationLabel": {
-    "message": "Slå av omsetjing"
+    "message": "Slå av oversettelse"
   },
   "isDisabledInTextFieldsLabel": {
-    "message": "Slå av omsetjing i tekstfelt"
+    "message": "Slå av oversettelse i tekstfelt"
   },
   "isDisabledInTextFieldsCaptionLabel": {
     "message": "Ikkje vis omsetjingsknappen eller -ruta når du merkar tekst i eit tekstfelt."
@@ -147,10 +147,10 @@
     "message": "Ikkje vis omsetjingsknappen eller -ruta når du merkar tekst inni kodetaggar."
   },
   "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Omset når valgtast er trykkja"
+    "message": "Oversett når valgtast er trykket"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Kun vis ei omsetjing når den valde valgtasten er trykkja."
+    "message": "Bare vis oversettelse når den valgte valgtasten er trykket."
   },
   "modifierKeyLabel": {
     "message": "Valgtast"
@@ -168,19 +168,19 @@
     "message": "Kommando"
   },
   "disableUrlListLabel": {
-    "message": "Liste med URL-ar utan omsetjing"
+    "message": "URL-liste for å deaktivere oversettelse"
   },
   "disableUrlListCaptionLabel": {
-    "message": "Viss URL-en til sida samsvarer med lista, så vil omsetjing på sida slås av. Lista tillét «*» jokerteikn."
+    "message": "Hvis sidens URL samsvarer med listen, er oversettelse på nettsiden deaktivert. Listen tillater \"*\" jokertegn."
   },
   "toolbarLabel": {
     "message": "Sprettoppvindauge"
   },
   "ifChangeSecondLangLabel": {
-    "message": "Byt til det andre språket automatisk"
+    "message": "Bytt til det andre språket automatisk"
   },
   "ifChangeSecondLangCaptionLabel": {
-    "message": "Omset teksten til andrespråket viss den er skrive på målspråket."
+    "message": "Oversett teksten til andrespråket viss den er skrevet på målspråket."
   },
   "secondTargetLangLabel": {
     "message": "Andrespråk"
@@ -195,13 +195,13 @@
     "message": "Slå av omsetjing viss «lang»-attributten i «html»-taggen til sida samsvarer med lista.\nSkriv inn ei kommadelt liste med språkkodar."
   },
   "waitTimeLabel": {
-    "message": "Ventetid før omsetjing"
+    "message": "Ventetid for å oversette"
   },
   "waitTimeCaptionLabel": {
-    "message": "Angje ventetida frå du skriver inn eit teikn til omsetjinga startar. (millisekund)"
+    "message": "Angi ventetiden fra du skriver inn et tegn til oversettningen starter. (millisekund)"
   },
   "waitTime2CaptionLabel": {
-    "message": "Viss du omset det mange gongar innan ein kort tidsperiode, kan det varta ubrukeleg i ei stund."
+    "message": "Viss du oversetter det mange ganger innen en kort tidsperiode, kan det bli ubrukelig i en stund."
   },
   "menuLabel": {
     "message": "Kontekstmeny"
@@ -210,10 +210,10 @@
     "message": "Vis kontekstmenyen"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Legg til elementer i kontekstmenyen som visas når du høgreklikker på nettsida eller fana."
+    "message": "Legg til elementer i kontekstmenyen som vises når du høyreklikker på nettsiden eller fanen."
   },
   "pageTranslationLabel": {
-    "message": "Sideomsetjing"
+    "message": "Sideoversettning"
   },
   "pageTranslationOpenToLabel": {
     "message": "Tab to display translation results"
@@ -225,7 +225,7 @@
     "message": "Ny fane"
   },
   "currentTabLabel": {
-    "message": "Gjeldande fane"
+    "message": "Gjeldene fane"
   },
   "styleLabel": {
     "message": "Stil"
@@ -234,106 +234,106 @@
     "message": "Tema"
   },
   "themeCaptionLabel": {
-    "message": "Angje fargetema."
+    "message": "Angi fargetema."
   },
   "lightLabel": {
-    "message": "Lyst"
+    "message": "Lyset"
   },
   "darkLabel": {
-    "message": "Mørkt"
+    "message": "Mørket"
   },
   "systemLabel": {
     "message": "System"
   },
   "buttonStyleLabel": {
-    "message": "Omsetjingsknapp"
+    "message": "Oversettelsesknapp"
   },
   "buttonStyleCaptionLabel": {
-    "message": "Angi stilen til omsetjingsknappen som visas på nettsida."
+    "message": "Angi stilen til oversettelsesknappen som vises på nettsiden."
   },
   "buttonSizeLabel": {
-    "message": "Storleik"
+    "message": "Størrelse"
   },
   "buttonPositionLabel": {
-    "message": "Posisjon"
+    "message": "Vis posisjon"
   },
   "topRightLabel": {
-    "message": "Øvst til høgre"
+    "message": "Øverst til høyre"
   },
   "bottomRightLabel": {
-    "message": "Nedst til høgre"
+    "message": "Nederst til høyre"
   },
   "topLeftLabel": {
-    "message": "Øvst til venstre"
+    "message": "Øverst til venstre"
   },
   "bottomLeftLabel": {
-    "message": "Nedst til venstre"
+    "message": "Nederst til venstre"
   },
   "topLabel": {
-    "message": "Øvst"
+    "message": "Toppen"
   },
   "bottomLabel": {
-    "message": "Nedst"
+    "message": "Bunnen"
   },
   "leftLabel": {
-    "message": "Til venstre"
+    "message": "Venstre"
   },
   "rightLabel": {
-    "message": "Til høgre"
+    "message": "Høyre"
   },
   "positionOffsetLabel": {
     "message": "Posisjon - Forskyvning"
   },
   "panelStyleLabel": {
-    "message": "Omsetjingsrute"
+    "message": "Oversettelsespanel"
   },
   "panelStyleCaptionLabel": {
-    "message": "Angje stilen til omsetjingsruta som visast på nettsida."
+    "message": "Angi stilen til oversettelsespanelet som vises på nettsiden."
   },
   "widthLabel": {
-    "message": "Breidd"
+    "message": "Bredde"
   },
   "heightLabel": {
-    "message": "Høgd"
+    "message": "Høyde"
   },
   "fontSizeLabel": {
-    "message": "Skriftstorleik"
+    "message": "Skriftstørrelse"
   },
   "referencePointLabel": {
     "message": "Posisjon - Referansepunkt"
   },
   "bottomSelectedTextLabel": {
-    "message": "Botn av merka tekst"
+    "message": "Bunnen av merkert tekst"
   },
   "topSelectedTextLabel": {
-    "message": "Topp av merka tekst"
+    "message": "Toppen av merkert tekst"
   },
   "clickedPointLabel": {
-    "message": "Trykkja punkt"
+    "message": "Klikket punkt"
   },
   "displayDirectionLabel": {
     "message": "Posisjon - Retning"
   },
   "resultFontColorLabel": {
-    "message": "Skriftfarge til omsetjingsresultat"
+    "message": "Skriftfargen til oversettelsesresultat"
   },
   "isOverrideColorsLabel": {
-    "message": "Overstyr standardfargane med fargane nedanfor"
+    "message": "Overstyr standardfargene med fargene nedenfor"
   },
   "candidateFontColorLabel": {
-    "message": "Skriftfarge til omsetjingskandidat"
+    "message": "Skriftfargen til oversettelseskandidat"
   },
   "bgColorLabel": {
     "message": "Bakgrunnsfarge"
   },
   "otherLabel": {
-    "message": "Anna"
+    "message": "Annet"
   },
   "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Opna innstillingssida etter ei oppdatering"
+    "message": "Vis innstillingssiden under oppdatering"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Opna innstillingssida når Simple Translate vart oppdatert, så du kan finna ut av kva som er nytt så fort som mogleg."
+    "message": "Vis innstillingssiden når Simple Translate er oppdatert, så du kan finne ut av hva som er nytt så fort som mulig."
   },
   "isDebugModeLabel": {
     "message": "Slå på feilsøkingsmodus"
@@ -342,34 +342,34 @@
     "message": "Når feilsøkingsmodus er slått på vil feilsøkaren skrive til loggen."
   },
   "exportSettingsLabel": {
-    "message": "Eksporter innstillingane"
+    "message": "Eksporter innstillingene"
   },
   "exportSettingsCaptionLabel": {
-    "message": "Lagra innstillingane som ei JSON-fil på datamaskinen."
+    "message": "Lagre innstillingene som jason-fil på datamaskinen."
   },
   "exportButtonLabel": {
     "message": "Eksporter"
   },
   "importSettingsLabel": {
-    "message": "Importer innstillingar"
+    "message": "Importer innstillinger"
   },
   "importSettingsCaptionLabel": {
-    "message": "Last inn innstillingsfila frå datamaskinen."
+    "message": "Last inn innstillingsfiler fra datamaskinen."
   },
   "importButtonLabel": {
     "message": "Importer"
   },
   "resetSettingsLabel": {
-    "message": "Tilbakestill innstillingane"
+    "message": "Tilbakestill innstillinger"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Tilbakestill alle innstillingane."
+    "message": "Tilbakestill alle innstillinger."
   },
   "resetSettingsButtonLabel": {
     "message": "Tilbakestill"
   },
   "shortcutsLabel": {
-    "message": "Hurtigtastar"
+    "message": "Snarveier"
   },
   "keyboardShortcutsLabel": {
     "message": "Hurtigtastar"
@@ -405,13 +405,13 @@
     "message": "Om"
   },
   "additionalPermissionLabel": {
-    "message": "Enable translation on web pages"
+    "message": "Aktiver oversettelse på nettsider"
   },
   "additionalPermissionCaptionLabel": {
-    "message": "Additional permissions are required to use Simple Translate on web pages."
+    "message": "Ytterligere tillatelser kreves for å bruke Simple Translate på nettsider."
   },
   "enableLabel": {
-    "message": "Enable"
+    "message": "Aktiver"
   },
   "backersLabel": {
     "message": "Støttespelarar"
@@ -459,7 +459,7 @@
     "message": "Feil: Ukjend feil"
   },
   "translatePageMenu": {
-    "message": "Omset denne sida"
+    "message": "Oversett denne siden"
   },
   "translateTextMenu": {
     "message": "Omset merka tekst"

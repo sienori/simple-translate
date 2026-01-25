@@ -183,13 +183,13 @@
     "message": "侦测文本输入所用的语言，如果它与默认的目标语言相同，则将它翻译为第二语言。"
   },
   "secondTargetLangLabel": {
-    "message": "第二语言:"
+    "message": "第二语言"
   },
   "secondTargetLangCaptionLabel": {
     "message": "选择第二种目标语言。"
   },
   "ignoredDocumentLangLabel": {
-    "message": "元素带有 lang 属性时禁用翻译"
+    "message": "当元素带有 lang 属性时禁用翻译"
   },
   "ignoredDocumentLangCaptionLabel": {
     "message": "HTML 元素的 lang 属性的值与语言列表中的某个标签匹配时，禁用翻译。请输入用逗号分隔的语言标签。"
@@ -339,7 +339,7 @@
     "message": "启用调试模式"
   },
   "isDebugModeCaptionLabel": {
-    "message": "启用调试模式后, 日志将输出到调试器。"
+    "message": "启用调试模式后，将会输出日志到调试器。"
   },
   "exportSettingsLabel": {
     "message": "导出配置"
@@ -405,13 +405,13 @@
     "message": "信息"
   },
   "additionalPermissionLabel": {
-    "message": "Enable translation on web pages"
+    "message": "启用网页上的翻译"
   },
   "additionalPermissionCaptionLabel": {
-    "message": "Additional permissions are required to use Simple Translate on web pages."
+    "message": "在网页上使用 Simple Translate 之前，需要先授予额外的权限。"
   },
   "enableLabel": {
-    "message": "Enable"
+    "message": "启用"
   },
   "backersLabel": {
     "message": "支持者"
@@ -447,16 +447,16 @@
     "message": "https://addons.mozilla.org/zh-CN/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
-    "message": "错误：请检查您的网络连接状态"
+    "message": "错误：请检查网络连接状态。"
   },
   "unavailableError": {
-    "message": "错误：已达服务使用限制。请稍后再试。"
+    "message": "错误：已达服务使用限制。请稍候再试。"
   },
   "deeplAuthError": {
     "message": "错误：DeepL API 认证失败。请在设置页面检查认证密钥和订阅计划是否输入和设置正确。"
   },
   "unknownError": {
-    "message": "错误：未知错误"
+    "message": "错误：发生未知错误"
   },
   "translatePageMenu": {
     "message": "翻译此页面"

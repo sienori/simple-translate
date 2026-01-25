@@ -37,9 +37,9 @@ export default class Footer extends Component {
             onChange={this.handleChange}
             title={browser.i18n.getMessage("targetLangLabel")}
           >
-
             <optgroup label={browser.i18n.getMessage("recentLangLabel")}>
-              {langList.filter(option => langHistory.includes(option.value))
+              {langList
+                .filter(option => langHistory.includes(option.value))
                 .map(option => (
                   <option value={option.value} key={option.value}>
                     {option.name}

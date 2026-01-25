@@ -11,9 +11,8 @@ const setupTheme = async () => {
   await initSettings();
   document.body.classList.add(getSettings("theme") + "-theme");
 
-  browser.storage.local.onChanged.addListener((changes) => {
-    if (changes.Settings.newValue.theme === changes.Settings.oldValue.theme)
-      return;
+  browser.storage.local.onChanged.addListener(changes => {
+    if (changes.Settings.newValue.theme === changes.Settings.oldValue.theme) return;
 
     document.body.classList.replace(
       changes.Settings.oldValue.theme + "-theme",
@@ -22,9 +21,9 @@ const setupTheme = async () => {
   });
 };
 
-const UILanguage =  browser.i18n.getUILanguage()
-const rtlLanguage = ['he', 'ar'].includes(UILanguage)
-const optionsPageClassName = 'optionsPage' + (rtlLanguage ? ' rtl-language' : '')
+const UILanguage = browser.i18n.getUILanguage();
+const rtlLanguage = ["he", "ar"].includes(UILanguage);
+const optionsPageClassName = "optionsPage" + (rtlLanguage ? " rtl-language" : "");
 
 export default () => {
   setupTheme();

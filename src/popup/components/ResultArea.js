@@ -19,25 +19,30 @@ export default props => {
   const handleLinkClick = () => {
     const { inputText, targetLang } = props;
     const encodedText = encodeURIComponent(inputText);
-    const translateUrl = translationApi === "google" ?
-      `https://translate.google.com/?sl=auto&tl=${targetLang}&text=${encodedText}` :
-      `https://www.deepl.com/translator#auto/${targetLang}/${encodedText}`
-      ;
+    const translateUrl =
+      translationApi === "google"
+        ? `https://translate.google.com/?sl=auto&tl=${targetLang}&text=${encodedText}`
+        : `https://www.deepl.com/translator#auto/${targetLang}/${encodedText}`;
     openUrl(translateUrl);
   };
 
   return (
     <div id="resultArea">
-      <p className="resultText" dir="auto">{splitLine(resultText)}</p>
-      {shouldShowCandidate && <p className="candidateText" dir="auto">{splitLine(candidateText)}</p>}
+      <p className="resultText" dir="auto">
+        {splitLine(resultText)}
+      </p>
+      {shouldShowCandidate && (
+        <p className="candidateText" dir="auto">
+          {splitLine(candidateText)}
+        </p>
+      )}
       {isError && <p className="error">{errorMessage}</p>}
       {isError && (
         <p className="translateLink">
           <a onClick={handleLinkClick}>
-            {translationApi === "google" ?
-              browser.i18n.getMessage("openInGoogleLabel") :
-              browser.i18n.getMessage("openInDeeplLabel")
-            }
+            {translationApi === "google"
+              ? browser.i18n.getMessage("openInGoogleLabel")
+              : browser.i18n.getMessage("openInDeeplLabel")}
           </a>
         </p>
       )}

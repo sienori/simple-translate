@@ -10,7 +10,7 @@ export default class CopyButton extends Component {
     this.state = { isCopied: false };
   }
 
-  handleCopy = (copiedText) => {
+  handleCopy = copiedText => {
     navigator.clipboard.writeText(copiedText);
     this.setState({ isCopied: true });
   };

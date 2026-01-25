@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "version": "2.8.2",
+  "version": "3.0.0",
   "name": "__MSG_extName__",
   "description": "__MSG_extDescription__",
   "default_locale": "en",
@@ -9,10 +9,7 @@
       "id": "simple-translate@sienori"
     }
   },
-  "permissions": [
-    "storage",
-    "contextMenus"
-  ],
+  "permissions": ["storage", "contextMenus"],
   "options_ui": {
     "page": "options/index.html",
     "open_in_tab": true
@@ -25,9 +22,7 @@
     "32": "icons/32.png"
   },
   "background": {
-    "scripts": [
-      "background/background.js"
-    ],
+    "scripts": ["background/background.js"],
     "type": "module"
   },
   "action": {
@@ -47,27 +42,15 @@
     {
       "all_frames": true,
       "match_about_blank": true,
-      "matches": [
-        "http://*/*",
-        "https://*/*",
-        "<all_urls>"
-      ],
-      "js": [
-        "content/content.js"
-      ],
-      "css": [
-        "content/content.css"
-      ]
+      "matches": ["http://*/*", "https://*/*", "<all_urls>"],
+      "js": ["content/content.js"],
+      "css": ["content/content.css"]
     }
   ],
   "web_accessible_resources": [
     {
-      "resources": [
-        "icons/512.png"
-      ],
-      "matches": [
-        "*://*/*"
-      ]
+      "resources": ["icons/512.png"],
+      "matches": ["*://*/*"]
     }
   ],
   "commands": {

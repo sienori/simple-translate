@@ -15,9 +15,7 @@ const playAudio = async (text, lang) => {
   audio.load();
 
   await browser.permissions.request({
-    origins: [
-      "https://translate.google.com/*",
-    ]
+    origins: ["https://translate.google.com/*"]
   });
 
   await audio.play().catch(e => log.error(logDir, "playAudio()", e, url));

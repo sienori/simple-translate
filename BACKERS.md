@@ -75,3 +75,21 @@ Thank you to the awesome backers who supported Simple Translate!
 - Eyüp deniz Taşdelen
 - Ocean
 - Archer36
+- Brad Tippett
+- jd hawkins
+- Sándor Bolega
+- ekohh
+- Mal Den
+- Tony Pujals
+- Nicola
+- Mark K. Meshach
+- empty_child
+- Valerie Zee
+- Sebastien Loparis
+- Sky Smyth
+- Joachim Fuglsang-Frederiksen
+- Cheyana Hargrove Coleman
+- mumeiyamibito
+- U D
+- Antonio Torregrosa
+- Tomas Zajicek

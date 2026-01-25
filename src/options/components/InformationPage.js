@@ -61,7 +61,7 @@ export default props => {
         type={"none"}
       />
 
-      {!hasPermission &&
+      {!hasPermission && (
         <>
           <hr />
           <OptionsContainer
@@ -72,7 +72,7 @@ export default props => {
             onClick={requestPermission}
           />
         </>
-      }
+      )}
 
       <hr />
       <OptionsContainer title={"donationLabel"} captions={["donationCaptionLabel"]} type={"none"} />
@@ -83,8 +83,11 @@ export default props => {
         extraCaption={
           <div>
             <a href={patreonLink} target="_blank">
-              <img src="/icons/patreonButton.png" alt="Patreon"
-                style={{ height: 44, marginInlineEnd: 20 }} />
+              <img
+                src="/icons/patreonButton.png"
+                alt="Patreon"
+                style={{ height: 44, marginInlineEnd: 20 }}
+              />
             </a>
             <a href={paypalLink} target="_blank">
               <img src="/icons/paypalButton.png" alt="Paypal" />
@@ -113,8 +116,10 @@ export default props => {
         captions={[""]}
         type={"none"}
         extraCaption={
-          <iframe src="https://simple-translate.sienori.com/sponsors.html"
-            style={{ height: sponsorsHeihgt, marginTop: 10 }} />
+          <iframe
+            src="https://simple-translate.sienori.com/sponsors.html"
+            style={{ height: sponsorsHeihgt, marginTop: 10 }}
+          />
         }
       />
       <hr />
@@ -130,10 +135,10 @@ export default props => {
                   {browser.i18n.getMessage("extensionPageLabel")}
                 </a>
               ) : (
-                  <a href={firefoxAddonUrl} target="_blank">
-                    {browser.i18n.getMessage("addonPageLabel")}
-                  </a>
-                )}
+                <a href={firefoxAddonUrl} target="_blank">
+                  {browser.i18n.getMessage("addonPageLabel")}
+                </a>
+              )}
               <span>　</span>
               <a href="https://github.com/sienori/simple-translate" target="_blank">
                 GitHub
@@ -154,26 +159,22 @@ const useAdditionalPermission = () => {
   const [hasPermission, setHasPermission] = useState(true);
 
   const permissions = {
-    origins: [
-      "http://*/*",
-      "https://*/*",
-      "<all_urls>"
-    ]
+    origins: ["http://*/*", "https://*/*", "<all_urls>"]
   };
 
   const checkPermission = async () => {
     const hasPermission = await browser.permissions.contains(permissions);
     setHasPermission(hasPermission);
-  }
+  };
 
   const requestPermission = async () => {
     await browser.permissions.request(permissions);
     checkPermission();
-  }
+  };
 
   useEffect(() => {
     checkPermission();
   }, []);
 
   return [hasPermission, requestPermission];
-}
+};

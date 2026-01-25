@@ -1,6 +1,10 @@
 {
   "name": "simple-translate",
   "version": "0.0.0",
+  "engines": {
+    "node": "24.13.0",
+    "npm": "11.7.0"
+  },
   "dependencies": {
     "browser-info": "^1.2.0",
     "loglevel": "^1.6.1",
@@ -25,13 +29,14 @@
     "babel-loader": "^8.0.0-beta.3",
     "babel-plugin-transform-class-properties": "^6.10.2",
     "clean-webpack-plugin": "^0.1.19",
-    "copy-webpack-plugin": "^6.4.1",
+    "copy-webpack-plugin": "^9.0.1",
     "css-loader": "^5.2.4",
     "html-webpack-plugin": "^5.5.3",
     "mini-css-extract-plugin": "^2.2.2",
-    "node-sass": "^9.0.0",
     "opener": "^1.5.1",
+    "sass": "^1.80.3",
     "sass-loader": "^14.2.1",
+    "prettier": "^3.0.0",
     "webextension-polyfill": "^0.3.1",
     "webpack": "^5.88.2",
     "webpack-bundle-analyzer": "^4.9.1",
@@ -42,6 +47,8 @@
   "scripts": {
     "watch-dev": "webpack --config webpack.config.dev.js --watch",
     "build": "webpack --config webpack.config.dist.js",
+    "format": "prettier --write \"src/**/*.{js,jsx,json,scss,html,md}\" \"*.{js,json,md}\"",
+    "format:check": "prettier --check \"src/**/*.{js,jsx,json,scss,html,md}\" \"*.{js,json,md}\"",
     "open-analyzer": "opener http://127.0.0.1:8888/"
   },
   "repository": {

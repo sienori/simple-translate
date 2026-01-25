@@ -25,26 +25,34 @@ const getDefaultLangs = () => {
 const updateLangsWhenChangeTranslationApi = () => {
   const translationApi = getSettings("translationApi");
   const targetLang = getSettings("targetLang");
-  const secondTargetLang = getSettings("secondTargetLang");;
+  const secondTargetLang = getSettings("secondTargetLang");
   const currentLangs = generateLangOptions(translationApi).map(option => option.value);
 
   const mappingLang = lang => {
     switch (lang) {
-      case "en": return "en-US";
+      case "en":
+        return "en-US";
       case "en-US":
-      case "en-GB": return "en";
-      case "zh": return "zh-CN";
+      case "en-GB":
+        return "en";
+      case "zh":
+        return "zh-CN";
       case "zh-CN":
-      case "zh-TW": return "zh";
-      case "pt": return "pt-PT";
+      case "zh-TW":
+        return "zh";
+      case "pt":
+        return "pt-PT";
       case "pt-PT":
-      case "pt-BR": return "pt";
-      default: return currentLangs[0];
+      case "pt-BR":
+        return "pt";
+      default:
+        return currentLangs[0];
     }
   };
 
   if (!currentLangs.includes(targetLang)) setSettings("targetLang", mappingLang(targetLang));
-  if (!currentLangs.includes(secondTargetLang)) setSettings("secondTargetLang", mappingLang(secondTargetLang));
+  if (!currentLangs.includes(secondTargetLang))
+    setSettings("secondTargetLang", mappingLang(secondTargetLang));
 };
 
 const defaultLangs = getDefaultLangs();
@@ -74,16 +82,18 @@ export default [
             id: "translationApi",
             title: "deeplApiLabel",
             captions: ["deeplApiCaptionLabel"],
-            extraCaption:
-              React.createElement("p",
-                { className: "caption" },
-                React.createElement("a",
-                  {
-                    href: "https://github.com/sienori/simple-translate/wiki/How-to-register-DeepL-API",
-                    target: "_blank"
-                  },
-                  browser.i18n.getMessage("howToUseDeeplLabel"))
-              ),
+            extraCaption: React.createElement(
+              "p",
+              { className: "caption" },
+              React.createElement(
+                "a",
+                {
+                  href: "https://github.com/sienori/simple-translate/wiki/How-to-register-DeepL-API",
+                  target: "_blank"
+                },
+                browser.i18n.getMessage("howToUseDeeplLabel")
+              )
+            ),
             type: "radio",
             value: "deepl",
             handleChange: () => updateLangsWhenChangeTranslationApi()
@@ -94,7 +104,7 @@ export default [
             captions: ["deeplPlanCaptionLabel"],
             type: "select",
             default: "deeplFree",
-            shouldShow: () => (getSettings("translationApi") === "deepl"),
+            shouldShow: () => getSettings("translationApi") === "deepl",
             hr: true,
             options: [
               {
@@ -104,7 +114,7 @@ export default [
               {
                 name: "deeplProLabel",
                 value: "deeplPro"
-              },
+              }
             ]
           },
           {
@@ -114,7 +124,7 @@ export default [
             type: "text",
             default: "",
             placeholder: "00000000-0000-0000-0000-00000000000000:fx",
-            shouldShow: () => (getSettings("translationApi") === "deepl"),
+            shouldShow: () => getSettings("translationApi") === "deepl"
           }
         ]
       },
@@ -142,7 +152,7 @@ export default [
         captions: ["ifShowCandidateCaptionLabel"],
         type: "checkbox",
         default: true,
-        shouldShow: () => (getSettings("translationApi") === "google")
+        shouldShow: () => getSettings("translationApi") === "google"
       }
     ]
   },
@@ -216,7 +226,8 @@ export default [
               {
                 name: "cmdLabel",
                 value: "cmd"
-              }]
+              }
+            ]
           }
         ]
       },
@@ -316,7 +327,7 @@ export default [
           {
             name: "currentTabLabel",
             value: "currentTab"
-          },
+          }
         ]
       }
     ]
@@ -329,7 +340,7 @@ export default [
         title: "themeLabel",
         captions: ["themeCaptionLabel"],
         type: "select",
-        default: 'system',
+        default: "system",
         options: [
           {
             name: "lightLabel",
@@ -524,28 +535,22 @@ export default [
             title: "resultFontColorLabel",
             captions: [],
             type: "color",
-            default:
-              getTheme() === "light"
-                ? RESULT_FONT_COLOR_LIGHT
-                : RESULT_FONT_COLOR_DARK,
+            default: getTheme() === "light" ? RESULT_FONT_COLOR_LIGHT : RESULT_FONT_COLOR_DARK
           },
           {
             id: "candidateFontColor",
             title: "candidateFontColorLabel",
             captions: [],
             type: "color",
-            default:
-              getTheme() === "light"
-                ? CANDIDATE_FONT_COLOR_LIGHT
-                : CANDIDATE_FONT_COLOR_DARK,
+            default: getTheme() === "light" ? CANDIDATE_FONT_COLOR_LIGHT : CANDIDATE_FONT_COLOR_DARK
           },
           {
             id: "bgColor",
             title: "bgColorLabel",
             captions: [],
             type: "color",
-            default: getTheme() === "light" ? BG_COLOR_LIGHT : BG_COLOR_DARK,
-          },
+            default: getTheme() === "light" ? BG_COLOR_LIGHT : BG_COLOR_DARK
+          }
         ]
       }
     ]

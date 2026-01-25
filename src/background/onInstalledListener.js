@@ -33,9 +33,11 @@ export default async details => {
   if (details.reason == "update" && details.previousVersion.replaceAll(".", "") < 280) {
     //ユーザーが独自の色を設定していた場合、色の置き換えを有効にする
     const isSetUserColor =
-      getSettings("resultFontColor") !== RESULT_FONT_COLOR_LIGHT && getSettings("resultFontColor") !== RESULT_FONT_COLOR_DARK ||
-      getSettings("candidateFontColor") !== CANDIDATE_FONT_COLOR_LIGHT && getSettings("candidateFontColor") !== CANDIDATE_FONT_COLOR_DARK ||
-      getSettings("bgColor") !== BG_COLOR_LIGHT && getSettings("bgColor") !== BG_COLOR_DARK;
+      (getSettings("resultFontColor") !== RESULT_FONT_COLOR_LIGHT &&
+        getSettings("resultFontColor") !== RESULT_FONT_COLOR_DARK) ||
+      (getSettings("candidateFontColor") !== CANDIDATE_FONT_COLOR_LIGHT &&
+        getSettings("candidateFontColor") !== CANDIDATE_FONT_COLOR_DARK) ||
+      (getSettings("bgColor") !== BG_COLOR_LIGHT && getSettings("bgColor") !== BG_COLOR_DARK);
 
     if (isSetUserColor) {
       setSettings("isOverrideColors", true);

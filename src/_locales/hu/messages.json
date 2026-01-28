@@ -467,6 +467,9 @@
   "translateLinkMenu": {
     "message": "A kijelölt hivatkozás fordítása"
   },
+  "translateImageMenu": {
+    "message": "Translate selected image"
+  },
   "openPopupDescription": {
     "message": "Eszköztár felugró ablak megnyitása"
   },

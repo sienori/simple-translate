@@ -1,12 +1,13 @@
-import React, { Component } from "react";
-import ReactDOM from "react-dom";
+import React, { Component, createRef } from "react";
 import browser from "webextension-polyfill";
 import ListenButton from "./ListenButton";
 import "../styles/InputArea.scss";
 
 export default class InputArea extends Component {
+  inputRef = createRef(null);
+
   resizeTextArea = () => {
-    const textarea = ReactDOM.findDOMNode(this.refs.textarea);
+    const textarea = this.inputRef.current;
     textarea.style.height = "1px";
     textarea.style.height = `${textarea.scrollHeight + 2}px`;
   };
@@ -36,16 +37,22 @@ export default class InputArea extends Component {
     this.resizeTextArea();
   };
 
+  componentDidMount = () => {
+    const textarea = this.inputRef.current;
+    setTimeout(() => {
+      textarea.focus();
+    }, 10);
+  }
+
   render() {
     const { inputText, sourceLang } = this.props;
     return (
       <div id="inputArea">
         <textarea
           value={inputText}
-          ref="textarea"
+          ref={this.inputRef}
           placeholder={browser.i18n.getMessage("initialTextArea")}
           onChange={this.handleInputText}
-          autoFocus
           spellCheck={false}
           dir="auto"
         />

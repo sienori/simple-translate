@@ -93,3 +93,5 @@ Thank you to the awesome backers who supported Simple Translate!
 - U D
 - Antonio Torregrosa
 - Tomas Zajicek
+- Sam
+- Sam Winwest

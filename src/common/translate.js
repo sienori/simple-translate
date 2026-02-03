@@ -65,7 +65,7 @@ const sendRequestToGoogle = async (word, sourceLang, targetLang) => {
 };
 
 const sendRequestToDeepL = async (word, sourceLang, targetLang) => {
-  let headers = new URLSearchParams();
+  let headers = new Headers();
   let params = new URLSearchParams();
   const authKey = getSettings("deeplAuthKey");
   headers.append("Authorization", `DeepL-Auth-Key ${authKey}`);

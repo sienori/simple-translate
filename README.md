@@ -19,11 +19,15 @@ Thank you to the awesome **[backers](https://github.com/sienori/simple-translate
 
 Support Simple Translate by [becoming a sponsor](https://www.patreon.com/join/sienori). Thank you to our wonderful sponsors!
 
-[<img src="https://raw.githubusercontent.com/sienori/simple-translate/master/docs/img/fakey.png" alt="Fakey" height=110px align="left">](https://pawakalabs.com/products/fakey/)
+<div style="display: flex; flex-wrap: wrap; gap: 8px;">
 
-[<img src="docs/img/toucan.png" alt="Toucan" height=110px align="left">](https://jointoucan.com/partners/tab-session-manager)
+[<img src="https://raw.githubusercontent.com/sienori/simple-translate/master/docs/img/fakey.png" alt="Fakey" height=110px>](https://pawakalabs.com/products/fakey/)
+
+[<img src="docs/img/toucan.png" alt="Toucan" height=110px>](https://jointoucan.com/partners/tab-session-manager)
 
 [<img src="docs/img/becomeSponsor.png" alt="Become a Sponsor" height=110px>](https://www.patreon.com/join/sienori)
+
+</div>
 
 ## Translation
 

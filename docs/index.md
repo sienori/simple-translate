@@ -23,7 +23,7 @@ Thank you to the awesome **[backers](https://github.com/sienori/simple-translate
 
 Support Simple Translate by [becoming a sponsor](https://www.patreon.com/join/sienori). Thank you to our wonderful sponsors!
 
-<div style="display: flex; flex-wrap: wrap; gap: 8px;">
+<p>
 
 [<img src="https://raw.githubusercontent.com/sienori/simple-translate/master/docs/img/fakey.png" alt="Fakey" height=110px>](https://pawakalabs.com/products/fakey/)
 
@@ -31,7 +31,7 @@ Support Simple Translate by [becoming a sponsor](https://www.patreon.com/join/si
 
 [<img src="https://raw.githubusercontent.com/sienori/simple-translate/master/docs/img/becomeSponsor.png" alt="Become a Sponsor" height=110px>](https://www.patreon.com/join/sienori)
 
-</div>
+</p>
 
 ## Translation
 

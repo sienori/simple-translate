@@ -25,11 +25,17 @@ Support Simple Translate by [becoming a sponsor](https://www.patreon.com/join/si
 
 <p>
 
-[<img src="https://raw.githubusercontent.com/sienori/simple-translate/master/docs/img/fakey.png" alt="Fakey" height=110px>](https://pawakalabs.com/products/fakey/)
+<a href="https://pawakalabs.com/products/fakey/">
+<img src="https://raw.githubusercontent.com/sienori/simple-translate/master/docs/img/fakey.png" alt="Fakey" height=110px>
+</a>
 
-[<img src="https://raw.githubusercontent.com/sienori/simple-translate/master/docs/img/toucan.png" alt="Toucan" height=110px>](https://jointoucan.com/partners/tab-session-manager)
+<a href="https://jointoucan.com/partners/tab-session-manager">
+<img src="https://raw.githubusercontent.com/sienori/simple-translate/master/docs/img/toucan.png" alt="Toucan" height=110px>
+</a>
 
-[<img src="https://raw.githubusercontent.com/sienori/simple-translate/master/docs/img/becomeSponsor.png" alt="Become a Sponsor" height=110px>](https://www.patreon.com/join/sienori)
+<a href="https://www.patreon.com/join/sienori">
+<img src="https://raw.githubusercontent.com/sienori/simple-translate/master/docs/img/becomeSponsor.png" alt="Become a Sponsor" height=110px>
+</a>
 
 </p>
 

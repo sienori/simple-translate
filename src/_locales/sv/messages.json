@@ -405,13 +405,13 @@
     "message": "Information"
   },
   "additionalPermissionLabel": {
-    "message": "Enable translation on web pages"
+    "message": "Aktivera översättning på webbsidor"
   },
   "additionalPermissionCaptionLabel": {
-    "message": "Additional permissions are required to use Simple Translate on web pages."
+    "message": "Ytterligare behörigheter krävs för att använda Simple Translate på webbsidor."
   },
   "enableLabel": {
-    "message": "Enable"
+    "message": "Aktivera"
   },
   "backersLabel": {
     "message": "Backers"

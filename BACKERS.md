@@ -95,3 +95,4 @@ Thank you to the awesome backers who supported Simple Translate!
 - Tomas Zajicek
 - Sam
 - Sam Winwest
+- John Doe

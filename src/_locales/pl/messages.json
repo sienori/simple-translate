@@ -120,7 +120,7 @@
     "message": "Nie wyświetlaj przycisku lub panelu"
   },
   "dontshowbuttonCaptionlabel": {
-    "message": "Nie wyświetlaj przycisku tłumacznia lub panelu tłumaczeń."
+    "message": "Nie wyświetlaj przycisku tłumaczenia lub panelu tłumaczeń."
   },
   "ifCheckLangLabel": {
     "message": "Nie wyświetlaj przycisku tłumaczenia, jeżeli jest nie potrzebny"
@@ -420,7 +420,7 @@
     "message": "Licencja"
   },
   "donationLabel": {
-    "message": "Proszę o dokonanie dotacji"
+    "message": "Rozważ dokonanie dotacji"
   },
   "donationCaptionLabel": {
     "message": "Dziękuję za korzystanie z Simple Translate.<br> Twoje wsparcie będzie olbrzymią zachętą dla mnie do dalszej pracy nad tym rozszerzeniem.<br>Jeżeli lubisz Simple Translate, byłbym wdzięczny za rozważenie dokonania donacji."
@@ -444,7 +444,7 @@
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
   },
   "addonUrl": {
-    "message": "https://addons.mozilla.org/pl/firefox/addon/simple-translate/"
+    "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
     "message": "Błąd: Sprawdź stan połączenia sieciowego."
@@ -453,7 +453,7 @@
     "message": "Błąd: Limit użycia serwisu został osiągnięty. Poczekaj chwilę i spróbuj ponownie."
   },
   "deeplAuthError": {
-    "message": "Błąd: Uwierzytelnianie API DeepL nie powiodło się. Proszę ustawić klucz uwierzytelniania i zaplanować poprawnie na stronie ustawień."
+    "message": "Błąd: Nie powiodło się uwierzytelnianie API DeepL. Proszę ustawić poprawny klucz uwierzytelniania oraz plan na stronie ustawień."
   },
   "unknownError": {
     "message": "Error: Nieznany błąd"

@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Översätt snabbt valda eller skriven text på webbsidor. Stöder Google översätt och DeepL API."
+    "message": "Översätt snabbt markerad eller skriven text på webbsidor. Stöder Google översätt och DeepL API."
   },
   "donateWithPaypalLabel": {
     "message": "Donera via PayPal"
@@ -66,10 +66,10 @@
     "message": "DeepL API"
   },
   "deeplApiCaptionLabel": {
-    "message": "Använd DeepL API. Du måste registrera dig med DeepL API Free eller DeepL API Pro för att få en auktoriseringsnyckel."
+    "message": "Använd DeepL API. Du måste registrera dig med DeepL API Free eller DeepL API Pro för att få en autentiseringsnyckel."
   },
   "howToUseDeeplLabel": {
-    "message": "Hur man registrerar DeepL API"
+    "message": "Så registrerar du DeepL API"
   },
   "deeplPlanLabel": {
     "message": "DeepL API-plan"
@@ -84,7 +84,7 @@
     "message": "DeepL API Pro"
   },
   "deeplAuthKeyLabel": {
-    "message": "Auktoriseringsnyckel"
+    "message": "Autentiseringsnyckel"
   },
   "deeplAuthKeyCaptionLabel": {
     "message": "Ange autentiseringsnyckeln för DeepL API."
@@ -150,7 +150,7 @@
     "message": "Översätt när modifierartangenten är nertryckt"
   },
   "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Visa endast översättning då angiven modifieringsnyckel är nertryckt."
+    "message": "Visa endast översättning då angiven modifierartangent är nertryckt."
   },
   "modifierKeyLabel": {
     "message": "Modifieringstangent"
@@ -186,7 +186,7 @@
     "message": "Andraspråk"
   },
   "secondTargetLangCaptionLabel": {
-    "message": "Välj andra målspråk."
+    "message": "Välj det andra målspråket."
   },
   "ignoredDocumentLangLabel": {
     "message": "Inaktivera översättning med attribut lang"
@@ -339,7 +339,7 @@
     "message": "Aktivera felsökningsläge"
   },
   "isDebugModeCaptionLabel": {
-    "message": "När felsökningsläget är aktiverat, skickas loggen till avlusaren."
+    "message": "När felsökningsläget är aktiverat, skickas loggen till felsökaren."
   },
   "exportSettingsLabel": {
     "message": "Exportinställningar"
@@ -363,7 +363,7 @@
     "message": "Återställ inställningarna"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Återställa alla inställningar till standard."
+    "message": "Återställ alla inställningar till standard."
   },
   "resetSettingsButtonLabel": {
     "message": "Återställ"
@@ -414,7 +414,7 @@
     "message": "Aktivera"
   },
   "backersLabel": {
-    "message": "Backers"
+    "message": "Stödjare"
   },
   "licenseLabel": {
     "message": "Licens"
@@ -426,7 +426,7 @@
     "message": "Tack för att du använder Simple Translate.<br>Ditt stöd är ett stort främjande, eftersom vi fortsätter att utveckla tillägget.<br>Om du gillar Simple Translate, skulle vi uppskatta om du donerar."
   },
   "amazonTitleLabel": {
-    "message": "amazon.co.jp eGift Cards"
+    "message": "amazon.co.jp e-presentkort"
   },
   "sponsorsLabel": {
     "message": "Sponsorer"
@@ -552,7 +552,7 @@
     "message": "Frisiska"
   },
   "lang_gl": {
-    "message": "Galileiska"
+    "message": "Galiciska"
   },
   "lang_ka": {
     "message": "Georgiska"
@@ -570,7 +570,7 @@
     "message": "Haitiska"
   },
   "lang_ha": {
-    "message": "Haussa"
+    "message": "Hausa"
   },
   "lang_haw": {
     "message": "Hawaiiska"
@@ -606,7 +606,7 @@
     "message": "Javanesiska"
   },
   "lang_kn": {
-    "message": "Kanadensiska"
+    "message": "Kannada"
   },
   "lang_kk": {
     "message": "Kazakiska"
@@ -621,7 +621,7 @@
     "message": "Kirgisiska"
   },
   "lang_ko": {
-    "message": "Koreansk"
+    "message": "Koreanska"
   },
   "lang_ku": {
     "message": "Kurdiska"

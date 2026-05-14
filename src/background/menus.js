@@ -19,6 +19,9 @@ export const onMenusShownListener = (info, tab) => {
   } else {
     browser.contextMenus.update("translatePage", { visible: true });
   }
+  const shouldHideTextTranslation =
+    info.contexts.includes("selection") && isTextFieldTranslationDisabledInContext(info, tab);
+  browser.contextMenus.update("translateText", { visible: !shouldHideTextTranslation });
   browser.contextMenus.refresh();
 };
 
@@ -30,7 +33,7 @@ export const onMenusClickedListener = (info, tab) => {
       translatePage(info, tab);
       break;
     case "translateText":
-      translateText(tab);
+      translateText(info, tab);
       break;
     case "translateLink":
       translateLink(info, tab);
@@ -72,7 +75,33 @@ function removeMenus() {
   browser.contextMenus.removeAll();
 }
 
-function translateText(tab) {
+function isTextFieldTranslationDisabledInContext(info, tab) {
+  if (!isEditableContext(info)) return false;
+  return (
+    getSettings("isDisabledInTextFields") ||
+    matchesUrlList(getSettings("disableInTextFieldsUrlList"), getContextUrls(info, tab))
+  );
+}
+
+function isEditableContext(info) {
+  return info.editable || info.contexts.includes("editable");
+}
+
+function getContextUrls(info, tab) {
+  return [info.pageUrl, info.frameUrl, tab?.url].filter(Boolean);
+}
+
+function matchesUrlList(urlList, pageUrls) {
+  return urlList.split("\n").some(urlPattern => {
+    const pattern = urlPattern
+      .trim()
+      .replace(/[-[\]{}()*+?.,\\^$|#\s]/g, match => (match === "*" ? ".*" : "\\" + match));
+    if (pattern === "") return false;
+    return pageUrls.some(pageUrl => RegExp("^" + pattern + "$").test(pageUrl));
+  });
+}
+
+function translateText(info, tab) {
   browser.tabs.sendMessage(tab.id, {
     message: "translateSelectedText"
   });

@@ -251,6 +251,14 @@ export default [
             default: false
           },
           {
+            id: "disableInTextFieldsUrlList",
+            title: "disableInTextFieldsUrlListLabel",
+            captions: ["disableInTextFieldsUrlListCaptionLabel"],
+            type: "textarea",
+            default: "",
+            placeholder: "https://example.com/*\n*confluence*"
+          },
+          {
             id: "isDisabledInCodeElement",
             title: "isDisabledInCodeElementLabel",
             captions: ["isDisabledInCodeElementCaptionLabel"],

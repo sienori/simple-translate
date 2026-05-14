@@ -140,6 +140,12 @@
   "isDisabledInTextFieldsCaptionLabel": {
     "message": "Don't display translation button or panel when selecting text in a text field."
   },
+  "disableInTextFieldsUrlListLabel": {
+    "message": "URL list to disable translation in text fields"
+  },
+  "disableInTextFieldsUrlListCaptionLabel": {
+    "message": "If the page URL matches this list, translation is disabled only when selecting text in a text field or editable document. This works independently of the global checkbox above. The list allows \"*\" wildcards."
+  },
   "isDisabledInCodeElementLabel": {
     "message": "Disable translation in code tags"
   },

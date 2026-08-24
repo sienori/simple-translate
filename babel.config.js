@@ -8,7 +8,8 @@ module.exports = {
         }
       }
     ],
-    "@babel/preset-react"
+    ["@babel/preset-react", { runtime: "classic" }],
+    "@babel/preset-typescript"
   ],
   plugins: [
     "@babel/plugin-proposal-nullish-coalescing-operator",

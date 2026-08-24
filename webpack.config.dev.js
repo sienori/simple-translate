@@ -22,16 +22,17 @@ const generalConfig = {
     alias: {
       src: path.resolve(__dirname, "src/"),
       "webextension-polyfill": "webextension-polyfill/dist/browser-polyfill.min.js"
-    }
+    },
+    extensions: [".ts", ".tsx", ".js", ".jsx"]
   },
   module: {
     rules: [
       {
         loader: "babel-loader",
         exclude: /node_modules/,
-        test: /\.(js|jsx)$/,
+        test: /\.(js|jsx|ts|tsx)$/,
         resolve: {
-          extensions: [".js", ".jsx"]
+          extensions: [".js", ".jsx", ".ts", ".tsx"]
         }
       },
       {

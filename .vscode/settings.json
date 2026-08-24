@@ -9,6 +9,14 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
@@ -33,5 +41,6 @@
   "prettier.useEditorConfig": false,
   "editor.codeActionsOnSave": {
     "source.fixAll": "never"
-  }
+  },
+  "js/ts.tsdk.path": "node_modules\\typescript\\lib"
 }

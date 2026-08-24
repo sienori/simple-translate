@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "browser-info": "^1.2.0",
-    "loglevel": "^1.6.1",
+    "loglevel": "^1.9.2",
     "query-string": "^6.1.0",
     "react": "^16.13.1",
     "react-copy-to-clipboard": "^5.0.1",
@@ -25,7 +25,11 @@
     "@babel/plugin-syntax-optional-chaining": "^7.8.3",
     "@babel/preset-env": "^7.22.15",
     "@babel/preset-react": "^7.0.0-beta.49",
+    "@babel/preset-typescript": "^7.29.7",
     "@svgr/webpack": "^8.1.0",
+    "@types/react": "^16.14.70",
+    "@types/react-dom": "^16.9.25",
+    "@types/webextension-polyfill": "^0.12.5",
     "babel-loader": "^8.0.0-beta.3",
     "babel-plugin-transform-class-properties": "^6.10.2",
     "clean-webpack-plugin": "^0.1.19",
@@ -34,9 +38,10 @@
     "html-webpack-plugin": "^5.5.3",
     "mini-css-extract-plugin": "^2.2.2",
     "opener": "^1.5.1",
+    "prettier": "^3.0.0",
     "sass": "^1.80.3",
     "sass-loader": "^14.2.1",
-    "prettier": "^3.0.0",
+    "typescript": "~5.8.0",
     "webextension-polyfill": "^0.3.1",
     "webpack": "^5.88.2",
     "webpack-bundle-analyzer": "^4.9.1",
@@ -45,10 +50,11 @@
     "zip-webpack-plugin": "^4.0.1"
   },
   "scripts": {
+    "typecheck": "tsc --noEmit",
     "watch-dev": "webpack --config webpack.config.dev.js --watch",
-    "build": "webpack --config webpack.config.dist.js",
-    "format": "prettier --write \"src/**/*.{js,jsx,json,scss,html,md}\" \"*.{js,json,md}\"",
-    "format:check": "prettier --check \"src/**/*.{js,jsx,json,scss,html,md}\" \"*.{js,json,md}\"",
+    "build": "npm run typecheck && webpack --config webpack.config.dist.js",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,scss,html,md}\" \"*.{js,json,md}\"",
+    "format:check": "prettier --check \"src/**/*.{js,jsx,ts,tsx,json,scss,html,md}\" \"*.{js,json,md}\"",
     "open-analyzer": "opener http://127.0.0.1:8888/"
   },
   "repository": {

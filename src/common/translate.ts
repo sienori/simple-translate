@@ -5,7 +5,7 @@ import {
   DeepLTranslateResponse,
   emptyTranslateResult,
   FetchResult,
-  GoogleTranslateLegacyResponse,
+  GoogleTranslatePaResponse,
   TranslateResult
 } from "./translateTypes";
 
@@ -35,15 +35,26 @@ const setHistory = async (
   });
 };
 
+const GOOGLE_TRANSLATE_PA_KEY = "AIzaSyDLEeFI5OtFBwYBIoK_jj5m32rZK5CkCXA";
+
 const sendRequestToGoogle = async (
   word: string,
   sourceLang: string,
   targetLang: string
 ): Promise<TranslateResult> => {
-  const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=${sourceLang}&tl=${targetLang}&dt=t&dt=bd&dj=1&q=${encodeURIComponent(
-    word
-  )}`;
-  const response: FetchResult = await fetch(url).catch(() => ({ status: 0, statusText: "" }));
+  const params = new URLSearchParams();
+  params.append("params.client", "gtx");
+  params.append("query.source_language", sourceLang);
+  params.append("query.target_language", targetLang);
+  params.append("query.display_language", targetLang);
+  params.append("query.text", word);
+  params.append("key", GOOGLE_TRANSLATE_PA_KEY);
+  params.append("data_types", "TRANSLATION");
+  params.append("data_types", "SENTENCE_SPLITS");
+  params.append("data_types", "BILINGUAL_DICTIONARY_FULL");
+
+  const url = `https://translate-pa.googleapis.com/v1/translate?${params.toString()}`;
+  const response = await fetch(url).catch(e => ({ status: 0, statusText: "" }));
 
   const resultData = emptyTranslateResult();
 
@@ -56,25 +67,25 @@ const sendRequestToGoogle = async (
     else
       resultData.errorMessage = `${browser.i18n.getMessage("unknownError")} [${response.status} ${response.statusText}]`;
 
-    log.error(logDir, "sendRequest()", response);
+    log.error(logDir, "sendRequestToGoogle()", response);
     return resultData;
   }
 
-  const result = (await (response as Response).json()) as GoogleTranslateLegacyResponse;
+  const result = (await (response as Response).json()) as GoogleTranslatePaResponse;
 
-  resultData.sourceLanguage = result.src;
-  resultData.percentage = result.ld_result.srclangs_confidences[0];
-  resultData.resultText = result.sentences.map(sentence => sentence.trans).join("");
-  if (result.dict) {
-    resultData.candidateText = result.dict
+  resultData.sourceLanguage = result.sourceLanguage;
+  resultData.percentage = result.detectedLanguages.srclangsConfidences[0] ?? 0;
+  resultData.resultText = result.translation;
+  if (result.bilingualDictionary) {
+    resultData.candidateText = result.bilingualDictionary
       .map(
         dict =>
-          `${dict.pos}${dict.pos !== "" ? ": " : ""}${dict.terms !== undefined ? dict.terms.join(", ") : ""}\n`
+          `${dict.pos}${dict.pos !== "" ? ": " : ""}${dict.entry.map(entry => entry.word).join(", ")}\n`
       )
       .join("");
   }
 
-  log.log(logDir, "sendRequest()", resultData);
+  log.log(logDir, "sendRequestToGoogle()", resultData);
   return resultData;
 };
 

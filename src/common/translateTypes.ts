@@ -8,21 +8,31 @@ export interface TranslateResult {
   statusText?: string;
 }
 
-export interface GoogleTranslateLegacyDict {
-  pos: string;
-  terms?: string[];
-}
-
-export interface GoogleTranslateLegacyResponse {
-  src: string;
-  ld_result: {
-    srclangs_confidences: number[];
-  };
+export interface GoogleTranslatePaResponse {
+  translation: string;
   sentences: Array<{
     trans: string;
-    orig?: string;
+    orig: string;
   }>;
-  dict?: GoogleTranslateLegacyDict[];
+  bilingualDictionary?: Array<{
+    pos: string;
+    entry: Array<{
+      word: string;
+      reverseTranslation: string[];
+      score?: number;
+    }>;
+    baseForm: string;
+    posEnum: number;
+  }>;
+  detectedLanguages: {
+    srclangs: string[];
+    srclangsConfidences: number[];
+    extendedSrclangs: string[];
+  };
+  sourceLanguage: string;
+  modelMetadata?: Array<{
+    backends: string[];
+  }>;
 }
 
 export interface DeepLTranslateResponse {

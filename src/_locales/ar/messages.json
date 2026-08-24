@@ -467,6 +467,9 @@
   "translateLinkMenu": {
     "message": "ترجم الرابط المحدد"
   },
+  "translateImageMenu": {
+    "message": "Translate selected image"
+  },
   "openPopupDescription": {
     "message": "فتح شريط الأدوات المنبثق"
   },

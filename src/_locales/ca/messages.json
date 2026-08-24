@@ -467,6 +467,9 @@
   "translateLinkMenu": {
     "message": "Tradueix l'enlaç selecionat"
   },
+  "translateImageMenu": {
+    "message": "Translate selected image"
+  },
   "openPopupDescription": {
     "message": "Obri la finestra emergent de la barra d'eines"
   },

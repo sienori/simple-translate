@@ -467,6 +467,9 @@
   "translateLinkMenu": {
     "message": "Terjemahkan tautan terpilih"
   },
+  "translateImageMenu": {
+    "message": "Translate selected image"
+  },
   "openPopupDescription": {
     "message": "Buka sembulan bilah alat"
   },

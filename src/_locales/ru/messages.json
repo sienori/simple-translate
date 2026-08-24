@@ -467,6 +467,9 @@
   "translateLinkMenu": {
     "message": "Перевести страницу по ссылке"
   },
+  "translateImageMenu": {
+    "message": "Translate selected image"
+  },
   "openPopupDescription": {
     "message": "Показать всплывающее окно на панели инструментов"
   },

@@ -21,6 +21,12 @@ const getHTMLPlugins = (browserDir, outputDir = "dev", sourceDir = "src") => [
     filename: path.resolve(__dirname, `${outputDir}/${browserDir}/options/index.html`),
     template: `${sourceDir}/options/index.html`,
     chunks: ["options"]
+  }),
+  new HtmlWebpackPlugin({
+    title: "Sidebar",
+    filename: path.resolve(__dirname, `${outputDir}/${browserDir}/sidebar/index.html`),
+    template: `${sourceDir}/sidebar/index.html`,
+    chunks: ["sidebar"]
   })
 ];
 
@@ -36,7 +42,8 @@ const getEntry = (sourceDir = "src") => {
     popup: path.resolve(__dirname, `${sourceDir}/popup/index.js`),
     options: path.resolve(__dirname, `${sourceDir}/options/index.js`),
     content: path.resolve(__dirname, `${sourceDir}/content/index.js`),
-    background: path.resolve(__dirname, `${sourceDir}/background/background.js`)
+    background: path.resolve(__dirname, `${sourceDir}/background/background.js`),
+    sidebar: path.resolve(__dirname, `${sourceDir}/sidebar/index.js`)
   };
 };
 

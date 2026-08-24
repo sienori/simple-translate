@@ -38,6 +38,15 @@
     },
     "default_popup": "popup/index.html"
   },
+  "sidebar_action": {
+    "default_title": "__MSG_extName__",
+    "default_panel": "sidebar/index.html",
+    "default_icon": {
+      "48": "icons/48.png",
+      "32": "icons/32.png",
+      "16": "icons/16.png"
+    }
+  },
   "content_scripts": [
     {
       "all_frames": true,

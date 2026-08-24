@@ -52,9 +52,7 @@ const handleMouseUp = async e => {
   prevSelectedText = selectedText;
   if (selectedText.length === 0) return;
 
-  if (getSettings("isDisabledInTextFields")) {
-    if (isInContentEditable()) return;
-  }
+  if (shouldDisableTranslationInTextFields(e.target)) return;
 
   if (getSettings("ifOnlyTranslateWhenModifierKeyPressed")) {
     const modifierKey = getSettings("modifierKey");
@@ -121,11 +119,79 @@ const getSelectedPosition = () => {
   return selectedPosition;
 };
 
-const isInContentEditable = () => {
-  const element = document.activeElement;
+const isEditableElement = element => {
+  if (!element || !element.tagName) return false;
   if (element.tagName === "INPUT" || element.tagName === "TEXTAREA") return true;
-  if (element.contentEditable === "true") return true;
+  return isContentEditableElement(element);
+};
+
+const isTextInputElement = element => {
+  if (!element || !element.tagName) return false;
+  return element.tagName === "INPUT" || element.tagName === "TEXTAREA";
+};
+
+const isContentEditableElement = element => {
+  if (!element || !element.tagName) return false;
+  if (element.isContentEditable) return true;
+  if (element.closest) {
+    return !!element.closest(
+      '[contenteditable=""], [contenteditable="true"], [contenteditable="plaintext-only"]'
+    );
+  }
   return false;
+};
+
+const getSelectionElement = () => {
+  const selection = window.getSelection();
+  const node = selection?.anchorNode || selection?.focusNode;
+  if (!node) return null;
+  return node.nodeType === Node.ELEMENT_NODE ? node : node.parentElement;
+};
+
+const isEditableDocument = () => {
+  return (
+    document.designMode === "on" ||
+    document.body?.isContentEditable ||
+    document.documentElement?.isContentEditable
+  );
+};
+
+const isInTextFieldOrContentEditable = target => {
+  return isEditableElement(target) || isSelectionInEditableContext();
+};
+
+const isSelectionInEditableContext = () => {
+  return (
+    isEditableDocument() ||
+    isContentEditableElement(getSelectionElement()) ||
+    isTextInputElement(document.activeElement)
+  );
+};
+
+const getPageUrl = () => {
+  try {
+    return top.location.href;
+  } catch (e) {
+    return document.referrer;
+  }
+};
+
+const matchesUrlList = urlList => {
+  const pageUrl = getPageUrl();
+  return urlList.split("\n").some(urlPattern => {
+    const pattern = urlPattern
+      .trim()
+      .replace(/[-[\]{}()*+?.,\\^$|#\s]/g, match => (match === "*" ? ".*" : "\\" + match));
+    if (pattern === "") return false;
+    return RegExp("^" + pattern + "$").test(pageUrl);
+  });
+};
+
+const shouldDisableTranslationInTextFields = target => {
+  const isConfigured =
+    getSettings("isDisabledInTextFields") ||
+    matchesUrlList(getSettings("disableInTextFieldsUrlList"));
+  return isConfigured && isInTextFieldOrContentEditable(target);
 };
 
 const handleKeyDown = e => {
@@ -163,6 +229,7 @@ const handleMessage = async request => {
       if (!isEnabled) return empty;
       const selectedText = getSelectedText();
       if (selectedText.length === 0) return;
+      if (shouldDisableTranslationInTextFields()) return;
       const selectedPosition = getSelectedPosition();
       removeTranslatecontainer();
       showTranslateContainer(selectedText, selectedPosition, null, true);
@@ -183,24 +250,7 @@ const handleMessage = async request => {
 };
 
 const disableExtensionByUrlList = () => {
-  const disableUrls = getSettings("disableUrlList").split("\n");
-  let pageUrl;
-  try {
-    pageUrl = top.location.href;
-  } catch (e) {
-    pageUrl = document.referrer;
-  }
-
-  const matchesPageUrl = urlPattern => {
-    const pattern = urlPattern
-      .trim()
-      .replace(/[-[\]{}()*+?.,\\^$|#\s]/g, match => (match === "*" ? ".*" : "\\" + match));
-    if (pattern === "") return false;
-    return RegExp("^" + pattern + "$").test(pageUrl);
-  };
-
-  const isMatched = disableUrls.some(matchesPageUrl);
-  if (isMatched) isEnabled = false;
+  if (matchesUrlList(getSettings("disableUrlList"))) isEnabled = false;
 };
 
 const removeTranslatecontainer = async () => {

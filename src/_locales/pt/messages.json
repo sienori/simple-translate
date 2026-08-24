@@ -3,7 +3,7 @@
     "message": "Simple Translate"
   },
   "extDescription": {
-    "message": "Tradução rápida de texto ou seleção em páginas. Aceita Google Tradutor e API de DeepL."
+    "message": "Traduz rapidamente texto selecionado ou digitado em páginas web. Suporta Google Tradutor e DeepL API."
   },
   "donateWithPaypalLabel": {
     "message": "Doar com PayPal"
@@ -27,7 +27,7 @@
     "message": "Abrir no Google Tradutor"
   },
   "openInDeeplLabel": {
-    "message": "Abrir no DeepL Tradutor"
+    "message": "Abrir no Tradutor DeepL"
   },
   "copyLabel": {
     "message": "Copiar"
@@ -54,52 +54,52 @@
     "message": "Geral"
   },
   "translationApiLabel": {
-    "message": "Motor de tradução"
+    "message": "Mecanismo de tradução"
   },
   "googleApiLabel": {
-    "message": "API do Google Tradutor"
+    "message": "Tradutor Google API"
   },
   "googleApiCaptionLabel": {
-    "message": "Usa a API do Google Tradutor. Registro não necessário."
+    "message": "Use a API do Google Tradutor. Não é necessário registo."
   },
   "deeplApiLabel": {
-    "message": "API do DeepL"
+    "message": "API DeepL"
   },
   "deeplApiCaptionLabel": {
-    "message": "Usa a API do DeepL. Você deve registrar-se com DeepL API Free ou DeepL API Pro para obter uma chave de autorização."
+    "message": "Use a API do DeepL. Deve registar-se com a API DeepL Grátis ou a API DeepL Pro para obter uma chave de autenticação."
   },
   "howToUseDeeplLabel": {
-    "message": "Como registrar a API do DeepL"
+    "message": "Como registar na API DeepL"
   },
   "deeplPlanLabel": {
-    "message": "Plano da DeepL API"
+    "message": "Plano da API DeepL"
   },
   "deeplPlanCaptionLabel": {
-    "message": "Escolha o plano da DeepL API em que se inscreveu."
+    "message": "Selecione o plano da API do DeepL em que se registou."
   },
   "deeplFreeLabel": {
-    "message": "DeepL API Free"
+    "message": "API DeepL grátis"
   },
   "deeplProLabel": {
-    "message": "DeepL API Pro"
+    "message": "API DeepL Pro"
   },
   "deeplAuthKeyLabel": {
     "message": "Chave de autenticação"
   },
   "deeplAuthKeyCaptionLabel": {
-    "message": "Insira a chave de autenticação para a DeepL API."
+    "message": "Insira a chave de autenticação da API DeepL."
   },
   "targetLangCaptionLabel": {
     "message": "Selecione o idioma alvo padrão."
   },
   "webPageLabel": {
-    "message": "Página"
+    "message": "Página web"
   },
   "ifShowCandidateLabel": {
-    "message": "Mostrar traduções sugeridas"
+    "message": "Mostrar candidatos à tradução"
   },
   "ifShowCandidateCaptionLabel": {
-    "message": "Mostra várias traduções sugeridas ao se traduzir uma palavra."
+    "message": "Mostra várias traduções candidatas ao traduzir só uma palavra."
   },
   "whenSelectTextLabel": {
     "message": "Comportamento ao selecionar texto"
@@ -114,7 +114,7 @@
     "message": "Exibir botão traduzir"
   },
   "ifShowButtonCaptionLabel": {
-    "message": "Exibe o botão traduzir que abre o painel se clicado."
+    "message": "Exibe o botão para abrir o painel de tradução."
   },
   "dontshowbuttonlabel": {
     "message": "Não exibir botão ou painel"
@@ -126,7 +126,7 @@
     "message": "Não exibe o botão se a tradução não for necessária"
   },
   "ifCheckLangCaptionLabel": {
-    "message": "Não exibe o botão se o idioma do texto selecionado é igual ao idioma alvo."
+    "message": "Não exibe o botão se o idioma do texto selecionado for igual ao idioma alvo."
   },
   "ifChangeSecondLangOnPageCaptionLabel": {
     "message": "Traduz no segundo idioma se o idioma do texto selecionado é igual ao idioma alvo."
@@ -168,10 +168,10 @@
     "message": "Command"
   },
   "disableUrlListLabel": {
-    "message": "Lista de URLs para desativar tradução"
+    "message": "Lista de URLs em que se desativa a tradução"
   },
   "disableUrlListCaptionLabel": {
-    "message": "Se o URL da página corresponde à lista, a tradução na página é desativada. A lista permite curingas \"*\"."
+    "message": "Se o URL da página corresponde à lista, a tradução na página é desativada. A lista permite carateres universais \"*\"."
   },
   "toolbarLabel": {
     "message": "Popup da barra de ferramentas"
@@ -201,31 +201,31 @@
     "message": "Especifique o intervalo entre a inserção de uma letra e o início da tradução. (milissegundo)"
   },
   "waitTime2CaptionLabel": {
-    "message": "Se traduzir muitas vezes em pouco tempo, pode ficar inutilizável por um tempo."
+    "message": "Se traduzir muitas vezes num curto espaço de tempo, poderá ficar inutilizável durante algum tempo."
   },
   "menuLabel": {
-    "message": "Menu contextual"
+    "message": "Menu de contexto"
   },
   "ifShowMenuLabel": {
-    "message": "Exibir menu contextual"
+    "message": "Exibir menu de contexto"
   },
   "ifShowMenuCaptionLabel": {
-    "message": "Adiciona itens ao menu contextual exibido ao clicar o botão direito na página ou aba."
+    "message": "Adiciona itens ao menu de contexto exibido ao clicar com o botão direito na página ou separador."
   },
   "pageTranslationLabel": {
-    "message": "Tradução de página"
+    "message": "Tradução da página"
   },
   "pageTranslationOpenToLabel": {
-    "message": "Aba em que se exibe o texto traduzido"
+    "message": "Separador para mostrar os resultados da tradução"
   },
   "pageTranslationOpenToCaptionLabel": {
-    "message": "Especifica a aba em que se exibe o texto traduzido da página"
+    "message": "Especifica o separador em que se exibem os resultados da tradução da página."
   },
   "newTabLabel": {
-    "message": "Aba nova"
+    "message": "Separador novo"
   },
   "currentTabLabel": {
-    "message": "Aba atual"
+    "message": "Separador atual"
   },
   "styleLabel": {
     "message": "Estilo"
@@ -318,10 +318,10 @@
     "message": "Cor do texto traduzido"
   },
   "isOverrideColorsLabel": {
-    "message": "Substituir as cores padrão com as cores abaixo"
+    "message": "Substituir as cores padrões pelas cores abaixo"
   },
   "candidateFontColorLabel": {
-    "message": "Cor da tradução sugerida"
+    "message": "Cor do texto candidato à tradução"
   },
   "bgColorLabel": {
     "message": "Cor do fundo"
@@ -333,19 +333,19 @@
     "message": "Exibir página de opções ao atualizar"
   },
   "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Exibe a página de opções quando o Simple Translate for atualizado. Você pode saber o conteúdo da atualização rapidamente."
+    "message": "Exibe a página de opções quando o Simple Translate é atualizado. Pode saber o conteúdo da atualização rapidamente."
   },
   "isDebugModeLabel": {
     "message": "Ativar modo de depuração"
   },
   "isDebugModeCaptionLabel": {
-    "message": "Se o modo de depuração for ativado, o registro é enviado ao depurador."
+    "message": "Quando o modo de depuração é ativado o registo é enviado ao depurador."
   },
   "exportSettingsLabel": {
     "message": "Exportar configurações"
   },
   "exportSettingsCaptionLabel": {
-    "message": "Guarde as configurações em um arquivo JSON no computador."
+    "message": "Guarde as configurações como um ficheiro json no computador."
   },
   "exportButtonLabel": {
     "message": "Exportar"
@@ -354,19 +354,19 @@
     "message": "Importar configurações"
   },
   "importSettingsCaptionLabel": {
-    "message": "Carregue o arquivo de configurações guardado no computador."
+    "message": "Carregue o ficheiro de configurações guardado no computador."
   },
   "importButtonLabel": {
     "message": "Importar"
   },
   "resetSettingsLabel": {
-    "message": "Redefinir configurações"
+    "message": "Repor configurações"
   },
   "resetSettingsCaptionLabel": {
-    "message": "Restaura todas as configurações ao padrão."
+    "message": "Repõe todas as configurações para o padrão."
   },
   "resetSettingsButtonLabel": {
-    "message": "Redefinir"
+    "message": "Repor"
   },
   "shortcutsLabel": {
     "message": "Atalhos"
@@ -399,16 +399,16 @@
     "message": "Limpar"
   },
   "reset": {
-    "message": "Redefinir"
+    "message": "Repor"
   },
   "informationLabel": {
     "message": "Informação"
   },
   "additionalPermissionLabel": {
-    "message": "Ativar tradução em páginas"
+    "message": "Ativar tradução em páginas web"
   },
   "additionalPermissionCaptionLabel": {
-    "message": "São necessárias permissões adicionais para usar Simple Translate em páginas."
+    "message": "São necessárias permissões adicionais para usar o Simple Translate nas páginas web."
   },
   "enableLabel": {
     "message": "Ativar"
@@ -423,7 +423,7 @@
     "message": "Por favor, faça uma doação"
   },
   "donationCaptionLabel": {
-    "message": "Obrigado por usar Simple Translate.<br>Seu apoio me dará um grande impulso para continuar a desenvolver a extensão.<br>Serei grato por considerar doar, se lhe agrada o Simple Translate."
+    "message": "Obrigado por usar Simple Translate.<br>O seu apoio será um grande estímulo para eu continuar a desenvolver a extensão.<br>Se gostou do Simple Translate, eu apreciaria que considerasse doar."
   },
   "amazonTitleLabel": {
     "message": "Vales-presente virtuais da amazon.co.jp"
@@ -441,19 +441,19 @@
     "message": "Política de privacidade"
   },
   "amazonUrl": {
-    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=pt_BR"
+    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=pt_PT"
   },
   "addonUrl": {
-    "message": "https://addons.mozilla.org/pt-BR/firefox/addon/simple-translate/?src=optionpage"
+    "message": "https://addons.mozilla.org/pt-PT/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
-    "message": "Erro: Verifique o estado da conexão de rede."
+    "message": "Erro: Verifique o estado da ligação de rede."
   },
   "unavailableError": {
-    "message": "Erro: Limite de uso do serviço atingido. Aguarde um pouco e tente outra vez."
+    "message": "Erro: Limite de uso do serviço atingido. Aguarde um pouco e tente novamente."
   },
   "deeplAuthError": {
-    "message": "Erro: autenticação da DeepL API falhou. Favor definir corretamente a chave de autenticação e plano na página de configurações."
+    "message": "Erro: A autenticação da API DeepL falhou. Por favor, defina a chave de autenticação e o plano corretamente na página de configurações."
   },
   "unknownError": {
     "message": "Erro: Erro desconhecido"
@@ -471,7 +471,7 @@
     "message": "Abrir popup da barra de ferramentas"
   },
   "lang_af": {
-    "message": "Africâner"
+    "message": "Africano"
   },
   "lang_sq": {
     "message": "Albanês"
@@ -492,7 +492,7 @@
     "message": "Basco"
   },
   "lang_be": {
-    "message": "Bielo-russo"
+    "message": "Bielorrusso"
   },
   "lang_bn": {
     "message": "Bengali"
@@ -525,7 +525,7 @@
     "message": "Croata"
   },
   "lang_cs": {
-    "message": "Tcheco"
+    "message": "Checo"
   },
   "lang_da": {
     "message": "Dinamarquês"
@@ -579,7 +579,7 @@
     "message": "Hebraico"
   },
   "lang_hi": {
-    "message": "Hindi"
+    "message": "Hindu"
   },
   "lang_hu": {
     "message": "Húngaro"
@@ -588,7 +588,7 @@
     "message": "Islandês"
   },
   "lang_ig": {
-    "message": "Igbo"
+    "message": "Ibo"
   },
   "lang_id": {
     "message": "Indonésio"
@@ -678,16 +678,16 @@
     "message": "Norueguês"
   },
   "lang_nb": {
-    "message": "Norueguês (bokmål)"
+    "message": "Norueguês (Bokmål)"
   },
   "lang_or": {
-    "message": "Oriá"
+    "message": "Oriá (oriya)"
   },
   "lang_fa": {
     "message": "Persa"
   },
   "lang_pl": {
-    "message": "Polonês"
+    "message": "Polaco"
   },
   "lang_pt": {
     "message": "Português"
@@ -714,7 +714,7 @@
     "message": "Sérvio"
   },
   "lang_st": {
-    "message": "Sessoto"
+    "message": "Sesotho"
   },
   "lang_sn": {
     "message": "Chona"
@@ -723,7 +723,7 @@
     "message": "Sindi"
   },
   "lang_si": {
-    "message": "Cingalês"
+    "message": "Singalês"
   },
   "lang_sk": {
     "message": "Eslovaco"
@@ -801,7 +801,7 @@
     "message": "Zulu"
   },
   "lang_en_US": {
-    "message": "Inglês (Americano)"
+    "message": "Inglês (Estados Unidos)"
   },
   "lang_en_GB": {
     "message": "Inglês (Britânico)"

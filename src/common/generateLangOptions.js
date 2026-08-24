@@ -123,6 +123,7 @@ const langListDeepl = [
   "et",
   "fi",
   "fr",
+  "he",
   "hu",
   "id",
   "it",

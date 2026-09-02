@@ -21,7 +21,7 @@
     "message": "Въведете текст"
   },
   "showLink": {
-    "message": "Превеждане на тази страница"
+    "message": "Превод на тази страница"
   },
   "openInGoogleLabel": {
     "message": "Отваряне в Google Преводач"
@@ -54,7 +54,7 @@
     "message": "Общи"
   },
   "translationApiLabel": {
-    "message": "Translation engine"
+    "message": "Преводачески енджин"
   },
   "googleApiLabel": {
     "message": "Google Translate API"
@@ -411,10 +411,10 @@
     "message": "Изискват се допълнителни разрешения за използване на Simple Translate в уеб страници."
   },
   "enableLabel": {
-    "message": "Enable"
+    "message": "Активиране"
   },
   "backersLabel": {
-    "message": "Backers"
+    "message": "Поддръжници"
   },
   "licenseLabel": {
     "message": "Лиценз"
@@ -429,7 +429,7 @@
     "message": "Карти eGift от amazon.co.jp"
   },
   "sponsorsLabel": {
-    "message": "Sponsors"
+    "message": "Спонсори"
   },
   "addonPageLabel": {
     "message": "Страница на добавката"
@@ -438,7 +438,7 @@
     "message": "Страница на разширението"
   },
   "privacyPolicyLabel": {
-    "message": "Privacy policy"
+    "message": "Политика за поверителност"
   },
   "amazonUrl": {
     "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
@@ -447,13 +447,13 @@
     "message": "https://addons.mozilla.org/bg/firefox/addon/simple-translate/?src=optionpage"
   },
   "networkError": {
-    "message": "Грешка: Проверете състоянието на свързаност с мрежата."
+    "message": "Грешка: Проверете връзката си с интернет."
   },
   "unavailableError": {
-    "message": "Грешка: Употребата на услугата достигна ограничението. Почакайте малко и опитайте пак."
+    "message": "Грешка: Достигнато е ограничението на услугата. Моля, изчакайте малко и опитайте отново."
   },
   "deeplAuthError": {
-    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
+    "message": "Грешка: Неуспешно удостоверяване с DeepL API. Моля, проверете дали ключът за удостоверяване и планът са зададени правилно в настройките."
   },
   "unknownError": {
     "message": "Грешка: Неизвестна грешка"
@@ -468,10 +468,10 @@
     "message": "Преведете избраната връзка"
   },
   "openPopupDescription": {
-    "message": "Open toolbar popup"
+    "message": "Отваряне на изскачащия прозорец"
   },
   "lang_af": {
-    "message": "Африканс"
+    "message": "Африкаанс"
   },
   "lang_sq": {
     "message": "Албански"
@@ -489,7 +489,7 @@
     "message": "Азербайджански"
   },
   "lang_eu": {
-    "message": "Баскски"
+    "message": "Баски"
   },
   "lang_be": {
     "message": "Беларуски"
@@ -513,10 +513,10 @@
     "message": "Нянджа"
   },
   "lang_zh_CN": {
-    "message": "Chinese (Simplified)"
+    "message": "Китайски (опростен)"
   },
   "lang_zh_TW": {
-    "message": "Chinese (Traditional)"
+    "message": "Китайски (традиционен)"
   },
   "lang_co": {
     "message": "Корсикански"
@@ -615,7 +615,7 @@
     "message": "Кхмерски"
   },
   "lang_rw": {
-    "message": "Kinyarwanda"
+    "message": "Киняруанда"
   },
   "lang_ky": {
     "message": "Киргизки"
@@ -666,7 +666,7 @@
     "message": "Монголски"
   },
   "lang_hmn": {
-    "message": "Монк"
+    "message": "Хмонг"
   },
   "lang_my": {
     "message": "Бирмански"
@@ -678,10 +678,10 @@
     "message": "Норвежки"
   },
   "lang_nb": {
-    "message": "Norwegian (bokmål)"
+    "message": "Норвежки (букмол)"
   },
   "lang_or": {
-    "message": "Odia (Oriya)"
+    "message": "Одия (ория)"
   },
   "lang_fa": {
     "message": "Персийски"
@@ -708,13 +708,13 @@
     "message": "Самоански"
   },
   "lang_gd": {
-    "message": "Шотландски Келтски"
+    "message": "Шотландски келтски"
   },
   "lang_sr": {
     "message": "Сръбски"
   },
   "lang_st": {
-    "message": "Sesotho"
+    "message": "Сесото"
   },
   "lang_sn": {
     "message": "Шона"
@@ -756,7 +756,7 @@
     "message": "Тамилски"
   },
   "lang_tt": {
-    "message": "Tatar"
+    "message": "Татарски"
   },
   "lang_te": {
     "message": "Телугу"
@@ -768,7 +768,7 @@
     "message": "Турски"
   },
   "lang_tk": {
-    "message": "Turkmen"
+    "message": "Туркменски"
   },
   "lang_uk": {
     "message": "Украински"
@@ -777,7 +777,7 @@
     "message": "Урду"
   },
   "lang_ug": {
-    "message": "Uyghur"
+    "message": "Уйгурски"
   },
   "lang_uz": {
     "message": "Узбекски"
@@ -801,18 +801,18 @@
     "message": "Зулуски"
   },
   "lang_en_US": {
-    "message": "English (American)"
+    "message": "Английски (САЩ)"
   },
   "lang_en_GB": {
-    "message": "English (British)"
+    "message": "Английски (Обединено кралство)"
   },
   "lang_pt_PT": {
     "message": "Португалски"
   },
   "lang_pt_BR": {
-    "message": "Portuguese (Brazilian)"
+    "message": "Португалски (Бразилия)"
   },
   "lang_zh": {
-    "message": "Chinese"
+    "message": "Китайски"
   }
 }

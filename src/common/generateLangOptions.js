@@ -112,6 +112,7 @@ const langListGoogle = [
   "zu"
 ];
 const langListDeepl = [
+  "ar",
   "bg",
   "cs",
   "da",

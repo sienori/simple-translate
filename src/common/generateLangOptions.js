@@ -142,6 +142,7 @@ const langListDeepl = [
   "sv",
   "tr",
   "uk",
+  "vi",
   "zh"
 ];
 
